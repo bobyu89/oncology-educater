@@ -1,0 +1,474 @@
+<title>{{TITLE}}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&family=Noto+Sans+TC:wght@400;500;600&display=swap">
+<style>
+/* Layout: taste-skill「framed sheet」— 淡色外框收住側欄與頂列，章節放在白色紙面上；
+   紙面內是閱讀欄（約 46 個中文字寬）＋右側本章目錄。手機版側欄收成全螢幕選單。 */
+:root {
+  --frame: #f1f4f4;      /* 外框：帶一點藍綠的灰，像病歷夾 */
+  --sheet: #ffffff;
+  --raised: #f5f7f7;
+  --active: #e3e8e9;
+  --border: #e4e8e9;
+  --rule: #eef1f1;
+  --control: #cbd2d3;
+  --text: #121516;
+  --muted: #565d60;
+  --accent: #1b6c80;     /* 唯一的色相：連結、完成格、目前章節 */
+  --accent-soft: #e5f1f4;
+  --important-bg: #e8f2f4;  --important-ink: #14505f;
+  --tip-bg: #eaf5ee;        --tip-ink: #1e5b38;
+  --warning-bg: #ffedea;    --warning-ink: #831c1e;
+  --note-bg: #eff1f2;       --note-ink: #353a3c;
+  --caution-bg: #fffbeb;    --caution-ink: #92400e;  --caution-edge: #fde68a;
+  --mark: #fff1b8;
+  --clawd: #d77757;      /* Clawd 的橘，兩種主題都用同一色 */
+  --font: "IBM Plex Sans", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --fs-title: 26px; --fs-h2: 21px; --fs-h3: 17px; --fs-body: 16px; --fs-ui: 14px; --fs-small: 12.5px;
+  --sidebar: 248px; --bar: 52px; --inset: 8px; --radius-sheet: 16px; --radius: 8px; --radius-control: 6px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --frame: #0c0d0d; --sheet: #141616; --raised: #1b1e1e; --active: #252a2b;
+    --border: #262b2c; --rule: #1f2324; --control: #3e4547;
+    --text: #f1f3f3; --muted: #aab1b3; --accent: #6cc0d3; --accent-soft: #17292e;
+    --important-bg: #142a30; --important-ink: #9dd6e3;
+    --tip-bg: #152a1d; --tip-ink: #8fd3a8;
+    --warning-bg: #2c1a1c; --warning-ink: #f19a9c;
+    --note-bg: #1e2223; --note-ink: #c9cfd1;
+    --caution-bg: #2a2214; --caution-ink: #f0c36a; --caution-edge: #5a4a1f;
+    --mark: #5a4a12;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --frame: #0c0d0d; --sheet: #141616; --raised: #1b1e1e; --active: #252a2b;
+  --border: #262b2c; --rule: #1f2324; --control: #3e4547;
+  --text: #f1f3f3; --muted: #aab1b3; --accent: #6cc0d3; --accent-soft: #17292e;
+  --important-bg: #142a30; --important-ink: #9dd6e3;
+  --tip-bg: #152a1d; --tip-ink: #8fd3a8;
+  --warning-bg: #2c1a1c; --warning-ink: #f19a9c;
+  --note-bg: #1e2223; --note-ink: #c9cfd1;
+  --caution-bg: #2a2214; --caution-ink: #f0c36a; --caution-edge: #5a4a1f;
+  --mark: #5a4a12;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { background: var(--frame); color: var(--text); font-family: var(--font); font-size: var(--fs-ui); line-height: 1.5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--frame); }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- shell ---------- */
+.shell { display: grid; grid-template-columns: var(--sidebar) minmax(0, 1fr); min-height: 100vh; }
+.sidebar { position: sticky; top: 0; height: 100vh; overflow-y: auto; padding: 14px 12px 24px max(12px, env(safe-area-inset-left, 0px)); display: flex; flex-direction: column; gap: 4px; }
+.brand { display: flex; align-items: center; gap: 10px; padding: 6px 8px 14px; color: var(--text); }
+.brand:hover { text-decoration: none; }
+.brand svg { flex: none; }
+.brand-name { font-weight: 600; font-size: 15px; line-height: 1.3; }
+.brand-sub { display: block; font-size: var(--fs-small); color: var(--muted); font-weight: 400; }
+.nav-group { margin: 18px 8px 6px; font-size: var(--fs-small); color: var(--muted); }
+.sidebar ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.sidebar li a { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 34px; padding: 6px 8px; border-radius: var(--radius); color: var(--text); font-size: var(--fs-ui); }
+.sidebar li a:hover { background: var(--active); text-decoration: none; }
+.sidebar li a[aria-current="page"] { background: var(--active); font-weight: 500; }
+.nav-home { display: flex; align-items: center; min-height: 34px; padding: 6px 8px; border-radius: var(--radius); color: var(--text); }
+.nav-home:hover, .nav-home[aria-current="page"] { background: var(--active); text-decoration: none; }
+.chip { flex: none; white-space: nowrap; font-size: 11.5px; line-height: 1; padding: 4px 6px; border-radius: 4px; background: var(--note-bg); color: var(--muted); }
+.chip-active { background: var(--accent-soft); color: var(--accent); }
+.sidebar-foot { margin-top: auto; padding: 18px 8px 0; font-size: var(--fs-small); color: var(--muted); }
+
+.main { min-width: 0; display: flex; flex-direction: column; padding-right: max(var(--inset), env(safe-area-inset-right, 0px)); padding-bottom: var(--inset); }
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; height: var(--bar); display: flex; align-items: center; gap: 12px; background: var(--frame); }
+.crumb { min-width: 0; font-size: var(--fs-ui); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.crumb strong { color: var(--text); font-weight: 500; }
+.menu-btn { display: none; }
+.search { position: relative; margin-left: auto; width: min(380px, 100%); }
+.search input { width: 100%; height: 34px; padding: 0 12px; border: 1px solid var(--control); border-radius: var(--radius-control); background: var(--sheet); color: var(--text); font: inherit; }
+.search input::placeholder { color: var(--muted); }
+.results { position: absolute; right: 0; top: 40px; width: min(480px, calc(100vw - 32px)); max-height: 70vh; overflow-y: auto; background: var(--sheet); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14); padding: 6px; }
+.results a { display: block; padding: 8px 10px; border-radius: var(--radius-control); color: var(--text); }
+.results a:hover, .results a:focus-visible { background: var(--active); text-decoration: none; }
+.results .r-where { display: block; font-size: var(--fs-small); color: var(--muted); }
+.results .r-head { display: block; font-weight: 500; }
+.results .r-snip { display: block; font-size: 13px; color: var(--muted); margin-top: 2px; }
+.results mark { background: var(--mark); color: inherit; border-radius: 2px; }
+.results .r-empty { padding: 10px; color: var(--muted); }
+
+.sheet { flex: 1; background: var(--sheet); border: 1px solid var(--border); border-radius: var(--radius-sheet); min-width: 0; }
+
+/* ---------- views ---------- */
+.view { padding: 40px max(24px, 4vw) 72px; }
+.chapter { display: grid; grid-template-columns: minmax(0, 46em) 220px; gap: 56px; justify-content: center; }
+.home { max-width: 1040px; margin: 0 auto; }
+.chapter-toc { position: sticky; top: calc(var(--bar) + 24px); align-self: start; max-height: calc(100vh - var(--bar) - 48px); overflow-y: auto; font-size: 13px; }
+.toc-label { margin: 0 0 8px; color: var(--muted); font-size: var(--fs-small); }
+.chapter-toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
+.chapter-toc a { display: block; padding: 5px 8px; border-radius: var(--radius-control); color: var(--muted); line-height: 1.4; }
+.chapter-toc a:hover { color: var(--text); background: var(--raised); text-decoration: none; }
+.chapter-toc a.is-current { color: var(--text); background: var(--active); }
+
+/* ---------- prose ---------- */
+.prose { min-width: 0; font-size: var(--fs-body); line-height: 1.8; }
+.prose > :first-child { margin-top: 0; }
+.prose h1 { font-size: var(--fs-title); line-height: 1.3; font-weight: 600; margin: 0 0 12px; text-wrap: balance; }
+.prose h2 { font-size: var(--fs-h2); line-height: 1.35; font-weight: 600; margin: 64px 0 16px; padding-top: 4px; text-wrap: balance; scroll-margin-top: calc(var(--bar) + 16px); }
+.prose h3 { font-size: var(--fs-h3); line-height: 1.4; font-weight: 600; margin: 36px 0 10px; text-wrap: balance; scroll-margin-top: calc(var(--bar) + 16px); }
+.prose h4 { font-size: var(--fs-body); font-weight: 600; margin: 24px 0 8px; }
+.prose p, .prose ul, .prose ol { margin: 0 0 14px; }
+.prose ul, .prose ol { padding-left: 1.4em; }
+.prose li + li { margin-top: 4px; }
+.prose li > ul, .prose li > ol { margin: 4px 0 0; }
+.prose strong { font-weight: 600; }
+.prose hr { border: 0; height: 0; margin: 0; }
+.prose code { font-family: var(--mono); font-size: 0.88em; background: var(--raised); padding: 1px 5px; border-radius: 4px; }
+.prose pre { background: var(--raised); border-radius: var(--radius); padding: 14px 16px; overflow-x: auto; font-size: 13.5px; line-height: 1.6; }
+.prose pre code { background: none; padding: 0; }
+.lede { font-size: 17px; color: var(--muted); }
+
+.table-wrap { position: relative; overflow-x: auto; margin: 6px 0 20px; }
+.prose table, .home table { width: 100%; border-collapse: collapse; font-size: var(--fs-ui); line-height: 1.6; font-variant-numeric: tabular-nums; }
+.prose th, .home th { text-align: left; font-weight: 500; font-size: 13px; color: var(--muted); padding: 8px 12px 8px 0; border-bottom: 1px solid var(--control); vertical-align: bottom; }
+.prose td { padding: 9px 12px 9px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.prose td:first-child { min-width: 7em; }
+.prose th:last-child, .prose td:last-child { padding-right: 0; }
+
+.callout { margin: 18px 0 22px; padding: 12px 16px 2px; border-radius: var(--radius); font-size: 15px; line-height: 1.75; }
+.callout p { margin: 0 0 10px; }
+.callout .callout-label { margin: 0 0 2px; font-size: var(--fs-small); font-weight: 600; }
+.callout-title { display: block; font-weight: 600; }
+.callout-important { background: var(--important-bg); } .callout-important .callout-label { color: var(--important-ink); }
+.callout-tip { background: var(--tip-bg); } .callout-tip .callout-label { color: var(--tip-ink); }
+.callout-warning { background: var(--warning-bg); } .callout-warning .callout-label { color: var(--warning-ink); }
+.callout-note { background: var(--note-bg); } .callout-note .callout-label { color: var(--note-ink); }
+.callout-caution { background: var(--caution-bg); box-shadow: inset 0 0 0 1px var(--caution-edge); } .callout-caution .callout-label { color: var(--caution-ink); }
+.callout ul, .callout ol { margin-bottom: 10px; }
+
+.prose details { margin: 4px 0 26px; border-radius: var(--radius); background: var(--raised); }
+.prose summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 8px; min-height: 40px; padding: 8px 14px; font-size: var(--fs-ui); font-weight: 500; color: var(--accent); }
+.prose summary::-webkit-details-marker { display: none; }
+.prose summary::before { content: ""; width: 7px; height: 7px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(-45deg); transition: transform .15s ease; }
+.prose details[open] summary::before { transform: rotate(45deg); }
+.prose details > :not(summary) { margin-left: 14px; margin-right: 14px; }
+.prose details[open] { padding-bottom: 4px; }
+
+/* ---------- home ---------- */
+.home h1 { font-size: var(--fs-title); line-height: 1.3; margin: 0 0 6px; font-weight: 600; }
+.home .lede { margin: 0 0 40px; max-width: 40em; }
+.home h2 { font-size: 18px; font-weight: 600; margin: 48px 0 6px; }
+.home h2 + p { margin: 0 0 16px; color: var(--muted); max-width: 46em; }
+.progress table { min-width: 760px; }
+.progress th[scope="col"] { text-align: center; padding: 8px 4px; white-space: nowrap; }
+.progress th[scope="col"]:first-child { text-align: left; }
+.progress th[scope="row"] { font-weight: 500; font-size: var(--fs-ui); color: var(--text); padding: 10px 12px 10px 0; border-bottom: 1px solid var(--rule); white-space: nowrap; text-align: left; }
+.progress td { text-align: center; padding: 10px 4px; border-bottom: 1px solid var(--rule); }
+.progress .num { text-align: right; padding-right: 0; color: var(--muted); }
+.cell { display: inline-block; width: 18px; height: 18px; border-radius: 4px; vertical-align: middle; }
+.cell-done { background: var(--accent); }
+.cell-pending { background: var(--caution-bg); box-shadow: inset 0 0 0 1.5px var(--caution-ink); }
+.cell-empty { background: var(--rule); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 10px 0 0; font-size: var(--fs-small); color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend .cell { width: 12px; height: 12px; border-radius: 3px; }
+.home-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.home-grid .callout { margin: 0; }
+.sources { margin: 0; padding-left: 1.2em; font-size: 15px; line-height: 1.8; }
+.disclaimer { margin-top: 48px; font-size: 13px; color: var(--muted); max-width: 46em; }
+
+/* ---------- narrow ---------- */
+@media (max-width: 1180px) {
+  .chapter { grid-template-columns: minmax(0, 46em); }
+  .chapter-toc { display: none; }
+}
+@media (max-width: 860px) {
+  .shell { grid-template-columns: minmax(0, 1fr); }
+  .sidebar { position: fixed; inset: 0; z-index: 40; width: 100%; height: 100%; background: var(--frame); padding: calc(env(safe-area-inset-top, 0px) + 12px) max(16px, env(safe-area-inset-right, 0px)) 24px max(16px, env(safe-area-inset-left, 0px)); }
+  .sidebar[data-open="false"] { display: none; }
+  .sidebar li a, .nav-home { min-height: 44px; }
+  .sidebar-close { display: inline-flex !important; }
+  .main { padding: 0; }
+  .topbar { padding: 0 max(12px, env(safe-area-inset-right, 0px)) 0 max(8px, env(safe-area-inset-left, 0px)); height: 48px; }
+  .menu-btn { display: inline-flex; }
+  .topbar .search { display: none; }
+  .sheet { border-radius: 0; border-left: 0; border-right: 0; border-bottom: 0; }
+  .view { padding: 28px max(16px, env(safe-area-inset-right, 0px)) 56px max(16px, env(safe-area-inset-left, 0px)); }
+  .prose h2 { margin-top: 48px; }
+  .prose { font-size: 16px; }
+}
+/* ---------- Clawd ---------- */
+.clawd { display: block; flex: none; color: var(--clawd); }
+.clawd .lids { opacity: 0; animation: blink 5.5s infinite; }
+@keyframes blink { 0%, 95%, 100% { opacity: 0; } 96.5%, 98.5% { opacity: 1; } }
+.home-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.home-head .clawd { width: 112px; margin-top: 4px; }
+.clawd-says { display: flex; align-items: center; gap: 14px; margin: -16px 0 40px; padding: 12px 16px; border-radius: var(--radius); background: var(--raised); max-width: 46em; font-size: 15px; line-height: 1.7; }
+.clawd-says .clawd { width: 36px; }
+.clawd-says strong { font-weight: 600; }
+.prose details[open] > summary::after { content: ""; width: 22px; height: 14px; margin-left: auto; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='1 0 16 10' shape-rendering='crispEdges'%3E%3Cpath fill='%23d77757' d='M3 0h12v2H3zM3 2h2v2H3zM6 2h6v2H6zM13 2h2v2h-2zM1 4h16v2H1zM3 6h12v2H3zM4 8h1v2H4zM6 8h1v2H6zM11 8h1v2h-1zM13 8h1v2h-1z'/%3E%3C/svg%3E") center / contain no-repeat; }
+.chapter-end { display: flex; align-items: center; gap: 14px; margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--rule); font-size: 15px; }
+.chapter-end .clawd { width: 40px; }
+.chapter-end a { font-weight: 500; }
+.empty-state { display: flex; align-items: center; gap: 16px; margin-top: 8px; }
+.empty-state .clawd { width: 64px; }
+.results .r-empty { display: flex; align-items: center; gap: 10px; }
+.results .r-empty .clawd { width: 28px; }
+@media (max-width: 560px) { .home-head .clawd { width: 72px; } }
+@media (prefers-reduced-motion: reduce) { .clawd .lids { animation: none; } }
+
+.icon-btn { align-items: center; justify-content: center; width: 40px; height: 40px; border: 0; border-radius: var(--radius); background: transparent; color: var(--text); cursor: pointer; }
+.icon-btn:hover { background: var(--active); }
+.sidebar-head { display: flex; align-items: center; justify-content: space-between; }
+.sidebar-close { display: none !important; }
+.sidebar .search { display: none; margin: 4px 0 8px; width: 100%; }
+.sidebar .results { position: static; width: 100%; max-height: none; box-shadow: none; margin-top: 6px; }
+@media (max-width: 860px) { .sidebar .search { display: block; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="clawd-body" viewBox="1 0 16 10"><path fill="currentColor" shape-rendering="crispEdges" d="M3 0h12v2H3zM3 2h2v2H3zM6 2h6v2H6zM13 2h2v2h-2zM1 4h16v2H1zM3 6h12v2H3zM4 8h1v2H4zM6 8h1v2H6zM11 8h1v2h-1zM13 8h1v2h-1z"/></symbol>
+</svg>
+
+<div class="shell">
+  <nav class="sidebar" id="sidebar" aria-label="章節" data-open="false">
+    <div class="sidebar-head">
+      <a class="brand" href="#home">
+        <svg class="clawd" width="32" height="20" aria-hidden="true"><use href="#clawd-body"/></svg>
+        <span class="brand-name">{{TITLE}}<span class="brand-sub">實習臨床 × 專師甄審</span></span>
+      </a>
+      <button class="icon-btn sidebar-close" type="button" id="menu-close" aria-label="關閉選單">
+        <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="search" role="search">
+      <input type="search" id="search-mobile" placeholder="搜尋藥名、試驗、症狀…" aria-label="搜尋手冊" autocomplete="off">
+      <div class="results" id="results-mobile" hidden></div>
+    </div>
+    <a class="nav-home" href="#home" data-chapter="home">總覽與進度</a>
+    {{NAV}}
+    <p class="sidebar-foot">最後建置 {{BUILD_DATE}}</p>
+  </nav>
+
+  <div class="main">
+    <header class="topbar">
+      <button class="icon-btn menu-btn" type="button" id="menu-open" aria-label="開啟章節選單" aria-controls="sidebar" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 5h12M3 9h12M3 13h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+      <p class="crumb" id="crumb"><strong>總覽與進度</strong></p>
+      <div class="search" role="search">
+        <input type="search" id="search" placeholder="搜尋藥名、試驗、症狀…（按 / 開始）" aria-label="搜尋手冊" autocomplete="off">
+        <div class="results" id="results" hidden></div>
+      </div>
+    </header>
+
+    <main class="sheet" id="sheet">
+      <section class="view home" id="v-home" data-route="home">
+        <div class="home-head">
+          <div>
+            <h1>{{TITLE}}</h1>
+            <p class="lede">每個癌別都照同一套 13 段架構寫：從流病、分期到處方、副作用、order set、健保給付與測驗。查房時翻到哪一章，段落位置都一樣。</p>
+          </div>
+          <svg class="clawd" viewBox="1 0 16 10" role="img" aria-label="Clawd">
+            <use href="#clawd-body"/>
+            <path class="lids" fill="currentColor" shape-rendering="crispEdges" d="M5 2h1v2H5zM12 2h1v2h-1z"/>
+          </svg>
+        </div>
+        <p class="clawd-says"><svg class="clawd" viewBox="1 0 16 10" aria-hidden="true"><use href="#clawd-body"/></svg><span><strong>Clawd 的讀法：</strong>先看速查卡抓全貌，再讀治療策略；做完自我測驗，錯的題目回頭看詳解和出處。</span></p>
+
+        <h2>章節進度</h2>
+        <p>每一格是一個癌別的一段內容。黃框代表內容先放了架構，在等原始資料（例如健保第 9 節原文）。</p>
+        {{PROGRESS}}
+        <p class="legend"><span><span class="cell cell-done"></span>完成</span><span><span class="cell cell-pending"></span>待補</span><span><span class="cell cell-empty"></span>未開始</span></p>
+
+        <h2>提示框怎麼讀</h2>
+        <p>內文裡的色塊各有固定用途，複習時可以只掃同一種顏色。</p>
+        <div class="home-grid">
+          <blockquote class="callout callout-important"><p class="callout-label">考試重點</p><p>專師甄審常考的觀念與必背數字。</p></blockquote>
+          <blockquote class="callout callout-tip"><p class="callout-label">比喻理解</p><p>用比喻講機轉，先懂再背。</p></blockquote>
+          <blockquote class="callout callout-warning"><p class="callout-label">臨床警示</p><p>會出人命的副作用、給藥錯誤與必停藥的時機。</p></blockquote>
+          <blockquote class="callout callout-note"><p class="callout-label">院內規範</p><p>各醫院做法不同的地方，實習時以單位規範為準。</p></blockquote>
+          <blockquote class="callout callout-caution"><p class="callout-label">待核對</p><p>還沒對到原文、或有時效性的資料，引用前先查最新版。</p></blockquote>
+        </div>
+
+        <h2>內容依據</h2>
+        <ol class="sources">
+          <li>NCCN Clinical Practice Guidelines in Oncology（各癌別最新版，版本標在各章開頭）</li>
+          <li>ESMO Clinical Practice Guidelines、ASCO Guidelines</li>
+          <li>AJCC Cancer Staging Manual（肺癌採 IASLC 第 9 版分期）</li>
+          <li>全民健康保險藥品給付規定 第 9 節「抗癌瘤藥物」（以原文條號引用）</li>
+          <li>關鍵臨床試驗原始論文（PubMed 核對，附 DOI／PMID）</li>
+        </ol>
+        <p class="disclaimer">本手冊是學習用整理，不能取代原始指引、藥品仿單、健保公告與院內規範。實際處方以主治醫師判斷與院內流程為準。</p>
+      </section>
+
+      {{SECTIONS}}
+    </main>
+  </div>
+</div>
+
+<script>
+(function () {
+  var views = Array.prototype.slice.call(document.querySelectorAll(".view"));
+  var navLinks = Array.prototype.slice.call(document.querySelectorAll("[data-chapter]"));
+  var crumb = document.getElementById("crumb");
+  var sidebar = document.getElementById("sidebar");
+  var openBtn = document.getElementById("menu-open");
+  var closeBtn = document.getElementById("menu-close");
+  var current = null;
+
+  function setMenu(open) {
+    sidebar.setAttribute("data-open", open ? "true" : "false");
+    openBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    if (open) { var s = document.getElementById("search-mobile"); if (s) s.focus(); }
+  }
+  openBtn.addEventListener("click", function () { setMenu(true); });
+  closeBtn.addEventListener("click", function () { setMenu(false); });
+
+  function show(id, anchorId) {
+    // section 的 id 加上 v- 前綴，避免瀏覽器依網址 hash 自動捲動
+    var view = document.getElementById("v-" + id);
+    if (!view) { view = document.getElementById("v-home"); id = "home"; }
+    if (current !== id) {
+      views.forEach(function (v) { v.hidden = v !== view; });
+      navLinks.forEach(function (a) {
+        if (a.getAttribute("data-chapter") === id) a.setAttribute("aria-current", "page");
+        else a.removeAttribute("aria-current");
+      });
+      var title = id === "home" ? "總覽與進度" : view.getAttribute("data-title");
+      crumb.innerHTML = id === "home" ? "<strong>總覽與進度</strong>" : "手冊 / <strong>" + title + "</strong>";
+      current = id;
+      observeToc(view);
+    }
+    setMenu(false);
+    if (anchorId) {
+      var target = document.getElementById(anchorId);
+      if (target) { target.scrollIntoView({ block: "start" }); return; }
+    }
+    window.scrollTo(0, 0);
+  }
+
+  function route() {
+    var h = decodeURIComponent(location.hash.replace(/^#/, ""));
+    var parts = h ? h.split("--") : ["home"];
+    current = null;
+    show(parts[0], parts.length > 1 ? h : null);
+  }
+
+  // 站內連結：切換章節並捲到段落；網址只留章節 id，方便分享
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest("a[href^='#']") : null;
+    if (!a) return;
+    var h = decodeURIComponent(a.getAttribute("href").slice(1));
+    if (!h) return;
+    e.preventDefault();
+    var parts = h.split("--");
+    show(parts[0], parts.length > 1 ? h : null);
+    try { history.replaceState(null, "", "#" + parts[0]); } catch (err) { location.hash = parts[0]; }
+    hideResults();
+  });
+  window.addEventListener("hashchange", route);
+
+  // 本章目錄：標出目前讀到的段落（最後一個已捲過頂列的 h2）
+  var tocHeads = [], tocLinks = {}, ticking = false;
+  function observeToc(view) {
+    tocHeads = Array.prototype.slice.call(view.querySelectorAll(".prose h2"));
+    tocLinks = {};
+    view.querySelectorAll(".chapter-toc a").forEach(function (a) {
+      tocLinks[decodeURIComponent(a.getAttribute("href").slice(1))] = a;
+    });
+    markToc();
+  }
+  function markToc() {
+    ticking = false;
+    var active = null;
+    for (var i = 0; i < tocHeads.length; i++) {
+      if (tocHeads[i].getBoundingClientRect().top < 120) active = tocHeads[i];
+      else break;
+    }
+    Object.keys(tocLinks).forEach(function (id) {
+      tocLinks[id].classList.toggle("is-current", !!active && active.id === id);
+    });
+  }
+  window.addEventListener("scroll", function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(markToc); }
+  }, { passive: true });
+
+  // 搜尋：以 h2/h3 段落為單位建立索引
+  var index = [];
+  document.querySelectorAll(".chapter").forEach(function (view) {
+    var chapterTitle = view.getAttribute("data-title");
+    var route = view.getAttribute("data-route");
+    var heads = view.querySelectorAll(".prose h2, .prose h3");
+    heads.forEach(function (h) {
+      var text = "";
+      var n = h.nextElementSibling;
+      while (n && !/^H[1-3]$/.test(n.tagName)) { text += " " + n.textContent; n = n.nextElementSibling; }
+      index.push({ chapter: route, where: chapterTitle, id: h.id, head: h.textContent, text: text.replace(/\s+/g, " ") });
+    });
+  });
+
+  function esc(s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function highlight(s, q) {
+    var i = s.toLowerCase().indexOf(q);
+    if (i < 0) return esc(s);
+    return esc(s.slice(0, i)) + "<mark>" + esc(s.slice(i, i + q.length)) + "</mark>" + esc(s.slice(i + q.length));
+  }
+  function search(q, box) {
+    q = q.trim().toLowerCase();
+    if (q.length < 1) { box.hidden = true; return; }
+    var hits = [];
+    index.forEach(function (it) {
+      var inHead = it.head.toLowerCase().indexOf(q);
+      var inText = it.text.toLowerCase().indexOf(q);
+      if (inHead < 0 && inText < 0) return;
+      var snip = "";
+      if (inText >= 0) {
+        var start = Math.max(0, inText - 24);
+        snip = (start > 0 ? "…" : "") + it.text.slice(start, inText + q.length + 40) + "…";
+      }
+      hits.push({ it: it, score: inHead >= 0 ? 0 : 1, snip: snip });
+    });
+    hits.sort(function (a, b) { return a.score - b.score; });
+    if (!hits.length) {
+      box.innerHTML = '<p class="r-empty"><svg class="clawd" viewBox="1 0 16 10" aria-hidden="true"><use href="#clawd-body"/></svg>' +
+        '<span>找不到「' + esc(q) + '」。試試英文藥名或試驗名。</span></p>';
+    } else {
+      box.innerHTML = hits.slice(0, 30).map(function (h) {
+        return '<a href="#' + esc(h.it.id) + '"><span class="r-where">' + esc(h.it.where) + '</span><span class="r-head">' +
+          highlight(h.it.head, q) + "</span>" + (h.snip ? '<span class="r-snip">' + highlight(h.snip, q) + "</span>" : "") + "</a>";
+      }).join("");
+    }
+    box.hidden = false;
+  }
+  function hideResults() {
+    document.querySelectorAll(".results").forEach(function (r) { r.hidden = true; });
+  }
+  [["search", "results"], ["search-mobile", "results-mobile"]].forEach(function (pair) {
+    var input = document.getElementById(pair[0]);
+    var box = document.getElementById(pair[1]);
+    input.addEventListener("input", function () { search(input.value, box); });
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") { input.value = ""; box.hidden = true; input.blur(); }
+      if (e.key === "Enter") { var first = box.querySelector("a"); if (first) first.click(); }
+    });
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "/" && document.activeElement.tagName !== "INPUT") {
+      e.preventDefault();
+      document.getElementById(window.innerWidth > 860 ? "search" : "search-mobile").focus();
+      if (window.innerWidth <= 860) setMenu(true);
+    }
+  });
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest(".search")) document.getElementById("results").hidden = true;
+  });
+
+  route();
+})();
+</script>
