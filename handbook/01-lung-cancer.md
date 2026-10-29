@@ -4,7 +4,7 @@
 |------|---------|
 | 治療指引 | NCCN Guidelines：Non-Small Cell Lung Cancer **Version 9.2026**、Small Cell Lung Cancer **Version 1.2027**（2026-10-29 查詢）；ESMO metastatic NSCLC living guidelines |
 | 分期 | AJCC／IASLC 第 9 版，2025 年 1 月 1 日起診斷者適用 |
-| 副作用分級 | NCI CTCAE v6.0（2025-07-22 發布）；進行中的臨床試驗仍沿用 v5.0 |
+| 副作用分級 | NCI CTCAE v5.0（與共用章一致；v6.0 已於 2025-07-22 發布，採用理由與差異見[化療基礎](00-shared/01-chemo-basics.md)第 8 節） |
 | 健保給付 | 全民健康保險藥品給付規定 第 9 節「抗癌瘤藥物」：等待原文，見 [第 9 段](#9-健保給付與事前審查) |
 | 最後更新 | 2026-10-29 |
 
@@ -18,8 +18,8 @@
 |------|-----------|
 | 分型 | 國際文獻 NSCLC 約 85%、SCLC 約 15%；**台灣 SCLC 只占約 6%**，非小細胞癌中腺癌占 83% |
 | 台灣特色 | 2023 年新診斷人數、2025 年死亡人數都是癌症第 1 名；非吸菸女性肺腺癌多，**EGFR 突變占台灣肺腺癌 55.7%** |
-| 晚期非鱗狀 NSCLC 必驗 | EGFR、ALK、ROS1、BRAF V600E、KRAS G12C、MET exon 14 skipping、RET、NTRK1–3、HER2（ERBB2）突變，加上 PD-L1（22C3, TPS） |
-| 早期（I–II） | 手術為主；≤2 cm 周邊型可做 segmentectomy；不能開刀用 SBRT |
+| 晚期非鱗狀 NSCLC 必驗 | EGFR、ALK、ROS1、BRAF V600E、KRAS G12C、MET exon 14 skipping、RET、NTRK1–3、HER2（ERBB2）突變、NRG1 fusion（建議 RNA-based NGS），加上 PD-L1（22C3, TPS） |
+| 早期（I–II） | 手術為主；≤2 cm 周邊型且淋巴結陰性（N0）可做 segmentectomy；不能開刀用 SBRT |
 | 術後輔助 | 依 biomarker：EGFR 用 osimertinib 3 年、ALK 用 alectinib 2 年、其餘用化療 ± 免疫治療 |
 | 不可切除 III 期 | 同步化放療（CCRT）→ durvalumab 鞏固 12 個月；EGFR 陽性改用 osimertinib |
 | 晚期（IV） | 有 driver：對應標靶藥；無 driver：PD-L1 ≥50% 可單用 pembrolizumab，否則化療 ＋ 免疫 |
@@ -57,7 +57,7 @@
 
 | 類別 | 危險因子 | 臨床意義 |
 |------|---------|---------|
-| 吸菸 | 主動吸菸（看 pack-years）、二手菸 | SCLC 與鱗狀細胞癌幾乎都和吸菸有關；戒菸 15 年後風險才明顯下降 |
+| 吸菸 | 主動吸菸（看 pack-years）、二手菸 | SCLC 與鱗狀細胞癌幾乎都和吸菸有關；戒菸後風險逐年下降：重度吸菸者戒菸 5 年內肺癌風險就比持續吸菸者低約 39%，但即使戒菸 25 年仍是從未吸菸者的 3 倍以上（Tindle et al., 2018） |
 | 環境 | 廚房油煙、空氣污染（PM2.5）、氡氣、石綿 | 台灣非吸菸女性肺腺癌的可能相關因子 |
 | 個人病史 | COPD、肺纖維化、結核病史、胸部放療史 | 慢性發炎與疤痕組織 |
 | 家族史 | 一等親罹患肺癌 | 台灣 LDCT 篩檢的收案條件之一 |
@@ -95,7 +95,7 @@
 | 腺癌（adenocarcinoma） | NSCLC 最多 | 周邊 | TTF-1(+)、Napsin A(+) |
 | 鱗狀細胞癌（squamous cell carcinoma, SCC） | 次之 | 中央、近肺門 | p40(+)、CK5/6(+) |
 | 大細胞癌（large cell carcinoma） | 少 | 不定 | 排除性診斷 |
-| 小細胞癌（small cell lung cancer, SCLC） | 約 15% | 中央 | synaptophysin、chromogranin、INSM1、CD56(+)；Ki-67 很高；多數 TTF-1(+) |
+| 小細胞癌（small cell lung cancer, SCLC） | 國際約 15%；台灣約 6% | 中央 | synaptophysin、chromogranin、INSM1、CD56(+)；Ki-67 很高；多數 TTF-1(+) |
 
 > [!TIP]
 > **TTF-1 和 p40 怎麼記**
@@ -105,7 +105,7 @@
 
 | 基因變異 | 東亞肺腺癌約略比例 | 代表藥物 | 備註 |
 |---------|-----------------|---------|------|
-| EGFR exon 19 del／L858R | 亞洲 51.4%（PIONEER）；台灣 55.7%（兩者占 EGFR 突變約 85–90%） | osimertinib 等 EGFR TKI | 非吸菸、女性、腺癌較常見 |
+| EGFR exon 19 del／L858R | 任何 EGFR 突變：亞洲 51.4%（PIONEER）、台灣 55.7%；其中 exon 19 del＋L858R 約占 EGFR 突變九成（台灣研究 44.8%＋47.9%），即約占全部肺腺癌一半 | osimertinib 等 EGFR TKI | 非吸菸、女性、腺癌較常見 |
 | EGFR 非典型突變（G719X、L861Q、S768I） | 少見 | afatinib、osimertinib | |
 | EGFR exon 20 insertion | 少見 | amivantamab ＋ 化療 | 對傳統 EGFR TKI 反應差 |
 | ALK 融合 | 台灣約 4%（EGFR 陰性者中 9.8%） | alectinib、brigatinib、lorlatinib | 年輕、非吸菸；腦轉移常見 |
@@ -114,7 +114,7 @@
 | BRAF 突變 | 台灣約 0.7% | dabrafenib ＋ trametinib（V600E） | |
 | MET exon 14 skipping | 約 2–3% | capmatinib、tepotinib | 高齡者較多 |
 | RET 融合 | 1–2% | selpercatinib、pralsetinib | |
-| HER2（ERBB2）突變 | 台灣約 2% | trastuzumab deruxtecan、zongertinib 等（二線） | |
+| HER2（ERBB2）突變 | 台灣約 2% | trastuzumab deruxtecan（二線）；HER2 TKI zongertinib、sevabertinib（美國 FDA 2026 年已加速核准一線；台灣僅 sevabertinib 核准用於曾接受治療者，zongertinib 未上市） | |
 | NTRK1–3 融合 | <1% | larotrectinib、entrectinib | 跨癌別適應症 |
 
 台灣數字來自 1,772 位未治療肺腺癌的多中心研究（Hsu et al., 2015），ALK 只在 EGFR 陰性者檢測；亞洲數字來自 PIONEER（Shi et al., 2014）。沒有標台灣的列為國際文獻的約略值，依族群與檢測方法而異。
@@ -129,7 +129,7 @@
 
 | 方法 | 優點 | 限制 |
 |------|------|------|
-| 組織 NGS（next-generation sequencing） | 一次驗完所有基因，含融合基因 | 需要足夠組織、等待時間較長 |
+| 組織 NGS（next-generation sequencing） | 一次驗多個基因；RNA-based NGS 偵測融合基因較完整 | 需要足夠組織、等待時間較長；DNA-based NGS 可能漏掉部分融合基因與 MET exon 14 skipping，DNA 驗不到 driver 時應加做 RNA NGS |
 | 血液 ctDNA（liquid biopsy） | 快、免侵入；可找抗藥機轉（如 T790M） | 陰性不能排除，需再驗組織 |
 | 單基因 PCR（如 EGFR） | 快、便宜 | 驗不到其他基因，容易耗盡組織 |
 | IHC／FISH（ALK、ROS1） | 普及 | ROS1 IHC 陽性需確認 |
@@ -217,7 +217,7 @@ T 分類與第 8 版相同；第 9 版主要改在 **N2 細分為 N2a／N2b**，
 
 | 條件 | 輔助治療 | 依據 |
 |------|---------|------|
-| II–IIIA 期（IB 期 ≥4 cm 視風險） | Cisplatin 為主的雙藥化療 × 4 週期 | LACE 匯總分析：死亡風險 HR 0.89，5 年存活絕對增加 5.4%；IA 期反而可能有害（HR 1.40），所以 IA 期不做輔助化療（Pignon et al., 2008） |
+| II–IIIA 期（IB 期有高風險因子時考慮，如低分化、血管侵犯、楔狀切除、臟層肋膜侵犯、Nx；第 7 版「IB 期 ≥4 cm」中 >4–5 cm 的腫瘤，第 8／9 版已屬 T2b N0、IIA 期） | Cisplatin 為主的雙藥化療 × 4 週期 | LACE 匯總分析：死亡風險 HR 0.89，5 年存活絕對增加 5.4%；IA 期反而可能有害（HR 1.40），所以 IA 期不做輔助化療（Pignon et al., 2008） |
 | EGFR ex19del／L858R，IB–IIIA 期 | 化療（視情況）後 **osimertinib 80 mg QD × 3 年** | ADAURA：DFS HR 0.20；整體存活 HR 0.49（Wu et al., 2020；Tsuboi et al., 2023） |
 | ALK 陽性，IB（≥4 cm）–IIIA 期 | **Alectinib 600 mg BID × 2 年** | ALINA：II–IIIA 期 DFS HR 0.24（Wu et al., 2024） |
 | PD-L1 ≥1%、無 EGFR/ALK，II–IIIA 期 | 輔助化療後 atezolizumab 1,200 mg q3w × 16 週期（1 年） | IMpower010：初次分析 DFS HR 0.66（Felip et al., 2021）。5 年更新中只有 **PD-L1 ≥50%** 的整體存活有顯著改善（HR 0.47），PD-L1 ≥1% 整體的存活差異不顯著（Felip et al., 2025） |
@@ -244,11 +244,11 @@ III 期是異質性最高的一期，**一定要多專科團隊（MDT）討論**
 - **不可切除**：
   1. **同步化放療（concurrent chemoradiotherapy, CCRT）**：放療 60 Gy／30 次，搭配含鉑雙藥（cisplatin ＋ etoposide、carboplatin ＋ paclitaxel 每週，或非鱗狀用 cisplatin ＋ pemetrexed）。
   2. CCRT 後沒有惡化 → **durvalumab 鞏固治療 12 個月**。PACIFIC：PFS 16.8 對 5.6 個月；5 年整體存活率 42.9% 對 33.4%（Antonia et al., 2017；Spigel et al., 2022）。
-  3. **EGFR 陽性**：CCRT 後改用 **osimertinib 直到疾病惡化**。LAURA：PFS 39.1 對 5.6 個月；放射性肺炎 48% 對 38%，多為 1–2 級（Lu et al., 2024）。
+  3. **EGFR ex19del／L858R**：同步（CCRT）或序列性（sequential）含鉑化放療後沒有惡化 → 改用 **osimertinib 直到疾病惡化**。LAURA：PFS 39.1 對 5.6 個月；放射性肺炎 48% 對 38%，多為 1–2 級（Lu et al., 2024）。
 
 > [!WARNING]
 > **CCRT 後的肺炎要分清楚**
-> CCRT 後接 durvalumab 的病人，咳嗽、喘、CT 毛玻璃病灶可能是放射性肺炎、免疫相關肺炎或感染。放射性肺炎通常在放療後 1–6 個月、病灶貼著照野邊界；免疫性肺炎可跨出照野。處置先排除感染，G2 以上暫停 durvalumab 並用類固醇（見 [irAE 章](00-shared/04-irae.md)）。
+> CCRT 後接 durvalumab 的病人，咳嗽、喘、CT 毛玻璃病灶可能是放射性肺炎、免疫相關肺炎或感染。放射性肺炎通常在放療後 1–6 個月、病灶貼著照野邊界；免疫性肺炎可跨出照野。處置先排除感染，G2 暫停 durvalumab 並給 prednisone 1–2 mg/kg/day，緩解到 G0–1 且類固醇減量後才可恢復；G3–4 永久停用 durvalumab，住院給 IV methylprednisolone 1–2 mg/kg/day（見 [irAE 章](00-shared/04-irae.md)）。
 
 ### 4.3 NSCLC IV 期
 
@@ -262,7 +262,7 @@ III 期是異質性最高的一期，**一定要多專科團隊（MDT）討論**
 | EGFR T790M（第一、二代 TKI 後） | Osimertinib | | AURA3：PFS 10.1 對 4.4 個月 |
 | Osimertinib 後惡化 | Amivantamab ＋ carboplatin ＋ pemetrexed；含鉑化療 | 依抗藥機轉（如 MET 放大）；datopotamab deruxtecan（EGFR TKI 與含鉑化療都用過後） | MARIPOSA-2：PFS 6.3 對 4.2 個月；Dato-DXd 匯總分析反應率 43% |
 | EGFR 非典型突變 | Afatinib 或 osimertinib | | |
-| EGFR exon 20 insertion | Amivantamab ＋ carboplatin ＋ pemetrexed；sunvozertinib | | PAPILLON：PFS 11.4 對 6.7 個月；WU-KONG28：sunvozertinib 對化療 PFS 10.3 對 7.5 個月 |
+| EGFR exon 20 insertion | Amivantamab ＋ carboplatin ＋ pemetrexed | 含鉑化療後惡化：sunvozertinib（美國 FDA 2025-07 加速核准；第一線適應症仍在審查，台灣無藥證） | PAPILLON：PFS 11.4 對 6.7 個月；WU-KONG28（第一線）：sunvozertinib 對化療 PFS 10.3 對 7.5 個月，整體存活尚未成熟 |
 | ALK | **Alectinib**、brigatinib、**lorlatinib** | 第二代後惡化用 lorlatinib | ALEX、ALTA-1L、CROWN |
 | ROS1 | Entrectinib、crizotinib、repotrectinib、taletrectinib | 後線 repotrectinib、taletrectinib（對 G2032R 抗藥突變仍有效） | PROFILE 1001、TRIDENT-1、TRUST |
 | BRAF V600E | Dabrafenib ＋ trametinib；encorafenib ＋ binimetinib | | BRF113928、PHAROS（未治療者反應率 75%） |
@@ -270,7 +270,7 @@ III 期是異質性最高的一期，**一定要多專科團隊（MDT）討論**
 | RET | Selpercatinib、pralsetinib | | LIBRETTO-431：PFS 24.8 對 11.2 個月 |
 | NTRK | Larotrectinib、entrectinib | | |
 | KRAS G12C | 化療 ＋ 免疫（同無 driver） | 二線 sotorasib、adagrasib | CodeBreaK 200：PFS 5.6 對 4.5 個月；KRYSTAL-12：PFS 5.5 對 3.8 個月 |
-| HER2 突變 | 化療 ＋ 免疫 | 二線 trastuzumab deruxtecan 5.4 mg/kg、zongertinib | DESTINY-Lung02：反應率 49.0%；Beamion LUNG-1：zongertinib 反應率 71% |
+| HER2 突變 | 化療 ＋ 免疫（台灣目前沒有第一線 HER2 標靶藥證）；HER2 TKD 突變者，美國 FDA 已加速核准 zongertinib（2026-02）與 sevabertinib（2026-09）用於第一線 | 二線 trastuzumab deruxtecan 5.4 mg/kg、zongertinib、sevabertinib（台灣 T-DXd 與 sevabertinib 有藥證，皆限曾接受全身性治療者；zongertinib 無藥證） | DESTINY-Lung02：反應率 49.0%；Beamion LUNG-1：zongertinib 反應率 71%（已治療、TKD 突變），第一線 76% |
 
 **EGFR 第一線三個選項怎麼比**
 
@@ -304,7 +304,7 @@ III 期是異質性最高的一期，**一定要多專科團隊（MDT）討論**
 |-----------|-------|------|
 | ≥50% | Pembrolizumab、atezolizumab 或 cemiplimab 單藥；或化療 ＋ 免疫 | 同左 |
 | 1–49% | 化療 ＋ 免疫 | 化療 ＋ 免疫 |
-| <1% | 化療 ＋ 免疫（含雙免疫選項） | 化療 ＋ 免疫 |
+| <1% | 化療 ＋ 免疫（含雙免疫選項，如 CheckMate 9LA、POSEIDON） | 化療 ＋ 免疫（含雙免疫選項，如 CheckMate 9LA、POSEIDON） |
 
 常用的化療 ＋ 免疫組合：
 
@@ -314,7 +314,7 @@ III 期是異質性最高的一期，**一定要多專科團隊（MDT）討論**
 
 | 試驗 | 族群 | 主要結果 |
 |------|------|---------|
-| KEYNOTE-024（Reck et al., 2016） | PD-L1 ≥50% | Pembrolizumab 對化療 PFS 10.3 對 6.0 個月；5 年 OS 31.9% 對 16.3% |
+| KEYNOTE-024（Reck et al., 2016, 2021） | PD-L1 ≥50% | Pembrolizumab 對化療 PFS 10.3 對 6.0 個月；5 年 OS 31.9% 對 16.3% |
 | KEYNOTE-189（Gandhi et al., 2018） | 非鱗狀，不分 PD-L1 | 加 pembrolizumab 死亡風險 HR 0.49 |
 | KEYNOTE-407（Paz-Ares et al., 2018） | 鱗狀 | OS 15.9 對 11.3 個月 |
 
@@ -340,17 +340,17 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 **廣泛期（ES-SCLC）**
 
 1. **Carboplatin ＋ etoposide ＋ atezolizumab**（IMpower133：OS 12.3 對 10.3 個月，HR 0.70；Horn et al., 2018）或 **＋ durvalumab**（CASPIAN：OS 13.0 對 10.3 個月，HR 0.73；3 年存活 17.6% 對 5.8%；Paz-Ares et al., 2019, 2022），共 4 週期 → 免疫維持。
-2. 維持期可用 **lurbinectedin ＋ atezolizumab**：IMforte 試驗中 PFS（HR 0.54）與整體存活（HR 0.73）都優於 atezolizumab 單獨維持，但 3–4 級副作用較多（38% 對 22%），lurbinectedin 要合併 G-CSF 預防（Paz-Ares et al., 2025）。台灣也是 IMforte 的收案國家。
+2. 以 atezolizumab ＋ carboplatin ＋ etoposide 誘導 4 週期後沒有惡化者，維持期可改用 **lurbinectedin ＋ atezolizumab**（適應症限 atezolizumab 誘導，不含 durvalumab 方案）：IMforte 試驗中 PFS（HR 0.54）與整體存活（HR 0.73）都優於 atezolizumab 單獨維持，但 3–4 級副作用較多（38% 對 22%），lurbinectedin 要合併 G-CSF 預防（Paz-Ares et al., 2025）。台灣也是 IMforte 的收案國家。
 3. 腦部：以 MRI 定期追蹤為主。日本試驗中，在每 3 個月 MRI 追蹤下做 PCI 不但沒有存活好處，數字上還較差（11.6 對 13.7 個月，HR 1.27）（Takahashi et al., 2017）。
 
 **復發 SCLC**
 
 | 情境 | 選擇 | 依據 |
 |------|------|------|
-| 距上次含鉑化療 ≥6 個月才復發（敏感型） | 再用含鉑 ＋ etoposide | |
-| <6 個月復發（抗藥型）或不適合再用鉑 | **Tarlatamab**（第一優先）、lurbinectedin、topotecan | DeLLphi-304：tarlatamab 對化療 OS 13.6 對 8.3 個月（HR 0.60），3 級以上副作用 54% 對 80%（Mountzios et al., 2025）；lurbinectedin 二線反應率 35.2%（Trigo et al., 2020） |
+| 距上次含鉑化療結束 ≥90 天才復發（敏感型，sensitive relapse） | **Tarlatamab**；或再用含鉑 ＋ etoposide（rechallenge） | Baize et al., 2020：CTFI ≥90 天者 carboplatin ＋ etoposide 再挑戰對 topotecan，PFS 4.7 對 2.7 個月。NCCN 自 v2.2026 起已刪除「>6 個月才再用原方案」的 CTFI 分流，後線治療改依臨床判斷，tarlatamab 為 category 1 優先選擇 |
+| 距最後一劑含鉑化療 <90 天就復發（抗藥型 resistant）、含鉑化療期間無反應或惡化（refractory），或不適合再用鉑 | **Tarlatamab**（第一優先）、topotecan；lurbinectedin 單藥二線在美國已無適應症（台灣藥證是否調整待確認） | DeLLphi-304：tarlatamab 對化療 OS 13.6 對 8.3 個月（HR 0.60），3 級以上副作用 54% 對 80%（Mountzios et al., 2025）；lurbinectedin 單臂第 2 期反應率 35.2%（Trigo et al., 2020），但確認性第 3 期 LAGOON 試驗（2026-06-12 公布頂線結果，尚未正式發表）OS 未優於 topotecan 或 irinotecan（8.7 對 10.7 個月，HR 1.19，95% CI 0.96–1.48），美國 FDA 已於 2026-09-30 撤銷其二線加速核准（Zepzelca 美國仿單 2026-09 修訂版）；第一線維持（IMforte）適應症不受影響 |
 
-**Tarlatamab** 是 DLL3 × CD3 雙特異性 T 細胞銜接抗體（bispecific T-cell engager），會引起細胞激素釋放症候群（CRS）與神經毒性（ICANS），前兩劑要監測（見 [腫瘤急症章](00-shared/02-oncologic-emergencies.md)）。
+**Tarlatamab** 是 DLL3 × CD3 雙特異性 T 細胞銜接抗體（bispecific T-cell engager），會引起細胞激素釋放症候群（CRS）與神經毒性（ICANS），前兩劑（C1D1 1 mg、C1D8 10 mg）前 1 小時內給 dexamethasone 8 mg IV、輸注後補 1 L 生理食鹽水，並在醫療機構監測（美國仿單 2026-09 版已由 22–24 小時縮短為自輸注開始 6–8 小時，第 2、9 天評估生命徵象，48 小時內由照顧者陪同、停留在 1 小時內可到醫療機構處；台灣依核准仿單與院內規範）。之後每劑仍需輸注後觀察（C1D15 與第 2 週期 6–8 小時、第 3–4 週期 3–4 小時、第 5 週期起 2 小時），ICANS 可在數週後才出現（見 [腫瘤急症章](00-shared/02-oncologic-emergencies.md)）。
 
 > [!TIP]
 > **雙特異性抗體的比喻**
@@ -391,11 +391,11 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 |------|-----------|--------------|
 | Carboplatin ＋ pemetrexed ＋ pembrolizumab | Pembrolizumab 200 mg D1 ＋ pemetrexed 500 mg/m² D1 ＋ carboplatin AUC 5 D1，q3w × 4 → pembrolizumab ＋ pemetrexed q3w 維持 | Folic acid、vitamin B12、dexamethasone（見下方說明）；CrCl ≥45 |
 | Carboplatin ＋ paclitaxel ＋ pembrolizumab | Pembrolizumab 200 mg D1 ＋ paclitaxel 200 mg/m² D1 ＋ carboplatin AUC 6 D1，q3w × 4 → pembrolizumab 維持 | Paclitaxel 過敏預防；先給 paclitaxel 再給 carboplatin |
-| Carboplatin ＋ nab-paclitaxel ＋ pembrolizumab | nab-Paclitaxel 100 mg/m² D1,8,15 ＋ carboplatin AUC 6 D1 ＋ pembrolizumab 200 mg D1，q3w × 4 | 不需過敏預防用藥 |
+| Carboplatin ＋ nab-paclitaxel ＋ pembrolizumab | nab-Paclitaxel 100 mg/m² D1,8,15 ＋ carboplatin AUC 6 D1 ＋ pembrolizumab 200 mg D1，q3w × 4 → pembrolizumab 維持 | 不需過敏預防用藥 |
 | Cisplatin ＋ pemetrexed（術後輔助，非鱗狀） | Cisplatin 75 mg/m² D1 ＋ pemetrexed 500 mg/m² D1，q3w × 4 | Cisplatin 水化與高致吐性止吐 |
 | Cisplatin ＋ vinorelbine（術後輔助） | Cisplatin 75–80 mg/m² D1 ＋ vinorelbine 25–30 mg/m² D1,8，q3w × 4 | Vinorelbine 為起泡劑（vesicant），注意外滲 |
 | Cisplatin ＋ gemcitabine（鱗狀） | Cisplatin 75 mg/m² D1 ＋ gemcitabine 1,250 mg/m² D1,8，q3w | |
-| Docetaxel ± ramucirumab（二線） | Ramucirumab 10 mg/kg D1 ＋ docetaxel 75 mg/m² D1，q3w | Docetaxel 前 dexamethasone 8 mg BID × 3 天（從前一天開始），預防體液滯留與過敏 |
+| Docetaxel ± ramucirumab（二線） | Ramucirumab 10 mg/kg D1 ＋ docetaxel 75 mg/m² D1，q3w | Ramucirumab 每次輸注前給 IV H1 阻斷劑（如 diphenhydramine），曾發生 G1–2 輸注反應者再加 dexamethasone 與 acetaminophen；ramucirumab 先於 docetaxel 輸注。Docetaxel 前 dexamethasone 8 mg BID × 3 天（從前一天開始），預防體液滯留與過敏 |
 | Durvalumab 鞏固（PACIFIC） | 10 mg/kg q2w 或 1,500 mg q4w，共 12 個月 | 每次前看甲狀腺、肝腎功能 |
 | Atezolizumab | 1,200 mg q3w（或 840 mg q2w、1,680 mg q4w） | |
 | Nivolumab | 240 mg q2w 或 480 mg q4w；術前 360 mg q3w × 3 合併化療 | |
@@ -444,7 +444,7 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 | Osimertinib | 80 mg QD | 不限 | 減為 40 mg；QTc、ILD、心衰竭 |
 | Gefitinib | 250 mg QD | 不限 | 避免 PPI |
 | Erlotinib | 150 mg QD | 空腹（飯前 1 小時或飯後 2 小時） | 吸菸降低血中濃度；避免 PPI |
-| Afatinib | 40 mg QD | 空腹（美國仿單：飯前 1 小時或飯後 2 小時；歐盟仿單為飯後 3 小時，依台灣仿單） | 減為 30、20 mg；腹瀉、甲溝炎常見 |
+| Afatinib | 40 mg QD | 空腹（台灣與歐盟仿單：服藥前至少 3 小時、服藥後至少 1 小時內不可進食；美國仿單：飯前 1 小時或飯後 2 小時） | 減為 30、20 mg；腹瀉、甲溝炎常見 |
 | Dacomitinib | 45 mg QD | 不限 | 減為 30、15 mg |
 | Alectinib | 600 mg BID | 隨餐 | 肌肉痛／CK 上升、心搏過緩、膽紅素上升 |
 | Brigatinib | 90 mg QD × 7 天 → 180 mg QD | 不限 | 前 7 天低劑量導入，預防早發性肺部事件 |
@@ -460,7 +460,12 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 
 > [!WARNING]
 > **口服標靶藥的交互作用**
-> - **Gefitinib、erlotinib 的吸收需要胃酸**：避免 PPI；必須用 H2 阻斷劑時，erlotinib 在 H2 阻斷劑後 10 小時、下一劑前 2 小時服用。
+> - **Gefitinib、erlotinib、dacomitinib、selpercatinib、sotorasib 的吸收需要胃酸**：盡量避免 PPI。必須用制酸藥時，依美國仿單錯開服藥時間：
+>   - Gefitinib：在 H2 阻斷劑或制酸劑前後 6 小時服用；非用 PPI 不可時，在前一劑 PPI 後 12 小時或下一劑 PPI 前 12 小時服用。
+>   - Erlotinib：在 H2 阻斷劑後 10 小時、下一劑前 2 小時服用；與制酸劑間隔數小時。
+>   - Dacomitinib：在 H2 阻斷劑前 6 小時或後 10 小時服用；也可改用局部制酸劑。
+>   - Selpercatinib：PPI、H2 阻斷劑、局部制酸劑都要避免。非用不可時：併用 PPI 要隨餐服藥；在 H2 阻斷劑前 2 小時或後 10 小時服用；在制酸劑前後 2 小時服用。
+>   - Sotorasib：PPI 與 H2 阻斷劑都要避免。非用不可時只用局部制酸劑，sotorasib 在制酸劑前 4 小時或後 10 小時服用。
 > - 多數 TKI 經 **CYP3A4** 代謝：避免葡萄柚、St. John's wort，以及強效 CYP3A4 抑制劑或誘導劑（如 rifampin、azole 類抗黴菌藥、carbamazepine）。
 > - 開立任何新藥（包括抗生素、抗黴菌藥）前，先查交互作用。
 
@@ -468,7 +473,7 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 
 ## 6. 副作用評估與處置
 
-通用原則：用 CTCAE 分級 → 依級數決定**繼續、暫停、減量或永久停藥**。化療的骨髓抑制、噁心嘔吐、外滲處置見 [支持性照護](00-shared/03-supportive-care.md)；免疫治療見 [irAE 章](00-shared/04-irae.md)。
+通用原則：用 CTCAE 分級 → 依級數決定**繼續、暫停、減量或永久停藥**。化療的骨髓抑制、噁心嘔吐見 [支持性照護](00-shared/03-supportive-care.md)，外滲處置見 [化療基礎與劑量計算](00-shared/01-chemo-basics.md) 第 9 節；免疫治療見 [irAE 章](00-shared/04-irae.md)。
 
 ### 6.1 EGFR TKI
 
@@ -476,11 +481,11 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 |-------|---------|
 | 痤瘡樣皮疹（acneiform rash） | G1：外用低效類固醇（hydrocortisone 2.5%）或 clindamycin 1%。G2：加口服 doxycycline 100 mg BID 或 minocycline 100 mg BID。G3：暫停至 ≤G2 後減量再用。預防：保濕、防曬，afatinib／dacomitinib 可預防性口服 doxycycline |
 | 甲溝炎（paronychia） | 稀釋白醋泡手腳、外用類固醇或抗生素；肉芽組織可用硝酸銀；避免剪太短、穿太緊的鞋 |
-| 腹瀉 | Loperamide 首劑 4 mg，之後每次稀便 2 mg，每日最多 16 mg；補充水分電解質；G3 暫停（afatinib 最常見） |
+| 腹瀉 | Loperamide 首劑 4 mg，之後每次稀便 2 mg，每日最多 16 mg；補充水分電解質；G3 以上暫停；afatinib 的 G2 經止瀉藥仍持續 ≥2 天、dacomitinib 出現 G2 即需暫停至 ≤G1，再依仿單恢復或減量（afatinib 最常見） |
 | 口腔炎 | 溫和漱口水、避免刺激食物；G3 暫停 |
 | 間質性肺病（ILD） | AURA3 中 osimertinib 的 ILD 類事件約 4%。新發或惡化的咳嗽、喘、發燒：**立即暫停**、安排胸部 CT、排除感染；確診 ILD 通常永久停藥，給予類固醇 |
 | QTc 延長（osimertinib） | AURA3 中約 4%。開始前與定期做心電圖；QTc >500 ms 暫停，恢復後減量；同時矯正 K、Mg |
-| 左心室射出率下降（osimertinib） | 有心臟病史者開始前做心臟超音波 |
+| 左心室射出率下降（osimertinib） | 發生率約 3.8%（併用化療的 FLAURA2 約 9%）。**單藥**：有心臟危險因子者，開始前與治療中定期評估 LVEF（心臟超音波）；**併用 pemetrexed／鉑類化療**：所有病人開始前與治療中都要評估 LVEF。治療中出現心臟症狀時隨時評估；出現有症狀心衰竭永久停藥 |
 
 > [!IMPORTANT]
 > **皮疹不是壞事**
@@ -490,7 +495,7 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 
 | 藥物 | 特殊副作用 | 處置 |
 |------|-----------|------|
-| Alectinib | 肌肉痛與 CK 上升、心搏過緩、膽紅素上升、水腫、光敏感、體重增加 | 定期驗 CK、肝功能；心跳 <50 且有症狀暫停 |
+| Alectinib | 肌肉痛與 CK 上升、心搏過緩、膽紅素上升、水腫、光敏感、體重增加 | 定期驗 CK、肝功能；定期量心跳與血壓；有症狀的心搏過緩即暫停（不設心跳門檻；無症狀者不需調整），並檢查併用的降心率藥與降血壓藥；至無症狀或心跳 ≥60 再用：相關併用藥已停用或調整則原劑量，否則減一級；危及生命且無相關併用藥則永久停藥 |
 | Brigatinib | 早發性肺部事件（多在開始後 7 天內）、高血壓、CK／lipase 上升 | 90 mg 導入 7 天；開始第一週注意呼吸症狀 |
 | Lorlatinib | **高三酸甘油酯與高膽固醇**（CROWN 5 年：3–4 級分別 25% 與 21%）、中樞神經副作用 42%（情緒、認知、說話、幻覺，多為 1–2 級）、體重增加、高血壓、房室傳導阻滯 | 開始前與定期驗血脂，常需 statin；與家屬一起衛教情緒變化 |
 | Crizotinib | 視覺異常（閃光、殘影）、水腫、肝功能上升、心搏過緩 | 開車注意；定期肝功能 |
@@ -504,14 +509,14 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 | Selpercatinib（RET） | 肝功能異常、高血壓、QTc 延長；**東亞病人較常見**（LIBRETTO-431：3 級以上 ALT 上升 22%、高血壓 20%） | 先控制血壓再開始；前 3 個月每 2 週驗肝功能（依仿單） |
 | Dabrafenib ＋ trametinib（BRAF） | **發燒（約 56%）**、皮膚、射出率下降、視網膜病變 | 發燒 ≥38°C 暫停兩藥，退燒後再用；定期心臟超音波 |
 | Trastuzumab deruxtecan（HER2） | **ILD／肺炎**（5.4 mg/kg 組 12.9%）、骨髓抑制、噁心 | 任何疑似 ILD 暫停；確診 G2 以上永久停藥 |
-| Datopotamab deruxtecan | 口腔炎（約 56%）、ILD（約 7–9%） | 每日口腔照護、預防性漱口；ILD 處置同上 |
-| Zongertinib（HER2） | 腹瀉、肝功能異常；試驗中未見藥物相關 ILD | |
+| Datopotamab deruxtecan | 口腔炎（約 56%）、ILD（約 7–9%） | 每日口腔照護；依仿單預防性使用含類固醇漱口水（dexamethasone 0.1 mg/mL 含漱，每日 4 次及需要時），輸注全程口含冰塊或冰水；ILD 處置同上 |
+| Zongertinib（HER2） | 腹瀉（54%）、肝毒性（27%，含藥物性肝損傷）、左心室射出率下降（6%）、ILD／肺炎（美國仿單合併安全族群 2.1%，含 1 例死亡；Beamion LUNG-1 2025 年報告的三個 cohort 未見藥物相關 ILD） | 開始前、前 12 週每 2 週、之後每月驗肝功能；開始前與定期評估 LVEF；新發喘、咳、發燒依 ILD 處置（G2 暫停至緩解後減量，G3 以上永久停藥） |
 
 ### 6.4 Amivantamab（± lazertinib）
 
 | 副作用 | 處置 |
 |-------|------|
-| 輸注反應（infusion-related reaction, IRR） | MARIPOSA 中 63%，多發生在**第一劑**：第一劑拆成兩天給（D1、D2）；給藥前 antihistamine、antipyretic、glucocorticoid；發生時暫停、處理症狀、降速再給。**皮下劑型**的全身性給藥反應約 13%，明顯低於靜脈劑型約 66%（PALOMA-3，美國 FDA 核准資料），台灣 2026 年已有藥證 |
+| 輸注反應（infusion-related reaction, IRR） | MARIPOSA 中 63%，多發生在**第一劑**：第一劑拆成兩天給（D1、D2）；給藥前 antihistamine、antipyretic、glucocorticoid；美國仿單自 2025 年 9 月起，第一劑前 2 天（D−2、D−1）另加口服 dexamethasone 8 mg BID，D1 給藥前 1 小時再口服 8 mg，原本 D1 的 IV dexamethasone 20 mg 照給，所以要提前 2 天讓病人開始吃藥。依據是 **SKIPPirr**（Spira et al., 2025）：第一劑輸注反應 22.5%（9/40），歷史對照 67.4%；發生時暫停、處理症狀、降速再給。**皮下劑型**的全身性給藥反應約 13%，明顯低於靜脈劑型約 66%（PALOMA-3，美國 FDA 核准資料），台灣 2026 年已有藥證 |
 | 皮膚與指甲毒性 | 皮疹 86%。用 **COCOON 預防方案**：第 1–12 週口服 doxycycline 或 minocycline 100 mg BID；第 13–52 週頭皮每日外用 clindamycin 1%；手腳指甲每日用 chlorhexidine 4%；臉與身體每日擦含 ceramide 的保濕劑。2 級以上皮膚副作用從 75% 降到 42%（Cho et al., 2025） |
 | 靜脈血栓（合併 lazertinib） | 發生率 36%，中位發生時間約 84 天：**前 4 個月預防性抗凝血**（DOAC 或低分子量肝素）；腳腫、胸痛、喘要立即評估 |
 | 低白蛋白、水腫、ILD | 定期驗白蛋白；ILD 約 3%，處置同上 |
@@ -558,7 +563,7 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 | 肝功能 | AST/ALT、bilirubin 在可接受範圍 |
 | 電解質 | Na、K、Mg、Ca（cisplatin 後低鎂常見；SCLC 注意低血鈉） |
 | 免疫治療 | TSH、free T4（約每 6 週）、血糖、皮質醇（有症狀時） |
-| B 型肝炎 | 第一次化療前驗 HBsAg、anti-HBc；HBsAg 陽性要會診並預防性抗病毒（見 [化療基礎](00-shared/01-chemo-basics.md)） |
+| B 型肝炎 | 開始任何全身性抗癌治療前驗 HBsAg、anti-HBc、anti-HBs；HBsAg 陽性要會診並預防性抗病毒（見 [化療基礎](00-shared/01-chemo-basics.md)） |
 | 前置用藥 | Pemetrexed：確認葉酸與 B12；paclitaxel：確認 dexamethasone 已服用 |
 
 ### 7.2 Order set 範例一：非鱗狀 NSCLC，C1 carboplatin ＋ pemetrexed ＋ pembrolizumab
@@ -610,7 +615,7 @@ Day 1
   後水化：NS 1,000 mL IV；目標尿量 ≥100 mL/hr
 Day 2-3
   Etoposide 100 mg/m² IV over ≥60 min
-  Dexamethasone（延遲性嘔吐預防，依止吐規範）
+  Dexamethasone ＋ olanzapine，D2–4（延遲性嘔吐預防，依止吐規範）
 監測：Na（SCLC 合併 SIADH 風險）、Mg、Cr
 ```
 
@@ -645,13 +650,13 @@ P：1. 繼續 osimertinib 80 mg QD（G2 甲溝炎不需停藥）
 ### 7.6 療效評估與追蹤
 
 - **RECIST 1.1**：
-  - CR：所有目標病灶消失。
-  - PR：目標病灶直徑總和減少 ≥30%。
+  - CR：所有目標病灶消失，且所有病理性淋巴結短軸縮小到 <10 mm。
+  - PR：目標病灶直徑總和比基準值（baseline）減少 ≥30%。
   - PD：直徑總和比最小值增加 ≥20% 且絕對值增加 ≥5 mm，或出現新病灶。
   - SD：介於 PR 與 PD 之間。
 - **免疫治療的假性惡化（pseudoprogression）**：少數病人影像先變大後縮小，臨床穩定時可依 iRECIST 在 4–8 週後再確認。
 - **晚期病人**：治療中每 2–3 個週期（約 6–9 週）做影像評估。
-- **根治性治療後**：前 2–3 年每 6 個月做胸部 CT，之後每年追蹤（NCCN）。
+- **根治性治療後**：手術（± 化療）治療的第 I–II 期：前 2–3 年每 6 個月做胸部 CT，之後每年低劑量胸部 CT；放療治療的第 I–II 期或第 III 期（如同步化放療後）：前 3 年每 3–6 個月、之後 2 年每 6 個月，再改為每年（NCCN）。
 
 ---
 
@@ -663,7 +668,7 @@ P：1. 繼續 osimertinib 80 mg QD（G2 甲溝炎不需停藥）
 |------|-------------|------|---------|
 | 上腔靜脈症候群（SVC syndrome） | 右上葉腫瘤、SCLC、縱膈腔淋巴結 | 臉頸腫、上肢水腫、胸壁靜脈曲張、平躺喘 | 抬高床頭、給氧；嚴重症狀（喉頭水腫、意識改變）考慮支架；儘快取得組織，SCLC 對化療反應快 |
 | 大咳血 | 中央型鱗狀細胞癌、腫瘤侵犯血管 | 大量咳血（常見定義 24 小時 >100–600 mL） | **出血側朝下側躺**、保護呼吸道、準備插管；tranexamic acid；支氣管鏡、支氣管動脈栓塞 |
-| SIADH 低血鈉 | SCLC（副腫瘤症候群） | 意識混亂、抽搐；等容性低血鈉、尿滲透壓高 | 限水、鹽錠、必要時 tolvaptan；**矯正速度每 24 小時不超過 8–10 mEq/L**；治療 SCLC 本身 |
+| SIADH 低血鈉 | SCLC（副腫瘤症候群） | 意識混亂、抽搐；等容性低血鈉、尿滲透壓高 | **抽搐、意識改變等嚴重症狀：先給 3% NaCl 150 mL IV over 20 分鐘（可重複），目標先升約 5 mEq/L**；輕症或慢性：限水、鹽錠，難治者考慮 tolvaptan（須住院起始並密切追蹤血鈉）；**矯正速度每 24 小時不超過 8–10 mEq/L**；治療 SCLC 本身 |
 | 高血鈣 | 鱗狀細胞癌分泌 PTHrP、骨轉移 | 倦怠、便秘、意識改變、多尿 | 水化、zoledronic acid 或 denosumab |
 | 腦轉移／顱內壓上升 | NSCLC 診斷時腦轉移常見，ALK、EGFR 更高 | 頭痛、嘔吐、局部神經症狀、癲癇 | Dexamethasone（常用 4–16 mg/day）；放射腫瘤科會診（SRS 或全腦放療）；中樞穿透好的 TKI |
 | 惡性肋膜積水 | 肋膜轉移（M1a） | 喘、單側呼吸音減弱 | 胸腔穿刺；反覆積水考慮肋膜沾黏術或留置導管 |
@@ -910,14 +915,14 @@ A. Atezolizumab 維持　B. Durvalumab 鞏固最多 24 個月　C. Osimertinib�
 
 </details>
 
-**Q15.** 依 RECIST 1.1，目標病灶直徑總和從最小值 40 mm 增加到 47 mm，沒有新病灶，評估為？
+**Q15.** 依 RECIST 1.1，目標病灶直徑總和基線為 50 mm、治療中最小值 40 mm，現在增加到 47 mm，沒有新病灶，評估為？
 
 A. PR　B. SD　C. PD　D. 無法評估
 
 <details>
 <summary>答案與詳解</summary>
 
-**答案：B**。(47 − 40) ÷ 40 = 17.5%，未達 PD 要求的 20%（雖然絕對值增加 7 mm 已超過 5 mm，兩個條件要同時成立），所以是 SD。
+**答案：B**。與最小值比 (47 − 40) ÷ 40 = 17.5%，未達 PD 要求的 20%（雖然絕對值增加 7 mm 已超過 5 mm，兩個條件要同時成立）；與基線比 (50 − 47) ÷ 50 = 6%，也未達 PR 要求的縮小 30%，所以是 SD。注意 PD 以治療中最小值（含基線）為參考、PR 以基線為參考：比最小值的增加未達 PD 標準時，若現在總和仍比基線小 ≥30%，即使比最小值變大，該次評估仍是 PR；反過來，只要達到 PD 標準（或出現新病灶），即使總和仍比基線小很多，也是 PD。
 
 </details>
 
@@ -943,6 +948,8 @@ Ahn, M.-J., Lisberg, A., Goto, Y., Sands, J., Hong, M. H., Paz-Ares, L., Pons-To
 Altorki, N., Wang, X., Kozono, D., Watt, C., Landrenau, R., Wigle, D., Port, J., Jones, D. R., Conti, M., Ashrafi, A. S., Liberman, M., Yasufuku, K., Yang, S., Mitchell, J. D., Pass, H., Keenan, R., Bauer, T., Miller, D., Kohman, L. J., . . . Vokes, E. (2023). Lobar or sublobar resection for peripheral stage IA non-small-cell lung cancer. *New England Journal of Medicine, 388*(6), 489–498. https://doi.org/10.1056/NEJMoa2212083（PMID: 36780674）
 
 Antonia, S. J., Villegas, A., Daniel, D., Vicente, D., Murakami, S., Hui, R., Yokoi, T., Chiappori, A., Lee, K. H., de Wit, M., Cho, B. C., Bourhaba, M., Quantin, X., Tokito, T., Mekhail, T., Planchard, D., Kim, Y. C., Karapetis, C. S., Hiret, S., . . . Özgüroğlu, M. (2017). Durvalumab after chemoradiotherapy in stage III non-small-cell lung cancer. *New England Journal of Medicine, 377*(20), 1919–1929. https://doi.org/10.1056/NEJMoa1709937（PMID: 28885881）
+
+Baize, N., Monnet, I., Greillier, L., Geier, M., Lena, H., Janicot, H., Vergnenegre, A., Crequit, J., Lamy, R., Auliac, J.-B., Letreut, J., Le Caer, H., Gervais, R., Dansin, E., Madroszyk, A., Renault, P.-A., Le Garff, G., Falchero, L., Berard, H., . . . Chouaid, C. (2020). Carboplatin plus etoposide versus topotecan as second-line treatment for patients with sensitive relapsed small-cell lung cancer: An open-label, multicentre, randomised, phase 3 trial. *The Lancet Oncology, 21*(9), 1224–1233. https://doi.org/10.1016/S1470-2045(20)30461-7（PMID: 32888454）
 
 Barlesi, F., Yao, W., Duruisseaux, M., Doucet, L., Martínez, A. A., Gregorc, V., Juan-Vidal, O., Lu, S., De Bondt, C., de Marinis, F., Linardou, H., Kim, Y.-C., Jotte, R., Felip, E., Lo Russo, G., Reck, M., Michenzie, M. F., Yang, W., Meade, J. N., . . . Mok, T. S. K. (2025). Adagrasib versus docetaxel in KRASG12C-mutated non-small-cell lung cancer (KRYSTAL-12): A randomised, open-label, phase 3 trial. *The Lancet, 406*(10503), 615–626. https://doi.org/10.1016/S0140-6736(25)00866-9（PMID: 40783289）
 
@@ -1081,6 +1088,8 @@ Spicer, J. D., Garassino, M. C., Wakelee, H., Liberman, M., Kato, T., Tsuboi, M.
 Spigel, D. R., Faivre-Finn, C., Gray, J. E., Vicente, D., Planchard, D., Paz-Ares, L., Vansteenkiste, J. F., Garassino, M. C., Hui, R., Quantin, X., Rimner, A., Wu, Y. L., Özgüroğlu, M., Lee, K. H., Kato, T., de Wit, M., Kurata, T., Reck, M., Cho, B. C., . . . Antonia, S. J. (2022). Five-year survival outcomes from the PACIFIC trial: Durvalumab after chemoradiotherapy in stage III non-small-cell lung cancer. *Journal of Clinical Oncology, 40*(12), 1301–1311. https://doi.org/10.1200/JCO.21.01308（PMID: 35108059）
 
 Takahashi, T., Yamanaka, T., Seto, T., Harada, H., Nokihara, H., Saka, H., Nishio, M., Kaneda, H., Takayama, K., Ishimoto, O., Takeda, K., Yoshioka, H., Tachihara, M., Sakai, H., Goto, K., & Yamamoto, N. (2017). Prophylactic cranial irradiation versus observation in patients with extensive-disease small-cell lung cancer: A multicentre, randomised, open-label, phase 3 trial. *The Lancet Oncology, 18*(5), 663–671. https://doi.org/10.1016/S1470-2045(17)30230-9（PMID: 28343976）
+
+Tindle, H. A., Stevenson Duncan, M., Greevy, R. A., Vasan, R. S., Kundu, S., Massion, P. P., & Freiberg, M. S. (2018). Lifetime smoking history and risk of lung cancer: Results from the Framingham Heart Study. *Journal of the National Cancer Institute, 110*(11), 1201–1207. https://doi.org/10.1093/jnci/djy041（PMID: 29788259）
 
 Trigo, J., Subbiah, V., Besse, B., Moreno, V., López, R., Sala, M. A., Peters, S., Ponce, S., Fernández, C., Alfaro, V., Gómez, J., Kahatt, C., Zeaiter, A., Zaman, K., Boni, V., Arrondeau, J., Martínez, M., Delord, J. P., Awada, A., . . . Paz-Ares, L. (2020). Lurbinectedin as second-line treatment for patients with small-cell lung cancer: A single-arm, open-label, phase 2 basket trial. *The Lancet Oncology, 21*(5), 645–654. https://doi.org/10.1016/S1470-2045(20)30068-1（PMID: 32224306）
 

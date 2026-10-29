@@ -2,7 +2,7 @@
 
 | 項目 | 內容 |
 |------|------|
-| 主要依據 | ASCO 2021 irAE 指引（Schneider et al.）、ESMO 2022 免疫治療毒性指引（Haanen et al.）、NCCN Management of Immunotherapy-Related Toxicities |
+| 主要依據 | ASCO 2021 irAE 指引（Schneider et al.）、ESMO 2022 免疫治療毒性指引（Haanen et al.）、NCCN Management of Immune Checkpoint Inhibitor-Related Toxicities（2026-10-29 查詢為 Version 1.2026；舊名 Management of Immunotherapy-Related Toxicities） |
 | 毒性分級 | NCI CTCAE v5.0（上述指引均以 v5.0 撰寫） |
 | 健保規定 | 本章不涉及第 9 節條文；irAE 治療用藥（如 infliximab）多屬仿單外使用，給付需另行確認 |
 | 最後更新 | 2026-10-29 |
@@ -97,7 +97,7 @@
 
 | 項目 | 做法 |
 |------|------|
-| PJP 預防 | **Prednisone ≥ 20 mg/day（或等效）持續 ≥ 4 週** → TMP-SMX 預防（Schneider et al., 2021） |
+| PJP 預防 | **Prednisone（或等效）≥ 20 mg/day 持續 ≥ 4 週，或 > 30 mg/day 持續 ≥ 3 週** → 考慮 PJP 預防（常用 TMP-SMX），依院內規範（Schneider et al., 2021） |
 | 腸胃道保護 | 高風險者（併用 NSAID、抗凝血劑、潰瘍病史）考慮 PPI 或 H2 blocker |
 | 血糖 | 定期監測，必要時胰島素 |
 | 骨骼 | 長期使用時補充鈣與維生素 D |
@@ -165,13 +165,13 @@
 
 > [!WARNING]
 > **先用 PD-(L)1 抑制劑、再接 osimertinib 的風險**
-> 回溯性研究顯示，在 PD-(L)1 抑制劑之後使用 osimertinib，15% 發生嚴重 irAE；**若在前次 PD-(L)1 治療後 3 個月內開始 osimertinib，比例達 24%**，以肺炎、肝炎、皮膚反應為主；反過來（osimertinib 之後才用 PD-(L)1）或換成其他 EGFR-TKI 則未觀察到（Schoenfeld et al., 2019）。這是肺癌章節「為什麼 EGFR 突變病人要先等基因報告再決定是否用免疫治療」的原因之一。
+> 回溯性研究顯示，在 PD-(L)1 抑制劑之後使用 osimertinib，15% 發生嚴重 irAE；**若在前次 PD-(L)1 治療後 3 個月內開始 osimertinib，比例達 24%**，以肺炎為主（6 例中 4 例為 Grade 3 肺炎），另有 Grade 3 大腸炎與 Grade 4 肝炎各 1 例；反過來（osimertinib 之後才用 PD-(L)1）或換成其他 EGFR-TKI 則未觀察到（Schoenfeld et al., 2019）。這是肺癌章節「為什麼 EGFR 突變病人要先等基因報告再決定是否用免疫治療」的原因之一。
 
 ### 5.5 甲狀腺
 
 | 類型 | 表現 | 處置 |
 |------|------|------|
-| 甲狀腺功能低下 | TSH 上升、free T4 下降；倦怠、怕冷、便秘、水腫 | 多可**繼續 ICI**；有症狀者 levothyroxine（年輕健康者約 1.6 µg/kg/day；老人或心臟病者從低劑量開始）；6–8 週後追蹤 TSH |
+| 甲狀腺功能低下 | TSH 上升、free T4 下降；倦怠、怕冷、便秘、水腫 | 多可**繼續 ICI**；有症狀（任何程度 TSH 上升），或無症狀但 TSH 持續 > 10 mIU/L（間隔約 4 週複驗）者給 levothyroxine（年輕健康者約 1.6 µg/kg/day；老人或心臟病者從低劑量開始）；6–8 週後追蹤 TSH |
 | 甲狀腺毒症（甲狀腺炎） | TSH 低、free T4 高；心悸、手抖、體重下降 | 多可繼續 ICI（嚴重者暫停至症狀緩解）；β-blocker 緩解症狀；多為暫時性，常在數週後轉為甲狀腺功能低下 |
 
 > [!WARNING]

@@ -2,7 +2,7 @@
 
 | 項目 | 內容 |
 |------|------|
-| 主要依據 | MASCC/ESMO 2023 止吐指引、ASCO 2020 止吐指引；ASCO 2015 白血球生長因子指引；ESMO 2018 癌痛指引；MASCC/ISOO 2020 黏膜炎指引；ASCO 2023 靜脈血栓指引；ESMO 2020 骨骼健康指引；ASCO 2017 緩和照護指引 |
+| 主要依據 | MASCC/ESMO 2023 止吐指引、ASCO 2020 止吐指引；ASCO 2026 白血球生長因子指引（Gyawali et al., 2026；取代 ASCO 2015）；ESMO 2018 癌痛指引；MASCC/ISOO 2020 黏膜炎指引；ASCO 2023 靜脈血栓指引；ESMO 2020 骨骼健康指引；ASCO 2017 緩和照護指引 |
 | 毒性分級 | NCI CTCAE v5.0 |
 | 健保規定 | 本章藥物（止吐劑、G-CSF、骨骼保護劑、抗凝血劑等）多不屬於第 9 節，給付條件需另行核對 |
 | 最後更新 | 2026-10-29 |
@@ -14,7 +14,7 @@
 ## 本章重點
 
 - **止吐要「一開始就給足」**：cisplatin 用四合一（NK1 拮抗劑＋5-HT3 拮抗劑＋dexamethasone＋olanzapine）；carboplatin AUC ≥ 5 用三合一。
-- **G-CSF 的門檻是 FN 風險約 20%**；不在發燒前、化療同一天或同步胸部放射治療時常規使用。
+- **G-CSF 的門檻是 FN 風險約 20%**；不常規用於無發燒的嗜中性球低下，也不在化療同一天或同步化學放射治療（尤其胸部）時使用。
 - **鴉片類止痛一定要同時開軟便劑**；突發痛劑量約為每日總量的 10–20%。
 - **癌症相關靜脈血栓**：DOAC 或 LMWH 至少 6 個月；腸胃道、泌尿道腫瘤用 DOAC 要留意出血。
 - **骨轉移打 zoledronic acid 或 denosumab 前先看牙**；denosumab 要補鈣與維生素 D。
@@ -92,7 +92,7 @@
 
 > [!CAUTION]
 > **NK1 拮抗劑等止吐藥的健保給付**
-> NK1 拮抗劑、palonosetron 等止吐藥的健保給付有適用化療方案與療程限制，不屬於第 9 節。本手冊尚未取得對應章節原文，開立前請依最新《藥品給付規定》與院內規範核對。
+> 止吐藥的健保給付屬《藥品給付規定》7.2 節「止吐劑」（115/10/22 版），不屬於第 9 節。7.2 節規定**靜脈注射**化療藥品的致吐風險與劑量標準依 **NCCN 最新版**認定，和 1.1 節的 MASCC/ESMO 分級不完全相同（例如 NCCN 將 carboplatin AUC ≥ 4 列為高致吐）。7.2.2 NK1 拮抗劑（aprepitant、fosaprepitant）限**高致吐**化療，口服限 3 天、每日 1 顆，注射限化療第 1 天；除第 1 天外不得併用 5-HT3 拮抗劑（化療第 4 天起仍有 Grade ≥ 2 嘔吐，第 4、5 天可依 7.2.1 給 5-HT3 拮抗劑）。7.2.1 palonosetron 限中、高致吐化療前使用。7.2.3 NEPA 限高致吐化療，或初次中致吐化療已併用含 5-HT3 拮抗劑處方仍發生噁心嘔吐、之後重複同一化療處方的療程；每次化療限 1 粒，3 天內不得併用其他 5-HT3 或 NK1 拮抗劑。因此 oxaliplatin 等中致吐方案一開始就加 NK1 拮抗劑（包括 1.2 節 MASCC/ESMO 對 ≤ 50 歲女性的選項），通常不在給付範圍。開立前請依最新公告原文與院內規範核對。
 
 ---
 
@@ -100,7 +100,7 @@
 
 ### 2.1 什麼時候用
 
-**ASCO 2015（Smith et al., 2015）：**
+**ASCO 2026 更新（Gyawali et al., 2026；核心建議與 ASCO 2015〔Smith et al., 2015〕相同）：**
 
 - **初級預防**：當化療方案的 FN 風險**約 ≥ 20%**，且沒有其他同樣有效、不需 G-CSF 的方案時使用；也用於依年齡、病史、疾病特性與方案毒性判斷為高風險的病人。
 - **次級預防**：前一週期發生 FN 或劑量限制性嗜中性球低下，而減量或延遲可能影響療效（尤其治癒目標）時。
@@ -127,7 +127,7 @@
 
 > [!CAUTION]
 > **G-CSF 的健保給付**
-> G-CSF 的健保給付條件（初級或次級預防、ANC 門檻、適用方案）不屬於第 9 節，需依最新《藥品給付規定》相關章節核對，不在本手冊目前的整理範圍。
+> G-CSF 的健保給付規定在《藥品給付規定》4.1.2 節（115/10/22 版），不屬於第 9 節。**實體腫瘤病人的預防性使用，須化療後曾經發生 WBC < 1,000/µL 或 ANC < 500/µL**：短效型 filgrastim、lenograstim 依 4.1.2.1 第 1 項 (4)（96/1/1），長效型 pegfilgrastim 依 4.1.2.2（限非骨髓性癌症，114/9/1；同一化療療程限 1 支，且不可併用短效型）。因此只依 FN 風險 ≥ 20% 在第一個療程就給的「初級預防」，通常不符合健保給付。短效型另可用於造血幹細胞移植、血液惡性疾病靜注化療後，以及化療後 FN 合併高危險情形（ANC < 100/µL、癌症不受控制、肺炎、低血壓、多器官衰竭或侵犯性黴菌感染等）；這些例外不適用於 pegfilgrastim。依規定，短效型在 WBC > 4,000/µL 或 ANC > 2,000/µL 時停藥（預估骨髓不易恢復者可先減為半量，再減為 1/4 量）。開立前請依最新公告原文與院內規範核對。
 
 ---
 
@@ -177,8 +177,8 @@
 
 > [!WARNING]
 > **Fentanyl 貼片三不**
-> 1. 不用於未曾使用鴉片類（opioid-naive）的病人。
-> 2. 不用於快速變化、需要快速調整的急性疼痛（貼上後 12–24 小時才達穩定）。
+> 1. 只用於**鴉片類耐受（opioid-tolerant）**的病人：已連續 ≥ 1 週每日使用口服 morphine ≥ 60 mg、oxycodone ≥ 30 mg、hydromorphone ≥ 8 mg 或等效劑量；opioid-naive 或低劑量使用者皆屬禁忌，也不可當第一個使用的鴉片類。
+> 2. 不用於快速變化、需要快速調整的急性疼痛（貼上後血中濃度約 12–24 小時才逐漸升到平台，第 2 片〔約第 6 天〕結束時才達穩定態；首次加量至少間隔 3 天，之後每 6 天最多調整一次）。
 > 3. 不要讓貼片部位加熱（電毯、熱敷、發燒會增加吸收，可能過量）。
 
 ---
@@ -268,12 +268,12 @@
 | Apixaban | Caravaggio：10 mg BID × 7 天 → 5 mg BID | 復發 5.6% vs. 7.9%，不劣於 dalteparin；**主要出血 3.8% vs. 4.0%，未增加**（Agnelli et al., 2020） |
 
 - **療程**：至少 6 個月；癌症仍活動或仍在治療者通常持續。
-- **選藥考量**：腸胃道或泌尿道腫瘤（尤其原發腫瘤未切除）用 edoxaban、rivaroxaban 出血風險較高；注意 CYP3A4 與 P-gp 藥物交互作用（許多標靶藥）；血小板 < 50,000/µL、腎功能差需調整。
+- **選藥考量**：腸胃道或泌尿道腫瘤（尤其原發腫瘤未切除）用 edoxaban、rivaroxaban 出血風險較高；注意 CYP3A4 與 P-gp 藥物交互作用（許多標靶藥）；血小板 < 50,000/µL 時 DOAC 缺乏證據（各試驗多排除此族群），通常改用 LMWH 並依血栓／出血風險減量或輸注血小板、< 25,000/µL 多暫停抗凝；腎功能差者需依 CrCl 調整劑量或選藥。
 
 > [!IMPORTANT]
 > **VTE 的考點**
 > - Khorana 分數：胃、胰臟 2 分；肺、淋巴瘤、婦科、膀胱、睪丸 1 分；PLT ≥ 350k、Hb < 10、WBC > 11k、BMI ≥ 35 各 1 分。
-> - 三個 DOAC 試驗共同結論：不劣於 LMWH；edoxaban、rivaroxaban 出血較多，apixaban 未增加主要出血。
+> - Hokusai（以復發 VTE＋主要出血複合指標）與 Caravaggio（以復發 VTE）證實不劣於 dalteparin；SELECT-D 為前導（pilot）試驗、未做不劣性檢定，但復發數值較低（4% vs. 11%）；edoxaban、rivaroxaban 出血較多，apixaban 未增加主要出血。
 
 > [!CAUTION]
 > **抗凝血劑的健保給付**
@@ -436,6 +436,8 @@ Elad, S., Cheng, K. K. F., Lalla, R. V., Yarom, N., Hong, C., Logan, R. M., Bowe
 Fallon, M., Giusti, R., Aielli, F., Hoskin, P., Rolke, R., Sharma, M., & Ripamonti, C. I. (2018). Management of cancer pain in adult patients: ESMO clinical practice guidelines. *Annals of Oncology, 29*(Suppl 4), iv166–iv191. https://doi.org/10.1093/annonc/mdy152 (PMID: 30052758)
 
 Ferrell, B. R., Temel, J. S., Temin, S., Alesi, E. R., Balboni, T. A., Basch, E. M., Firn, J. I., Paice, J. A., Peppercorn, J. M., Phillips, T., Stovall, E. L., Zimmermann, C., & Smith, T. J. (2017). Integration of palliative care into standard oncology care: American Society of Clinical Oncology clinical practice guideline update. *Journal of Clinical Oncology, 35*(1), 96–112. https://doi.org/10.1200/JCO.2016.70.1474 (PMID: 28034065)
+
+Gyawali, B., Bohlke, K., Dickter, J. K., Kelkar, A. H., Knopf, K. B., Rapoport, B. L., Roof, L., Schott, S., Seshadri, M. R., Shilpakar, R., Smith, T. J., Trapani, D., Woodard, A. B., & Cigler, T. (2026). WBC growth factors: ASCO guideline update. *Journal of Clinical Oncology, 44*(9), 812–824. https://doi.org/10.1200/JCO-25-02938 (PMID: 41740078)
 
 Hashimoto, H., Abe, M., Tokuyama, O., Mizutani, H., Uchitomi, Y., Yamaguchi, T., Hoshina, Y., Sakata, Y., Takahashi, T. Y., Nakashima, K., Nakao, M., Takei, D., Zenda, S., Mizukami, K., Iwasa, S., Sakurai, M., Yamamoto, N., & Ohe, Y. (2020). Olanzapine 5 mg plus standard antiemetic therapy for the prevention of chemotherapy-induced nausea and vomiting (J-FORCE): A multicentre, randomised, double-blind, placebo-controlled, phase 3 trial. *Lancet Oncology, 21*(2), 242–249. https://doi.org/10.1016/S1470-2045(19)30678-3 (PMID: 31838011)
 

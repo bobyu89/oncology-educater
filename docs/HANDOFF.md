@@ -28,18 +28,16 @@
   - `notes/research/`：肺癌（A、B1、B2）、胰臟癌（pancreas_1–3）、乳癌（breast_1–4）、肉瘤（sarcoma_1–4），每個事實都標 [VERIFIED]/[PARTIAL]/[UNVERIFIED]，附 APA 文獻與 PMID。
   - `notes/nhi/extract_*_verified.md`：健保條文萃取，已由第二個 agent 逐字對照原文校正，含「手冊用總表」可直接放進第 9 段。
 
-## 三、交班時仍在跑的工作
+## 三、背景工作（皆已完成）
 
-1. **肺癌與共用章節的對抗式查核**（腳本：`notes/workflows/audit-oncology-handbook-*.js`）。流程：分段找錯 → 每個疑點兩個 agent 驗證 → 兩者都確認才由修正 agent 改檔。
-   - 若交班時已完成：修正已寫入 `handbook/`，結果摘要見本文件第五節。
-   - 若未完成：下一個 session 可重跑腳本（腳本內的暫存路徑要改成 `notes/research`）。
+1. **肺癌與共用章節的對抗式查核**：已完成，修正已寫入 `handbook/`，摘要見第五節。腳本在 `notes/workflows/audit-oncology-handbook-*.js`，寫完新章節可沿用，但要把腳本內的暫存路徑改成 `notes/research`。
 2. **三個癌別研究的補漏評論**：已完成，補漏內容在 `notes/research/` 各檔案末尾的「## Critic additions」。每份研究的摘要（含重要更正）在 `notes/research/00-research-summaries.txt`，寫章前先讀。重點：
    - 胰臟癌：daraxonrasib（RASolute 302，OS 13.2 對 6.7 個月）已獲美國 FDA 核准（2026-08-26），台灣未上市；TS-1 在台灣沒有術後輔助適應症；Onivyde 第一線 NALIRIFOX 已有台灣適應症；KRAS G12C 只占約 1.6%；PRODIGE 24 用 5 年數據（OS 53.5 對 35.5 個月）。
    - 台灣 UGT1A1*6 頻率約 13%（irinotecan 劑量相關）；5-FU／capecitabine 仿單已加 DPYD 檢測的加框警語（2025-10）。
 
 ## 四、下一步（照順序）
 
-1. **檢查查核結果**：`git diff` 看 `handbook/` 被改了什麼，抽查幾項；執行建置（見第六節），確認沒有壞掉的連結。
+1. **裁決 8 項分歧**：看 `notes/audit/audit-2026-10-29.md`，決定是否修改。
 2. **補肺癌第 9 段**：依 `notes/nhi/extract_lung_egfr_verified.md`、`extract_lung_alk_other_verified.md`、`extract_lung_io_verified.md`、`extract_lung_chemo_vegf_verified.md` 寫入，取代現有架構表，並移除 `<!-- status: pending -->`。重點：
    - 每列附條號與最新修訂日期；說明通則十二（生物標記報告的三種合格來源）。
    - 第一線 EGFR TKI 擇一使用、不得互換的規則；osimertinib 第一線自 111/4/1 給付；aumolertinib（9.138）是台灣有給付的第三代 EGFR TKI。
@@ -57,7 +55,14 @@
 
 ## 五、查核結果摘要
 
-（交班時查核尚未完成；完成後由當時的 session 補上。）
+完整紀錄：`notes/audit/audit-2026-10-29.md`。
+
+- 確認並已修正 65 項（critical 2、major 12、minor 51），已寫入 `handbook/`。
+  - critical：SIADH 出現抽搐或意識改變時，要先給高張食鹽水；fentanyl 貼片只限已耐受鴉片類藥物的病人。
+  - major 包括：戒菸後風險變化、durvalumab 肺炎 G3–4 要永久停藥、SCLC 敏感／抗藥復發的切點改為 90 天（Baize et al., 2020）、sunvozertinib 不列第一線、CTCAE 版本統一、dexrazoxane 每日最大劑量等。
+- 修正時新增的引用（Baize 2020、Tindle 2018、Gyawali 2026）已補進參考文獻表；建置通過，沒有壞連結。
+- **意見分歧未修改 8 項**：兩位驗證者看法不同，紀錄檔附雙方理由，請下次裁決。
+- **內容缺口建議 20 項**：評論者提出，未自動加入，可視用量挑高優先的補上。
 
 ## 六、常用指令
 
