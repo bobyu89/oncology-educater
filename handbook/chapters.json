@@ -1,0 +1,78 @@
+{
+  "title": "腫瘤科專師學習手冊",
+  "subtitle": "Oncology NP Handbook — 實習臨床 × 專師甄審",
+  "chapters": [
+    {
+      "id": "lung-cancer",
+      "file": "01-lung-cancer.md",
+      "title": "肺癌",
+      "en": "Lung Cancer",
+      "group": "癌別",
+      "ribbon": "lung",
+      "status": "樣板審閱中"
+    },
+    {
+      "id": "pancreatic-cancer",
+      "file": "02-pancreatic-cancer.md",
+      "title": "胰臟癌",
+      "en": "Pancreatic Cancer",
+      "group": "癌別",
+      "ribbon": "pancreas",
+      "status": "規劃中"
+    },
+    {
+      "id": "breast-cancer",
+      "file": "03-breast-cancer.md",
+      "title": "乳癌",
+      "en": "Breast Cancer",
+      "group": "癌別",
+      "ribbon": "breast",
+      "status": "規劃中"
+    },
+    {
+      "id": "sarcoma",
+      "file": "04-sarcoma.md",
+      "title": "骨肉瘤與軟組織肉瘤",
+      "en": "Bone & Soft Tissue Sarcoma",
+      "group": "癌別",
+      "ribbon": "sarcoma",
+      "status": "規劃中"
+    },
+    {
+      "id": "chemo-basics",
+      "file": "00-shared/01-chemo-basics.md",
+      "title": "化療基礎與劑量計算",
+      "en": "Chemotherapy Basics & Dosing",
+      "group": "共用",
+      "ribbon": "shared",
+      "status": "樣板審閱中"
+    },
+    {
+      "id": "oncologic-emergencies",
+      "file": "00-shared/02-oncologic-emergencies.md",
+      "title": "腫瘤急症",
+      "en": "Oncologic Emergencies",
+      "group": "共用",
+      "ribbon": "shared",
+      "status": "樣板審閱中"
+    },
+    {
+      "id": "supportive-care",
+      "file": "00-shared/03-supportive-care.md",
+      "title": "支持性照護",
+      "en": "Supportive Care",
+      "group": "共用",
+      "ribbon": "shared",
+      "status": "樣板審閱中"
+    },
+    {
+      "id": "irae",
+      "file": "00-shared/04-irae.md",
+      "title": "免疫治療副作用（irAE）",
+      "en": "Immune-related Adverse Events",
+      "group": "共用",
+      "ribbon": "shared",
+      "status": "樣板審閱中"
+    }
+  ]
+}
