@@ -366,3 +366,170 @@ Antidotes/rules to memorise: **irinotecan early diarrhoea → atropine 0.25–1 
 - **NHI reimbursement criteria** for any drug above: unreachable (nhi.gov.tw down).
 - **Onivyde "2003 Hermes licence" date:** press sources confirm PharmaEngine licensed from Hermes and that Merrimack acquired Hermes in 2009, but the exact original licensing year is not confirmed in a source I read — state "early 2000s" or omit the year.
 - NCCN Pancreatic Adenocarcinoma is **Version 4.2026** (nccn.org reachable) and twcr.tw is reachable if the chapter later needs Taiwan incidence/NCCN category cross-checks.
+
+---
+
+## Critic additions
+
+Completeness critic pass, 2026-10-29. Append only; nothing above was changed. Same tag conventions as this file. Labels were re-pulled from openFDA today (effective dates given). TFDA = licence open-data file InfoId=36 (CSV dated 2026-10-27).
+
+### CA-0. Re-check of high-stakes numbers already in this file
+
+| # | Item in this file | Primary source re-read | Verdict |
+|---|---|---|---|
+| 1 | NALIRIFOX Onivyde 50 mg/m², same dose for UGT1A1*28/*28; corticosteroid + antiemetic 30 min before | ONIVYDE USPI (openFDA effective 2025-03-03) §2.2 | **Confirmed** [VERIFIED] |
+| 2 | nal-IRI 70 mg/m² free base = 80 mg/m² hydrochloride trihydrate | ONIVYDE §14 ("based on irinotecan free base (equivalent to 80 mg/m² of irinotecan as the hydrochloride trihydrate)") | **Confirmed** [VERIFIED] |
+| 3 | Gem + nab-P ladder 125/1000 → 100/800 → 75/600 → stop | ABRAXANE USPI (2022-10-31) §2.6 Table 3 | **Confirmed** [VERIFIED] |
+| 4 | Atropine 0.25–1 mg IV/SC; loperamide 4 mg then 2 mg q2h until diarrhoea-free ≥12 h, 4 mg q4h at night, not >48 consecutive h | CAMPTOSAR USPI (2026-05-12) §5.1 and §17 | **Confirmed** word for word [VERIFIED] |
+| 5 | Capecitabine 830 mg/m² BID d1–21 q28d, max 6 cycles, with gemcitabine 1000 mg/m² d1, 8, 15 | XELODA USPI (2026-02-05) §2.5 | **Confirmed** [VERIFIED] |
+| 6 | Olaparib 300 mg BID; CrCl 31–50 mL/min → 200 mg BID | LYNPARZA USPI (2025-07-10) §2.5 | **Confirmed** [VERIFIED] |
+| 7 | PERT 40,000–50,000 lipase units per main meal, half with snacks | Dominguez-Muñoz 2025 [FT] | **Confirmed.** The guideline calls this a "minimum dose", and says evidence for doses below 40,000 is scarce [VERIFIED]. Computed: Creon 25000 → 2 capsules per main meal, 1 per snack. |
+| 8 | mFOLFIRINOX irinotecan 180 → 150 mg/m²; no 5-FU bolus | PRODIGE 24 abstract (PMID 30575490); NCCN Guidelines for Patients 2026 ("a slow drip of fluorouracil instead of a fast injection") | **Confirmed** [VERIFIED] |
+| 9 | Khorana: site 2/1 points; platelets ≥350 ×10⁹/L; Hb <10 g/dL or ESA; WBC >11 ×10⁹/L; BMI ≥35; VTE 7.1%/6.7% at score ≥3 | Khorana 2008 abstract | **Confirmed** [VERIFIED]. "Very high-risk = stomach, pancreas" is still sourced only from Mulder 2019 [PARTIAL]. |
+| 10 | CASSINI pancreatic subgroup "on-treatment VTE 3.7% vs 10.1%, HR 0.35" | Vadhan-Raj 2020 abstract | **Numbers correct but incomplete.** See correction CA-1a. |
+| 11 | Gemcitabine "1000 mg/m², days 1, 8, 15 of a 28-day cycle (pancreas) [L §2.4]" | Gemcitabine USPI (Avgemsi, openFDA 2026-07-27) §2.4 | **Imprecise.** See correction CA-1b. |
+
+### CA-1. Corrections
+
+**CA-1a. CASSINI pancreatic subgroup: primary endpoint was NOT significant** [VERIFIED; A, Vadhan-Raj 2020]
+- Primary efficacy endpoint (up to day 180): **9.6% (13/135) vs 13.0% (18/138), HR 0.70 (0.34–1.43), P = .328**, which is not significant.
+- On-treatment (intervention) period: 3.7% vs 10.1%, HR 0.35 (0.13–0.97), P = .034. This is the figure §22 quotes.
+- Major bleeding: 1.5% vs 2.3%.
+- At screening, 6.6% (24/362) of pancreatic patients **already had VTE** and were not randomised. This supports baseline imaging review before starting prophylaxis.
+- Suggested handbook wording: "In CASSINI, rivaroxaban did not significantly reduce VTE in pancreatic cancer over 180 days. Benefit was seen only while patients were taking the drug."
+
+**CA-1b. Gemcitabine single-agent label schedule** [VERIFIED; L, gemcitabine (Avgemsi) 2026-07-27 §2.4]
+- The label's pancreatic schedule is **1000 mg/m² over 30 min weekly for 7 weeks, then 1 week of rest; after week 8, days 1, 8 and 15 of each 28-day cycle.**
+- The days 1, 8, 15 q28d schedule from cycle 1 is the adjuvant schedule (CONKO-001, PRODIGE 24 control arm) and the gem + nab-P schedule. It is not the label's metastatic single-agent schedule. §6 should say this.
+- Myelosuppression table for pancreatic cancer (label Table 4):
+  - ANC ≥1,000 **and** platelets ≥100,000 → full dose
+  - ANC 500–999 **or** platelets 50,000–99,999 → 75% of the dose
+  - ANC <500 **or** platelets <50,000 → hold
+- Permanent discontinuation: SCAR, unexplained dyspnoea or severe pulmonary toxicity, HUS or severe renal impairment, severe hepatotoxicity, capillary leak, PRES.
+
+**CA-1c. Thromboprophylaxis in Taiwan: optional, not routine** [VERIFIED; A Chen 2018; FT Pan-Asian 2025]
+- Taiwanese 4-centre cohort (Chen 2018; 838 patients on palliative chemotherapy, 2010–2016):
+  - VTE occurred in **8.0% (67/838)** over a median follow-up of 7.7 months.
+  - Independent predictors were **WBC >11,000/µL** and **liver metastases**.
+  - VTE overall did not shorten survival, but **early-onset VTE (within 1.5 months of starting chemotherapy) was an independent negative prognostic factor**.
+- The Pan-Asian ESMO guideline (2025; Taiwan Oncology Society voted) **downgraded** primary prophylaxis to "can be considered … in the absence of contraindications **[I, C]**", because VTE rates are lower in Asian patients and there is no OS benefit.
+- Practical consequence: §22 should not present rivaroxaban or apixaban prophylaxis as standard for Taiwanese patients.
+- NCCN Guidelines for Patients 2026 (anticoagulant choice) [VERIFIED]:
+  - LMWH is preferred over warfarin for VTE treatment.
+  - A DOAC "may be used if the pancreatic tumor is not growing inside of the stomach or intestine", because of the GI bleeding risk.
+  - Ward check: endoscopic or CT evidence of duodenal or gastric invasion before choosing a DOAC.
+
+### CA-2. Organ-function dosing for jaundiced, elderly or renally impaired patients (order-set ready)
+
+Pancreatic-head cancer patients are often jaundiced, so these thresholds decide whether chemotherapy can start before biliary drainage.
+
+| Drug | Hepatic rule (label wording) | Renal rule | Source / tag |
+|---|---|---|---|
+| **Liposomal irinotecan (Onivyde)** | **"There is no recommended dosage of ONIVYDE for patients with serum bilirubin above the upper limit of normal."** Applies to both NALIRIFOX and NAPOLI-1 regimens. | — | L-ONIVYDE §2.2 [VERIFIED] |
+| **Irinotecan (Camptosar; in FOLFIRINOX)** | Consider a one-level starting-dose reduction for raised bilirubin; **no dose can be recommended for bilirubin >2 mg/dL**. Trials excluded bilirubin >2.0 mg/dL or transaminases >3× ULN (>5× with liver metastases). With the weekly schedule, bilirubin 1.0–2.0 mg/dL raised grade 3–4 neutropenia risk. | Use caution; **do not use in patients on dialysis** | L-CAMPTOSAR §2, §5.10, §8 [VERIFIED] |
+| **Nab-paclitaxel (pancreas)** | **Not recommended** if bilirubin >1.5× ULN (moderate or severe impairment) or AST >10× ULN. Patients with bilirubin above ULN were excluded from the pancreatic trial. | — | L-ABRAXANE §2.5 Table 1 [VERIFIED] |
+| **Gemcitabine** | No numeric hepatic dose rule. Check LFTs before and during treatment. Liver metastases, hepatitis, alcoholism or cirrhosis can worsen hepatic insufficiency. Stop permanently for severe hepatotoxicity. | Stop for HUS or severe renal impairment | L-gemcitabine §5.5–5.6 [VERIFIED] |
+| **Oxaliplatin** | Check LFTs at baseline and before each cycle (hepatic vascular disorders). | **CrCl <30 mL/min → 65 mg/m²** | L-oxaliplatin (Gland, 2026-08-24) §2.3, §5.6 [VERIFIED] |
+| **Capecitabine** | Grade 3–4 hyperbilirubinaemia: hold, and resume when ≤ grade 2 (<3× ULN) at the Table 1 dose | **CrCl 30–50 → reduce by 25%**; no dosage established for CrCl <30 | L-XELODA §2.6–2.7 [VERIFIED] |
+| **Olaparib** | — | CrCl 31–50 → 200 mg BID | L-LYNPARZA §2.5 [VERIFIED] |
+| FOLFIRINOX trial entry (PRODIGE 4; PRODIGE 24) | Bilirubin ≤1.5× ULN (biliary drainage allowed in PRODIGE 4) | Creatinine <120 µmol/L (PRODIGE 4) or <130 µmol/L (PRODIGE 24) | ClinicalTrials.gov NCT00112658, NCT01526135 [VERIFIED registry]; see pancreas_2 Critic additions |
+
+Teaching sentence (derived from the rows above): "Drain the bile duct first. Onivyde needs a normal bilirubin; nab-paclitaxel is not recommended above 1.5× ULN; and the FOLFIRINOX trials required ≤1.5× ULN."
+
+### CA-3. Onivyde administration and dose modification detail (missing from §2–3) [VERIFIED; L-ONIVYDE 2025-03-03]
+
+- **Boxed warning** (severe neutropenia and severe diarrhoea):
+  - Withhold for ANC <1,500/mm³ or neutropenic fever.
+  - Do not give with bowel obstruction.
+  - Withhold for grade 2–4 diarrhoea.
+  - Give loperamide for late diarrhoea and atropine for early diarrhoea, of any severity.
+- **NALIRIFOX (Table 1):**
+  - After a grade 3–4 adverse reaction, do not resume until **ANC ≥2,000/mm³** and platelets ≥100,000/mm³. Note that this is stricter than the 1,500 threshold used elsewhere.
+  - Onivyde dose steps: **50 → 40 → 32.5 → 25 mg/m² → discontinue**.
+  - With each Onivyde reduction, reduce 5-FU and oxaliplatin to **80%, then 65%, then 50%** of the original dose. Leucovorin stays at the original dose.
+  - Oxaliplatin may be dropped while Onivyde + 5-FU/LV continues.
+  - Discontinue Onivyde for grade 3–4 hand-foot syndrome, any neurocerebellar toxicity, grade ≥2 cardiac toxicity, ILD or anaphylaxis.
+- **NAPOLI-1 regimen (Table 2):** 70 → 50 → 43 mg/m² → discontinue. For *28/*28 patients not escalated: 50 → 43 → 35 → discontinue.
+- **Preparation:**
+  - Vial: 43 mg/10 mL (irinotecan free base).
+  - Dilute in **500 mL D5W or NS** and protect from light.
+  - Use within 4 h at room temperature or 24 h refrigerated.
+  - Infuse over **90 min**.
+  - Give Onivyde **before** oxaliplatin, leucovorin and 5-FU.
+- **Nab-paclitaxel premedication** [VERIFIED; L-ABRAXANE §2.1]: no routine premedication. "Consider premedication" only after a prior hypersensitivity reaction, and do not rechallenge after a severe reaction. This contrasts with conventional paclitaxel.
+
+### CA-4. Gem + nab-P within-cycle rules (missing from §4) [VERIFIED; L-ABRAXANE Tables 4–5]
+
+**Day 1**
+- ANC <1,500 or platelets <100,000 → delay until recovery.
+
+**Day 8**
+- ANC 500–<1,000 or platelets 50,000–<75,000 → reduce one dose level.
+- ANC <500 or platelets <50,000 → withhold.
+
+**Day 15, if day 8 doses were reduced or given in full**
+- ANC 500–<1,000 or platelets 50,000–<75,000 → one level below day 8.
+- ANC <500 or platelets <50,000 → withhold.
+
+**Day 15, if day 8 doses were withheld**
+- ANC ≥1,000 or platelets ≥75,000 → one level below day 1.
+- ANC 500–<1,000 or platelets 50,000–<75,000 → two levels below day 1.
+- ANC <500 or platelets <50,000 → withhold.
+
+**Other adverse reactions**
+- Grade 3–4 febrile neutropenia: withhold both drugs until fever resolves and ANC ≥1,500, then resume one level lower.
+- Grade 2–3 cutaneous toxicity: one level lower; stop if it persists.
+- Grade 3 mucositis or diarrhoea: withhold until ≤ grade 1, then one level lower.
+
+### CA-5. Post-pancreatectomy complications (ISGPS definitions; ward-critical, previously absent)
+
+| Complication | Definition and grading | Tag |
+|---|---|---|
+| **Postoperative pancreatic fistula (POPF), ISGPS 2016** | Drain output of **any measurable volume** with **amylase >3× the institutional upper limit of normal serum amylase**, *plus* a clinically relevant condition. The old "grade A" is now a **biochemical leak** and is no longer counted as a fistula. **Grade B**: change in postoperative management, with drains left in place for >3 weeks or repositioned endoscopically or percutaneously. **Grade C**: reoperation, single or multiple organ failure, and/or death attributable to the POPF. | [VERIFIED; A Bassi 2017] |
+| | "On or after postoperative day 3" timing: stated in secondary sources, not in the abstract | [PARTIAL] |
+| | A 2024 corrigendum exists (Surgery 176(3):988–989, PMID 38926000); content not read | — |
+| **Delayed gastric emptying (DGE), ISGPS 2007** | Inability to return to a standard diet by the end of the first postoperative week, including prolonged nasogastric intubation; grades A, B and C by clinical impact. | [VERIFIED; A Wente 2007] |
+| | Grade cut-offs: **A**, unable to tolerate solid oral intake by POD 7; **B**, by POD 14; **C**, by POD 21. Grade A is not clinically relevant. Another series quotes the B threshold as NGT >7 days or reinsertion after POD 7. | [PARTIAL; secondary: Jiménez-Romero 2025 FT and others] |
+| **Post-pancreatectomy haemorrhage (PPH), ISGPS 2007** | Defined by **onset** (early ≤24 h vs late >24 h after the end of surgery), **location** (intraluminal vs extraluminal) and **severity** (mild vs severe); graded A–C by onset, site, severity and clinical impact. | [VERIFIED; A Wente 2007] |
+| | Grade C involves embolisation, endoscopy or relaparotomy | [PARTIAL; secondary] |
+| **Chyle leak, ISGPS 2017** | **Milky fluid** from a drain, drain site or wound **on or after POD 3**, with **triglycerides ≥110 mg/dL (≥1.2 mmol/L)**. Occurs in up to 10% of resections. **A**: oral dietary restriction only. **B**: longer stay, nasoenteral nutrition with dietary restriction, TPN, octreotide, drains kept or new percutaneous drains. **C**: more invasive in-hospital treatment, ICU or death. | [VERIFIED; A Besselink 2017] |
+| **Pasireotide for POPF prevention** | Single-centre RCT, n = 300. Pasireotide 900 µg SC BID from the morning of surgery for 7 days (14 doses). Grade ≥3 fistula, leak or abscess **9% vs 21%, RR 0.44 (0.24–0.78), P = .006**. Benefit was seen after both PD and distal pancreatectomy. | [VERIFIED; A Allen 2014] |
+| **Taiwan licence status** | Pasireotide (Signifor 欣瘤伏, 衛署藥輸字第026093–026095號) is licensed for **Cushing's disease only**, so POPF use is off-label. **Octreotide** (Sandostatin 善得定 衛署藥輸字第017873號 and generics, e.g. 霖肽 衛部藥製字第061437號) has a Taiwan indication that explicitly includes **「預防胰臟手術後的併發症」**. | [VERIFIED; TFDA] |
+
+Nursing cue (editorial, not sourced): drain colour and amylase on schedule; milky output → send triglycerides; a "sentinel" bleed from a drain or the GI tract after the first post-op day → escalate for urgent CT angiography.
+
+### CA-6. TFDA look-ups that close items in §F (file dated 2026-10-27) [VERIFIED; TFDA]
+
+- **Uridine triacetate (Vistogard): 0 records**, so it is not licensed in Taiwan. Special-import availability is [UNVERIFIED].
+- **Capecitabine:** 5 active licences, **including Xeloda 衛署藥輸字第022409號**; none mention 胰. Xeloda's Taiwan indications are breast, colorectal and gastric only. **GemCap for pancreatic cancer is off-label in Taiwan.** This closes the first bullet of §F.
+- **Creon 25000 / 40000** (衛部藥輸字第027421/027422號) re-confirmed for PEI (CF, chronic pancreatitis, pancreatic surgery); Creon 10000 (027423) is licensed as a digestive aid only.
+
+### CA-7. Still unverified after this pass
+
+- **Emetogenic classification of FOLFIRINOX / NALIRIFOX: [UNVERIFIED].**
+  - The ASCO 2020 antiemetic update abstract does not classify these regimens, and the NCCN Antiemesis PDF was not opened.
+  - A Japanese FOLFIRINOX/FOLFOXIRI series (Tokushima, 2026) used "standard triple antiemetic prophylaxis" (NK1 + 5-HT3 + dexamethasone) [PARTIAL; practice only].
+  - The Onivyde label requires a corticosteroid + antiemetic before each dose.
+- G-CSF primary prophylaxis rules for FOLFIRINOX: not checked.
+- Post-ERCP pancreatitis prophylaxis (rectal NSAID): not checked.
+
+### CA-8. References for these additions (APA 7)
+
+- Allen, P. J., Gönen, M., Brennan, M. F., Bucknor, A. A., Robinson, L. M., Pappas, M. M., Carlucci, K. E., D'Angelica, M. I., DeMatteo, R. P., Kingham, T. P., Fong, Y., & Jarnagin, W. R. (2014). Pasireotide for postoperative pancreatic fistula. *The New England Journal of Medicine, 370*(21), 2014–2022. https://doi.org/10.1056/NEJMoa1313688 — PMID 24849084
+- Bassi, C., Marchegiani, G., Dervenis, C., Sarr, M., Abu Hilal, M., Adham, M., Allen, P., Andersson, R., Asbun, H. J., Besselink, M. G., Conlon, K., Del Chiaro, M., Falconi, M., Fernandez-Cruz, L., Fernandez-Del Castillo, C., Fingerhut, A., Friess, H., Gouma, D. J., Hackert, T., . . . Buchler, M. (2017). The 2016 update of the International Study Group (ISGPS) definition and grading of postoperative pancreatic fistula: 11 years after. *Surgery, 161*(3), 584–591. https://doi.org/10.1016/j.surg.2016.11.014 — PMID 28040257 (corrigendum: *Surgery*, 2024, *176*(3), 988–989, https://doi.org/10.1016/j.surg.2024.05.043, PMID 38926000; not read)
+- Besselink, M. G., van Rijssen, L. B., Bassi, C., Dervenis, C., Montorsi, M., Adham, M., Asbun, H. J., Bockhorn, M., Strobel, O., Büchler, M. W., Busch, O. R., Charnley, R. M., Conlon, K. C., Fernández-Cruz, L., Fingerhut, A., Friess, H., Izbicki, J. R., Lillemoe, K. D., Neoptolemos, J. P., . . . Gouma, D. J. (2017). Definition and classification of chyle leak after pancreatic operation: A consensus statement by the International Study Group on Pancreatic Surgery. *Surgery, 161*(2), 365–372. https://doi.org/10.1016/j.surg.2016.06.058 — PMID 27692778
+- Chen, J.-S., Hung, C.-Y., Chang, H., Liu, C.-T., Chen, Y.-Y., Lu, C.-H., Chang, P.-H., Hung, Y.-S., & Chou, W.-C. (2018). Venous thromboembolism in Asian patients with pancreatic cancer following palliative chemotherapy: Low incidence but a negative prognosticator for those with early onset. *Cancers, 10*(12), Article 501. https://doi.org/10.3390/cancers10120501 — PMID 30544670; PMCID PMC6315992
+- Jiménez-Romero, C., de Juan Lerma, A., Marcacuzco Quinto, A., Caso Maestro, O., Alonso Murillo, L., Rioja Conde, P., & Justo Alonso, I. (2025). Risk factors for delayed gastric emptying after pancreatoduodenectomy: A 10-year retrospective study. *Annals of Medicine, 57*(1), Article 2453076. https://doi.org/10.1080/07853890.2025.2453076 — PMID 39817563; PMCID PMC11740295 (secondary source for DGE grade cut-offs)
+- Tai, D., Conroy, T., Lee, J. J. X., Chee, C. E., Hao, C. Y., Wijaya, I., Aggarwal, S., Ueno, M., Jeung, H. C., Hashim, N. M., Tan Chun Bing, J., Chen, L. T., Korphaisarn, K., Tanasanvimon, S., Chou, W. C., Cargullo, E., Muin, N. F. A., Lee, M. A., Ohba, A., . . . Ducreux, M. (2025). Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer. *ESMO Open, 10*(10), Article 105826. https://doi.org/10.1016/j.esmoop.2025.105826 — PMID 41067164; PMCID PMC12546840
+- Vadhan-Raj, S., et al. (2020) and Dominguez-Muñoz, J. E., et al. (2025): full references in §22 and §20 above.
+- Wente, M. N., Bassi, C., Dervenis, C., Fingerhut, A., Gouma, D. J., Izbicki, J. R., Neoptolemos, J. P., Padbury, R. T., Sarr, M. G., Traverso, L. W., Yeo, C. J., & Büchler, M. W. (2007). Delayed gastric emptying (DGE) after pancreatic surgery: A suggested definition by the International Study Group of Pancreatic Surgery (ISGPS). *Surgery, 142*(5), 761–768. https://doi.org/10.1016/j.surg.2007.05.005 — PMID 17981197
+- Wente, M. N., Veit, J. A., Bassi, C., Dervenis, C., Fingerhut, A., Gouma, D. J., Izbicki, J. R., Neoptolemos, J. P., Padbury, R. T., Sarr, M. G., Yeo, C. J., & Büchler, M. W. (2007). Postpancreatectomy hemorrhage (PPH): An International Study Group of Pancreatic Surgery (ISGPS) definition. *Surgery, 142*(1), 20–25. https://doi.org/10.1016/j.surg.2007.02.001 — PMID 17629996
+- US FDA prescribing information read via openFDA `drug/label`, 2026-10-29:
+  - ONIVYDE (Ipsen; effective 2025-03-03)
+  - ABRAXANE (Abraxis; 2022-10-31)
+  - CAMPTOSAR (Pharmacia & Upjohn; 2026-05-12)
+  - XELODA (H2-Pharma; 2026-02-05)
+  - LYNPARZA (AstraZeneca; 2025-07-10)
+  - gemcitabine injection AVGEMSI (Avyxa; 2026-07-27)
+  - oxaliplatin injection (Gland; 2026-08-24)
+- National Comprehensive Cancer Network. (2026). *NCCN Guidelines for Patients: Pancreatic cancer* (based on NCCN Guidelines v2.2026, April 22, 2026). https://www.nccn.org/patients/guidelines/content/PDF/pancreatic-patient.pdf

@@ -800,3 +800,308 @@ Other sources:
 - [NEWS] Targeted Oncology. (2025, January 13). FDA grants lete-cel BTD in myxoid/round cell liposarcoma. https://www.targetedonc.com/view/fda-grants-lete-cel-btd-in-myxoid-round-cell-liposarcoma
 - [NEWS] pharmaphorum. Eli Lilly withdraws cancer drug Lartruvo from all markets. https://pharmaphorum.com/news/eli-lilly-withdraws-cancer-drug-lartruvo-from-all-markets/
 - NCCN Guidelines for Patients: Soft Tissue Sarcoma (2025) and Gastrointestinal Stromal Tumors (2026), PDFs from nccn.org (copies in scratchpad `sarc_dl/`).
+
+---
+
+## Critic additions
+
+Completeness critique of all four sarcoma notes files (sarcoma_1 to sarcoma_4), done 2026-10-29 against the 13-section chapter plan (exemplar: handbook/01-lung-cancer.md). This section covers the whole chapter, not only this file. Its sources follow the same rules: [A] = PubMed abstract (NCBI E-utilities efetch); [FT] = PMC full text; [L] = openFDA label (effective date given); [TFDA] = TFDA licence file `36_2.csv` dated 2026-10-27; [GL-UK] = UK guideline full text in PMC. Tags are [VERIFIED], [PARTIAL] and [UNVERIFIED].
+
+### CA-0. Corrections and consistency fixes (read first)
+
+1. **NCCN STS version is wrong in sarcoma_4 §F.** That file says "Soft Tissue Sarcoma **1.2026**". When I re-read https://www.nccn.org/guidelines/category_1 on 2026-10-29, it showed **Soft Tissue Sarcoma Version 5.2026** [VERIFIED].
+   - The other versions on the page match the notes: GIST 1.2026; Bone Cancer 1.2027; Pediatric Bone Sarcoma 1.2027; Pediatric STS 1.2026; Kaposi Sarcoma 1.2027.
+   - Category 3/4 pages also match: Hematopoietic Growth Factors 1.2027; Antiemesis 2.2026; Survivorship 3.2026; CAR T-Cell and Lymphocyte Engager-Related Toxicities 2.2026; Cancer-Related Infections 1.2026; Cancer-Associated VTE 1.2026; AYA Oncology 2.2027 [VERIFIED].
+   - Use **v5.2026** in the chapter header.
+2. **Atezolizumab in ASPS: the paper and the US label give different response rates.**
+   - NEJM paper: ORR **37% (19/52; 1 CR, 18 PR)**, investigator-assessed [A].
+   - US label (study ML39345): ORR **24% (95% CI 13–39; 12/49 PR, 0 CR)** by independent review committee [L-Tecentriq 2026-05-20].
+   - State which source you quote. The exam-safe figure is the label's 24% (IRC).
+3. **Huvos grades: [UNVERIFIED] in sarcoma_2 §5 is now [PARTIAL].**
+   - Grade I: no chemotherapy effect. Grade II: partial response, >50% necrosis. Grade III: >90% necrosis with viable tumour present. Grade IV: no viable tumour.
+   - Good responder = >90% necrosis (Rosen criterion).
+   - Source: Bispo Júnior & Camargo 2011, quoting Huvos 1977 [FT; secondary citation; Huvos 1977 original not opened].
+   - Rosen 1982 abstract confirms the ">90% tumor necrosis" response criterion [A].
+4. **Pathological fracture management: one ward rule is missing from the notes.** For an impending or completed pathological fracture from a suspected primary bone tumour, use external splintage or immobilisation and pain control until imaging and biopsy are done. **"Internal fixation is contraindicated"** [GL-UK bone 2025; VERIFIED]. Teach it explicitly: an intramedullary nail through an undiagnosed sarcoma contaminates the whole bone.
+5. **The notes had no adjuvant-chemotherapy evidence for localised STS.** The largest RCT (EORTC 62931) was **negative**. Added in CA-3.
+6. **Not covered anywhere in the four files until now:**
+   - immunotherapy in sarcoma
+   - desmoid sorafenib
+   - denosumab for giant cell tumour of bone (GCTB)
+   - angiosarcoma paclitaxel (relevant because Taiwan has more angiosarcoma; see sarcoma_1 §1.4)
+   - imatinib interruption trials
+   - follow-up schedules
+   - referral criteria
+   - Li-Fraumeni surveillance
+   - sarcoma-specific emergencies (pathological fracture, pneumothorax, Doege–Potter hypoglycaemia, hypercalcaemia after stopping denosumab)
+
+   All are added below.
+
+### CA-1. Re-check of high-stakes numbers already in the notes (against current primary labels)
+
+| # | Number in notes (file) | Primary source re-read 2026-10-29 | Result |
+|---|---|---|---|
+| 1 | HD-MTX osteosarcoma **12 g/m² (max 20 g/dose) IV over 4 h** (s2 §1, §17) | Methotrexate Injection label, Hospira, effective 2025-06-10, set 0d63ba29: "typically 12 g/m² (maximum 20 g/dose) as an intravenous infusion over 4 hours" | **Confirmed** [VERIFIED] |
+| 2 | Leucovorin nomogram: 15 mg q6h × 10 from 24 h; normal ≈10/1/<0.2 µM at 24/48/72 h; delayed early = **≥50 µM at 24 h or ≥5 µM at 48 h or ≥100% creatinine rise** → 150 mg IV q3h until <1 µM, then 15 mg IV q3h until <0.05 µM (s2 §18a) | Leucovorin Calcium Injection, Sagent, effective 2026-06-16, set c0cbcbf6, Table 2 | **Confirmed word for word** [VERIFIED] |
+| 3 | Glucarpidase **50 U/kg IV over 5 min**; leucovorin ≥2 h before or after; same leucovorin dose for 48 h; continue until MTX below threshold ≥3 days (s2 §19) | VORAXAZE, BTG, effective 2024-11-27, set acaef5a6 | **Confirmed** [VERIFIED] |
+| 4 | Mesna IV **20% w/w at 0, 4, 8 h (240 mg/m² each for ifosfamide 1.2 g/m²; total 60%)**; IV+PO = 240 mg/m² IV at 0 h + **480 mg/m² PO at 2 and 6 h** (s4 §6b) | MESNEX, effective 2025-12-10, set 1dd69e84 | **Confirmed** [VERIFIED] |
+| 5 | Trabectedin **1.5 mg/m² 24-h IV q3w via central line; dexamethasone 20 mg IV 30 min before**; moderate hepatic impairment 0.9 mg/m²; CPK delay >2.5 × ULN, reduce >5 × ULN (s3 §8, s4 §9) | YONDELIS, Janssen, effective 2026-01-06, set 472bd78e | **Confirmed** [VERIFIED] |
+| 6 | PEDMARK by actual weight **<5 kg 10 g/m²; 5–10 kg 15 g/m²; >10 kg 20 g/m²**, over 15 min, 6 h after the end of cisplatin, ≥10 h before the next cisplatin; only after 1–6-h cisplatin infusions (s2 §23) | PEDMARK, Fennec, effective 2025-10-27, set f98c7076 | **Confirmed** [VERIFIED] |
+| 7 | NCCN STS version (s4 §F "1.2026") | nccn.org category_1 | **Wrong; current is 5.2026** (CA-0 item 1) |
+
+No dose corrections were needed. All six re-checked doses and thresholds match the current US labels.
+
+### CA-2. Screening, early detection and referral (chapter section 2)
+
+**No population screening exists for sarcoma or GIST.**
+- Taiwan's government-subsidised programmes do not include sarcoma. MOHW (2025-01-10) describes LDCT lung screening as **「第五癌篩檢」**, the fifth national cancer screening [VERIFIED; https://mohw.gov.tw/cp-16-81184-1.html].
+- The release does not list the other four programmes. "Sarcoma is not among them" is an inference [PARTIAL].
+
+**Referral triggers for a soft-tissue lump** (UK guidelines 2025, quoting NICE 2015) [GL-UK STS; VERIFIED]:
+- Consider an urgent direct-access **ultrasound within 2 weeks** for an adult with an unexplained lump that is **increasing in size**.
+- Use a suspected-cancer referral (appointment within 2 weeks) if ultrasound suggests sarcoma, or if it is uncertain and concern persists.
+- Any retroperitoneal or intra-abdominal mass that looks like sarcoma on CT/MRI goes to a specialist sarcoma MDT **before biopsy or surgery**.
+- The older NICE criteria (size **>5 cm**, increasing size, deep site, pain) "failed to discriminate" from lipomas and cysts. The UK has moved to ultrasound triage.
+- Median size at diagnosis is still **>9 cm**.
+- This upgrades the [PARTIAL] ">5 cm / deep / growing" point in sarcoma_1 §4.3 to [VERIFIED as UK/NICE history]. ESMO wording was still not opened.
+
+**Red flags for a primary bone tumour** (UK bone guideline 2025) [GL-UK bone; VERIFIED]:
+- Most common symptoms: pain and/or a lump; some patients present with a pathological fracture.
+- **Night pain is a "red flag"**. Spinal tumours may present with **spinal cord compression**.
+- Average symptom duration is 3 months. **A history of recent injury does not exclude a primary bone tumour.**
+- Get an **urgent X-ray**. Investigate further if it shows bone destruction, new bone formation, periosteal swelling or soft-tissue swelling. **A normal X-ray does not exclude** a primary bone tumour; persistent pain needs urgent MRI or referral.
+- **Patients under 40 with a suspected primary bone tumour should be referred urgently to a bone sarcoma centre**, before biopsy.
+- Pre-referral bloods: FBC, ESR, biochemistry with ALP.
+
+**Li-Fraumeni (germline TP53) surveillance ("Toronto protocol")**
+- Villani 2016, prospective observational study, n = 89 carriers [A] [VERIFIED]:
+  - Protocol: physical exam, biochemistry, **whole-body MRI**, brain MRI, breast MRI, mammography, abdominal/pelvic ultrasound and colonoscopy.
+  - 40 asymptomatic tumours were found in 19 of 59 surveilled patients.
+  - **5-year OS 88.8% (surveillance) vs 59.6% (no surveillance), p = 0.0132.**
+- Ballinger 2017 meta-analysis (578 carriers): baseline WB-MRI detected new localised cancers in **7% (95% CI 5–9%)** [A] [VERIFIED].
+- UK bone guideline: patients with osteosarcoma in the setting of LFS should follow appropriate surveillance programmes [GL-UK bone].
+
+### CA-3. Localised STS: adjuvant/neoadjuvant chemotherapy and RT doses (chapter section 5)
+
+**EORTC 62931 (Woll 2012)** [A] [VERIFIED]
+- Design: resected grade II–III STS at any site; age 16–70; **doxorubicin 75 mg/m² + ifosfamide 5 g/m² + lenograstim q3w × 5** vs no chemotherapy; n = 351.
+- OS **HR 0.94 (0.68–1.31), p = 0.72**; RFS HR 0.91 (0.67–1.22).
+- 5-year OS 66.5% vs 67.8%.
+- 80% completed 5 cycles; grade 3–4 fever/infection 10%; no toxic deaths.
+- **No benefit.**
+
+**Meta-analysis (Pervaiz 2008; 18 RCTs, n = 1,953)** [A] [VERIFIED]
+- Local recurrence OR 0.73 (0.56–0.94); distant/overall recurrence OR 0.67 (0.56–0.82).
+- Survival: **doxorubicin alone OR 0.84 (0.68–1.03), not significant**; **doxorubicin + ifosfamide OR 0.56 (0.36–0.85)**.
+- Conclusion: "marginal efficacy".
+
+**UK guideline 2025 position** [GL-UK STS; VERIFIED]
+- "Neoadjuvant or adjuvant chemotherapy is **not routinely recommended**". It should be considered where local control is likely to be compromised or prognosis is poor, especially in chemo-sensitive subtypes.
+- EORTC 62931 was criticised for a low ifosfamide dose and inclusion of intermediate-grade tumours.
+- Sarculator re-analysis: patients with predicted **10-year OS <51%** benefited (HR 0.46).
+- ISG-STS 1001 high-risk subgroup (Sarculator predicted 5-year OS <60%): 3 cycles of neoadjuvant AI gave 5-year OS 0.66 vs 0.55 for histotype-tailored therapy.
+- **No RCT has tested neoadjuvant chemotherapy against immediate surgery.**
+
+**RT dose** [GL-UK STS; VERIFIED]
+- Post-op **60–66 Gy** in 1.8–2 Gy fractions; pre-op **50–50.4 Gy**.
+- Pre-op RT: better long-term function and equivalent control, but more acute wound complications. This matches O'Sullivan and Davis (§1–2 above).
+- Hypofractionated pre-op **25–30 Gy in 5 fractions** "appear to achieve equivalent local control" (non-randomised data; flagged as emerging).
+
+**Follow-up after primary STS** [GL-UK STS, citing ESMO; VERIFIED]
+- **Intermediate/high grade:** every **3–4 months for 2–3 years**, then twice yearly to year 5, then annually for a total of **8–10 years**.
+- **Low grade:** every 6 months for 5 years, then annually.
+- Visit content: history, examination of the local site (MRI/CT only if suspicious or the site is hard to examine) and **chest X-ray**, with CT chest for abnormalities.
+- Patient-initiated follow-up (PIFU) is acceptable for selected low-grade tumours.
+- Supporting RCT, **Puri 2014** (n = 500, extremity sarcoma) [A] [VERIFIED]:
+  - 3-year OS **67% with chest X-ray vs 66% with CT** (HR 0.9). Non-inferiority of 6-monthly vs 3-monthly visits was **not** shown (OS 64% vs 69%; HR 1.2; upper 90% CI 1.47).
+  - **"Almost 90% of local recurrences were identified by patients themselves."** This supports NP teaching on self-examination.
+
+### CA-4. Advanced STS: immunotherapy and angiosarcoma (chapter section 5)
+
+| Trial | Design / dose | Key result | Tag |
+|---|---|---|---|
+| **SARC028** (Tawbi 2017) | Phase 2, 2 cohorts; **pembrolizumab 200 mg IV q3w**; STS n = 40 evaluable, bone n = 40 | STS ORR **18%**: **UPS 4/10 (40%)**, liposarcoma 2/10 (20%; dedifferentiated), synovial 1/10, **LMS 0/10**. Bone ORR 5%: osteosarcoma 1/22, chondrosarcoma 1/5, **Ewing 0/13**. **Primary endpoint not met in either cohort.** Immune-related SAEs included adrenal insufficiency, pneumonitis and nephritis | [A] VERIFIED |
+| **Alliance A091401** (D'Angelo 2018) | Non-comparative randomised phase 2; nivolumab 3 mg/kg q2w vs nivolumab 3 mg/kg + ipilimumab 1 mg/kg q3w × 4, then nivolumab | Confirmed ORR **5% (2/38) nivolumab alone vs 16% (6/38) combination**. Combination met its endpoint; nivolumab alone "does not warrant further study" | [A] VERIFIED |
+| **Atezolizumab in ASPS** (Chen 2023, NEJM; NCT03141684) | Single-arm phase 2; **1200 mg IV q3w (adult); 15 mg/kg, max 1200 mg (<18 y)** | ORR **37% (19/52)**; median time to response 3.6 months; **median DOR 24.7 months**; median PFS 20.8 months; no treatment-related grade 4–5 AEs. JCO 2026 update exists (PMID 41999612), not read | [A] VERIFIED |
+| Atezolizumab label | US: adults **840 mg q2w, 1200 mg q3w or 1680 mg q4w**; paediatric ≥2 y **15 mg/kg (max 1200 mg) q3w**; IRC ORR **24%** (n = 49) | — | [L-Tecentriq 2026-05-20, set 6fa682c9] VERIFIED |
+| **Atezolizumab in Taiwan** | 癌自禦 衛部菌疫輸字第001050號 (IV, issued 2017-07-17) and 第001258號 (SC 癌自禦皮下注射劑, 2024-05-29) list 「肺泡狀軟組織肉瘤：單獨使用，適用於治療**2歲以上**無法切除或轉移性肺泡狀軟組織肉瘤」 | **ASPS is an on-label indication in Taiwan** | [TFDA] VERIFIED |
+| Pembrolizumab / nivolumab / ipilimumab in Taiwan | No sarcoma wording found in any active TFDA indication | Off-label for sarcoma | [TFDA] VERIFIED |
+| **ANGIOTAX** (Penel 2008) | **Weekly paclitaxel 80 mg/m² IV over 60 min, D1, 8, 15 q4w**; n = 30, unresectable angiosarcoma | Non-progression at 2 months **74%**, at 4 months 45%; median TTP 4 months; median OS 8 months; 3 PR in breast angiosarcoma led to curative surgery; 1 toxic death (thrombocytopenia) | [A] VERIFIED |
+
+Teaching points:
+- Immunotherapy in sarcoma is **histotype-specific**. It works in ASPS, UPS and dedifferentiated liposarcoma, but **not LMS or Ewing** in SARC028.
+- ASPS is the one sarcoma with an on-label checkpoint inhibitor in Taiwan.
+- NCCN-recommended immunotherapy regimens and categories were not read (login) [UNVERIFIED].
+
+### CA-5. Desmoid tumour: sorafenib (complements DeFi, §14)
+
+**Gounder 2018 (NEJM)** [A] [VERIFIED]
+- Design: phase 3, double-blind; **sorafenib 400 mg once daily** vs placebo; n = 87; crossover allowed.
+- 2-year PFS **81% vs 36%; HR 0.13 (0.05–0.31)**.
+- ORR 33% vs **20% on placebo**. The placebo responses are themselves a teaching point: desmoids can regress spontaneously.
+- AEs (grade 1–2): rash 73%, fatigue 67%, hypertension 55%, diarrhoea 51%.
+
+**Regulatory**
+- **Taiwan:** sorafenib licences (e.g., 蕾莎瓦 衛署藥輸字第024727號) cover HCC, RCC and others; **no desmoid indication**, so use for desmoid is off-label [TFDA; VERIFIED].
+- **UK guideline:** "Initial standard treatment for fibromatosis is clinical and radiologic surveillance"; systemic therapy only for symptomatic progression [GL-UK STS; VERIFIED].
+
+### CA-6. Giant cell tumour of bone: denosumab (chapter sections 5–6)
+
+**Chawla 2019 (Lancet Oncol; phase 2, n = 532, age ≥12 and ≥45 kg)** [A] [VERIFIED]
+- Dose: **120 mg SC every 4 weeks with loading doses on days 8 and 15.**
+- Unsalvageable cohort: progression or recurrence in 11%.
+- Salvageable cohort: **92% had no surgery at 6 months**.
+- Safety:
+  - grade ≥3 hypophosphataemia 5%
+  - **osteonecrosis of the jaw 5% (adjudicated)**
+  - atypical femur fracture 1%
+  - **hypercalcaemia 1%, occurring after stopping denosumab**
+  - sarcomatous transformation 1%
+
+**US label** [L-Xgeva, Amgen, effective 2026-06-23, set 628f0998] [VERIFIED]
+- 120 mg q4w plus 120 mg on days 8 and 15 of month 1.
+- Give calcium and vitamin D as needed to treat or prevent hypocalcaemia.
+
+**Taiwan** [TFDA] [VERIFIED]
+- Xgeva 癌骨瓦 衛署菌疫輸字第000924號 includes 骨巨細胞瘤 「無法以手術切除或手術切除可能導致重症的成人和骨骼發育成熟之青少年」.
+- Denosumab 120-mg biosimilars licensed 2025–2026 carry the same GCTB indication: 衛部菌疫輸字第001288、001296、001301、001313、001324、001331號.
+
+**UK guideline** [GL-UK bone] [VERIFIED]
+- Denosumab is for unresectable or unacceptably morbid surgery, or metastatic disease.
+- **Curettage after denosumab carries a higher local-recurrence risk**, so complete resection is preferred after denosumab.
+- Main toxicities: hypocalcaemia, ONJ, atypical fractures.
+
+**NP actions**
+- Dental review before the first dose, and calcium/vitamin D. The dental-review point is an ONJ precaution consistent with the label warnings; the exact label wording was not extracted [PARTIAL].
+- Check calcium after stopping denosumab (rebound hypercalcaemia, Chawla 2019).
+
+### CA-7. Bone sarcoma practice points from the UK 2025 guideline (complements sarcoma_2) [GL-UK bone; VERIFIED unless marked]
+
+**Osteosarcoma**
+- MAP is recommended for resectable osteosarcoma **up to 40 years**. Over 40, or if MTX is not tolerated: **doxorubicin + cisplatin (AP)**.
+- Mifamurtide is "approved in the UK for osteosarcoma patients <30 years with localised, completely resected disease". The Taiwan licence was cancelled in 2023 (sarcoma_2 flag 1).
+- Neoadjuvant chemotherapy has practical advantages, but its "survival benefit over postoperative chemotherapy alone is unproven".
+- Combined treatment raises survival from **10–20% (surgery alone) to ~60%**.
+- With **>90% necrosis**, a closer surgical margin "can be considered safe".
+- For older patients, surgery first is reasonable.
+- Adverse factors: metastases, axial or proximal site, large volume, high ALP or LDH, older age, high BMI, poor histological response, **pathological fracture**.
+
+**Ewing sarcoma**
+- **Interval-compressed VDC/IE × 14 is the preferred first-line regimen** for all fit patients.
+- BuMel is for poor response after VIDE or volume >200 mL; its value after VDC/IE "is not defined".
+- **Do not give BuMel if the RT fields include gut, spinal cord, brain or large lung volumes** (fatal toxicity reported).
+- About **26% are metastatic at presentation** (10% lung, 10% bone/marrow, 6% combinations).
+- RT doses [PDQ Ewing, updated 2024-11-27; PARTIAL, secondary]:
+  - definitive RT ≈ **55.8 Gy** (45 Gy + 10.8 Gy boost)
+  - post-op microscopic residual **50.4 Gy** (INT-0091: 45 + 5.4 Gy)
+  - gross residual 45 + 10.8 Gy
+  - no RT after complete resection with no microscopic residual (INT-0091)
+- Whole-lung irradiation dose: **[UNVERIFIED]**.
+
+**Chondrosarcoma**
+- Atypical cartilaginous tumours of the extremity can be **observed**. If progressive or symptomatic, curettage ± adjuvants (high-speed burr, cryotherapy).
+- Higher-grade, clear-cell, and **all pelvic/axial chondrosarcomas need wide margins**. In the pelvis a 2-mm margin is associated with lower local recurrence.
+- Skull-base chondrosarcoma: surgery + high-dose RT gives 80–90% local control.
+- Ollier/Maffucci and multiple osteochondromas: counsel about secondary chondrosarcoma and follow up.
+- This fills the [UNVERIFIED] surgical-margin item in sarcoma_2 §13.
+
+**Bone sarcoma follow-up**
+- High grade: every **2–4 months for years 1–3**, every 6 months for years 4–5, then annually.
+- Low grade: every 4–6 months for 2 years, then annually.
+- Standard visit: **chest X-ray + X-ray of the local site + clinical review**.
+- **Chordoma:** local MRI at 6 months, 1 year, then annually to 10 years.
+- There is "no universally accepted stopping point". Late metastases and failed reconstructions occur after more than 10 years.
+- Secondary AML can appear 2–5 years after chemotherapy.
+
+### CA-8. GIST additions (chapter sections 5 and 8)
+
+**Do not interrupt imatinib in advanced GIST** (BFR14, French Sarcoma Group) [A] [VERIFIED]
+- Stop after 1 year (Blay 2007): progression in **26/32 interrupted vs 8/26 continued** (P < .0001). 24/26 responded when imatinib was restarted. No OS difference.
+- Stop after 3 years (Le Cesne 2010): 2-year PFS **80% continued vs 16% interrupted** (p < 0.0001).
+- Conclusion: discontinuation is not recommended outside trials unless toxicity is significant.
+- This is a core NP adherence teaching point; patients often ask for a "drug holiday".
+
+**Neoadjuvant imatinib** (Asian consensus 2025) [FT; VERIFIED]
+- Consider for large (e.g., >10 cm) or hard-to-resect GIST.
+- **Surgery generally after 6–12 months** of treatment, to balance shrinkage against secondary resistance.
+- Genotype first, to exclude imatinib-insensitive tumours (PDGFRA D842V, wild-type).
+- **Post-neoadjuvant specimens cannot be risk-classified.**
+
+**Unified definition of tumour rupture** (Asian consensus 2025, Fig. 3) [FT; VERIFIED]
+- Tumour fracture, spillage of tumour contents, blood-stained ascites, perforation at the tumour site, adjacent organ infiltration, **piecemeal resection, and incisional biopsy**.
+- Ruptured GIST = very high risk; often prolonged or lifelong adjuvant imatinib.
+
+**Follow-up after resection** (Asian consensus 2025) [FT; VERIFIED]
+- Surveillance is "weakly recommended" and should be individualised.
+- Intermediate/high risk: more intensive **contrast-enhanced CT** in the first years. PET is not established.
+- Exact intervals are **[UNVERIFIED]**; the consensus cites Joensuu 2015 but gives no schedule in the text read.
+
+### CA-9. Oncologic emergencies specific to sarcoma (chapter section 9; new)
+
+| Emergency | Sarcoma context and numbers | Immediate action | Source / tag |
+|---|---|---|---|
+| **Pathological fracture** (bone sarcoma) | Occurs in **5–10%** of osteosarcoma; pooled 12% (885/7,604). Worse 3-year OS (**RR 1.53**), 5-year OS (RR 1.27) and metastasis (RR 1.33); local recurrence not significantly higher. Limb salvage not associated with more local recurrence (RR 1.58, 0.88–2.85) | Splint/immobilise, analgesia, **no internal fixation before diagnosis**, refer to bone sarcoma centre; fractures often heal during neoadjuvant chemotherapy | Gonzalez 2023 [A] VERIFIED; GL-UK bone VERIFIED |
+| **Spinal cord compression** | Spinal primary bone tumours "may present with spinal cord compression"; Ewing, chordoma and metastatic sarcoma | Standard MSCC pathway (see shared emergencies chapter); MDT before surgery, because biopsy and tract matter | GL-UK bone VERIFIED (statement only, no incidence) |
+| **Spontaneous pneumothorax** | Osteosarcoma lung metastases: 31/123 (**25%**) in one Chinese centre; associated with **cavitation (OR 12.4)** and **pleural involvement (OR 15.5)**. Also a TKI effect: pazopanib 3.3% (s3 §10), cabozantinib 9% in osteosarcoma (s2 §7e) | Teach patients that sudden chest pain/dyspnoea needs urgent assessment; CXR; drainage per size | Li 2024 [A] VERIFIED (single-centre) |
+| **GI bleeding / tumour haemorrhage (GIST)** | Common presenting symptom; in resected GIST, bleeding was **not** an independent prognostic factor (pooled HR 1.45, 0.73–2.86). GI/intra-abdominal haemorrhage ~5% on imatinib (B2222, s4 §4). EUS biopsy preferred over percutaneous biopsy because of haemorrhage and seeding risk (s1 §4.1) | Resuscitate, endoscopy/IR; tumour perforation or bleed may meet the rupture definition (CA-8) | Shi 2023 [A] VERIFIED |
+| **HD-MTX delayed clearance / AKI** | See s2 §15–19 (now re-checked, CA-1) | Leucovorin per nomogram; glucarpidase **not licensed in Taiwan** | VERIFIED |
+| **Ifosfamide encephalopathy** | 11% in a Taiwan cohort (s4 §5) | Stop ifosfamide, hydrate; methylene blue (watch serotonin syndrome with opioids/SSRIs) | VERIFIED |
+| **Rhabdomyolysis** (trabectedin) | 0.7% (fatal 0.3%), mostly cycle 2 (s4 §9) | CPK before each dose | VERIFIED |
+| **CRS / ICANS** (afami-cel) | CRS 71–75% (s3 §12); not licensed in Taiwan | — | VERIFIED |
+| **Hypercalcaemia after stopping denosumab** (GCTB) | 1% (4/526) of patients | Check calcium after stopping | Chawla 2019 [A] VERIFIED |
+| **Hypoglycaemia (Doege–Potter syndrome)** | Non-islet-cell tumour hypoglycaemia from **IGF-2** secretion by solitary fibrous tumour, in about **5–10% of SFTs**; hypokalaemia is a clue; raised IGF-2:IGF-1 ratio; resolves after resection; steroids are a bridge | Check glucose in confused patients with a large pleural/pelvic mass | Kiely 2021 [FT, case report + review] PARTIAL; Crowley 2022 [A] PARTIAL |
+
+### CA-10. Still missing or [UNVERIFIED] after this critique
+
+- **NHI (健保) reimbursement:** chapter section skipped (pending).
+- **Rhabdomyosarcoma (VAC-based) is not covered** in any file. Decide whether the adult NP chapter needs it; if so, verify the COG/EpSSG regimens.
+- **Kaposi sarcoma** (separate NCCN guideline v1.2027), **DFSP** (imatinib on the TFDA label, per sarcoma_4 §E) and **chordoma** systemic therapy are not covered.
+- National all-hospital GIST count for 2023; SS18::SSX and FUS::DDIT3 positivity percentages; the original Joensuu 2008 table; ESMO guideline full texts (403); exact GIST follow-up intervals; Ewing whole-lung RT dose; NCCN professional content (login).
+- Huvos grade definitions remain [PARTIAL] (secondary citation only).
+- Doege–Potter frequency (5–10%) is from a case report with review, so [PARTIAL].
+- Taiwan fertility-preservation subsidy and psychosocial resources (HPA unreachable).
+
+### CA-11. References for the critic additions (APA 7)
+
+**Journal articles**
+- Woll, P. J., Reichardt, P., Le Cesne, A., Bonvalot, S., Azzarelli, A., Hoekstra, H. J., Leahy, M., Van Coevorden, F., Verweij, J., Hogendoorn, P. C. W., Ouali, M., Marreaud, S., Bramwell, V. H. C., & Hohenberger, P. (2012). Adjuvant chemotherapy with doxorubicin, ifosfamide, and lenograstim for resected soft-tissue sarcoma (EORTC 62931): A multicentre randomised controlled trial. *The Lancet Oncology*, *13*(10), 1045–1054. https://doi.org/10.1016/S1470-2045(12)70346-7 — PMID 22954508
+- Pervaiz, N., Colterjohn, N., Farrokhyar, F., Tozer, R., Figueredo, A., & Ghert, M. (2008). A systematic meta-analysis of randomized controlled trials of adjuvant chemotherapy for localized resectable soft-tissue sarcoma. *Cancer*, *113*(3), 573–581. https://doi.org/10.1002/cncr.23592 — PMID 18521899
+- Tawbi, H. A., Burgess, M., Bolejack, V., Van Tine, B. A., Schuetze, S. M., Hu, J., D'Angelo, S., Attia, S., Riedel, R. F., Priebat, D. A., Movva, S., Davis, L. E., Okuno, S. H., Reed, D. R., Crowley, J., Butterfield, L. H., Salazar, R., Rodriguez-Canales, J., Lazar, A. J., . . . Patel, S. (2017). Pembrolizumab in advanced soft-tissue sarcoma and bone sarcoma (SARC028): A multicentre, two-cohort, single-arm, open-label, phase 2 trial. *The Lancet Oncology*, *18*(11), 1493–1501. https://doi.org/10.1016/S1470-2045(17)30624-1 — PMID 28988646; PMC7939029
+- D'Angelo, S. P., Mahoney, M. R., Van Tine, B. A., Atkins, J., Milhem, M. M., Jahagirdar, B. N., Antonescu, C. R., Horvath, E., Tap, W. D., Schwartz, G. K., & Streicher, H. (2018). Nivolumab with or without ipilimumab treatment for metastatic sarcoma (Alliance A091401): Two open-label, non-comparative, randomised, phase 2 trials. *The Lancet Oncology*, *19*(3), 416–426. https://doi.org/10.1016/S1470-2045(18)30006-8 — PMID 29370992; PMC6126546
+- Chen, A. P., Sharon, E., O'Sullivan-Coyne, G., Moore, N., Foster, J. C., Hu, J. S., Van Tine, B. A., Conley, A. P., Read, W. L., Riedel, R. F., Burgess, M. A., Glod, J., Davis, E. J., Merriam, P., Naqash, A. R., Fino, K. K., Miller, B. L., Wilsker, D. F., Begum, A., . . . Doroshow, J. H. (2023). Atezolizumab for advanced alveolar soft part sarcoma. *The New England Journal of Medicine*, *389*(10), 911–921. https://doi.org/10.1056/NEJMoa2303383 — PMID 37672694; PMC10729808
+- Chen, A. P., Rosenberger, C. L., Moore, N., Foster, J. C., Naqash, A. R., Sharon, E., O'Sullivan Coyne, G., Schwartz, G. K., Riedel, R. F., Glod, J., Hu, J. S., Conley, A. P., Read, W. L., Burgess, M. A., Davis, E. J., Merriam, P., Deshpande, H. A., Ladle, B. H., Okuno, S. H., . . . Doroshow, J. H. (2026). Atezolizumab for alveolar soft part sarcoma: A clinical trial update. *Journal of Clinical Oncology*, *44*(16), 1490–1497. https://doi.org/10.1200/JCO-25-02811 — PMID 41999612 *(cited only; no abstract read)*
+- Penel, N., Bui, B. N., Bay, J.-O., Cupissol, D., Ray-Coquard, I., Piperno-Neumann, S., Kerbrat, P., Fournier, C., Taieb, S., Jimenez, M., Isambert, N., Peyrade, F., Chevreau, C., Bompas, E., Brain, E. G. C., & Blay, J.-Y. (2008). Phase II trial of weekly paclitaxel for unresectable angiosarcoma: The ANGIOTAX Study. *Journal of Clinical Oncology*, *26*(32), 5269–5274. https://doi.org/10.1200/JCO.2008.17.3146 — PMID 18809609
+- Gounder, M. M., Mahoney, M. R., Van Tine, B. A., Ravi, V., Attia, S., Deshpande, H. A., Gupta, A. A., Milhem, M. M., Conry, R. M., Movva, S., Pishvaian, M. J., Riedel, R. F., Sabagh, T., Tap, W. D., Horvat, N., Basch, E., Schwartz, L. H., Maki, R. G., Agaram, N. P., . . . Schwartz, G. K. (2018). Sorafenib for advanced and refractory desmoid tumors. *The New England Journal of Medicine*, *379*(25), 2417–2428. https://doi.org/10.1056/NEJMoa1805052 — PMID 30575484; PMC6447029
+- Chawla, S., Blay, J.-Y., Rutkowski, P., Le Cesne, A., Reichardt, P., Gelderblom, H., Grimer, R. J., Choy, E., Skubitz, K., Seeger, L., Schuetze, S. M., Henshaw, R., Dai, T., Jandial, D., & Palmerini, E. (2019). Denosumab in patients with giant-cell tumour of bone: A multicentre, open-label, phase 2 study. *The Lancet Oncology*, *20*(12), 1719–1729. https://doi.org/10.1016/S1470-2045(19)30663-1 — PMID 31704134
+- Villani, A., Shore, A., Wasserman, J. D., Stephens, D., Kim, R. H., Druker, H., Gallinger, B., Naumer, A., Kohlmann, W., Novokmet, A., Tabori, U., Tijerin, M., Greer, M.-L. C., Finlay, J. L., Schiffman, J. D., & Malkin, D. (2016). Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *The Lancet Oncology*, *17*(9), 1295–1305. https://doi.org/10.1016/S1470-2045(16)30249-2 — PMID 27501770
+- Ballinger, M. L., Best, A., Mai, P. L., Khincha, P. P., Loud, J. T., Peters, J. A., Achatz, M. I., Chojniak, R., Balieiro da Costa, A., Santiago, K. M., Garber, J., O'Neill, A. F., Eeles, R. A., Evans, D. G., Bleiker, E., Sonke, G. S., Ruijs, M., Loo, C., Schiffman, J., . . . Savage, S. A. (2017). Baseline surveillance in Li-Fraumeni syndrome using whole-body magnetic resonance imaging: A meta-analysis. *JAMA Oncology*, *3*(12), 1634–1639. https://doi.org/10.1001/jamaoncol.2017.1968 — PMID 28772291; PMC5824277
+- Puri, A., Gulia, A., Hawaldar, R., Ranganathan, P., & Badwe, R. A. (2014). Does intensity of surveillance affect survival after surgery for sarcomas? Results of a randomized noninferiority trial. *Clinical Orthopaedics and Related Research*, *472*(5), 1568–1575. https://doi.org/10.1007/s11999-013-3385-9 — PMID 24249538; PMC3971232
+- Blay, J.-Y., Le Cesne, A., Ray-Coquard, I., Bui, B., Duffaud, F., Delbaldo, C., Adenis, A., Viens, P., Rios, M., Bompas, E., Cupissol, D., Guillemet, C., Kerbrat, P., Fayette, J., Chabaud, S., Berthaud, P., & Perol, D. (2007). Prospective multicentric randomized phase III study of imatinib in patients with advanced gastrointestinal stromal tumors comparing interruption versus continuation of treatment beyond 1 year: The French Sarcoma Group. *Journal of Clinical Oncology*, *25*(9), 1107–1113. https://doi.org/10.1200/JCO.2006.09.0183 — PMID 17369574
+- Le Cesne, A., Ray-Coquard, I., Bui, B. N., Adenis, A., Rios, M., Bertucci, F., Duffaud, F., Chevreau, C., Cupissol, D., Cioffi, A., Emile, J.-F., Chabaud, S., Pérol, D., & Blay, J.-Y. (2010). Discontinuation of imatinib in patients with advanced gastrointestinal stromal tumours after 3 years of treatment: An open-label multicentre randomised phase 3 trial. *The Lancet Oncology*, *11*(10), 942–949. https://doi.org/10.1016/S1470-2045(10)70222-9 — PMID 20864406
+- Gonzalez, M. R., Bedi, A., Karczewski, D., & Lozano-Calderon, S. A. (2023). Are pathologic fractures in patients with osteosarcoma associated with worse survival outcomes? A systematic review and meta-analysis. *Clinical Orthopaedics and Related Research*, *481*(12), 2433–2443. https://doi.org/10.1097/CORR.0000000000002687 — PMID 37184541; PMC10642876
+- Li, J., Deng, C., Yuan, J., Jia, H., & Peng, L. (2024). Association of CT characteristics of osteosarcoma lung metastases with spontaneous pneumothorax: A retrospective analysis. *Journal of Thoracic Disease*, *16*(12), 8417–8423. https://doi.org/10.21037/jtd-24-1015 — PMID 39831258; PMC11740071
+- Shi, X., Chen, Z., Shou, C., Bai, H., Yang, W., Zhang, Q., Liu, X., & Yu, J. (2023). The prognostic role of gastrointestinal bleeding in patients with a primary gastrointestinal stromal tumor: A long-term follow-up study. *Journal of Gastrointestinal Oncology*, *14*(5), 2028–2038. https://doi.org/10.21037/jgo-22-1240 — PMID 37969844; PMC10643578
+- Kiely, N. P., Sinha, R., Tang, K., & Wan, K. M. (2021). Doege-Potter syndrome: A systematic review of the literature and case presentation of a rare pelvic malignant solitary fibrous tumour. *BMJ Case Reports*, *14*(8), Article e242447. https://doi.org/10.1136/bcr-2021-242447 — PMID 34413033; PMC8378376
+- Crowley, M. T., Lonergan, E., O'Callaghan, P., Joyce, C. M., Morita, M., Conlon, N., & O'Halloran, D. J. (2022). IGF-2 mediated hypoglycemia and the paradox of an apparently benign lesion: A case report & review of the literature. *BMC Endocrine Disorders*, *22*(1), Article 262. https://doi.org/10.1186/s12902-022-01175-4 — PMID 36303203; PMC9615362
+- Bispo Júnior, R. Z., & Camargo, O. P. de. (2011). Is there any difference in the prognosis for patients with primary osteosarcoma with a poor response to neoadjuvant chemotherapy between Huvos grades I and II? *Revista Brasileira de Ortopedia*, *46*(4), 420–423. https://doi.org/10.1016/S2255-4971(15)30256-1 — PMID 27027032; PMC4799283
+- Rosen, G., Caparros, B., Huvos, A. G., Kosloff, C., Nirenberg, A., Cacavio, A., Marcove, R. C., Lane, J. M., Mehta, B., & Urban, C. (1982). Preoperative chemotherapy for osteogenic sarcoma: Selection of postoperative adjuvant chemotherapy based on the response of the primary tumor to preoperative chemotherapy. *Cancer*, *49*(6), 1221–1230. https://doi.org/10.1002/1097-0142(19820315)49:6<1221::aid-cncr2820490625>3.0.co;2-e — PMID 6174200
+
+**Guidelines**
+- Hayes, A. J., Nixon, I. F., Strauss, D. C., Seddon, B. M., Desai, A., Benson, C., Judson, I. R., & Dangoor, A. (2025). UK guidelines for the management of soft tissue sarcomas. *British Journal of Cancer*, *132*(1), 11–31. https://doi.org/10.1038/s41416-024-02674-y — PMID 38734790; PMC11724041
+- Gerrand, C., Amary, F., Anwar, H. A., Brennan, B., Dileo, P., Kalkat, M. S., McCabe, M. G., McCullough, A. L., Parry, M. C., Patel, A., Seddon, B. M., Sherriff, J. M., Tirabosco, R., & Strauss, S. J. (2025). UK guidelines for the management of bone sarcomas. *British Journal of Cancer*, *132*(1), 32–48. https://doi.org/10.1038/s41416-024-02868-4 — PMID 39550489; PMC11723950
+
+**Labels, registries and web pages**
+- Labels re-read through openFDA on 2026-10-29:
+  - Methotrexate Injection (Hospira, 2025-06-10, set 0d63ba29-b692-41b4-87e8-351265c8273f)
+  - Leucovorin Calcium Injection (Sagent, 2026-06-16, set c0cbcbf6-6fd2-4cf3-877a-bb0fe3df4e59)
+  - VORAXAZE (BTG, 2024-11-27, set acaef5a6-b740-40e3-8ffe-74a75c74745c)
+  - MESNEX (2025-12-10, set 1dd69e84-616d-fb77-e063-6394a90af2f4)
+  - YONDELIS (Janssen, 2026-01-06, set 472bd78e-be17-4b9d-90f4-9482c3aec9ff)
+  - PEDMARK (Fennec, 2025-10-27, set f98c7076-2a7b-4fd7-ab90-eed5e9137bae)
+  - TECENTRIQ (2026-05-20, set 6fa682c9-a312-4932-9831-f286908660ee)
+  - XGEVA (Amgen, 2026-06-23, set 628f0998-1206-4001-aeee-18133aa9f3bf)
+- National Comprehensive Cancer Network. (2026). *NCCN guidelines* [Category 1, 3 and 4 listings]. Retrieved October 29, 2026, from https://www.nccn.org/guidelines/category_1
+- PDQ Pediatric Treatment Editorial Board. (2024, November 27). *Ewing sarcoma and undifferentiated small round cell sarcomas of bone and soft tissue treatment (PDQ®)–Health professional version*. National Cancer Institute. https://www.cancer.gov/types/bone/hp/ewing-treatment-pdq
+- 衛生福利部. (2025, January 10). *114年擴大肺癌篩檢服務 新年從健康開始*. https://mohw.gov.tw/cp-16-81184-1.html
+
+**Working files:** abstracts, PMC XML and label JSON are in /tmp/claude-0/-home-user-oncology-educater/6a66dc7f-55e5-547a-b95f-33d6978992bf/scratchpad/critic/.

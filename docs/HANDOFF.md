@@ -33,7 +33,9 @@
 1. **肺癌與共用章節的對抗式查核**（腳本：`notes/workflows/audit-oncology-handbook-*.js`）。流程：分段找錯 → 每個疑點兩個 agent 驗證 → 兩者都確認才由修正 agent 改檔。
    - 若交班時已完成：修正已寫入 `handbook/`，結果摘要見本文件第五節。
    - 若未完成：下一個 session 可重跑腳本（腳本內的暫存路徑要改成 `notes/research`）。
-2. **三個癌別研究的補漏評論**：會在 `notes/research/` 對應檔案末尾加上「## Critic additions」。交班時若未完成，資料仍可用，只是少了補漏段落。
+2. **三個癌別研究的補漏評論**：已完成，補漏內容在 `notes/research/` 各檔案末尾的「## Critic additions」。每份研究的摘要（含重要更正）在 `notes/research/00-research-summaries.txt`，寫章前先讀。重點：
+   - 胰臟癌：daraxonrasib（RASolute 302，OS 13.2 對 6.7 個月）已獲美國 FDA 核准（2026-08-26），台灣未上市；TS-1 在台灣沒有術後輔助適應症；Onivyde 第一線 NALIRIFOX 已有台灣適應症；KRAS G12C 只占約 1.6%；PRODIGE 24 用 5 年數據（OS 53.5 對 35.5 個月）。
+   - 台灣 UGT1A1*6 頻率約 13%（irinotecan 劑量相關）；5-FU／capecitabine 仿單已加 DPYD 檢測的加框警語（2025-10）。
 
 ## 四、下一步（照順序）
 

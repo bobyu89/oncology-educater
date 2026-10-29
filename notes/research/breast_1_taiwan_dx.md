@@ -703,3 +703,120 @@ The NCCN Metastatic Breast Cancer patient guide (v3.2026) adds: **germline BRCA1
 - Yen, A. M.-F., Tsau, H.-S., Fann, J. C.-Y., Chen, S. L.-S., Chiu, S. Y.-H., Lee, Y.-C., Pan, S.-L., Chiu, H.-M., Kuo, W.-H., Chang, K.-J., Wu, Y.-Y., Chuang, S.-L., Hsu, C.-Y., Chang, D.-C., Koong, S.-L., Wu, C.-Y., Chia, S.-L., Chen, M.-J., Chen, H.-H., & Chiou, S.-T. (2016). Population-based breast cancer screening with risk-based and universal mammography screening compared with clinical breast examination: A propensity score analysis of 1 429 890 Taiwanese women. *JAMA Oncology, 2*(7), 915–921. https://doi.org/10.1001/jamaoncol.2016.0447 (PMID 27030951)
 
 Secondary source used only for one AJCC illustration (Chinese luminal B-like validation, n = 407): Cancer Management and Research, 2022, PMCID PMC8881011. Full APA reference not built: [UNVERIFIED citation details].
+
+---
+
+## Critic additions
+
+Added 2026-10-29 by the completeness critic (append only; nothing above was changed). Additions for other chapter sections are in the "Critic additions" sections of breast_2 (local therapy, HER2 adjuvant foundations, pCR), breast_3 (ABC definitions, brain metastases, breast-specific emergencies, everolimus, eribulin) and breast_4 (re-check of high-stakes numbers, Taiwan licences).
+
+### CA1.1 AJCC 8th edition TNM: the actual definitions (gap: the notes had only the anatomic/prognostic concept) [VERIFIED]
+
+Source: NCI PDQ "Breast Cancer Treatment – Health Professional Version", page updated 2025-04-25, Tables 2–8, which are "reprinted with permission from AJCC: Breast, revised version … AJCC Cancer Staging Manual, 8th ed., 2017". Downloaded from cancer.gov 2026-10-29. This is the official NCI reproduction of the AJCC tables; the AJCC manual itself was not opened.
+
+**Primary tumour (T), clinical and pathological**
+
+| T | Definition |
+|---|---|
+| Tis (DCIS) | Ductal carcinoma in situ. **LCIS is a benign entity and is removed from TNM staging in the 8th edition** (table footnote) — this upgrades the [PARTIAL] note in §7 to [VERIFIED] |
+| Tis (Paget) | Paget disease of the nipple **not** associated with invasive carcinoma and/or DCIS in the underlying parenchyma |
+| T1 | ≤20 mm. T1mi ≤1 mm; T1a >1–5 mm (round any measurement >1.0–1.9 mm up to 2 mm); T1b >5–10 mm; T1c >10–20 mm |
+| T2 | >20 mm but ≤50 mm |
+| T3 | >50 mm |
+| T4 | Any size with direct extension to the chest wall and/or skin (ulceration or macroscopic nodules). **Invasion of the dermis alone does not qualify as T4** |
+| T4a | Extension to the chest wall. **Invasion or adherence to pectoralis muscle alone does not qualify** |
+| T4b | Ulceration and/or ipsilateral macroscopic satellite nodules and/or skin oedema (including peau d'orange) not meeting the criteria for inflammatory carcinoma |
+| T4c | T4a + T4b |
+| T4d | Inflammatory carcinoma |
+
+- The clinical criteria for inflammatory carcinoma (extent of erythema/oedema) are in an AJCC rule that the PDQ page does not reproduce; the IBC consensus paper (Dawood 2011, PMC3105293) was available as abstract only. **The "≥1/3 of the breast skin" criterion therefore remains [UNVERIFIED].**
+
+**Regional nodes, clinical (cN)**
+
+| cN | Definition |
+|---|---|
+| cN0 | No regional nodal metastasis (imaging or clinical examination) |
+| cN1 | Movable ipsilateral level I–II axillary node(s). cN1mi (rarely used): micrometastasis, about 200 cells, >0.2 mm but ≤2.0 mm |
+| cN2a | Ipsilateral level I–II axillary nodes fixed to one another (matted) or to other structures |
+| cN2b | Ipsilateral internal mammary nodes only, without axillary metastasis |
+| cN3a | Ipsilateral infraclavicular (level III) node(s) |
+| cN3b | Ipsilateral internal mammary **and** axillary node(s) |
+| cN3c | Ipsilateral supraclavicular node(s) |
+
+- Suffixes: (sn) = confirmed by sentinel node biopsy; (f) = confirmed by FNA or core biopsy. A node proven by FNA/core before neoadjuvant therapy is cN1(f) regardless of the size of the deposit later found.
+
+**Regional nodes, pathological (pN)**
+
+| pN | Definition |
+|---|---|
+| pN0 | No metastasis, or isolated tumour cells (ITCs) only. pN0(i+): ITCs ≤0.2 mm. pN0(mol+): RT-PCR positive, no ITCs |
+| pN1mi | Micrometastases (~200 cells, >0.2 mm but ≤2.0 mm) |
+| pN1a | 1–3 axillary nodes, at least one metastasis >2.0 mm |
+| pN1b | Ipsilateral internal mammary sentinel nodes (excluding ITCs) |
+| pN1c | pN1a + pN1b |
+| pN2a | 4–9 axillary nodes (at least one deposit >2.0 mm) |
+| pN2b | Clinically detected internal mammary nodes, with pathologically negative axillary nodes |
+| pN3a | ≥10 axillary nodes, or infraclavicular (level III) nodes |
+| pN3b | pN1a or pN2a with cN2b (internal mammary positive by imaging), or pN2a with pN1b |
+| pN3c | Ipsilateral supraclavicular nodes |
+
+**Distant metastasis (M)**
+- M0: no clinical or radiographic evidence. **Imaging is not required to assign cM0.**
+- cM0(i+): tumour cells or deposits ≤0.2 mm in blood, marrow or non-regional nodal tissue, without symptoms or signs.
+- cM1: clinical/radiographic distant metastasis. pM1: histologically proven, or non-regional node metastasis >0.2 mm.
+
+**Histological grade (Nottingham modification of Scarff-Bloom-Richardson)** — **upgrades §4.4 from [PARTIAL] to [VERIFIED]**
+- G1: SBR score **3–5**; G2: **6–7**; G3: **8–9**.
+- DCIS uses **nuclear grade** (G1 low, G2 intermediate, G3 high), not the SBR score.
+
+**Anatomic stage groups (AJCC 8th, Table 8)**
+
+| Stage | TNM |
+|---|---|
+| 0 | Tis N0 M0 |
+| IA | T1 N0 M0 |
+| IB | T0 N1mi M0; T1 N1mi M0 |
+| IIA | T0 N1 M0; T1 N1 M0; T2 N0 M0 |
+| IIB | T2 N1 M0; T3 N0 M0 |
+| IIIA | T0 N2; T1 N2; T2 N2; T3 N1; T3 N2 (all M0) |
+| IIIB | T4 N0; T4 N1; T4 N2 (all M0) |
+| IIIC | Any T, N3, M0 |
+| IV | Any T, any N, M1 |
+
+Staging rules printed with the table (useful for MCQs):
+- T1 includes T1mi. T0/T1 with N1mi = IB; T2–T4 with N1mi are staged with the N1 category.
+- **pM0 is not a valid designation; any M0 is clinical.**
+- M1 before neoadjuvant therapy = stage IV, and stays IV regardless of response.
+- Stage may be changed if post-surgical imaging within **4 months** of diagnosis shows distant metastasis (no progression, no neoadjuvant therapy).
+- After neoadjuvant therapy, use yc/yp prefixes. **No anatomic stage group is assigned after pCR (ypT0 ypN0 cM0).** Neoadjuvant therapy does not change the clinical (pretreatment) stage.
+- In the US, registries must report the **clinical and pathological prognostic** stage groups; the anatomic table is for regions without routine grade/ER/PR/HER2. Patients given neoadjuvant therapy get a clinical prognostic stage, not a pathological prognostic stage.
+
+Caveat: the same PDQ page summarises HER2 ISH with an "equivocal" category (2013-style wording). That conflicts with the 2018/2023 ASCO/CAP groups in §4.2. **Do not copy the PDQ HER2 block; use §4.2.** The Oncotype RS <11 → stage IA rule (§7) is not in the PDQ tables I read and stays [PARTIAL].
+
+### CA1.2 Survivorship follow-up after curative treatment (gap) [VERIFIED; A]
+
+ASCO 2013 update (Khatcheressian 2013; no change from 2006):
+- History and physical examination every **3–6 months for years 1–3**, every **6–12 months for years 4–5**, then **annually**.
+- After breast-conserving surgery: first post-treatment mammogram **1 year after the initial mammogram and at least 6 months after radiotherapy**, then yearly.
+- **Not recommended** for routine follow-up of an asymptomatic patient with a normal examination: CBC, chemistry panels, bone scan, chest radiograph, liver or pelvic ultrasound, CT, FDG-PET, MRI, and tumour markers (CEA, CA 15-3, CA 27.29).
+
+### CA1.3 Male breast cancer (gap: Taiwan had 67 male cases in 2023, §1.1) [VERIFIED; A]
+
+ASCO 2020 (Hassett 2020):
+- Adjuvant endocrine therapy: **tamoxifen** for an initial 5 years. If tamoxifen is contraindicated: **GnRH agonist/antagonist + AI**. Another 5 years may be offered if still high risk and tolerated.
+- No adjuvant bone-modifying agents to prevent recurrence in men (may be used for osteoporosis).
+- Advanced disease: endocrine therapy first line unless visceral crisis or rapidly progressive disease. Targeted therapies as in women.
+- Imaging: annual **ipsilateral** mammogram after lumpectomy; contralateral annual mammogram may be offered to carriers of a predisposing variant. Routine breast MRI not recommended.
+- **Genetic counselling and germline testing should be offered to all men with breast cancer** (consistent with NCCN in §3.4).
+- ABC 5 (Cardoso 2020) [VERIFIED; FT]: for ER-positive male ABC, tamoxifen is the preferred endocrine option; if an AI is needed, give it with an LHRH agonist or orchiectomy.
+
+### CA1.4 Still not verified after this pass
+1. IBC clinical diagnostic criteria (erythema/oedema extent, duration).
+2. The AJCC Oncotype-based prognostic stage rule (RS <11).
+3. The cell-level clinical and pathological prognostic stage grids (PDQ Tables 9–10 exist but were not transcribed here; transcribe from PDQ if the chapter needs them).
+
+### CA1 references (APA 7)
+- PDQ® Adult Treatment Editorial Board. (2025, April 25). *Breast cancer treatment (PDQ®): Health professional version* (Tables 2–8 reprinted from the AJCC Cancer Staging Manual, 8th ed.). National Cancer Institute. Retrieved October 29, 2026, from https://www.cancer.gov/types/breast/hp/breast-treatment-pdq
+- Cardoso, F., Paluch-Shimon, S., Senkus, E., Curigliano, G., Aapro, M. S., André, F., Barrios, C. H., Bergh, J., Bhattacharyya, G. S., Biganzoli, L., Boyle, F., Cardoso, M.-J., Carey, L. A., Cortés, J., El Saghir, N. S., Elzayat, M., Eniu, A., Fallowfield, L., Francis, P. A., . . . Winer, E. P. (2020). 5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5). *Annals of Oncology, 31*(12), 1623–1649. https://doi.org/10.1016/j.annonc.2020.09.010 (PMID 32979513; PMCID PMC7510449)
+- Hassett, M. J., Somerfield, M. R., Baker, E. R., Cardoso, F., Kansal, K. J., Kwait, D. C., Plichta, J. K., Ricker, C., Roshal, A., Ruddy, K. J., Safer, J. D., Van Poznak, C., Yung, R. L., & Giordano, S. H. (2020). Management of male breast cancer: ASCO guideline. *Journal of Clinical Oncology, 38*(16), 1849–1863. https://doi.org/10.1200/JCO.19.03120 (PMID 32058842)
+- Khatcheressian, J. L., Hurley, P., Bantug, E., Esserman, L. J., Grunfeld, E., Halberg, F., Hantel, A., Henry, N. L., Muss, H. B., Smith, T. J., Vogel, V. G., Wolff, A. C., Somerfield, M. R., & Davidson, N. E. (2013). Breast cancer follow-up and management after primary treatment: American Society of Clinical Oncology clinical practice guideline update. *Journal of Clinical Oncology, 31*(7), 961–965. https://doi.org/10.1200/JCO.2012.45.9859 (PMID 23129741)

@@ -785,3 +785,27 @@ Sources: https://www.nccn.org/guidelines/category_1 and the detail pages (id=141
 - TCR workbooks: /tmp/claude-0/-home-user-oncology-educater/6a66dc7f-55e5-547a-b95f-33d6978992bf/scratchpad/sarc_dl/ (Year_/Period_/Cohort_ Bones and Soft-tissue .xlsx)
 - NCCN patient guides (PDF + text), PDQ, ACS, NDRS, ICCR and ENCR extracts: same folder
 - PubMed abstracts: /tmp/claude-0/-home-user-oncology-educater/6a66dc7f-55e5-547a-b95f-33d6978992bf/scratchpad/sarc_pm/ ; PMC full texts: …/sarc_pmc/ ; PubMed metadata JSON: …/sarc_data/meta.json
+
+---
+
+## Critic additions
+
+The full critic section is at the end of `sarcoma_3_sts_gist_trials.md` ("## Critic additions", items CA-2, CA-3, CA-8 and CA-9). Points that concern this file:
+
+- **§4.3 referral triggers** are now verified from the UK STS guideline 2025 (PMC11724041):
+  - adult with an unexplained, enlarging lump → urgent direct-access ultrasound within 2 weeks
+  - the old NICE criteria (>5 cm, deep, growing, painful) were dropped because they did not separate sarcoma from lipomas
+  - retroperitoneal or intra-abdominal mass → sarcoma MDT before biopsy
+- **Bone red flags** (UK bone guideline 2025, PMC11723950):
+  - night pain; recent injury does not exclude a tumour; a normal X-ray does not exclude a tumour
+  - urgent referral if under 40 with a suspected primary bone tumour
+  - pathological fracture: splint, **no internal fixation** before diagnosis
+- **Screening section:**
+  - no population screening for sarcoma
+  - Taiwan's national programme calls lung screening the 「第五癌篩檢」 (MOHW 2025-01-10)
+  - Li-Fraumeni surveillance with whole-body MRI: 5-year OS 88.8% vs 59.6% (Villani 2016); baseline WB-MRI cancer detection 7% (Ballinger 2017)
+- **GIST tumour-rupture definition and neoadjuvant timing** from the 2025 Asian consensus:
+  - rupture includes piecemeal resection and incisional biopsy
+  - surgery after 6–12 months of neoadjuvant imatinib
+  - post-neoadjuvant specimens cannot be risk-classified
+- **Follow-up schedules for STS and bone sarcoma** (UK/ESMO) added. For GIST, intervals remain [UNVERIFIED]; contrast CT, individualised by risk.

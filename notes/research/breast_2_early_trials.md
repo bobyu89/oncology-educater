@@ -801,3 +801,113 @@ Method: Every PMID was pulled from PubMed (NCBI E-utilities esearch/efetch, the 
 | CREATE-X | 28564564 | dose from review 39057150 |
 | EBCTCG bisphosphonates | 26211824 | — |
 | CALGB 9741 | 12668651 | 28691057 (12.3-year data); EBCTCG 2019: 30739743 |
+
+---
+
+## Critic additions
+
+Added 2026-10-29 by the completeness critic (append only). Biggest gap found: **the early-disease notes had no local therapy at all** (surgery, margins, axilla, radiotherapy, DCIS) and no adjuvant-trastuzumab foundation trials. All numbers below are from the PubMed abstract [A] unless marked; every PMID was pulled through NCBI E-utilities on 2026-10-29.
+
+### CA2.1 Surgery and margins [VERIFIED; A]
+
+**NSABP B-06, 20-year (Fisher 2002)** — 1,851 women; total mastectomy vs lumpectomy vs lumpectomy + breast irradiation.
+- Ipsilateral breast recurrence: **14.3%** (lumpectomy + RT) vs **39.2%** (lumpectomy alone), P < 0.001.
+- No difference in DFS, distant DFS or OS. Death, lumpectomy + RT vs mastectomy: HR 0.97 (0.83–1.14).
+- Teaching point: breast conservation **with** radiotherapy = mastectomy for survival, provided margins are tumour-free.
+
+**Margins, invasive cancer (SSO–ASTRO 2014; Moran 2014)** — meta-analysis of 33 studies, 28,162 patients.
+- Positive margin = **ink on invasive carcinoma or DCIS**; it doubles ipsilateral breast tumour recurrence (IBTR).
+- **"No ink on tumour" is an adequate margin.** Wider margins do not lower IBTR further, including in young patients, unfavourable biology, lobular cancer or extensive intraductal component.
+
+**Margins, pure DCIS (SSO–ASTRO–ASCO 2016; Morrow 2016)** — 20 studies, 7,883 patients; applies to DCIS treated with BCS **plus whole-breast irradiation**.
+- **2 mm** is the standard adequate margin. Wider than 2 mm adds nothing.
+- Negative margins <2 mm are **not** by themselves an indication for mastectomy; re-excision is a clinical judgement.
+- Teaching contrast: invasive = no ink on tumour; DCIS = 2 mm.
+
+### CA2.2 Axillary management [VERIFIED; A]
+
+| Trial | Population | Comparison | Key result |
+|---|---|---|---|
+| **ACOSOG Z0011** (Giuliano 2017, 10-year) | cT1–T2, no palpable nodes, **1–2 positive sentinel nodes**, lumpectomy + **tangential whole-breast RT** (third field prohibited) + systemic therapy; n = 891 | SLNB alone vs ALND | 10-year OS **86.3% vs 83.6%**, HR 0.85, non-inferiority P = .02; DFS 80.2% vs 78.2%. Regional recurrence did not differ |
+| **AMAROS** (Donker 2014; Bartels 2023) | cT1–2 cN0, positive SLN; 1,425 randomised node-positive | Axillary RT vs ALND | 5-year axillary recurrence 1.19% vs 0.43% (test underpowered). **10-year 1.82% vs 0.93%** (HR 1.71, 0.67–4.39); no OS or DFS difference. **Lymphoedema at 5 years 11.9% (RT) vs 24.5% (ALND)**, P < .001. In the ALND arm, 33% had additional positive nodes. Exploratory: 10-year second primary cancers 12.1% (RT) vs 8.3% (ALND) |
+| **SOUND** (Gentilini 2023) | Tumour **≤2 cm**, **negative axillary ultrasound**; n = 1,405 ITT (87.8% ER+/HER2−; median age 60) | No axillary surgery vs SLNB | 5-year DDFS **98.0% vs 97.7%** (HR 0.84; non-inferior). 13.7% of the SLNB arm were node-positive |
+| **INSEMA** (Reimer 2025) | cT1–T2 (≤5 cm), cN0, planned BCS; 5,502 randomised **1:4** | No axillary surgery vs SLNB | Per-protocol 5-year iDFS **91.9% vs 91.7%**, HR 0.91 (0.73–1.14), non-inferior. Axillary recurrence 1.0% vs 0.3%. Less lymphoedema and arm morbidity without surgery |
+| **ACOSOG Z1071** (Boughey 2013) | Biopsy-proven **cN1**, after neoadjuvant chemotherapy; SLNB **and** ALND in all | False-negative rate of SLNB after NAC | With ≥2 SLNs: **FNR 12.6%**, which failed the ≤10% target. SLN not found in 7.1%; nodal pCR 41.0%. Dual-tracer mapping was encouraged |
+
+- Nursing link: lymphoedema-risk teaching in breast_4 §6.10. AMAROS gives the cleanest head-to-head lymphoedema figure.
+- The technical refinements that make post-NAC SLNB acceptable (≥3 SLNs, clipped-node retrieval/targeted axillary dissection) were **not verified** here [UNVERIFIED].
+
+### CA2.3 Radiotherapy [VERIFIED; A]
+
+- **EBCTCG 2011, RT after BCS** (17 trials, 10,801 women): 10-year any first recurrence **35.0% → 19.3%**; 15-year breast-cancer death **25.2% → 21.4%**. About **one breast-cancer death avoided by year 15 for every four recurrences avoided by year 10**. pN+ subgroup: recurrence 63.7% → 42.5%, death 51.3% → 42.8%.
+- **EBCTCG 2014, post-mastectomy RT** (22 trials, 8,135 women; after mastectomy + axillary dissection):
+  - pN0 (n = 700): no benefit (overall recurrence RR 1.06; breast-cancer mortality RR 1.18, NS).
+  - **1–3 positive nodes** (n = 1,314): overall recurrence **RR 0.68** (0.57–0.82); breast-cancer mortality **RR 0.80** (0.67–0.95). Benefit held when systemic therapy was given.
+  - ≥4 nodes (n = 1,772): recurrence RR 0.79; mortality RR 0.87.
+  - Erratum: Lancet 2014;384:1848 (not reviewed).
+- **FAST-Forward** (Murray Brunt 2020; 4,096 patients, pT1–3 pN0–1 after BCS or mastectomy; whole breast/chest wall):
+  - 40 Gy/15 fractions (3 weeks) vs 27 Gy/5 vs **26 Gy/5 fractions (1 week)**.
+  - 5-year IBTR after 40 Gy 2.1%; HR 0.67 (0.38–1.16) for 26 Gy, non-inferior.
+  - Moderate/marked clinician-assessed normal-tissue effects at 5 years: 9.9% (40 Gy), **15.4% (27 Gy)**, 11.9% (26 Gy). **26 Gy/5 is non-inferior and as safe; 27 Gy/5 is more toxic.**
+- **PRIME II** (Kunkler 2023; n = 1,326): age **≥65**, HR+, **node-negative**, T1–T2 **≤3 cm**, clear margins, on adjuvant endocrine therapy; WBI 40–50 Gy vs none.
+  - 10-year local recurrence **9.5% (no RT) vs 0.9% (RT)**, HR 10.4.
+  - Distant recurrence as first event 1.6% vs 3.0%; **10-year OS 80.8% vs 80.7%** (no difference).
+  - Teaching point: omitting RT in low-risk older women raises local recurrence but not death; endocrine adherence becomes the safeguard.
+
+### CA2.4 DCIS: adjuvant tamoxifen (NSABP B-24; Fisher 1999) [VERIFIED; A]
+- 1,804 women with DCIS (positive margins allowed) after lumpectomy + RT (50 Gy); tamoxifen 20 mg daily × 5 years vs placebo.
+- Breast-cancer events at 5 years **8.2% vs 13.4%** (P = 0.0009). Invasive events in the tamoxifen arm 4.1% (ipsilateral 2.1%, contralateral 1.8%).
+- Benefit seen even with involved margins or comedonecrosis. The abstract does not mention ER status; any ER-restricted recommendation for DCIS needs a separate source [UNVERIFIED here].
+
+### CA2.5 Adjuvant trastuzumab: the foundation trials (gap) [VERIFIED; A]
+
+| Trial | Design | Result |
+|---|---|---|
+| **NSABP B-31 + NCCTG N9831 joint OS** (Perez 2014) | 4,046 patients; AC → paclitaxel ± trastuzumab; median 8.4 years on study | OS **HR 0.63** (0.54–0.73); 10-year OS **75.2% → 84.0%**. DFS HR 0.60; 10-year DFS 62.2% → 73.7%. All subgroups benefited |
+| **HERA, final 11-year** (Cameron 2017) | 5,102 randomised after all primary therapy; trastuzumab 8 → 6 mg/kg q3w for 1 or 2 years vs observation | 1 year vs observation: DFS HR **0.76**, death HR **0.74** (despite 52% crossover from observation). **2 years vs 1 year: DFS HR 1.02 — no added benefit.** 10-year DFS 63% / 69% / 69%. Secondary cardiac end points 7.3% (2 years), 4.4% (1 year), 0.9% (observation). Erratum Lancet 2019;393:1100 |
+| **PERSEPHONE** (Earl 2019) | 4,088 patients; 6 vs 12 months, IV (8 → 6 mg/kg) or SC 600 mg, with chemotherapy | 4-year DFS **89.4% (6 months) vs 89.8% (12 months)**, HR 1.07 (90% CI 0.93–1.24), non-inferior. Stopped early for cardiotoxicity **3% vs 8%**; severe AEs 19% vs 24% |
+
+- Practice framing for the chapter: **1 year remains the label standard** (US Herceptin label: 52 weeks; "extending adjuvant treatment beyond one year is not recommended", breast_4 §3). PERSEPHONE supports *considering* 6 months for similar-risk patients, e.g. after cardiotoxicity. HERA explains why we never give 2 years.
+
+### CA2.6 pCR definition and meaning (CTNeoBC; Cortazar 2014) [VERIFIED; A]
+- 12 trials, 11,955 patients.
+- pCR defined as **ypT0 ypN0 or ypT0/is ypN0** (breast **and** nodes) predicts survival better than breast-only ypT0/is. EFS HR 0.48 and OS HR 0.36 for ypT0/is ypN0.
+- Prognostic value is strongest in **TNBC** (EFS HR 0.24; OS 0.16) and **HER2+/HR− treated with trastuzumab** (EFS 0.15; OS 0.08).
+- **Trial-level surrogacy failed** (R² 0.03 for EFS, 0.24 for OS): a higher pCR rate in one arm does not by itself prove an EFS/OS gain. Useful when explaining why KEYNOTE-522's modest ITT pCR gain (63.0 vs 55.6%) still mattered only once EFS/OS read out.
+- Erratum: Lancet 2019;393:986 (not reviewed).
+
+### CA2.7 Re-check of high-stakes numbers already in this file (primary source re-opened 2026-10-29)
+
+| Number in notes | Re-checked against | Result |
+|---|---|---|
+| KEYNOTE-522 ITT pCR **63.0% (59.5–66.4) vs 55.6% (50.6–60.6)** | Keytruda label (openFDA, effective 2026-07-10), Table 115 | **Confirmed** (494/784 vs 217/390; significance was shown at the 602-patient interim, p = 0.00055) |
+| Ribociclib adjuvant **400 mg daily, 21/7, for 3 years**, with an AI | Kisqali label (2026-07-01) §2.1 | **Confirmed**. ECG before start and about day 14 of cycle 1. Below 200 mg/day: discontinue |
+| Olaparib adjuvant **300 mg BID for 1 year** | Lynparza label (2025-07-10) §2 | **Confirmed**; concurrent endocrine therapy for HR+; CLcr 31–50 mL/min → 200 mg BID |
+| Neratinib loperamide: **4 mg TID weeks 1–2, 4 mg BID weeks 3–8**, then PRN ≤16 mg/day; 240 mg daily with food up to 1 year | Nerlynx label (2026-07-02) Table 1, §2.2 | **Confirmed** |
+
+No corrections were needed in this file.
+
+### CA2.8 Still [PARTIAL] or [UNVERIFIED]
+- **CREATE-X capecitabine dose**: the NEJM protocol supplement returned HTTP 403. Two secondary sources agree on 2,500 mg/m²/day in two divided doses (= 1,250 mg/m² BID), days 1–14 q3w, 8 cycles; the trial is registered as UMIN000000843 (secondary source; the UMIN record itself was not opened). Stays **[PARTIAL]**.
+- Neoadjuvant indications, post-NAC SLNB technical criteria, regional nodal irradiation trials (MA.20, EORTC 22922) and partial-breast irradiation were not covered [UNVERIFIED].
+
+### CA2 references (APA 7)
+- Bartels, S. A. L., Donker, M., Poncet, C., Sauvé, N., Straver, M. E., van de Velde, C. J. H., Mansel, R. E., Blanken, C., Orzalesi, L., Klinkenbijl, J. H. G., van der Mijle, H. C. J., Nieuwenhuijzen, G. A. P., Veltkamp, S. C., van Dalen, T., Marinelli, A., Rijna, H., Snoj, M., Bundred, N. J., Merkus, J. W. S., . . . Rutgers, E. J. T. (2023). Radiotherapy or surgery of the axilla after a positive sentinel node in breast cancer: 10-year results of the randomized controlled EORTC 10981-22023 AMAROS trial. *Journal of Clinical Oncology, 41*(12), 2159–2165. https://doi.org/10.1200/JCO.22.01565 (PMID 36383926)
+- Boughey, J. C., Suman, V. J., Mittendorf, E. A., Ahrendt, G. M., Wilke, L. G., Taback, B., Leitch, A. M., Kuerer, H. M., Bowling, M., Flippo-Morton, T. S., Byrd, D. R., Ollila, D. W., Julian, T. B., McLaughlin, S. A., McCall, L., Symmans, W. F., Le-Petross, H. T., Haffty, B. G., Buchholz, T. A., . . . Hunt, K. K. (2013). Sentinel lymph node surgery after neoadjuvant chemotherapy in patients with node-positive breast cancer: The ACOSOG Z1071 (Alliance) clinical trial. *JAMA, 310*(14), 1455–1461. https://doi.org/10.1001/jama.2013.278932 (PMID 24101169; PMCID PMC4075763)
+- Cameron, D., Piccart-Gebhart, M. J., Gelber, R. D., Procter, M., Goldhirsch, A., de Azambuja, E., Castro, G., Untch, M., Smith, I., Gianni, L., Baselga, J., Al-Sakaff, N., Lauer, S., McFadden, E., Leyland-Jones, B., Bell, R., Dowsett, M., & Jackisch, C. (2017). 11 years' follow-up of trastuzumab after adjuvant chemotherapy in HER2-positive early breast cancer: Final analysis of the HERceptin Adjuvant (HERA) trial. *The Lancet, 389*(10075), 1195–1205. https://doi.org/10.1016/S0140-6736(16)32616-2 (PMID 28215665; PMCID PMC5465633)
+- Cortazar, P., Zhang, L., Untch, M., Mehta, K., Costantino, J. P., Wolmark, N., Bonnefoi, H., Cameron, D., Gianni, L., Valagussa, P., Swain, S. M., Prowell, T., Loibl, S., Wickerham, D. L., Bogaerts, J., Baselga, J., Perou, C., Blumenthal, G., Blohmer, J., . . . von Minckwitz, G. (2014). Pathological complete response and long-term clinical benefit in breast cancer: The CTNeoBC pooled analysis. *The Lancet, 384*(9938), 164–172. https://doi.org/10.1016/S0140-6736(13)62422-8 (PMID 24529560)
+- Donker, M., van Tienhoven, G., Straver, M. E., Meijnen, P., van de Velde, C. J. H., Mansel, R. E., Cataliotti, L., Westenberg, A. H., Klinkenbijl, J. H. G., Orzalesi, L., Bouma, W. H., van der Mijle, H. C. J., Nieuwenhuijzen, G. A. P., Veltkamp, S. C., Slaets, L., Duez, N. J., de Graaf, P. W., van Dalen, T., Marinelli, A., . . . Rutgers, E. J. T. (2014). Radiotherapy or surgery of the axilla after a positive sentinel node in breast cancer (EORTC 10981-22023 AMAROS): A randomised, multicentre, open-label, phase 3 non-inferiority trial. *The Lancet Oncology, 15*(12), 1303–1310. https://doi.org/10.1016/S1470-2045(14)70460-7 (PMID 25439688; PMCID PMC4291166)
+- Earl, H. M., Hiller, L., Vallier, A.-L., Loi, S., McAdam, K., Hughes-Davies, L., Harnett, A. N., Ah-See, M.-L., Simcock, R., Rea, D., Raj, S., Woodings, P., Harries, M., Howe, D., Raynes, K., Higgins, H. B., Wilcox, M., Plummer, C., Mansi, J., . . . Dunn, J. A. (2019). 6 versus 12 months of adjuvant trastuzumab for HER2-positive early breast cancer (PERSEPHONE): 4-year disease-free survival results of a randomised phase 3 non-inferiority trial. *The Lancet, 393*(10191), 2599–2612. https://doi.org/10.1016/S0140-6736(19)30650-6 (PMID 31178152; PMCID PMC6615016)
+- Early Breast Cancer Trialists' Collaborative Group. (2011). Effect of radiotherapy after breast-conserving surgery on 10-year recurrence and 15-year breast cancer death: Meta-analysis of individual patient data for 10,801 women in 17 randomised trials. *The Lancet, 378*(9804), 1707–1716. https://doi.org/10.1016/S0140-6736(11)61629-2 (PMID 22019144; PMCID PMC3254252)
+- Early Breast Cancer Trialists' Collaborative Group. (2014). Effect of radiotherapy after mastectomy and axillary surgery on 10-year recurrence and 20-year breast cancer mortality: Meta-analysis of individual patient data for 8135 women in 22 randomised trials. *The Lancet, 383*(9935), 2127–2135. https://doi.org/10.1016/S0140-6736(14)60488-8 (PMID 24656685; PMCID PMC5015598)
+- Fisher, B., Anderson, S., Bryant, J., Margolese, R. G., Deutsch, M., Fisher, E. R., Jeong, J.-H., & Wolmark, N. (2002). Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation for the treatment of invasive breast cancer. *The New England Journal of Medicine, 347*(16), 1233–1241. https://doi.org/10.1056/NEJMoa022152 (PMID 12393820)
+- Fisher, B., Dignam, J., Wolmark, N., Wickerham, D. L., Fisher, E. R., Mamounas, E., Smith, R., Begovic, M., Dimitrov, N. V., Margolese, R. G., Kardinal, C. G., Kavanah, M. T., Fehrenbacher, L., & Oishi, R. H. (1999). Tamoxifen in treatment of intraductal breast cancer: National Surgical Adjuvant Breast and Bowel Project B-24 randomised controlled trial. *The Lancet, 353*(9169), 1993–2000. https://doi.org/10.1016/S0140-6736(99)05036-9 (PMID 10376613)
+- Gentilini, O. D., Botteri, E., Sangalli, C., Galimberti, V., Porpiglia, M., Agresti, R., Luini, A., Viale, G., Cassano, E., Peradze, N., Toesca, A., Massari, G., Sacchini, V., Munzone, E., Leonardi, M. C., Cattadori, F., Di Micco, R., Esposito, E., Sgarella, A., . . . Veronesi, P. (2023). Sentinel lymph node biopsy vs no axillary surgery in patients with small breast cancer and negative results on ultrasonography of axillary lymph nodes: The SOUND randomized clinical trial. *JAMA Oncology, 9*(11), 1557–1564. https://doi.org/10.1001/jamaoncol.2023.3759 (PMID 37733364; PMCID PMC10514873)
+- Giuliano, A. E., Ballman, K. V., McCall, L., Beitsch, P. D., Brennan, M. B., Kelemen, P. R., Ollila, D. W., Hansen, N. M., Whitworth, P. W., Blumencranz, P. W., Leitch, A. M., Saha, S., Hunt, K. K., & Morrow, M. (2017). Effect of axillary dissection vs no axillary dissection on 10-year overall survival among women with invasive breast cancer and sentinel node metastasis: The ACOSOG Z0011 (Alliance) randomized clinical trial. *JAMA, 318*(10), 918–926. https://doi.org/10.1001/jama.2017.11470 (PMID 28898379; PMCID PMC5672806)
+- Kunkler, I. H., Williams, L. J., Jack, W. J. L., Cameron, D. A., & Dixon, J. M. (2023). Breast-conserving surgery with or without irradiation in early breast cancer. *The New England Journal of Medicine, 388*(7), 585–594. https://doi.org/10.1056/NEJMoa2207586 (PMID 36791159)
+- Moran, M. S., Schnitt, S. J., Giuliano, A. E., Harris, J. R., Khan, S. A., Horton, J., Klimberg, S., Chavez-MacGregor, M., Freedman, G., Houssami, N., Johnson, P. L., & Morrow, M. (2014). Society of Surgical Oncology–American Society for Radiation Oncology consensus guideline on margins for breast-conserving surgery with whole-breast irradiation in stages I and II invasive breast cancer. *Journal of Clinical Oncology, 32*(14), 1507–1515. https://doi.org/10.1200/JCO.2013.53.3935 (PMID 24516019)
+- Morrow, M., Van Zee, K. J., Solin, L. J., Houssami, N., Chavez-MacGregor, M., Harris, J. R., Horton, J., Hwang, S., Johnson, P. L., Marinovich, M. L., Schnitt, S. J., Wapnir, I., & Moran, M. S. (2016). Society of Surgical Oncology–American Society for Radiation Oncology–American Society of Clinical Oncology consensus guideline on margins for breast-conserving surgery with whole-breast irradiation in ductal carcinoma in situ. *Practical Radiation Oncology, 6*(5), 287–295. https://doi.org/10.1016/j.prro.2016.06.011 (PMID 27538810; PMCID PMC5070537)
+- Murray Brunt, A., Haviland, J. S., Wheatley, D. A., Sydenham, M. A., Alhasso, A., Bloomfield, D. J., Chan, C., Churn, M., Cleator, S., Coles, C. E., Goodman, A., Harnett, A., Hopwood, P., Kirby, A. M., Kirwan, C. C., Morris, C., Nabi, Z., Sawyer, E., Somaiah, N., . . . Yarnold, J. R. (2020). Hypofractionated breast radiotherapy for 1 week versus 3 weeks (FAST-Forward): 5-year efficacy and late normal tissue effects results from a multicentre, non-inferiority, randomised, phase 3 trial. *The Lancet, 395*(10237), 1613–1626. https://doi.org/10.1016/S0140-6736(20)30932-6 (PMID 32580883; PMCID PMC7262592)
+- Perez, E. A., Romond, E. H., Suman, V. J., Jeong, J.-H., Sledge, G., Geyer, C. E., Martino, S., Rastogi, P., Gralow, J., Swain, S. M., Winer, E. P., Colon-Otero, G., Davidson, N. E., Mamounas, E., Zujewski, J. A., & Wolmark, N. (2014). Trastuzumab plus adjuvant chemotherapy for human epidermal growth factor receptor 2-positive breast cancer: Planned joint analysis of overall survival from NSABP B-31 and NCCTG N9831. *Journal of Clinical Oncology, 32*(33), 3744–3752. https://doi.org/10.1200/JCO.2014.55.5730 (PMID 25332249; PMCID PMC4226805)
+- Reimer, T., Stachs, A., Veselinovic, K., Kühn, T., Heil, J., Polata, S., Marmé, F., Müller, T., Hildebrandt, G., Krug, D., Ataseven, B., Reitsamer, R., Ruth, S., Denkert, C., Bekes, I., Zahm, D.-M., Thill, M., Golatta, M., Holtschmidt, J., . . . Gerber, B. (2025). Axillary surgery in breast cancer—Primary results of the INSEMA trial. *The New England Journal of Medicine, 392*(11), 1051–1064. https://doi.org/10.1056/NEJMoa2412063 (PMID 39665649)
+- Labels re-opened via openFDA on 2026-10-29: KEYTRUDA (effective 2026-07-10), KISQALI (2026-07-01), LYNPARZA (2025-07-10), NERLYNX (2026-07-02). https://api.fda.gov/drug/label.json

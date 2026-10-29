@@ -594,3 +594,130 @@ Titles are in sentence case. Author lists follow APA 7: all authors up to 20; fo
 - Vasen, H. F., Gruis, N. A., Frants, R. R., van der Velden, P. A., Hille, E. T., & Bergman, W. (2000). Risk of developing pancreatic cancer in families with familial atypical multiple mole melanoma associated with a specific 19 deletion of p16 (p16-Leiden). *International Journal of Cancer, 87*(6), 809–811. https://doi.org/10.1002/1097-0215(20000915)87:6<809::AID-IJC8>3.0.CO;2-U (PMID 10956390)
 - Yang, X., Leslie, G., Doroszuk, A., Schneider, S., Allen, J., Decker, B., Dunning, A. M., Redman, J., Scarth, J., Plaskocinska, I., Luccarini, C., Shah, M., Pooley, K., Dorling, L., Lee, A., Adank, M. A., Adlard, J., Aittomäki, K., Andrulis, I. L., . . . Tischkowitz, M. (2020). Cancer risks associated with germline PALB2 pathogenic variants: An international study of 524 families. *Journal of Clinical Oncology, 38*(7), 674–685. https://doi.org/10.1200/JCO.19.01907 (PMID 31841383; PMCID PMC7049229)
 - Yao, D.-W., Qin, M.-Z., Jiang, H.-X., & Qin, S.-Y. (2024). Comparison of EUS-FNA and EUS-FNB for diagnosis of solid pancreatic mass lesions: A meta-analysis of prospective studies. *Scandinavian Journal of Gastroenterology, 59*(8), 972–979. https://doi.org/10.1080/00365521.2024.2354908 (PMID 38769625)
+
+---
+
+## Critic additions
+
+Completeness critic pass, 2026-10-29. Append only. These items address facts that were missing or [UNVERIFIED] in §0 flag 12 and that the chapter needs for the quick card (§0), Taiwan epidemiology and screening (§1), and pathology (§2).
+
+### CA-1. Survival figures (quick card and §1.4)
+
+**US, SEER Cancer Stat Facts: Pancreatic Cancer** (read 2026-10-29) [VERIFIED; web]
+- **5-year relative survival 13.7%** (SEER, 2016–2022).
+- By stage at diagnosis (SEER 21):
+
+| Stage | Share of cases | 5-year relative survival |
+|---|---|---|
+| Localized | 15% | **43.6%** |
+| Regional | 28% | **17.0%** |
+| Distant | 51% | **3.4%** |
+| Unknown | 5% | 12.5% |
+
+- **Median age at diagnosis 71** (SEER 21, 2019–2023).
+- 2026 US estimates: 67,530 new cases (3.2% of all cancers) and 52,740 deaths (8.4% of cancer deaths).
+- Note: SEER's 51% distant matches Taiwan's 51.22% stage IV (§1.2). This makes a good comparison for students.
+
+**Taiwan, TCR 2002–2013** (Chang 2018; n = 18,320) [VERIFIED; FT]
+- All pancreatic cancer, survival:
+
+| Group | 1-year | 3-year | 5-year | 10-year |
+|---|---|---|---|---|
+| All patients | 25.52% | 9.22% | **6.6%** | 4.71% |
+| Men | — | — | 5.95% | — |
+| Women | — | — | 7.47% | — |
+
+- **Adenocarcinoma 5-year survival 5.2%.** Endocrine tumours, NETs and lymphoma: 41.8–59.1%.
+- Mean age at diagnosis **67.3 years**. About half of patients were >70 at diagnosis.
+- Age-standardized incidence rose from 4.62 (2002) to 6.04 per 100,000 (2013).
+- Caution:
+  - This is the most recent *published* Taiwanese 5-year figure I could find, but the period is old (2002–2013).
+  - Its 2013 ASR (6.04) differs from the current TCR workbook (6.29 for 2013, §1.1), probably because of the standard population or later registry revisions. Quote the study period with the number.
+- A 2026 TCR-based modelling study (Tsai 2026, 8,864 cases 2013–2021) reports hazard ratios and model performance. A keyword search of its full text ("5-year", "median survival", "median age") found no survival rate. [checked FT]
+
+**Still [UNVERIFIED]**
+- Official recent Taiwan 5-year survival for pancreas: the TCR survival reports cover top-10 sites only.
+- 2023 median age at diagnosis for pancreas: I searched the LF112 text; there is no median-age table, and hpa.gov.tw is unreachable.
+- The MOHW press release gives a median age of **65 for all cancers** in 2023 [VERIFIED], not for pancreas.
+
+### CA-2. Taiwan screening policy (§1 "screening")
+
+- Taiwan's publicly funded programme covers **five cancers only** [VERIFIED; MOHW press release 2025-12-30]:
+  - oral: mucosal exam every 2 years
+  - colorectal: FIT every 2 years, age 45–74, or 40–44 with a family history
+  - cervical
+  - breast: mammography every 2 years, age 40–74
+  - lung: LDCT every 2 years, for men 45–74 and women 40–74 with a family history, and heavy smokers aged 50–74 with ≥20 pack-years
+- **There is no population screening for pancreatic cancer.** High-risk surveillance follows CAPS 2020 (§3) and the Pan-Asian guideline below.
+- **Pan-Asian ESMO 2025** (Taiwan Oncology Society voted) [VERIFIED; FT]:
+  - Recommendation 1c: surveillance of high-risk individuals in **expert centres**, usually starting at **age 50, or 10 years younger than the youngest affected relative** [III, A].
+  - Recommendation 1d: **annual EUS and/or pancreatic MRI** preferred [IV, B].
+  - Recommendation 2a: multiphasic contrast CT of chest, abdomen and pelvis, including late arterial and portal venous phases, as first-line imaging [III, A].
+  - Recommendation 2b: **imaging before biliary drainage or stenting** in jaundiced head cancers [IV, A]. This upgrades §6.1 "image before stenting" from a review statement to a guideline recommendation.
+  - Recommendation 2c: imaging within **4 weeks** before starting treatment [III, A].
+
+### CA-3. Precursor lesions and pancreatic cysts (pathology section; previously absent)
+
+**WHO 2019 (5th edition)** (Nagtegaal 2020) [VERIFIED; FT]
+- PanIN, IPMN and MCN now use a **two-tier grade (low-grade vs high-grade dysplasia)**, based on the highest grade present. This replaces the old three-tier PanIN-1/2/3 system.
+- "Carcinoma in situ" is discouraged; it falls under high-grade dysplasia.
+- Intraductal oncocytic papillary neoplasm and ITPN are now separate from IPMN.
+- Exam trap: "PanIN-3" is the outdated term.
+
+**Kyoto 2024 international IPMN guideline** (Ohtsuka 2024): abstract [VERIFIED]; criteria lists [PARTIAL], taken from Vara-Luiz 2025, which tabulates Kyoto 2024 [FT]
+- What the abstract confirms:
+  - It revises the 2017 Fukuoka guideline.
+  - High-risk stigmata (HRS) and worrisome features (WF) now incorporate **EUS findings and EUS-FNA cytology**.
+  - For **small BD-IPMN unchanged after 5 years** of surveillance there are two options: stop surveillance, or continue for possible concomitant PDAC.
+- **High-risk stigmata (HRS):**
+  - obstructive jaundice in a patient with a cystic lesion of the pancreatic head
+  - enhancing mural nodule ≥5 mm, or a solid component
+  - **main pancreatic duct ≥10 mm**
+  - suspicious or positive cytology (high-grade dysplasia or adenocarcinoma), newly added since Fukuoka
+- **Worrisome features (WF):**
+  - acute pancreatitis
+  - raised serum CA19-9
+  - **new-onset or acute exacerbation of diabetes within the past year** (new)
+  - cyst ≥30 mm
+  - enhancing mural nodule <5 mm
+  - thickened or enhancing cyst wall
+  - MPD 5–9.9 mm
+  - abrupt change in MPD calibre with distal atrophy
+  - lymphadenopathy
+  - **cyst growth ≥2.5 mm/year** (Fukuoka 2017 used ≥5 mm/2 years)
+- Risk of high-grade dysplasia or invasive cancer rises with the number of WF (as cited by Vara-Luiz): **22%, 34% and 59%** with 1, 2 and 3 WF, and **100% with ≥4**.
+- **Surveillance of non-resected IPMN** (Kyoto, as tabulated):
+
+| Cyst size | Interval |
+|---|---|
+| <20 mm | at 6 months once, then **every 18 months** if stable |
+| 20–<30 mm | at 6 months twice, then **every 12 months** |
+| ≥30 mm without another WF | **every 6 months** |
+
+  - Tests: clinical review, **CA19-9, HbA1c**, MRI. Add CT or EUS if the MRI changes.
+- **Natural history:**
+  - Indolent BD-IPMN progresses to high-grade dysplasia or invasive cancer in **0.94–3.3% by 5 years**, 2.3–6.6% by 10 years and 7.6–15% by 15 years.
+  - The risk of concomitant PDAC elsewhere in the gland is about **3–5× the age-matched population** and persists after 5 years ("dual carcinogenesis").
+  - Multifocal BD-IPMN (20–40%) does not by itself raise risk.
+- NP relevance: new-onset diabetes is now a WF in IPMN surveillance. This links to §2 (new-onset diabetes as an early sign of PDAC). An HbA1c check belongs in the cyst-surveillance order set.
+
+### CA-4. Biomarker-frequency nuance (for §7.3)
+
+- The Pan-Asian ESMO 2025 text says KRAS mutations "are seen in **90%–95%** of cases". Real-world NGS series in §7.3 give 83–89% [VERIFIED quote; FT].
+- Write "about 85–90% (large NGS series)" and cite the series, not the guideline sentence.
+
+### CA-5. Still open in this file after the critic pass
+
+- Peutz-Jeghers lifetime pancreatic risk: CAPS 2020 full text gives only a surveillance start age (30–40), no lifetime %. Still [UNVERIFIED].
+- NCCN v4.2026 professional wording on resectability (body/tail Appleby clause, §9): the PDF still returns 403, and the JNCCN Ko 2026 abstract is generic. Still [PARTIAL].
+- Painless jaundice and Courvoisier frequencies: not searched further. Still [UNVERIFIED].
+
+### CA-6. References for these additions (APA 7)
+
+- Chang, J. S., Chen, L.-T., Shan, Y.-S., Chu, P.-Y., Tsai, C.-R., & Tsai, H.-J. (2018). The incidence and survival of pancreatic cancer by histology, including rare subtypes: A nation-wide cancer registry-based study from Taiwan. *Cancer Medicine, 7*(11), 5775–5788. https://doi.org/10.1002/cam4.1795 (PMID 30264519; PMCID PMC6246938)
+- Ohtsuka, T., Fernandez-Del Castillo, C., Furukawa, T., Hijioka, S., Jang, J.-Y., Lennon, A. M., Miyasaka, Y., Ohno, E., Salvia, R., Wolfgang, C. L., & Wood, L. D. (2024). International evidence-based Kyoto guidelines for the management of intraductal papillary mucinous neoplasm of the pancreas. *Pancreatology, 24*(2), 255–270. https://doi.org/10.1016/j.pan.2023.12.009 (PMID 38182527) (abstract only; criteria via Vara-Luiz 2025)
+- Tai, D., Conroy, T., Lee, J. J. X., Chee, C. E., Hao, C. Y., Wijaya, I., Aggarwal, S., Ueno, M., Jeung, H. C., Hashim, N. M., Tan Chun Bing, J., Chen, L. T., Korphaisarn, K., Tanasanvimon, S., Chou, W. C., Cargullo, E., Muin, N. F. A., Lee, M. A., Ohba, A., . . . Ducreux, M. (2025). Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer. *ESMO Open, 10*(10), Article 105826. https://doi.org/10.1016/j.esmoop.2025.105826 (PMID 41067164; PMCID PMC12546840)
+- Tsai, D.-R., Chiang, C.-J., Hsieh, P.-C., Huang, C.-Y., & Lee, W.-C. (2026). Explainable artificial intelligence for personalized prognosis in pancreatic cancer: A nationwide study from Taiwan. *PLOS Digital Health, 5*(3), Article e0001296. https://doi.org/10.1371/journal.pdig.0001296 (PMID 41855151; PMCID PMC13001956)
+- Vara-Luiz, F., Fernandes, A., Bispo, M., Vilas-Boas, F., Cúrdia-Gonçalves, T., Rodrigues-Pinto, E., & Pinto-Marques, P. (2025). Portuguese Pancreatic Club perspective on the surveillance strategy for intraductal papillary mucinous neoplasms: When and how to do it? *GE Portuguese Journal of Gastroenterology, 32*(6), 438–446. https://doi.org/10.1159/000547298 (PMID 40746378; PMCID PMC12310237)
+- National Cancer Institute, Surveillance, Epidemiology, and End Results Program. (2026). *Cancer stat facts: Pancreatic cancer*. Retrieved October 29, 2026, from https://seer.cancer.gov/statfacts/html/pancreas.html
+- Nagtegaal et al. (2020), the WHO 2019 summary, and the MOHW 2025-12-30 press release are already listed in §12–13 above.

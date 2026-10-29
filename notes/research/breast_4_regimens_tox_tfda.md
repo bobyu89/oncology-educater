@@ -794,3 +794,85 @@ Other official sources [VERIFIED]:
 ## Appendix: PMID index
 
 12668651 Citron 2003 (CALGB 9741) · 12767102 Swain 2003 · 17135639 Jones 2006 (TC) · 18420499 Sparano 2008 (E1199) · 26077235 Sparano 2015 · 21991949 Slamon 2011 (BCIRG 006) · 23704196 Schneeweiss 2013 (TRYPHAENA) · 22149875 Baselga 2012 and 25693012 Swain 2015 (CLEOPATRA) · 25564897 Tolaney 2015 (APT) · 32101663 Schmid 2020 (KEYNOTE-522) · 28564564 Masuda 2017 (CREATE-X) · 29340011 Toi 2017 (editorial) · 30516102 von Minckwitz 2019 (KATHERINE) · 35320644 Cortés 2022 (DB-03) · 35665782 Modi 2022 (DB-04) · 40769277 Rugo 2025 (T-DXd ILD retreatment) · 33882206 Bardia 2021 (ASCENT) · 36038616 Rugo 2022 (ASCENT safety/UGT1A1) · 37633306 Rugo 2023 (TROPiCS-02) · 41006069 Tolaney 2025 · 27959613 Finn 2016 (PALOMA-2) · 27717303 Hortobagyi 2016 (MONALEESA-2) · 38507751 Slamon 2024 (NATALEE) · 32954927 Johnston 2020 (monarchE) · 31091374 André 2019 (SOLAR-1) · 32416251 Rugo 2020 (SOLAR-1 AE) · 37256976 Turner 2023 (CAPItello-291) · 35584336 Bidard 2022 (EMERALD) · 28578601 Robson 2017 (OlympiAD) · 34081848 Tutt 2021 (OlympiA) · 20855825 Di Leo 2010 (CONFIRM) · 9747868 Fisher 1998 (P-1) · 20142325 Kelly 2010 · 29385237 Goetz 2018 (CPIC) · 31532726 Shapiro 2019 · 26040499 Gnant 2015 (ABCSG-18) · 26211824 EBCTCG 2015 · 29998338 Hershman 2018 · 29136387 Henry 2018 · 27599144 Asdourian 2016 · 28766218 McLaughlin 2017 · 19675330 Schmitz 2009 · 21148134 Schmitz 2010 · 28196254 Nangia 2017 · 28196257 Rugo 2017 (JAMA) · 28275922 Rugo 2017 (BCRT) · 25738668 Moore 2015 (POEMS) · 30371800 Moore 2019 · 37133584 Partridge 2023 (POSITIVE) · 29620997 Oktay 2018 · 32976936 Lambertini 2020 · 27918725 Armenian 2017 · 36017568 Lyon 2022
+
+---
+
+## Critic additions
+
+Added 2026-10-29 by the completeness critic (append only). Labels were re-downloaded from openFDA by SPL set ID on 2026-10-29 (same versions as section 9 unless stated). The TFDA licence dataset (InfoId 36) was **re-downloaded independently** on 2026-10-29 (file `36_2.csv`, timestamp 2026-10-27, 10.1 MB zip) to re-check the Taiwan claims.
+
+### CA4.1 Re-check of high-stakes numbers (primary source re-opened) — no corrections needed
+
+| # | Claim in these notes | Primary source re-opened | Verdict |
+|---|---|---|---|
+| 1 | Doxorubicin cardiomyopathy **1–2% at 300, 3–5% at 400, 5–8% at 450, 6–20% at 500 mg/m²** (q3w) | Doxorubicin HCl label, Pfizer, effective 2026-05-05, §5.1; boxed warning "1%–20% for cumulative doses 300–500 mg/m²"; additive with mediastinal RT, cyclophosphamide, trastuzumab | **Confirmed** |
+| 2 | Trastuzumab: hold ≥4 weeks for **≥16-point absolute LVEF fall, or below LLN with ≥10-point fall**; resume if back to normal within 4–8 weeks with fall ≤15 points; stop if >8 weeks or >3 holds. LVEF at baseline, **every 3 months** during and at completion, **every 6 months for ≥2 years** after adjuvant therapy | Herceptin label 2026-05-29, §2.5 and §5.1 | **Confirmed** |
+| 3 | T-DXd ILD: grade 1 → interrupt, consider **≥0.5 mg/kg/day prednisolone**; grade ≥2 → **permanently stop**, **≥1 mg/kg/day for ≥14 days, taper ≥4 weeks**. ILD 12%, median onset 5.5 months, **fatal 0.9%** (5.4 mg/kg monotherapy) | Enhertu label 2026-05-15, §2.3 and §5.1 | **Confirmed** |
+| 4 | T-DXd is **highly emetogenic** (including delayed nausea/vomiting) | Enhertu label 2026-05-15, §2 "Premedication" | **Confirmed**. Order sets should use a high-emetic-risk regimen (shared chapter 03-supportive-care.md) |
+| 5 | Ribociclib adjuvant 400 mg 21/7 × 3 years; ECG at baseline and ~day 14 of cycle 1 | Kisqali label 2026-07-01, §2.1–2.2 | **Confirmed** |
+| 6 | Neratinib loperamide prophylaxis 4 mg TID (wk 1–2) → 4 mg BID (wk 3–8) → PRN ≤16 mg/day | Nerlynx label 2026-07-02, Table 1 | **Confirmed** |
+| 7 | Olaparib 300 mg BID; adjuvant 1 year | Lynparza label 2025-07-10, §2 | **Confirmed** |
+| 8 | **Goserelin: no active Taiwan licence** (both 3.6 mg 衛署藥輸字第022137號 and 10.8 mg LA 第022233號 cancelled **2026-10-07**, 「自請註銷」, holder 臺灣阿斯特捷利康; dataset 異動日期 2026-10-13) | TFDA dataset re-downloaded 2026-10-29 | **Confirmed** (flag 1 stands) |
+| 9 | **Dexrazoxane: no Taiwan licence** (searched DEXRAZOXANE, SAVENE, ZINECARD, CARDIOXANE, TOTECT; the only hit was an unrelated product, CYTOTECT, matched by substring) | TFDA dataset re-downloaded 2026-10-29 | **Confirmed** (flag 2 stands) |
+
+### CA4.2 Cross-chapter conflict the editor must resolve (new)
+- `handbook/00-shared/01-chemo-basics.md` (extravasation section, line ~323) teaches **"anthracycline extravasation: cold compress + dexrazoxane IV within 6 h, 1,000/1,000/500 mg/m² days 1–3"** (Mouridsen 2007, Savene).
+- **No dexrazoxane product holds a Taiwan licence** (CA4.1 #9). The breast chapter (which uses doxorubicin/epirubicin heavily) should say: "In Taiwan, dexrazoxane is not a licensed product; follow the institutional extravasation protocol (stop, aspirate, cold compress, plastic-surgery consult) and check with pharmacy whether it can be obtained by special import." Special-import availability: **[UNVERIFIED]**.
+- The same applies to dexrazoxane for cardioprotection (section 6.1).
+
+### CA4.3 Taiwan licences not covered above [VERIFIED; TFDA, active licences]
+
+**Trastuzumab products** (useful for order sets; "Herceptin" is not the only trastuzumab in Taiwanese wards)
+| Product | Licence | Form | Issued |
+|---|---|---|---|
+| Herceptin 賀癌平 150 mg / 440 mg | 衛署菌疫輸字第000790號 / 衛部菌疫輸字第000961號 | IV lyophilised | 2004-02-04 / 2014-07-18 |
+| **Herceptin 賀癌平 皮下注射劑** (SC) | 衛部菌疫輸字第001065號 | SC solution | 2017-12-26 |
+| Ogivri 癌吉清 150 / 440 mg | 第001090號 / 第001089號 | IV biosimilar | 2018-12-06 |
+| Kanjinti 康癌停 150 / 420 mg | 第001110號 / 第001111號 | IV biosimilar | 2019-08-21 |
+| Herzuma 赫珠瑪 150 / 440 mg | 第001115號 / 第001116號 | IV biosimilar | 2019-12-11 |
+| Trazimera 曲斯若 150 / 440 mg | 第001135號 / 第001136號 | IV biosimilar | 2020-07-08 |
+| **Eirgasun 益康平 150 / 420 mg** (台康生技, made in Taiwan: 衛部**菌疫製**字) | 衛部菌疫製字第000154號 / 第000160號 | IV biosimilar | 2023-05-24 / 2025-11-10 |
+| Phesgo 賀雙妥 (pertuzumab/trastuzumab SC) | 第001172號 / 第001173號 | SC | 2021-09-22 |
+
+- The biosimilar licences carry the same early and metastatic HER2+ breast indications as Herceptin (adjuvant after surgery/chemotherapy; AC → paclitaxel or docetaxel; with docetaxel + carboplatin; neoadjuvant + adjuvant for locally advanced, inflammatory or >2 cm tumours; metastatic).
+- Nursing point: brand names differ, so verify the product and **never substitute trastuzumab with T-DM1 or T-DXd** (Herceptin label medication-error warning, §2).
+
+**Everolimus** 癌伏妥 Afinitor
+- **Only the 5 mg tablet is active** (衛署藥輸字第025165號). The **10 mg tablet (第025166號) was cancelled on 2020-11-09** (「自請註銷」). Breast indication on the licence: with exemestane, postmenopausal HR+/HER2− advanced breast cancer recurring or progressing after letrozole or anastrozole.
+- Practical consequence: the label dose of **10 mg daily = two 5 mg tablets** in Taiwan (computed). Votubia 愛服妥 (orphan licences) has no breast indication.
+
+**Eribulin**
+- 賀樂維 Halaven 0.5 mg/mL 衛部藥輸字第026140號 (2013-08-28); generics "台耀" 衛部藥製字第061399號 (2022-12-30) and "瑞迪" 衛部藥輸字第029002號 (2025-07-29).
+- Breast indication on all three: metastatic breast cancer after **≥2 chemotherapy regimens for metastatic disease**, prior therapy including an anthracycline and a taxane (adjuvant or metastatic).
+
+**Nab-paclitaxel** 亞伯杉 Abraxane 衛部藥輸字第026484號: metastatic breast cancer after failure of combination chemotherapy for metastatic disease (prior anthracycline unless contraindicated).
+
+### CA4.4 Dosing for everolimus and eribulin (US labels) [VERIFIED; L]
+
+**Everolimus (Afinitor; label effective 2026-06-01)**
+- Breast cancer: **10 mg orally once daily** (with exemestane 25 mg daily in BOLERO-2).
+- **Stomatitis** 44–78% across trials (grade 3–4 4–9%), mostly in the **first 8 weeks**. **Start dexamethasone alcohol-free oral solution as a swish-and-spit mouthwash when starting everolimus.** Avoid alcohol-, hydrogen peroxide-, iodine- or thyme-containing products; no antifungals unless a fungal infection is diagnosed.
+- Stomatitis dose rules: grade 2 → withhold until grade 0–1, resume same dose; recurrent grade 2 → resume at 50%; grade 3 → withhold, resume at 50% (every-other-day dosing if below the lowest strength).
+- Withhold ≥1 week before elective surgery; do not give for ≥2 weeks after major surgery.
+
+**Eribulin (Halaven; Eisai label effective 2025-11-07)**
+- **1.4 mg/m² IV over 2–5 min, days 1 and 8 of a 21-day cycle.** Do not dilute in or give with **dextrose-containing** solutions.
+- Starting-dose adjustments: mild hepatic impairment (Child-Pugh A) **1.1 mg/m²**; moderate (Child-Pugh B) **0.7 mg/m²**; CLcr 15–49 mL/min **1.1 mg/m²**.
+- Do **not** give on day 1 or day 8 if ANC <1,000/mm³, platelets <75,000/mm³, or grade 3–4 non-haematological toxicity. Day-8 dose may be delayed ≤1 week; if not ≤grade 2 by day 15, omit it.
+- Permanent reductions: 1.4 → **1.1** → **0.7 mg/m²** → stop (triggers include ANC <500 for >7 days, febrile neutropenia, platelets <25,000, or <50,000 needing transfusion, non-haematological grade 3–4, omitted/delayed day-8 dose). **No re-escalation.**
+- Caution for the chapter: the US label expresses the dose as **eribulin mesylate**; whether the Taiwan 仿單 uses the mesylate or the free-base convention was not checked **[UNVERIFIED]**. Copy the dose from the Taiwan insert actually used on the ward.
+
+### CA4.5 Other label facts for toxicity/NP sections [VERIFIED; L]
+- **Tamoxifen and bone metastases**: hypercalcaemia has been reported in breast cancer patients with bone metastases **within a few weeks of starting tamoxifen**; take appropriate measures and stop tamoxifen if severe (tamoxifen label, WARNINGS, effective 2026-03-19).
+- **Trastuzumab in pregnancy** (Herceptin boxed warning and §5.3, 2026-05-29): exposure can cause **oligohydramnios**, in some cases with **pulmonary hypoplasia, skeletal abnormalities and neonatal death**. **Verify pregnancy status before starting**; effective contraception (7 months after the last dose; section 6.12).
+
+### CA4.6 Hot flushes: venlafaxine evidence (gap flagged in section 6.5) [VERIFIED; A]
+- Loprinzi 2000, double-blind RCT, 191 evaluable breast cancer survivors (or women avoiding hormones), 4 weeks.
+- Median hot-flash score reduction: placebo 27%, venlafaxine 37.5 mg 37%, **75 mg 61%**, 150 mg 61%.
+- Dry mouth, decreased appetite, nausea and constipation were more frequent at 75 and 150 mg.
+- This supports venlafaxine **75 mg** as an effective non-hormonal option; together with the FDA list (venlafaxine is not a CYP2D6 inhibitor, section 6.5) it suits women on tamoxifen. A guideline calling it "preferred" is still **[UNVERIFIED]**.
+
+### CA4 references (APA 7)
+- Loprinzi, C. L., Kugler, J. W., Sloan, J. A., Mailliard, J. A., LaVasseur, B. I., Barton, D. L., Novotny, P. J., Dakhil, S. R., Rodger, K., Rummans, T. A., & Christensen, B. J. (2000). Venlafaxine in management of hot flashes in survivors of breast cancer: A randomised controlled trial. *The Lancet, 356*(9247), 2059–2063. https://doi.org/10.1016/S0140-6736(00)03403-6 (PMID 11145492)
+- U.S. Food and Drug Administration labels via openFDA (effective date; SPL set ID), read 2026-10-29: HALAVEN (Eisai Inc., 2025-11-07; 31ce4750-ded5-4a0b-95e9-f229fa6bc822); AFINITOR (Novartis, 2026-06-01; 2150f73a-179b-4afc-b8ce-67c85cc72f04); doxorubicin HCl (Pfizer, 2026-05-05); HERCEPTIN (2026-05-29); ENHERTU (2026-05-15); KISQALI (2026-07-01); NERLYNX (2026-07-02); LYNPARZA (2025-07-10); tamoxifen citrate (2026-03-19); KEYTRUDA (2026-07-10). https://api.fda.gov/drug/label.json
+- Taiwan Food and Drug Administration. (2026). *全部藥品許可證資料集* [Data set, InfoId 36; file dated 2026-10-27; re-downloaded 2026-10-29]. https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=36&logType=2

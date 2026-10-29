@@ -512,3 +512,24 @@ NHI reimbursement status of any of these for bone sarcoma: **[UNVERIFIED]** (www
 - Huvos grade definitions; NCCN v1.2027 specific recommendations (PDF behind login).
 - Taiwan special-import or NHI reimbursement status for glucarpidase, STS, regorafenib, cabozantinib, ivosidenib in bone sarcoma.
 - Taiwan Cancer Registry incidence for bone sarcomas was outside this file's scope and not checked here.
+
+---
+
+## Critic additions
+
+The full critic section is at the end of `sarcoma_3_sts_gist_trials.md` ("## Critic additions", items CA-0, CA-1, CA-6, CA-7 and CA-9). Points that concern this file:
+
+- **Re-checked on 2026-10-29 against current US labels; all confirmed, no change needed:**
+  - HD-MTX 12 g/m² (max 20 g) over 4 h: Hospira label, 2025-06-10
+  - Leucovorin Table 2 nomogram (≥50 µM at 24 h / ≥5 µM at 48 h / creatinine +100% → 150 mg IV q3h): Sagent label, 2026-06-16
+  - Glucarpidase 50 U/kg over 5 min, leucovorin ≥2 h apart: VORAXAZE label, 2024-11-27
+  - PEDMARK 10/15/20 g/m² by weight, 6 h after a 1–6-h cisplatin infusion: label 2025-10-27
+- **Huvos grades** (§5, §H) are now [PARTIAL], from a secondary citation of Huvos 1977: I = no effect; II = >50% necrosis; III = >90% with viable tumour; IV = no viable tumour.
+- **UK bone guideline 2025 fills several gaps in §13 and §H:**
+  - MAP up to age 40; AP above 40
+  - chondrosarcoma margins: observe or curette ACT in the extremity; wide margins for high-grade and pelvic/axial tumours; 2-mm pelvic margin
+  - BuMel contraindicated when RT fields include gut, cord, brain or large lung volumes
+  - follow-up schedule
+  - pathological fracture: **no internal fixation before diagnosis**
+- **Ewing RT doses (PDQ, [PARTIAL]):** definitive ≈55.8 Gy; post-op microscopic residual 50.4 Gy (INT-0091: 45 + 5.4 Gy). Whole-lung irradiation dose is still [UNVERIFIED].
+- **Denosumab for GCTB** (Chawla 2019; Xgeva label; TFDA licences) was missing and is now in CA-6.

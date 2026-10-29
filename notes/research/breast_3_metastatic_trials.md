@@ -1122,3 +1122,92 @@ NHI reimbursement was **not checked**: www.nhi.gov.tw is not reachable from this
 - Enhertu 2026-05-15; Trodelvy 2026-06-24; Datroway 2026-05-27.
 - Tukysa 2024-11-04; Perjeta 2026-04-30; Keytruda Qlex 2026-07-31.
 - Lynparza 2025-07-10; Talzenna 2026-06-01.
+
+---
+
+## Critic additions
+
+Added 2026-10-29 by the completeness critic (append only). Gaps found: no definitions of **visceral crisis** or **endocrine resistance**, nothing on **brain/leptomeningeal metastases**, no **breast-specific emergency** content for chapter section "oncologic emergencies", and two still-used later-line options (**everolimus + exemestane**, **eribulin**) missing. Dosing and Taiwan licence details for everolimus and eribulin are in breast_4 "Critic additions".
+
+### CA3.1 ABC consensus definitions (ESO-ESMO ABC 5, 2020; ABC 8, 2026)
+
+**Visceral crisis (ABC 5)** [VERIFIED; FT PMC7510449]
+- "Severe organ dysfunction, as assessed by signs and symptoms, laboratory studies and rapid progression of disease." It is **not the mere presence of visceral metastases**.
+- Examples given: **liver** — rapidly increasing bilirubin **>1.5× ULN** (no Gilbert's syndrome or biliary obstruction); **lung** — rapidly increasing dyspnoea at rest **not relieved by draining a pleural effusion**.
+- Occurs in only about **10–15%** of first-line ABC cases. It calls for the "most rapidly efficacious therapy", which is **not necessarily chemotherapy**.
+- "Impending visceral crisis" example: >70% liver replacement with markedly abnormal enzymes but normal bilirubin.
+- ABC 5: endocrine therapy (± targeted agent) is preferred for HR+ disease **even with visceral metastases, unless there is visceral crisis**.
+- Whether ABC 8 changed the wording: the ABC 8 statements are published as figure images; the text I could read does not restate the definition [UNVERIFIED for ABC 8 wording].
+
+**Endocrine resistance — ABC 8 replaced the ABC 5 two-category scheme** [VERIFIED; FT PMC13697336] — **correction for anyone teaching "primary vs secondary" only**
+| Category (ABC 8, 2026) | Definition | Expected benefit from further ET |
+|---|---|---|
+| Endocrine therapy naïve | No prior ET (e.g. de novo metastatic) | Relatively high |
+| **Primary** resistance | Relapse during the **first 2 years** of adjuvant ET, or PD within the **first 6 months** of first-line ET-based therapy for ABC | Lower |
+| **Early acquired** resistance | Relapse on adjuvant ET **after** the first 2 years, or relapse **within 1 year** of completing adjuvant ET, or PD after **≥6 but <12 months** of first-line ET-based therapy | Intermediate |
+| **Late acquired** resistance | Relapse **>12 months after completing** adjuvant ET, or PD after **≥12 months** of first-line ET-based therapy | Higher |
+| **Endocrine insensitivity** | PD within **3 months** of any line of ET-based therapy for ABC | Very low; next line generally should not rely on ET |
+
+- The classification assumes adherence and ignores add-on drugs (CDK4/6, mTOR, PI3K inhibitors). ABC 8 says it is mainly **prognostic** and designed for trial stratification.
+- ABC 5 (2020) wording, for comparison: secondary resistance = relapse on adjuvant ET after 2 years, relapse within 12 months of completing adjuvant ET, or PD ≥6 months after starting ET for ABC.
+- **ABC 8 on CDK4/6 inhibitor re-use after adjuvant CDK4/6i:** relapse **≥12 months after completing** adjuvant CDK4/6i → CDK4/6i + ET may be used first line (no visceral crisis); relapse **during or within 12 months** → re-use not preferred; choose by biomarkers (ESR1, PIK3CA, AKT/PTEN, BRCA) [VERIFIED; FT]. Directly relevant now that monarchE/NATALEE patients are relapsing.
+
+**Other ABC 5 statements useful for the chapter** [VERIFIED; FT]
+- Response evaluation: generally every **2–4 months on ET** or after **2–4 cycles of chemotherapy**.
+- Tumour markers: reasonable as an aid when elevated, especially in non-measurable disease, but **a rise in tumour markers alone should not trigger a change of treatment**.
+- Oligometastatic disease: low-volume disease, **up to five** lesions (not necessarily in one organ), potentially amenable to local treatment.
+- **Inflammatory LABC**: systemic therapy first; **mastectomy with axillary dissection in almost all cases**, even after good response; **immediate reconstruction generally not recommended**; **locoregional RT (chest wall + nodes) required even after pCR**.
+- **Malignant pleural effusion**: needs systemic treatment ± local management; diagnostic thoracentesis if it would change management (**false negatives are common**); drain symptomatic effusions; intrapleural catheter or talc can help.
+- **Spinal cord compression**: neurological symptoms or signs must be investigated urgently with **MRI** of the affected area and adjacent spine; emergency neurosurgical/orthopaedic opinion for decompression; if surgery not feasible, **emergency RT**.
+- Premenopausal ABC: laparoscopic bilateral oophorectomy "avoids the potential initial **tumour flare** seen with an LHRH agonist".
+
+### CA3.2 Brain and leptomeningeal metastases (gap)
+
+- **Incidence by subtype** (Kuksis 2021 meta-analysis, 25 studies) [VERIFIED; A]: pooled cumulative incidence **HER2+ 31%**, **TNBC 32%**, **HR+/HER2− 15%** (median follow-up about 31–33 months); per patient-year 0.13, 0.13 and 0.05.
+- **Screening MRI — the guidance has moved**:
+  - ASCO 2022 (HER2+ ABC; Ramakrishna 2022) [VERIFIED; A]: insufficient data to recommend for or against routine screening MRI; keep a **low threshold** for brain MRI. Local options: surgery, WBRT, SRS; **add memantine and hippocampal avoidance to WBRT when possible**.
+  - ABC 5 (2020) [VERIFIED; FT]: brain imaging should **not** be routine in asymptomatic patients, **including HER2+ and TNBC** (94% consensus).
+  - **ABC 8 (2026)** [VERIFIED; FT text]: cites prospective screening data — about **one quarter** of patients of all subtypes had brain metastases on baseline + 6-month MRI; another study found asymptomatic brain metastases in **24% (TNBC) and 17% (HER2+)** — and concludes there is rationale to **consider screening in patients at high risk** or when brain status would change systemic therapy (e.g. tucatinib regimen or T-DXd vs THP). Exact statement wording/grade is in a figure image [UNVERIFIED].
+  - Chapter wording suggestion: "routine screening is not established; ABC 8 (2026) now supports considering it in HER2+ and TNBC."
+- **Leptomeningeal disease** (Lin 2017, ASCO Educational Book) [VERIFIED; A]: breast cancer is the **second most common primary tumour associated with CNS metastases**; HER2+ and TNBC carry the highest risk of parenchymal brain metastases; LMD is less frequent than parenchymal disease but is **distributed across subtypes, including lobular** cancer.
+
+### CA3.3 Breast-specific oncologic emergencies (for chapter section 9; general FN/TLS/MSCC/hypercalcaemia are in the shared chapter 00-shared/02-oncologic-emergencies.md)
+
+| Emergency | Why breast | Key verified facts | Source |
+|---|---|---|---|
+| Visceral crisis (liver/lung) | Common metastatic sites | Definition and examples above; use the most rapidly efficacious therapy | ABC 5 [VERIFIED] |
+| Hypercalcaemia / **tamoxifen flare** | Bone is a dominant metastatic site | Tamoxifen label: hypercalcaemia reported in patients with bone metastases **within a few weeks of starting tamoxifen**; if severe, stop tamoxifen. LHRH agonists can cause initial tumour flare (ABC 5) | L-tamoxifen 2026-03-19; ABC 5 [VERIFIED] |
+| Spinal cord compression | Bone metastases | Urgent MRI incl. adjacent levels; surgical opinion; emergency RT if no surgery | ABC 5 [VERIFIED] |
+| Brain metastases / raised ICP | HER2+ and TNBC (≈31–32% cumulative) | Low threshold for MRI; SRS/WBRT (+ memantine, hippocampal avoidance) | Kuksis 2021; ASCO 2022 [VERIFIED] |
+| Leptomeningeal disease | All subtypes incl. lobular | Recognise multifocal neuro signs; MRI + CSF | Lin 2017 [VERIFIED for association]; work-up details [UNVERIFIED] |
+| Malignant pleural effusion | Pleural spread | Drain if symptomatic; catheter or talc; cytology false negatives common | ABC 5 [VERIFIED] |
+| Drug-induced pneumonitis | T-DXd (ILD 12%, fatal 0.9%), CDK4/6i, everolimus (grade 3–4 pneumonitis 3% in BOLERO-2) | T-DXd: stop for grade ≥2 and give ≥1 mg/kg/day prednisolone ≥14 days (breast_4 §6.7, re-checked) | Labels; Baselga 2012 [VERIFIED] |
+| Febrile neutropenia / neutropenic colitis | Dose-dense AC, TC, SG (FN 6%, colitis 1.4%) | See breast_4 §6.8 and shared chapter | [VERIFIED in breast_4] |
+| VTE/PE | Tamoxifen (PE RR 1.87 in ATLAS), abemaciclib with tamoxifen (VTE 4.3%) | See breast_2 and breast_4 §6.5 | [VERIFIED in breast_2/4] |
+| QT prolongation / arrhythmia | Ribociclib; camizestrant (boxed warning with ribociclib) | breast_4 §5.1–5.2 | [VERIFIED in breast_4] |
+| DKA / severe hyperglycaemia | Alpelisib, capivasertib, inavolisib | breast_4 §6.9 | [VERIFIED in breast_4] |
+
+### CA3.4 Everolimus + exemestane (BOLERO-2) [VERIFIED; A]
+- 724 postmenopausal women, HR+ ABC recurring/progressing after a **non-steroidal AI**; everolimus **10 mg/day** + exemestane 25 mg/day vs placebo + exemestane (2:1).
+- PFS (local) **6.9 vs 2.8 months**, HR 0.43 (0.35–0.54); central review 10.6 vs 4.1 months, HR 0.36.
+- **OS not significant**: 31.0 vs 26.6 months, HR 0.89 (0.73–1.10), P = 0.14 (Piccart 2014).
+- Grade 3–4 AEs: stomatitis 8%, anaemia 6%, dyspnoea 4%, hyperglycaemia 4%, fatigue 4%, **pneumonitis 3%**. Class toxicities appear early (except pneumonitis); discontinuation for AEs 9% vs 3%; median dose interruption 7 days (Rugo 2014).
+- Prevention of stomatitis with dexamethasone mouthwash (SWISH) is already in the shared supportive-care chapter; label wording in breast_4 CA4.4.
+
+### CA3.5 Eribulin (EMBRACE) [VERIFIED; A]
+- 762 women with 2–5 prior chemotherapy regimens (≥2 for advanced disease), including an anthracycline and a taxane.
+- Eribulin **1.4 mg/m² IV over 2–5 min, days 1 and 8 q21d** vs physician's choice.
+- **OS 13.1 vs 10.6 months, HR 0.81 (0.66–0.99), P = 0.041** (OS was the primary endpoint).
+- Neutropenia 52% (all grades); asthenia/fatigue 54%; **peripheral neuropathy was the commonest AE leading to discontinuation (5%)**.
+
+### CA3 references (APA 7)
+- Baselga, J., Campone, M., Piccart, M., Burris, H. A., Rugo, H. S., Sahmoud, T., Noguchi, S., Gnant, M., Pritchard, K. I., Lebrun, F., Beck, J. T., Ito, Y., Yardley, D., Deleu, I., Perez, A., Bachelot, T., Vittori, L., Xu, Z., Mukhopadhyay, P., . . . Hortobagyi, G. N. (2012). Everolimus in postmenopausal hormone-receptor-positive advanced breast cancer. *The New England Journal of Medicine, 366*(6), 520–529. https://doi.org/10.1056/NEJMoa1109653 (PMID 22149876; PMCID PMC5705195)
+- Cardoso, F., Paluch-Shimon, S., Senkus, E., Curigliano, G., Aapro, M. S., André, F., Barrios, C. H., Bergh, J., Bhattacharyya, G. S., Biganzoli, L., Boyle, F., Cardoso, M.-J., Carey, L. A., Cortés, J., El Saghir, N. S., Elzayat, M., Eniu, A., Fallowfield, L., Francis, P. A., . . . Winer, E. P. (2020). 5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5). *Annals of Oncology, 31*(12), 1623–1649. https://doi.org/10.1016/j.annonc.2020.09.010 (PMID 32979513; PMCID PMC7510449)
+- Cardoso, F., Ribeiro, J. M., Schumacher-Wulf, E., Swain, S. M., Paluch-Shimon, S., Penault-Llorca, F., Lin, N. U., Francis, P. A., Kuper-Hommel, M., May, A., Hilbers, F., Guerrero, A., Aapro, M. S., Azmi, R., Bajpai, J., Barrios, C., Biganzoli, L., Boyle, F., Caceres, V., . . . Winer, E. P. (2026). 8th International consensus guidelines for the management of advanced breast cancer (ABC8 guidelines). *The Breast, 90*, Article 104921. https://doi.org/10.1016/j.breast.2026.104921 (PMID 42893682; PMCID PMC13697336; e-pub 2026-09-17)
+- Cortes, J., O'Shaughnessy, J., Loesch, D., Blum, J. L., Vahdat, L. T., Petrakova, K., Chollet, P., Manikas, A., Diéras, V., Delozier, T., Vladimirov, V., Cardoso, F., Koh, H., Bougnoux, P., Dutcus, C. E., Seegobin, S., Mir, D., Meneses, N., Wanders, J., & Twelves, C. (2011). Eribulin monotherapy versus treatment of physician's choice in patients with metastatic breast cancer (EMBRACE): A phase 3 open-label randomised study. *The Lancet, 377*(9769), 914–923. https://doi.org/10.1016/S0140-6736(11)60070-6 (PMID 21376385)
+- Kuksis, M., Gao, Y., Tran, W., Hoey, C., Kiss, A., Komorowski, A. S., Dhaliwal, A. J., Sahgal, A., Das, S., Chan, K. K., & Jerzak, K. J. (2021). The incidence of brain metastases among patients with metastatic breast cancer: A systematic review and meta-analysis. *Neuro-Oncology, 23*(6), 894–904. https://doi.org/10.1093/neuonc/noaa285 (PMID 33367836; PMCID PMC8168821)
+- Lin, N. U., Gaspar, L. E., & Soffietti, R. (2017). Breast cancer in the central nervous system: Multidisciplinary considerations and management. *American Society of Clinical Oncology Educational Book, 37*, 45–56. https://doi.org/10.1200/EDBK_175338 (PMID 28561683)
+- Piccart, M., Hortobagyi, G. N., Campone, M., Pritchard, K. I., Lebrun, F., Ito, Y., Noguchi, S., Perez, A., Rugo, H. S., Deleu, I., Burris, H. A., Provencher, L., Neven, P., Gnant, M., Shtivelband, M., Wu, C., Fan, J., Feng, W., Taran, T., & Baselga, J. (2014). Everolimus plus exemestane for hormone-receptor-positive, human epidermal growth factor receptor-2-negative advanced breast cancer: Overall survival results from BOLERO-2. *Annals of Oncology, 25*(12), 2357–2362. https://doi.org/10.1093/annonc/mdu456 (PMID 25231953; PMCID PMC6267855)
+- Ramakrishna, N., Anders, C. K., Lin, N. U., Morikawa, A., Temin, S., Chandarlapaty, S., Crews, J. R., Davidson, N. E., Franzoi, M. A. B., Kirshner, J. J., Krop, I. E., Patt, D. A., Perlmutter, J., & Giordano, S. H. (2022). Management of advanced human epidermal growth factor receptor 2-positive breast cancer and brain metastases: ASCO guideline update. *Journal of Clinical Oncology, 40*(23), 2636–2655. https://doi.org/10.1200/JCO.22.00520 (PMID 35640075)
+- Rugo, H. S., Pritchard, K. I., Gnant, M., Noguchi, S., Piccart, M., Hortobagyi, G., Baselga, J., Perez, A., Geberth, M., Csoszi, T., Chouinard, E., Srimuninnimit, V., Puttawibul, P., Eakle, J., Feng, W., Bauly, H., El-Hashimy, M., Taran, T., & Burris, H. A. (2014). Incidence and time course of everolimus-related adverse events in postmenopausal women with hormone receptor-positive advanced breast cancer: Insights from BOLERO-2. *Annals of Oncology, 25*(4), 808–815. https://doi.org/10.1093/annonc/mdu009 (PMID 24615500; PMCID PMC3969554)
+- U.S. Food and Drug Administration label (openFDA): tamoxifen citrate tablets (repackager label, effective 2026-03-19), WARNINGS section. https://api.fda.gov/drug/label.json

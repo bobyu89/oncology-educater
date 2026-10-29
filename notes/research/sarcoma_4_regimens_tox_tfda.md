@@ -546,3 +546,20 @@ Soft Tissue Sarcoma **1.2026**; Gastrointestinal Stromal Tumors **1.2026**; Bone
 - TFDA download: `/tmp/claude-0/-home-user-oncology-educater/6a66dc7f-55e5-547a-b95f-33d6978992bf/scratchpad/s4_dl/tfda/x/36_2.csv`
 - openFDA label JSON: `/tmp/claude-0/-home-user-oncology-educater/6a66dc7f-55e5-547a-b95f-33d6978992bf/scratchpad/s4_dl/lbl/`
 - PubMed records (JSON per PMID): `/tmp/claude-0/-home-user-oncology-educater/6a66dc7f-55e5-547a-b95f-33d6978992bf/scratchpad/s4_dl/pm/`
+
+---
+
+## Critic additions
+
+The full critic section is at the end of `sarcoma_3_sts_gist_trials.md` ("## Critic additions"). Points that concern this file:
+
+- **Correction to §F:** the NCCN **Soft Tissue Sarcoma** guideline is **Version 5.2026**, not 1.2026 (nccn.org category_1, re-read 2026-10-29) [VERIFIED]. The other versions listed in §F are correct.
+- **Re-checked against the current US labels on 2026-10-29: no change needed.** Covered: mesna IV/IV+PO schedule (§6b); trabectedin 1.5 mg/m² over 24 h, dexamethasone 20 mg, CPK thresholds (§9); HD-MTX, leucovorin nomogram, glucarpidase and PEDMARK (cross-checked for sarcoma_2).
+- **Added in sarcoma_3 CA-4 to CA-9:**
+  - atezolizumab for ASPS: **on-label in Taiwan for age ≥2 years** (衛部菌疫輸字第001050號 / 001258號)
+  - pembrolizumab and nivolumab ± ipilimumab sarcoma data
+  - weekly paclitaxel for angiosarcoma
+  - sorafenib for desmoid (off-label in Taiwan)
+  - denosumab for GCTB (Xgeva 衛署菌疫輸字第000924號 and 120-mg biosimilars carry the GCTB indication; US dose 120 mg q4w plus days 8 and 15)
+  - imatinib-interruption trials (BFR14)
+  - a sarcoma-specific emergencies table

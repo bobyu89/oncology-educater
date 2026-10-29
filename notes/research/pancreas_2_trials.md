@@ -729,3 +729,183 @@ NHI reimbursement status could not be checked (www.nhi.gov.tw is unreachable): *
 - Contents of the errata listed in flag 14.
 - NHI reimbursement criteria for any of these drugs (nhi.gov.tw unreachable).
 - Peer-reviewed first-line daraxonrasib data; A021806 and PREOPANC-3 results: not published as of 2026-10-29.
+
+---
+
+## Critic additions
+
+Completeness critic pass, 2026-10-29. Append only. Tags as above; [REG] = ClinicalTrials.gov registry record, read through the ClinicalTrials.gov API v2 tool.
+
+### CA-1. Trial eligibility now verified from the registries (closes items in §I)
+
+**PRODIGE 4 / ACCORD 11** (NCT00112658, UNICANCER; randomized phase II/III, 342 enrolled) [VERIFIED; REG]
+- Inclusion:
+  - age **18 to 75**
+  - **WHO PS 0–1**
+  - metastatic, measurable PDAC
+  - **bilirubin ≤1.5× ULN (biliary drainage allowed)**
+  - ANC ≥1,500/mm³ and platelets ≥100,000/mm³
+  - creatinine <120 µmol/L
+- Exclusion:
+  - brain or meningeal metastases
+  - prior MI, angina or uncompensated cardiac insufficiency
+  - prior inflammatory bowel disease or chronic diarrhoea
+  - unresolved bowel occlusion or sub-occlusion
+- Registry arm description:
+  - oxaliplatin over 2 h, irinotecan over 90 min, leucovorin over 2 h
+  - 5-FU bolus over 5 min, then 46-h infusion, every 14 days
+  - gemcitabine weekly ×7, then 3 of 4 weeks
+- This closes "age ≤75 and bilirubin [UNVERIFIED]" in §15 and §I.
+
+**PRODIGE 24 / CCTG PA.6** (NCT01526135) [VERIFIED; REG]
+- Inclusion:
+  - age **18 to 79**
+  - WHO PS 0–1
+  - R0/R1 resection, randomized **21–84 days after surgery**
+  - oral intake ≥1,500 kcal/day
+  - ANC ≥1,500 and platelets ≥100,000
+  - haemoglobin ≥10 (the registry prints "g/L", an obvious slip for g/dL)
+  - bilirubin ≤1.5× ULN
+  - creatinine <130 µmol/L
+  - IPMN with an invasive component was eligible
+- Exclusion:
+  - **CA19-9 >180 U/mL within 21 days of registration** (confirms the [S-ESPAC4LT] criterion in §3)
+  - **pre-existing neuropathy, Gilbert's disease or UGT1A1*28/*28 genotype**
+  - colorectal inflammatory disease, or bowel occlusion or sub-occlusion
+  - uncontrolled diabetes
+  - chronic HBV, HCV or HIV infection
+- Teaching point: the adjuvant mFOLFIRINOX evidence excludes *28 homozygotes, Gilbert's syndrome and pre-existing neuropathy. Fit-for-mFOLFIRINOX is a narrower population than "resected PDAC".
+
+### CA-2. Second-line oxaliplatin trials (missing; they conflict)
+
+| Trial | Design / population | Result | Tag |
+|---|---|---|---|
+| **CONKO-003** (Oettle 2014) | Phase 3, 16 German institutions, 2004–2007. 168 patients progressing on first-line gemcitabine (160 analysed). **OFF** (oxaliplatin + folinic acid + 5-FU) vs FF. | OS **5.9 vs 3.3 months, HR 0.66 (0.48–0.91), P = .010**. TTP 2.9 vs 2.0 months, HR 0.68 (0.50–0.94). AE rates similar except grade 1–2 neurotoxicity, 38.2% vs 7.1%. | [VERIFIED; A] |
+| **PANCREOX** (Gill 2016) | Phase 3, Canada. 108 patients after gemcitabine, ECOG 0–2. **mFOLFOX6** vs infusional 5-FU/LV. | PFS 3.1 vs 2.9 months (P = .99). **OS worse with mFOLFOX6: 6.1 vs 9.9 months (P = .02)**. Grade 3–4 AEs 63% vs 11%. Withdrawal for AEs 20% vs 2%. Post-progression therapy 7% vs 25%. | [VERIFIED; A] |
+
+- Exam point: oxaliplatin after gemcitabine was positive in one trial (CONKO-003) and harmful in another (PANCREOX). NAPOLI-1 (§18) is the more robust second-line evidence.
+- NCCN still lists FOLFOX, OFF and CAPEOX among second-line options after gemcitabine (see CA-3).
+
+### CA-3. NCCN regimen preferences (NCCN Guidelines for Patients: Pancreatic Cancer 2026, based on professional v2.2026 dated 2026-04-22) [VERIFIED for the patient guide; professional v4.2026 PDF not readable, HTTP 403]
+
+**First line, PS 0–1 (Guide 5)**
+- Preferred, all patients:
+  - gemcitabine + nab-paclitaxel
+  - **FOLFIRINOX or mFOLFIRINOX**
+  - **NALIRIFOX**
+- Preferred, BRCA1/2 or PALB2:
+  - **cisplatin + gemcitabine**
+  - FOLFIRINOX or mFOLFIRINOX
+- Other recommended:
+  - GemCap
+  - gemcitabine + erlotinib
+  - gemcitabine
+  - nab-paclitaxel + cisplatin + gemcitabine
+  - CAPEOX
+  - GTX
+  - OFF
+  - locally advanced only: capecitabine, 5-FU
+- Certain cases (biomarker): dabrafenib + trametinib; entrectinib, larotrectinib or repotrectinib; pembrolizumab; selpercatinib.
+
+**First line, PS 2 (Guide 6)**
+- Preferred: gemcitabine + nab-paclitaxel, capecitabine, gemcitabine.
+- Metastatic, also preferred: CAPEOX, FOLFIRI, FOLFOX.
+
+**First line, PS 3 (Guide 7)**
+- Locally advanced, preferred: gemcitabine, capecitabine, 5-FU.
+- **No preferred therapy for metastatic disease.**
+
+**Maintenance (Guide 8)**
+- Preferred: **olaparib for germline BRCA1/2 after platinum**.
+- Also listed for metastatic disease: CAPEOX, FOLFIRI, FOLFOX.
+- Other recommended:
+  - after FOLFIRINOX: capecitabine
+  - after gem + nab-P: gem + nab-P on a modified schedule, or gemcitabine
+- Certain cases:
+  - after FOLFIRINOX: FOLFIRI, 5-FU/LV or FOLFOX
+  - **rucaparib** for BRCA1/2 or PALB2 after platinum
+- Maintenance is considered after **at least 4–6 months** of stable or responding disease.
+
+**Second line, PS 0–1 (Guide 9)**
+- After gemcitabine-based therapy:
+  - 5-FU/LV/(liposomal) irinotecan
+  - capecitabine
+  - CAPEOX
+  - 5-FU
+  - 5-FU/LV
+  - FOLFIRI
+  - FOLFIRINOX or mFOLFIRINOX
+  - FOLFOX
+  - OFF
+- After fluoropyrimidine-based therapy:
+  - gemcitabine + nab-P
+  - cisplatin + gemcitabine
+  - erlotinib + gemcitabine
+  - 5-FU/LV/liposomal irinotecan (only if no prior irinotecan)
+  - gemcitabine
+  - nab-P + cisplatin + gemcitabine
+- Biomarker-directed:
+  - adagrasib or sotorasib
+  - dabrafenib + trametinib
+  - NTRK inhibitors
+  - erdafitinib
+  - fam-trastuzumab deruxtecan
+  - selpercatinib
+  - zenocutuzumab
+- Immunotherapy-naive: dostarlimab, pembrolizumab, ipilimumab + nivolumab.
+- Rule: the prior regimen may be repeated if **≥6 months** have passed since it was completed; otherwise use a different regimen.
+
+**Neoadjuvant (Guide 12)**
+- Preferred:
+  - FOLFIRINOX or mFOLFIRINOX (**PS 0–1 only**)
+  - gemcitabine + nab-P
+  - cisplatin + gemcitabine for BRCA or PALB2
+- Certain cases: PAXG.
+- Treat at, or with management from, a **high-volume centre**, for **up to 6 months**.
+- Consolidation chemoradiation: preferred capecitabine or 5-FU; other recommended, gemcitabine.
+
+**Adjuvant (Guide 13)**
+- Preferred: **GemCap and mFOLFIRINOX**.
+- Other recommended: 5-FU/LV, gemcitabine, 5-FU, capecitabine.
+- Ideally start **within 12 weeks** of surgery.
+- Total chemotherapy up to 6 months, including any neoadjuvant cycles.
+- Before adjuvant therapy: contrast CT of chest, abdomen and pelvis, plus CA19-9.
+
+**Interpretation notes**
+- Guide 9 prints "Fluorouracil, Leucovorin, Irinotecan". The body text says this means "fluorouracil, leucovorin, and **liposomal** irinotecan … you must not have already had irinotecan" [PARTIAL interpretation].
+- **Daraxonrasib is absent.** The patient guide predates the 2026-08-26 FDA approval, so check professional v4.2026 before printing.
+
+### CA-4. KEYNOTE-158 pancreatic subgroup: ORR now verified from the FDA label (upgrades §22)
+
+- KEYTRUDA USPI (openFDA, effective 2026-07-10), MSI-H/dMMR non-colorectal adult pool (KEYNOTE-158 and KEYNOTE-164):
+  - **pancreatic cancer n = 22, ORR 4/22 = 18% (95% CI 5–40%)**
+  - DOR range 8.1 to 24.3+ months
+  - [VERIFIED; L]
+- Median PFS 2.1 and OS 3.7 months still come only from [S-Fivaz]; they are not in the label.
+- The same label section reports **local vs central MSI discordance** in KEYNOTE-158 cohort K:
+  - of 104 tumours that were MSI-H/dMMR by local testing, **only 56.7%** were MSI-H on FoundationOne CDx
+  - of 169, **62.1%** were dMMR on the VENTANA MMR RxDx panel
+  - [VERIFIED; L]
+  - Teaching point: confirm MSI-H/dMMR before immunotherapy.
+
+### CA-5. Surveillance after resection (needed for §7 "follow-up")
+
+- **NCCN Guidelines for Patients 2026:** surveillance consists of history and examination, **CA19-9**, **chest CT**, and **contrast CT or MRI of abdomen and pelvis**, "as needed". **Intervals are not given** in the patient guide, so any "every 3–6 months for 2 years" schedule is [UNVERIFIED] until the professional PDF is read.
+- **Pan-Asian ESMO 2025, recommendation 6a:** "For patients with resected pancreatic cancer, regular follow-up is suggested **[III, B]**" (100% consensus). The panel upgraded the level of evidence after Andel 2025 [VERIFIED; FT].
+- **Andel 2025** (E-AHPBA prospective cross-sectional study; 33 centres in 13 countries; 333 patients with recurrence after PDAC resection) [VERIFIED; A]:
+  - **routine imaging** in 71%, symptomatic follow-up in 29%
+  - OS **28 vs 23 months (P = .01)**
+  - routine imaging associated with recurrence-focused treatment (adjusted OR 2.57, 1.22–5.41) and longer OS (adjusted HR 0.75, 0.56–0.99)
+  - asymptomatic subgroup 30 vs 21 months (P = .03), as quoted by the Pan-Asian guideline [PARTIAL]
+  - Observational, so it supports, but does not prove, routine CT surveillance.
+
+### CA-6. References for these additions (APA 7)
+
+- Andel, P. C. M., van Goor, I. W. J. M., Augustinus, S., Berrevoet, F., Besselink, M. G., Bhojwani, R., Boggi, U., Bouwense, S. A. W., Cirkel, G. A., van Dam, J. L., Djanani, A., Dorcaratto, D., Dreyer, S., den Dulk, M., Frigerio, I., Ghorbani, P., Goetz, M. R., Groot Koerkamp, B., Gryspeerdt, F., . . . van Santvoort, H. C. (2025). Routine imaging or symptomatic follow-up after resection of pancreatic adenocarcinoma. *JAMA Surgery, 160*(1), 74–84. https://doi.org/10.1001/jamasurg.2024.5024 — PMID 39504033; PMCID PMC11541741
+- Gill, S., Ko, Y.-J., Cripps, C., Beaudoin, A., Dhesy-Thind, S., Zulfiqar, M., Zalewski, P., Do, T., Cano, P., Lam, W. Y. H., Dowden, S., Grassin, H., Stewart, J., & Moore, M. (2016). PANCREOX: A randomized phase III study of fluorouracil/leucovorin with or without oxaliplatin for second-line advanced pancreatic cancer in patients who have received gemcitabine-based chemotherapy. *Journal of Clinical Oncology, 34*(32), 3914–3920. https://doi.org/10.1200/JCO.2016.68.5776 — PMID 27621395
+- Oettle, H., Riess, H., Stieler, J. M., Heil, G., Schwaner, I., Seraphin, J., Görner, M., Mölle, M., Greten, T. F., Lakner, V., Bischoff, S., Sinn, M., Dörken, B., & Pelzer, U. (2014). Second-line oxaliplatin, folinic acid, and fluorouracil versus folinic acid and fluorouracil alone for gemcitabine-refractory pancreatic cancer: Outcomes from the CONKO-003 trial. *Journal of Clinical Oncology, 32*(23), 2423–2429. https://doi.org/10.1200/JCO.2013.53.6995 — PMID 24982456
+- UNICANCER. (n.d.). *Randomized phase II/III trial comparing Folfirinox association [oxaliplatin/irinotecan/LV5FU2] versus gemcitabine in first line of chemotherapy in metastatics pancreas cancers patients* (ClinicalTrials.gov Identifier NCT00112658). Retrieved October 29, 2026, from https://clinicaltrials.gov/study/NCT00112658
+- UNICANCER. (n.d.). *Multicentric randomized phase III trial comparing adjuvant chemotherapy with gemcitabine versus 5-fluorouracil, leucovorin, irinotecan and oxaliplatin (mFolfirinox) in patients with resected pancreatic adenocarcinoma* (ClinicalTrials.gov Identifier NCT01526135). Retrieved October 29, 2026, from https://clinicaltrials.gov/study/NCT01526135
+- Merck Sharp & Dohme LLC. (2026). *KEYTRUDA (pembrolizumab) injection: Prescribing information* [openFDA drug label, effective 2026-07-10]. https://api.fda.gov/drug/label.json
+- National Comprehensive Cancer Network. (2026). *NCCN Guidelines for Patients: Pancreatic cancer* (based on NCCN Guidelines for Pancreatic Adenocarcinoma v2.2026, April 22, 2026). https://www.nccn.org/patients/guidelines/content/PDF/pancreatic-patient.pdf
+- Tai et al. (2025), Pan-Asian ESMO guideline: full reference under [S-PanAsia] at the top of this file (PMCID PMC12546840).
