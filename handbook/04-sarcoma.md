@@ -296,7 +296,7 @@ GIST 起源於**卡哈爾間質細胞（interstitial cells of Cajal）**，由 *
 
 > [!IMPORTANT]
 > **百分比要說清楚是哪個族群**
-> 同一個基因在不同族群的比例差很多：法國人口基礎、前瞻性收案（24 個月內診斷，約 10% 診斷時已有同時性轉移）的 GIST（MolecGIST，n = 492 位有做突變分析者）KIT 71%、PDGFRA 15%（Emile et al., 2012）；**晚期** GIST（MetaGIST）KIT 82.8%、PDGFRA 2.1%；台灣晚期或復發 GIST（n ≈ 177）KIT exon 11 76.8%、exon 9 10.2%、PDGFRA 1.7%、野生型 9.6%（Tsai et al., 2024）。PDGFRA 在局限性族群的比例（15%）遠高於晚期族群（2.1%）。
+> 同一個基因在不同族群的比例差很多：法國人口基礎、前瞻性收案（24 個月內診斷，約 10% 診斷時已有同時性轉移）的 GIST（MolecGIST，n = 492 位有做突變分析者）KIT 71%、PDGFRA 15%（Emile et al., 2012）；**晚期** GIST（MetaGIST）KIT 82.8%、PDGFRA 2.1%；台灣晚期或復發 GIST（n ≈ 177）KIT exon 11 76.8%、exon 9 10.2%、PDGFRA 1.7%、野生型 9.6%（Tsai et al., 2024）。PDGFRA 在人口基礎族群的比例（15%）遠高於晚期族群（2.1%）。
 
 > [!TIP]
 > **KIT 像一個按鈕被卡死的門鈴**
@@ -622,11 +622,11 @@ TNM 不適用於兒童或症候群型 GIST（ACS）。實務上**決定要不要
 | Ifosfamide ＋ etoposide（IE） | ifosfamide 3.5 g/m²/日 ＋ etoposide 100 mg/m²/日 × 5 天，第 6 天起 G-CSF，每 3 週 | Goorin et al., 2002 — **新診斷的轉移性**骨肉瘤（不是復發族群）：ORR 59%；grade 4 嗜中性球低下 83%、敗血症 24%、Fanconi 症候群 5 人、毒性死亡 2 人 | ifosfamide 藥證適應症列有骨肉瘤；第 9 節原文未見專條 |
 | Gemcitabine ＋ docetaxel | gemcitabine 900 mg/m² 第 1、8 天 ＋ docetaxel 75 mg/m² 第 8 天，每 21 天（Palmerini et al., 2016）；另有 675／75–100 的 St. Jude 版本（Navid et al., 2008） | Palmerini et al., 2016（n = 51，回溯）：4 個月 PFS 46%、中位 PFS 3.5 個月、1 年 OS 30%；Navid et al., 2008（n = 22，其中 17 位骨肉瘤）：ORR 29%（14 位可評估） | 無肉瘤適應症（第 9 節 gemcitabine 9.4、docetaxel 9.3 給付癌別不含肉瘤） |
 | Regorafenib | 160 mg 每日，第 1–21 天，每 28 天 | **REGOBONE**（Duffaud et al., 2019；n = 43 成人，2:1，雙盲，非比較性）：8 週未惡化 65%（17/26）對 0/12；grade ≥3 高血壓 24%。**SARC024**（Davis et al., 2019；n = 42，雙盲）：PFS 3.6 對 1.7 個月，HR 0.42（0.21–0.85），P = .017；OS 無差異；grade 3–4 治療相關事件 64%、1 例大腸穿孔 | **off-label**：藥證只有 GIST、大腸直腸癌、肝癌；9.51 的肉瘤相關給付只有 GIST（第 2 點；另給付大腸直腸癌、肝細胞癌，但都不含骨肉瘤） |
-| Cabozantinib | 成人 60 mg 每日（<16 歲 40 mg/m²） | **CABONE**（Italiano et al., 2020；單臂 phase 2，45 位骨肉瘤）：6 個月 ORR 12%（5/42）、6 個月未惡化 33%；骨肉瘤氣胸 9% | **off-label**：藥證無肉瘤適應症；9.74 只有腎細胞癌與甲狀腺癌 |
+| Cabozantinib | 成人 60 mg 每日（<16 歲 40 mg/m²） | **CABONE**（Italiano et al., 2020；單臂 phase 2，45 位骨肉瘤）：6 個月 ORR 12%（5/42）、6 個月未惡化 33%；骨肉瘤 grade 3–4 氣胸 9%（4/45） | **off-label**：藥證無肉瘤適應症；9.74 只有腎細胞癌與甲狀腺癌 |
 
 > [!WARNING]
 > **肺轉移的骨肉瘤病人，突發胸痛或呼吸困難要先想氣胸**
-> 骨肉瘤肺轉移本身就會自發性氣胸（一個中國單一中心 123 位肺轉移病人中 31 位，25%；與病灶空洞化、侵犯肋膜有關；Li et al., 2024），再加上抗血管新生 TKI 又會提高風險：CABONE 骨肉瘤氣胸 9%、Ewing 2%（Italiano et al., 2020）。衛教要寫明「突然胸痛、喘、乾咳」立刻回診，病房遇到先照 X 光（急症流程見第 8 段）。
+> 骨肉瘤肺轉移本身就會自發性氣胸（一個中國單一中心 123 位肺轉移病人中 31 位，25%；與病灶空洞化、侵犯肋膜有關；Li et al., 2024），再加上抗血管新生 TKI 又會提高風險：CABONE grade 3–4 氣胸：骨肉瘤 9%、Ewing 2%（Italiano et al., 2020）。衛教要寫明「突然胸痛、喘、乾咳」立刻回診，病房遇到先照 X 光（急症流程見第 8 段）。
 
 ### 4.2 Ewing sarcoma
 
@@ -1233,7 +1233,7 @@ Ifosfamide 仿單有三項加框警語：骨髓抑制、神經毒性（腦病變
 
 | 毒性 | 發生率與風險因子 | 預防與監測 | 處置與停藥 |
 |------|----------------|-----------|-----------|
-| **腦病變**（ifosfamide-induced encephalopathy） | 仿單合併資料（分次單藥，每療程 4–12 g/m²）CNS 毒性 15.4%（154/1,001）；台灣一個醫學中心的成人 11%（38/337），危險因子為 ECOG 2–4、肌酸酐較高、白蛋白較低，劑量與腦轉移不顯著（Lo et al., 2016）；美國單一中心 14.5%，**曾用 cisplatin（OR 12.47）、同時用 opioid（OR 2.81）、CYP2B6 抑制劑（OR 5.17）**（Szabatura et al., 2015）。其他：白蛋白 < 3.5 g/dL（Modi & Cimino, 2021）、骨盆腔病灶（Meanwell et al., 1986）；CYP3A4 誘導劑（carbamazepine、phenytoin、rifampin、St John's wort）可能增加神經毒性代謝物 chloroacetaldehyde（Fresenius Kabi, 2026） | 每個班次評估意識、定向與行為；用 CNS 作用藥（止吐藥、鎮靜劑、opioid、抗組織胺）要特別小心。**沒有可靠的預防藥物**：回溯研究中 methylene blue／thiamine／albumin 預防組的腦病變反而較多（每週期 21.1% 對 8.4%；Richards et al., 2011），thiamine 預防差異不顯著（10.3% 對 18.2%；Lentz et al., 2020） | **停止輸注、補充水分**；多數在停藥 48–72 小時內緩解，可在順利完成數個週期後才第一次發生。Methylene blue 50 mg 靜脈（文獻常見每日最多 6 次）、thiamine 100 mg 靜脈（治療每 4 小時一次，直到症狀緩解）的證據僅限個案報告與病歷回顧（Torchia et al., 2025）；嚴重且合併腎毒性者考慮血液透析。再給藥後復發約 26.3%（Modi & Cimino, 2021） |
+| **腦病變**（ifosfamide-induced encephalopathy） | 仿單合併資料（分次單藥，每療程 4–12 g/m²）CNS 毒性 15.4%（154/1,001）；台灣一個醫學中心的成人 11%（38/337），危險因子為 ECOG 2–4、肌酸酐較高、白蛋白較低，劑量與腦轉移不顯著（Lo et al., 2016）；美國單一中心 14.5%，**曾用 cisplatin（OR 12.47）、同時用 opioid（OR 2.81）、CYP2B6 抑制劑（OR 5.17）**（Szabatura et al., 2015）。其他：白蛋白 < 3.5 g/dL（Modi & Cimino, 2021）、骨盆腔病灶（Meanwell et al., 1986）；CYP3A4 誘導劑（carbamazepine、phenytoin、rifampin、St John's wort）可能增加神經毒性代謝物 chloroacetaldehyde（Fresenius Kabi, 2026） | 每個班次評估意識、定向與行為；用 CNS 作用藥（止吐藥、鎮靜劑、opioid、抗組織胺）要特別小心。**沒有可靠的預防藥物**：回溯研究中 methylene blue／thiamine／albumin 預防組的腦病變反而較多（每週期 21.1% 對 8.4%；Richards et al., 2011），thiamine 預防差異不顯著（10.3% 對 18.2%；Lentz et al., 2020） | **停止輸注、補充水分**；多數在停藥 48–72 小時內緩解；仿單也記載過數個沒有事件的療程之後神經毒性再度出現的報告，所以前幾個週期都沒事，不能排除腦病變。Methylene blue 50 mg 靜脈（文獻常見每日最多 6 次）、thiamine 100 mg 靜脈（治療每 4 小時一次，直到症狀緩解）的證據僅限個案報告與病歷回顧（Torchia et al., 2025）；嚴重且合併腎毒性者考慮血液透析。再給藥後復發約 26.3%（Modi & Cimino, 2021） |
 | **出血性膀胱炎** | 血尿：無 mesna 約 44.1%、有 mesna 約 21.3%；肉眼血尿 11.1% 對 5.2%。單次高劑量比分次給藥風險高；先前或同時有膀胱放療、busulfan 風險增加（Fresenius Kabi, 2026） | 每天至少 2 L 口服或靜脈液體；**mesna 與 ifosfamide 同天、同比例**；**每次給藥前驗尿**；泌尿道阻塞要先排除或矯正（禁忌） | 顯微鏡下血尿 **> 10 RBC/HPF**：暫停 ifosfamide，直到完全消失才恢復（Fresenius Kabi, 2026） |
 | **腎毒性、Fanconi 症候群** | 腎絲球與腎小管功能異常「很常見」；腎小管損傷可在治療後**數月甚至數年**才出現。兒童（n = 593）新發腎小管病變：≤ 24 g/m² 為 0.4%、24–60 g/m² 為 6.5%、≥ 60 g/m² 為 8.0%，< 4 歲風險 8.7 倍（Stöhr et al., 2007b）。成人 34 位：29.4% 進展到 CKD 第 5 期、17.6% 需血液透析，危險因子為年齡與**同時用 cisplatin**（Ensergueix et al., 2020） | 每個週期前：肌酸酐、**磷、鉀、碳酸氫鹽**、尿糖與尿沉渣；病歷記錄累積劑量（g/m²）。兒童研究中總量 < 84 g/m² 可降低（不是消除）腎毒性，> 119 g/m² 風險很高（Skinner et al., 2000） | 磷、鉀、碳酸氫鹽低要補充；腎功能下降時與主治醫師討論減量或換藥。治療結束後：腎絲球功能每 2–5 年追蹤，腎小管功能在進入長期追蹤時評估一次（Kooijmans et al., 2025） |
 | 骨髓抑制 | 最低點約在第 2 週（Fresenius Kabi, 2026）；AI 的 FN 46%（Judson et al., 2014） | WBC < 2,000/µL 或血小板 < 50,000/µL 時，除非必要不給 | G-CSF 規劃見 6.9 |
@@ -1284,7 +1284,7 @@ Doxorubicin 仿單加框警語：心肌病變、第二惡性腫瘤（AML／MDS�
 - **第二惡性腫瘤**：anthracycline 的 AML／MDS 風險在加框警語中（Pfizer, 2026a）；EURAMOS-1 的 MAPIE 組第二惡性腫瘤 10 例對 MAP 組 3 例，多為 MDS／AML（Marina et al., 2016）。
 
 > [!WARNING]
-> **MAP 的 doxorubicin 是 48 小時連續輸注：沒有中心靜脈導管不能開始**
+> **MAP 的 doxorubicin 以 48 小時連續輸注為佳：連續輸注沒有中心靜脈導管不能開始**
 > Doxorubicin 是發泡劑。連續輸注若經周邊血管，外滲時藥物會持續漏到組織。確認 port 或 PICC 回血順暢、敷料固定，每班檢查輸注部位；導管照護見化療基礎第 13 節。處置是**冰敷，不是熱敷**。
 
 > [!TIP]
@@ -1331,7 +1331,7 @@ Doxorubicin 仿單加框警語：心肌病變、第二惡性腫瘤（AML／MDS�
 - **SAR-3007 的發生率**（Janssen, 2026）：grade 3–4 嗜中性球低下 43%、FN 5%、嗜中性球低下敗血症 2.6%（致死 1.1%）；CPK 上升 32%（grade 3–4 為 6%）、致命橫紋肌溶解 0.8%；grade 3–4 肝酵素上升 35%（85% 恢復，中位 13 天）、ALT／AST > 8 × ULN 為 18%、符合 Hy's law 的肝損傷 1.3%；心肌病變 6%。上市後安全分析（10,841 位）橫紋肌溶解 0.7%（致死 0.3%），多發生在**第 2 個週期**，找不到預測因子（Grosso et al., 2012）。
 - **Dexamethasone 前置的意義**：命名病人系列中，每療程 grade 3–4 轉氨酶上升由 34% 降到 2%、嗜中性球低下由 24% 降到 2%（口服 dexamethasone 4 mg 一日兩次、提前 24 小時開始的舊時程；Grosso et al., 2006）。現行仿單是輸注前 30 分鐘 dexamethasone 20 mg IV（Janssen, 2026）。
 - **CYP3A**：ketoconazole 使暴露量增加 66%，rifampin 使之下降 31%，避免強效抑制劑與誘導劑；短期（< 14 天）強效抑制劑無法避免時，在輸注後 1 週給，並在下次輸注前一天停（Janssen, 2026）。
-- **導管與外滲**：只能經中心靜脈導管。外滲造成需清創的組織壞死，**壞死可在 1 週後才出現，沒有特異解毒劑**（Janssen, 2026）。日本的回溯資料：隧道式 port 的無菌性發炎在 5/9 對 0/12，依 port 系統不同（Kubo et al., 2024）；義大利多中心 45 位病人 509 個週期經護理人員置入的 PICC，沒有需要拔管的併發症（Martella et al., 2015）。
+- **導管與外滲**：只能經中心靜脈導管。外滲造成需清創的組織壞死，**壞死可在 1 週後才出現，沒有特異解毒劑**（Janssen, 2026）。日本的回溯資料：隧道式 port 的無菌性發炎在 5/9 對 0/12，依 port 系統不同（Kubo et al., 2024）；義大利多中心回溯資料：102 位病人中 45 位經護理人員在床邊置入的 PICC（另 57 位用 port），全部 509 個週期沒有需要拔管的裝置併發症（兩種裝置各有移位或感染，但未到拔管；Martella et al., 2015）。
 - **避孕**：最後一次給藥後，女性 8 個月、男性 5 個月（Janssen, 2026）。
 
 > [!WARNING]
@@ -1382,7 +1382,7 @@ GIST 的 TKI 要吃很久，毒性管理的目標是**讓病人留在藥上**：
 | **Sunitinib**（Pfizer, 2026b） | GIST 試驗（n = 202）：腹瀉 40%、皮膚變色 30%、黏膜炎 29%、厭食 33%、味覺改變 21%、高血壓 15%（grade 3–4 為 4%）、手足症候群 14%（grade 3–4 為 4%）；劑量減少 11%、中斷 29%、因副作用永久停藥 7%。合併安全族群：高血壓 29%（grade 3 為 7%）、心衰竭 3%、肝衰竭 < 1%；另有 QT 延長、出血、甲狀腺功能異常、低血糖、顎骨壞死 | LFT：基線與**每個週期**；血壓：基線與每次門診；甲狀腺功能：基線與定期；LVEF 基線與定期；尿蛋白；用藥前口腔檢查 | Grade 3 肝毒性：暫停到 ≤ grade 1 後減量，**復發或 grade 4 永久停藥**。Grade 3 高血壓：暫停後減量；grade 4 永久停藥。24 小時尿蛋白 ≥ 3 g：暫停後減量；腎病症候群、血栓性微血管病變、臨床心衰竭永久停藥。擇期手術或侵入性牙科處置前至少停 3 週，大手術後至少 2 週且傷口癒合才恢復 |
 | **Regorafenib**（Bayer, 2026） | 手足皮膚反應（HFSR）：合併試驗 53% 對 8%，grade 3 為 16%，**亞洲病人 72%（grade 3 為 18%）**，多在第 1 個週期；GRID grade ≥ 3：高血壓 23%、HFSR 20%、腹瀉 5%（Demetri et al., 2013）；高血壓 GRID 59% 對 27%，多在第 1 個週期；**肝毒性加框**（多在前 2 個月，GRID 致命肝衰竭 0.8%，上市後有高血氨腦病變） | **LFT：用藥前、前 2 個月至少每 2 週、之後每月**，異常時每週；**血壓：前 6 週每週**，之後每個週期；每次回診看手腳 | 首次 grade 2 HFSR 減為 120 mg；grade 2 復發、或減量後 7 天內未改善：暫停；grade 3 暫停至少 7 天後減量；120 mg 時再發則 80 mg。症狀性 grade 2 高血壓或任何 grade 3–4 不良反應也暫停。AST／ALT > 20 × ULN、> 3 × ULN 且 bilirubin > 2 × ULN、或 120 mg 仍反覆 > 5 × ULN：**永久停藥**。擇期手術前至少停 2 週 |
 | **Ripretinib**（Deciphera, 2025） | PPES grade 1–2 為 21%；**皮膚鱗狀細胞癌 4.7%**（中位 4.6 個月），合併族群 cuSCC 7%、keratoacanthoma 1.9%；高血壓；關節痛／肌痛；台灣與香港的同情使用經驗**脫髮 55%**（Lin et al., 2022）；光敏感 | **用藥前與治療中定期皮膚檢查**；LVEF 基線；血壓 | PPES grade 2：暫停到 ≤ grade 1，7 天內恢復用原劑量，否則減為 100 mg；grade 3 暫停至少 7 天（最多 28 天）後減量；維持 ≤ grade 1 滿 28 天可考慮加回。Grade 3 高血壓（有症狀）暫停；grade 4 高血壓與 grade 3–4 左心室收縮功能異常永久停藥。擇期手術前至少停 1 週 |
-| **Avapritinib**（Blueprint, 2026） | **顱內出血 2.9%**（749 位 GIST 與全身性肥大細胞增生症病人，致死 < 1%）；認知不良反應 33%（995 位）；光敏感 | 用藥前評估顱內出血危險因子（腦血管動脈瘤、近一年顱內出血或腦血管意外史、併用抗凝血藥）；每次回診問頭痛、意識、記憶、專注力與情緒 | **顱內出血任何等級永久停藥**。認知：grade 1 可維持或減量；grade 2–3 暫停到 ≤ grade 1；grade 4 永久停藥。GIST 劑量階梯 300 → 200 → 100 mg，無法耐受 100 mg 就永久停藥 |
+| **Avapritinib**（Blueprint, 2026） | **顱內出血 2.9%**（749 位 GIST 與進階性全身性肥大細胞增生症（AdvSM）病人，致死 < 1%；惰性型 ISM 的 246 位為 0）；認知不良反應 33%（995 位）；光敏感 | 用藥前評估顱內出血危險因子（腦血管動脈瘤、近一年顱內出血或腦血管意外史、併用抗凝血藥）；每次回診問頭痛、意識、記憶、專注力與情緒 | **顱內出血任何等級永久停藥**。認知：grade 1 可維持或減量；grade 2–3 暫停到 ≤ grade 1；grade 4 永久停藥。GIST 劑量階梯 300 → 200 → 100 mg，無法耐受 100 mg 就永久停藥 |
 
 - **腫瘤溶解症候群**：sunitinib（主要見於 RCC 與 GIST）與 pazopanib 的仿單都列有此風險（Pfizer, 2026b；Novartis, 2025）；急症處置見[腫瘤急症](00-shared/02-oncologic-emergencies.md#2-腫瘤溶解症候群tls)第 2 節。
 
@@ -1428,7 +1428,7 @@ GIST 的 TKI 要吃很久，毒性管理的目標是**讓病人留在藥上**：
 - 截肢與保肢的功能與生活品質相近（Mei et al., 2014）；AYA 病人的生活品質較一般人差，專業人員常低估其支持需求（Quinn et al., 2015）。台灣的 AYA 心理社會資料與補助本手冊沒有核對。
 
 > [!IMPORTANT]
-> **PARITY 的考點：保肢手術後預防性抗生素，延長到 5 天沒有比 1 天好**
+> **PARITY 的考點：下肢（股骨或脛骨）endoprosthesis 重建術後預防性抗生素，延長到 5 天沒有比 1 天好**
 > 5 天對 1 天的手術部位感染沒有差異（HR 0.93），但抗生素相關併發症較多（HR 3.24）。術後醫囑不要因為「怕感染」就把預防性抗生素預設成 5 天；實際天數依院內規範與骨科腫瘤醫師。
 
 
@@ -1668,7 +1668,7 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 
 ### 7.6 保肢手術後的病房照護與復健
 
-**這一小節的結論先講：** 保肢手術後的病房工作有三條線：**傷口、感染、功能**。證據最扎實的是感染：下肢 endoprosthesis 重建的深部感染合併率約 10%（95% CI 8–11%）（Racano et al., 2013），而且是腫瘤型人工關節最常見的失敗原因（Henderson et al., 2011，見 7.7）。復健的療效證據則很薄：7 個研究、214 位參與者的系統性回顧找不到「治療效度」足夠的運動介入，只有非常低確信度的證據顯示膝關節活動度可能多 10–15°、遵從性較好（van Kouswijk et al., 2023）。
+**這一小節的結論先講：** 保肢手術後的病房工作有三條線：**傷口、感染、功能**。證據最扎實的是感染：下肢 endoprosthesis 重建的深部感染合併率約 10%（95% CI 8–11%）（Racano et al., 2013），而且在 Henderson 等人的五個機構系列（2,174 例）中是腫瘤型人工關節最常見的失敗原因（該文的文獻回顧則以無菌性鬆脫最常見；Henderson et al., 2011，見 7.7）。復健的療效證據則很薄：7 個研究、214 位參與者的系統性回顧找不到「治療效度」足夠的運動介入，只有非常低確信度的證據顯示膝關節活動度可能多 10–15°、遵從性較好（van Kouswijk et al., 2023）。
 
 | 項目 | 病房要看什麼 | 說明 |
 |------|------------|------|
@@ -1705,7 +1705,7 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 
 > [!IMPORTANT]
 > **PARITY 的考點**
-> 保肢手術後的預防性抗生素，5 天沒有比 1 天好（SSI HR 0.93），反而抗生素併發症較多（HR 3.24）。術後醫囑不要因為「怕感染」就預設 5 天；實際天數依院內規範與骨科腫瘤醫師。
+> 下肢（股骨或脛骨）endoprosthesis 重建術後的預防性抗生素，5 天沒有比 1 天好（SSI HR 0.93），反而抗生素併發症較多（HR 3.24）。術後醫囑不要因為「怕感染」就預設 5 天；實際天數依院內規範與骨科腫瘤醫師。
 
 
 ### 7.8 AYA 病人的心理社會照護
@@ -1823,7 +1823,7 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 |------|----------------|------|------------|
 | **Trabectedin 橫紋肌溶解** | 上市後分析 0.7%（致死 0.3%），多在第 2 個週期，找不到預測因子（Grosso et al., 2012；Janssen, 2026） | 新的肌肉痛、無力、茶色尿；CPK > 5 × ULN | 當天抽 CPK 與肌酐，通知主治醫師；確診橫紋肌溶解永久停藥（6.5） |
 | **Doxorubicin 或 trabectedin 外滲** | 連續輸注與 24 小時輸注，皆須經中心靜脈導管；trabectedin 外滲壞死可在 1 週後才出現，無特異解毒劑（Janssen, 2026） | 輸注部位疼痛、腫脹、回血不順 | 停輸注；doxorubicin 抽吸後冰敷；流程見[化療基礎](00-shared/01-chemo-basics.md#9-血管外滲extravasation)第 9 節 |
-| **Avapritinib 顱內出血** | 749 位 GIST 與全身性肥大細胞增生症病人中 2.9%，任何等級永久停藥（Blueprint, 2026） | 突發頭痛、嘔吐、意識變差、肢體無力 | 當作急症送急診做腦部影像，不要先歸因於認知副作用（6.8） |
+| **Avapritinib 顱內出血** | 749 位 GIST 與進階性全身性肥大細胞增生症（AdvSM）病人中 2.9%（惰性型 ISM 的 246 位為 0），任何等級永久停藥（Blueprint, 2026） | 突發頭痛、嘔吐、意識變差、肢體無力 | 當作急症送急診做腦部影像，不要先歸因於認知副作用（6.8） |
 | **Ifosfamide 出血性膀胱炎** | 無 mesna 血尿約 44.1%、有 mesna 約 21.3%（Fresenius Kabi, 2026） | 肉眼血尿、解尿疼痛 | 暫停 ifosfamide；補水；通知主治醫師；持續血尿與血塊的處置依泌尿科（6.2） |
 | **停用 denosumab 後高血鈣**（GCTB） | 1%（4/526）發生在停藥後（Chawla et al., 2019） | 倦怠、便秘、多尿、意識改變 | 停藥後追蹤血鈣；處置見[腫瘤急症](00-shared/02-oncologic-emergencies.md#5-惡性高血鈣hypercalcemia-of-malignancy)第 5 節 |
 | **CRS 與 ICANS**（TCR-T 細胞治療） | afami-cel 的 CRS 71%（4.4.4）；台灣無藥證 | 發燒、低血壓、缺氧；神經症狀 | 不在台灣常規處方；分級與處置見[腫瘤急症](00-shared/02-oncologic-emergencies.md#9-細胞激素釋放症候群crs與神經毒性icans)第 9 節 |
@@ -1857,7 +1857,7 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 
 > [!WARNING]
 > **意識變差的病人，不要只想「是止吐藥或 opioid 的副作用」**
-> Ifosfamide 腦病變可以在順利完成數個週期後才第一次發生（Fresenius Kabi, 2026）。用 ifosfamide 的病人新出現嗜睡、定向力變差，**先停 ifosfamide 再找原因**；每個班次記錄意識與定向，才分辨得出是「變差」還是「本來就這樣」。
+> Ifosfamide 腦病變每個週期都可能發生，仿單也記載過數個沒有事件的療程之後神經毒性再度出現的報告（Fresenius Kabi, 2026），所以前幾個週期都沒事，不能排除腦病變。用 ifosfamide 的病人新出現嗜睡、定向力變差，**先停 ifosfamide 再找原因**；每個班次記錄意識與定向，才分辨得出是「變差」還是「本來就這樣」。
 
 ### 8.3 病理性骨折與脊髓壓迫
 
@@ -1927,7 +1927,7 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 
 - **自發性氣胸**：中國單一中心 123 位骨肉瘤肺轉移病人中 31 位（25%）發生，其中 20 位單側、11 位雙側；與肺轉移灶**空洞化**（OR 12.43，95% CI 3.01–51.32）及**侵犯肋膜**（OR 15.48，95% CI 4.04–59.35）有關（Li et al., 2024）。機轉是靠近肋膜的空洞形成後破裂。
 - **治療反應與復發**：中國 apatinib 骨肉瘤回溯研究，54 位中 14 位（26%）發生氣胸，肺轉移空洞比例 92.9% 對 32.5%；主要用胸管引流，加入 staphylococcal enterotoxin C 胸腔灌注者癒合時間 12 天、復發 25%，單純胸管引流者 24 天、復發 66.7%（皆未達統計顯著）（Tian et al., 2021）。樣本很小，只能說明：這類氣胸常需要胸管、癒合久、容易復發。
-- **TKI 的角色**：cabozantinib 的骨肉瘤 phase 2（CABONE）氣胸 9%、Ewing 2%（Italiano et al., 2020）；pazopanib 軟組織肉瘤試驗氣胸 3.3%（8/240；Novartis, 2025）。
+- **TKI 的角色**：cabozantinib 的 Ewing sarcoma／骨肉瘤 phase 2（CABONE）grade 3–4 氣胸：骨肉瘤 9%（4/45）、Ewing 2%（1/45）（Italiano et al., 2020）；pazopanib 軟組織肉瘤試驗氣胸 3.3%（8/240；Novartis, 2025）。
 
 **第一小時**
 
@@ -1962,7 +1962,7 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 
 ## 9. 健保給付與事前審查
 
-**這一段的結論先講：** 肉瘤的健保條文少，而且各條規則互不相同。**GIST 的五種 TKI 都有條文**，排成一個有順序、不能回頭的階梯：imatinib（9.22）→ sunitinib（9.31）→ regorafenib（9.51）→ ripretinib（9.123），PDGFRA D842V 另走 avapritinib（9.97）。**軟組織肉瘤只有 pazopanib（9.41，排除八類組織型）、eribulin（9.48，限脂肪肉瘤）與不分癌別的 larotrectinib（9.95，要有 NTRK 融合報告）**。骨肉瘤與 Ewing sarcoma 沒有專屬條文，只有 9.95 的成人適應症列有「骨癌」；MAP 與 VDC/IE 用的 methotrexate、cisplatin、傳統 doxorubicin、ifosfamide、etoposide，第 9 節也都沒有專條。有台灣藥證不等於有健保：trabectedin 與 atezolizumab（ASPS）有藥證，115/10/22 版原文未見給付文字。本段所有條文都沒有規定 ECOG。
+**這一段的結論先講：** 肉瘤的健保條文少，而且各條規則互不相同。**GIST 的五種 TKI 都有條文**，排成一個有順序、不能回頭的階梯：imatinib（9.22）→ sunitinib（9.31）→ regorafenib（9.51）→ ripretinib（9.123），PDGFRA D842V 另走 avapritinib（9.97）。**軟組織肉瘤只有 pazopanib（9.41，排除八類組織型）、eribulin（9.48，限脂肪肉瘤）、imatinib 用於 DFSP（9.22 第 7 點，需有 PDGFR 基因重組）與不分癌別的 larotrectinib（9.95，要有 NTRK 融合報告）**。骨肉瘤與 Ewing sarcoma 沒有專屬條文，只有 9.95 的成人適應症列有「骨癌」；MAP 與 VDC/IE 用的 methotrexate、cisplatin、傳統 doxorubicin、ifosfamide、etoposide，第 9 節也都沒有專條。有台灣藥證不等於有健保：trabectedin 與 atezolizumab（ASPS）有藥證，115/10/22 版原文未見給付文字。本段所有條文都沒有規定 ECOG。
 
 ### 9.0 先讀這裡：怎麼讀給付規定
 
@@ -2166,7 +2166,7 @@ Kaposi sarcoma 的治療不在本章範圍；列出來是因為條文裡真的�
 | 平滑肌肉瘤，anthracycline 之後想用 eribulin | LMS 的 OS HR 0.90，無好處（4.4.3） | 藥證僅脂肪肉瘤 | 9.48 僅脂肪肉瘤 | 藥證、健保、證據三層都不支持 |
 | 高風險 GIST 完全切除，指引建議輔助 imatinib 3 年 | SSG XVIII：10 年 OS 79.0% 對 65.3%（4.5.2） | imatinib 藥證含 KIT 陽性 GIST 完全切除後輔助 | 9.22 第 3 點(2)：四項**任一**才給付，且須事前審查 | 指引高風險不等於健保符合（見 9.1 小節的對照表） |
 | PDGFRA D842V 的晚期 GIST | NAVIGATOR：ORR 88%（4.5.3） | avapritinib 有藥證，僅 D842V | **9.97 可申請**（D842V 報告、通則十二）；每次 6 個月 | 條文比美國仿單（PDGFRA exon 18）窄 |
-| 復發骨肉瘤，regorafenib 或 cabozantinib | SARC024、REGOBONE、CABONE（4.1） | regorafenib 藥證僅 GIST、大腸直腸癌、肝癌；cabozantinib 無肉瘤適應症 | 9.51 只給付 GIST；9.74 無肉瘤 | off-label 且無給付，通常走臨床試驗或院內核准流程 |
+| 復發骨肉瘤，regorafenib 或 cabozantinib | SARC024、REGOBONE、CABONE（4.1） | regorafenib 藥證僅 GIST、大腸直腸癌、肝癌；cabozantinib 無肉瘤適應症 | 9.51 的肉瘤相關給付只有 GIST（第 2 點；另給付大腸直腸癌、肝細胞癌，但都不含骨肉瘤）；9.74 無肉瘤 | off-label 且無給付，通常走臨床試驗或院內核准流程 |
 | ASPS，atezolizumab | 論文 ORR 37%；仿單獨立審查 ORR 24%（4.4.4） | **有藥證**（2 歲以上 ASPS） | 9.69 原文未見 ASPS | 有藥證，沒有健保給付文字 |
 | GCTB，denosumab | 120 mg 每 4 週，第 1 個月加打（4.3） | Xgeva 藥證含骨巨細胞瘤 | 5.5.4（113/10/1）未列骨巨細胞瘤 | 有藥證，不在 5.5.4 的給付範圍 |
 | 復發 Ewing sarcoma，irinotecan ＋ temozolomide | rEECur 後的次選方案（4.2） | irinotecan、temozolomide 無肉瘤適應症 | 9.12、9.25 的給付癌別不含肉瘤 | off-label |
@@ -2273,7 +2273,7 @@ Kaposi sarcoma 的治療不在本章範圍；列出來是因為條文裡真的�
 1. **modified NIH 高風險**（7 cm 屬 > 5–10 cm，有絲分裂 8 屬 > 5–10；任何部位皆為高）。**9.22 第 3 點(2)**：A. > 10 cm 否；B. > 10/50 HPF 否（8）；C. **> 5 cm 且 > 5/50 HPF 是**；D. 破裂否 → 符合，須**事前審查核准**後才開始，核准後可使用 **3 年**（本點 102/9/1；條文 113/6/1）。證據：SSG XVIII 的 imatinib 400 mg 36 個月對 12 個月，5 年 RFS 65.6% 對 47.9%（HR 0.46），10 年 OS 79.0% 對 65.3%（HR 0.55，0.37–0.83），術後 12 週內開始（Joensuu et al., 2012a；Joensuu et al., 2020）。劑量：**400 mg 每日隨餐**；KIT exon 9 的 257 位高風險者 400 mg 與 800 mg 沒有差異（Napolitano et al., 2026）。開藥前：CBC、LFT、肌酐、HBV 篩檢、藥單盤點（強效 CYP3A4 誘導劑如 dexamethasone、phenytoin、carbamazepine、rifampin；warfarin）；基因型報告在病歷（9.22 不要求，但臨床要有）。衛教：固定時間隨餐、大杯水、不可自行停藥。
 2. **ANC < 1.0 × 10⁹/L → 暫停 imatinib**；到 ANC ≥ 1.5 且血小板 ≥ 75 後以 **400 mg** 恢復，再發生則 **300 mg**（Novartis, 2026）。CBC 第 1 個月每週、第 2 個月每 2 週（所以第 5 週有抽，是照時程），暫停期間依主治醫師追蹤 CBC；發燒（體溫 ≥ 38.0°C）立刻回診。眼皮輕度水腫與體重多 1.5 kg 屬 imatinib 體液滯留 grade 1，繼續觀察，固定時間、同一台秤量體重，快速增重或下肢水腫、喘再提早回診，嚴重時才用利尿劑或減量。要向病人說明：這是**醫師依血球決定的短暫暫停**，不是「藥物假期」；有效的 imatinib 不建議自行停藥（Le Cesne et al., 2010）。
 3. 病人是在 **imatinib 治療期間惡化**，符合 9.31 的前提。**選項**：imatinib 加量到 800 mg（MetaGIST：PFS 稍好、OS 相同，好處只見於 exon 9）或改 **sunitinib** 50 mg 每日、服 4 週停 2 週（亞洲共識：可考慮 800 mg，但「可能不如直接換 sunitinib」；Hirano et al., 2026；MetaGIST, 2010）。**健保**：9.22 第 3 點(1) 沒有訂每日劑量上限，原文也沒有寫 800 mg 如何給付，加量前向藥事部門確認；**sunitinib 走 9.31 第 1 點**，須事前審查、送審附病歷與對 imatinib 耐受性不良或無效之證明（例如進展的影像），附表九之五；**一旦使用 sunitinib 後惡化或無法忍受，不得換回 imatinib**。再下一線是 regorafenib（9.51：曾接受 imatinib 與 sunitinib，每次 3 個月）與 ripretinib（9.123：已接受 ≥3 種激酶抑制劑含 imatinib，每次 3 個月）。所以「先加量或直接換 sunitinib」要在團隊討論時決定，換過去就回不來；換藥前不要讓病人自行中斷 imatinib。
-4. **D842V 對 imatinib 抗藥**，不是輔助 imatinib 的對象（Hirano et al., 2026）；晚期用 **avapritinib 300 mg 每日一次、空腹**（NAVIGATOR：D842V ORR 88%；長期追蹤中位 PFS 34.0 個月；Heinrich et al., 2020；Jones et al., 2021）。**健保 9.97**：D842V 報告須符合通則十二、事前審查、每次 6 個月、再申請需客觀證據證實無惡化、每日至多 100 mg 2 粒或 300 mg 1 粒，**未限線別**；條文適應症是「無法切除或轉移性」，術後輔助用法原文未見給付文字。安全：**顱內出血任何等級永久停藥**，認知不良反應 33%，每次回診問頭痛、記憶、專注力（Blueprint, 2026）。台灣藥證與健保都只限 D842V。
+4. **D842V 對 imatinib 抗藥**，不是輔助 imatinib 的對象（Hirano et al., 2026）；晚期用 **avapritinib 300 mg 每日一次、空腹**（NAVIGATOR：D842V ORR 88%；長期追蹤中位 PFS 34.0 個月；Heinrich et al., 2020；Jones et al., 2021）。**健保 9.97**：D842V 報告須符合通則十二、事前審查、每次 6 個月、再申請需客觀證據證實無惡化、每日至多 100 mg 2 粒或 300 mg 1 粒，**未限線別**；條文適應症是「無法切除或轉移性」，術後輔助用法原文未見給付文字。安全：**顱內出血任何等級永久停藥**，認知不良反應：GIST 病人 41%（601 位），3 級以上 5%（GIST、全身性肥大細胞增生症合併分析的 995 位為 33%），每次回診問頭痛、記憶、專注力（Blueprint, 2026）。台灣藥證與健保都只限 D842V。
 
 </details>
 

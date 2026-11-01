@@ -685,7 +685,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 |------|------|------|------|-----------|
 | **monarchE**（Johnston et al., 2026） | 5,637 人，**淋巴結陽性**高風險：≥4 顆；或 1–3 顆加 grade 3 或腫瘤 ≥5 cm；或 1–3 顆加 Ki-67 ≥20%（cohort 2） | abemaciclib 150 mg BID × **2 年** ＋ 內分泌治療 | 7 年 IDFS 77.4% 對 70.9%（HR 0.734，0.657–0.820）；**OS HR 0.842（0.722–0.981）**，7 年 OS 86.8% 對 85.0% | 腹瀉 84%（grade 3 8%）；grade 3–4 嗜中性球低下 19.6%；VTE 2.5%（合併 tamoxifen 4.3%，合併 AI 1.8%）；ILD 3%（Rugo, O'Shaughnessy, et al., 2022） |
 | **NATALEE**（Crown et al., 2025） | 5,101 人，AJCC 第 8 版 stage IIA（N1；或 N0 加 grade 3；或 N0 加 grade 2 且 Ki-67 ≥20% 或高基因體風險）、IIB、III，**含 N0** | ribociclib 400 mg QD，每 28 天第 1–21 天，× **3 年** ＋ NSAI（停經前加 goserelin） | 5 年 iDFS HR 0.716（0.618–0.829），絕對差 4.5%；**OS HR 0.800（0.637–1.003），未達顯著** | 嗜中性球低下 62.8%（grade 3 42.2%）；ALT 上升 19.7%；QT 延長 5.4%；**不可與 tamoxifen 併用**（Fasching et al., 2025） |
-| PALLAS（Mayer et al., 2026） | 5,760 人 stage II–III | palbociclib 125 mg × 2 年 | 5 年 iDFS 84.2% 對 82.4%，HR 0.88（0.77–1.01）；OS HR 1.09 | **陰性試驗**，台灣許可證沒有早期適應症 |
+| PALLAS（Mayer et al., 2026） | 5,753 人 stage II–III | palbociclib 125 mg × 2 年 | 5 年 iDFS 84.2% 對 82.4%，HR 0.88（0.77–1.01）；OS HR 1.09 | **陰性試驗**，台灣許可證沒有早期適應症 |
 | PENELOPE-B（Loibl, Marmé, et al., 2021；Loibl et al., 2025） | 1,250 人，術前化療後殘存病灶的高風險者 | palbociclib × 13 週期 | iDFS HR 0.93；最終 OS HR 0.87（0.67–1.14） | **陰性試驗** |
 
 > [!IMPORTANT]
@@ -712,12 +712,12 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 
 **stage II–III 的術前治療與 pCR 導向的策略**
 
-1. **術前方案**：**THP**（paclitaxel 加 trastuzumab 加 pertuzumab）或 **TCHP**（docetaxel 75 mg/m² 加 carboplatin AUC 6 加 trastuzumab 加 pertuzumab，q3w × 6）。NeoSphere（phase 2）：乳房 pCR（ypT0/is）THP 45.8%（36.1–55.7）對 TH 29.0%（P = 0.0141），沒有化療的 HP 只有 16.8%（Gianni et al., 2012）。TRYPHAENA：含與不含 anthracycline 的三個方案 pCR 57.3–66.2%，TCHP 66.2%，LVEF 下降 ≥10 個百分點且 <50% 的比例 3.9–5.6%（Schneeweiss et al., 2013）。
+1. **術前方案**：**THP**（taxane 加 trastuzumab 加 pertuzumab；NeoSphere 用 docetaxel，DESTINY-Breast11 用每週 paclitaxel）或 **TCHP**（docetaxel 75 mg/m² 加 carboplatin AUC 6 加 trastuzumab 加 pertuzumab，q3w × 6）。NeoSphere（phase 2）：乳房 pCR（ypT0/is）THP 45.8%（36.1–55.7）對 TH 29.0%（P = 0.0141），沒有化療的 HP 只有 16.8%（Gianni et al., 2012）。TRYPHAENA：含與不含 anthracycline 的三個方案 pCR 57.3–66.2%，TCHP 66.2%，LVEF 下降 ≥10 個百分點且 <50% 的比例 3.9–5.6%（Schneeweiss et al., 2013）。
 2. **新選擇 T-DXd → THP**：DESTINY-Breast11（n = 927；≥cT3N0、cT0–4N1–3 或發炎性）：T-DXd 5.4 mg/kg q3w × 4 → THP × 4 的 pCR **67.3%**（61.9–72.4），ddAC → THP 為 56.3%（50.6–61.8），差 11.2 個百分點（4.0–18.3）；grade ≥3 不良事件 37.5% 對 55.8%，左心室功能不全 1.3% 對 6.1%，ILD 4.4% 對 5.1%（有 1 例致死）；EFS 尚未成熟；單用 T-DXd × 8 的組別因期中分析提早關閉（pCR 43.0%）（Harbeck et al., 2026）。
 3. **手術後**：
    - **達 pCR**：續用 trastuzumab ± pertuzumab 到滿 1 年（術前加術後最多 18 次）；HR 陽性者加內分泌治療。
    - **有殘存侵襲癌**：**T-DM1 3.6 mg/kg q3w × 14 次**（KATHERINE）。
-4. **KATHERINE**（n = 1,486，術前 taxane ＋ trastuzumab 後殘存病灶）：7 年 iDFS **80.8% 對 67.1%**（HR 0.54，0.44–0.66）；OS HR 0.66（0.51–0.87），7 年 OS 89.1% 對 84.4%。毒性要記：血小板低下 29%（亞洲人 grade ≥3 達 19%，非亞洲人幾乎沒有），周邊神經病變 32%（von Minckwitz et al., 2019；Geyer et al., 2025）。
+4. **KATHERINE**（n = 1,486，術前 taxane ＋ trastuzumab 後殘存病灶）：7 年 iDFS **80.8% 對 67.1%**（HR 0.54，0.44–0.66）；OS HR 0.66（0.51–0.87），7 年 OS 89.1% 對 84.4%。毒性要記：血小板低下 29%（grade ≥3 整體 6%；亞洲人 grade ≥3 達 19%、任何級別 50%，台灣病人要特別留意血小板，每次給藥前都要驗），周邊神經病變 32%（von Minckwitz et al., 2019；Geyer et al., 2025）。
 5. **DESTINY-Breast05**（n = 1,635，殘存病灶且高風險：ypN+ 或診斷時不可手術）：T-DXd 對 T-DM1 的 3 年 iDFS 92.4% 對 83.7%（HR 0.47，0.34–0.66）；藥物相關 ILD 9.6% 對 1.6%，**2 人死於 ILD**；OS 尚未成熟（Loibl et al., 2026）。**這是美國已核准、台灣 TFDA 許可證沒有的適應症**（見 4.12）。
 
 > [!WARNING]
@@ -751,7 +751,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 | 選項 | 對象與劑量 | 關鍵數字 |
 |------|-----------|---------|
 | 續用 pembrolizumab | KEYNOTE-522 的術後階段 | 見上 |
-| **olaparib**（OlympiA） | germline BRCA1/2 致病變異、HER2 陰性高風險；300 mg BID × 52 週；TNBC：術前化療後非 pCR，或術後化療且淋巴結陽性或腫瘤 ≥2 cm；HR+：術後化療且 ≥4 顆淋巴結陽性，或術前化療後非 pCR 且 CPS＋EG 分數 ≥3 | 6.1 年：IDFS HR 0.65（0.53–0.78）；**OS HR 0.72（0.56–0.93）**，6 年 OS 87.5% 對 83.2%；MDS／AML 0.4% 對 0.7%（Tutt et al., 2021；Garber et al., 2026）。grade ≥3 貧血 8.7%，噁心 56.9%（Tutt et al., 2021） |
+| **olaparib**（OlympiA） | germline BRCA1/2 致病變異、HER2 陰性高風險；300 mg BID × 52 週；TNBC：術前化療後非 pCR，或術後化療且淋巴結陽性或腫瘤 ≥2 cm；HR+：術後化療且 ≥4 顆淋巴結陽性，或術前化療後非 pCR 且 CPS＋EG 分數 ≥3 | 6.1 年：IDFS HR 0.65（0.53–0.78）；**OS HR 0.72（0.56–0.93）**，6 年 OS 87.5% 對 83.2%；MDS／AML 0.4% 對 0.7%（Tutt et al., 2021；Garber et al., 2026）。grade ≥3 貧血 8.7%；噁心（任何級別）56.9%，對照組 23.3%（Tutt et al., 2021） |
 | **capecitabine**（CREATE-X） | HER2 陰性，術前 anthracycline 或 taxane 化療後殘存侵襲癌；日本與韓國 910 人，TNBC 占 32.2% | 5 年 DFS 74.1% 對 67.6%（HR 0.70，0.53–0.92）；OS 89.2% 對 83.6%（HR 0.59，0.39–0.90）。**TNBC 子群**：DFS 69.8% 對 56.1%（HR 0.58），OS 78.8% 對 70.3%（HR 0.52，0.30–0.90）；手足症候群 73.4%（Masuda et al., 2017） |
 
 - 三者在術後殘存病灶的先後與合併，沒有在本章引用的試驗中直接比較；**台灣健保規定術後輔助 olaparib 與 pembrolizumab 擇一給付**（9.85 第 4 項，114/6/1）。實際組合交 MDT 決定。
@@ -792,7 +792,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 
 > [!IMPORTANT]
 > **CDK4/6 抑制劑的 OS 與毒性考點**
-> - 三個藥的 PFS 都大幅改善，但**只有 ribociclib 的 OS 達顯著**（MONALEESA-2、MONALEESA-7）。PALOMA-2、MONARCH 3 與 PALOMA-3 的 OS 都未達顯著，不要寫「CDK4/6 抑制劑都延長存活」。
+> - 三個藥在第一線試驗的 PFS 都大幅改善，但**第一線只有 ribociclib 的 OS 達顯著**（MONALEESA-2、MONALEESA-7）；與 fulvestrant 併用的試驗中，abemaciclib（MONARCH 2，內分泌治療後惡化者，中位 OS 46.7 對 37.3 個月，HR 0.757，0.606–0.945；Sledge et al., 2020）與 ribociclib（MONALEESA-3，含一線與二線，中位 OS 53.7 對 41.5 個月，HR 0.73，0.59–0.90；Slamon et al., 2021）的 OS 也達顯著。PALOMA-2、MONARCH 3 與 PALOMA-3 的 OS 都未達顯著，不要寫「CDK4/6 抑制劑都延長存活」。
 > - **亞洲人的嗜中性球低下更明顯**：PALOMA-2 的亞洲子群 grade 3–4 嗜中性球低下 89.2%（非亞洲 62.5%），但無發燒性嗜中性球低下；處置是**早期減量**而不是停藥（Im, Mukai, et al., 2019）。
 > - **ribociclib 不可與 tamoxifen 併用**：QTcF 增加 >60 ms 在 ribociclib ＋ tamoxifen 為 16%，ribociclib ＋ NSAI 為 7%（美國仿單 2026-07）。停經前病人的 ribociclib 要配 **OFS ＋ AI**。
 > - 台灣 9.72：ribociclib 與 palbociclib **擇一**；ER 或 PR >30%；兩者合併終生最多 24 個月；每 24 週檢附療效評估再申請。

@@ -547,7 +547,7 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 
 **Pemetrexed 前置用藥（考試必考）**
 
-- **Folic acid** 350–1,000 µg PO QD：第一劑前 7 天內至少吃 5 天，持續到最後一劑後 21 天。
+- **Folic acid** 400–1,000 µg PO QD：第一劑前 7 天開始（美國仿單；歐盟仿單寫法為第一劑前 7 天內至少吃 5 天），持續到最後一劑後 21 天；實際以台灣核准仿單與院內處方為準。
 - **Vitamin B12** 1,000 µg IM：第一劑前 1 週，之後每 9 週（約每 3 週期）一次。
 - **Dexamethasone** 4 mg PO BID：給藥前一天、當天、後一天，預防皮疹。
 - **NSAIDs**：CrCl 45–79 mL/min 時，短效 NSAID（如 ibuprofen）在給藥前後各 2 天避免使用；長效 NSAID 前 5 天到後 2 天避免。
@@ -578,7 +578,7 @@ SCLC 長得快、對化放療一開始很敏感，但復發快。**時間就是�
 | Carboplatin ＋ etoposide ＋ atezolizumab（ES） | Carboplatin AUC 5 D1 ＋ etoposide 100 mg/m² D1–3 ＋ atezolizumab 1,200 mg D1，q3w × 4 → atezolizumab 1,200 mg q3w |
 | Carboplatin ＋ etoposide ＋ durvalumab（ES） | 同上化療 ＋ durvalumab 1,500 mg D1，q3w × 4 → durvalumab 1,500 mg q4w |
 | Durvalumab 鞏固（LS，ADRIATIC） | 1,500 mg q4w，最多 24 個月 |
-| Lurbinectedin | 3.2 mg/m² q3w |
+| Lurbinectedin ＋ atezolizumab（ES-SCLC 第一線維持，限 atezolizumab 誘導 4 週期後沒有惡化者） | Lurbinectedin 3.2 mg/m² ＋ atezolizumab 1,200 mg，D1，q3w，並預防性使用 G-CSF（IMforte；單藥二線用法見 4.4，美國已無適應症） |
 | Topotecan | 1.5 mg/m² IV D1–5，q3w |
 | Tarlatamab | 第 1 天 1 mg、第 8 天 10 mg、第 15 天 10 mg，之後 10 mg q2w（Amgen, 2026）；C1D1、C1D8 輸注前 1 小時內 dexamethasone 8 mg IV、輸注後 NS 1 L，自輸注開始監測 6–8 小時（美國 2026-09 版）；之後每劑輸注後觀察 2–8 小時（依週期）；流程見 7.7 |
 
@@ -1076,7 +1076,7 @@ P：1. 通知主治醫師；繼續留院觀察，離院時間由主治醫師決�
 |------|------|------|
 | 氧氣 | 非低血氧的難治性呼吸困難，氧氣 2 L/min 對比室內空氣 7 天，早晚喘的分數沒有差別（早上下降 0.9 對 0.7 分，P = .504；239 人）；ESMO 對靜息 SpO₂ ≥90% 不建議姑息性氧氣 | Abernethy et al., 2010；Hui et al., 2020 |
 | 風扇 | 手持風扇對著臉，不論血氧高低都可以用，成本低、無害 | Hui et al., 2020；Hui et al., 2021 |
-| 口服 morphine | Opioid-naïve 病人規則給予 10–30 mg／24 小時；已在用 opioid 止痛者把基礎劑量增加 25%–50%；一律同時給緩瀉劑 | Hui et al., 2020 |
+| 口服 morphine | Opioid-naïve 病人規則給予 10–30 mg／24 小時；opioid-tolerant（已規則使用 opioid 止痛）者可考慮把基礎劑量增加 25%–50%（ESMO 證據等級低：V, C，由醫師個別評估）；一律同時給緩瀉劑 | Hui et al., 2020 |
 | Benzodiazepine | 不當第一線；opioid 無效且合併焦慮時小心使用 | Hui et al., 2020 |
 
 **咳嗽的階梯處置**
@@ -1094,7 +1094,7 @@ P：1. 通知主治醫師；繼續留院觀察，離院時間由主治醫師決�
 |------|------|--------|
 | 痰中帶血、少量 | 痰有血絲或偶爾少量；生命徵象與血氧正常 | 用杯子記錄量與次數；找原因（腫瘤、感染、血小板低下、凝血異常、抗凝血藥、anti-VEGF）；通知醫師；用 bevacizumab 的病人，近期咳出 ≥1/2 茶匙（2.5 mL）紅血要暫停（Genentech, 2025b） |
 | 中量或反覆 | 反覆咳出明顯鮮血，量增加，但氣道與血壓尚穩定 | 住院；兩條靜脈通路；血型、凝血功能與血小板；胸部 CT；檢視並暫停加重出血的藥物（anti-VEGF、抗凝血藥、NSAID，由醫師決定）。非大量咳血的隨機試驗：吸入 tranexamic acid 500 mg tid（47 人），5 天內咳血停止 96% 對 50%（Wand et al., 2018） |
-| 大量或危及生命 | 影響氣道、氣體交換或血行動力學；量的定義不一致，常見為 24 小時 >100–600 mL，Wand 試驗以 >200 mL/24 小時並伴不穩定為排除條件 | 見下方警示：氣道優先 |
+| 大量或危及生命 | 影響氣道、氣體交換或血行動力學；量的定義不一致，文獻從 24 小時 100 mL 到 1,000 mL 都有，多數落在 300–600 mL，Wand 試驗以 >200 mL/24 小時並伴不穩定為排除條件 | 見下方警示：氣道優先 |
 
 > [!WARNING]
 > **大咳血的第一個小時：先保住氣道，不是先找出血點**
@@ -1254,7 +1254,7 @@ P：1. 通知主治醫師；繼續留院觀察，離院時間由主治醫師決�
 
 **「擇一使用、不得互換」的原則**
 
-- **EGFR 第一線**：gefitinib、erlotinib、afatinib、dacomitinib、osimertinib、aumolertinib 和 bevacizumab ＋ erlotinib 組合，彼此只能選一種，**除因耐受性不良不得互換**。各條列出的名單略有出入（例如 9.29 erlotinib 的擇一名單沒有列 gefitinib、afatinib，這兩個藥改列在「不得併用」），合併來讀，第一線只能擇一。換藥時，必須符合新藥自己的第一線條件。
+- **EGFR 第一線**：gefitinib、erlotinib、afatinib、dacomitinib、osimertinib、aumolertinib 和 bevacizumab ＋ erlotinib 組合，彼此只能選一種，**除因耐受性不良不得互換**。各條列出的名單略有出入（例如 9.29 erlotinib 的擇一名單沒有列 gefitinib、afatinib，這兩個藥改列在「不得併用」），合併來讀：gefitinib、erlotinib、afatinib 三者彼此之間，條文只寫「不得併用」（afatinib 另有 2.(4)：使用後除耐受性不良，不得轉換類似藥理機轉的其他 TKI）；明文的「擇一、除耐受性不良不得互換」，是這三者各自與 osimertinib、dacomitinib、aumolertinib 之間的規定，gefitinib 與 afatinib 另包含 bevacizumab ＋ erlotinib 組合。換藥前先和藥事部門確認。換藥時，必須符合新藥自己的第一線條件。
 - **ALK 第一線**：crizotinib、ceritinib、alectinib、brigatinib、lorlatinib 五選一，除嚴重不良反應或耐受不良外不得互換。
 - **ROS-1**：crizotinib 與 entrectinib 擇一，條件同上。
 - **免疫治療**：每位病人每個適應症限給付一種免疫檢查點抑制劑，不得互換。
@@ -1364,11 +1364,11 @@ TPS ＝ tumor proportion score（pembrolizumab、cemiplimab）；TC ＝ tumor ce
 
 **9.69 原文找不到文字的肺癌用法**
 
-9.69 的肺癌給付只有上表這 8 列，下列用法沒有任何給付文字：NSCLC 術後輔助免疫治療（IMpower010、PEARLS）、pembrolizumab 或 durvalumab 的圍術期治療（KEYNOTE-671、AEGEAN）、nivolumab 圍術期的術後部分（CheckMate 77T）、局限期 SCLC 的 durvalumab 鞏固（ADRIATIC）、nivolumab ＋ ipilimumab（CheckMate 9LA）、durvalumab ＋ tremelimumab ＋化療（POSEIDON）、cemiplimab 併用化療。ipilimumab 在 9.69 只給付於惡性肋膜間皮瘤，tremelimumab 只給付於晚期肝細胞癌。
+9.69 的肺癌給付只有上表這 8 列，下列用法沒有任何給付文字：NSCLC 術後輔助免疫治療（IMpower010、PEARLS）、pembrolizumab 或 durvalumab 的圍術期治療（KEYNOTE-671、AEGEAN）、nivolumab 圍術期的術後部分（CheckMate 77T）、局限期 SCLC 的 durvalumab 鞏固（ADRIATIC）、nivolumab ＋ ipilimumab（CheckMate 9LA）、durvalumab ＋ tremelimumab ＋化療（POSEIDON）、cemiplimab 併用化療。ipilimumab 在 9.69 沒有肺癌用法；原文點名的併用適應症只有惡性肋膜間皮瘤（9.69.2.(4)，併 nivolumab），黑色素瘤條文（9.69.1.(1)）寫「本類藥品」，本手冊未逐一確認 ipilimumab 單用是否可申請。tremelimumab 在 9.69 沒有肺癌用法，原文點名的用法為晚期肝細胞癌第一線併 durvalumab。
 
 > [!WARNING]
 > **免疫治療與標靶藥的先後順序**
-> 9.69 要求 NSCLC 免疫治療的非鱗狀病人是 EGFR/ALK/ROS-1 原生型，鱗狀病人是 EGFR/ALK 原生型（術前輔助則是不具 EGFR 或 ALK 異常）。這和 2.2 的臨床警示一致：基因報告出來之前不要先開免疫治療。此外，3.(4) 規定免疫治療無效後或給付時程期滿後，不再給付該適應症相關的標靶藥物；病人若先用免疫治療、之後才發現有驅動基因，後續標靶藥的給付要先和藥事部門確認，不要自行推定。
+> 9.69 對 NSCLC 免疫治療的基因條件是：非鱗狀病人要 EGFR/ALK/ROS-1 原生型，鱗狀病人要 EGFR/ALK 原生型（術前輔助則是不具 EGFR 或 ALK 異常）；例外是鱗狀 NSCLC 第一線併用化療（P014），該項條文未列基因條件，但 3.(7)Ⅰ 仍要求附符合給付適應症內容的基因檢測報告。這和 2.2 的臨床警示一致：基因報告出來之前不要先開免疫治療。此外，3.(4) 規定免疫治療無效後或給付時程期滿後，不再給付該適應症相關的標靶藥物；病人若先用免疫治療、之後才發現有驅動基因，後續標靶藥的給付要先和藥事部門確認，不要自行推定。
 
 ### 9.4 化療與抗血管新生藥物
 
@@ -1385,7 +1385,7 @@ TPS ＝ tumor proportion score（pembrolizumab、cemiplimab）；TC ＝ tumor ce
 | uracil-tegafur（Ufur） | 9.11（100/1/1） | 第 3 項：與 cisplatin 併用治療轉移及末期肺癌。第 5 項：病理分期為 T2 且腫瘤≧3 cm 的肺腺癌，作為手術後輔助治療 | 條文沒有寫 | 第 5 項使用期限以 2 年為限 | 原文未列停用條件 |
 | irinotecan（Campto） | 9.12（114/12/1）；9.12.1（112/2/1） | 只給付於轉移性大腸直腸癌第一線，以及轉移性胰臟癌第一線 FOLFIRINOX（限指定廠牌）；**沒有肺癌（含 SCLC）適應症** | 9.12.1 沒有寫（微脂體 9.12.2 需事前審查，僅用於胰腺癌） | 條文沒有寫 | 原文未列 |
 | topotecan（Hycamtin） | 9.16（100/6/1）：注射劑 9.16.1（98/11/1）、口服 9.16.2（100/6/1） | 注射劑：限卵巢癌及小細胞肺癌的**第二線**化學治療（第一線應包括白金化合物），另有子宮頸癌。口服劑型：限 SCLC 的第二線化學治療（第一線應包括白金化合物） | 條文沒有寫 | 條文沒有寫 | 原文未列；注射劑與口服劑型之間沒有寫併用或互換限制 |
-| pemetrexed（Alimta） | 9.26（115/10/1） | 肺癌各項皆排除顯著鱗狀細胞組織型（或明寫非鱗狀）。(2)單一藥物：以含鉑化療治療，或 70 歲以上接受過第一線化療，但仍失敗的局部晚期或轉移性 NSCLC。(3)第一線併含鉑化療：局部晚期或轉移性 NSCLC，**ECOG 0~1**。(4)第一線併 pembrolizumab 或 tislelizumab 及含鉑化療：轉移性、不具 EGFR/ALK/ROS-1 異常的非鱗狀 NSCLC。(5)第一線併 amivantamab 及 carboplatin：EGFR exon 20 插入突變的局部晚期或轉移性 NSCLC 成人。(6)術前輔助併 nivolumab 及含鉑化療：非鱗狀 NSCLC。(4)與(6)限用 Pexeda、Apeta、Pemetrexed Sandoz 或 Alimta Avos，且病人須符合免疫檢查點抑制劑的給付規定 | 條文沒有寫；(4)(6)的免疫組合依 9.69（附表八之三見 9.6） | **每 4 個療程需進行療效評估，病歷應留存評估紀錄，無疾病惡化方可繼續使用**（第 2 項，全條適用）；原文未設總療程上限 | 疾病惡化即不可繼續；沒有擇一或互換規定 |
+| pemetrexed（Alimta） | 9.26（115/10/1） | 肺癌各項中，(2)(3)排除顯著鱗狀細胞組織型，(4)(6)明寫非鱗狀，(5)amivantamab 組合條文未限組織型。(2)單一藥物：以含鉑化療治療，或 70 歲以上接受過第一線化療，但仍失敗的局部晚期或轉移性 NSCLC。(3)第一線併含鉑化療：局部晚期或轉移性 NSCLC，**ECOG 0~1**。(4)第一線併 pembrolizumab 或 tislelizumab 及含鉑化療：轉移性、不具 EGFR/ALK/ROS-1 異常的非鱗狀 NSCLC。(5)第一線併 amivantamab 及 carboplatin：EGFR exon 20 插入突變的局部晚期或轉移性 NSCLC 成人。(6)術前輔助併 nivolumab 及含鉑化療：非鱗狀 NSCLC。(4)與(6)限用 Pexeda、Apeta、Pemetrexed Sandoz 或 Alimta Avos，且病人須符合免疫檢查點抑制劑的給付規定 | 條文沒有寫；(4)(6)的免疫組合依 9.69（附表八之三見 9.6） | **每 4 個療程需進行療效評估，病歷應留存評估紀錄，無疾病惡化方可繼續使用**（第 2 項，全條適用）；原文未設總療程上限 | 疾病惡化即不可繼續；沒有擇一或互換規定 |
 | bevacizumab（Avastin）：非鱗狀 NSCLC | 9.37 第 5、7 項（114/10/1） | 第 5 項與 erlotinib 併用的第一線（EGFR Exon 21 L858R、腦轉移），見 9.1。第 7 項：bevacizumab（限 Alymsys、Avastin、Abevmy、Vegzelma 或 Mvasi）＋ atezolizumab ＋ carboplatin ＋ paclitaxel，轉移性非鱗狀 NSCLC 第一線，病人須符合免疫檢查點抑制劑的給付規定 | 第 5 項是（每次 12 週）；第 7 項本身沒有寫，免疫部分依 9.69 事前審查 | 第 5 項每 12 週再申請，須證實無惡化；第 7 項依 9.69 每 12 週評估 | 第 5 項：未證實無惡化即不得續用。第 7 項：9.69 3.(4) 明文允許與 atezolizumab 合併申報 |
 | ramucirumab（Cyramza） | 9.92（110/5/1） | 只給付於 sorafenib 治療失敗後、AFP≧400 ng/mL 的 Child-Pugh A 晚期肝細胞癌；**沒有肺癌適應症** | 是（肝細胞癌：初次 12 週） | 肝細胞癌：之後每 8 週評估 | 肝細胞癌：疾病惡化即停；與 regorafenib、nivolumab 擇一 |
 | cisplatin、etoposide | 無專條 | 第 9 節沒有這兩個藥的條號。cisplatin 只作為併用藥出現在他條（如 9.5.1 的 GENETAXYL CREM LESS／TAXOL、9.26 的惡性肋膜間質細胞瘤、9.69 的 SCLC durvalumab 組合）；etoposide 只出現在 9.2 第 4 項與 9.69 的擴散期 SCLC 條文 | — | — | — |
@@ -1449,7 +1449,7 @@ TPS ＝ tumor proportion score（pembrolizumab、cemiplimab）；TC ＝ tumor ce
 | bevacizumab ＋ erlotinib | EGFR Exon 21 L858R 活化性突變檢測報告（通則十二；原文只明列這一項，但適應症要求第 IV 期、無法手術切除、腦轉移，病歷要對得上） | 每 12 週再申請：客觀證據（如影像學）證實無惡化 |
 | amivantamab ＋ carboplatin ＋ pemetrexed | NSCLC 病理或細胞檢查報告；EGFR exon 20 插入突變分析檢測報告（通則十二） | 每 3 個月再申請：附療效評估資料；pemetrexed 每 4 個療程評估並留存紀錄 |
 | ALK TKI、ROS-1 TKI | NSCLC 病理或細胞檢查報告；ALK 或 ROS-1 突變檢測報告（通則十二）。後線藥（lorlatinib、brigatinib、repotrectinib）的適應症是「在特定前線藥物治療中惡化」，原文沒有另列檢附文件，病歷要看得出前一線用藥與惡化 | 每 3 個月再申請：給藥 4 週後影像，往後每 4 週胸部 X 光，每 3 個月（entrectinib、repotrectinib 為每隔 8 週）評估藥效的影像 |
-| dabrafenib ＋ trametinib、tepotinib、larotrectinib | NSCLC 病理或細胞檢查報告；BRAF V600E、MET exon 14 skipping 或 NTRK 融合的檢測報告（通則十二）；dabrafenib ＋ trametinib 另需第一線含鉑化療後惡化的紀錄；larotrectinib 依 9.95 對應的成人 NSCLC 條件備資料 | 每 3 個月（larotrectinib 每 12 週）再申請：附治療後臨床資料或療效評估資料，證實無惡化或無進展 |
+| dabrafenib ＋ trametinib、tepotinib、larotrectinib | NSCLC 病理或細胞檢查報告；BRAF V600E、MET exon 14 skipping 或 NTRK 融合的檢測報告（通則十二）；dabrafenib ＋ trametinib 的適應症是第一線含鉑化療後惡化，原文沒有另列這項檢附文件，但病歷要看得出前線用藥與惡化；larotrectinib 原文初次申請只列 NTRK 融合檢測報告，適應症依 9.95 對應的成人 NSCLC 條件對照 | 每 3 個月（larotrectinib 每 12 週）再申請：附治療後臨床資料或療效評估資料，證實無惡化或無進展 |
 | 免疫檢查點抑制劑（9.69） | 病理或細胞檢查報告；NSCLC 的腫瘤基因檢測報告與 PD-L1 報告（皆符合通則十二；PD-L1 表標示免附者除外）；ECOG≦1 與心肺肝腎功能評估；12 週內影像（不含 PET）；先前治療與完整用藥資料（含自費）及結果；treatment protocol；其他佐證病歷 | 每 12 週：12 週內的 ECOG 與器官功能、i-RECIST 療效反應資料、影像報告（不含 PET）、其他佐證病歷。結束治療、停藥、未通過續用或達給付時程時，28 天內於 VPN 登錄結案 |
 
 **送審前的小提醒（都來自原文）**
@@ -1537,7 +1537,7 @@ A. 第一劑當天開始吃葉酸　B. Vitamin B12 第一劑前 1 週肌肉注�
 <details>
 <summary>答案與詳解</summary>
 
-**答案：B**。葉酸要在第一劑前 7 天內至少吃 5 天；B12 第一劑前 1 週打、之後每 9 週；dexamethasone 是預防皮疹。CrCl <45 是不給 pemetrexed。
+**答案：B**。葉酸要在第一劑前 7 天開始每日服用（美國仿單；歐盟仿單寫法為第一劑前 7 天內至少吃 5 天），兩種寫法都不是「第一劑當天才開始」，所以 A 錯；B12 第一劑前 1 週打、之後每 9 週；dexamethasone 是預防皮疹。CrCl <45 是不給 pemetrexed。
 
 </details>
 
@@ -1702,7 +1702,7 @@ A. C1D1 與 C1D8 輸注前 1 小時內 dexamethasone 8 mg IV、輸注後 NS 1 L�
 <details>
 <summary>答案與詳解</summary>
 
-**答案：A**。前置用藥與水化在 C1D1 與 C1D8 都要做（B 錯）。之後每一劑仍要輸注後觀察：C1D15 與第 2 週期 6–8 小時、第 3–4 週期 3–4 小時、第 5 週期起 2 小時（C 錯）。1 級 CRS 是暫停到緩解後在下次排定劑量恢復，永久停藥的條件是再發的 3 級或 4 級 CRS（D 錯）（Amgen, 2026）。台灣核准仿單與院內 protocol 的留觀時間可能不同（美國 2026-07 以前的版本是 22–24 小時），以院內為準。
+**答案：A**。前置用藥與水化在 C1D1 與 C1D8 都要做（B 錯）。之後每一劑仍要輸注後觀察：C1D15 與第 2 週期 6–8 小時、第 3–4 週期 3–4 小時、第 5 週期起 2 小時（C 錯）。1 級 CRS 是暫停到緩解後在下次排定劑量恢復，永久停藥的條件是 4 級 CRS（第一次出現就停）或再發的 3 級 CRS（D 錯）（Amgen, 2026）。台灣核准仿單與院內 protocol 的留觀時間可能不同（美國 2026-07 以前的版本是 22–24 小時），以院內為準。
 
 </details>
 

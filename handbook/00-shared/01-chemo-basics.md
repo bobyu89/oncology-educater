@@ -22,8 +22,8 @@
 - **輸血門檻不是 8 g/dL**：血流動力學穩定的住院成人 Hb < 7 g/dL 才考慮輸血；心臟手術 7.5、骨科手術或既有心血管疾病 8 g/dL（AABB 2023，第 5 節）。
 - **Capecitabine 腎功能**：CrCl 30–50 起始劑量 75%；< 30 一般不使用（歐盟仿單列禁忌，美國現行仿單為「劑量未建立」），以台灣核准仿單為準（第 5、7 節）。
 - **抗癌藥四個必背**：累積劑量上限（doxorubicin 心肌病變風險隨累積劑量上升、bleomycin > 400 units）、劑量限制毒性、解毒劑配對（mesna、leucovorin、glucarpidase、dexrazoxane、uridine triacetate、rasburicase）、禁止的給藥途徑（vincristine 只能靜脈）（第 11、14 節）。
-- **開 fluoropyrimidine 前先想 DPYD、開 irinotecan 前先想 UGT1A1**：美國仿單對 DPYD 已加框警語；台灣人 UGT1A1\*6 比白人常見得多（第 12 節）。
-- **中心靜脈導管**：給發泡劑前一定先確認有回血；發燒時每個管腔都要抽血培養（第 13 節）。
+- **開 fluoropyrimidine 前先想 DPYD、開 irinotecan 前先想 UGT1A1**：美國仿單對 DPYD 已加框警語；亞洲人 UGT1A1\*6 比白人常見得多（第 12 節）。
+- **中心靜脈導管**：給發泡劑前一定先確認有回血；懷疑導管感染（發燒、寒顫）時，導管與周邊靜脈各抽一組血液培養；嗜中性球低下發燒的慣例是每個管腔都抽（第 13 節）。
 - **給藥安全**：化療醫囑要有兩個病人識別碼與完整劑量變數，給藥前由兩位合格人員獨立核對（第 14 節）。
 
 ---
@@ -344,7 +344,7 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 
 1. **立即停止輸注**，但先**不要拔針**。
 2. 接空針，**從原管路回抽**殘留藥液與血液。
-3. 拔除針頭；**不要對外滲部位加壓**。
+3. 周邊靜脈針頭回抽後拔除；中心靜脈導管或植入式 port 的針頭／導管先保留，由醫師評估（必要時以影像確認針頭位置與導管完整性）後再處理（見 13.8）。**不要對外滲部位加壓**。
 4. 用筆標出範圍、拍照，抬高患肢。
 5. 通知醫師，依藥物給予特定解毒劑與冷敷或熱敷。
 6. 記錄：時間、藥名、濃度、估計外滲量、症狀、處置；安排 24 小時、1 週等追蹤，持續疼痛或壞死時會診整形外科。
@@ -353,7 +353,7 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 
 | 藥物類別 | 敷法 | 解毒劑或特殊處置 |
 |---------|------|---------------|
-| Anthracyclines | 冷敷 | **Dexrazoxane IV**，**6 小時內**開始：D1 1,000 mg/m²、D2 1,000 mg/m²、D3 500 mg/m²（每日上限 D1、D2 各 2,000 mg、D3 1,000 mg；CrCl < 40 mL/min 劑量減半），每次輸注 1–2 小時，D2、D3 與 D1 同一時段（±3 小時）開始，打在對側肢體（Mouridsen et al., 2007；Totect 仿單）；給藥前至少 15 分鐘移除冷敷 |
+| Anthracyclines | 冷敷 | **Dexrazoxane IV**，**6 小時內**開始：D1 1,000 mg/m²、D2 1,000 mg/m²、D3 500 mg/m²（每日上限 D1、D2 各 2,000 mg、D3 1,000 mg；CrCl < 40 mL/min 劑量減半），每次輸注 1–2 小時，D2、D3 與 D1 同一時段（±3 小時）開始，打在對側肢體（Mouridsen et al., 2007；CNX Therapeutics, 2024，英國 Savene SmPC）；給藥前至少 15 分鐘移除冷敷 |
 | Vinca alkaloids | **熱敷**（不可冷敷） | 局部皮下注射 hyaluronidase |
 | Mitomycin、dactinomycin | 冷敷 | 依院內規範 |
 | Oxaliplatin | 避免冷敷（冷會誘發神經症狀） | 依院內規範 |
@@ -430,8 +430,8 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 |--------------|------|----------|------------------|
 | EGFR TKI：gefitinib、erlotinib、afatinib、dacomitinib、osimertinib | 抑制 EGFR 酪胺酸激酶 | 腹瀉、皮疹（痤瘡樣皮疹）、甲溝炎、間質性肺病（ILD）；afatinib 仿單另列肝毒性、胃腸穿孔、角膜炎（Boehringer Ingelheim, 2025） | 皮膚與腹瀉分級處置、呼吸症狀；各藥減量規則見[肺癌章](../01-lung-cancer.md)第 6 節 |
 | ALK／ROS1 TKI：alectinib、lorlatinib 等 | 抑制 ALK／ROS1 | 各藥不同：alectinib 為肌痛與 CK 上升、心搏過緩、膽紅素上升；lorlatinib 為血脂異常與情緒認知變化 | 見[肺癌章](../01-lung-cancer.md)第 5、6 節；CYP3A 誘導劑與 lorlatinib 的交互作用見 14.5 |
-| HER2 抗體與抗體藥物複合體：trastuzumab、trastuzumab deruxtecan（T-DXd） | 抗 HER2 | Trastuzumab 加框：心肌病變、輸注反應、胚胎胎兒毒性、肺毒性，與 anthracycline 併用風險最高（Genentech, 2026c）。T-DXd 加框：ILD 與胚胎胎兒毒性，另有嗜中性球低下與 LVEF 下降（Daiichi Sankyo, 2026） | 治療前與期間評估 LVEF；T-DXd 追蹤咳嗽、呼吸喘、發燒等 ILD 症狀；乳癌章撰寫中 |
-| CDK4/6 抑制劑：ribociclib（其他藥物見乳癌章） | 抑制 CDK4/6 | Ribociclib 仿單警語：ILD／肺炎、嚴重皮膚反應、QT 間期延長、肝膽毒性、濃度相關的嗜中性球低下（早期乳癌 NATALEE 中 94% 嗜中性球數下降，含 45% Grade 3–4）（Novartis, 2026b） | CBC：開始前、前 2 個週期每 2 週、之後 4 個週期每個週期開始時；另有 ECG 與肝功能；乳癌章撰寫中 |
+| HER2 抗體與抗體藥物複合體：trastuzumab、trastuzumab deruxtecan（T-DXd） | 抗 HER2 | Trastuzumab 加框：心肌病變、輸注反應、胚胎胎兒毒性、肺毒性，與 anthracycline 併用風險最高（Genentech, 2026c）。T-DXd 加框：ILD 與胚胎胎兒毒性，另有嗜中性球低下與 LVEF 下降（Daiichi Sankyo, 2026） | 治療前與期間評估 LVEF；T-DXd 追蹤咳嗽、呼吸喘、發燒等 ILD 症狀；各藥 LVEF 暫停規則見[乳癌章](../03-breast-cancer.md#62-抗-her2-治療lvef-監測與暫停規則)第 6.2 節，T-DXd 的 ILD 見[第 6.7 節](../03-breast-cancer.md#67-抗體藥物複合體t-dxdt-dm1sacituzumab-govitecandato-dxd) |
+| CDK4/6 抑制劑：ribociclib（其他藥物見乳癌章） | 抑制 CDK4/6 | Ribociclib 仿單警語：ILD／肺炎、嚴重皮膚反應、QT 間期延長、肝膽毒性、濃度相關的嗜中性球低下（早期乳癌 NATALEE 中 94% 嗜中性球數下降，含 45% Grade 3–4）（Novartis, 2026b） | CBC：開始前、前 2 個週期每 2 週、之後 4 個週期每個週期開始時；另有 ECG 與肝功能；其他 CDK4/6 抑制劑與完整監測時程見[乳癌章](../03-breast-cancer.md#65-cdk46-抑制劑嗜中性球肝功能心電圖腹瀉)第 6.5 節 |
 | PARP 抑制劑：olaparib | 抑制 PARP | 貧血（常見）、骨髓發育不良症候群／AML、肺炎、靜脈血栓、肝毒性（AstraZeneca, 2025） | 定期血球；持續性血球低下要評估 MDS／AML |
 | 抗血管新生：bevacizumab、ramucirumab | 抗 VEGF 或 VEGFR2 | 高血壓、蛋白尿、出血、動脈血栓、胃腸穿孔、傷口癒合不良；bevacizumab 另列 PRES（Genentech, 2025; Eli Lilly, 2026） | 每次給藥前量血壓與尿蛋白；擇期手術前依仿單停藥 |
 | 免疫檢查點抑制劑 | 解除 T 細胞的抑制訊號 | 免疫相關不良事件（irAE），幾乎所有器官都可能 | 見[免疫治療副作用](04-irae.md)全章 |
@@ -655,7 +655,7 @@ Mesna：與 ifosfamide 同時 IV bolus，劑量為當日 ifosfamide 劑量的 20
 
 ## 13. 中心靜脈導管照護（Port-A、PICC、隧道式導管）
 
-結論先行：**給發泡劑前先確認有回血；發燒時每個管腔都要抽血培養；導管不順先查機械性原因（夾子、針頭、姿勢、pinch-off）再用 alteplase；金黃色葡萄球菌、綠膿桿菌、黴菌、分枝桿菌引起的導管感染要拔管。** 台灣化療病人大多裝植入式輸液港（Port-A），Port 問題是病房最常接到的護理電話：沒有回血、輸注不順、發燒、手臂腫。
+結論先行：**給發泡劑前先確認有回血；懷疑導管感染時導管與周邊靜脈各抽一組血液培養（嗜中性球低下發燒的慣例是每個管腔都抽）；導管不順先查機械性原因（夾子、針頭、姿勢、pinch-off）再用 alteplase；金黃色葡萄球菌、綠膿桿菌、黴菌、分枝桿菌引起的導管感染要拔管。** 台灣化療病人大多裝植入式輸液港（Port-A），Port 問題是病房最常接到的護理電話：沒有回血、輸注不順、發燒、手臂腫。
 
 ### 13.1 裝置類型
 
@@ -1228,6 +1228,8 @@ Calvert, A. H., Newell, D. R., Gumbrell, L. A., O'Reilly, S., Burnell, M., Boxal
 Carson, J. L., Stanworth, S. J., Guyatt, G., Valentine, S., Dennis, J., Bakhtary, S., Cohn, C. S., Dubon, A., Grossman, B. J., Gupta, G. K., Hess, A. S., Jacobson, J. L., Kaplan, L. J., Lin, Y., Metcalf, R. A., Murphy, C. H., Pavenski, K., Prochaska, M. T., Raval, J. S., . . . Pagano, M. B. (2023). Red blood cell transfusion: 2023 AABB international guidelines. *JAMA, 330*(19), 1892–1902. https://doi.org/10.1001/jama.2023.12914（PMID: 37824153）
 
 Chang, T. C., Shiah, H. S., Yang, C. H., Yeh, K. H., Cheng, A. L., Shen, B. N., Wang, Y. W., Yeh, C. G., Chiang, N. J., Chang, J. Y., & Chen, L. T. (2015). Phase I study of nanoliposomal irinotecan (PEP02) in advanced solid tumor patients. *Cancer Chemotherapy and Pharmacology, 75*(3), 579–586. https://doi.org/10.1007/s00280-014-2671-x（PMID: 25577133）
+
+CNX Therapeutics. (2024). *Savene 20 mg/ml powder and solvent for concentrate for solution for infusion* [Summary of product characteristics]. electronic medicines compendium (emc). https://www.medicines.org.uk/emc/product/100135/smpc（修訂日期 2024-10-01）
 
 Cockcroft, D. W., & Gault, M. H. (1976). Prediction of creatinine clearance from serum creatinine. *Nephron, 16*(1), 31–41. https://doi.org/10.1159/000180580（PMID: 1244564）
 

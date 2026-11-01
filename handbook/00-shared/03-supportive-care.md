@@ -13,7 +13,7 @@
 
 ## 本章重點
 
-- **止吐要「一開始就給足」**：cisplatin 用四合一（NK1 拮抗劑＋5-HT3 拮抗劑＋dexamethasone＋olanzapine）；carboplatin AUC ≥ 5 用三合一。
+- **止吐要「一開始就給足」**：cisplatin 用四合一（NK1 拮抗劑＋5-HT3 拮抗劑＋dexamethasone＋olanzapine）；carboplatin 在 MASCC/ESMO 為 AUC ≥ 5、在 ASCO 為 AUC ≥ 4 即用三合一（NK1 拮抗劑＋5-HT3 拮抗劑＋dexamethasone）。
 - **G-CSF 的門檻是 FN 風險約 20%**；不常規用於無發燒的嗜中性球低下，也不在化療同一天或同步化學放射治療（尤其胸部）時使用。
 - **鴉片類止痛一定要同時開軟便劑**；突發痛劑量約為每日總量的 10–20%。
 - **癌症相關靜脈血栓**：DOAC 或 LMWH 至少 6 個月；腸胃道、泌尿道腫瘤用 DOAC 要留意出血。
@@ -21,7 +21,7 @@
 - **早期緩和照護不是放棄**：Temel 2010 顯示早期介入改善生活品質，且存活期較長。
 - **輸血看門檻也看症狀**：血流動力學穩定的住院成人 Hb < 7 g/dL 才考慮輸紅血球（血液腫瘤病人同為 7 g/dL；骨科手術或既有心血管疾病 8 g/dL）；沒有出血的化療性血小板低下，血小板 < 10 × 10⁹/L 才預防性輸注（第 10 節）。
 - **ESA 只給「非治癒目標、Hb < 10 g/dL」的化療相關貧血**，會增加血栓與死亡風險；健保 4.1.1 比指引更嚴（症狀性貧血且 Hb < 8 g/dL）（第 10 節）。
-- **周邊神經病變：沒有任何藥物可預防，duloxetine 是唯一有證據的治療**；oxaliplatin 要避冷；capecitabine 的手足症候群與 multikinase inhibitor 的手足皮膚反應長得不一樣（第 11 節）。
+- **周邊神經病變：沒有任何藥物可預防，duloxetine 是唯一有適當證據、用於已發生疼痛性 CIPN 的藥物**；oxaliplatin 要避冷；capecitabine 的手足症候群與 multikinase inhibitor 的手足皮膚反應長得不一樣（第 11 節）。
 - **呼吸困難先找可逆原因**：SpO₂ ≥ 90% 不給氧，風扇與低劑量口服 morphine 才是主力；惡病質可考慮 olanzapine 2.5 mg QD；Distress Thermometer ≥ 4 分轉介（第 12 節）。
 - **實體腫瘤標準化療不常規預防性抗生素**；不活化流感疫苗要打、活性減毒疫苗不能打；低菌飲食沒有證據（第 13 節）。
 
@@ -36,7 +36,7 @@
 | 風險 | 嘔吐機率 | 代表藥物（靜脈） |
 |------|---------|----------------|
 | 高（HEC） | > 90% | Cisplatin；anthracycline ＋ cyclophosphamide（AC）合併；高劑量 cyclophosphamide；dacarbazine；carmustine |
-| 中（MEC） | 30–90% | Carboplatin（屬中度的高端）、oxaliplatin、irinotecan、cyclophosphamide（非高劑量）、ifosfamide、doxorubicin、epirubicin；trastuzumab deruxtecan 與 sacituzumab govitecan 屬中度高端 |
+| 中（MEC） | 30–90% | Carboplatin（屬中度的高端）、oxaliplatin、irinotecan、cyclophosphamide（非高劑量）、ifosfamide、doxorubicin、epirubicin；sacituzumab govitecan 屬中度高端；trastuzumab deruxtecan 在 MASCC/ESMO 2023 也列中度高端，但 Enhertu 美國仿單（2026-05-15）寫為高致吐（含延遲性），NCCN 亦已改列高致吐，健保 7.2 依 NCCN 最新版，臨床上建議以高致吐等級預防（見[乳癌章](../03-breast-cancer.md#53-抗體藥物複合體adc與-her2-小分子藥)第 5.3 節） |
 | 低 | 10–30% | Paclitaxel、docetaxel、nab-paclitaxel、pemetrexed、gemcitabine、etoposide、5-FU、topotecan |
 | 極低 | < 10% | 免疫檢查點抑制劑、bevacizumab、trastuzumab、rituximab、vinca alkaloids、bleomycin |
 
@@ -188,7 +188,7 @@ G-CSF 的健保規定在《藥品給付規定》4.1.2（標題，101/6/1），�
 | Morphine | 30 mg | 10 mg |
 | Oxycodone | 20 mg | — |
 | Hydromorphone | 7.5 mg | 1.5 mg |
-| Fentanyl 貼片 | 口服 morphine 約 50–60 mg/day ≈ fentanyl 25 µg/hr | — |
+| Fentanyl 貼片 | 口服 morphine 約 50–60 mg/day ≈ fentanyl 25 µg/hr（等效粗估，不是開立資格；開立資格見下方「Fentanyl 貼片三不」） | — |
 
 **換藥（opioid rotation）時**：依等效換算後，因交叉耐受不完全，新藥起始劑量**減少 25–50%**，再用突發痛劑量補足。
 
@@ -244,13 +244,13 @@ G-CSF 的健保規定在《藥品給付規定》4.1.2（標題，101/6/1），�
 
 | 類型 | 處置 |
 |------|------|
-| 單純型 | 補充水分電解質、飲食調整（少量多餐、避免乳製品與高纖、高脂）；**loperamide 4 mg 起始，之後每 4 小時或每次稀便後 2 mg**；24 小時未改善 → loperamide 2 mg q2h |
+| 單純型 | 補充水分電解質、飲食調整（少量多餐、避免乳製品與高纖、高脂）；**loperamide 4 mg 起始，之後每 4 小時或每次稀便後 2 mg**；24 小時未改善 → 可改為 loperamide 2 mg q2h（Benson et al., 2004），但 24 小時總量不得超過 16 mg（仿單上限；超過建議劑量有 QT 延長、torsades de pointes 與心跳停止的加框警語），已達上限仍未改善就依下一列處置 |
 | 持續 48 小時以上或轉為複雜型 | 停用 loperamide，改 **octreotide 100–150 µg SC TID**（可加量）；考慮抗生素；住院補液 |
 | 複雜型 | 住院、靜脈補液、octreotide、糞便檢查（含 *C. difficile*）、CBC 與電解質；必要時抗生素 |
 
 **特定藥物：**
 
-- **Irinotecan**：給藥中或 24 小時內的「早發性」腹瀉屬膽鹼性症狀（合併流汗、腹痛、流涎），用 **atropine**；24 小時後的「遲發性」腹瀉可能嚴重且致命，依處方衛教病人自備 loperamide 並及早回診。
+- **Irinotecan**：給藥中或 24 小時內的「早發性」腹瀉屬膽鹼性症狀（合併流汗、腹痛、流涎），用 **atropine**；24 小時後的「遲發性」腹瀉可能嚴重且致命，依處方衛教病人自備 loperamide 並及早回診。Irinotecan 仿單的遲發性腹瀉 loperamide 方案是另一套較高的劑量，只限最多連續 48 小時，且有心臟風險，和上表一般化療腹瀉的劑量不同，不要混用，見[胰臟癌章](../02-pancreatic-cancer.md#62-irinotecan-與脂質體-irinotecan)第 6.2 節。
 - **免疫檢查點抑制劑**：腹瀉可能是免疫性大腸炎，**不要只用 loperamide 壓症狀**，依 [irAE](04-irae.md) 評估與處置。
 - **EGFR、HER2 等標靶藥**：常見腹瀉，依各癌別章節的劑量調整原則。
 
@@ -435,7 +435,7 @@ DOAC 的健保規定在《藥品給付規定》2.1.4「其他抗血栓劑」，�
 | 中心靜脈導管放置（可壓迫部位） | < 10 | AABB/ICTMG 2025：有條件建議、低確信度 |
 | 介入放射 | 低風險 < 20；高風險 < 50 | AABB/ICTMG 2025：有條件建議 |
 | 大型非神經軸手術 | < 50 | AABB/ICTMG 2025：有條件建議；ASCO 2018：重大侵入性處置 40–50 |
-| 骨髓穿刺或切片、拔除中心導管 | ≥ 20 可安全進行 | ASCO 2018 |
+| 骨髓穿刺或切片、拔除中心導管 | 血小板 < 20 仍可安全進行（不必為此預先輸注） | ASCO 2018 |
 
 - **證據**：TOPPS 試驗（血液惡性疾病，600 人，血小板 < 10 × 10⁹/L 時隨機分派預防性輸注或不預防）顯示，不預防組 WHO 2–4 級出血 50%，預防組 43%，未達非劣性（Stanworth et al., 2013），所以預防性輸注仍有價值。ASCO 2018 指出實體腫瘤的預防性輸注研究相對少，門檻是從血液惡性疾病外推。
 - **劑量**：最多一個單采血小板單位或等效量；更高劑量沒有更有效，半個單采單位的等效劑量也同樣有效（Kaufman et al., 2015）。需要確認是否達到目標時，輸後複測血小板數（Schiffer et al., 2018）。
@@ -578,7 +578,7 @@ Darbepoetin alfa 2.25 mcg/kg SC 每週 → 60 kg × 2.25 = 135 mcg（依製劑�
 
 **結論先行：**
 
-- **沒有任何藥物可預防化療相關周邊神經病變（chemotherapy-induced peripheral neuropathy, CIPN）**；acetyl-L-carnitine 不建議使用；**duloxetine 是唯一有證據的治療**，但效益有限（Loprinzi et al., 2020）。
+- **沒有任何藥物可預防化療相關周邊神經病變（chemotherapy-induced peripheral neuropathy, CIPN）**；acetyl-L-carnitine 不建議使用；**duloxetine 是唯一有適當證據、用於已發生疼痛性 CIPN 的藥物**，但效益有限（Loprinzi et al., 2020）。
 - **最重要的策略是每次療程前評估症狀與功能**，必要時延後、減量、換藥或停藥。
 - **Oxaliplatin 的急性神經症狀由冷誘發**：避免冰飲、冷空氣與冰塊，也不要用冰塊預防口腔黏膜炎（Meitheal, 2024）。
 - **手足症候群（hand-foot syndrome, HFS）見於 capecitabine 等化療；手足皮膚反應（hand-foot skin reaction, HFSR）見於 multikinase inhibitors，兩者外觀與機轉不同**；共通處置是預防性使用 10% urea 乳霜，嚴重度升高時暫停並減量。
@@ -616,7 +616,7 @@ Darbepoetin alfa 2.25 mcg/kg SC 每週 → 60 kg × 2.25 = 135 mcg（依製劑�
 - **證據**：CALGB 170601 隨機雙盲交叉試驗，231 位接受 paclitaxel、其他 taxane 或 oxaliplatin 後有疼痛性 CIPN（平均疼痛 ≥ 4/10）的病人，duloxetine 第 1 週 30 mg QD，之後 4 週 60 mg QD；第一階段平均疼痛下降 1.06（vs 安慰劑 0.34；P = .003），59% vs 38% 的病人疼痛有任何程度下降（Smith et al., 2013）。
 - **ASCO 2020**：duloxetine 是唯一有適當證據支持用於**已發生、有疼痛的 CIPN** 的藥物；效益有限（Loprinzi et al., 2020）。它針對的是疼痛，不是麻木。
 - **注意**：duloxetine 在 FDA 分類屬 CYP2D6 中度抑制劑；使用 tamoxifen 的病人，CPIC 2018 建議避免併用中度與強效 CYP2D6 抑制劑（Goetz et al., 2018）。
-- **健保**：duloxetine 的給付條文 1.1.8（最新修訂 113/12/1）只列「糖尿病併發周邊神經病變並具有臨床神經疼痛」，需神經科專科醫師診斷或神經傳導檢查證實、疼痛量表 ≥ 4 分、每日最大劑量 60 mg；**化療引起的神經病變原文未見**。gabapentin 的 1.1.6（最新修訂 110/5/1）只列帶狀疱疹皮膚病灶後神經痛；pregabalin 的 1.1.7（最新修訂 113/12/1）列帶狀疱疹後神經痛、纖維肌痛、糖尿病併發周邊神經病變與脊髓損傷神經痛；兩者的 CIPN 用途原文均未見。
+- **健保**：duloxetine 的給付條文 1.1.8（最新修訂 113/12/1）只列兩項：糖尿病併發周邊神經病變並具有臨床神經疼痛（需神經科專科醫師診斷或神經傳導檢查證實、疼痛量表 ≥ 4 分、每日最大劑量 60 mg）與纖維肌痛（限風濕免疫科、神經內科、復健科、疼痛專科及精神科醫師，每日最大劑量 60 mg）；**化療引起的神經病變原文未見**。gabapentin 的 1.1.6（最新修訂 110/5/1）只列帶狀疱疹皮膚病灶後神經痛；pregabalin 的 1.1.7（最新修訂 113/12/1）列帶狀疱疹後神經痛、纖維肌痛、糖尿病併發周邊神經病變與脊髓損傷神經痛；兩者的 CIPN 用途原文均未見。
 
 > [!NOTE]
 > **條文以 115/10/22 版為準**
@@ -644,7 +644,7 @@ Darbepoetin alfa 2.25 mcg/kg SC 每週 → 60 kg × 2.25 = 135 mcg（依製劑�
 |------|---------|------|
 | oxaliplatin | 持續性 Grade 2：考慮減量至 75 mg/m²（輔助治療）或 65 mg/m²（晚期大腸癌）；持續性 Grade 3：考慮停用；Grade 4：停用 | Meitheal, 2024 |
 | paclitaxel | 嚴重周邊神經病變：後續療程減量 20% | Alembic, 2024 |
-| docetaxel | 單藥乳癌劑量說明：中度神經感覺症狀由 75 mg/m² 減為 60 mg/m²，仍持續則停用；≥ Grade 3 周邊神經病變停用（各適應症與併用方案的劑量不同，以該方案仿單為準） | Hospira, 2025 |
+| docetaxel | 乳癌單藥與非小細胞肺癌單藥：≥ Grade 3 周邊神經病變停用；輔助乳癌（與 doxorubicin、cyclophosphamide 併用）與轉移性去勢抗性前列腺癌（併用 prednisone）：中度神經感覺症狀由 75 mg/m² 減為 60 mg/m²，仍持續則停用（各適應症與併用方案的劑量不同，以該方案仿單為準） | Hospira, 2025 |
 | nab-paclitaxel | ≥ Grade 3 感覺神經病變：暫停，直到恢復至 ≤ Grade 1（肺癌與胰臟癌；乳癌為 Grade 1–2），之後所有療程減量 | Exelan, 2026 |
 
 > [!WARNING]
@@ -703,7 +703,7 @@ Darbepoetin alfa 2.25 mcg/kg SC 每週 → 60 kg × 2.25 = 135 mcg（依製劑�
 > - Capecitabine 的手足症候群 Grade 2–3：**暫停**至 Grade 0–1 再恢復，並依發生次數逐步減量。
 > - Multikinase inhibitor 的 HFSR：局限於受壓處、水泡後角化；預防用 urea 乳霜，嚴重時暫停與減量。
 > - Oxaliplatin 急性神經症狀：**避冷**；不用冰塊含漱。
-> - CIPN：沒有可預防的藥物；duloxetine 是唯一有證據的治療。
+> - CIPN：沒有可預防的藥物；duloxetine 是唯一有適當證據、用於已發生疼痛性 CIPN 的藥物。
 
 ---
 
@@ -762,7 +762,7 @@ Darbepoetin alfa 2.25 mcg/kg SC 每週 → 60 kg × 2.25 = 135 mcg（依製劑�
 | 2. 非藥物措施 | **手持風扇對著臉**（ASCO：對著臉頰）、呼吸再訓練、活動節奏與緩解姿勢、助行器、運動復健 | 風扇不論血氧高低都可用，成本低、無害 |
 | 3. 氧氣 | **有低血氧才給氧**；ESMO：靜息 SpO₂ ≥ 90% **不建議**姑息性氧氣（II, D） | 高流量氧氣、NIV 可用於選定病人 |
 | 4. 低劑量口服 opioid（opioid-naïve 病人）| **opioid-naïve 病人：規則給予 morphine 10–30 mg／24 小時**（口服；ER morphine 起始可 5–15 mg BID），依症狀個別調整；需要時可給速效 morphine，約為每日總量的 1/6 | ESMO：II, B；證據以 COPD 為主 |
-| 4. 已使用 opioid 止痛的病人 | **將原本 opioid 基礎劑量增加 25%–50%** | ESMO：V, C |
+| 4. 已使用 opioid 止痛的病人 | **opioid 已耐受的病人可考慮將原本基礎劑量增加 25%–50%**（證據等級低，需監測鎮靜與呼吸抑制） | ESMO：V, C |
 | 5. 其他藥物 | **benzodiazepine** 不當第一線（III, D）；opioid 無效且合併焦慮時可小心使用（V, C）。**類固醇**可考慮用於其他方法無效的癌症相關呼吸困難（II, C） | 嗜睡與譫妄風險 |
 
 - **所有開始 opioid 的病人都要給預防性緩瀉劑**（ESMO：I, A），並衛教安全使用；腎功能差者起始劑量更低（ESMO 提醒），見第 3.4 節腎功能不全的警示。
@@ -1057,7 +1057,7 @@ A. Acetyl-L-carnitine 可預防 paclitaxel 引起的神經病變　B. 靜脈鈣�
 <details>
 <summary>答案與詳解</summary>
 
-**答案：D**。ASCO 2020 重申沒有藥物建議用於預防 CIPN，acetyl-L-carnitine 不建議使用；duloxetine 是唯一有適當證據的治療，效益有限（Loprinzi et al., 2020）。N08CB 第三期試驗顯示靜脈鈣鎂不能保護 oxaliplatin 神經毒性（Loprinzi et al., 2014）。Duloxetine 的證據來自 CALGB 170601（Smith et al., 2013）。
+**答案：D**。ASCO 2020 重申沒有藥物建議用於預防 CIPN，acetyl-L-carnitine 不建議使用；duloxetine 是唯一有適當證據、用於已發生疼痛性 CIPN 的藥物，效益有限（Loprinzi et al., 2020）。N08CB 第三期試驗顯示靜脈鈣鎂不能保護 oxaliplatin 神經毒性（Loprinzi et al., 2014）。Duloxetine 的證據來自 CALGB 170601（Smith et al., 2013）。
 
 </details>
 
