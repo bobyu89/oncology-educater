@@ -9,7 +9,7 @@
       "en": "Lung Cancer",
       "group": "癌別",
       "ribbon": "lung",
-      "status": "樣板審閱中"
+      "status": "已查核"
     },
     {
       "id": "pancreatic-cancer",
@@ -18,7 +18,7 @@
       "en": "Pancreatic Cancer",
       "group": "癌別",
       "ribbon": "pancreas",
-      "status": "規劃中"
+      "status": "已查核"
     },
     {
       "id": "breast-cancer",
@@ -27,7 +27,7 @@
       "en": "Breast Cancer",
       "group": "癌別",
       "ribbon": "breast",
-      "status": "規劃中"
+      "status": "已查核"
     },
     {
       "id": "sarcoma",
@@ -36,7 +36,7 @@
       "en": "Bone & Soft Tissue Sarcoma",
       "group": "癌別",
       "ribbon": "sarcoma",
-      "status": "規劃中"
+      "status": "已查核"
     },
     {
       "id": "chemo-basics",
@@ -45,7 +45,7 @@
       "en": "Chemotherapy Basics & Dosing",
       "group": "共用",
       "ribbon": "shared",
-      "status": "樣板審閱中"
+      "status": "已查核"
     },
     {
       "id": "oncologic-emergencies",
@@ -54,7 +54,7 @@
       "en": "Oncologic Emergencies",
       "group": "共用",
       "ribbon": "shared",
-      "status": "樣板審閱中"
+      "status": "已查核"
     },
     {
       "id": "supportive-care",
@@ -63,7 +63,7 @@
       "en": "Supportive Care",
       "group": "共用",
       "ribbon": "shared",
-      "status": "樣板審閱中"
+      "status": "已查核"
     },
     {
       "id": "irae",
@@ -72,7 +72,7 @@
       "en": "Immune-related Adverse Events",
       "group": "共用",
       "ribbon": "shared",
-      "status": "樣板審閱中"
+      "status": "已查核"
     }
   ]
 }

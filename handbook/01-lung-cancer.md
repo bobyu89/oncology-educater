@@ -21,7 +21,7 @@
 | 晚期非鱗狀 NSCLC 必驗 | EGFR、ALK、ROS1、BRAF V600E、KRAS G12C、MET exon 14 skipping、RET、NTRK1–3、HER2（ERBB2）突變、NRG1 fusion（建議 RNA-based NGS），加上 PD-L1（22C3, TPS） |
 | 早期（I–II） | 手術為主；≤2 cm 周邊型且淋巴結陰性（N0）可做 segmentectomy；不能開刀用 SBRT |
 | 術後輔助 | 依 biomarker：EGFR 用 osimertinib 3 年、ALK 用 alectinib 2 年、其餘用化療 ± 免疫治療 |
-| 不可切除 III 期 | 同步化放療（CCRT）→ durvalumab 鞏固 12 個月；EGFR 陽性改用 osimertinib |
+| 不可切除 III 期 | 同步化放療（CCRT）→ durvalumab 鞏固 12 個月；EGFR ex19del／L858R 且同步或序列性化放療後未惡化者，改用 osimertinib（LAURA；健保 9.80 無此給付文字） |
 | 晚期（IV） | 有 driver：對應標靶藥；無 driver：PD-L1 ≥50% 可單用 pembrolizumab，否則化療 ＋ 免疫 |
 | SCLC 局限期 | Cisplatin ＋ etoposide ＋ 同步胸部放療 → durvalumab 鞏固（ADRIATIC） |
 | SCLC 廣泛期 | Carboplatin ＋ etoposide ＋ atezolizumab 或 durvalumab，接著免疫維持 |
@@ -161,7 +161,7 @@
 | 膈神經 | 呃逆、患側橫膈抬高、運動時喘 | 膈神經被侵犯或壓迫；3.2 的 T3 定義含膈神經侵犯 | 胸部 X 光看橫膈位置 |
 | 上腔靜脈 | 臉頸腫、上肢水腫、胸壁靜脈曲張、彎腰或平躺加重 | 縱膈腔腫瘤或淋巴結壓迫 SVC | [腫瘤急症章](00-shared/02-oncologic-emergencies.md#3-上腔靜脈症候群svc-syndrome)第 3 節與本章第 8 節 |
 | 食道、心包膜 | 吞嚥困難；心包膜積液、低血壓、頸靜脈怒張 | 局部侵犯或心包膜轉移 | 第 8 節 |
-| 遠端轉移 | 骨痛、ALP 與血鈣上升；頭痛、局部神經症狀；上腹痛、肝功能異常；頸部或鎖骨上淋巴結腫大（N3） | 骨、腦、肝、腎上腺與遠端淋巴結是常見轉移處 | 影像分期；背痛加上肢體無力要想到脊髓壓迫（急症章第 4 節） |
+| 遠端轉移 | 骨痛、ALP 與血鈣上升；頭痛、局部神經症狀；上腹痛、肝功能異常；鎖骨上或斜角肌淋巴結腫大（N3） | 骨、腦、肝、腎上腺與遠端淋巴結是常見轉移處 | 影像分期；背痛加上肢體無力要想到脊髓壓迫（急症章第 4 節） |
 | 全身 | 體重減輕、倦怠、食慾不振 | 腫瘤造成的全身性影響 | ECOG 與預後（3.5）；惡病質見[支持性照護](00-shared/03-supportive-care.md#12-惡病質疲憊呼吸困難譫妄與困擾篩檢)第 12 節 |
 
 > [!TIP]
@@ -372,7 +372,7 @@ ERAS Society／ESTS 2019 指引把肺手術的加速復原措施整理成 45 項
 |------|------|------|
 | 術前（neoadjuvant） | Nivolumab 360 mg ＋ 含鉑雙藥 q3w × 3 → 手術 | CheckMate 816：pCR 24.0% 對 2.2%，EFS 31.6 對 20.8 個月（Forde et al., 2022）；5 年整體存活 65.4% 對 55.0%（HR 0.72；Forde et al., 2025） |
 | 圍術期：pembrolizumab | 術前 pembrolizumab 200 mg ＋ cisplatin 雙藥 q3w × 4 → 手術 → 術後 pembrolizumab 最多 13 週期 | KEYNOTE-671：EFS 47.2 對 18.3 個月；36 個月整體存活 71% 對 64%（HR 0.72）（Wakelee et al., 2023；Spicer et al., 2024） |
-| 圍術期：durvalumab | 術前 durvalumab 1,500 mg ＋ 化療 q3w × 4 → 手術 → 術後 durvalumab q4w × 12 | AEGEAN：EFS HR 0.68、pCR 17.2% 對 4.3%（Heymach et al., 2023）；期中整體存活尚未顯著（Heymach et al., 2026） |
+| 圍術期：durvalumab | 術前 durvalumab 1,500 mg ＋ 化療 q3w × 4 → 手術 → 術後 durvalumab q4w × 12 | AEGEAN：EFS HR 0.68、pCR 17.2% 對 4.3%（Heymach et al., 2023）；期中整體存活尚未顯著（Heymach et al., 2026a） |
 | 圍術期：nivolumab | 術前 nivolumab 360 mg ＋ 化療 q3w × 4 → 手術 → 術後 nivolumab 480 mg q4w × 1 年 | CheckMate 77T：EFS HR 0.58、pCR 25.3% 對 4.7%（Cascone et al., 2024）；整體存活結果尚未發表 |
 
 > [!TIP]
@@ -383,7 +383,7 @@ ERAS Society／ESTS 2019 指引把肺手術的加速復原措施整理成 45 項
 
 III 期是異質性最高的一期，**一定要多專科團隊（MDT）討論**可不可以切。
 
-- **可切除（多為 IIIA）**：沒有 EGFR/ALK 變異者走 4.1 的圍術期化療 ＋ 免疫路線；EGFR ex19del／L858R 或 ALK 陽性者先手術，術後接 osimertinib 或 alectinib 輔助治療（ADAURA、ALINA），因為圍術期免疫試驗排除這兩類病人。
+- **可切除（多為 IIIA）**：沒有 EGFR/ALK 變異者走 4.1 的圍術期化療 ＋ 免疫路線；EGFR ex19del／L858R 或 ALK 陽性者先手術，術後接 osimertinib 或 alectinib 輔助治療（ADAURA、ALINA），因為 CheckMate 816、77T 排除這兩類病人，AEGEAN 的療效分析也排除，KEYNOTE-671 未強制檢測、帶此類變異者極少，免疫治療對他們的效益證據不足。
 - **不可切除**：
   1. **同步化放療（concurrent chemoradiotherapy, CCRT）**：放療 60 Gy／30 次，搭配含鉑雙藥（cisplatin ＋ etoposide、carboplatin ＋ paclitaxel 每週，或非鱗狀用 cisplatin ＋ pemetrexed）。
   2. CCRT 後沒有惡化 → **durvalumab 鞏固治療 12 個月**。PACIFIC：PFS 16.8 對 5.6 個月；5 年整體存活率 42.9% 對 33.4%（Antonia et al., 2017；Spigel et al., 2022）。
@@ -413,7 +413,7 @@ III 期是異質性最高的一期，**一定要多專科團隊（MDT）討論**
 | RET | Selpercatinib、pralsetinib | | LIBRETTO-431（Zhou et al., 2023a）：PFS 24.8 對 11.2 個月；pralsetinib：ARROW（Gainor et al., 2021） |
 | NTRK | Larotrectinib、entrectinib | | larotrectinib 跨癌別整合分析（Drilon et al., 2018） |
 | KRAS G12C | 化療 ＋ 免疫（同無 driver） | 二線 sotorasib、adagrasib | CodeBreaK 200（de Langen et al., 2023）：PFS 5.6 對 4.5 個月；KRYSTAL-12（Barlesi et al., 2025）：PFS 5.5 對 3.8 個月 |
-| HER2 突變 | 化療 ＋ 免疫（台灣目前沒有第一線 HER2 標靶藥證）；HER2 TKD 突變者，美國 FDA 已加速核准 zongertinib（2026-02）與 sevabertinib（2026-09）用於第一線 | 二線 trastuzumab deruxtecan 5.4 mg/kg、zongertinib、sevabertinib（台灣 T-DXd 與 sevabertinib 有藥證，皆限曾接受全身性治療者；zongertinib 無藥證） | DESTINY-Lung02（Goto et al., 2023）：反應率 49.0%；Beamion LUNG-1（Heymach et al., 2025）：zongertinib 反應率 71%（已治療、TKD 突變），第一線 76% |
+| HER2 突變 | 化療 ＋ 免疫（台灣目前沒有第一線 HER2 標靶藥證）；HER2 TKD 突變者，美國 FDA 已加速核准 zongertinib（2026-02）與 sevabertinib（2026-09）用於第一線 | 二線 trastuzumab deruxtecan 5.4 mg/kg、zongertinib、sevabertinib（台灣 T-DXd 與 sevabertinib 有藥證，皆限曾接受全身性治療者；zongertinib 無藥證） | DESTINY-Lung02（Goto et al., 2023）：反應率 49.0%；Beamion LUNG-1：zongertinib 反應率 71%（已治療、TKD 突變；Heymach et al., 2025），第一線 76%（Heymach et al., 2026b） |
 
 **EGFR 第一線三個選項怎麼比**
 
@@ -439,7 +439,7 @@ III 期是異質性最高的一期，**一定要多專科團隊（MDT）討論**
 
 > [!TIP]
 > **PFS 好不等於活得比較久**
-> 很多標靶試驗 PFS 大幅改善，整體存活（OS）卻沒有顯著差異，例如 IPASS（Mok et al., 2009）、AURA3（Mok et al., 2017）、PROFILE 1014（Solomon et al., 2014）、ALTA-1L（Camidge et al., 2018）、ALEX 最終分析（Peters et al., 2026）。主要原因是**交叉治療（crossover）**：對照組惡化後幾乎都會換到試驗藥，存活差距被拉平。讀試驗時，PFS 像「這條路能撐多久不塞車」，OS 是「最後到不到得了終點」；換路的人多了，終點時間就會接近。
+> 很多標靶試驗 PFS 大幅改善，整體存活（OS）卻沒有顯著差異，例如 IPASS（Mok et al., 2009）、AURA3（Mok et al., 2017）、PROFILE 1014（Solomon et al., 2014）、ALTA-1L（Camidge et al., 2018）、ALEX 最終分析（Peters et al., 2026）。主要原因是**交叉治療（crossover）**：對照組惡化後多數會換到試驗藥或同類藥（例如 IPASS 的 EGFR 突變陽性者化療組約 64%、AURA3 73%、PROFILE 1014 84%），存活差距被拉平；ALEX、ALTA-1L 則還要考慮後線治療與追蹤時間。讀試驗時，PFS 像「這條路能撐多久不塞車」，OS 是「最後到不到得了終點」；換路的人多了，終點時間就會接近。
 
 #### 沒有驅動基因：看 PD-L1
 

@@ -197,7 +197,7 @@
 |-------|------|------|
 | 1 | < 10% BSA | 繼續 ICI；保濕、局部中效類固醇、口服抗組織胺 |
 | 2 | 10–30% BSA，影響工具性 ADL | 可繼續 ICI 但每週追蹤，未改善則暫停；局部中高效類固醇；未改善考慮 prednisone 0.5–1 mg/kg/day |
-| 3 | > 30% BSA 合併中重度症狀，影響自我照顧 ADL | 暫停 ICI；prednisone 0.5–1 mg/kg/day（未改善加到 2 mg/kg/day）；緊急會診皮膚科 |
+| 3 | > 30% BSA 合併中重度症狀，影響自我照顧 ADL | 暫停 ICI；prednisone 1 mg/kg/day，至少 4 週內逐步減量（ASCO 2021）；緊急會診皮膚科 |
 | 4 | 危及生命 | 永久停用；住院；IV methylprednisolone 1–2 mg/kg/day |
 
 > [!WARNING]
@@ -225,11 +225,11 @@
 |-------|---------------------|------|
 | 1 | > ULN–3 × ULN | 繼續 ICI；每週追蹤肝功能 1–2 次 |
 | 2 | > 3–5 × ULN | 暫停 ICI；每 3 天追蹤；持續不降考慮 prednisone 0.5–1 mg/kg/day |
-| 3 | > 5–20 × ULN | 暫停 ICI；IV methylprednisolone 1–2 mg/kg/day；會診肝膽科 |
-| 4 | > 20 × ULN | 永久停用；處置同 Grade 3 |
+| 3 | > 5–20 × ULN | 暫停 ICI（ASCO 2021：無症狀者考慮永久停用，有症狀者永久停用）；立即給 IV methylprednisolone 1–2 mg/kg/day 或等效藥物；會診肝膽科 |
+| 4 | > 20 × ULN | 永久停用；處置同 Grade 3，但 methylprednisolone 提高到 2 mg/kg/day（ASCO 2021） |
 
 - **先排除其他原因**：病毒性肝炎（**台灣特別注意 B 肝再活化**）、藥物（含中草藥）、酒精、肝轉移惡化、膽道阻塞。
-- 類固醇無效時改用 **mycophenolate mofetil（MMF）**；**肝炎不使用 infliximab**（本身可能有肝毒性）。
+- 類固醇反應不足時（G2 約 3 天無改善、G3 類固醇難治），在原有類固醇之外**加用** **mycophenolate mofetil（MMF）**（或 azathioprine，用前先測 TPMT）；**肝炎不使用 infliximab**（本身可能有肝毒性）。
 
 > [!CAUTION]
 > **待核對：Grade 3 肝炎是否永久停用，各指引不同**
@@ -293,7 +293,7 @@
 |-------|--------|------|
 | 1 | > ULN–1.5 × ULN | 考慮暫停 ICI；檢查並停用腎毒性藥物；補水 |
 | 2 | > 1.5–3 × 基線 | 暫停 ICI；prednisone 0.5–1 mg/kg/day；會診腎臟科 |
-| 3–4 | > 3 × 基線；> 3–6 × ULN（Grade 4 為 > 6 × ULN） | 暫停或永久停用 ICI（Grade 4 永久停用）；prednisone 1–2 mg/kg/day；考慮腎臟切片 |
+| 3–4 | > 3 × 基線；> 3–6 × ULN（Grade 4 為 > 6 × ULN） | Grade 3–4：若 ICI 確定與腎毒性有關，永久停用 ICI（ASCO 2021）；prednisone 1–2 mg/kg/day；會診腎臟科；ASCO 2021 不建議在嘗試類固醇前就反射性做腎臟切片，找不到其他原因時可直接視為 ICI 腎炎治療 |
 
 **先排除**：脫水、顯影劑、NSAID、**PPI 引起的間質性腎炎**、阻塞、腫瘤溶解。
 
@@ -338,7 +338,7 @@
 | Vedolizumab | 大腸炎（腸道選擇性） | 起效較慢。ASCO 2021 Table A2 的 vedolizumab 警語列過敏反應、活動性嚴重感染與 PML 風險，沒有 TB 專條，但同一份指引的大腸炎檢查仍把 TB 檢測列給需要 infliximab 或 vedolizumab 的病人（見 2.1） |
 | Mycophenolate mofetil | **肝炎首選**；腎炎、肺炎 | 感染風險 |
 | IVIG、血漿置換 | 重症肌無力、Guillain-Barré、部分肺炎與心肌炎 | — |
-| Tocilizumab（anti-IL-6） | TNF-α 抑制劑無效的 irAE（ASCO 2021 Table A2） | 先驗 latent TB，陽性先治療；用藥期間持續監測 active TB |
+| Tocilizumab（anti-IL-6） | TNF-α 抑制劑無效的 irAE（ASCO 2021 Table A2） | 先驗 latent TB，陽性先治療；用藥期間持續監測 active TB。併有免疫性大腸炎者避免使用（IL-6 抑制可能造成腸穿孔；ASCO 2021 發炎性關節炎段落） |
 | Abatacept 等 | 類固醇無效的心肌炎（專家意見） | 由心臟科與腫瘤科共同決定；使用前篩檢 latent TB，陽性者先治療（ASCO 2021 Table A2） |
 
 ### 6.1 健保給付與藥證（115/10/22 版）
@@ -371,7 +371,7 @@
 - **一般原則**：
   - 症狀 ≤ Grade 1、prednisone ≤ 10 mg/day 後再考慮。
   - 以荷爾蒙補充控制的內分泌病變可繼續 ICI。
-  - **一般不重新給藥**：Grade 4 非內分泌 irAE、嚴重心肌炎、重症肌無力、Guillain-Barré、腦炎、SJS/TEN。
+  - **一般不重新給藥**：Grade 4 非內分泌 irAE、嚴重心肌炎、Grade 3–4 重症肌無力（Grade 2 者症狀完全緩解且類固醇療程結束後，ASCO 2021 允許考慮恢復）、Guillain-Barré、腦炎、SJS/TEN。
   - anti-CTLA-4 合併治療引起大腸炎者，有時可改用 anti-PD-1 單用。
 - 重新給藥前與病人討論風險與獲益，並安排更密集的追蹤。
 

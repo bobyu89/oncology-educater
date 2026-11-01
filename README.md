@@ -4,16 +4,18 @@
 
 ## 章節
 
-| 章節 | 狀態 |
+| 章節 | 內容 |
 |------|------|
-| [肺癌](handbook/01-lung-cancer.md) | 樣板審閱中（健保段落等待第 9 節原文） |
-| 胰臟癌 | 規劃中 |
-| 乳癌 | 規劃中 |
-| 骨肉瘤與軟組織肉瘤 | 規劃中 |
-| [化療基礎與劑量計算](handbook/00-shared/01-chemo-basics.md) | 樣板審閱中 |
-| [腫瘤急症](handbook/00-shared/02-oncologic-emergencies.md) | 樣板審閱中 |
-| [支持性照護](handbook/00-shared/03-supportive-care.md) | 樣板審閱中 |
-| [免疫治療副作用（irAE）](handbook/00-shared/04-irae.md) | 樣板審閱中 |
+| [肺癌](handbook/01-lung-cancer.md) | NSCLC 與 SCLC：分期（第 9 版）、標靶與免疫治療、台灣藥證與健保、tarlatamab 病房實務 |
+| [胰臟癌](handbook/02-pancreatic-cancer.md) | PDAC：可切除性分類、FOLFIRINOX／NALIRIFOX、UGT1A1 與 DPYD、膽道與胰酵素處置 |
+| [乳癌](handbook/03-breast-cancer.md) | 依亞型：HR+／HER2+／TNBC，早期與轉移性、CDK4/6、ADC、心毒性與 ILD 監測 |
+| [骨肉瘤與軟組織肉瘤](handbook/04-sarcoma.md) | 骨肉瘤、Ewing、軟骨肉瘤、軟組織肉瘤、GIST；高劑量 methotrexate 與 ifosfamide 病房流程 |
+| [化療基礎與劑量計算](handbook/00-shared/01-chemo-basics.md) | 劑量計算、藥物分類與解毒劑、藥物基因檢測、導管照護、給藥安全 |
+| [腫瘤急症](handbook/00-shared/02-oncologic-emergencies.md) | 發燒性嗜中性球低下、TLS、輸注反應與過敏性休克、腸阻塞、肋膜積水等 |
+| [支持性照護](handbook/00-shared/03-supportive-care.md) | 止吐、G-CSF、疼痛、輸血、神經病變、惡病質、感染預防 |
+| [免疫治療副作用（irAE）](handbook/00-shared/04-irae.md) | 分級處置、類固醇配套、各器官 irAE、二線免疫抑制 |
+
+每個癌別章節都照同一套 13 段架構：速查卡、流病、病理、分期、治療、處方、副作用、專師實務、腫瘤急症、健保給付、個案、測驗、文獻。
 
 ## 怎麼讀
 
