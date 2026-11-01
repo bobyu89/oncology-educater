@@ -851,7 +851,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 | **PD-L1 CPS ≥10**（22C3，見 [2.6](#26-轉移或復發時的-biomarker)） | **pembrolizumab 200 mg q3w ＋ 化療**（nab-paclitaxel、paclitaxel，或 gemcitabine ＋ carboplatin） | KEYNOTE-355（n = 847）：CPS ≥10 PFS 9.7 對 5.6 個月（HR 0.65，0.49–0.86）；**OS 23.0 對 16.1 個月（HR 0.73，0.55–0.95）**。CPS ≥1：OS 17.6 對 16.0 個月（HR 0.86，0.72–1.04）**未達顯著**，所以**切點是 10 不是 1**（Cortes et al., 2022） |
 | PD-L1 陽性（SP142，IC ≥1%），台灣許可證仍有 | atezolizumab ＋ nab-paclitaxel | IMpassion130：全體 OS HR 0.87（0.75–1.02），**未達顯著**；PD-L1 陽性 OS 25.4 對 17.9 個月屬探索性。換成 paclitaxel 的 IMpassion131 為陰性試驗（PD-L1 陽性 PFS HR 0.82，0.60–1.12）（Schmid et al., 2018；Emens et al., 2021；Miles et al., 2021） |
 | 第一線，**不適合免疫治療**（ASCENT-03：CPS <10；或 CPS ≥10 但已用過 PD-(L)1 或有共病） | **sacituzumab govitecan**（ASCENT-03）；**Dato-DXd**（TROPION-Breast02） | ASCENT-03（n = 558）：PFS 9.7 對 6.9 個月（HR 0.62，0.50–0.77），OS 尚未成熟（Cortés et al., 2025）。TROPION-Breast02（n = 644）：PFS 10.8 對 5.6 個月（HR 0.57），**OS 23.7 對 18.7 個月（HR 0.79，0.64–0.98）**（Dent et al., 2026） |
-| 第一線，PD-L1 陽性 | sacituzumab govitecan ＋ pembrolizumab（ASCENT-04） | PFS 11.2 對 7.8 個月（HR 0.65，0.51–0.84），OS 尚未成熟（Tolaney, de Azambuja, et al., 2026） |
+| 第一線，PD-L1 陽性（CPS ≥10，22C3） | sacituzumab govitecan ＋ pembrolizumab（ASCENT-04） | PFS 11.2 對 7.8 個月（HR 0.65，0.51–0.84），OS 尚未成熟（Tolaney, de Azambuja, et al., 2026） |
 | **已接受 ≥2 種全身治療**（其中 ≥1 種在晚期） | **sacituzumab govitecan 10 mg/kg 第 1、8 天 q21d** | ASCENT（主要分析族群 n = 468，無腦轉移）：PFS 5.6 對 1.7 個月（HR 0.41，0.32–0.52）；**OS 12.1 對 6.7 個月（HR 0.48，0.38–0.59）**；全部隨機分派者（含腦轉移）OS 11.8 對 6.9 個月（HR 0.51，0.42–0.63）（Bardia et al., 2021；Bardia, Rugo, et al., 2024） |
 | **HER2-low 的三陰性** | T-DXd 5.4 mg/kg q3w | DESTINY-Breast04 的 HR 陰性子群只有 63 人（探索性）：PFS 8.5 對 2.9 個月（HR 0.46，0.24–0.89），OS 18.2 對 8.3 個月（Modi et al., 2022） |
 | gBRCA 突變 | PARP 抑制劑 | 見 4.10 |
@@ -980,7 +980,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 | AC → q3w paclitaxel | AC q3w × 4 → paclitaxel 175 mg/m²（3 小時）q3w × 4 | 美國 paclitaxel 仿單的輔助劑量（Sparano et al., 2008） |
 | **TC × 4** | docetaxel 75 mg/m² ＋ cyclophosphamide 600 mg/m²，D1，q3w × 4 | 不含 anthracycline；docetaxel 前置 dexamethasone（見下）；是否需要初級 G-CSF 預防依 FN 風險評估（[支持性照護 2.1](00-shared/03-supportive-care.md#2-g-csf預防發燒性嗜中性球低下)）（Jones et al., 2006） |
 | TAC × 6 | docetaxel 75 mg/m²（在 doxorubicin 後 1 小時）＋ doxorubicin 50 mg/m² ＋ cyclophosphamide 500 mg/m²，q3w × 6 | 美國 docetaxel 仿單的輔助方案 |
-| FEC-100／CEF-120 | FEC-100：5-FU 500 ＋ epirubicin 100 ＋ cyclophosphamide 500 mg/m²，D1，q21d × 6。CEF-120：cyclophosphamide 口服 75 mg/m² D1–14 ＋ epirubicin 60 mg/m² ＋ 5-FU 500 mg/m² D1、D8，q28d × 6 | CEF-120 方案仿單要求預防性抗生素（Ellence 美國仿單） |
+| FEC-100／CEF-120 | FEC-100：5-FU 500 ＋ epirubicin 100 ＋ cyclophosphamide 500 mg/m²，D1，q21d × 6。CEF-120：cyclophosphamide 口服 75 mg/m² D1–14 ＋ epirubicin 60 mg/m² D1、D8 ＋ 5-FU 500 mg/m² D1、D8，q28d × 6 | CEF-120 方案仿單要求預防性抗生素（Ellence 美國仿單） |
 | **capecitabine**（轉移性） | 1,000 或 1,250 mg/m² BID，D1–14，q21d，用到惡化或無法耐受；併 docetaxel 時 docetaxel 75 mg/m² D1 | 餐後 30 分鐘內以水整顆吞服，不可壓碎或切開；劑量取整到最接近的 150 mg；漏服不補、吐了不補；CrCl 30–50 mL/min 減 25%，<30 mL/min 劑量未建立；**DPYD 檢測與 warfarin 交互作用見 6.4**（Xeloda 美國仿單）。台灣 9.17 |
 | capecitabine（CREATE-X） | 1,250 mg/m² BID，D1–14，q3w × 8（術前化療後殘存的 HER2 陰性病灶） | 劑量尚待核對，見 4.6 的待核對框（Masuda et al., 2017） |
 
@@ -1093,7 +1093,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 | 藥物 | 劑量與服法 | 減量階梯與調整 | 重點與台灣 |
 |------|-----------|--------------|-----------|
 | **alpelisib**（Piqray 愛克利）＋ fulvestrant | 300 mg QD，**隨餐** | 300 → 250 → 200 mg → 停藥（胰臟炎只允許一次減量）。台灣錠劑 50／150／200 mg：300 mg ＝ 150 mg × 2，250 mg ＝ 200 ＋ 50 mg，200 mg ＝ 200 mg × 1（依 TFDA 規格計算） | 漏服：9 小時內隨餐補服。皮疹出現前預防性抗組織胺（6.6）；確認嚴重皮膚反應（SJS、EM、TEN、DRESS）要永久停藥。台灣 9.129（115/6/1） |
-| **capivasertib**（Truqap 泛抑癌）＋ fulvestrant | 400 mg BID（約間隔 12 小時），**服 4 天、停 3 天**，與食物無關 | 400 → 320 → 200 mg BID（皆 4 天停 3 天）→ 停藥。台灣錠劑 160 mg 與 200 mg：400 mg ＝ 200 mg × 2，320 mg ＝ 160 mg × 2（計算）。強效或中效 CYP3A 抑制劑：避免，不得不用時 320 mg BID | 週曆：第 1–4 天早晚各服，**第 5–7 天不服**；漏服晚 ≤4 小時補服，否則跳過。要用腫瘤**組織** NGS 檢出 PIK3CA、AKT1 或 PTEN 變異。台灣 9.135（115/6/1） |
+| **capivasertib**（Truqap 泛抑癌）＋ fulvestrant | 400 mg BID（約間隔 12 小時），**服 4 天、停 3 天**，與食物無關 | 400 → 320 → 200 mg BID（皆 4 天停 3 天）→ 停藥。台灣錠劑 160 mg 與 200 mg：400 mg ＝ 200 mg × 2，320 mg ＝ 160 mg × 2（計算）。強效 CYP3A 抑制劑：避免，不得不用時 320 mg BID；中效 CYP3A 抑制劑：併用時直接降到 320 mg BID（皆為 4 天停 3 天） | 週曆：第 1–4 天早晚各服，**第 5–7 天不服**；漏服晚 ≤4 小時補服，否則跳過。要用腫瘤**組織** NGS 檢出 PIK3CA、AKT1 或 PTEN 變異。台灣 9.135（115/6/1） |
 | **inavolisib**（Itovebi 癌妥飛）＋ palbociclib ＋ fulvestrant | 9 mg QD；palbociclib 125 mg 服 21 天停 7 天 | 9 → 6 → 3 mg → 停藥；中重度腎功能不全降低起始劑量 | PIK3CA 突變用**血漿**檢測；台灣有藥證，無健保 |
 | **everolimus**（癌伏妥）＋ exemestane | everolimus 10 mg QD ＋ exemestane 25 mg QD。台灣只有 5 mg 錠（10 mg 錠 2020-11-09 註銷），10 mg ＝ 2 錠 | 口腔炎：grade 2 暫停至 grade 0–1 再以原劑量；再發 grade 2 或 grade 3，暫停後以 50% 恢復 | **開始就用 dexamethasone 無酒精口腔液含漱後吐掉**；避免含酒精、過氧化氫、碘或 thyme 的漱口水。擇期手術前 ≥1 週停藥、大手術後 ≥2 週不給（Afinitor 美國仿單）。台灣 9.36.1 第 4 項（114/12/1），與 tucidinostat（9.128）擇一 |
 | **olaparib**（Lynparza 令癌莎） | 300 mg BID，與食物無關；輔助治療 **1 年**（OlympiA） | 300 → 250 → 200 mg BID；CrCl 31–50 mL/min 為 200 mg BID；避免強效與中效 CYP3A 抑制劑，不得不用時強效 100 mg BID、中效 150 mg BID。台灣錠劑 100／150 mg：300 mg ＝ 150 mg × 2，250 mg ＝ 150 ＋ 100 mg，200 mg ＝ 100 mg × 2（計算） | **基線與每月 CBC**（MDS／AML 約 1.2%、肺炎 1.0%，見 6.9）。台灣 9.85：轉移性限 TNBC，輔助為第 4 項，與 pembrolizumab 擇一 |
@@ -1189,7 +1189,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 
 **頭皮冷卻（scalp cooling）**
 
-- **效果**：SCALP 隨機試驗期中分析（n = 142 可評估）：4 個週期結束時保留頭髮（CTCAE 掉髮 grade 0–1）50.5% 對 0%；化療方案 36% 含 anthracycline、64% 含 taxane（Nangia et al., 2017）。另一個**不含 anthracycline** 的前瞻世代（n = 122）：掉髮 ≤50%（Dean 0–2）佔 66.3%（Rugo, Klein, et al., 2017）。Rugo 的世代排除 anthracycline，結果不能直接套用到 AC 方案；SCALP 兩類方案各自的結果本章未取得，衛教時要說清楚這個限制。
+- **效果**：SCALP 隨機試驗期中分析（n = 142 可評估）：4 個週期結束時保留頭髮（CTCAE 掉髮 grade 0–1）50.5% 對 0%；化療方案 36% 含 anthracycline、64% 含 taxane（Nangia et al., 2017）。另一個**不含 anthracycline** 的前瞻世代（共 122 人，冷卻組 106 人、對照組 16 人）：冷卻組可評估的 101 人中，掉髮 ≤50%（Dean 0–2）佔 66.3%（67/101；對照組 0/16）（Rugo, Klein, et al., 2017）。Rugo 的世代排除 anthracycline，結果不能直接套用到 AC 方案；SCALP 兩類方案各自的結果本章未取得，衛教時要說清楚這個限制。
 - **做法**（Rugo, Klein, et al., 2017 的方案）：每次化療前 30 分鐘開始冷卻，頭皮溫度維持 3 °C，化療期間與結束後 90–120 分鐘持續冷卻。
 - **安全**：頭皮轉移的發生率冷卻組 0.61%、未冷卻 0.41%，差異不顯著（P = 0.43）（Rugo, Melin, et al., 2017）。
 
@@ -1212,7 +1212,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 |------|------------|-----------|------------|
 | 標誌毒性 | **嗜中性球低下**：PALOMA-2 80%、grade ≥3 66%；發燒性嗜中性球低下少見（≤1.8%）；亞洲人更明顯（見 4.7） | 嗜中性球低下；肝毒性；**QT 延長**。NATALEE：AE 名稱的嗜中性球低下 62.8%（grade 3 42.2%）、ALT 上升 19.7%、QT 延長 5.4%；仿單以檢驗值計算，嗜中性球下降 94%（grade 3–4 45%），發燒性嗜中性球低下 0.3% | **腹瀉**：仿單合併 4 個試驗，發生率 81–90%、grade 3 為 8–20%，中位發生時間 6–8 天，多在第 1 個月。monarchE：腹瀉 84%（grade 3 8%）、grade 3–4 嗜中性球低下 19.6%、VTE 2.5%、ILD 3% |
 | 血液監測 | 開始前；**週期 1–2 的第 1 與第 15 天**；之後每週期；前 6 週期最高 grade 1–2 者改每 3 個月 | 開始前；**前 2 個週期每 2 週**；之後 4 個週期的週期開始時 | 開始前；**前 2 個月每 2 週**；之後 2 個月每月 |
-| 嗜中性球 grade 3 | 第 1 天：暫停，1 週內重測，≤grade 2 以原劑量恢復；週期 1–2 的第 15 天：繼續，第 22 天重測。**grade 3 合併發燒 ≥38.5 °C 或感染，或 grade 4：暫停，降一階** | 暫停到 ≤grade 2 以原劑量恢復，再發降一階；grade 3 發燒性或 grade 4：暫停後降一階 | 暫停到 ≤grade 2，不減量；反覆 grade 3 或 grade 4：暫停後降一階。**若使用 G-CSF，最後一劑 G-CSF 後 ≥48 小時才可給 abemaciclib** |
+| 嗜中性球 grade 3 | 第 1 天：暫停，1 週內重測，≤grade 2 以原劑量恢復；週期 1–2 的第 15 天：繼續，第 22 天重測。**grade 3 合併發燒 ≥38.5 °C 或感染，或 grade 4：暫停，降一階** | 暫停到 ≤grade 2 以原劑量恢復，再發降一階；grade 3 發燒性或 grade 4：暫停後降一階 | 暫停到 ≤grade 2，不減量；反覆 grade 3 或 grade 4：暫停後降一階。**若需使用 G-CSF，最後一劑 G-CSF 後至少 48 小時、且嗜中性球恢復到 ≤grade 2，才可給 abemaciclib，並降一階（除非已因該毒性降階）** |
 | 肝功能 | 仿單未訂常規監測 | **前 2 個週期每 2 週**，之後 4 個週期的週期開始時；ALT／AST >3×ULN **且** bilirubin >2×ULN（無膽汁鬱積）停藥。轉移性 grade 3–4 ALT 11%、AST 8%，中位 92 天 | **ALT、AST、bilirubin 前 2 個月每 2 週**、之後 2 個月每月；ALT／AST >3×ULN 且 bilirubin >2×ULN，或 grade 4：停藥 |
 | 心電圖 | 不需要 | **開始前與週期 1 約第 14 天各一次**，之後依臨床；週期前 6 次開始時查 K、Ca、P、Mg。QTcF >480 ms 暫停至 ≤480（輔助同劑量、轉移性降一階）；>500 ms 暫停後降一階；torsades、多形性 VT 或昏厥停藥。**不適用於與 tamoxifen 併用** | 不需要 |
 | 其他 | 嚴重 ILD 永久停藥 | ILD 1.6%（致死 0.1%）；grade 2 暫停後降一階，再發 grade 2 或 grade 3–4 停藥 | 持續 grade 2 ILD 暫停後降一階，grade 3–4 停藥；**早期乳癌任何等級的 VTE 都要暫停** |
@@ -1592,7 +1592,7 @@ Kadcyla 有三個加框警語：**肝毒性、心臟毒性、胚胎毒性**。�
 ```
 
 - **LVEF 暫停規則**（6.2）：pertuzumab 用於早期乳癌時，LVEF <50% 且較基線下降 ≥10 個百分點，兩藥都暫停至少 3 週；trastuzumab 看「下降多少」（≥16 個百分點，或低於正常下限且 ≥10 個百分點）。**病歷要寫下一次超音波的日期**，因為暫停多半是 3–4 週內重測決定。
-- **腹瀉**：APHINITY 加 pertuzumab 後 grade ≥3 腹瀉 9.8% 對 3.7%（Loibl, Jassem, et al., 2024）；TCHP 還有 carboplatin 與 docetaxel 的血球低下，發燒走 FN 流程。
+- **腹瀉**：APHINITY 加 pertuzumab 後 grade ≥3 腹瀉 9.8% 對 3.7%（von Minckwitz et al., 2017）；TCHP 還有 carboplatin 與 docetaxel 的血球低下，發燒走 FN 流程。
 - **Phesgo**（SC 複方）：只打大腿；負荷劑量 pertuzumab 1,200 mg／trastuzumab 600 mg 約 8 分鐘，之後 600／600 mg q3w 約 5 分鐘（5.2）。台灣健保 9.112（114/5/1）早期乳癌同樣只收腋下淋巴結轉移者。
 - **健保**：這位病人有腋下淋巴結轉移，符合 9.18 第 1.(1) 項（115/7/1）與 9.70 第 1 項（114/12/1）的族群條件，**仍須事前審查**，核准後每 24 週檢附療效評估資料；術前加術後 trastuzumab、pertuzumab、Phesgo 合計以 18 療程為上限。**沒有腋下淋巴結轉移者，pertuzumab 與 Phesgo 的早期乳癌條文沒有收載**（4.5）。
 
@@ -1629,7 +1629,7 @@ Letrozole 2.5 mg PO QD，連續服用
 衛教單附 28 天日曆：第 1-21 天畫圈，第 22-28 天寫「休息」；寫下回診抽血日（D1、D15、約 D14 的 ECG）
 ```
 
-**暫停與減量的快速對照**（6.5）：嗜中性球 grade 3 → 暫停到 ≤grade 2 後以原劑量恢復，再發降一階（600 → 400 → 200 mg）；grade 3 合併發燒或 grade 4 → 暫停後降一階；ALT／AST >3×ULN 且 bilirubin >2×ULN（無膽汁鬱積）→ 停藥；QTcF >480 ms 暫停到 ≤480；>500 ms 暫停後降一階；torsades、多形性 VT 或昏厥 → 停藥。
+**暫停與減量的快速對照**（6.5）：嗜中性球 grade 3 → 暫停到 ≤grade 2 後以原劑量恢復，再發降一階（600 → 400 → 200 mg）；grade 3 合併發燒或 grade 4 → 暫停後降一階；ALT／AST >3×ULN 且 bilirubin >2×ULN（無膽汁鬱積）→ 停藥；QTcF >480 ms 暫停到 ≤480 後降一階（轉移性；輔助治療第一次可同劑量恢復、再發降一階）；>500 ms 暫停到 ≤480 後降一階，再發 >500 ms 停藥；torsades、多形性 VT 或昏厥 → 停藥。
 
 **換成另外兩種 CDK4/6 抑制劑時要改的事**（細節見 5.5、6.5）
 
@@ -1943,7 +1943,7 @@ HER2 過度表現在這一組各條一律寫作「IHC 3+ 或 FISH+」。事審�
 
 **HER2 這一組讀表時最容易踩的地方**
 
-- **只有 trastuzumab 與 T-DM1 的早期款收淋巴結陰性者**：pertuzumab（9.70）與 Phesgo（9.112）的早期乳癌條文只收**腋下淋巴結轉移**者；淋巴結陰性、HER2 陽性的病人，健保可對應的抗 HER2 藥是 trastuzumab（9.18 第 1.(2) 項，有腫瘤大小、ER 與廠牌限制）以及術後殘存病灶的 T-DM1（限 ER 陰性且腫瘤 >2 公分，9.87 第 1.(1)Ⅱ 項）。臨床上 APHINITY 的淋巴結陰性族群本來就沒有 pertuzumab 的好處（HR 1.13；Loibl, Jassem, et al., 2024），條文與證據方向一致。
+- **只有 trastuzumab 與 T-DM1 的早期款收淋巴結陰性者**：pertuzumab（9.70）與 Phesgo（9.112）的早期乳癌條文只收**腋下淋巴結轉移**者；淋巴結陰性、HER2 陽性的病人，健保可對應的抗 HER2 藥是 trastuzumab（9.18 第 1.(2) 項，有腫瘤大小、ER 與廠牌限制）以及術後殘存病灶的 T-DM1（限 ER 陰性且腫瘤 >2 公分，9.87 第 1.(1)Ⅱ 項）。臨床上 APHINITY 的淋巴結陰性族群本來就沒有 pertuzumab 的好處（主要分析 HR 1.13，von Minckwitz et al., 2017；最新 OS 分析淋巴結陰性 HR 0.99，Loibl, Jassem, et al., 2024），條文與證據方向一致。
 - **二線 T-DM1 與 T-DXd 的「主要臟器轉移」**：兩條都要求「合併有主要臟器（不包含骨及軟組織）轉移」。照字面，只有骨轉移或軟組織轉移的 HER2 陽性病人，不符合 9.87 第 2 項與 9.115 第 1 項；送審前把臟器轉移的影像報告備好。
 - **第一線 T-DXd ＋ pertuzumab（DESTINY-Breast09）、術前 T-DXd → THP（DESTINY-Breast11）**：藥證有，9.115 只收二線與 HER2 弱陽性（見 9.5）。
 - **轉移性 pertuzumab 的 18 個月**：每位病人至多 18 個月，與 Phesgo 合併計算；早期乳癌已用過 pertuzumab 的病人，要看「早期乳癌治療結束至首次復發轉移是否超過 12 個月」。

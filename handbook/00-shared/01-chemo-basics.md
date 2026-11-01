@@ -174,7 +174,7 @@ CrCl = 4,992 ÷ (72 × 0.5) = 4,992 ÷ 36 ≈ 138.7 mL/min → **超過 125，�
 | 懷孕 | 有生育可能的女性做懷孕檢測，並討論避孕 | 多數抗癌藥具致畸性；避孕與生育力評估見第 12.5 節 |
 | 生育力與避孕 | 具生育可能的病人（男女皆然）在第一次性腺毒性化療前，說明對生育力的風險，視意願轉介生殖專科 | 要在治療前談，並記錄在病歷；ASCO 2025 指引（Su et al., 2025），見第 12.5 節 |
 | DPYD（fluoropyrimidine 前） | 開 5-FU、capecitabine 前，除非必須立刻治療，美國仿單建議先檢測 DPYD 基因變異；已知完全 DPD 缺乏者避免使用（H2-Pharma, 2026） | 台灣能否檢測、是否有健保給付需向檢驗部確認；陰性不等於安全（東亞常見變異不同），見第 12.1 節 |
-| UGT1A1（irinotecan 前） | UGT1A1\*28 或 \*6 同型合子、或 \*6/\*28 複合異型合子，irinotecan 起始劑量考慮至少降一個劑量等級（Pharmacia & Upjohn, 2026a） | 台灣人 \*6 頻率約 13%，比白人高很多，見第 12.2 節 |
+| UGT1A1（irinotecan 前） | UGT1A1\*28 或 \*6 同型合子、或 \*6/\*28 複合異型合子，irinotecan 起始劑量考慮至少降一個劑量等級（Pharmacia & Upjohn, 2026a） | 亞洲人 \*6 對偶基因頻率約 13%，比白人（約 0.5%）高很多（Chang et al., 2015 引用），見第 12.2 節 |
 | 老年評估（≥ 65 歲） | 做老年評估（geriatric assessment, GA）或至少先做簡短篩檢（如 G8），再決定治療強度 | ASCO 2023 指引（Dale et al., 2023），見第 12.4 節 |
 | 過敏史與前置用藥 | Taxane、platinum、單株抗體類需確認 premedication | 第 2 次以後的 carboplatin 仍可能過敏（累積劑量相關）；輸注反應與過敏性休克的處置見[腫瘤急症第 10 節](02-oncologic-emergencies.md#10-輸注反應過敏反應與過敏性休克) |
 | 血管通路 | 周邊靜脈或 port-A 狀況；發泡劑盡量走中心靜脈，給藥前先確認回血 | 外滲見第 9 節；導管照護與併發症見第 13 節 |
@@ -435,8 +435,8 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 | PARP 抑制劑：olaparib | 抑制 PARP | 貧血（常見）、骨髓發育不良症候群／AML、肺炎、靜脈血栓、肝毒性（AstraZeneca, 2025） | 定期血球；持續性血球低下要評估 MDS／AML |
 | 抗血管新生：bevacizumab、ramucirumab | 抗 VEGF 或 VEGFR2 | 高血壓、蛋白尿、出血、動脈血栓、胃腸穿孔、傷口癒合不良；bevacizumab 另列 PRES（Genentech, 2025; Eli Lilly, 2026） | 每次給藥前量血壓與尿蛋白；擇期手術前依仿單停藥 |
 | 免疫檢查點抑制劑 | 解除 T 細胞的抑制訊號 | 免疫相關不良事件（irAE），幾乎所有器官都可能 | 見[免疫治療副作用](04-irae.md)全章 |
-| GIST／肉瘤 TKI：imatinib、pazopanib、regorafenib | 抑制 KIT、PDGFR、VEGFR 等多種激酶 | Pazopanib 與 regorafenib 加框：嚴重甚至致死的肝毒性（Sun Pharmaceutical Industries, 2026; Bayer, 2026）；imatinib：體液滯留與水腫、血液毒性、心衰竭、肝毒性（Novartis, 2026a）；regorafenib 另有皮膚毒性與高血壓 | 肝功能：regorafenib 開始前、前 2 個月至少每 2 週、之後每月；肉瘤章撰寫中 |
-| 拓樸異構酶 I 抗體藥物複合體：sacituzumab govitecan | 抗 Trop-2 加 SN-38 | 加框：嗜中性球低下與腹瀉；UGT1A1\*28 同型合子風險較高（Gilead, 2026） | 見第 12.2 節；乳癌章撰寫中 |
+| GIST／肉瘤 TKI：imatinib、pazopanib、regorafenib | 抑制 KIT、PDGFR、VEGFR 等多種激酶 | Pazopanib 與 regorafenib 加框：嚴重甚至致死的肝毒性（Sun Pharmaceutical Industries, 2026; Bayer, 2026）；imatinib：體液滯留與水腫、血液毒性、心衰竭、肝毒性（Novartis, 2026a）；regorafenib 另有皮膚毒性與高血壓 | 肝功能：regorafenib 開始前、前 2 個月至少每 2 週、之後每月；pazopanib 的肝功能與血壓見[肉瘤章](../04-sarcoma.md#67-pazopanib肝毒性與高血壓)第 6.7 節，imatinib、regorafenib 等 GIST 用 TKI 的監測與暫停規則見[第 6.8 節](../04-sarcoma.md#68-gist-的-tkiimatinibsunitinibregorafenibripretinibavapritinib) |
+| 拓樸異構酶 I 抗體藥物複合體：sacituzumab govitecan | 抗 Trop-2 加 SN-38 | 加框：嗜中性球低下與腹瀉；UGT1A1\*28 同型合子風險較高（Gilead, 2026） | 見第 12.2 節；毒性與暫停規則見[乳癌章](../03-breast-cancer.md#67-抗體藥物複合體t-dxdt-dm1sacituzumab-govitecandato-dxd)第 6.7 節 |
 
 ### 11.3 累積劑量上限
 
@@ -466,7 +466,7 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 | Ifosfamide（與高劑量 cyclophosphamide）出血性膀胱炎 | **Mesna** | 靜脈單獨給法：與 ifosfamide 同時給 ifosfamide 劑量的 20%（w/w），並在 4 小時與 8 小時後各再給 20%，一天共 60%；ifosfamide 給藥的每一天都重複；改變 ifosfamide 劑量時維持比例。同時每天水化至少 2 L（Eugia, 2026b; Fresenius Kabi, 2026b） | 標準劑量 ifosfamide 有證據；ASCO 1999 認為 ifosfamide > 2.5 g/m²/day 的證據不足（Hensley et al., 1999），2008 年更新未再找到新的 mesna 隨機試驗（Hensley et al., 2009）。連續輸注或高劑量的 mesna 沒有仿單時程，依處方 | 健保 11.2.3 mesna（如 Uromitexan）：限癌症或骨髓移植病例使用大量 Endoxan、ifosphamide 類藥物時使用；原文未標修訂日期。TFDA 藥證本手冊未核對 |
 | 高劑量 methotrexate（≥ 500 mg/m²） | **Leucovorin**（calcium folinate） | 從 MTX 開始後 24 小時起：15 mg（約 10 mg/m²）每 6 小時一次共 10 次，直到 MTX 低於 0.05 µM；延遲清除時依仿單 Table 2 加量（Sagent, 2026） | 不可晚於 42–48 小時才開始；過度解救可能與治療失敗有關，依使用的 protocol，不要混用不同算法（Ramsey et al., 2018） | TFDA 有 calcium folinate（適應症含葉酸拮抗劑如 methotrexate 過量之解毒劑）；levoleucovorin 無藥證。健保第 9 節與全檔無 leucovorin 專條，只出現在 FOLFIRINOX 等併用條文（原文未見專條） |
 | HD-MTX 延遲清除且腎功能受損（MTX > 1 µmol/L） | **Glucarpidase** | 50 units/kg 靜脈 5 分鐘，單次；leucovorin 與其間隔 ≥ 2 小時；之後 48 小時內 MTX 用 HPLC 測定（DAMPA 會讓免疫分析高估）；最好在 MTX 開始後 48–60 小時內給（Ramsey et al., 2018; BTG International, 2024） | 預期清除正常者不要用，以免 MTX 暴露不足；沒有 glucarpidase 時用高劑量 leucovorin，透析效果不一 | TFDA 查無藥證；專案進口可行性未核對。健保原文未見 |
-| Anthracycline 心臟保護 | **Dexrazoxane** | 與 doxorubicin 比例 10:1（例如 500 mg/m² 對 50 mg/m²），doxorubicin 在其輸注結束後再給；CrCl < 40 mL/min 劑量減半；仿單適應症為轉移性乳癌、doxorubicin 已累積 300 mg/m² 且要繼續使用者，不可在 doxorubicin 開始時就用（Eugia, 2026a） | ASCO 2008：不建議常規用於輔助或初始 doxorubicin 治療，可考慮用於累積 > 300 mg/m² 且續用 doxorubicin 有益者（Hensley et al., 2009）；兒童研究未見療效損失（Asselin et al., 2016） | TFDA 查無藥證；健保原文未見 |
+| Anthracycline 心臟保護 | **Dexrazoxane** | 與 doxorubicin 比例 10:1（例如 500 mg/m² 對 50 mg/m²），一定先給 dexrazoxane（不可先給 doxorubicin），dexrazoxane 輸注結束後 30 分鐘內再給 doxorubicin；CrCl < 40 mL/min 劑量減半；仿單適應症為轉移性乳癌、doxorubicin 已累積 300 mg/m² 且要繼續使用者，不可在 doxorubicin 開始時就用（Eugia, 2026a） | ASCO 2008：不建議常規用於輔助或初始 doxorubicin 治療，可考慮用於累積 > 300 mg/m² 且續用 doxorubicin 有益者（Hensley et al., 2009）；兒童研究未見療效損失（Asselin et al., 2016） | TFDA 查無藥證；健保原文未見 |
 | Anthracycline 外滲 | **Dexrazoxane**（不同療程） | 6 小時內開始，共 3 天：1,000／1,000／500 mg/m²；每日上限與腎功能減量見第 9.2 節（Mouridsen et al., 2007） | 54 位病人中 98.2% 免於手術；為單臂前瞻研究 | 同上；外滲處置包內有沒有要自行確認 |
 | Cisplatin 累積腎毒性 | **Amifostine** | 910 mg/m² 靜脈輸注 15 分鐘，在化療前 30 分鐘開始，每天一次；先給 dexamethasone 20 mg 與 5-HT3 拮抗劑（Legacy, 2026） | 仿單適應症為晚期卵巢癌的 cisplatin 累積腎毒性；仿單載明：化療可能帶來存活或治癒利益的情境應避免使用（Legacy, 2026）；ASCO 2008 認為可考慮用於預防 cisplatin 腎毒性，但不建議用來預防鉑類的神經毒性或耳毒性（Hensley et al., 2009） | 健保原文未見；TFDA 藥證本手冊未核對 |
 | 兒童 cisplatin 耳毒性 | **Sodium thiosulfate**（PEDMARK） | 依體重 10／15／20 g/m²（< 5 kg／5–10 kg／> 10 kg），在 cisplatin 輸注結束後 6 小時開始，下一次 cisplatin 前至少 10 小時；cisplatin 輸注超過 6 小時者未建立（Fennec, 2025） | 限 ≥ 1 個月、局限性非轉移性實體瘤；ACCL0431 轉移性次群 3 年存活 45% 對 84%，所以 2020 指引對轉移性疾病建議不常規使用（Freyer et al., 2017; Freyer et al., 2020）；SIOPEL 6 聽力損失 33% 對 63%（Brock et al., 2018） | TFDA 查無藥證；健保原文未見；成人與 AYA 為仿單外使用 |
@@ -528,12 +528,12 @@ Mesna：與 ifosfamide 同時 IV bolus，劑量為當日 ifosfamide 劑量的 20
        4 小時後、8 小時後各再給 20%（一天共 60%）
 水化：每天口服或靜脈至少 2 L（依處方調整）
 每天：腦病變徵象（意識、定向、行為）、尿液顏色、肌酸酐
-給藥前：CBC、肌酸酐、電解質（磷、鉀）、肝功能
+給藥前：CBC、肌酸酐、電解質（磷、鉀）、肝功能；排除泌尿道阻塞；每次給藥前驗尿（顯微鏡下血尿 > 10 RBC/HPF 先暫停，完全緩解才給）
 ```
 
 > [!NOTE]
 > **各院做法不同**
-> 連續輸注或高劑量 ifosfamide（例如 14 天輸注泵浦）沒有仿單規定的 mesna 時程；ifosfamide 與 mesna 可混在同一袋的條件、mesna 是否改用口服，都依各院肉瘤方案與藥劑部規範。完整病房流程見骨肉瘤與軟組織肉瘤章（撰寫中）。
+> 連續輸注或高劑量 ifosfamide（例如 14 天輸注泵浦）沒有仿單規定的 mesna 時程；ifosfamide 與 mesna 可混在同一袋的條件、mesna 是否改用口服，都依各院肉瘤方案與藥劑部規範。完整病房流程見[肉瘤章](../04-sarcoma.md#52-ewing-sarcomavdcie以及高劑量-ifosfamide)第 5.2 節（高劑量 ifosfamide 版本與 mesna 待核對框）、[第 6.1 節](../04-sarcoma.md#61-高劑量-methotrexatehd-mtx完整病房流程)（HD-MTX 病房流程）與[第 6.2 節](../04-sarcoma.md#62-ifosfamide腦病變出血性膀胱炎與腎小管損傷)（mesna 時程與腦病變處置）。
 
 ---
 
@@ -544,7 +544,7 @@ Mesna：與 ifosfamide 同時 IV bolus，劑量為當日 ifosfamide 劑量的 20
 | 對象 | 檢測或評估 | 結論 | 小節 |
 |------|----------|------|------|
 | 5-FU、capecitabine | DPYD 基因變異 | 美國仿單加框警語：開始前檢測，完全 DPD 缺乏者避免使用；部分缺乏者個別化減量；陰性不保證安全 | 12.1 |
-| Irinotecan、sacituzumab govitecan | UGT1A1\*28、\*6 | 同型合子或 \*6/\*28 複合異型合子，irinotecan 起始劑量考慮至少降一級；台灣人 \*6 很常見 | 12.2 |
+| Irinotecan、sacituzumab govitecan | UGT1A1\*28、\*6 | 同型合子或 \*6/\*28 複合異型合子，irinotecan 起始劑量考慮至少降一級；亞洲人 \*6 很常見 | 12.2 |
 | Rasburicase、allopurinol、carbamazepine 等 | G6PD、HLA-B 基因 | 各自有固定的檢測時機；NUDT15／TPMT 與本手冊癌別無關 | 12.3 |
 | ≥ 65 歲、接受全身性治療 | 老年評估（GA）、G8、CARG | 做 GA 並依結果調整治療；G8 ≤ 14 分需完整評估 | 12.4 |
 | 有生育可能者 | 生育力與避孕諮詢 | 治療前談、轉介生殖專科、記錄 | 12.5 |
@@ -581,7 +581,7 @@ Mesna：與 ifosfamide 同時 IV bolus，劑量為當日 ifosfamide 劑量的 20
 
 > [!WARNING]
 > **東亞病人：陰性的「標準 DPYD 檢驗」不等於安全**
-> 常見的西方檢驗套組只涵蓋上述四個變異，這些變異在東亞人很少見。日本 301 位病人的研究發現，嚴重毒性與罕見的族群特異性功能喪失變異有關（等位基因頻率 < 0.01%）（Yokoi et al., 2020）。台灣沒有找到可靠的 DPYD 族群頻率研究，東亞資料是外推的。因此：（1）檢測結果要看「檢測了哪些變異」；（2）DPD 缺乏相關毒性多出現在第一個週期或加量後，所以第一個週期內要主動聯絡病人，追蹤口腔潰瘍、腹瀉、發燒與意識變化；（3）出現早發嚴重毒性要停藥並評估解毒劑（第 11.4 節 uridine triacetate，96 小時內）。
+> 常見的西方檢驗套組只涵蓋上述四個變異，這些變異在東亞人很少見。日本 301 位病人的研究發現，嚴重毒性與罕見的族群特異性功能喪失變異有關（等位基因頻率 < 0.01%）（Yokoi et al., 2020）。台灣只找到一項 2004 年的小型研究（Hsiao et al., 2004；300 位受試者、只檢測 11 個變異，沒有檢測 c.1679T>G、c.2846A>T、c.1236G>A，\*2A 未檢出，且檢出的變異與 DPD 蛋白量無關），缺乏涵蓋完整 DPYD 的族群頻率研究，東亞資料是外推的。因此：（1）檢測結果要看「檢測了哪些變異」；（2）DPD 缺乏相關毒性多出現在第一個週期或加量後，所以第一個週期內要主動聯絡病人，追蹤口腔潰瘍、腹瀉、發燒與意識變化；（3）出現早發嚴重毒性要停藥並評估解毒劑（第 11.4 節 uridine triacetate，96 小時內）。
 
 > [!CAUTION]
 > **待核對：台灣的 DPYD 檢測供給與健保給付**
@@ -593,9 +593,9 @@ Mesna：與 ifosfamide 同時 IV bolus，劑量為當日 ifosfamide 劑量的 20
 
 - **Camptosar 仿單**：UGT1A1\*28／\*28、\*6／\*6 或 \*6／\*28 的病人嚴重嗜中性球低下的風險較高，**起始劑量考慮至少降一個劑量等級**（單藥或合併療法皆同），之後依耐受度調整；異型合子（\*1／\*28、\*1／\*6）為中間代謝型，風險也可能上升（Pharmacia & Upjohn, 2026a）。
 - **頻率差異**（仿單）：同型合子 \*28 在黑人約 20%、白人約 10%、東亞約 2%；同型合子 \*6 在東亞約 2–6%，在白人和黑人少見（Pharmacia & Upjohn, 2026a）。
-- **台灣資料**：台灣 PEP02（nanoliposomal irinotecan）第一期試驗引用的頻率為 UGT1A1\*28 13.9%（白人 33.4%）、\*6 13.0%（白人 0.5%）；該試驗唯一一例治療相關死亡是 \*6／\*28 複合異型合子（Chang et al., 2015）。台灣轉移性大腸直腸癌 128 位病人中約 20% 帶有 \*28，帶因者 irinotecan 合併 5-FU／leucovorin 的 Grade 3–4 嗜中性球低下 53.8% 對 4.9%、腹瀉 26.9% 對 5.9%（Liu et al., 2008）。亞洲病人的統合分析顯示 \*6 加 \*28 合併檢測可預測嗜中性球低下與腹瀉（Atasilp et al., 2022）。
+- **亞洲資料（由台灣團隊的 PEP02 試驗引用，非台灣本土族群頻率調查）**：台灣 PEP02（nanoliposomal irinotecan）第一期試驗在討論段引用的亞洲族群頻率為 UGT1A1\*28 13.9%（白人 33.4%）、\*6 13.0%（白人 0.5%）；該試驗唯一一例治療相關死亡是 \*6／\*28 複合異型合子（Chang et al., 2015）。台灣轉移性大腸直腸癌 128 位病人中約 20% 帶有 \*28，帶因者 irinotecan 合併 5-FU／leucovorin 的 Grade 3–4 嗜中性球低下 53.8% 對 4.9%、腹瀉 26.9% 對 5.9%（Liu et al., 2008）。亞洲病人的統合分析顯示 \*6 加 \*28 合併檢測可預測嗜中性球低下與腹瀉（Atasilp et al., 2022）。
 - **台灣的劑量研究**：PURE FIST 試驗用 UGT1A1 基因型指引 irinotecan 加量：\*1／\*1 與 \*1／\*28 起始 180 mg/m² 並可加量，\*28／\*28 起始 120 mg/m²（Tsai et al., 2020）。這是研究設計，不是仿單劑量。
-- **Onivyde（nal-IRI）**：UGT1A1 的劑量規則因方案而異（二線與第一線 NALIRIFOX 不同），且仿單依據的對偶基因與東亞常見的 \*6 不完全一致，見胰臟癌章（撰寫中）。
+- **Onivyde（nal-IRI）**：UGT1A1 的劑量規則因方案而異（二線與第一線 NALIRIFOX 不同），且仿單依據的對偶基因與東亞常見的 \*6 不完全一致，見[胰臟癌章](../02-pancreatic-cancer.md#52-脂質體-irinotecannalirifox-與二線-nal-iri--5-fuleucovorin)第 5.2 節、[第 6.2 節](../02-pancreatic-cancer.md#62-irinotecan-與脂質體-irinotecan)。
 - **Sacituzumab govitecan**（Trodelvy）：\*28／\*28 同型合子的嚴重嗜中性球低下（Grade 3–4）57%、\*1／\*28 為 48%、\*1／\*1 為 41%；仿單未訂基因型起始劑量，需密切監測（Gilead, 2026）。
 
 > [!CAUTION]
@@ -609,7 +609,7 @@ Mesna：與 ifosfamide 同時 IV bolus，劑量為當日 ifosfamide 劑量的 20
 | NUDT15、TPMT | thiopurine（6-MP、azathioprine） | 決定 thiopurine 骨髓毒性的基因（Relling et al., 2019）；本手冊四個癌別不使用 thiopurine，不展開。Cisplatin 仿單提到 TPMT 變異可能與耳毒性有關，但證據不一致（WG Critical Care, 2026），不需常規檢測 | 僅供辨識 |
 | G6PD | rasburicase | 加框：G6PD 缺乏者不可使用（溶血），並建議對高風險族群先篩檢（Sanofi-Aventis, 2026） | [腫瘤急症](02-oncologic-emergencies.md#2-腫瘤溶解症候群tls)第 2 節（TLS）；第 11.4 節 |
 | HLA-B\*5801 | allopurinol | 漢人帶有者使用 allopurinol 發生嚴重皮膚過敏的風險顯著升高（Hung et al., 2005） | [腫瘤急症](02-oncologic-emergencies.md#2-腫瘤溶解症候群tls)第 2 節（TLS） |
-| HLA-B\*1502 | carbamazepine | 健保 1.3.2.6（100/8/1）：處方 carbamazepine 前先檢查 IC 健保卡是否註記曾檢測帶有 HLA-B 1502，結果陽性者不得開立；未確認或未檢測者宜先檢測 | 癌痛輔助藥或癲癇用藥時 |
+| HLA-B\*1502 | carbamazepine | 健保 1.3.2.6（100/8/1）：新病患處方 carbamazepine 前先檢查 IC 健保卡是否註記曾檢測帶有 HLA-B 1502，結果陽性者不得開立；未確認或未檢測者宜先檢測。已服藥 4 個月以上、且確認未曾出現喉嚨痛、口腔潰瘍或皮疹等類似 Stevens-Johnson 症候群症狀的舊病患，可依病情繼續處方，但仍要提醒病人注意這些症狀 | 癌痛輔助藥或癲癇用藥時 |
 
 > [!NOTE]
 > **以 115/10/22 版為準**
@@ -622,7 +622,7 @@ Mesna：與 ifosfamide 同時 IV bolus，劑量為當日 ifosfamide 劑量的 20
 - **所有 ≥ 65 歲、接受全身性治療的癌症病人，都應做老年評估（geriatric assessment, GA）**，找出一般腫瘤評估抓不到的脆弱點。評估到有缺陷者，照護計畫要納入「依 GA 結果處置」（GA-guided management）：用 GA 結果輔助治療決策，並針對缺陷做介入、衛教或轉介。
 - GA 至少涵蓋：**身體與認知功能、情緒、共病、多重用藥、營養、社會支持**。可依人力與時間調整；指引提出「實用老年評估（Practical Geriatric Assessment, PGA）」作為選項之一。
 - 簡短篩檢：**G8**（8 題：食物攝取、體重下降、活動力、神經心理問題、BMI、用藥數、自覺健康、年齡），**分數 0–14 為異常切點**，需做完整 GA（Bellera et al., 2012; Dale et al., 2023）；Vulnerable Elders Survey-13（VES-13）是另一個選項。
-- 化療毒性風險：**CARG 毒性量表**（0–5 低、6–9 中、10–23 高風險）（Hurria et al., 2011）；中、高風險者考慮完整 GA、**單藥而非雙藥**、調整劑量或時程（例如減量 20% 再依耐受度加量）；CRASH 是替代量表。
+- 化療毒性風險：**CARG 毒性量表**（0–5 低、6–9 中、≥ 10 高風險）（Hurria et al., 2011）；中、高風險者考慮完整 GA、**單藥而非雙藥**、調整劑量或時程（例如減量 20% 再依耐受度加量）；CRASH 是替代量表。
 - 年齡切點：指引建議對象為 65 歲以上，但多數納入隨機試驗的收案年齡是 70 歲以上。
 
 > [!IMPORTANT]
@@ -828,7 +828,7 @@ Premedication：___（時間點）；支持性用藥（止吐、G-CSF 等）：_
 - **之後每次看診**：評估順從度與毒性，並有處理問題的計畫。
 - **停藥**：有停藥流程，包括教病人怎麼處理剩下的藥。
 
-**漏服與嘔吐：每個藥不一樣，不要只教一條通則**。通則是「不要補吃、不要加倍」，但各藥仿單有不同的細節，例子如下，實際以該藥仿單與肺癌、乳癌等各癌別章的藥物表為準（肺癌口服標靶藥見[肺癌章](../01-lung-cancer.md)第 5.4 節）：
+**漏服與嘔吐：每個藥不一樣，不要只教一條通則**。通則是「不要補吃、不要加倍」，但各藥仿單有不同的細節，例子如下，實際以該藥仿單與肺癌、乳癌等各癌別章的藥物表為準（肺癌口服標靶藥的漏服、嘔吐與管灌見[肺癌章](../01-lung-cancer.md)第 5.5 節，劑量與空腹／隨餐規定見第 5.4 節）：
 
 | 藥物 | 漏服 | 吃完藥後嘔吐 | 來源 |
 |------|------|-------------|------|
@@ -864,7 +864,7 @@ Premedication：___（時間點）；支持性用藥（止吐、G-CSF 等）：_
 **藥物與食物交互作用**
 
 - **抑酸劑（PPI、H2 阻斷劑）**：吸收依賴胃酸的口服標靶藥（如 gefitinib、erlotinib 等）暴露量會降低，要避免或錯開時間（Budha et al., 2012；各藥時間見肺癌章 5.4）。Gefitinib 仿單建議可能的話避免與 PPI 併用（AstraZeneca, 2023）。
-- **CYP3A4**：osimertinib 要避免強效 CYP3A4 誘導劑，無法避免時加到 160 mg 每日，停誘導劑後 3 週再回到 80 mg（AstraZeneca, 2026）；gefitinib 併用強效誘導劑（如 rifampicin）時加到 500 mg 每日（AstraZeneca, 2023）；**lorlatinib 禁止與強效 CYP3A 誘導劑併用**，因為可能造成嚴重肝毒性（Pfizer, 2026c）。Carbamazepine、phenytoin、rifampin、St John's wort 都是常被漏掉的誘導劑。
+- **CYP3A4**：osimertinib 要避免強效 CYP3A4 誘導劑，無法避免時加到 160 mg 每日，停誘導劑後 3 週再回到 80 mg（AstraZeneca, 2026）；gefitinib 併用強效誘導劑（如 rifampicin）時，在沒有嚴重藥物不良反應的前提下加到 500 mg 每日，停用誘導劑 7 天後回到 250 mg（AstraZeneca, 2023）；**lorlatinib 禁止與強效 CYP3A 誘導劑併用**，因為可能造成嚴重肝毒性（Pfizer, 2026c）。Carbamazepine、phenytoin、rifampin、St John's wort 都是常被漏掉的誘導劑。
 - **Capecitabine**：與 warfarin 併用出血風險（加框，要更常監測 INR）；避免併用 allopurinol；含 folic acid 或葉酸類似物的產品除非醫師指示否則不要吃（H2-Pharma, 2026）。PPI 與 capecitabine 的關聯來自觀察性研究：回溯研究與 2025 年統合分析（676 位大腸癌病人）顯示併用 PPI 與較差的無復發存活有關（Sun et al., 2016; de Moraes et al., 2025），但美國仿單未把 PPI 列為交互作用，這是觀察性證據，無法據此要求所有病人停 PPI；可行時避免不必要的 PPI。
 - **食物**：capecitabine 餐後 30 分鐘內服用；regorafenib 在低脂餐（< 600 kcal、脂肪 < 30%）後服用（H2-Pharma, 2026; Bayer, 2026）；其他標靶藥的空腹或隨餐規定見肺癌章 5.4 的表格。
 
@@ -1070,12 +1070,12 @@ A. 所有病人都必須先檢測 DPYD，否則不得開立　B. 開始治療前
 
 **Q17.** 關於 UGT1A1 與 irinotecan，下列何者正確？
 
-A. UGT1A1\*28 同型合子在東亞人比白人常見　B. UGT1A1 只影響 irinotecan 的療效，與毒性無關　C. 台灣人 UGT1A1\*6 比白人常見得多（對偶基因頻率約 13% 對 0.5%），只檢測 \*28 會漏掉東亞常見的風險　D. 美國仿單只對 \*1/\*1 基因型建議減量
+A. UGT1A1\*28 同型合子在東亞人比白人常見　B. UGT1A1 只影響 irinotecan 的療效，與毒性無關　C. 亞洲人 UGT1A1\*6 比白人常見得多（對偶基因頻率約 13% 對 0.5%），只檢測 \*28 會漏掉東亞常見的風險　D. 美國仿單只對 \*1/\*1 基因型建議減量
 
 <details>
 <summary>答案與詳解</summary>
 
-**答案：C**。台灣 PEP02 試驗引用的資料：UGT1A1\*28 的頻率在亞洲較低（13.9% 對白人 33.4%），\*6 則高很多（13.0% 對 0.5%）（Chang et al., 2015）。Camptosar 仿單對 \*28／\*28、\*6／\*6 或 \*6／\*28 的病人建議起始劑量至少降一個劑量等級，因為 SN-38 暴露量增加，嚴重嗜中性球低下風險上升（Pharmacia & Upjohn, 2026a）。
+**答案：C**。台灣團隊 PEP02 試驗引用的亞洲資料：UGT1A1\*28 的頻率在亞洲較低（13.9% 對白人 33.4%），\*6 則高很多（13.0% 對 0.5%）（Chang et al., 2015）。Camptosar 仿單對 \*28／\*28、\*6／\*6 或 \*6／\*28 的病人建議起始劑量至少降一個劑量等級，因為 SN-38 暴露量增加，嚴重嗜中性球低下風險上升（Pharmacia & Upjohn, 2026a）。
 
 </details>
 
@@ -1294,6 +1294,8 @@ Hospira. (2025). *Mitoxantrone injection* [Package insert]. DailyMed. https://da
 Hospira. (2026). *Vincristine sulfate injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c（版本日期 2026-02-17）
 
 Howard, S. C., McCormick, J., Pui, C.-H., Buddington, R. K., & Harvey, R. D. (2016). Preventing and managing toxicities of high-dose methotrexate. *The Oncologist, 21*(12), 1471–1482. https://doi.org/10.1634/theoncologist.2015-0164（PMID: 27496039）
+
+Hsiao, H. H., Yang, M. Y., Chang, J. G., Liu, Y. C., Liu, T. C., Chang, C. S., Chen, T. P., & Lin, S. F. (2004). Dihydropyrimidine dehydrogenase pharmacogenetics in the Taiwanese population. *Cancer Chemotherapy and Pharmacology, 53*(5), 445–451. https://doi.org/10.1007/s00280-003-0749-y（PMID: 15132136）
 
 Hung, S. I., Chung, W. H., Liou, L. B., Chu, C. C., Lin, M., Huang, H. P., Lin, Y. L., Lan, J. L., Yang, L. C., Hong, H. S., Chen, M. J., Lai, P. C., Wu, M. S., Chu, C. Y., Wang, K. H., Chen, C. H., Fann, C. S. J., Wu, J. Y., & Chen, Y. T. (2005). HLA-B\*5801 allele as a genetic marker for severe cutaneous adverse reactions caused by allopurinol. *Proceedings of the National Academy of Sciences of the United States of America, 102*(11), 4134–4139. https://doi.org/10.1073/pnas.0409500102（PMID: 15743917）
 

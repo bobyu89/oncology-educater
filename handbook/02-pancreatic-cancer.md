@@ -795,7 +795,7 @@ NCCN 病人版的二線原則：之前的方案若結束已超過 6 個月，可
 
 > [!WARNING]
 > **Onivyde 不能和一般 irinotecan 互換**
-> 脂質體製劑的劑量單位、輸注時間（90 分鐘）、前置藥物（輸注前 30 分鐘給 corticosteroid ＋ 止吐藥）都與 irinotecan 不同；仿單明寫「不可用 Onivyde 取代含 irinotecan 的其他藥品」（Ipsen, 2025）。開立與調劑時看清楚是哪一個品項。
+> 脂質體製劑的劑量單位（以 irinotecan 游離鹼計）、前置藥物（輸注前 30 分鐘給 corticosteroid ＋ 止吐藥）、給藥順序（先於 oxaliplatin、5-FU、leucovorin）都與 irinotecan 不同；兩者的輸注時間都是 90 分鐘，不能靠輸注時間分辨；仿單明寫「不可用 Onivyde 取代含 irinotecan 的其他藥品」（Ipsen, 2025）。開立與調劑時看清楚是哪一個品項。
 
 Onivyde 的台灣持證廠商是台灣公司智擎生技製藥；NAPOLI-1 的作者也包括台北榮民總醫院、成大醫院與中國醫藥大學附設醫院的醫師（Wang-Gillam et al., 2016）。
 
@@ -1024,7 +1024,7 @@ NCCN 病人版另列的其他方案（CAPEOX、FOLFIRI、FOLFOX、OFF、nab-pacl
 |------|--------------|----------------------|-----------|
 | FOLFIRINOX／mFOLFIRINOX | 5-HT3 拮抗劑 ＋ dexamethasone（oxaliplatin、irinotecan 單藥各屬中致吐，見[支持性照護](00-shared/03-supportive-care.md#11-致吐風險分級)第 1.1–1.2 節）；irinotecan 的早發性膽鹼性症狀可預防性或治療性給 atropine 0.25–1 mg IV 或 SC | 新週期要 ANC ≥1,500/mm³、血小板 ≥100,000/mm³，**且腹瀉已完全恢復、不靠止瀉藥已 ≥24 小時**；延後 1–2 週，2 週仍未恢復就考慮停用（Pharmacia & Upjohn, 2026；這是仿單為大腸直腸癌合併療法訂的重啟條件，FOLFIRINOX 沒有專屬表，見 6.2） | 給藥前確認 loperamide 已交給病人；詢問是否有鴉片類止痛藥與軟便劑（腹瀉時要停，見 6.2） |
 | NALIRIFOX／二線 nal-IRI | Onivyde 前 30 分鐘 corticosteroid ＋ 止吐藥；早發性腹瀉不分嚴重度都給 atropine，遲發性腹瀉不分嚴重度都給 loperamide（Ipsen, 2025） | ANC <1,500/mm³ 或發燒性嗜中性球低下就暫停；**每個週期的 D1 與 D8 都驗 CBC**；NALIRIFOX 發生 3–4 級反應後，要恢復到 ≤G1 且 ANC ≥2,000/mm³、血小板 ≥100,000/mm³ 才能再給；二線 nal-IRI 的仿單表只要求恢復到 ≤G1 後減量再給，沒有 ANC ≥2,000/mm³ 的門檻，嗜中性球低下後 ANC 回到 ≥1,500/mm³ 即可恢復用藥（Ipsen, 2025） | 腸阻塞不可給；仿單建議停用含乳糖產品、低脂飲食、維持水分（Ipsen, 2025） |
-| GnP | 沒有常規的過敏前置（與 paclitaxel 不同）；曾有過敏才考慮前置，重度過敏不可再挑戰（Abraxis, 2022）。nab-paclitaxel 與 gemcitabine 屬低致吐，單一止吐藥即可（共用章 1.1） | D1：ANC <1,500/mm³ 或血小板 <100,000/mm³ 就延後；D8、D15 的規則見 6.5 | 膽道阻塞或有膽道支架者，發燒不論 ANC 先給廣效抗生素（6.5） |
+| GnP | 沒有常規的過敏前置（與 paclitaxel 不同）；曾有過敏才考慮前置，重度過敏不可再挑戰（Abraxis, 2022）。nab-paclitaxel 與 gemcitabine 屬低致吐，單一止吐藥即可（共用章 1.1） | D1：ANC <1,500/mm³ 或血小板 <100,000/mm³ 就延後；D8、D15 的規則見 6.5 | GnP 病人發燒，不論 ANC 先給廣效抗生素；膽道阻塞或支架是嚴重敗血症的危險因子（Abraxis, 2022；6.5） |
 | GemCap、gemcitabine | gemcitabine 低致吐；capecitabine 口服 | gemcitabine 單藥：ANC ≥1,000 且血小板 ≥100,000 全劑量，ANC 500–999 或血小板 50,000–99,999 給 75%，更低就暫停（Meitheal, 2025） | capecitabine 的衛教見[化療基礎](00-shared/01-chemo-basics.md#145-口服抗癌藥)第 14.5 節 |
 | olaparib | 噁心常見（POLO 任何等級 45% 對 23%），備止吐藥（Golan et al., 2019） | 開始前，前一線化療的血液毒性要恢復到 ≤1 級；CBC 基線，之後每月（AstraZeneca, 2025） | 見 6.6 |
 
@@ -1337,7 +1337,7 @@ Camptosar 的劑量等級（大腸直腸癌合併療法）是 180 → 150 → 12
 > - **UGT1A1**：\*28／\*28、\*6／\*6、\*6／\*28 → 起始劑量考慮至少降 1 級；亞洲對偶基因頻率約 \*6 13.0%、\*28 13.9%（Chang et al., 2015）。
 > - **oxaliplatin**：急性神經症狀冷誘發、避冷、不冰敷；過敏任何週期都可能，立即且永久停藥；CrCl <30 → 65 mg/m²。
 > - **5-FU／capecitabine**：先想 DPYD；capecitabine 手足症候群 G2 階梯 100%／75%／50%／停；46 小時輸注期間的胸痛、意識改變、步態不穩要停藥。
-> - **nab-paclitaxel**：神經病變 G3–4 暫停到 ≤G1，nab-paclitaxel 降 1 級、gemcitabine **不減量**；有膽道支架或阻塞者發燒，不論 ANC 都開廣效抗生素。
+> - **nab-paclitaxel**：神經病變 G3–4 暫停到 ≤G1，nab-paclitaxel 降 1 級、gemcitabine **不減量**；發燒不論 ANC 都開廣效抗生素（有膽道支架或阻塞者敗血症風險更高）。
 > - **olaparib**：300 mg 每日兩次；每月 CBC；POLO 的 3 級以上貧血 11%（對照 3%），因不良反應停藥 5%。
 
 ---
@@ -1434,7 +1434,7 @@ Atropine 0.25–1 mg IV 或 SC，irinotecan 開始前（預防早發性膽鹼症
 > [!WARNING]
 > **5-FU bolus 與 irinotecan 劑量：開立前核對三件事**
 > 1. 這張醫囑是**輔助**（無 bolus，irinotecan 150）還是**轉移性**（bolus 400 mg/m²，irinotecan 180）？兩者在醫囑上只差兩行，複製舊處方時很容易混淆（[5.1](#51-folfirinox-家族輔助-mfolfirinox-與轉移性-folfirinox)）。
-> 2. irinotecan 是一般劑型（如 Campto），**不是 Onivyde**；Onivyde 的劑量單位與輸注時間都不同，不可互換（[5.2](#52-脂質體-irinotecannalirifox-與二線-nal-iri--5-fuleucovorin)）。
+> 2. irinotecan 是一般劑型（如 Campto），**不是 Onivyde**；Onivyde 的劑量以 irinotecan 游離鹼計、每次輸注前 30 分鐘要給 corticosteroid ＋ 止吐藥、給藥順序也不同（先於 oxaliplatin、5-FU、leucovorin），兩者輸注都是 90 分鐘，仿單明寫不可互換（[5.2](#52-脂質體-irinotecannalirifox-與二線-nal-iri--5-fuleucovorin)）。
 > 3. oxaliplatin 的稀釋液是 5% dextrose，管路沖洗液也是 5% dextrose（[5.1](#51-folfirinox-家族輔助-mfolfirinox-與轉移性-folfirinox)）。
 
 > [!NOTE]
@@ -1508,7 +1508,7 @@ gemcitabine   1,000 mg/m² × 1.49 = 1,490 mg
 | ANC 1,300/mm³、PLT 62,000/mm³ | PLT 落在 50,000 至 <75,000：兩藥降 1 級 | 同上 |
 | ANC 400/mm³ | ANC <500：暫停 | 不給 |
 | 手腳麻木影響扣釦子與寫字（3 級） | 暫停到 ≤1 級，**只有 nab-paclitaxel 降 1 級，gemcitabine 不減量** | nab-paclitaxel 149 mg、gemcitabine 1,490 mg |
-| 發燒（不論 ANC），膽道有支架 | 先給廣效抗生素；若是發燒性嗜中性球低下，兩藥都暫停 | 見 [8.1](#81-急性膽管炎acute-cholangitis) |
+| 發燒（不論 ANC），膽道有支架 | 先給廣效抗生素；敗血症（不論有無嗜中性球低下）或發燒性嗜中性球低下，兩藥都暫停，待感染控制、退燒且 ANC ≥1,500/mm³ 後再降 1 級恢復（膽管炎另需引流，見 8.1） | 見 [8.1](#81-急性膽管炎acute-cholangitis) |
 
 > [!IMPORTANT]
 > **GnP 的考試重點**
@@ -1576,7 +1576,7 @@ P：1. 與主治醫師討論 oxaliplatin：持續性 G2 考慮減量（FOLFIRINO
 | 可能原因 | 線索 | 第一步 |
 |---------|------|--------|
 | 膽管炎 | 發燒加黃疸、右上腹痛；膽紅素或 ALP 上升；有支架或膽道阻塞史 | 血液培養、抗生素、通知消化內科評估引流（Kiriyama et al., 2018） |
-| 發燒性嗜中性球低下 | 化療後 7–14 天的 nadir；ANC <500/µL 或預期 48 小時內降到 <500/µL | FN 流程；有膽道阻塞或支架者，發燒不論 ANC 都要開廣效抗生素（Abraxis, 2022） |
+| 發燒性嗜中性球低下 | 化療後 7–14 天的 nadir；ANC <500/µL 或預期 48 小時內降到 <500/µL | FN 流程；接受 nab-paclitaxel ＋ gemcitabine 者，發燒不論 ANC 都要開廣效抗生素，膽道阻塞或支架是嚴重敗血症的危險因子（Abraxis, 2022）；有膽道阻塞或支架者，無論何種方案，發燒都先當成膽管炎處理（見上一列） |
 | 導管相關血流感染 | port 部位紅腫、沖管後冷顫 | 從 port 與周邊各抽血液培養（[化療基礎](00-shared/01-chemo-basics.md#135-導管相關血流感染crbsi)第 13.5 節） |
 
 三者可以同時存在，所以抽血液培養、給抗生素與通知醫師是同一個動作，不是三選一。
@@ -1952,7 +1952,7 @@ Tufano 等人（2018）寫道，當時的指引建議有症狀的 SVT 要抗凝�
 
 | 急症 | 胰臟癌病人的提醒 | 見 |
 |------|----------------|-----|
-| 發燒性嗜中性球低下 | 有膽道阻塞或支架時，發燒不論 ANC 都開廣效抗生素（Abraxis, 2022）；Onivyde 的致命嗜中性球敗血症與發燒性嗜中性球低下都有報告（Ipsen, 2025） | [腫瘤急症](00-shared/02-oncologic-emergencies.md#1-發燒性嗜中性球低下)第 1 節；[6.2](#62-irinotecan-與脂質體-irinotecan)、[6.5](#65-nab-paclitaxel-與-gemcitabinegnp) |
+| 發燒性嗜中性球低下 | GnP 病人發燒，不論 ANC 都開廣效抗生素；有膽道阻塞或支架者是嚴重或致命敗血症的危險因子，更要想到膽管炎（Abraxis, 2022）；Onivyde 的致命嗜中性球敗血症與發燒性嗜中性球低下都有報告（Ipsen, 2025） | [腫瘤急症](00-shared/02-oncologic-emergencies.md#1-發燒性嗜中性球低下)第 1 節；[6.2](#62-irinotecan-與脂質體-irinotecan)、[6.5](#65-nab-paclitaxel-與-gemcitabinegnp) |
 | 輸注反應與過敏性休克 | oxaliplatin 的過敏在**任何一個週期**都可能發生，仿單處置是立即且永久停藥；Onivyde 嚴重過敏要永久停用 | [腫瘤急症](00-shared/02-oncologic-emergencies.md#10-輸注反應過敏反應與過敏性休克)第 10 節；[6.3](#63-oxaliplatin) |
 | 惡性腸阻塞與嗜中性球低下性小腸結腸炎 | 腸阻塞時 irinotecan 與 Onivyde 不可給；化療期間腹痛要先分辨阻塞、結腸炎與脂肪痢 | [腫瘤急症](00-shared/02-oncologic-emergencies.md#11-惡性腸阻塞與嗜中性球低下性小腸結腸炎)第 11 節；[6.7](#67-胰臟癌病人特有的判讀情境) |
 | irinotecan 嚴重腹瀉與脫水 | G2 以上就暫停；腹瀉與嘔吐造成脫水可引起急性腎衰竭；高劑量 loperamide 最多連續 48 小時 | [6.2](#62-irinotecan-與脂質體-irinotecan)；[支持性照護](00-shared/03-supportive-care.md#5-腹瀉)第 5 節 |
@@ -2083,7 +2083,7 @@ Tufano 等人（2018）寫道，當時的指引建議有症狀的 SVT 要抗凝�
 
 > [!WARNING]
 > **事前審查沒過，不要把 Onivyde 換成「同劑量」的 irinotecan**
-> Onivyde 與一般 irinotecan 是不同的藥：劑量單位（游離鹼）、輸注時間（90 分鐘）、前置藥物都不同，仿單明寫不可互相取代（Ipsen, 2025）。Onivyde 未獲核准、或病人只能改走 9.10 加 9.12.1 的 FOLFIRINOX 時，必須由醫師重新開立完整的新處方（含 5-FU bolus 與 irinotecan 劑量的決定，見 [5.1](#51-folfirinox-家族輔助-mfolfirinox-與轉移性-folfirinox)），不是把 Onivyde 的 50 或 70 mg/m² 直接改成另一個品項。
+> Onivyde 與一般 irinotecan 是不同的藥：劑量單位（游離鹼）、前置藥物、給藥順序都不同（輸注時間兩者都是 90 分鐘），仿單明寫不可互相取代（Ipsen, 2025）。Onivyde 未獲核准、或病人只能改走 9.10 加 9.12.1 的 FOLFIRINOX 時，必須由醫師重新開立完整的新處方（含 5-FU bolus 與 irinotecan 劑量的決定，見 [5.1](#51-folfirinox-家族輔助-mfolfirinox-與轉移性-folfirinox)），不是把 Onivyde 的 50 或 70 mg/m² 直接改成另一個品項。
 
 ### 9.5 有藥證或指引建議、但原文沒有胰臟條文的藥
 
