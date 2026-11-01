@@ -621,7 +621,7 @@ TNM 不適用於兒童或症候群型 GIST（ACS）。實務上**決定要不要
 |------|-----------|-----------|---------|
 | Ifosfamide ＋ etoposide（IE） | ifosfamide 3.5 g/m²/日 ＋ etoposide 100 mg/m²/日 × 5 天，第 6 天起 G-CSF，每 3 週 | Goorin et al., 2002 — **新診斷的轉移性**骨肉瘤（不是復發族群）：ORR 59%；grade 4 嗜中性球低下 83%、敗血症 24%、Fanconi 症候群 5 人、毒性死亡 2 人 | ifosfamide 藥證適應症列有骨肉瘤；第 9 節原文未見專條 |
 | Gemcitabine ＋ docetaxel | gemcitabine 900 mg/m² 第 1、8 天 ＋ docetaxel 75 mg/m² 第 8 天，每 21 天（Palmerini et al., 2016）；另有 675／75–100 的 St. Jude 版本（Navid et al., 2008） | Palmerini et al., 2016（n = 51，回溯）：4 個月 PFS 46%、中位 PFS 3.5 個月、1 年 OS 30%；Navid et al., 2008（n = 22，其中 17 位骨肉瘤）：ORR 29%（14 位可評估） | 無肉瘤適應症（第 9 節 gemcitabine 9.4、docetaxel 9.3 給付癌別不含肉瘤） |
-| Regorafenib | 160 mg 每日，第 1–21 天，每 28 天 | **REGOBONE**（Duffaud et al., 2019；n = 43 成人，2:1，雙盲，非比較性）：8 週未惡化 65%（17/26）對 0/12；grade ≥3 高血壓 24%。**SARC024**（Davis et al., 2019；n = 42，雙盲）：PFS 3.6 對 1.7 個月，HR 0.42（0.21–0.85），P = .017；OS 無差異；grade 3–4 治療相關事件 64%、1 例大腸穿孔 | **off-label**：藥證只有 GIST、大腸直腸癌、肝癌；9.51 只給付 GIST |
+| Regorafenib | 160 mg 每日，第 1–21 天，每 28 天 | **REGOBONE**（Duffaud et al., 2019；n = 43 成人，2:1，雙盲，非比較性）：8 週未惡化 65%（17/26）對 0/12；grade ≥3 高血壓 24%。**SARC024**（Davis et al., 2019；n = 42，雙盲）：PFS 3.6 對 1.7 個月，HR 0.42（0.21–0.85），P = .017；OS 無差異；grade 3–4 治療相關事件 64%、1 例大腸穿孔 | **off-label**：藥證只有 GIST、大腸直腸癌、肝癌；9.51 的肉瘤相關給付只有 GIST（第 2 點；另給付大腸直腸癌、肝細胞癌，但都不含骨肉瘤） |
 | Cabozantinib | 成人 60 mg 每日（<16 歲 40 mg/m²） | **CABONE**（Italiano et al., 2020；單臂 phase 2，45 位骨肉瘤）：6 個月 ORR 12%（5/42）、6 個月未惡化 33%；骨肉瘤氣胸 9% | **off-label**：藥證無肉瘤適應症；9.74 只有腎細胞癌與甲狀腺癌 |
 
 > [!WARNING]
@@ -661,7 +661,7 @@ TNM 不適用於兒童或症候群型 GIST（ACS）。實務上**決定要不要
 
 > [!CAUTION]
 > **待核對：Ewing sarcoma 的放療劑量與 BuMel 劑量**
-> 本手冊取得的放療劑量只來自 NCI PDQ（二手整理）：根治性放療約 55.8 Gy（45 Gy ＋ 10.8 Gy 加強）；術後鏡下殘存 50.4 Gy（INT-0091 為 45 ＋ 5.4 Gy）；肉眼殘存 45 ＋ 10.8 Gy；完整切除、無鏡下殘存者不放療。**全肺放療的劑量沒有查到**。Busulfan 與 melphalan 的劑量、幹細胞輸注流程，同樣沒有在可取得的全文中核對。以上劑量請以放射腫瘤科計畫與院內移植流程為準，不要用本手冊的數字開單。
+> 本手冊取得的放療劑量只來自 NCI PDQ（二手整理）：根治性放療約 55.8 Gy（45 Gy ＋ 10.8 Gy 加強）；術後鏡下殘存 50.4 Gy（INT-0091 為 45 ＋ 5.4 Gy）；肉眼殘存 45 ＋ 10.8 Gy；完整切除、無鏡下殘存者在 INT-0091 不放療（Euro-EWING 2012 標準另把術後病理反應差與特定部位列為術後放療適應症，見上方）。**全肺放療的劑量沒有查到**。Busulfan 與 melphalan 的劑量、幹細胞輸注流程，同樣沒有在可取得的全文中核對。以上劑量請以放射腫瘤科計畫與院內移植流程為準，不要用本手冊的數字開單。
 
 **轉移性與高風險**
 
@@ -752,7 +752,7 @@ TNM 不適用於兒童或症候群型 GIST（ACS）。實務上**決定要不要
 | 其他晚期事件 | 水腫 15.5%、關節僵硬 17.8% | 水腫 23.2%、關節僵硬 23.2%（皆未達顯著） |
 | 長期功能 | 較好（key recommendation，I、A） | — |
 
-腫瘤大小與解剖部位在多變項分析中都是傷口併發症的風險因子；晚期纖維化、僵硬與水腫的顯著預測因子是**照野大小**（纖維化 P = 0.002、關節僵硬 P = 0.006），這些晚期併發症會降低 MSTS 與 TESS 功能分數（Davis et al., 2005）。
+腫瘤大小與解剖部位在多變項分析中都是傷口併發症的風險因子；晚期纖維化與關節僵硬的顯著預測因子是**照野大小**（纖維化 P = 0.002、關節僵硬 P = 0.006；水腫 P = 0.06，僅達邊緣顯著），這些晚期併發症會降低 MSTS 與 TESS 功能分數（Davis et al., 2005）。
 
 > [!TIP]
 > **術前放療像「先固定地基再動工」，術後放療像「先蓋好再補強」**
@@ -812,7 +812,7 @@ TNM 不適用於兒童或症候群型 GIST（ACS）。實務上**決定要不要
 | **Trabectedin** | 1.5 mg/m² 24 小時靜脈輸注，每 3 週；經中心靜脈導管；輸注前 30 分鐘 dexamethasone 20 mg IV | **SAR-3007**（Demetri et al., 2016；Patel et al., 2019）— LPS／LMS，已用 anthracycline，2:1 對 dacarbazine 1,000 mg/m²：PFS 4.2 對 1.5 個月，**HR 0.55（0.44–0.70）**；最終 **OS 13.7 對 13.1 個月，HR 0.93（0.75–1.15），P = .49**；ORR 7% 對 6%；治療相關死亡 2% 對 0 | 改善 PFS、**不改善 OS**。每次給藥前查 CPK（>2.5 × ULN 暫停）。**有藥證（LPS／LMS，曾用 anthracycline），無健保** |
 | **Eribulin** | 1.4 mg/m² 靜脈 2–5 分鐘，第 1、8 天，每 21 天 | **Study 309**（Schöffski et al., 2016；Demetri et al., 2017）— LPS／LMS，≥2 線，對 dacarbazine：OS 13.5 對 11.5 個月，HR 0.77（0.62–0.95）；**脂肪肉瘤 OS 15.6 對 8.4 個月，HR 0.51（0.35–0.75）**；平滑肌肉瘤 OS HR 0.90（0.69–1.18） | **好處僅限脂肪肉瘤**。有藥證（僅脂肪肉瘤）；健保 9.48 第 2 點，限單獨使用，每次 3 個療程，事前審查 |
 | **Pazopanib** | 800 mg 口服每日一次，空腹（餐前 ≥1 小時或餐後 ≥2 小時） | **PALETTE**（van der Graaf et al., 2012）— 非脂肪細胞型 STS，已化療，2:1 對安慰劑，無 crossover：PFS 4.6 對 1.6 個月，**HR 0.31（0.24–0.40）**；OS 12.5 對 10.7 個月，HR 0.86（0.67–1.11），P = 0.25。常見：高血壓 41%、腹瀉 58%、疲倦 65% | 美國仿單的獨立審查 PFS HR 為 0.35（0.26–0.48），引用要寫出處。仿單：肝毒性 boxed warning，**脂肪細胞型與 GIST 療效未證實**。有藥證；健保 9.41 第 2 點（112/10/1） |
-| **Gemcitabine ＋ docetaxel** | gemcitabine 900 mg/m² 第 1、8 天 ＋ docetaxel 75 mg/m² 第 8 天，每 21 天（ISG-STS 1001 的 UPS 組）；或 GeDDiS 的 675／75 | **SARC 002**（Maki et al., 2007；Bayesian 隨機 phase 2，n = 122）對 gemcitabine 單藥：中位 PFS 6.2 對 3.0 個月，中位 OS 17.9 對 11.5 個月，ORR 16% 對 8%；平滑肌肉瘤 phase 2（Hensley et al., 2002）ORR 53% | 較高劑量版本（gemcitabine 900／docetaxel 100）在 SARC 002 有 46% 需減量，GeDDiS 作者因此認為不宜長期使用（Seddon et al., 2017）。**無肉瘤適應症**，9.3、9.4 給付癌別不含肉瘤 |
+| **Gemcitabine ＋ docetaxel** | gemcitabine 900 mg/m² 第 1、8 天 ＋ docetaxel 75 mg/m² 第 8 天，每 21 天（ISG-STS 1001 的 UPS 組）；或 GeDDiS 的 675／75 | **SARC 002**（Maki et al., 2007；Bayesian 隨機 phase 2，n = 122）對 gemcitabine 單藥：中位 PFS 6.2 對 3.0 個月，中位 OS 17.9 對 11.5 個月，ORR 16% 對 8%；平滑肌肉瘤 phase 2（Hensley et al., 2002）ORR 53% | SARC 002 的較高劑量版本（實際 mg/m² 本手冊未核對；gemcitabine 900／docetaxel 100 是 Hensley 2002 的劑量）有 46% 需減量，GeDDiS 作者因此認為不宜長期使用（Seddon et al., 2017）。**無肉瘤適應症**，9.3、9.4 給付癌別不含肉瘤 |
 | **Ifosfamide** | 9–10 g/m²（英國指引建議） | 第二線的標準選項；anthracycline 禁忌時可作第一線（Hayes et al., 2025） | 藥證適應症列有軟組織肉瘤與骨肉瘤；第 9 節原文未見專條 |
 
 **寡轉移與肺轉移切除**：肺轉移切除的存活益處「尚未證實」，但接受肺部手術的病人中有 20–40% 成為長期存活者；無病間隔短者可每 3 個月重新評估，能開刀通常建議開。寡轉移病人可考慮手術、放療或消融（III、B），資料有限，個案由 MDT 決定（Hayes et al., 2025）。
@@ -888,7 +888,7 @@ TNM 不適用於兒童或症候群型 GIST（ACS）。實務上**決定要不要
 | **SSG XVIII／AIO**（Joensuu et al., 2012a；Joensuu et al., 2016；Joensuu et al., 2020） | KIT 陽性、modified NIH **高風險**、完整切除，n = 400；imatinib **400 mg/日** × 36 個月對 12 個月，手術後 12 週內開始 | 5 年 RFS **65.6% 對 47.9%（HR 0.46，0.32–0.65）**；5 年 OS 92.0% 對 81.7%（HR 0.45，0.22–0.89）。10 年追蹤（中位 119 個月）：RFS 52.5% 對 41.8%（HR 0.66，0.49–0.87）；**10 年 OS 79.0% 對 65.3%（HR 0.55，0.37–0.83，P = .004）**。因復發以外原因停藥 25.8% 對 12.6% |
 | **EORTC 62024**（Casali et al., 2021） | 局限性 GIST 術後，n = 908；imatinib 2 年對觀察，中位追蹤 9.1 年 | 主要終點（imatinib 失敗存活）HR 0.87（95.7% CI 0.65–1.15），P = 0.31，**未達顯著**；RFS HR 0.71（0.57–0.89）；OS HR 0.88（0.65–1.21） |
 
-- **標準是 3 年**（亞洲共識 18/18 的有效回應「強烈建議」）；6 年「可以建議」，但共識較弱（12/18，66.7%）；腫瘤破裂者建議延長甚至終身（16/18）（Hirano et al., 2026）。6 年對 3 年的比較試驗（SSG XXII）本手冊查不到結果。
+- **標準是 3 年**（亞洲共識 18/18 的有效回應「強烈建議」）；6 年「可以建議」，但共識較弱（12/18，66.7%）；腫瘤破裂者建議延長甚至終身（16/18）（Hirano et al., 2026）。6 年對 3 年的比較試驗是法國肉瘤團隊的 IMADGIST（Blay et al., 2024；n = 136，已完成 3 年輔助 imatinib、復發風險 ≥35% 且未復發者再隨機分派，中位追蹤 55 個月）：多用 3 年（共 6 年）的無病存活較佳，HR 0.40（0.20–0.69），P = 0.0008；總存活、imatinib 抗藥時間與毒性沒有差異（OS 資料尚未成熟）。SSG XXII（3 年對 5 年）本手冊查不到結果。
 - **基因型的限制**：PDGFRA D842V 與野生型 imatinib 不敏感，這類病人不是輔助 imatinib 的對象。KIT exon 9：一個 367 位的觀察性世代顯示輔助 imatinib 與較低的早期復發或死亡（HR 0.19，0.10–0.36）及較好 OS（HR 0.37，0.17–0.83）相關，效果隨時間減弱；257 位高風險者中 400 mg 與 800 mg 沒有差異（Napolitano et al., 2026）。
 - **台灣健保**：9.22 第 3 點(2) 的 4 項條件（>10 cm；有絲分裂 >10／50 HPF；>5 cm 且 >5／50 HPF；腫瘤破裂）與 modified NIH 不同，須事前審查、可用 3 年，見 3.7 的提示框與[第 9 段](#9-健保給付與事前審查)。
 
@@ -1044,13 +1044,13 @@ Ewing sarcoma 的第一線是 interval-compressed VDC/IE（每 14 天一個週�
 | VDC | vincristine 2 mg/m² D1（上限 2 mg）；doxorubicin 37.5 mg/m²/日 D1–2（試驗登錄為 48 小時連續輸注）；cyclophosphamide 1,200 mg/m² D1 | vincristine 2 mg/m²、doxorubicin 75 mg/m²、cyclophosphamide 1.2 g/m² | doxorubicin 累積到 375 mg/m² 後，其餘 VDC 週期改為不含 doxorubicin 的 VC |
 | IE | ifosfamide 1,800 mg/m²/日 D1–5 ＋ mesna；etoposide 100 mg/m²/日 D1–5 | ifosfamide 9 g/m²、etoposide 500 mg/m² | ifosfamide 的 mesna 與水化見 6.2 |
 
-- **G-CSF**：Huang 等人的亞洲系列用 filgrastim 5–10 µg/kg/日（Huang et al., 2023）。兒童研究中 pegfilgrastim 100 µg/kg 每週期一次，約相當於 filgrastim 5 µg/kg/日（Spunt et al., 2010）。成人 pegfilgrastim 6 mg 每週期一次的用法與時機見[支持性照護](00-shared/03-supportive-care.md#22-怎麼用)第 2.2 節。單位是 **µg/kg**：Womer 等人的摘要印成 mg/kg 是排版錯誤（該文有勘誤）。
+- **G-CSF**：Huang 等人的亞洲系列用 filgrastim 5–10 µg/kg/日（Huang et al., 2023）。兒童研究中 pegfilgrastim 100 µg/kg 每週期一次，約相當於 filgrastim 5 µg/kg/日（Spunt et al., 2010）。成人 pegfilgrastim 6 mg 每週期一次的用法與時機見[支持性照護](00-shared/03-supportive-care.md#22-怎麼用)第 2.2 節。單位是 **µg/kg**：Womer 等人的摘要印成 mg/kg 是單位排版錯誤（該文 2015 年勘誤〔J Clin Oncol 33(7):814〕更正的是 Figure 1 圖說裡的 vincristine 劑量，不是 filgrastim 的單位）。
 - **累積劑量**：VDC 與 IE 交替，14 個週期約各 7 次（依「交替」推算，未對照 protocol 核對），VDC 全含 doxorubicin 會達 525 mg/m²，所以才有「達 375 後改 VC」的規則。每次的 doxorubicin 累積量要記在病歷上，之後若再用 anthracycline（如復發後的 doxorubicin 方案），累積劑量要接著算（見 6.3）。
 - **性腺毒性**：依上述推算，IE 的 ifosfamide 累積約 63 g/m²，超過男性生育力下降的 60 g/m²（Williams et al., 2008）；用藥前的生育力諮詢見 6.10。
 
 > [!CAUTION]
 > **待核對：VDC/IE 的每日劑量與例外**
-> AEWS0031 全文的每日劑量表，本手冊是由二手摘要取得，未逐字核對。同一篇論文內 vincristine 有 2 mg/m² 與 1.5 mg/m² 兩種寫法（上限都是 2 mg）；「達 375 mg/m² 後改 VC」的細節、cyclophosphamide 是否加 mesna，以及 VIDE（EURO EWING 2012 對照組）的每日劑量，本手冊都沒有核對。開單一律以醫院核准的 protocol 為準，不要拿本表直接開。
+> AEWS0031 全文的每日劑量表，本手冊是由二手摘要取得，未逐字核對。同一篇論文的 Figure 1 圖說曾把 vincristine 印成 1.5 mg/m²，2015 年勘誤已更正為 2 mg/m²（上限 2 mg）；「達 375 mg/m² 後改 VC」的細節、cyclophosphamide 是否加 mesna，以及 VIDE（EURO EWING 2012 對照組）的每日劑量，本手冊都沒有核對。開單一律以醫院核准的 protocol 為準，不要拿本表直接開。
 
 **高劑量 ifosfamide（HDI）的三種文獻版本**（連續輸注，以體外泵浦給藥）
 
@@ -1059,7 +1059,7 @@ Ewing sarcoma 的第一線是 interval-compressed VDC/IE（每 14 天一個週�
 | ISG-STS 1001 的滑膜肉瘤組（新輔助） | ifosfamide 14 g/m²，連續 14 天，每 28 天一次 | Gronchi et al., 2017；該試驗的客製化組整體輸給標準 epirubicin ＋ ifosfamide |
 | 兒童難治肉瘤（Meazza） | ifosfamide 14 g/m² ＋ mesna 14 g/m²（1:1），連續 14 天，每 3 週，未使用 G-CSF | Meazza et al., 2010 |
 | Royal Marsden 系列 | ifosfamide 1 g/m²/日 × 14 天 | Martin-Liberal et al., 2013 |
-| 英國指引建議（軟組織肉瘤二線） | 9–10 g/m² | Hayes et al., 2025 |
+| 英國指引建議（軟組織肉瘤二線；標準劑量，不是連續輸注的 HDI，與上面三列對照用） | 9–10 g/m²（指引描述通常在 2–3 天內住院給完；另寫：> 12 g/m² 與連續輸注方案的反應率較高） | Hayes et al., 2025 |
 
 > [!CAUTION]
 > **待核對：連續輸注或高劑量 ifosfamide 的 mesna 時程**
@@ -1084,7 +1084,7 @@ Ewing sarcoma 的第一線是 interval-compressed VDC/IE（每 14 天一個週�
 
 > [!WARNING]
 > **Gemcitabine ＋ docetaxel 至少有三種劑量版本，開單前先問是哪一版**
-> GeDDiS 的 675／75、ISG-STS 1001 的 900／75，與 SARC 002 時代的 900／100 並不相同。GeDDiS 的作者引用 SARC 002 的經驗，指出 900／100 的版本有 46% 需要減量，不宜長期使用（Seddon et al., 2017）。處方單上要寫清楚 gemcitabine 與 docetaxel 各自的 mg/m² 與給藥日，不要只寫「gem/doc」。
+> GeDDiS 的 675／75、ISG-STS 1001 的 900／75，與 Hensley 2002 的 900／100 並不相同（SARC 002 用的是較高劑量版本，其 gemcitabine 與 docetaxel 的實際劑量本手冊未核對）。GeDDiS 的作者引用 SARC 002 的經驗，指出該較高劑量版本有 46% 需要減量，不宜長期使用（Seddon et al., 2017）。處方單上要寫清楚 gemcitabine 與 docetaxel 各自的 mg/m² 與給藥日，不要只寫「gem/doc」。
 
 > [!CAUTION]
 > **待核對：「AIM」與其他 anthracycline ＋ ifosfamide 版本**
@@ -1121,7 +1121,7 @@ Ewing sarcoma 的第一線是 interval-compressed VDC/IE（每 14 天一個週�
 | Imatinib | 下一劑照原時間吃，不要一次吃兩劑（Novartis, 2026） | — | 錠劑可分散在水或蘋果汁（100 mg 錠約 50 mL、400 mg 錠約 200 mL）攪拌，崩解後立即喝 | 強效 CYP3A4 誘導劑（仿單例示 **dexamethasone**、phenytoin、carbamazepine、rifampin、phenobarbital）要避免，無法避免時 imatinib 至少加 50%；強效抑制劑與葡萄柚會增加暴露量；抗凝血用 LMWH 或 heparin，**不用 warfarin**；可能延遲 HD-MTX（> 500 mg/m²）的清除 |
 | Sunitinib | — | — | — | 與強效 CYP3A4 抑制劑或誘導劑併用須調整劑量，細節查仿單（Pfizer, 2026b） |
 | Regorafenib | 不可在同一天吃兩劑來補前一天漏的（Bayer, 2026） | — | 整顆吞 | 不得與 trifluridine／tipiracil 併用（9.51 第 4 點） |
-| Ripretinib | 距預定時間不到 8 小時可補，否則略過 | 不補、不加量，下一劑照時間（Deciphera, 2025） | 整顆吞 | — |
+| Ripretinib | 距預定時間不到 8 小時可補，否則略過 | 不補、不加量，下一劑照時間（Deciphera, 2025） | 整顆吞 | 避免強效與中效 CYP3A 誘導劑；中效誘導劑無法避免時，改為 150 mg 每日 2 次，停用誘導劑 14 天後恢復每日 1 次；強效 CYP3A 抑制劑時要更頻繁監測不良反應（Deciphera, 2025） |
 | Avapritinib | 距下一劑 8 小時內不補 | 不重服，下一劑照時間（Blueprint, 2026） | — | 避免強效與中效 CYP3A 抑制劑；中效抑制劑無法避免時，GIST 起始劑量 100 mg |
 | Pazopanib | 距下一劑不到 12 小時就不補（Novartis, 2025） | — | 整顆吞，**不可壓碎**（壓碎會加快吸收速率，影響暴露量） | 避免胃酸抑制劑（如 PPI）；強效 CYP3A4 抑制劑時降為 400 mg |
 

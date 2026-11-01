@@ -270,11 +270,11 @@ PDAC 的免疫染色主要用來排除其他胰臟腫瘤、找 dMMR，並提供�
 |------|------|------|------|
 | Germline | 血液或唾液 | **所有 PDAC**（NCCN）；結果影響 platinum 選擇、olaparib 資格與家族 cascade testing | 需遺傳諮詢；不等於腫瘤的變異 |
 | 腫瘤 NGS（DNA） | 腫瘤組織（優先） | NCCN：會用藥物治療的胰臟癌都要檢測；一次涵蓋 KRAS、BRCA1/2、PALB2、BRAF、HER2、MSI-H／TMB 等 | 只做 DNA 偵測 fusion 不完整；NTRK 在 DNA-only 出現 6 個偽陽性（Allen et al., 2023） |
-| RNA-based fusion 檢測 | 腫瘤組織 | **KRAS wild-type 者必做**：NTRK、NRG1、RET、ALK、ROS1、FGFR2、BRAF fusion（Tai et al., 2025，建議 2l、2m） | EUS-FNB 要多穿幾針，檢體量要同時夠診斷與檢測 |
+| RNA-based fusion 檢測 | 腫瘤組織 | **KRAS wild-type 者建議做**：NTRK、NRG1、RET、ALK、ROS1、FGFR2、BRAF fusion（前六者為 NCCN 生物標記表的 fusion 項目，BRAF fusion 依 Philip et al., 2022 的 KRAS wild-type 分析加入；Tai et al., 2025 建議 2l 為可做延伸分析 [IV, B]，2m 為轉移性 KRAS wild-type 者應評估 MSI、NTRK 與其他罕見 fusion [III, B]；指引未指定平台，本手冊建議用 RNA-based，因為 DNA-only 的 NTRK 有偽陽性） | EUS-FNB 要多穿幾針，檢體量要同時夠診斷與檢測 |
 | MSI／MMR | IHC 或 PCR／NGS | 轉移性且 KRAS wild-type 者建議檢測 [III, B]；沒有多基因定序時用標準方法 [IV, B] | 本地與中央判定可能不一致（見 2.4） |
 | 血液 ctDNA | 血液 | 只在組織無法檢測時使用（NCCN, 2026） | NCCN 不建議用 ctDNA 做診斷 |
 
-Pan-Asian ESMO 的建議是**不可切除的 PDAC 做體細胞 KRAS 檢測、所有 PDAC 做 germline BRCA 檢測**（Tai et al., 2025，建議 2k）；NCCN 則是所有 PDAC 做 germline 檢測（涵蓋較多基因）、會用藥者做腫瘤 NGS。兩者都要求 KRAS wild-type 者再做延伸檢測。因為 BRCA／PALB2 影響第一線選擇、維持治療更要接在 platinum 之後，所以**結果要在第一線治療開始前拿到**：確診當天就送 germline 與腫瘤 NGS，不要等第一線失敗才補。
+Pan-Asian ESMO 的建議是**不可切除的 PDAC 做體細胞 KRAS 檢測、所有 PDAC 做 germline BRCA 檢測**（Tai et al., 2025，建議 2k）；NCCN 則是所有 PDAC 做 germline 檢測（涵蓋較多基因）、會用藥者做腫瘤 NGS。Pan-Asian ESMO 對 KRAS wild-type 者建議再做延伸檢測（建議 2l 為可做，2m 為轉移性者應評估 MSI、NTRK 與其他罕見 fusion）；NCCN 病人版則未以 KRAS wild-type 作為檢測的啟動條件，而是所有會用藥物治療者都要做生物標記檢測。因為 BRCA／PALB2 影響第一線選擇、維持治療更要接在 platinum 之後，所以**結果要在第一線治療開始前拿到**：確診當天就送 germline 與腫瘤 NGS，不要等第一線失敗才補。
 
 ---
 

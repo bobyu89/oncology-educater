@@ -232,8 +232,8 @@
 - 類固醇反應不足時（G2 約 3 天無改善、G3 類固醇難治），在原有類固醇之外**加用** **mycophenolate mofetil（MMF）**（或 azathioprine，用前先測 TPMT）；**肝炎不使用 infliximab**（本身可能有肝毒性）。
 
 > [!CAUTION]
-> **待核對：Grade 3 肝炎是否永久停用，各指引不同**
-> ASCO 2018 版對 Grade 3 肝炎建議永久停用 ICI（Brahmer et al., 2018）；較新的指引對部分 anti-PD-1/PD-L1 單用病人允許在恢復後審慎評估重新給藥。本手冊尚未逐條比對 ASCO 2021、ESMO 2022 與最新 NCCN 版本的原文，臨床上依主治醫師判斷。
+> **待核對：ESMO 2022 與 NCCN 對 Grade 3 肝炎永久停用的原文**
+> 上表 Grade 3 已依 ASCO 2021 Table 2.2 寫成：無症狀者考慮永久停用 ICI，有症狀者永久停用（Schneider et al., 2021）；ASCO 2018 版對 Grade 3 肝炎同樣建議永久停用（Brahmer et al., 2018）。本手冊尚未逐條比對 ESMO 2022 與最新 NCCN 版本的原文，所以不確定它們是否對部分 anti-PD-1/PD-L1 單用病人允許在恢復後審慎評估重新給藥，臨床上依主治醫師判斷。
 
 ### 5.4 肺炎（Pneumonitis）
 
@@ -409,7 +409,7 @@ A. Grade 2，繼續 ICI　B. Grade 3，暫停 ICI 並給 IV methylprednisolone 1
 <details>
 <summary>答案與詳解</summary>
 
-**答案：B**。AST/ALT > 5–20 × ULN 為 Grade 3：暫停 ICI、高劑量類固醇、會診肝膽科，並排除病毒性肝炎（台灣特別注意 B 肝）、藥物與腫瘤進展。肝炎不使用 infliximab，類固醇無效時改用 MMF。
+**答案：B**。AST/ALT > 5–20 × ULN 為 Grade 3：暫停 ICI、高劑量類固醇、會診肝膽科，並排除病毒性肝炎（台灣特別注意 B 肝）、藥物與腫瘤進展。肝炎不使用 infliximab，類固醇反應不足時在原有類固醇之外加用 MMF。
 
 </details>
 
@@ -442,7 +442,7 @@ A. 常規加 fluconazole 預防黴菌　B. 常規加 acyclovir 預防帶狀疱�
 <details>
 <summary>答案與詳解</summary>
 
-**答案：C**。60 mg/day 同時符合 ASCO 2021 的兩個條件（prednisone 等效 ≥ 20 mg/day 持續 ≥ 4 週，或 > 30 mg/day 持續 ≥ 3 週）；ASCO 對 PJP 預防的語氣是「may be considered」，依院內規範決定，所以是「考慮」而不是強制，TMP-SMX 是常用藥物（Maertens et al., 2016）。ASCO 2021 也寫明類固醇期間 GI prophylaxis with PPI or H2 antagonist is recommended。A 錯：預防性 fluconazole 在類固醇超過 12 週時的角色仍不明確；B 錯：帶狀疱疹預防只對曾有帶狀疱疹的病人提供；D 錯：見上述 PJP 與 GI 預防（Schneider et al., 2021）。
+**答案：C**。若以 prednisone 60 mg/day 起始、每週減 10 mg（約 6 週減完），> 30 mg/day 約 3 週、≥ 20 mg/day 約 5 週，兩項 ASCO 2021 門檻（prednisone 等效 ≥ 20 mg/day 持續 ≥ 4 週，或 > 30 mg/day 持續 ≥ 3 週）都達到；若減得更快（例如每 3 天減 10 mg，> 30 mg 僅約 9 天、≥ 20 mg 約 15 天）則兩項都達不到，需依實際劑量與天數判斷；ASCO 對 PJP 預防的語氣是「may be considered」，依院內規範決定，所以是「考慮」而不是強制，TMP-SMX 是常用藥物（Maertens et al., 2016）。ASCO 2021 也寫明類固醇期間 GI prophylaxis with PPI or H2 antagonist is recommended。A 錯：預防性 fluconazole 在類固醇超過 12 週時的角色仍不明確；B 錯：帶狀疱疹預防只對曾有帶狀疱疹的病人提供；D 錯：見上述 PJP 與 GI 預防（Schneider et al., 2021）。
 
 </details>
 
