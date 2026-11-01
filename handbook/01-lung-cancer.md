@@ -1749,7 +1749,7 @@ Abernethy, A. P., McDonald, C. F., Frith, P. A., Clark, K., Herndon, J. E., II, 
 
 Ahn, M.-J., Lisberg, A., Goto, Y., Sands, J., Hong, M. H., Paz-Ares, L., Pons-Tostivint, E., Pérol, M., Felip, E., Sugawara, S., Hayashi, H., Cho, B. C., Blumenschein, G., Jr., Shum, E., Lee, J.-S., Heist, R. S., Cornelissen, R., Chang, W.-C., Kowalski, D., . . . Okamoto, I. (2025). A pooled analysis of datopotamab deruxtecan in patients with EGFR-mutated NSCLC. *Journal of Thoracic Oncology, 20*(11), 1669–1682. https://doi.org/10.1016/j.jtho.2025.06.002（PMID: 40516821）
 
-Alembic Pharmaceuticals Limited. (2024). *Erlotinib tablets: Prescribing information* [Generic of Tarceva®; Tarceva 原廠仿單未列於 DailyMed，以同文字的學名藥仿單為準]. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab6f3cb3-34a8-4492-a5d7-fb6b055a2d6b
+Alembic Pharmaceuticals Limited. (2024). *Erlotinib tablets: Prescribing information* (version 3, effective 2024-06-10) [Generic of Tarceva®; Tarceva 原廠仿單未列於 DailyMed，以同文字的學名藥仿單為準]. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ab6f3cb3-34a8-4492-a5d7-fb6b055a2d6b
 
 Altorki, N., Wang, X., Kozono, D., Watt, C., Landrenau, R., Wigle, D., Port, J., Jones, D. R., Conti, M., Ashrafi, A. S., Liberman, M., Yasufuku, K., Yang, S., Mitchell, J. D., Pass, H., Keenan, R., Bauer, T., Miller, D., Kohman, L. J., . . . Vokes, E. (2023). Lobar or sublobar resection for peripheral stage IA non-small-cell lung cancer. *New England Journal of Medicine, 388*(6), 489–498. https://doi.org/10.1056/NEJMoa2212083（PMID: 36780674）
 
@@ -1849,7 +1849,7 @@ Genentech, Inc. (2026a). *ALECENSA (alectinib) capsules: Prescribing information
 
 Genentech, Inc. (2026b). *ROZLYTREK (entrectinib) capsules and pellets: Prescribing information* (effective 2026-10-08). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c7c71b0c-2549-4495-86b6-c2807fa54908
 
-Genentech, Inc. (2026c). *TECENTRIQ (atezolizumab) injection: Prescribing information* (DailyMed 發布日 2026-10-16). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee
+Genentech, Inc. (2026c). *TECENTRIQ (atezolizumab) injection: Prescribing information* (version 46, effective 2026-10-13). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee
 
 Goto, K., Goto, Y., Kubo, T., Ninomiya, K., Kim, S.-W., Planchard, D., Ahn, M.-J., Smit, E. F., de Langen, A. J., Pérol, M., Pons-Tostivint, E., Novello, S., Hayashi, H., Shimizu, J., Kim, D.-W., Kuo, C.-H., Yang, J. C.-H., Pereira, K., Cheng, F.-C., . . . Jänne, P. A. (2023). Trastuzumab deruxtecan in patients with HER2-mutant metastatic non-small-cell lung cancer: Primary results from the randomized, phase II DESTINY-Lung02 trial. *Journal of Clinical Oncology, 41*(31), 4852–4863. https://doi.org/10.1200/JCO.23.01361（PMID: 37694347）
 
@@ -1867,7 +1867,7 @@ Hsu, K.-H., Ho, C.-C., Hsia, T.-C., Tseng, J.-S., Su, K.-Y., Wu, M.-F., Chiu, K.
 
 Hui, D., Bohlke, K., Bao, T., Campbell, T. C., Coyne, P. J., Currow, D. C., Gupta, A., Leiser, A. L., Mori, M., Nava, S., Reinke, L. F., Roeland, E. J., Seigel, C., Walsh, D., & Campbell, M. L. (2021). Management of dyspnea in advanced cancer: ASCO guideline. *Journal of Clinical Oncology, 39*(12), 1389–1411. https://doi.org/10.1200/JCO.20.03465（PMID: 33617290）
 
-Hui, D., Maddocks, M., Johnson, M. J., Ekström, M., Simon, S. T., Ogliari, A. C., Booth, S., & Ripamonti, C. (2020). Management of breathlessness in patients with cancer: ESMO clinical practice guidelines. *ESMO Open, 5*(6), e001038. https://doi.org/10.1136/esmoopen-2020-001038（PMID: 33303485）
+Hui, D., Maddocks, M., Johnson, M. J., Ekström, M., Simon, S. T., Ogliari, A. C., Booth, S., & Ripamonti, C. (2020). Management of breathlessness in patients with cancer: ESMO clinical practice guidelines. *ESMO Open, 5*(6), Article e001038. https://doi.org/10.1136/esmoopen-2020-001038（PMID: 33303485）
 
 Ittrich, H., Bockhorn, M., Klose, H., & Simon, M. (2017). The diagnosis and treatment of hemoptysis. *Deutsches Ärzteblatt International, 114*(21), 371–381. https://doi.org/10.3238/arztebl.2017.0371（PMID: 28625277）
 
@@ -1919,7 +1919,7 @@ Passaro, A., Wang, J., Wang, Y., Lee, S.-H., Melosky, B., Shih, J.-Y., Wang, J.,
 
 Paz-Ares, L., Borghaei, H., Liu, S. V., Peters, S., Herbst, R. S., Stencel, K., Majem, M., Şendur, M. A. N., Czyżewicz, G., Caro, R. B., Lee, K. H., Johnson, M. L., Karadurmuş, N., Grohé, C., Baka, S., Csőszi, T., Ahn, J. S., Califano, R., Yang, T.-Y., . . . Reck, M. (2025). Efficacy and safety of first-line maintenance therapy with lurbinectedin plus atezolizumab in extensive-stage small-cell lung cancer (IMforte): A randomised, multicentre, open-label, phase 3 trial. *The Lancet, 405*(10495), 2129–2143. https://doi.org/10.1016/S0140-6736(25)01011-6（PMID: 40473449）
 
-Paz-Ares, L., Chen, Y., Reinmuth, N., Hotta, K., Trukhin, D., Statsenko, G., Hochmair, M. J., Özgüroğlu, M., Ji, J. H., Garassino, M. C., Voitko, O., Poltoratskiy, A., Musso, E., Havel, L., Bondarenko, I., Losonczy, G., Conev, N., Mann, H., Dalvi, T. B., . . . Goldman, J. W. (2022). Durvalumab, with or without tremelimumab, plus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer: 3-year overall survival update from CASPIAN. *ESMO Open, 7*(2), 100408. https://doi.org/10.1016/j.esmoop.2022.100408（PMID: 35279527）
+Paz-Ares, L., Chen, Y., Reinmuth, N., Hotta, K., Trukhin, D., Statsenko, G., Hochmair, M. J., Özgüroğlu, M., Ji, J. H., Garassino, M. C., Voitko, O., Poltoratskiy, A., Musso, E., Havel, L., Bondarenko, I., Losonczy, G., Conev, N., Mann, H., Dalvi, T. B., . . . Goldman, J. W. (2022). Durvalumab, with or without tremelimumab, plus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer: 3-year overall survival update from CASPIAN. *ESMO Open, 7*(2), Article 100408. https://doi.org/10.1016/j.esmoop.2022.100408（PMID: 35279527）
 
 Paz-Ares, L., Ciuleanu, T.-E., Cobo, M., Schenker, M., Zurawski, B., Menezes, J., Richardet, E., Bennouna, J., Felip, E., Juan-Vidal, O., Alexandru, A., Sakai, H., Lingua, A., Salman, P., Souquet, P.-J., De Marchi, P., Martin, C., Pérol, M., Scherpereel, A., . . . Reck, M. (2021). First-line nivolumab plus ipilimumab combined with two cycles of chemotherapy in patients with non-small-cell lung cancer (CheckMate 9LA): An international, randomised, open-label, phase 3 trial. *The Lancet Oncology, 22*(2), 198–211. https://doi.org/10.1016/S1470-2045(20)30641-0（PMID: 33476593）
 

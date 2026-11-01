@@ -2627,13 +2627,13 @@ Cash, T., Krailo, M. D., Buxton, A. B., Pawel, B. R., Healey, J. H., Binitie, O.
 
 Chawla, S., Blay, J.-Y., Rutkowski, P., Le Cesne, A., Reichardt, P., Gelderblom, H., Grimer, R. J., Choy, E., Skubitz, K., Seeger, L., Schuetze, S. M., Henshaw, R., Dai, T., Jandial, D., & Palmerini, E. (2019). Denosumab in patients with giant-cell tumour of bone: A multicentre, open-label, phase 2 study. *The Lancet Oncology, 20*(12), 1719–1729. https://doi.org/10.1016/S1470-2045(19)30663-1（PMID: 31704134）
 
-Chen, T. W.-W., Chiang, R. C.-J., Le Cesne, A., Hsieh, Y.-C., Italiano, A., Yang, Y.-W., Penel, N., Lee, W.-C., Bompas, E., Valentin, T., Anract, P., Firmin, N., Duffaud, F., Cheng, A.-L., Ducimetiere, F., Chan, K. A., & Blay, J.-Y. (2022). Soft tissue sarcoma incidences and clinical characteristics are significantly different in France and Taiwan. *Cancer, 128*(18), 3360–3369. https://doi.org/10.1002/cncr.34372（PMID: 35796499）
-
 Chen, A. P., Sharon, E., O'Sullivan-Coyne, G., Moore, N., Foster, J. C., Hu, J. S., Van Tine, B. A., Conley, A. P., Read, W. L., Riedel, R. F., Burgess, M. A., Glod, J., Davis, E. J., Merriam, P., Naqash, A. R., Fino, K. K., Miller, B. L., Wilsker, D. F., Begum, A., . . . Doroshow, J. H. (2023). Atezolizumab for advanced alveolar soft part sarcoma. *The New England Journal of Medicine, 389*(10), 911–921. https://doi.org/10.1056/NEJMoa2303383（PMID: 37672694）
 
 Chen, J.-H., Yang, Z.-R., Cai, Z.-M., Lin, T., Lin, R., Su, X.-C., Kang, R.-B., Lin, L., Ye, Z.-S., & Zhou, Y.-J. (2025). Comparative study of National Institute of Health criteria and TNM staging system in predicting the prognosis of gastrointestinal stromal tumours: A retrospective study. *Frontiers in Oncology, 15*, Article 1622777. https://doi.org/10.3389/fonc.2025.1622777（PMID: 40904501）
 
 Chen, P. C.-H., Yen, C.-C., Hung, G.-Y., Pan, C.-C., & Chen, W.-M. (2019). Gene amplification and tumor grading in parosteal osteosarcoma. *Journal of the Chinese Medical Association, 82*(12), 889–894. https://doi.org/10.1097/JCMA.0000000000000211（PMID: 31634336）
+
+Chen, T. W.-W., Chiang, R. C.-J., Le Cesne, A., Hsieh, Y.-C., Italiano, A., Yang, Y.-W., Penel, N., Lee, W.-C., Bompas, E., Valentin, T., Anract, P., Firmin, N., Duffaud, F., Cheng, A.-L., Ducimetiere, F., Chan, K. A., & Blay, J.-Y. (2022). Soft tissue sarcoma incidences and clinical characteristics are significantly different in France and Taiwan. *Cancer, 128*(18), 3360–3369. https://doi.org/10.1002/cncr.34372（PMID: 35796499）
 
 Choi, H., Charnsangavej, C., Faria, S. C., Macapinlac, H. A., Burgess, M. A., Patel, S. R., Chen, L. L., Podoloff, D. A., & Benjamin, R. S. (2007). Correlation of computed tomography and positron emission tomography in patients with metastatic gastrointestinal stromal tumor treated at a single institution with imatinib mesylate: Proposal of new computed tomography response criteria. *Journal of Clinical Oncology, 25*(13), 1753–1759. https://doi.org/10.1200/JCO.2006.07.3049（PMID: 17470865）
 
@@ -2655,9 +2655,9 @@ D'Angelo, S. P., Araujo, D. M., Abdul Razak, A. R., Agulnik, M., Attia, S., Blay
 
 D'Angelo, S. P., Mahoney, M. R., Van Tine, B. A., Atkins, J., Milhem, M. M., Jahagirdar, B. N., Antonescu, C. R., Horvath, E., Tap, W. D., Schwartz, G. K., & Streicher, H. (2018). Nivolumab with or without ipilimumab treatment for metastatic sarcoma (Alliance A091401): Two open-label, non-comparative, randomised, phase 2 trials. *The Lancet Oncology, 19*(3), 416–426. https://doi.org/10.1016/S1470-2045(18)30006-8（PMID: 29370992）
 
-Davis, L. E., Bolejack, V., Ryan, C. W., Ganjoo, K. N., Loggers, E. T., Chawla, S., Agulnik, M., Livingston, M. B., Reed, D., Keedy, V., Rushing, D., Okuno, S., Reinke, D. K., Riedel, R. F., Attia, S., Mascarenhas, L., & Maki, R. G. (2019). Randomized double-blind phase II study of regorafenib in patients with metastatic osteosarcoma. *Journal of Clinical Oncology, 37*(16), 1424–1431. https://doi.org/10.1200/JCO.18.02374（PMID: 31013172）
-
 Davis, A. M., O'Sullivan, B., Turcotte, R., Bell, R., Catton, C., Chabot, P., Wunder, J., Hammond, A., Benk, V., Kandel, R., Goddard, K., Freeman, C., Sadura, A., Zee, B., Day, A., Tu, D., & Pater, J. (2005). Late radiation morbidity following randomization to preoperative versus postoperative radiotherapy in extremity soft tissue sarcoma. *Radiotherapy and Oncology, 75*(1), 48–53. https://doi.org/10.1016/j.radonc.2004.12.020（PMID: 15948265）
+
+Davis, L. E., Bolejack, V., Ryan, C. W., Ganjoo, K. N., Loggers, E. T., Chawla, S., Agulnik, M., Livingston, M. B., Reed, D., Keedy, V., Rushing, D., Okuno, S., Reinke, D. K., Riedel, R. F., Attia, S., Mascarenhas, L., & Maki, R. G. (2019). Randomized double-blind phase II study of regorafenib in patients with metastatic osteosarcoma. *Journal of Clinical Oncology, 37*(16), 1424–1431. https://doi.org/10.1200/JCO.18.02374（PMID: 31013172）
 
 Debiec-Rychter, M., Sciot, R., Le Cesne, A., Schlemmer, M., Hohenberger, P., van Oosterom, A. T., Blay, J.-Y., Leyvraz, S., Stul, M., Casali, P. G., Zalcberg, J., Verweij, J., Van Glabbeke, M., Hagemeijer, A., & Judson, I. (2006). KIT mutations and dose selection for imatinib in patients with advanced gastrointestinal stromal tumours. *European Journal of Cancer, 42*(8), 1093–1103. https://doi.org/10.1016/j.ejca.2006.01.030（PMID: 16624552）
 
@@ -2715,11 +2715,11 @@ Gonzalez, M. R., Bedi, A., Karczewski, D., & Lozano-Calderon, S. A. (2023). Are 
 
 Goorin, A. M., Harris, M. B., Bernstein, M., Ferguson, W., Devidas, M., Siegal, G. P., Gebhardt, M. C., Schwartz, C. L., Link, M., & Grier, H. E. (2002). Phase II/III trial of etoposide and high-dose ifosfamide in newly diagnosed metastatic osteosarcoma: A Pediatric Oncology Group trial. *Journal of Clinical Oncology, 20*(2), 426–433. https://doi.org/10.1200/JCO.2002.20.2.426（PMID: 11786570）
 
-Gounder, M. M., Mahoney, M. R., Van Tine, B. A., Ravi, V., Attia, S., Deshpande, H. A., Gupta, A. A., Milhem, M. M., Conry, R. M., Movva, S., Pishvaian, M. J., Riedel, R. F., Sabagh, T., Tap, W. D., Horvat, N., Basch, E., Schwartz, L. H., Maki, R. G., Agaram, N. P., . . . Schwartz, G. K. (2018). Sorafenib for advanced and refractory desmoid tumors. *The New England Journal of Medicine, 379*(25), 2417–2428. https://doi.org/10.1056/NEJMoa1805052（PMID: 30575484）
-
 Gounder, M., Ratan, R., Alcindor, T., Schöffski, P., van der Graaf, W. T., Wilky, B. A., Riedel, R. F., Lim, A., Smith, L. M., Moody, S., Attia, S., Chawla, S., D'Amato, G., Federman, N., Merriam, P., Van Tine, B. A., Vincenzi, B., Benson, C., Bui, N. Q., . . . Kasper, B. (2023). Nirogacestat, a γ-secretase inhibitor for desmoid tumors. *The New England Journal of Medicine, 388*(10), 898–912. https://doi.org/10.1056/NEJMoa2210140（PMID: 36884323）
 
 Gounder, M., Schöffski, P., Jones, R. L., Agulnik, M., Cote, G. M., Villalobos, V. M., Attia, S., Chugh, R., Chen, T. W.-W., Jahan, T., Loggers, E. T., Gupta, A., Italiano, A., Demetri, G. D., Ratan, R., Davis, L. E., Mir, O., Dileo, P., Van Tine, B. A., . . . Stacchiotti, S. (2020). Tazemetostat in advanced epithelioid sarcoma with loss of INI1/SMARCB1: An international, open-label, phase 2 basket study. *The Lancet Oncology, 21*(11), 1423–1432. https://doi.org/10.1016/S1470-2045(20)30451-4（PMID: 33035459）
+
+Gounder, M. M., Mahoney, M. R., Van Tine, B. A., Ravi, V., Attia, S., Deshpande, H. A., Gupta, A. A., Milhem, M. M., Conry, R. M., Movva, S., Pishvaian, M. J., Riedel, R. F., Sabagh, T., Tap, W. D., Horvat, N., Basch, E., Schwartz, L. H., Maki, R. G., Agaram, N. P., . . . Schwartz, G. K. (2018). Sorafenib for advanced and refractory desmoid tumors. *The New England Journal of Medicine, 379*(25), 2417–2428. https://doi.org/10.1056/NEJMoa1805052（PMID: 30575484）
 
 Green, D. M., Nolan, V. G., Goodman, P. J., Whitton, J. A., Srivastava, D., Leisenring, W. M., Neglia, J. P., Sklar, C. A., Kaste, S. C., Hudson, M. M., Diller, L. R., Stovall, M., Donaldson, S. S., & Robison, L. L. (2014). The cyclophosphamide equivalent dose as an approach for quantifying alkylating agent exposure: A report from the Childhood Cancer Survivor Study. *Pediatric Blood & Cancer, 61*(1), 53–67. https://doi.org/10.1002/pbc.24679（PMID: 23940101）
 
@@ -2815,9 +2815,9 @@ Lentz, K. L., Clark, S. M., Ayarza, M., Liu, B., Morgan, K. P., Wind, L. S., & H
 
 Lewis, M. J., DuBois, S. G., Fligor, B., Li, X., Goorin, A., & Grier, H. E. (2009). Ototoxicity in children treated for osteosarcoma. *Pediatric Blood & Cancer, 52*(3), 387–391. https://doi.org/10.1002/pbc.21875（PMID: 19061216）
 
-Li, J., Deng, C., Yuan, J., Jia, H., & Peng, L. (2024). Association of CT characteristics of osteosarcoma lung metastases with spontaneous pneumothorax: A retrospective analysis. *Journal of Thoracic Disease, 16*(12), 8417–8423. https://doi.org/10.21037/jtd-24-1015（PMID: 39831258）
-
 Li, C., Dong, L., Zhu, L., & Guan, W. (2025). Diagnostic utility of LEF1 and β-catenin in WNT pathway tumors with CTNNB1 mutation. *World Journal of Surgical Oncology, 23*(1), Article 30. https://doi.org/10.1186/s12957-025-03675-8（PMID: 39881334）
+
+Li, J., Deng, C., Yuan, J., Jia, H., & Peng, L. (2024). Association of CT characteristics of osteosarcoma lung metastases with spontaneous pneumothorax: A retrospective analysis. *Journal of Thoracic Disease, 16*(12), 8417–8423. https://doi.org/10.21037/jtd-24-1015（PMID: 39831258）
 
 Lin, L.-C., Huang, W.-K., Yen, C.-C., Yang, C.-Y., Sung, M.-T., Wong, N. S., Chua, D. T. T., Lee, S. W. M., Chen, J.-S., & Yeh, C.-N. (2022). Compassionate use of ripretinib for patients with metastatic gastrointestinal stromal tumors: Taiwan and Hong Kong experience. *Frontiers in Oncology, 12*, Article 883399. https://doi.org/10.3389/fonc.2022.883399（PMID: 35847924）
 
@@ -2977,17 +2977,17 @@ van Kouswijk, H. W., van Keeken, H. G., Ploegmakers, J. J. W., Seeber, G. H., & 
 
 Villani, A., Shore, A., Wasserman, J. D., Stephens, D., Kim, R. H., Druker, H., Gallinger, B., Naumer, A., Kohlmann, W., Novokmet, A., Tabori, U., Tijerin, M., Greer, M.-L. C., Finlay, J. L., Schiffman, J. D., & Malkin, D. (2016). Biochemical and imaging surveillance in germline TP53 mutation carriers with Li-Fraumeni syndrome: 11 year follow-up of a prospective observational study. *The Lancet Oncology, 17*(9), 1295–1305. https://doi.org/10.1016/S1470-2045(16)30249-2（PMID: 27501770）
 
-Wagner, L. M., McAllister, N., Goldsby, R. E., Rausen, A. R., McNall-Knapp, R. Y., McCarville, M. B., & Albritton, K. (2007). Temozolomide and intravenous irinotecan for treatment of advanced Ewing sarcoma. *Pediatric Blood & Cancer, 48*(2), 132–139. https://doi.org/10.1002/pbc.20697（PMID: 16317751）
-
 Wagner, A. J., Ravi, V., Riedel, R. F., Ganjoo, K., Van Tine, B. A., Chugh, R., Cranmer, L., Gordon, E. M., Hornick, J. L., Du, H., Ding, L., Schmid, A. N., Navarro, W. H., Kwiatkowski, D. J., & Dickson, M. A. (2024). Phase II trial of nab-sirolimus in patients with advanced malignant perivascular epithelioid cell tumors (AMPECT): Long-term efficacy and safety update. *Journal of Clinical Oncology, 42*(13), 1472–1476. https://doi.org/10.1200/JCO.23.02266（PMID: 38427923）
 
 Wagner, A. J., Ravi, V., Riedel, R. F., Ganjoo, K., Van Tine, B. A., Chugh, R., Cranmer, L., Gordon, E. M., Hornick, J. L., Du, H., Grigorian, B., Schmid, A. N., Hou, S., Harris, K., Kwiatkowski, D. J., Desai, N. P., & Dickson, M. A. (2021). nab-Sirolimus for patients with malignant perivascular epithelioid cell tumors. *Journal of Clinical Oncology, 39*(33), 3660–3670. https://doi.org/10.1200/JCO.21.01728（PMID: 34637337）
 
 Wagner, A. J., Tap, W. D., Bauer, S., Blay, J.-Y., Desai, J., Gelderblom, H., Palmerini, E., Ryan, C. W., Peterfy, C., Healey, J. H., van de Sande, M., Qian, M., Shuster, D. E., Rajper, A., Ye, X., Tecson, K., Wooddell, M. J., & Stacchiotti, S. (2025). Long-term efficacy and safety of pexidartinib in patients with tenosynovial giant cell tumor: Final results of the ENLIVEN study. *The Oncologist, 30*(7), Article oyae345. https://doi.org/10.1093/oncolo/oyae345（PMID: 40613752）
 
-Whelan, J. S., Bielack, S. S., Marina, N., Smeland, S., Jovic, G., Hook, J. M., Krailo, M., Anninga, J., Butterfass-Bahloul, T., Böhling, T., Calaminus, G., Capra, M., Deffenbaugh, C., Dhooge, C., Eriksson, M., Flanagan, A. M., Gelderblom, H., Goorin, A., Gorlick, R., . . . Bernstein, M. (2015). EURAMOS-1, an international randomised study for osteosarcoma: Results from pre-randomisation treatment. *Annals of Oncology, 26*(2), 407–414. https://doi.org/10.1093/annonc/mdu526（PMID: 25421877）
+Wagner, L. M., McAllister, N., Goldsby, R. E., Rausen, A. R., McNall-Knapp, R. Y., McCarville, M. B., & Albritton, K. (2007). Temozolomide and intravenous irinotecan for treatment of advanced Ewing sarcoma. *Pediatric Blood & Cancer, 48*(2), 132–139. https://doi.org/10.1002/pbc.20697（PMID: 16317751）
 
 Whelan, J., Le Deley, M.-C., Dirksen, U., Le Teuff, G., Brennan, B., Gaspar, N., Hawkins, D. S., Amler, S., Bauer, S., Bielack, S., Blay, J.-Y., Burdach, S., Castex, M.-P., Dilloo, D., Eggert, A., Gelderblom, H., Gentet, J.-C., Hartmann, W., Hassenpflug, W.-A., . . . Oberlin, O. (2018). High-dose chemotherapy and blood autologous stem-cell rescue compared with standard chemotherapy in localized high-risk Ewing sarcoma: Results of Euro-E.W.I.N.G.99 and Ewing-2008. *Journal of Clinical Oncology, 36*(31), 3110–3119. https://doi.org/10.1200/JCO.2018.78.2516（PMID: 30188789）
+
+Whelan, J. S., Bielack, S. S., Marina, N., Smeland, S., Jovic, G., Hook, J. M., Krailo, M., Anninga, J., Butterfass-Bahloul, T., Böhling, T., Calaminus, G., Capra, M., Deffenbaugh, C., Dhooge, C., Eriksson, M., Flanagan, A. M., Gelderblom, H., Goorin, A., Gorlick, R., . . . Bernstein, M. (2015). EURAMOS-1, an international randomised study for osteosarcoma: Results from pre-randomisation treatment. *Annals of Oncology, 26*(2), 407–414. https://doi.org/10.1093/annonc/mdu526（PMID: 25421877）
 
 Williams, D., Crofton, P. M., & Levitt, G. (2008). Does ifosfamide affect gonadal function? *Pediatric Blood & Cancer, 50*(2), 347–351. https://doi.org/10.1002/pbc.21323（PMID: 17973323）
 

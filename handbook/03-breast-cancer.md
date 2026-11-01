@@ -2712,7 +2712,7 @@ Kalinsky, K., Barlow, W. E., Pathak, H. B., Puri, R. V., Mitra, A., Home, T., Gr
 
 Kalinsky, K., Bianchini, G., Hamilton, E., Graff, S. L., Park, K. H., Jeselsohn, R., Demirci, U., Martin, M., Layman, R. M., Hurvitz, S. A., Sammons, S., Kaufman, P. A., Muñoz, M., Lai, J.-I., Knoderer, H., Sandoval, C., Chawla, A. R., Nguyen, B., Zhou, Y., . . . Wander, S. A. (2025). Abemaciclib plus fulvestrant in advanced breast cancer after progression on CDK4/6 inhibition: Results from the phase III postMONARCH trial. *Journal of Clinical Oncology, 43*(9), 1101–1112. https://doi.org/10.1200/JCO-24-02086（PMID: 39693591）
 
-Kalinsky, K., Wander, S. A., Hamilton, E., Graff, S. L., Jeselsohn, R., Park, K. H., Demirci, U., Martin, M., Layman, R. M., Hurvitz, S. A., Sammons, S., Kaufman, P. A., Ravenberg, E., Amdur, S., Litchfield, L. M., & Bianchini, G. (2026). Overall survival from the phase III postMONARCH trial of abemaciclib plus fulvestrant versus placebo plus fulvestrant for HR-positive, HER2-negative advanced breast cancer following progression on a prior CDK4/6 inhibitor plus endocrine therapy. *Annals of Oncology*. Advance online publication. https://doi.org/10.1016/j.annonc.2026.10.1283（PMID: 42926108）
+Kalinsky, K., Wander, S. A., Hamilton, E., Graff, S. L., Jeselsohn, R., Park, K. H., Demirci, U., Martin, M., Layman, R. M., Hurvitz, S. A., Sammons, S., Kaufman, P. A., Ravenberg, E., Amdur, S., Litchfield, L. M., & Bianchini, G. (2026). Overall survival from the phase III postMONARCH trial of abemaciclib plus fulvestrant versus placebo plus fulvestrant for HR+, HER2- advanced breast cancer following progression on a prior CDK4/6 inhibitor plus endocrine therapy. *Annals of Oncology*. Advance online publication. https://doi.org/10.1016/j.annonc.2026.10.1283（PMID: 42926108）
 
 Kelly, C. M., Juurlink, D. N., Gomes, T., Duong-Hua, M., Pritchard, K. I., Austin, P. C., & Paszat, L. F. (2010). Selective serotonin reuptake inhibitors and breast cancer mortality in women receiving tamoxifen: A population based cohort study. *BMJ, 340*, Article c693. https://doi.org/10.1136/bmj.c693（PMID: 20142325）
 
@@ -2756,7 +2756,7 @@ Loibl, S., Park, Y. H., Shao, Z., Huang, C.-S., Barrios, C., Abraham, J., Prat, 
 
 Loprinzi, C. L., Kugler, J. W., Sloan, J. A., Mailliard, J. A., LaVasseur, B. I., Barton, D. L., Novotny, P. J., Dakhil, S. R., Rodger, K., Rummans, T. A., & Christensen, B. J. (2000). Venlafaxine in management of hot flashes in survivors of breast cancer: A randomised controlled trial. *The Lancet, 356*(9247), 2059–2063. https://doi.org/10.1016/S0140-6736(00)03403-6（PMID: 11145492）
 
-Lyon, A. R., López-Fernández, T., Couch, L. S., Asteggiano, R., Aznar, M. C., Bergler-Klein, J., Boriani, G., Cardinale, D., Cordoba, R., Cosyns, B., Cutter, D. J., de Azambuja, E., de Boer, R. A., Dent, S. F., Farmakis, D., Gevaert, S. A., Gorog, D. A., Herrmann, J., Lenihan, D., ... van der Pal, H. J. H. (2022). 2022 ESC guidelines on cardio-oncology developed in collaboration with the European Hematology Association (EHA), the European Society for Therapeutic Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society (IC-OS). *European Heart Journal, 43*(41), 4229–4361. https://doi.org/10.1093/eurheartj/ehac244 （PMID: 36017568）
+Lyon, A. R., López-Fernández, T., Couch, L. S., Asteggiano, R., Aznar, M. C., Bergler-Klein, J., Boriani, G., Cardinale, D., Cordoba, R., Cosyns, B., Cutter, D. J., de Azambuja, E., de Boer, R. A., Dent, S. F., Farmakis, D., Gevaert, S. A., Gorog, D. A., Herrmann, J., Lenihan, D., . . . van der Pal, H. J. H. (2022). 2022 ESC guidelines on cardio-oncology developed in collaboration with the European Hematology Association (EHA), the European Society for Therapeutic Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society (IC-OS). *European Heart Journal, 43*(41), 4229–4361. https://doi.org/10.1093/eurheartj/ehac244（PMID: 36017568）
 
 Ma, F., Yan, M., Li, W., Ouyang, Q., Tong, Z., Teng, Y., Wang, Y., Wang, S., Geng, C., Luo, T., Zhong, J., Zhang, Q., Liu, Q., Zeng, X., Sun, T., Mo, Q., Liu, H., Cheng, Y., Cheng, J., . . . Xu, B. (2023). Pyrotinib versus placebo in combination with trastuzumab and docetaxel as first line treatment in patients with HER2 positive metastatic breast cancer (PHILA): Randomised, double blind, multicentre, phase 3 trial. *BMJ, 383*, Article e076065. https://doi.org/10.1136/bmj-2023-076065（PMID: 37907210）
 
@@ -2862,9 +2862,9 @@ Slamon, D., Eiermann, W., Robert, N., Pienkowski, T., Martin, M., Press, M., Mac
 
 Slamon, D. J., Diéras, V., Rugo, H. S., Harbeck, N., Im, S.-A., Gelmon, K. A., Lipatov, O. N., Walshe, J. M., Martin, M., Chavez-MacGregor, M., Bananis, E., Gauthier, E., Lu, D. R., Kim, S., & Finn, R. S. (2024). Overall survival with palbociclib plus letrozole in advanced breast cancer. *Journal of Clinical Oncology, 42*(9), 994–1000. https://doi.org/10.1200/JCO.23.00137（PMID: 38252901）
 
-Sparano, J. A., Gray, R. J., Makower, D. F., Pritchard, K. I., Albain, K. S., Hayes, D. F., Geyer, C. E., Dees, E. C., Perez, E. A., Olson, J. A., Zujewski, J., Lively, T., Badve, S. S., Saphner, T. J., Wagner, L. I., Whelan, T. J., Ellis, M. J., Paik, S., Wood, W. C., . . . Sledge, G. W. (2015). Prospective validation of a 21-gene expression assay in breast cancer. *New England Journal of Medicine, 373*(21), 2005–2014. https://doi.org/10.1056/NEJMoa1510764（PMID: 26412349）
-
 Sparano, J. A., Gray, R. J., Makower, D. F., Pritchard, K. I., Albain, K. S., Hayes, D. F., Geyer, C. E., Dees, E. C., Goetz, M. P., Olson, J. A., Lively, T., Badve, S. S., Saphner, T. J., Wagner, L. I., Whelan, T. J., Ellis, M. J., Paik, S., Wood, W. C., Ravdin, P. M., . . . Sledge, G. W. (2018). Adjuvant chemotherapy guided by a 21-gene expression assay in breast cancer. *New England Journal of Medicine, 379*(2), 111–121. https://doi.org/10.1056/NEJMoa1804710（PMID: 29860917）
+
+Sparano, J. A., Gray, R. J., Makower, D. F., Pritchard, K. I., Albain, K. S., Hayes, D. F., Geyer, C. E., Dees, E. C., Perez, E. A., Olson, J. A., Zujewski, J., Lively, T., Badve, S. S., Saphner, T. J., Wagner, L. I., Whelan, T. J., Ellis, M. J., Paik, S., Wood, W. C., . . . Sledge, G. W. (2015). Prospective validation of a 21-gene expression assay in breast cancer. *New England Journal of Medicine, 373*(21), 2005–2014. https://doi.org/10.1056/NEJMoa1510764（PMID: 26412349）
 
 Sparano, J. A., Gray, R. J., Ravdin, P. M., Makower, D. F., Pritchard, K. I., Albain, K. S., Hayes, D. F., Geyer, C. E., Dees, E. C., Goetz, M. P., Olson, J. A., Lively, T., Badve, S. S., Saphner, T. J., Wagner, L. I., Whelan, T. J., Ellis, M. J., Paik, S., Wood, W. C., . . . Sledge, G. W. (2019). Clinical and genomic risk to guide the use of adjuvant therapy for breast cancer. *New England Journal of Medicine, 380*(25), 2395–2405. https://doi.org/10.1056/NEJMoa1904819（PMID: 31157962）
 
@@ -2926,15 +2926,15 @@ ANI Pharmaceuticals, Inc. (2026). *ARIMIDEX (anastrozole): Prescribing informati
 
 The ASCO Post. (2023, June 25). *Guideline update provides new testing and treatment recommendations for patients with ER-positive, HER2-negative metastatic breast cancer with ESR1 mutations*. https://ascopost.com/issues/june-25-2023/guideline-update-provides-new-testing-and-treatment-recommendations-for-patients-with-er-positive-her2-negative-metastatic-breast-cancer-with-esr1-mutations
 
-AstraZeneca Pharmaceuticals LP (2020). *FASLODEX (fulvestrant): Prescribing information* (effective 2020-09-25). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=83d7a440-e904-4e36-afb5-cb02b1c919f7
+AstraZeneca Pharmaceuticals LP. (2020). *FASLODEX (fulvestrant): Prescribing information* (effective 2020-09-25). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=83d7a440-e904-4e36-afb5-cb02b1c919f7
 
-AstraZeneca Pharmaceuticals LP (2025). *LYNPARZA (olaparib): Prescribing information* (effective 2025-07-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa
+AstraZeneca Pharmaceuticals LP. (2025). *LYNPARZA (olaparib): Prescribing information* (effective 2025-07-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa
 
-AstraZeneca Pharmaceuticals LP (2026a). *ETCAMAH (camizestrant): Prescribing information* (effective 2026-09-04). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c54223d3-f3c7-4186-afa0-429d84805826
+AstraZeneca Pharmaceuticals LP. (2026a). *ETCAMAH (camizestrant): Prescribing information* (effective 2026-09-04). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c54223d3-f3c7-4186-afa0-429d84805826
 
-AstraZeneca Pharmaceuticals LP (2026b). *TRUQAP (capivasertib): Prescribing information* (effective 2026-06-12). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf
+AstraZeneca Pharmaceuticals LP. (2026b). *TRUQAP (capivasertib): Prescribing information* (effective 2026-06-12). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf
 
-Bryant Ranch Prepack (2026). *Tamoxifen citrate tablets [repackager label]: Prescribing information* (effective 2026-03-19). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c0eb763-420a-4106-ba56-526b53a7f72b
+Bryant Ranch Prepack. (2026). *Tamoxifen citrate tablets [repackager label]: Prescribing information* (effective 2026-03-19). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c0eb763-420a-4106-ba56-526b53a7f72b
 
 Daiichi Sankyo, Inc. (2026a). *DATROWAY (datopotamab deruxtecan-dlnk): Prescribing information* (effective 2026-05-27). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0
 
@@ -2958,7 +2958,7 @@ Early Breast Cancer Trialists' Collaborative Group (EBCTCG). (2025). Extending t
 
 Eisai Inc. (2025). *HALAVEN (eribulin mesylate): Prescribing information* (effective 2025-11-07). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822
 
-Eugia US LLC (2026). *Dexrazoxane for injection: Prescribing information* (effective 2026-08-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cb72203a-0b09-42d5-bf51-7f479feb3adb
+Eugia US LLC. (2026). *Dexrazoxane for injection: Prescribing information* (effective 2026-08-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cb72203a-0b09-42d5-bf51-7f479feb3adb
 
 Genentech, Inc. (2026a). *HERCEPTIN (trastuzumab): Prescribing information* (effective 2026-05-29). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2
 
@@ -2972,15 +2972,15 @@ Genentech, Inc. (2026e). *PHESGO (pertuzumab, trastuzumab, and hyaluronidase-zzx
 
 Gilead Sciences, Inc. (2026). *TRODELVY (sacituzumab govitecan-hziy): Prescribing information* (effective 2026-06-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d
 
-H2-Pharma, LLC (2026). *XELODA (capecitabine): Prescribing information* (effective 2026-02-05). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5
+H2-Pharma, LLC. (2026). *XELODA (capecitabine): Prescribing information* (effective 2026-02-05). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5
 
-Lilly USA, LLC (2026a). *INLURIYO (imlunestrant): Prescribing information* (effective 2026-06-04). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bc172e4-e8a2-441a-be52-279a7f890196
+Lilly USA, LLC. (2026a). *INLURIYO (imlunestrant): Prescribing information* (effective 2026-06-04). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bc172e4-e8a2-441a-be52-279a7f890196
 
-Lilly USA, LLC (2026b). *VERZENIO (abemaciclib): Prescribing information* (effective 2026-07-13). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06
+Lilly USA, LLC. (2026b). *VERZENIO (abemaciclib): Prescribing information* (effective 2026-07-13). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06
 
-Merck Sharp & Dohme LLC (2026). *KEYTRUDA (pembrolizumab): Prescribing information* (effective 2026-07-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287
+Merck Sharp & Dohme LLC. (2026). *KEYTRUDA (pembrolizumab): Prescribing information* (effective 2026-07-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287
 
-Mylan Institutional LLC (2026). *Docetaxel injection: Prescribing information* (effective 2026-04-15). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2992d633-08fa-44f3-b14d-41700f24686b
+Mylan Institutional LLC. (2026). *Docetaxel injection: Prescribing information* (effective 2026-04-15). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2992d633-08fa-44f3-b14d-41700f24686b
 
 National Comprehensive Cancer Network. (2026a). *NCCN Clinical Practice Guidelines in Oncology: Breast cancer* (Version 9.2026). https://www.nccn.org/guidelines/category_1
 
@@ -2994,15 +2994,15 @@ National Comprehensive Cancer Network. (2026e). *NCCN Guidelines for Patients: I
 
 National Comprehensive Cancer Network. (2026f). *NCCN Guidelines for Patients: Metastatic breast cancer* (Based on NCCN Guidelines for Breast Cancer, Version 3.2026). https://www.nccn.org/patients/guidelines/content/PDF/stage_iv_breast-patient.pdf
 
-Nexus Pharmaceuticals, LLC (2026). *Cyclophosphamide injection: Prescribing information* (effective 2026-09-03). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c961a1ac-6705-4756-9abc-9d84a6fcb5c8
+Nexus Pharmaceuticals, LLC. (2026). *Cyclophosphamide injection: Prescribing information* (effective 2026-09-03). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c961a1ac-6705-4756-9abc-9d84a6fcb5c8
 
-Novartis Pharmaceuticals Corporation (2025). *PIQRAY (alpelisib): Prescribing information* (effective 2025-12-15). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b
+Novartis Pharmaceuticals Corporation. (2025). *PIQRAY (alpelisib): Prescribing information* (effective 2025-12-15). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b
 
-Novartis Pharmaceuticals Corporation (2026a). *AFINITOR (everolimus): Prescribing information* (effective 2026-06-01). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04
+Novartis Pharmaceuticals Corporation. (2026a). *AFINITOR (everolimus): Prescribing information* (effective 2026-06-01). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2150f73a-179b-4afc-b8ce-67c85cc72f04
 
-Novartis Pharmaceuticals Corporation (2026b). *FEMARA (letrozole): Prescribing information* (effective 2026-06-11). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406
+Novartis Pharmaceuticals Corporation. (2026b). *FEMARA (letrozole): Prescribing information* (effective 2026-06-11). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406
 
-Novartis Pharmaceuticals Corporation (2026c). *KISQALI (ribociclib): Prescribing information* (effective 2026-07-01). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8
+Novartis Pharmaceuticals Corporation. (2026c). *KISQALI (ribociclib): Prescribing information* (effective 2026-07-01). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8
 
 PDQ Adult Treatment Editorial Board. (2025, April 25). *Breast cancer treatment (PDQ®): Health professional version* (Tables 2–8 reprinted from the AJCC Cancer Staging Manual, 8th ed.). National Cancer Institute. Retrieved October 29, 2026, from https://www.cancer.gov/types/breast/hp/breast-treatment-pdq
 
@@ -3012,9 +3012,9 @@ Pfizer Laboratories Div Pfizer Inc. (2026b). *IBRANCE (palbociclib): Prescribing
 
 Pfizer Laboratories Div Pfizer Inc. (2026c). *TALZENNA (talazoparib): Prescribing information* (effective 2026-04-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c6fd147f-a77e-4a0b-9280-e82ecc41b4be
 
-Pharmacia & Upjohn Company LLC (2025). *AROMASIN (exemestane): Prescribing information* (effective 2025-12-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3
+Pharmacia & Upjohn Company LLC. (2025). *AROMASIN (exemestane): Prescribing information* (effective 2025-12-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3
 
-Pharmacia & Upjohn Company LLC (2026). *ELLENCE (epirubicin hydrochloride): Prescribing information* (effective 2026-07-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42
+Pharmacia & Upjohn Company LLC. (2026). *ELLENCE (epirubicin hydrochloride): Prescribing information* (effective 2026-07-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42
 
 Puma Biotechnology, Inc. (2026). *NERLYNX (neratinib): Prescribing information* (effective 2026-07-02). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d1e41dcf-e82a-47c2-a0ad-6c6eef621834
 
@@ -3032,7 +3032,7 @@ Taiwan Cancer Registry Center. (2026b, January). *Year_Breast_2023* [Data set]. 
 
 Taiwan Food and Drug Administration. (2026). *全部藥品許可證資料集* [Data set; InfoId 36; file dated 2026-10-27; downloaded 2026-10-29]. https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=36&logType=2
 
-TerSera Therapeutics LLC (2026). *ZOLADEX (goserelin): Prescribing information* (effective 2026-03-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3
+TerSera Therapeutics LLC. (2026). *ZOLADEX (goserelin): Prescribing information* (effective 2026-03-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3
 
 Teva Parenteral Medicines, Inc. (2026). *Paclitaxel injection: Prescribing information* (effective 2026-09-09). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e4be6cbf-72b9-4f7f-9b1b-459b2d35961a
 
