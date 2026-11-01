@@ -25,7 +25,7 @@
 | 晚期（IV） | 有 driver：對應標靶藥；無 driver：PD-L1 ≥50% 可單用 pembrolizumab，否則化療 ＋ 免疫 |
 | SCLC 局限期 | Cisplatin ＋ etoposide ＋ 同步胸部放療 → durvalumab 鞏固（ADRIATIC） |
 | SCLC 廣泛期 | Carboplatin ＋ etoposide ＋ atezolizumab 或 durvalumab，接著免疫維持 |
-| 健保第一線（115/10/22 版） | **EGFR**：第一線 TKI（gefitinib、erlotinib、afatinib、dacomitinib、osimertinib、aumolertinib）擇一，除耐受性不良不得互換；osimertinib 與 aumolertinib 需事前審查（每 3 個月），前四種條文不需事審；osimertinib、aumolertinib、dacomitinib 只給付 ex19del／L858R。**ALK／ROS-1**：ALK 第一線五選一，ALK 與 ROS-1 TKI 都需事審（每 3 個月）；crizotinib 的 ALK 適應症限 113/9/1 前已核准者續用。**免疫治療（9.69）**：一律事審（每次 12 週，最長 2 年）；單用需 PD-L1 TPS≧50%（atezolizumab：TC≧50% 或 IC≧10%），化療併用多數免附 PD-L1 報告。Lazertinib、sotorasib、tarlatamab 等**原文未見**。細節見[第 9 段](#9-健保給付與事前審查) |
+| 健保第一線（115/10/22 版） | **EGFR**：第一線 TKI 有六種（gefitinib、erlotinib、afatinib、dacomitinib、osimertinib、aumolertinib）；各條寫「擇一、除耐受性不良不得互換」，但 gefitinib、erlotinib、afatinib 彼此之間原文只寫「不得併用」（細節見 9.1）；osimertinib 與 aumolertinib 需事前審查（每 3 個月），前四種條文不需事審；osimertinib、aumolertinib、dacomitinib 只給付 ex19del／L858R。**ALK／ROS-1**：ALK 第一線五選一，ALK 與 ROS-1 TKI 都需事審（每 3 個月）；crizotinib 的 ALK 適應症限 113/9/1 前已核准者續用。**免疫治療（9.69）**：一律事審（每次 12 週，最長 2 年）；單用需 PD-L1 TPS≧50%（atezolizumab：TC≧50% 或 IC≧10%），化療併用多數免附 PD-L1 報告。Lazertinib、sotorasib、tarlatamab 等**原文未見**。細節見[第 9 段](#9-健保給付與事前審查) |
 
 > [!IMPORTANT]
 > **必背數字**
@@ -1219,7 +1219,7 @@ P：1. 通知主治醫師；繼續留院觀察，離院時間由主治醫師決�
 
 ## 9. 健保給付與事前審查
 
-**這一段的結論先講：** 開肺癌藥之前，先確認三件事：基因或 PD-L1 報告的來源合格嗎（通則十二）？病人的組織型、期別、線別和該條文字一字不差嗎？這條要不要事前審查、多久再送一次？第一線 EGFR TKI 與第一線 ALK TKI 都是「擇一使用，除耐受性不良不得互換」；免疫治療（9.69）一律事前審查。有藥證不等於有健保給付，章節 4.5 的新藥多數在 115/10/22 版原文找不到條文（見 9.5）。
+**這一段的結論先講：** 開肺癌藥之前，先確認三件事：基因或 PD-L1 報告的來源合格嗎（通則十二）？病人的組織型、期別、線別和該條文字一字不差嗎？這條要不要事前審查、多久再送一次？第一線 ALK TKI 是五選一、除嚴重不良反應或耐受不良不得互換；第一線 EGFR TKI 也有擇一規定，但名單各條寫法不一（見下方「擇一使用、不得互換」的原則）；免疫治療（9.69）一律事前審查。有藥證不等於有健保給付，章節 4.5 的新藥多數在 115/10/22 版原文找不到條文（見 9.5）。
 
 ### 9.0 先讀這裡：怎麼讀給付規定
 
@@ -1254,7 +1254,7 @@ P：1. 通知主治醫師；繼續留院觀察，離院時間由主治醫師決�
 
 **「擇一使用、不得互換」的原則**
 
-- **EGFR 第一線**：gefitinib、erlotinib、afatinib、dacomitinib、osimertinib、aumolertinib 和 bevacizumab ＋ erlotinib 組合，彼此只能選一種，**除因耐受性不良不得互換**。各條列出的名單略有出入（例如 9.29 erlotinib 的擇一名單沒有列 gefitinib、afatinib，這兩個藥改列在「不得併用」），合併來讀：gefitinib、erlotinib、afatinib 三者彼此之間，條文只寫「不得併用」（afatinib 另有 2.(4)：使用後除耐受性不良，不得轉換類似藥理機轉的其他 TKI）；明文的「擇一、除耐受性不良不得互換」，是這三者各自與 osimertinib、dacomitinib、aumolertinib 之間的規定，gefitinib 與 afatinib 另包含 bevacizumab ＋ erlotinib 組合。換藥前先和藥事部門確認。換藥時，必須符合新藥自己的第一線條件。
+- **EGFR 第一線**：gefitinib、erlotinib、afatinib、dacomitinib、osimertinib、aumolertinib 和 bevacizumab ＋ erlotinib 組合，各條都有「擇一、除耐受性不良不得互換」的文字，但名單不完全一致。各條列出的名單略有出入（例如 9.29 erlotinib 的擇一名單沒有列 gefitinib、afatinib，這兩個藥改列在「不得併用」），合併來讀：gefitinib、erlotinib、afatinib 三者彼此之間，條文只寫「不得併用」（afatinib 另有 2.(4)：使用後除耐受性不良，不得轉換類似藥理機轉的其他 TKI）；明文的「擇一、除耐受性不良不得互換」，是這三者各自與 osimertinib、dacomitinib、aumolertinib 之間的規定，gefitinib 與 afatinib 另包含 bevacizumab ＋ erlotinib 組合。換藥前先和藥事部門確認。換藥時，必須符合新藥自己的第一線條件。
 - **ALK 第一線**：crizotinib、ceritinib、alectinib、brigatinib、lorlatinib 五選一，除嚴重不良反應或耐受不良外不得互換。
 - **ROS-1**：crizotinib 與 entrectinib 擇一，條件同上。
 - **免疫治療**：每位病人每個適應症限給付一種免疫檢查點抑制劑，不得互換。
