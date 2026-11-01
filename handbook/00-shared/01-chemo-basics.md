@@ -1277,9 +1277,9 @@ H2-Pharma. (2026). *Xeloda (capecitabine) tablets* [Package insert]. DailyMed. h
 
 Henricks, L. M., Lunenburg, C. A. T. C., de Man, F. M., Meulendijks, D., Frederix, G. W. J., Kienhuis, E., Creemers, G.-J., Baars, A., Dezentjé, V. O., Imholz, A. L. T., Jeurissen, F. J. F., Portielje, J. E. A., Jansen, R. L. H., Hamberg, P., Ten Tije, A. J., Droogendijk, H. J., Koopman, M., Nieboer, P., van de Poel, M. H. W., . . . Schellens, J. H. M. (2018). DPYD genotype-guided dose individualisation of fluoropyrimidine therapy in patients with cancer: A prospective safety analysis. *The Lancet Oncology, 19*(11), 1459–1467. https://doi.org/10.1016/S1470-2045(18)30686-7（PMID: 30348537）
 
-Hensley, M. L., Hagerty, K. L., Kewalramani, T., Green, D. M., Meropol, N. J., Wasserman, T. H., Cohen, G. I., Emami, B., Gradishar, W. J., Mitchell, R. B., Thigpen, J. T., Trotti, A., von Hoff, D., & Schuchter, L. M. (2009). American Society of Clinical Oncology 2008 clinical practice guideline update: Use of chemotherapy and radiation therapy protectants. *Journal of Clinical Oncology, 27*(1), 127–145. https://doi.org/10.1200/JCO.2008.17.2627（PMID: 19018081）
+Hensley, M. L., Hagerty, K. L., Kewalramani, T., Green, D. M., Meropol, N. J., Wasserman, T. H., Cohen, G. I., Emami, B., Gradishar, W. J., Mitchell, R. B., Thigpen, J. T., Trotti, A., III, von Hoff, D., & Schuchter, L. M. (2009). American Society of Clinical Oncology 2008 clinical practice guideline update: Use of chemotherapy and radiation therapy protectants. *Journal of Clinical Oncology, 27*(1), 127–145. https://doi.org/10.1200/JCO.2008.17.2627（PMID: 19018081）
 
-Hensley, M. L., Schuchter, L. M., Lindley, C., Meropol, N. J., Cohen, G. I., Broder, G., Gradishar, W. J., Green, D. M., Langdon, R. J., Mitchell, R. B., Negrin, R., Szatrowski, T. P., Thigpen, J. T., Von Hoff, D., Wasserman, T. H., Winer, E. P., & Pfister, D. G. (1999). American Society of Clinical Oncology clinical practice guidelines for the use of chemotherapy and radiotherapy protectants. *Journal of Clinical Oncology, 17*(10), 3333–3355. https://doi.org/10.1200/JCO.1999.17.10.3333（PMID: 10506637）
+Hensley, M. L., Schuchter, L. M., Lindley, C., Meropol, N. J., Cohen, G. I., Broder, G., Gradishar, W. J., Green, D. M., Langdon, R. J., Jr., Mitchell, R. B., Negrin, R., Szatrowski, T. P., Thigpen, J. T., Von Hoff, D., Wasserman, T. H., Winer, E. P., & Pfister, D. G. (1999). American Society of Clinical Oncology clinical practice guidelines for the use of chemotherapy and radiotherapy protectants. *Journal of Clinical Oncology, 17*(10), 3333–3355. https://doi.org/10.1200/JCO.1999.17.10.3333（PMID: 10506637）
 
 Hikma. (2026). *Methylene blue injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4f222ee5-df03-46d5-a060-c63565b7186f（版本日期 2026-02-09）
 
@@ -1307,9 +1307,9 @@ Lentz, K. L., Clark, S. M., Ayarza, M., Liu, B., Morgan, K. P., Wind, L. S., & H
 
 Liu, C.-Y., Chen, P.-M., Chiou, T.-J., Liu, J.-H., Lin, J.-K., Lin, T.-C., Chen, W.-S., Jiang, J.-K., Wang, H.-S., & Wang, W.-S. (2008). UGT1A1\*28 polymorphism predicts irinotecan-induced severe toxicities without affecting treatment outcome and survival in patients with metastatic colorectal carcinoma. *Cancer, 112*(9), 1932–1940. https://doi.org/10.1002/cncr.23370（PMID: 18300238）
 
-López-Briz, E., Ruiz Garcia, V., Cabello, J. B., Bort-Martí, S., & Carbonell Sanchis, R. (2022). Heparin versus 0.9% sodium chloride locking for prevention of occlusion in central venous catheters in adults. *Cochrane Database of Systematic Reviews, 2022*(7), Article CD008462. https://doi.org/10.1002/14651858.CD008462.pub4（PMID: 35849083）
-
 Lo, Y., Shen, L.-J., Chen, W.-H., Dong, Y.-H., & Wu, F.-L. L. (2016). Risk factors of ifosfamide-related encephalopathy in adult patients with cancer: A retrospective analysis. *Journal of the Formosan Medical Association, 115*(9), 744–751. https://doi.org/10.1016/j.jfma.2015.07.016（PMID: 26302952）
+
+López-Briz, E., Ruiz Garcia, V., Cabello, J. B., Bort-Martí, S., & Carbonell Sanchis, R. (2022). Heparin versus 0.9% sodium chloride locking for prevention of occlusion in central venous catheters in adults. *Cochrane Database of Systematic Reviews, 2022*(7), Article CD008462. https://doi.org/10.1002/14651858.CD008462.pub4（PMID: 35849083）
 
 McDonnell, A. M., Rybak, I., Wadleigh, M., & Fisher, D. C. (2012). Suspected serotonin syndrome in a patient being treated with methylene blue for ifosfamide encephalopathy. *Journal of Oncology Pharmacy Practice, 18*(4), 436–439. https://doi.org/10.1177/1078155211433231（PMID: 22235061）
 
@@ -1319,7 +1319,7 @@ Meitheal. (2026). *Bleomycin for injection* [Package insert]. DailyMed. https://
 
 Mermel, L. A., Allon, M., Bouza, E., Craven, D. E., Flynn, P., O'Grady, N. P., Raad, I. I., Rijnders, B. J. A., Sherertz, R. J., & Warren, D. K. (2009). Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 update by the Infectious Diseases Society of America. *Clinical Infectious Diseases, 49*(1), 1–45. https://doi.org/10.1086/599376（PMID: 19489710）
 
-Mosteller, R. D. (1987). Simplified calculation of body-surface area. *New England Journal of Medicine, 317*(17), 1098. https://doi.org/10.1056/NEJM198710223171717（PMID: 3657876）
+Mosteller, R. D. (1987). Simplified calculation of body-surface area. *The New England Journal of Medicine, 317*(17), 1098. https://doi.org/10.1056/NEJM198710223171717（PMID: 3657876）
 
 Mouridsen, H. T., Langer, S. W., Buter, J., Eidtmann, H., Rosti, G., de Wit, M., Knoblauch, P., Rasmussen, A., Dahlstrøm, K., Jensen, P. B., & Giaccone, G. (2007). Treatment of anthracycline extravasation with Savene (dexrazoxane): Results from two prospective clinical multicentre studies. *Annals of Oncology, 18*(3), 546–550. https://doi.org/10.1093/annonc/mdl413（PMID: 17185744）
 

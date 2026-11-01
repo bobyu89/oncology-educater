@@ -1295,7 +1295,7 @@ Arnold, D. T., De Fonseka, D., Perry, S., Morley, A., Harvey, J. E., Medford, A.
 
 Babakhanlou, R., Ravandi-Kashani, F., & Kontoyiannis, D. P. (2023). Neutropenic enterocolitis: An uncommon, but fearsome complication of leukemia. *Journal of Hematology, 12*(2), 59–65. https://doi.org/10.14740/jh1105（PMID: 37187499）
 
-Banerji, A., Lax, T., Guyer, A., Hurwitz, S., Camargo, C. A., & Long, A. A. (2014). Management of hypersensitivity reactions to carboplatin and paclitaxel in an outpatient oncology infusion center: A 5-year review. *Journal of Allergy and Clinical Immunology: In Practice, 2*(4), 428–433. https://doi.org/10.1016/j.jaip.2014.04.010（PMID: 25017531）
+Banerji, A., Lax, T., Guyer, A., Hurwitz, S., Camargo, C. A., Jr., & Long, A. A. (2014). Management of hypersensitivity reactions to carboplatin and paclitaxel in an outpatient oncology infusion center: A 5-year review. *Journal of Allergy and Clinical Immunology: In Practice, 2*(4), 428–433. https://doi.org/10.1016/j.jaip.2014.04.010（PMID: 25017531）
 
 Bhatnagar, R., Keenan, E. K., Morley, A. J., Kahan, B. C., Stanton, A. E., Haris, M., Harrison, R. N., Mustafa, R. A., Bishop, L. J., Ahmed, L., West, A., Holme, J., Evison, M., Munavvar, M., Sivasothy, P., Herre, J., Cooper, D., Roberts, M., Guhan, A., . . . Maskell, N. A. (2018). Outpatient talc administration by indwelling pleural catheter for malignant effusion. *New England Journal of Medicine, 378*(14), 1313–1322. https://doi.org/10.1056/NEJMoa1716883（PMID: 29617585）
 
@@ -1437,7 +1437,7 @@ Wahidi, M. M., Reddy, C., Yarmus, L., Feller-Kopman, D., Musani, A., Shepherd, R
 
 Walbert, T., Harrison, R. A., Schiff, D., Avila, E. K., Chen, M., Kandula, P., Lee, J. W., Le Rhun, E., Stevens, G. H. J., Vogelbaum, M. A., Wick, W., Weller, M., Wen, P. Y., & Gerstner, E. R. (2021). SNO and EANO practice guideline update: Anticonvulsant prophylaxis in patients with newly diagnosed brain tumors. *Neuro-Oncology, 23*(11), 1835–1844. https://doi.org/10.1093/neuonc/noab152 （PMID: 34174071）
 
-Weiss, R. B., Donehower, R. C., Wiernik, P. H., Ohnuma, T., Gralla, R. J., Trump, D. L., Baker, J. R., Van Echo, D. A., Von Hoff, D. D., & Leyland-Jones, B. (1990). Hypersensitivity reactions from taxol. *Journal of Clinical Oncology, 8*(7), 1263–1268. https://doi.org/10.1200/JCO.1990.8.7.1263（PMID: 1972736）
+Weiss, R. B., Donehower, R. C., Wiernik, P. H., Ohnuma, T., Gralla, R. J., Trump, D. L., Baker, J. R., Jr., Van Echo, D. A., Von Hoff, D. D., & Leyland-Jones, B. (1990). Hypersensitivity reactions from taxol. *Journal of Clinical Oncology, 8*(7), 1263–1268. https://doi.org/10.1200/JCO.1990.8.7.1263（PMID: 1972736）
 
 Wilson, L. D., Detterbeck, F. C., & Yahalom, J. (2007). Superior vena cava syndrome with malignant causes. *New England Journal of Medicine, 356*(18), 1862–1869. https://doi.org/10.1056/NEJMcp067190 （PMID: 17476012）
 
