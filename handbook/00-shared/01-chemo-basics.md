@@ -245,7 +245,7 @@ CrCl = 4,992 ÷ (72 × 0.5) = 4,992 ÷ 36 ≈ 138.7 mL/min → **超過 125，�
 | 情況 | 常見處理 |
 |------|---------|
 | 下一週期開始時血球未恢復 | 延後 1 週再評估（ANC、PLT 恢復到門檻） |
-| 前一週期發生 Grade 4 嗜中性球低下（ANC < 500/µL，部分仿單要求持續 > 7 天）、Grade 3–4 血小板低下（< 50,000/µL）或發燒性嗜中性球低下（無併發症的 Grade 3 嗜中性球低下，多數仿單不要求減量） | 下一週期減一個劑量等級（常見為減 20–25%），或在治癒目標下加上 G-CSF 次級預防 |
+| 前一週期發生 Grade 4 嗜中性球低下（ANC < 500/µL，部分仿單要求持續 > 7 天；本列的嗜中性球 Grade 是 CTCAE v5.0 的分級，v6.0 的 Grade 3 為 ANC < 500–100/µL、Grade 4 為 < 100/µL，請以 ANC 數值為準）、Grade 3–4 血小板低下（< 50,000/µL）或發燒性嗜中性球低下（無併發症的 Grade 3 嗜中性球低下，多數仿單不要求減量） | 下一週期減一個劑量等級（常見為減 20–25%），或在治癒目標下加上 G-CSF 次級預防 |
 | 非血液毒性 Grade 3–4（如腹瀉、口腔黏膜炎、神經病變） | 暫停至 ≤ Grade 1，再以較低劑量恢復；部分毒性（如嚴重神經病變）需停用該藥 |
 | 已減量 | 一般不再往回加量（re-escalation），除非 protocol 允許 |
 
@@ -281,9 +281,18 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 > **院內若已改用 v6.0**
 > 部分醫院或新開的臨床試驗可能已改用 v6.0，請依院內規範或試驗 protocol 指定的版本記錄。
 
-> [!CAUTION]
-> **待核對：v6.0 細項門檻**
-> 本手冊尚未逐項比對 v6.0 Excel 檔的所有門檻；下表數值為 v5.0。若院內已採 v6.0，請以 NCI 官方 v6.0 檔案及其 v5.0–v6.0 對照表為準。
+> [!WARNING]
+> **v6.0 與下表（v5.0）不同的項目**
+> 以下依 NCI CTEP 的 CTCAE v6.0 Excel 檔（含 v5.0 對照表）與 Quick Reference PDF，逐項對照 8.2、8.3 所列項目（NCI CTEP, 2025）。院內若已改用 v6.0，下列項目不能直接用下表分級：
+> - **嗜中性球減少**：v6.0 Grade 1 為 < 1,500–1,000、Grade 2 為 < 1,000–500、Grade 3 為 < 500–100、Grade 4 為 < 100/µL。同一個 ANC，v6.0 的 Grade 常比 v5.0 小一級（例如 ANC 400/µL：v5.0 為 Grade 4，v6.0 為 Grade 3）。
+> - **血小板**：v6.0 改用「Thrombocytopenia」一詞（v5.0 的 platelet count decreased 在對照表標為刪除）。Grade 3 為 < 50,000–10,000/µL 或需輸血，Grade 4 為 < 10,000/µL 或危及生命（v5.0 為 < 50,000–25,000 與 < 25,000）；Grade 1–2 不變。
+> - **斑丘疹**：v6.0 Grade 1 為無症狀、Grade 2 為輕度症狀、Grade 3 為 > 50% BSA 或中重度症狀、Grade 4 危及生命、Grade 5 死亡。不再用 < 10%、10–30% 的 BSA 分界，並新增 Grade 4、5。
+> - **腹瀉**：v6.0 Grade 1 改為排便性狀或次數改變，不再寫「每日增加 < 4 次」；Grade 3 新增「需靜脈處置」；Grade 2 的 4–6 次與 Grade 3 的 ≥ 7 次不變。
+> - **周邊感覺神經病變**：v6.0 Grade 1 由「無症狀」改為「輕度症狀」。
+> - **ALT／AST／膽紅素**：基線正常者的倍數與下表相同；基線已高於 ULN 者，v6.0 的基線倍數門檻改寫（例如 ALT／AST Grade 1，v5.0 為 1.5–3.0 倍基線，v6.0 為 1.0–1.5 倍基線）。
+> - **肌酸酐上升**：各級倍數與 v5.0 相同；v6.0 明訂基線倍數只適用於基線低於 LLN 者（見上文 8.1 的例子）。
+> - **實質內容未變**：貧血（僅單位前空格的格式修正）、發燒性嗜中性球低下（ANC < 1,000/µL 合併發燒）、口腔黏膜炎、嘔吐（措辭澄清）、肺炎（pneumonitis，僅新增兒童條文）。8.2 的通用分級定義也只新增兒童日常活動條文。
+> 8.2、8.3 以外的 CTCAE 項目（例如各癌別章引用的）不在這次對照範圍，請依 NCI 官方 v6.0 檔案確認。
 
 ### 8.2 通用分級定義（v5.0）
 
@@ -334,9 +343,9 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 | 刺激劑（irritant） | 疼痛、發炎、靜脈炎，大量外滲偶可壞死 | Platinum（cisplatin、carboplatin、oxaliplatin）、etoposide、irinotecan、topotecan、5-FU、dacarbazine、ifosfamide |
 | 非發泡劑 | 一般不造成組織傷害 | 多數單株抗體、methotrexate、pemetrexed、gemcitabine、cyclophosphamide 等 |
 
-> [!CAUTION]
-> **待核對：發泡劑與刺激劑的分類在不同文獻並不一致**
-> Paclitaxel、docetaxel、oxaliplatin 在不同參考資料中被歸為發泡劑或刺激劑。本表參考 ESMO-EONS 2012 的分類架構（Pérez Fidalgo et al., 2012），因未能取得原文全文逐項核對，請以院內藥劑部公告的發泡劑清單為準。
+> [!NOTE]
+> **發泡劑與刺激劑的分類各指引不一致，以院內清單為準**
+> 上表已逐項對照 ESMO-EONS 2012 的 Table 1（Pérez Fidalgo et al., 2012），所列藥物的分類與原表一致：docetaxel 與 paclitaxel 在原表屬發泡劑（taxanes，非 DNA 結合），oxaliplatin 屬刺激劑。原表以註腳說明 docetaxel 與 oxaliplatin「單一病例報告同時描述過刺激劑與發泡劑特性」。日本三個學會（Japanese Society of Cancer Nursing、Japanese Society of Medical Oncology、Japanese Society of Pharmaceutical Oncology）2024 年的指引指出各指引的分類並不一致，並以系統性回顧把 oxaliplatin、docetaxel、paclitaxel 等歸為發泡劑（Matsumoto et al., 2024）。所以不要只憑本表判斷外滲風險；oxaliplatin、docetaxel、paclitaxel 外滲時，依院內藥劑部公告的發泡劑清單與外滲處置包處理。
 
 ### 9.2 處置流程
 
@@ -443,7 +452,7 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 | 藥物 | 仿單與文獻的累積劑量警示 | 補充 |
 |------|----------------------|------|
 | Doxorubicin | 心肌病變機率（每 3 週給藥）：300 mg/m² 約 1–2%、400 約 3–5%、450 約 5–8%、500 約 6–20%（Pfizer, 2026a）。回溯分析估計 550 mg/m² 時充血性心衰竭約 26%，且 > 65 歲在 400 mg/m² 後風險更高（Swain et al., 2003） | 肉瘤常見的 6 個週期 × 75 mg/m² 剛好是 450 mg/m²。縱隔腔放療與 cyclophosphamide、trastuzumab 併用會加乘風險 |
-| Epirubicin | 心肌病變：550 mg/m² 約 0.9%、700 約 1.6%、900 約 3.3%；累積 900 mg/m² 應盡量避免（Pharmacia & Upjohn, 2026b） | 不同 anthracycline 的累積劑量要換算相加，但換算係數本手冊未取得可靠原文，見下方待核對 |
+| Epirubicin | 心肌病變：550 mg/m² 約 0.9%、700 約 1.6%、900 約 3.3%；累積 900 mg/m² 應盡量避免（Pharmacia & Upjohn, 2026b） | 不同 anthracycline 的累積劑量要換算相加，但成人的換算係數本手冊未取得可靠原文，兒童資料與限制見下方待核對框 |
 | Daunorubicin | 成人累積劑量超過 400–550 mg/m² 後心肌毒性增加；兒童 2 歲以上為 300 mg/m²（Hisun, 2026） | 縱隔腔放療後耐受上限更低 |
 | Idarubicin | 成人累積劑量超過 90 mg/m² 後充血性心衰竭機率上升（Pfizer, 2026b） | 要把過去用過的其他 anthracycline 與 anthracenedione 一起算入 |
 | Mitoxantrone | 癌症病人累積劑量最多 140 mg/m² 時，有症狀心衰竭風險估計 2.6%；多發性硬化症病人不可超過 140 mg/m²（Hospira, 2025） | 治療後仍需追蹤 LVEF |
@@ -452,8 +461,9 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 | Ifosfamide | 兒童研究：總劑量維持在 84 g/m² 以下可降低（不是消除）腎毒性，超過 119 g/m² 風險很高（Skinner et al., 2000） | 成人沒有對應的標準上限；腎小管損傷可在治療後數月甚至數年才出現 |
 
 > [!CAUTION]
-> **待核對：anthracycline 之間的累積劑量換算**
-> 本手冊沒有取得 epirubicin 與 doxorubicin（或 daunorubicin、idarubicin）之間可靠的等效換算係數，所以上表是各藥各自的仿單警示，不可自行用某個「係數」把不同藥物加總。病人曾用過其他 anthracycline 時，請由主治醫師與藥劑部依院內規範換算並記錄累積劑量。
+> **待核對：成人 anthracycline 之間的累積劑量換算**
+> 本手冊目前查到的 doxorubicin 等效換算係數，來自兒童癌症存活者的研究。以嚴重（含危及生命或致死）的晚期心肌病變為指標，相對於 doxorubicin 的等效比值為 daunorubicin 0.6（95% CI 0.4–1.0）、epirubicin 0.8（95% CI 0.5–2.8）、mitoxantrone 10.5（95% CI 6.2–19.1）；idarubicin 因事件太少無法估計。兒童腫瘤治療常假設血液毒性等效就是心毒性等效，例如 Children's Oncology Group 的替代規則視 daunorubicin 與 epirubicin 等同 doxorubicin、mitoxantrone 與 idarubicin 為 4 至 5 倍；該研究認為 mitoxantrone 的 4 倍明顯低估（Feijen et al., 2019）。
+> 這些數字來自兒童時期診斷的病人（診斷年齡中位數 6.1 歲），epirubicin 的信賴區間很寬；本手冊沒有取得成人族群、仿單或指引明訂的換算係數，所以仍不提供成人換算表。上表是各藥各自的仿單警示，不可自行用某個「係數」把不同藥物加總。病人曾用過其他 anthracycline 時，請由主治醫師與藥劑部依院內規範換算並記錄累積劑量。
 
 > [!WARNING]
 > **心臟毒性監測用同一種方法**
@@ -599,8 +609,9 @@ Mesna：與 ifosfamide 同時 IV bolus，劑量為當日 ifosfamide 劑量的 20
 - **Sacituzumab govitecan**（Trodelvy）：\*28／\*28 同型合子的嚴重嗜中性球低下（Grade 3–4）57%、\*1／\*28 為 48%、\*1／\*1 為 41%；仿單未訂基因型起始劑量，需密切監測（Gilead, 2026）。
 
 > [!CAUTION]
-> **待核對：東亞常見的 UGT1A1 變異與 sacituzumab govitecan 毒性、台灣檢測供給**
-> 目前查到的 sacituzumab govitecan 資料以 \*28 為主，\*6（東亞常見）對其毒性的影響本手冊未查到原文。台灣的 UGT1A1 檢測供給與給付也未核對：115/10/22 版藥品給付規定全文搜尋 UGT1A1 沒有結果（原文未見／無健保給付）；基因檢測屬《醫療服務給付項目及支付標準》範疇，請向檢驗部確認。
+> **待核對：UGT1A1\*6 帶因者的 sacituzumab govitecan 劑量處置、台灣檢測供給**
+> 已查到：美國仿單的嗜中性球低下與藥物基因體學段落只討論 \*28，沒有 \*6（Gilead, 2026）；整合 4 個臨床試驗、999 位病人的統合分析只針對 \*28，作者說明是因資料量而聚焦在 \*28，未能評估其他變異（Dello Russo et al., 2026）。東亞資料見於合併安全性分析：EVER-132-001、EVER-132-002 與 ASCENT-J02 三項亞洲試驗（281 位）中，\*1/\*6 異型合子的 Grade ≥ 3 治療中出現的不良事件（TEAE）比例高於 \*1/\*1（86% 對 72%），嗜中性球低下、腹瀉與貧血的比例也較高，febrile neutropenia 則相近；這是描述性比較、各基因型人數有限，作者也說難以區分基因與其他因素的影響（Rugo et al., 2026）。日本 ASCENT-J02 第 1 期 10 mg/kg 組 9 位中有 3 位帶 \*28 或 \*6，作者報告不同基因型的安全性沒有明顯差異，但人數極少，主文也沒有把 \*6 單獨列出（Naito et al., 2024）。
+> 仍未核對：\*6 帶因者（特別是同型合子）是否需要調整起始劑量，仿單沒有基因型劑量規定，本手冊也未查到以 \*6 為對象的劑量研究。台灣的 UGT1A1 檢測供給與給付也未核對：115/10/22 版藥品給付規定全文搜尋 UGT1A1 沒有結果（原文未見／無健保給付）；基因檢測屬《醫療服務給付項目及支付標準》範疇，請向檢驗部確認。
 
 ### 12.3 其他基因：NUDT15／TPMT、G6PD、HLA
 
@@ -648,8 +659,10 @@ Mesna：與 ifosfamide 同時 IV bolus，劑量為當日 ifosfamide 劑量的 20
 > 最常漏掉的是「談了卻沒記錄」或「根本沒談」：ASCO 要求諮詢內容要記錄在病歷（Oktay et al., 2018）。急需治療而來不及保存生育力的病人，指引仍保留治療後的保存選項（post-treatment fertility preservation），要在存活期追蹤時再談；需要緊急治療的女性病人，GnRHa 可用於抑制月經（Su et al., 2025）。
 
 > [!CAUTION]
-> **待核對：台灣的生育力保存給付與轉介路徑**
-> 115/10/22 版《藥品給付規定》全文搜尋「生育」沒有結果，第 9 節未見以保存生育力為適應症的藥品條文（原文未見／無健保給付）；取卵、冷凍保存等醫療服務的給付與補助政策不在本手冊取得的資料內，請向院內個案管理師或生殖醫學科確認。
+> **待核對：台灣的生育力保存補助與轉介路徑（官方公告全文未取得）**
+> 健保：115/10/22 版《藥品給付規定》全文搜尋「生育」、取卵、卵子、精子都沒有結果，第 9 節未見以保存生育力為適應症的藥品條文（原文未見／無健保給付）。
+> 國健署補助（非健保給付）：據中央社（2025-08-29）、健康醫療網（2026-09-18）與自由時報（2026-10-15）報導，衛福部國民健康署自 2025-09-01 起試辦「醫療性生育保存補助」，對象是本國籍、18–40 歲的乳癌或血液癌（白血病、淋巴癌、多發性骨髓瘤）病人；取卵療程每次補助上限 7 萬元，取精處置保存每次上限 8,000 元，每人終生 2 次。自由時報報導，上路首年有 215 人通過資格審查；199 家參與癌症登記的醫院中，只有 39 家是特約人工生殖機構；其他癌別目前不在範圍，國健署表示放寬範圍尚無明確時程。
+> 仍未核對：國健署官方公告全文（網站擋自動存取，本手冊只讀到新聞報導）、現行條件是否已調整、申請與轉介的實際流程、長期冷凍保存費用與卵巢組織冷凍是否補助。實際資格請向院內個案管理師或生殖醫學科確認。
 
 ---
 
@@ -865,7 +878,7 @@ Premedication：___（時間點）；支持性用藥（止吐、G-CSF 等）：_
 
 - **抑酸劑（PPI、H2 阻斷劑）**：吸收依賴胃酸的口服標靶藥（如 gefitinib、erlotinib 等）暴露量會降低，要避免或錯開時間（Budha et al., 2012；各藥時間見肺癌章 5.4）。Gefitinib 仿單建議可能的話避免與 PPI 併用（AstraZeneca, 2023）。
 - **CYP3A4**：osimertinib 要避免強效 CYP3A4 誘導劑，無法避免時加到 160 mg 每日，停誘導劑後 3 週再回到 80 mg（AstraZeneca, 2026）；gefitinib 併用強效誘導劑（如 rifampicin）時，在沒有嚴重藥物不良反應的前提下加到 500 mg 每日，停用誘導劑 7 天後回到 250 mg（AstraZeneca, 2023）；**lorlatinib 禁止與強效 CYP3A 誘導劑併用**，因為可能造成嚴重肝毒性（Pfizer, 2026c）。Carbamazepine、phenytoin、rifampin、St John's wort 都是常被漏掉的誘導劑。
-- **Capecitabine**：與 warfarin 併用出血風險（加框，要更常監測 INR）；避免併用 allopurinol；含 folic acid 或葉酸類似物的產品除非醫師指示否則不要吃（H2-Pharma, 2026）。PPI 與 capecitabine 的關聯來自觀察性研究：回溯研究與 2025 年統合分析（676 位大腸癌病人）顯示併用 PPI 與較差的無復發存活有關（Sun et al., 2016; de Moraes et al., 2025），但美國仿單未把 PPI 列為交互作用，這是觀察性證據，無法據此要求所有病人停 PPI；可行時避免不必要的 PPI。
+- **Capecitabine**：與 warfarin 併用出血風險（加框，要更常監測 INR）；避免併用 allopurinol；含 folic acid 或葉酸類似物的產品除非醫師指示否則不要吃（H2-Pharma, 2026）。PPI 與 capecitabine 的關聯來自觀察性研究：回溯研究與 2025 年統合分析（676 位大腸癌病人）顯示併用 PPI 與較差的無復發存活有關（Sun et al., 2016; de Moraes et al., 2025），但美國仿單未把 PPI 列為交互作用，各研究結果也不一致：晚期 HER2 陽性胃食道癌 TRIO-013/LOGiC 試驗的事後分析中，CapeOx 加 placebo 組使用 PPI 者 PFS 較短（HR 1.55）（Chu et al., 2017）；6 個晚期大腸癌 RCT 的個別病人資料合併分析（5,594 位）顯示 PPI 與較差 OS 有關（pooled HR 1.20，95% CI 1.03–1.40），作者指出關聯在多數治療亞組（亞組分析含 capecitabine 對 5-FU）相似（Kichenadasse et al., 2021）；AXEPT 事後分析的交互作用，主要來自 5-FU 組使用 PPI 者存活較好，而不是 capecitabine 組較差（Kim et al., 2021）；BC Cancer 的交互作用機率評估認為這個交互作用的發生機率可疑（doubtful），與制酸劑（antacid）併用的藥動學研究也未見血中 capecitabine 濃度明顯下降（Cheng et al., 2019）。這些多是觀察性或事後分析證據，無法據此要求所有病人停 PPI；可行時確認 PPI 是否必要並避免不必要的使用，是否調整請與主治醫師與藥劑部討論。
 - **食物**：capecitabine 餐後 30 分鐘內服用；regorafenib 在低脂餐（< 600 kcal、脂肪 < 30%）後服用（H2-Pharma, 2026; Bayer, 2026）；其他標靶藥的空腹或隨餐規定見肺癌章 5.4 的表格。
 
 > [!IMPORTANT]
@@ -878,8 +891,8 @@ Premedication：___（時間點）；支持性用藥（止吐、G-CSF 等）：_
 > 6. 追蹤時程與下次回診日。
 
 > [!CAUTION]
-> **待核對：口服抗癌藥的細節**
-> 本節的漏服、嘔吐與管灌資料來自所列藥物的美國仿單，台灣核准仿單、藥廠衛教單與院內藥劑部規範可能不同；沒有列出的藥物（例如 S-1／TS-1、abemaciclib、palbociclib 的台灣規定）請逐藥查證。Capecitabine 與 PPI 的交互作用在不同研究結果不一致，建議的處置請與主治醫師與藥劑部討論。
+> **待核對：台灣仿單與未列入表格的口服抗癌藥**
+> 本節的漏服、嘔吐與管灌資料來自所列藥物的美國仿單，台灣核准仿單、藥廠衛教單與院內藥劑部規範本手冊未核對，可能不同；沒有列出的藥物（例如 S-1／TS-1、abemaciclib、palbociclib）的漏服、嘔吐與管灌規定本手冊未查，請逐藥查證。
 
 ---
 
@@ -1229,6 +1242,10 @@ Carson, J. L., Stanworth, S. J., Guyatt, G., Valentine, S., Dennis, J., Bakhtary
 
 Chang, T. C., Shiah, H. S., Yang, C. H., Yeh, K. H., Cheng, A. L., Shen, B. N., Wang, Y. W., Yeh, C. G., Chiang, N. J., Chang, J. Y., & Chen, L. T. (2015). Phase I study of nanoliposomal irinotecan (PEP02) in advanced solid tumor patients. *Cancer Chemotherapy and Pharmacology, 75*(3), 579–586. https://doi.org/10.1007/s00280-014-2671-x（PMID: 25577133）
 
+Cheng, V., de Lemos, M., Hunter, N., Badry, N., & de Lemos, J. (2019). Concomitant use of capecitabine and proton pump inhibitors: Is it safe? *Journal of Oncology Pharmacy Practice, 25*(7), 1705–1711. https://doi.org/10.1177/1078155219846952（PMID: 31081468）
+
+Chu, M. P., Hecht, J. R., Slamon, D., Wainberg, Z. A., Bang, Y.-J., Hoff, P. M., Sobrero, A., Qin, S., Afenjar, K., Houe, V., King, K., Koski, S., Mulder, K., Hiller, J. P., Scarfe, A., Spratlin, J., Huang, Y. J., Khan-Wasti, S., Chua, N., & Sawyer, M. B. (2017). Association of proton pump inhibitors and capecitabine efficacy in advanced gastroesophageal cancer: Secondary analysis of the TRIO-013/LOGiC randomized clinical trial. *JAMA Oncology, 3*(6), 767–773. https://doi.org/10.1001/jamaoncol.2016.3358（PMID: 27737436）
+
 CNX Therapeutics. (2024). *Savene 20 mg/ml powder and solvent for concentrate for solution for infusion* [Summary of product characteristics]. electronic medicines compendium (emc). https://www.medicines.org.uk/emc/product/100135/smpc（修訂日期 2024-10-01）
 
 Cockcroft, D. W., & Gault, M. H. (1976). Prediction of creatinine clearance from serum creatinine. *Nephron, 16*(1), 31–41. https://doi.org/10.1159/000180580（PMID: 1244564）
@@ -1236,6 +1253,8 @@ Cockcroft, D. W., & Gault, M. H. (1976). Prediction of creatinine clearance from
 Daiichi Sankyo. (2026). *Enhertu (fam-trastuzumab deruxtecan-nxki) for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6（版本日期 2026-05-15）
 
 Dale, W., Klepin, H. D., Williams, G. R., Alibhai, S. M. H., Bergerot, C., Brintzenhofeszoc, K., Hopkins, J. O., Jhawer, M. P., Katheria, V., Loh, K. P., Lowenstein, L. M., McKoy, J. M., Noronha, V., Phillips, T., Rosko, A. E., Ruegg, T., Schiaffino, M. K., Simmons, J. F., Jr., Subbiah, I., . . . Mohile, S. G. (2023). Practical assessment and management of vulnerabilities in older patients receiving systemic cancer therapy: ASCO guideline update. *Journal of Clinical Oncology, 41*(26), 4293–4312. https://doi.org/10.1200/JCO.23.00933（PMID: 37459573）
+
+Dello Russo, C., Asiimwe, I. G., Pushpakom, S., Palmieri, C., & Pirmohamed, M. (2026). UGT1A1 and sacituzumab govitecan toxicity: A systematic review and meta-analysis. *Clinical Pharmacology & Therapeutics, 119*(1), 63–73. https://doi.org/10.1002/cpt.70060（PMID: 40936312）
 
 de Moraes, F. C. A., de Laia, E. A., Sano, V. K. T., Dos Santos, A. G. E., Pereira, C. R. M., & Burbano, R. M. R. (2025). A systematic review and meta-analysis of users versus non-users: Unveiling the influence of proton pump inhibitors on capecitabine efficacy in colorectal cancer. *Expert Review of Clinical Pharmacology, 18*(1–2), 67–75. https://doi.org/10.1080/17512433.2024.2443183（PMID: 39690972）
 
@@ -1250,6 +1269,8 @@ Eugia. (2026b). *Mesna injection* [Package insert]. DailyMed. https://dailymed.n
 European Medicines Agency. (n.d.). *Xeloda: EPAR – Product information* (Annex I, Summary of product characteristics). 擷取日 2026-11-01. https://www.ema.europa.eu/en/documents/product-information/xeloda-epar-product-information_en.pdf
 
 Exelan. (2026). *Paclitaxel protein-bound particles for injectable suspension (albumin-bound)* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=135502ff-002c-4a29-ba93-60855cf44f31（版本日期 2026-08-10）
+
+Feijen, E. A. M., Leisenring, W. M., Stratton, K. L., Ness, K. K., van der Pal, H. J. H., van Dalen, E. C., Armstrong, G. T., Aune, G. J., Green, D. M., Hudson, M. M., Loonen, J., Oeffinger, K. C., Robison, L. L., Yasui, Y., Kremer, L. C. M., & Chow, E. J. (2019). Derivation of anthracycline and anthraquinone equivalence ratios to doxorubicin for late-onset cardiotoxicity. *JAMA Oncology, 5*(6), 864–871. https://doi.org/10.1001/jamaoncol.2018.6634（PMID: 30703192）
 
 Fennec. (2025). *Pedmark (sodium thiosulfate) injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f98c7076-2a7b-4fd7-ab90-eed5e9137bae（版本日期 2025-10-27）
 
@@ -1305,6 +1326,10 @@ Hwang, J. P., Feld, J. J., Hammond, S. P., Wang, S. H., Alston-Johnson, D. E., C
 
 Key, N. S., Khorana, A. A., Kuderer, N. M., Bohlke, K., Lee, A. Y. Y., Arcelus, J. I., Wong, S. L., Balaban, E. P., Flowers, C. R., Gates, L. E., Kakkar, A. K., Tempero, M. A., Gupta, S., Lyman, G. H., & Falanga, A. (2023). Venous thromboembolism prophylaxis and treatment in patients with cancer: ASCO guideline update. *Journal of Clinical Oncology, 41*(16), 3063–3071. https://doi.org/10.1200/JCO.23.00294（PMID: 37075273）
 
+Kichenadasse, G., Miners, J. O., Mangoni, A. A., Karapetis, C. S., Hopkins, A. M., & Sorich, M. J. (2021). Proton pump inhibitors and survival in patients with colorectal cancer receiving fluoropyrimidine-based chemotherapy. *Journal of the National Comprehensive Cancer Network, 19*(9), 1037–1044. https://doi.org/10.6004/jnccn.2020.7670（PMID: 33951613）
+
+Kim, S. Y., Lee, J. S., Kang, J., Morita, S., Park, Y. S., Sakamoto, J., Muro, K., Xu, R.-H., & Kim, T. W. (2021). Proton pump inhibitor use and the efficacy of chemotherapy in metastatic colorectal cancer: A post hoc analysis of a randomized phase III trial (AXEPT). *The Oncologist, 26*(6), e954–e962. https://doi.org/10.1002/onco.13735（PMID: 33644953）
+
 Legacy. (2026). *Ethyol (amifostine) for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a17563f2-d231-4385-bc94-0217be78b89d（版本日期 2026-03-03）
 
 Lentz, K. L., Clark, S. M., Ayarza, M., Liu, B., Morgan, K. P., Wind, L. S., & Hairston, A. (2020). Evaluation of thiamine for the prevention of ifosfamide-induced encephalopathy. *Journal of Oncology Pharmacy Practice, 26*(2), 406–412. https://doi.org/10.1177/1078155219859644（PMID: 31288633）
@@ -1314,6 +1339,8 @@ Liu, C.-Y., Chen, P.-M., Chiou, T.-J., Liu, J.-H., Lin, J.-K., Lin, T.-C., Chen,
 Lo, Y., Shen, L.-J., Chen, W.-H., Dong, Y.-H., & Wu, F.-L. L. (2016). Risk factors of ifosfamide-related encephalopathy in adult patients with cancer: A retrospective analysis. *Journal of the Formosan Medical Association, 115*(9), 744–751. https://doi.org/10.1016/j.jfma.2015.07.016（PMID: 26302952）
 
 López-Briz, E., Ruiz Garcia, V., Cabello, J. B., Bort-Martí, S., & Carbonell Sanchis, R. (2022). Heparin versus 0.9% sodium chloride locking for prevention of occlusion in central venous catheters in adults. *Cochrane Database of Systematic Reviews, 2022*(7), Article CD008462. https://doi.org/10.1002/14651858.CD008462.pub4（PMID: 35849083）
+
+Matsumoto, K., Ryushima, Y., Sato, J., Aizawa, Y., Aoyama, T., Akaishi, Y., Okamoto, R., Sato, Y., Sugano, K., Tazumi, K., Tsuji, M., Fujikawa, N., Bun, S., & Yagasaki, K. (2024). Extravasation associated with cancer drug therapy: Multidisciplinary guideline of the Japanese Society of Cancer Nursing, Japanese Society of Medical Oncology, and Japanese Society of Pharmaceutical Oncology. *ESMO Open, 9*(10), Article 103932. https://doi.org/10.1016/j.esmoop.2024.103932（PMID: 39389005）
 
 McDonnell, A. M., Rybak, I., Wadleigh, M., & Fisher, D. C. (2012). Suspected serotonin syndrome in a patient being treated with methylene blue for ifosfamide encephalopathy. *Journal of Oncology Pharmacy Practice, 18*(4), 436–439. https://doi.org/10.1177/1078155211433231（PMID: 22235061）
 
@@ -1329,7 +1356,11 @@ Mouridsen, H. T., Langer, S. W., Buter, J., Eidtmann, H., Rosti, G., de Wit, M.,
 
 Mylan. (2026). *Docetaxel injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2992d633-08fa-44f3-b14d-41700f24686b（版本日期 2026-04-15）
 
+Naito, Y., Nakamura, S., Kawaguchi-Sakita, N., Ishida, T., Nakayama, T., Yamamoto, Y., Masuda, N., Matsumoto, K., Kogawa, T., Sudo, K., Shimomura, A., Lai, C., Zhang, D., Iwahori, Y., Gary, D., Huynh, D., & Iwata, H. (2024). Preliminary results from ASCENT-J02: A phase 1/2 study of sacituzumab govitecan in Japanese patients with advanced solid tumors. *International Journal of Clinical Oncology, 29*(11), 1684–1695. https://doi.org/10.1007/s10147-024-02589-x（PMID: 39302614）
+
 Natco. (2026). *Carboplatin injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c89cedc-e48b-445c-ad05-54dbe60e4fb0（版本日期 2026-07-21）
+
+National Cancer Institute, Cancer Therapy Evaluation Program. (2025, July 22). *Common Terminology Criteria for Adverse Events (CTCAE) v6.0 (MedDRA 28.0)* [Quick reference PDF and Excel file with tracked changes and v5.0 mapping]. https://dctd.cancer.gov/research/ctep-trials/for-sites/adverse-events/ctcae-v6.pdf（Excel：https://dctd.cancer.gov/research/ctep-trials/trial-development/ctcae-v6.0.xlsx；Errata 更新至 2026-01-20；正式出版品，無 DOI 與 PMID）
 
 National Cancer Institute, Division of Cancer Treatment and Diagnosis. (2025, September 9). *CTCAE v6.0 implementation FAQs*. https://dctd.cancer.gov/research/ctep-trials/for-sites/adverse-events/ctcae-v6-faq.pdf
 
@@ -1373,6 +1404,8 @@ Relling, M. V., Schwab, M., Whirl-Carrillo, M., Suarez-Kurtz, G., Pui, C.-H., St
 
 Richards, A., Marshall, H., & McQuary, A. (2011). Evaluation of methylene blue, thiamine, and/or albumin in the prevention of ifosfamide-related neurotoxicity. *Journal of Oncology Pharmacy Practice, 17*(4), 372–380. https://doi.org/10.1177/1078155210385159（PMID: 20861178）
 
+Rugo, H. S., Tolaney, S. M., Cortés, J., Marmé, F., de Azambuja, E., Xu, B., Sohn, J., Naito, Y., Valdez, T., Gary, D., Zhu, J., Lai, C., & Bardia, A. (2026). Sacituzumab govitecan in patients with metastatic breast cancer: Pooled safety analysis of data from patients in North America, Europe, and Asia. *ESMO Open, 11*(4), 106905. https://doi.org/10.1016/j.esmoop.2026.106905（PMID: 41861751）
+
 Sagent. (2025). *Oxaliplatin injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29a5d098-bfa7-4a65-bb4f-5daa1fef1c2f（版本日期 2025-09-09）
 
 Sagent. (2026). *Leucovorin calcium injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0cbcbf6-6fd2-4cf3-877a-bb0fe3df4e59（版本日期 2026-06-16）
@@ -1404,3 +1437,9 @@ Wang, T.-Y., Lee, K.-D., Chen, P.-T., Chen, M.-C., Chen, Y.-Y., Huang, C.-E., Ku
 WG Critical Care. (2026). *Cisplatin injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508496cb-3441-46b3-a4fe-e0d440e6adc6（版本日期 2026-06-24）
 
 Yokoi, K., Nakajima, Y., Matsuoka, H., Shinkai, Y., Ishihara, T., Maeda, Y., Kato, T., Katsuno, H., Masumori, K., Kawada, K., Yoshikawa, T., Ito, T., & Kurahashi, H. (2020). Impact of DPYD, DPYS, and UPB1 gene variations on severe drug-related toxicity in patients with cancer. *Cancer Science, 111*(9), 3359–3366. https://doi.org/10.1111/cas.14553（PMID: 32619063）
+
+中央社. (2025, August 29). 衛福部9月新制 罹癌凍卵取精最多補助7萬元. *中央社*. https://www.cna.com.tw/news/ahel/202508290257.aspx
+
+林志怡. (2026, October 15). 癌友生育保存補助上路首年215人受惠 民團籲放寬限制. *自由時報*. https://health.ltn.com.tw/article/breakingnews/5607567
+
+陳靖安. (2026, September 18). 「凍卵」預留可能性！政府補助癌友「醫療性生育保存」. *健康醫療網*. https://n.yam.com/Article/20260918805093

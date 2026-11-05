@@ -55,7 +55,7 @@
 > **本章講 PDAC；這三種要先分開**
 > - **胰臟神經內分泌腫瘤（pNET）**：WHO 2019 依 Ki-67 與分裂象分 NET G1（<3%）、G2（3–20%）、G3（>20%，仍是高分化）與 NEC（低分化）；高分化 NET 的特徵變異是 MEN1、DAXX、ATRX，NEC 則是 TP53、RB1 異常（Nagtegaal et al., 2020）。指引是 NCCN Neuroendocrine and Adrenal Tumors v2.2026，分期用 AJCC 第 9 版，不走 PDAC 的化療路線。晚期標靶：sunitinib（PFS 11.4 對 5.5 個月，HR 0.42；Raymond et al., 2011）、everolimus（RADIANT-3，PFS 11.0 對 4.6 個月，HR 0.35；Yao et al., 2011）；兩者在健保有 pNET 專屬條文（9.31、9.36.1，皆需事前審查，見第 9 段）。
 > - **壺腹癌（ampullary adenocarcinoma）**：分 intestinal 與 pancreatobiliary 兩種組織亞型。976 位接受 pancreatoduodenectomy 的病人，整體中位存活 67 個月；輔助 gemcitabine 類化療的好處只見於 pancreatobiliary／mixed 亞型（傾向配對後中位存活未達對 32 個月，P = .020），intestinal 亞型沒有（Moekotte et al., 2020，觀察性資料）。另有研究指出基因分型比組織型更能預測化療效益（Ecker et al., 2025）。處置不在本章範圍。
-> - **IPMN**：是 PDAC 的前驅病變之一，不是 PDAC。Kyoto 2024 指引用 high-risk stigmata 與 worrisome features 分流，其中**新發或惡化的糖尿病（過去 1 年內）已列為 worrisome feature**；未切除的 IPMN 即使穩定，另外長出 PDAC 的風險仍約為同齡人口的 3–5 倍（Ohtsuka et al., 2024；判準條列見 2.1）。
+> - **IPMN**：是 PDAC 的前驅病變之一，不是 PDAC。Kyoto 2024 指引用 high-risk stigmata 與 worrisome features 分流，其中**新發或惡化的糖尿病（過去 1 年內）已列為 worrisome feature**；未切除的 IPMN 即使穩定，另外長出 PDAC 的風險仍約為同齡人口的 3–5 倍，但這類研究多來自日本，其他國家的研究顯示與一般人口相近（Ohtsuka et al., 2024；判準條列見 2.1）。
 
 ---
 
@@ -70,9 +70,10 @@
 | 發生趨勢 | 2013 年 2,124 人（ASR 6.29）→ 2018 年 2,813 人（7.12）→ 2023 年 3,427 人（7.66）。人數增加約 61%，ASR 只緩升，人口老化解釋大部分的增加；登記數會事後修訂，引用要註明報告年 | 同上 |
 | 死亡人數 | 3,204 人（男 1,706、女 1,498），**癌症死因第 7 名**（男第 7、女第 5），占癌症死亡 5.84%；標準化死亡率 6.3／10 萬；死亡中位年齡 71 歲（男 70、女 74） | 衛福部 2025 年死因統計（2026-06-22 公布；衛生福利部，2026） |
 | 死亡趨勢 | 2024 年 2,970 人（同為第 7 名），2025 年增加 7.9%。衛福部指出十大癌症中只有肺癌、胰臟癌、卵巢癌的標準化死亡率比前一年上升；排名由 2015 年第 8 名升到 2025 年第 7 名 | 同上 |
-| 診斷時期別 | IV 期 **51.22%**、III 期 16.68%、II 期 17.56%、I 期 12.64%、0 期 0.92%、不明 0.98%（n = 2,950；整併期別） | 2023 年癌登長表（AJCC 第 8 版；癌症登記中心，2025） |
+| 診斷時期別 | IV 期 **51.22%**、III 期 16.68%、II 期 17.56%、I 期 12.64%、0 期 0.92%、不明 0.98%（n = 2,950；整併期別） | 2023 年癌登長表（AJCC 第 8 版；癌症登記中心，2025a） |
 | 組織型 | 侵襲癌（n = 2,923）：腺癌 73.45%、NET 7.53%、NEC 0.82%、solid pseudopapillary neoplasm 1.47%、acinar cell carcinoma 0.79%、其他 | 同上 |
 | 診斷年齡 | <50 歲 8.8%、50–69 歲 46.0%、≥70 歲 45.2% | 同上 |
+| 診斷年齡中位數 | 男 68 歲、女 70 歲 | 台灣癌症登記 2023 年報（衛生福利部國民健康署，2025） |
 | 首次治療 | 含手術的治療 32.3%；化療 ± 標靶（未手術）40.47%；化療加免疫治療 0.64%；僅緩和照護 15.05%（≥70 歲 26.3%；醫學中心 10.48%、非醫學中心 28.14%）；未接受首次治療 1.49% | 同上 |
 
 長表只涵蓋 103 家長表申報醫院，包含原位癌與所有組織型，而且胰臟癌自 2022 年（民國 111 年）才納入長表，所以 n = 2,950 不等於官方的 3,427 人。
@@ -83,9 +84,7 @@
 > - **癌登的「胰臟癌」不等於 PDAC**：腺癌只占 73.45%，NET 與 NEC 合計約 8.4%。引用數字時先確認分母。
 > - **高齡病人容易被排除在積極治療之外**：≥70 歲占診斷人數 45.2%，其中 26.3% 只接受緩和照護；IV 期病人中，50–69 歲 69.51% 接受化療 ± 標靶、11.42% 僅緩和照護，≥70 歲則分別是 52.75% 與 34.56%。這群人先做老年評估再決定強度（見[化療基礎](00-shared/01-chemo-basics.md#12-藥物基因檢測與特殊族群評估)第 12 節）。
 
-> [!CAUTION]
-> **待核對：官方診斷中位年齡與台灣近年存活率**
-> 長表年齡分組推算的診斷年齡中位數落在 65–69 歲（含 NET 與原位癌），官方 2023 年胰臟癌診斷中位年齡未能取得（國健署網站無法連線）。台灣癌登的存活率報告只涵蓋十大癌症，沒有胰臟癌，所以本手冊用的是 2002–2013 年的研究數字（見 3.9）。
+國民健康署癌症登記報告 2023 年報列出的胰臟惡性腫瘤診斷年齡中位數為男 68 歲、女 70 歲（衛生福利部國民健康署，2025）。台灣癌登公布的存活率報告（2019–2023 年新發個案，追蹤至 2024 年）只列十大癌症，不含胰臟癌（癌症登記中心，2025b），所以本手冊的台灣存活率仍用 2002–2013 年的研究數字（見 [3.9](#39-預後)）。國健署的線上互動查詢系統（CRIS）本手冊未查詢。
 
 ### 1.2 危險因子
 
@@ -107,7 +106,7 @@
 
 | 基因／症候群 | 胰臟癌風險 | CAPS 2020 監測條件 | 建議起始年齡 |
 |-------------|-----------|------------------|------------|
-| STK11（Peutz-Jeghers） | 個人層級統合分析 RR 132（95% CL 44–261）（Giardiello et al., 2000） | 不論家族史 | 30–40 歲 |
+| STK11（Peutz-Jeghers） | 個人層級統合分析 RR 132（95% CL 44–261）（Giardiello et al., 2000）；荷蘭世代 RR 76（36–160）、70 歲累積風險 26%（4–47%）（Korsse et al., 2013） | 不論家族史 | 30–40 歲 |
 | CDKN2A（p16；FAMMM） | OR 12.33（5.43–25.61），為檢測基因中最高（C. Hu et al., 2018）；p16-Leiden 家族 75 歲累積風險 17%，平均診斷年齡 58 歲（Vasen et al., 2000） | 不論家族史 | 40 歲 |
 | BRCA2 | OR 6.20（4.62–8.17），占病人 1.9%（C. Hu et al., 2018） | ≥1 位一等親罹病，或 ≥2 位任何親等罹病 | 約 50 歲（部分中心 45 歲） |
 | BRCA1 | OR 2.58（1.54–4.05），占病人 0.6%（C. Hu et al., 2018） | ≥1 位一等親罹病（此項共識程度較低，同意度 69.6%） | 約 50 歲 |
@@ -121,7 +120,7 @@
 
 > [!CAUTION]
 > **待核對：Peutz-Jeghers syndrome 的胰臟癌終生風險**
-> 常見的引用數字（11–36%）無法在本手冊已核對的原文中確認：CAPS 2020 只給監測起始年齡，沒有給終生風險百分比；Giardiello 2000 的摘要給的是相對風險與任何癌症的累積風險（15–64 歲 93%）。因此本手冊只列相對風險，不寫終生風險。
+> 各研究的累積風險差距大，本手冊不寫單一「終生風險」數字。已核對的原文有兩筆：Giardiello 等人（2000）的統合分析，胰臟癌 RR 132（95% CL 44–261）；荷蘭 144 位病人的世代研究（7 人發生胰臟癌），70 歲累積風險 26%（95% CI 4–47%）、RR 76（95% CI 36–160）（Korsse et al., 2013），信賴區間很寬。常被引用的 11–36% 區間，在已核對的原文中仍找不到。CAPS 2020 只給監測起始年齡，沒有給終生風險百分比。
 
 ### 1.4 高風險族群的監測與一般人不篩檢
 
@@ -192,18 +191,18 @@ Pan-Asian ESMO 指引採相同方向：高風險者在專家中心監測，通�
 > **PanIN-3 是舊名詞**
 > WHO 2019 之後病理報告應寫「高度異型增生（high-grade dysplasia）」，不再有 PanIN-3 或 carcinoma in situ。看到舊報告時要知道它們的對應關係；這是常見的陷阱選項。
 
-**IPMN 的風險分層與追蹤**（Kyoto 2024；判準條列依 Vara-Luiz et al., 2025 的整理）
+**IPMN 的風險分層與追蹤**（Kyoto 2024；Ohtsuka et al., 2024）
 
 | 類別 | 內容 |
 |------|------|
 | High-risk stigmata | 胰頭囊性病灶合併阻塞性黃疸；enhancing mural nodule ≥5 mm 或實質成分；主胰管 ≥10 mm；細胞學可疑或陽性（高度異型增生或腺癌） |
 | Worrisome features | 急性胰臟炎；CA19-9 上升；**過去 1 年內新發或惡化的糖尿病**；囊腫 ≥30 mm；enhancing mural nodule <5 mm；囊壁增厚或強化；主胰管 5–9.9 mm；主胰管管徑突然改變伴遠端萎縮；淋巴結腫大；囊腫增大 ≥2.5 mm／年 |
-| 未切除 IPMN 的追蹤 | 囊腫 <20 mm：6 個月追蹤一次，穩定則每 18 個月；20 mm 至 <30 mm：6 個月追蹤兩次，之後每 12 個月；≥30 mm 且無其他 worrisome feature：每 6 個月。內容：臨床評估、CA19-9、HbA1c、MRI，MRI 有變化時加做 CT 或 EUS |
-| 自然史 | 惰性的分支型 IPMN 進展為高度異型增生或浸潤癌：5 年 0.94–3.3%、10 年 2.3–6.6%、15 年 7.6–15%。另外長出 PDAC 的風險約為同齡人口的 3–5 倍，追蹤 5 年後仍存在 |
+| 未切除 IPMN 的追蹤 | 囊腫 <20 mm：6 個月追蹤一次，穩定則每 18 個月；20 mm 至 <30 mm：6 個月追蹤兩次，之後每 12 個月；≥30 mm 且無其他 worrisome feature：每 6 個月。內容：臨床評估、CA19-9、HbA1c、MRI，MRI 有變化時考慮加做 CT 或 EUS；影像方式可依院內規範調整 |
+| 自然史 | 惰性的分支型 IPMN 進展為高度異型增生或浸潤癌：5 年 0.94–3.3%、10 年 2.3–6.6%、15 年 7.6–15%。另外長出 PDAC 的風險約為同齡人口的 3–5 倍，追蹤 5 年後仍存在；Kyoto 2024 註明這類研究多來自日本，其他國家的研究顯示此風險與一般人口相近 |
 
-> [!CAUTION]
-> **待核對：Kyoto 2024 的判準條列**
-> Kyoto 2024 指引（Ohtsuka et al., 2024）全文無法開啟，上表的 high-risk stigmata、worrisome features 與追蹤間隔取自 Vara-Luiz 等人（2025）對 Kyoto 2024 的表格整理，尚未對照原文。囊腫大小與主胰管的切點在不同指引間有差異，臨床以院內胰臟外科與消化內科的規範為準。
+> [!NOTE]
+> **Kyoto 2024 的使用提醒**
+> 上表已對照 Kyoto 2024 原文（Ohtsuka et al., 2024）。多數切點屬弱建議（SIGN 建議等級 C）：enhancing mural nodule ≥5 mm 與主胰管 ≥10 mm 列為 high-risk stigmata，主胰管 5–9 mm 與囊腫 ≥30 mm 列為 worrisome feature。是否手術要同時考慮病人的整體狀況、共病、預期壽命與意願，不是只看有沒有 high-risk stigmata。直徑 <20 mm、5 年沒有變化也沒有 worrisome feature 的分支型 IPMN，指引給的選項是「停止追蹤」或「繼續追蹤」；指引註明停止追蹤的建議可能不適用於年輕病人，以及有家族史或遺傳風險者。不同指引的囊腫大小與主胰管切點有差異，實際追蹤間隔與是否停止，以院內胰臟外科與消化內科的規範為準。
 
 ### 2.2 免疫組織化學染色
 
@@ -250,10 +249,10 @@ PDAC 的免疫染色主要用來排除其他胰臟腫瘤、找 dMMR，並提供�
 | MSI-H／dMMR、TMB-H | MSI-H 約 0.5–0.8% | pembrolizumab、dostarlimab、nivolumab ＋ ipilimumab（病人版列於二線，限未用過免疫治療者） | FDA 仿單（KEYTRUDA，2026-07-10 版；Merck Sharp & Dohme LLC, 2026）的非大腸直腸癌 MSI-H／dMMR 合併分析：胰臟癌 n = 22，ORR 18%（95% CI 5–40）；全癌別 ORR 約 31–34%（Marabelle et al., 2020；Maio et al., 2022）。仿單另指出：本地判定為 MSI-H／dMMR 的腫瘤，中央檢測只有 56.7% 為 MSI-H、62.1% 為 dMMR，免疫治療前要確認 | pembrolizumab 有藥證（不分癌別 MSI-H／dMMR，先前治療後）；健保 9.69 **原文未見**胰臟癌，也未見不分癌別的 MSI-H／dMMR 給付 |
 | NTRK1–3 fusion | 0.8%（KRAS wild-type 中 6.25%） | larotrectinib、entrectinib、repotrectinib | 彙整分析中胰臟癌病人極少：larotrectinib 2 位中 1 位有反應（Hong et al., 2020）、entrectinib 3 位中 2 位有反應（Doebele et al., 2020）；全癌別 ORR 分別為 79% 與 57% | larotrectinib 有藥證，且有**健保 9.95**（113/6/1：成人胰臟癌需先前至少一次全身性治療失敗又惡化；需事前審查，每次 12 週）。entrectinib、repotrectinib 有 NTRK 藥證；健保 9.93、9.131 **原文未見** NTRK 或胰臟癌 |
 | NRG1 fusion | 約 1.3%（KRAS wild-type 中） | zenocutuzumab（HER2 × HER3 雙特異性抗體） | eNRGy 胰臟癌 cohort：15／36 有反應（42%，95% CI 25–59），DOR 7.4 個月，PFS 9.2 個月；36 位全是 KRAS wild-type（Schram et al., 2025）。FDA 2024-12-04 加速核准 | 台灣未上市 |
-| BRAF V600E | BRAF 突變 13.0%（KRAS wild-type 中，含非 V600E） | dabrafenib ＋ trametinib | 本手冊未取得胰臟癌專屬數字 | 台灣藥證未核對；第 9 節無胰臟癌條文 |
-| RET fusion | 1.3%（KRAS wild-type 中） | selpercatinib | 同上 | 同上 |
-| ALK、ROS1、FGFR2 fusion | ALK 2.6%、FGFR2 5.2%（KRAS wild-type 中）；ROS1 未取得 | ROS1：entrectinib、repotrectinib；FGFR：erdafitinib；ALK 列為檢測目標，病人版未配對特定藥物 | 同上 | 同上 |
-| HER2 amplification／overexpression | ERBB2 amplification 2.2%（KRAS wild-type 中） | fam-trastuzumab deruxtecan | 同上 | 同上 |
+| BRAF V600E | BRAF 突變 13.0%（KRAS wild-type 中，含非 V600E） | dabrafenib ＋ trametinib | 本手冊未取得胰臟癌專屬數字 | 有藥證（不分癌別的 BRAF V600E 無法切除或轉移性實體腫瘤，先前治療後惡化且無其他適當替代；TFDA 2026-10-27 版）；健保 9.91 原文只見黑色素瘤與非小細胞肺癌，**未見胰臟癌** |
+| RET fusion | 1.3%（KRAS wild-type 中） | selpercatinib | 同上 | 台灣藥證未核對；第 9 節原文未收載 |
+| ALK、ROS1、FGFR2 fusion | ALK 2.6%、FGFR2 5.2%（KRAS wild-type 中）；ROS1 未取得 | ROS1：entrectinib、repotrectinib；FGFR：erdafitinib；ALK 列為檢測目標，病人版未配對特定藥物 | 同上 | erdafitinib 的藥證只有 FGFR3 變異的泌尿道上皮癌，健保第 9 節原文未收載；entrectinib、repotrectinib 的 ROS1 藥證只有非小細胞肺癌（NTRK 融合實體腫瘤另計，見上列），胰臟癌的 ROS1、FGFR2 沒有對應藥證適應症（TFDA 2026-10-27 版） |
+| HER2 amplification／overexpression | ERBB2 amplification 2.2%（KRAS wild-type 中） | fam-trastuzumab deruxtecan | DESTINY-PanTumor02 胰臟 cohort（HER2 IHC 3+/2+，n = 25）：investigator-assessed ORR 4.0%，中位 PFS 3.2 個月、OS 5.0 個月，因無效標準提前關閉（Meric-Bernstam et al., 2024） | 有藥證（HER2 陽性 IHC 3+ 無法切除或轉移性實體腫瘤，曾接受全身性治療且無其他適當替代；TFDA 2026-10-27 版）；健保 9.115 原文只見乳癌，**未見胰臟癌** |
 | KRAS G12C | 1.6% | sotorasib、adagrasib | CodeBreaK 100（sotorasib 960 mg 每日，n = 38）：ORR 21%（10–37），PFS 4.0 個月，OS 6.9 個月（Strickler et al., 2023）；adagrasib 600 mg 每日兩次：胰臟癌 7／21 有反應（33.3%）（Bekaii-Saab et al., 2023） | 兩者有台灣藥證，但**沒有胰臟癌適應症**；健保原文未見 |
 | KRAS G12 / G13 / Q61（pan-RAS） | 約 83–89% | daraxonrasib（RAS(ON) 抑制劑）300 mg 每日一次 | RASolute 302（二線，n = 500）：OS 13.2 對 6.7 個月（HR 0.40，0.30–0.53）；PFS 7.2 對 3.6 個月（HR 0.49）；ORR 30% 對 11%（O'Reilly et al., 2026） | 美國 FDA 2026-08-26 核准（適應症比試驗寬，涵蓋已接受至少一線治療或不適合多藥治療者）；**台灣未上市**；第一線數據尚未發表；NCCN 專業版是否收錄未能確認 |
 | KRAS G12D | 43.6% | 尚無 G12D 專一的核准藥物 | 專一抑制劑與降解劑都在早期臨床試驗（2026 年發表）；例如 HRS-4642 ＋ nab-paclitaxel／gemcitabine 第一線 ORR 63.3%（n = 30，phase 1b/2；Cui et al., 2026） | 台灣未上市，不屬於常規治療 |
@@ -298,7 +297,7 @@ Pan-Asian ESMO 的建議是**不可切除的 PDAC 做體細胞 KRAS 檢測、所
 
 > [!CAUTION]
 > **待核對：無痛性黃疸與 Courvoisier sign 的出現比例**
-> 本手冊未能取得可引用的數字：胰臟癌病人以「無痛性黃疸」表現的比例，以及 Courvoisier sign 的敏感度，在已核對的原文中都沒有。考試或臨床上請把它當成「提示」，不要當成診斷條件。
+> 仍沒有可直接引用的「胰臟癌以無痛性黃疸表現的整體比例」與「Courvoisier sign 敏感度」。目前只有間接數字：初級照護診斷研究的系統性回顧（8 項研究）的摘要寫「只有 30% 的病人報告黃疸」，摘要沒有明寫分母（應指各研究中的胰臟癌病人），全文未能取得（Schmidt-Hansen et al., 2016）；GITSG 試驗病人（n = 393）依疾病範圍分組，接受可能根治性切除組（n = 21）最常見的表現是無痛性黃疸（52%），局部不可切除組有黃疸者 62%、晚期組 31%（Kalser et al., 1985）。這些是特定族群與舊資料，不能推估一般病人。考試或臨床上請把它當成「提示」，不要當成診斷條件。
 
 ### 3.2 Work-up 流程
 
@@ -450,7 +449,7 @@ M0 為無遠端轉移，M1 為有遠端轉移。
 
 > [!CAUTION]
 > **待核對：NCCN v4.2026 的體尾部 borderline 條款**
-> 上表的度數標準取自兩篇同儕審查文獻轉載的 NCCN 表格（Corallo et al., 2025；Chu & Fishman, 2024）；NCCN 專業版 v4.2026 與 JNCCN 全文都無法開啟，病人版只列分類名稱、沒有度數。兩處文獻在**體尾部**有出入：Søreide & Jamieson (2026) 仍把「CA 接觸 >180° 但未侵犯主動脈、GDA 完整而可做 modified Appleby」列為 borderline；Corallo 等人轉載的「NCCN 2023」表格沒有這一句。臨床上這一類病人是 borderline 還是 locally advanced，以 MDT 與最新版 NCCN 為準。
+> 上表的度數標準取自兩篇同儕審查文獻轉載的 NCCN 表格（Corallo et al., 2025；Chu & Fishman, 2024）；NCCN 專業版 v4.2026 與 JNCCN 全文都無法開啟，病人版只列分類名稱、沒有度數。體尾部「CA 接觸 >180° 但未侵犯主動脈、GDA 完整而可做 modified Appleby」是否列為 borderline，各處轉載不一致：Perri 等人轉載的 NCCN v1.2022 表格把它列在 borderline resectable 的體尾部（Perri et al., 2025）；Søreide & Jamieson (2026) 的表格註明，CA >180° 者「如無主動脈侵犯且 GDA 完整（可做 modified Appleby）則為 borderline」；Corallo 等人轉載的「NCCN 2023」表格沒有這一句，原因未能查明。v4.2026 是否保留這一條仍未核對；臨床上這一類病人是 borderline 還是 locally advanced，以 MDT 與最新版 NCCN 為準。
 
 **生物學與病人條件**：Pan-Asian ESMO 建議同時用 NCCN 的解剖學標準，以及 IAP 共識的生物學與條件因素 [III, B]（Tai et al., 2025，建議 3b）。IAP 2017 定義邊緣可切除時，除解剖外還加了：CA19-9 >500 IU/mL、經切片或 PET-CT 診斷的區域淋巴結轉移、ECOG ≥2（Tai et al., 2025 的描述）。日本肝膽胰外科學會另提出 PET-CT 的 SUVmax、對術前治療的反應、年齡與 Charlson 共病、modified Glasgow Prognostic Score 或嗜中性球／淋巴球比值。
 
@@ -475,7 +474,8 @@ M0 為無遠端轉移，M1 為有遠端轉移。
 
 > [!CAUTION]
 > **待核對：台灣的存活率數字偏舊**
-> 台灣 5 年存活率 6.6% 來自 2002–2013 年診斷的病人，期間早於 FOLFIRINOX、NALIRIFOX 與現行的術前治療策略。官方近年（癌登存活報告）沒有胰臟癌的數字；其 2013 年的 ASR（6.04／10 萬）也與現行癌登工作表（6.29）略有出入，引用時要註明研究期間，不要當成目前的預測。試驗結果（如 5 年 OS 43.2%）則是經過篩選、能接受 mFOLFIRINOX 的病人，不能直接套到一般病人。
+> 台灣 5 年存活率 6.6% 來自 2002–2013 年診斷的病人（Chang et al., 2018），期間早於 FOLFIRINOX、NALIRIFOX 與現行的術前治療策略。台灣癌登最新的存活率報告（2019–2023 年新發個案）只列十大癌症，沒有胰臟癌（見 1.1），所以本手冊沒有取得可引用的近年全國數字；引用 6.6% 時要註明研究期間，不要當成目前的預測。試驗結果（如 5 年 OS 43.2%）則是經過篩選、能接受 mFOLFIRINOX 的病人，不能直接套到一般病人。
+> 兩處發生率數字尚未對齊：Chang 等人 2013 年的 ASR 為 6.04／10 萬（2000 年 WHO 標準人口），本手冊 1.1 引用的癌登數字為 6.29；癌登 2023 年年報（衛生福利部國民健康署，2025）列的 2023 年胰臟癌粗率 14.63、ASR 7.53（男 8.53、女 6.66），與 1.1 的 14.68、7.66（男 8.66、女 6.77）也略有不同。年報註明，各年出版的數值會因資料庫持續更新而略有差異，但這些差距的來源本手冊未能查明。
 
 > [!IMPORTANT]
 > **預後的三個考試重點**
@@ -526,8 +526,9 @@ M0 為無遠端轉移，M1 為有遠端轉移。
 | 靜脈受侵犯但可重建 | 加做 SMV／PV 切除重建 | 這就是「靜脈可重建＝borderline」的意思（[3.8](#38-nccn-可切除性分類)）；動脈切除只在特定情境由 MDT 決定 |
 
 > [!CAUTION]
-> **待核對：術式與病灶位置的對應**
-> 上表是依解剖原則整理的一般性敘述，本手冊未能開啟 NCCN 專業版的手術原則，也沒有逐項對照外科指引原文。術式選擇（含微創手術、保留幽門、動脈切除）以主刀外科醫師與院內胰臟外科共識為準。
+> **待核對：術式細節、微創手術與動脈切除的適應症**
+> 上表的主對應（胰頭與鉤突用 pancreatoduodenectomy、胰體尾用 distal pancreatectomy；腫瘤廣泛浸潤或多灶時，為取得陰性切緣才考慮 total pancreatectomy）與一篇 2026 年外科綜說的摘要一致。該文另指出，為降低併發症（如胰瘻）而發展的各種手術技術變化，沒有任何單一技術在文獻中被證明一致較佳；為提高切緣陰性率而發展的擴大切除（RAMPS、含腹腔動脈切除的 DP-CAR）對整體存活的好處尚未證實（Kwok & Chok, 2026，僅取得摘要）。
+> 表中其餘細節（保留幽門變型、distal pancreatectomy 合併脾臟切除、頸部病灶改做全胰切除、SMV／PV 切除重建）以及微創手術與動脈切除的適應症，本手冊沒有逐項對照外科指引原文，NCCN 專業版的手術原則也未能開啟。術式選擇以主刀外科醫師與院內胰臟外科共識為準。
 
 **淋巴結廓清。** ISGPS 建議至少檢出 12–15 顆淋巴結（胰頭癌的站別：5、6、8a、12b1、12b2、12c、13a、13b、14a、14b、17a、17b；胰體尾癌另加 10、11、18）；Pan-Asian ESMO 小組討論後維持「至少 16 顆」，並強調**所有切除的淋巴結都要送檢**，才能做正確的病理分期（Tai et al., 2025，建議 4e）。淋巴結顆數直接決定 N1 或 N2（見 [3.7](#37-ajcc-第-8-版-tnm)）。
 
@@ -620,8 +621,10 @@ M0 為無遠端轉移，M1 為有遠端轉移。
 **老年與 PS 2。** ESPAC-4 納入少數 WHO PS 2 的病人（9 與 12 人），GemCap 在 PS 2 的死亡 HR 為 0.56（95% CI 0.18–1.78），點估計偏向 GemCap 但信賴區間跨過 1，樣本太小無法下結論；ESPAC-3 每組各有 64 位（12%）PS 2 的病人。一項 ≥80 歲的回溯性世代中，接受輔助化療者中位存活 17.2 個月，未接受者 12.7 個月（HR 0.72，0.65–0.79）（皆引自 Tai et al., 2025，原始研究未逐篇核對；回溯性資料）。日本習慣對老年或 PS 2 病人使用 S-1（Tai et al., 2025）。
 
 > [!CAUTION]
-> **待核對：JASPAC 01 與台灣輔助治療的藥證邊界**
-> （1）JASPAC 01 的中位 OS（46.5 對 25.5 個月）不在 Lancet 摘要，本手冊只在 Pan-Asian ESMO 與日本綜說文章看到；摘要也沒有寫明 R1 切除是否符合納入條件。（2）gemcitabine 的台灣許可證適應症逐字內容本手冊未核對，術後輔助是否落在許可範圍以仿單為準；健保 9.4 原文只說「依藥品許可證登載之適應症範圍內」，沒有限制線別或分期。Pan-Asian ESMO 的台灣段落（台灣腫瘤醫學會參與）寫明輔助情境下現有方案都未獲核准或給付（Tai et al., 2025）。
+> **待核對：JASPAC 01 的納入條件與 gemcitabine 輔助的台灣申報**
+> （1）JASPAC 01 的中位 OS（46.5 對 25.5 個月）只在 Pan-Asian ESMO 看到（Tai et al., 2025），Lancet 摘要沒有這組數字，本手冊未取得 Lancet 全文。摘要把納入條件寫成「no local residual or microscopic residual tumour」，同時又說隨機分派以 residual tumour status 做平衡（Uesaka et al., 2016），兩句無法互相對照，R1 切除是否符合納入條件仍未確認。
+> （2）已核對：TFDA 資料（2026-10-27 版）中，7 張未註銷的 gemcitabine 注射劑許可證，適應症都列有「胰臟癌」，沒有限定分期或線別（Taiwan Food and Drug Administration, 2026）；健保 9.4 第 1 點（115/6/1、115/9/1）寫「依藥品許可證登載之適應症範圍內給付於……胰臟癌……」，同樣沒有限制線別或分期。所以就條文字面，術後輔助沒有被排除；實際申報是否被審查接受，本手冊沒有取得資料。
+> （3）Pan-Asian ESMO 的台灣段落（台灣腫瘤醫學會參與）寫「All available regimens are not approved or reimbursed for before adjuvant setting」（Tai et al., 2025），語意不清，也與上述 gemcitabine 的條文字面不完全一致，本手冊不引為定論。
 
 **輔助化放療：沒有證明能增加存活。**
 
@@ -640,7 +643,7 @@ M0 為無遠端轉移，M1 為有遠端轉移。
 
 > [!CAUTION]
 > **待核對：追蹤間隔**
-> 「每 3–6 個月影像」之類的固定間隔，本手冊沒有取得 NCCN 專業版或 ESMO 的原文，不寫成定論。實際排程以院內路徑與主治醫師為準；基線 CA19-9 為零（Lewis-negative）的病人不能靠 CA19-9 追蹤（見 [3.4](#34-ca19-9)）。
+> 「每 3–6 個月影像」之類的固定間隔，本手冊沒有取得 NCCN 專業版或 ESMO 建議條文的原文，不寫成定論。可確認的是：ESMO 原版建議 6a 寫定期追蹤對存活的證據不足，Pan-Asian 小組在 333 位復發病人的前瞻性研究（Andel et al., 2025）發表後刪除該句，並把證據等級由 IV 升到 III（Tai et al., 2025）；Pan-Asian 討論文字本身沒有給固定的影像或 CA19-9 間隔，Andel 等人也指出各國際指引對常規影像的建議並不一致。實際排程以院內路徑與主治醫師為準；基線 CA19-9 為零（Lewis-negative）的病人不能靠 CA19-9 追蹤（見 [3.4](#34-ca19-9)）。
 
 ### 4.5 術前（neoadjuvant）與圍術期證據逐一看
 
@@ -811,8 +814,13 @@ Onivyde 的台灣持證廠商是台灣公司智擎生技製藥；NAPOLI-1 的作
 | **RET fusion** | selpercatinib | 美國 FDA 2022-09-21 加速核准不分癌別的 RET fusion 實體腫瘤：41 位非肺、非甲狀腺腫瘤 ORR 44%（28–60）；有反應的腫瘤包括胰臟腺癌，但胰臟專屬人數與 ORR 本手冊未取得（Duke et al., 2023） | TFDA 藥證本手冊未核對；第 9 節原文未收載 |
 
 > [!CAUTION]
-> **待核對：BRAF、HER2、ALK、ROS1、FGFR2 的胰臟癌數字**
-> NCCN 病人版（依專業版 v2.2026）列出的藥物包括 dabrafenib ＋ trametinib（BRAF）、fam-trastuzumab deruxtecan（HER2）、erdafitinib（FGFR）、entrectinib 或 repotrectinib（ROS1）等，但本手冊沒有取得這些變異在胰臟癌的專屬療效數字與劑量，也沒有核對這幾個藥的 TFDA 藥證，所以不給劑量與期待值。健保方面，dabrafenib 與 trametinib（9.91）原文只見黑色素瘤與非小細胞肺癌，trastuzumab deruxtecan（9.115）原文未見胰臟癌，erdafitinib 第 9 節原文未收載。KEYNOTE-158 胰臟亞群的 PFS 與 OS 數字只在二手整理中看到，未列。
+> **待核對：BRAF V600E、ALK、ROS1、FGFR2 的胰臟癌療效數字**
+> NCCN 病人版（依專業版 v2.2026）列出的藥物包括 dabrafenib ＋ trametinib（BRAF）、fam-trastuzumab deruxtecan（HER2）、erdafitinib（FGFR）、entrectinib 或 repotrectinib（ROS1）等。已核對的部分：
+> - **HER2（trastuzumab deruxtecan 5.4 mg/kg q3w）**：DESTINY-PanTumor02 的胰臟 cohort 只有 1 位 investigator-assessed 有反應（ORR 4.0%，95% CI 0.1–20.4），前 15 位無人有反應，收到 25 位就因無效標準關閉；中位 PFS 3.2 個月、中位 OS 5.0 個月；中央 IHC 3+ 僅 2 位（ORR 0%）；獨立審查 ORR 12.0%（3 位）。作者表示這個 cohort 人數少、尤其 IHC 3+ 太少，難以下結論，本手冊也不據此給期待值（Meric-Bernstam et al., 2024）。
+> - **台灣藥證（TFDA 資料 2026-10-27 版）**：trastuzumab deruxtecan（Enhertu）有「HER2 陽性（IHC 3+）無法切除或轉移性實體腫瘤，曾接受全身性治療且無其他適當替代」的適應症；dabrafenib ＋ trametinib 有「BRAF V600E 突變、無法切除或轉移性實體腫瘤，先前治療後惡化且無其他適當替代」的適應症（不得用於大腸直腸癌）；erdafitinib 只有 FGFR3 變異的泌尿道上皮癌；entrectinib 與 repotrectinib 的 ROS1 適應症只有非小細胞肺癌，實體腫瘤適應症是 NTRK 融合。所以 HER2 IHC 3+ 與 BRAF V600E 的胰臟癌在藥證字面上可涵蓋，FGFR 與 ROS1 的胰臟癌則沒有對應適應症（Taiwan Food and Drug Administration, 2026）。
+> - **健保（115/10/22 版）**：dabrafenib 與 trametinib（9.91）原文只見黑色素瘤與非小細胞肺癌，trastuzumab deruxtecan（9.115）原文未見胰臟癌，erdafitinib 第 9 節原文未收載。
+> - 美國仿單的不分癌別 BRAF V600E 實體腫瘤適應症（與 trametinib 併用），成人 dabrafenib 為 150 mg 每日兩次（Novartis Pharmaceuticals Corporation, 2026，版本日期 2026-05-20）；這是仿單對成人的一般劑量，不是胰臟癌專屬資料。
+> 仍未取得：BRAF V600E、ALK、ROS1、FGFR2 變異在胰臟癌的專屬療效數字，以及 KEYNOTE-158 胰臟亞群的 PFS 與 OS（只在二手整理中看到，未列）。
 
 #### KRAS 突變：daraxonrasib
 
@@ -886,7 +894,7 @@ Onivyde 的台灣持證廠商是台灣公司智擎生技製藥；NAPOLI-1 的作
 | selpercatinib | RET fusion | 2022-09-21 加速核准（不分癌別） | 本手冊未核對 | 原文未收載 |
 | sotorasib、adagrasib | KRAS G12C | 本手冊未核對胰臟適應症 | 有許可證，**無胰臟適應症** | 原文未收載 |
 | daraxonrasib（RASONQUE） | RAS 突變二線 | **2026-08-26 核准** | **無** | 原文未收載 |
-| dabrafenib ＋ trametinib、trastuzumab deruxtecan、rucaparib | BRAF、HER2、BRCA | 本手冊未核對胰臟適應症 | 本手冊未核對 | 9.91、9.115 原文未見胰臟癌；rucaparib 原文未收載 |
+| dabrafenib ＋ trametinib、trastuzumab deruxtecan、rucaparib | BRAF、HER2、BRCA | 本手冊未核對胰臟適應症 | dabrafenib ＋ trametinib（不分癌別 BRAF V600E 實體腫瘤）與 trastuzumab deruxtecan（HER2 IHC 3+ 實體腫瘤）有不分癌別的適應症，無胰臟專屬字樣；rucaparib 本手冊未核對 | 9.91、9.115 原文未見胰臟癌；rucaparib 原文未收載 |
 
 > [!NOTE]
 > **藥證、健保、院內處方集是三件事**
@@ -1029,8 +1037,9 @@ NCCN 病人版另列的其他方案（CAPEOX、FOLFIRI、FOLFOX、OFF、nab-pacl
 | olaparib | 噁心常見（POLO 任何等級 45% 對 23%），備止吐藥（Golan et al., 2019） | 開始前，前一線化療的血液毒性要恢復到 ≤1 級；CBC 基線，之後每月（AstraZeneca, 2025） | 見 6.6 |
 
 > [!CAUTION]
-> **待核對：多藥方案的整體致吐分級與 G-CSF 一級預防**
-> oxaliplatin 與 irinotecan 在共用章 1.1 各列為中致吐；FOLFIRINOX、NALIRIFOX 這種多藥方案的整體致吐分級，以及是否達到 G-CSF 一級預防的 FN 風險門檻（約 ≥20%，見[支持性照護](00-shared/03-supportive-care.md#21-什麼時候用)第 2.1 節），本手冊沒有取得指引原文。可引用的數字只有發燒性嗜中性球低下的發生率：PRODIGE 4 為 5.4%，PRODIGE 24 為 3.0%（Tai et al., 2025；de Jesus & Riechelmann, 2021）。實務依院內化療處方系統與主治醫師；G-CSF 的健保規定見共用章 2.4。
+> **待核對：多藥方案的整體致吐分級與正式 FN 風險分級**
+> 已查到的部分：ASCO 2015 指引建議，FN 風險約 20% 以上、且沒有同樣有效而不需 CSF 的方案時，才給預防性 CSF（Smith et al., 2015）。FOLFIRINOX 類方案的 FN 發生率，各來源落在約 3–19%：PRODIGE 4（轉移性）為 5.4%、PRODIGE 24（輔助 mFOLFIRINOX）為 3.0%（Tai et al., 2025；de Jesus & Riechelmann, 2021；所引資料沒有寫這兩項試驗是否給 G-CSF 一級預防）；韓國隨機第 2 期（局部晚期或轉移性、mFOLFIRINOX、n = 77）不給 G-CSF 的對照組為 12.8%，預防組無 FN，3–4 級嗜中性球低下 2.6% 對 38.5%（Lee et al., 2025）；兩個回溯性世代中未用一級預防者（含只在事後給 G-CSF 者）的 FN 為 8.3% 與 18.5%（Carvalho de Brito et al., 2023；Jung et al., 2020）。這些數字都低於 20% 門檻，部分落在[支持性照護](00-shared/03-supportive-care.md#21-什麼時候用)第 2.1 節的 10–20% 中間地帶，所以一級預防要看個別病人的風險因子，不是這個方案一定要給。後三項研究的作者結論並不一致：Carvalho de Brito 等人認為未預防的 FN 風險低到不足以常規使用，Lee 等人與 Jung 等人則認為資料支持一級預防；這三項不是第 2 期就是回溯性，樣本小。
+> 仍未取得：NCCN 或 ASCO 對 FOLFIRINOX、NALIRIFOX 的正式 FN 風險分級，以及這兩個多藥方案的整體致吐分級（oxaliplatin 與 irinotecan 在共用章 1.1 各列為中致吐，多藥合併後是否升級，沒有取得指引原文）。實務依院內化療處方系統與主治醫師；G-CSF 的健保規定見共用章 2.4。
 
 ### 5.6 胰酵素替代治療（PERT）
 
@@ -1142,7 +1151,7 @@ Camptosar 的劑量等級（大腸直腸癌合併療法）是 180 → 150 → 12
 
 > [!CAUTION]
 > **待核對：FOLFIRINOX 沒有專屬的 irinotecan 劑量調整表**
-> 上表「Camptosar」欄取自仿單針對**大腸直腸癌**合併療法的表格，該表以舊版 NCI CTC（v1.0）分級，腹瀉的次數門檻與本手冊用的 v5.0 不完全相同（v1.0 的 G1 為 2–3 次、G3 為 7–9 次、G4 為 ≥10 次）；G2 以上「暫停、恢復後減量」的方向一致。美國仿單沒有胰臟癌 FOLFIRINOX 的劑量調整表，PRODIGE 4 與 PRODIGE 24 的方案內減量細節本手冊未取得。FOLFIRINOX 實際的減量步驟，以院內 protocol 與主治醫師為準。
+> 上表「Camptosar」欄取自仿單針對**大腸直腸癌**合併療法的表格，該表以舊版 NCI CTC（v1.0）分級，腹瀉的次數門檻與本手冊用的 v5.0 不完全相同（v1.0 的 G1 為 2–3 次、G3 為 7–9 次、G4 為 ≥10 次）；G2 以上「暫停、恢復後減量」的方向一致。美國仿單沒有胰臟癌 FOLFIRINOX 的劑量調整表。間接的參考：作者包含 PRODIGE 4 第一作者 Conroy 的轉移性胰臟癌 FOLFIRINOX 綜述，其毒性處置表（Table 3）列：嗜中性球低下（該列未標分級）或 3–4 級腹瀉，下一個週期 irinotecan 降到 150 mg/m² 並取消 5-FU bolus（Lambert et al., 2017）。這是轉移性 FOLFIRINOX（PRODIGE 4：irinotecan 180 mg/m²、有 5-FU bolus，見 [5.1](#51-folfirinox-家族輔助-mfolfirinox-與轉移性-folfirinox)）的降階；輔助 mFOLFIRINOX 的 irinotecan 起始就是 150 mg/m² 且沒有 bolus，不能直接套用「降到 150」。該綜述說明完整的減量準則在 PRODIGE 4 論文的 supplementary appendix。PRODIGE 24 的 5 年報告只記載 irinotecan 起始劑量在納入 162 人後，依方案預定的安全性分析由 180 降為 150 mg/m²，正文沒有方案內的減量規則（Conroy et al., 2022）。仍未取得 PRODIGE 4 的 appendix 與 PRODIGE 24 的 protocol，所以綜述的表是否等同原方案規則無法確認。FOLFIRINOX 實際的減量步驟，以院內 protocol 與主治醫師為準。
 
 #### 嗜中性球低下
 
@@ -1195,7 +1204,7 @@ Camptosar 的劑量等級（大腸直腸癌合併療法）是 180 → 150 → 12
 
 > [!CAUTION]
 > **待核對：胰臟癌 FOLFIRINOX 的 oxaliplatin 減量級距**
-> 上表的 75／65 mg/m² 來自美國仿單的結直腸癌 FOLFOX 方案；仿單沒有胰臟癌的 oxaliplatin 劑量調整表。PRODIGE 4 與 PRODIGE 24 的方案內減量細節本手冊未取得，NALIRIFOX 的 oxaliplatin 隨 Onivyde 階梯降到 80%、65%、50%（5.2）。FOLFIRINOX 的實際減量步驟以院內 protocol 與主治醫師為準。
+> 上表的 75／65 mg/m² 來自美國仿單的結直腸癌 FOLFOX 方案；仿單沒有胰臟癌的 oxaliplatin 劑量調整表。間接的參考：作者包含 PRODIGE 4 第一作者 Conroy 的轉移性胰臟癌 FOLFIRINOX 綜述，其毒性處置表（Table 3）列：3 級感覺神經毒性，下一個週期 oxaliplatin 降到 65 mg/m²；週期之間持續有神經毒性就停用 oxaliplatin；血小板低下時 oxaliplatin 降到 60 mg/m²（同列另調降持續輸注 5-FU，幅度寫法含糊，這裡不轉述）（Lambert et al., 2017）。這和上面神經病變分級表（仿單的結直腸癌做法：持續性 G3 考慮停用）不同，該表是 G3 先降到 65 mg/m²。仍未取得 PRODIGE 4 的 supplementary appendix 與 PRODIGE 24 的 protocol，所以綜述的表是否等同原方案規則無法確認。NALIRIFOX 的 oxaliplatin 隨 Onivyde 階梯降到 80%、65%、50%（5.2）。FOLFIRINOX 的實際減量步驟以院內 protocol 與主治醫師為準。
 
 > [!WARNING]
 > **oxaliplatin 的過敏不會「先練習幾次」**
@@ -1643,8 +1652,8 @@ PEI 的機轉、劑量與台灣產品見 [5.6](#56-胰酵素替代治療pert)。
 > ADA/EASD 等學會的共識指出，SGLT2 抑制劑是現今 euglycemic DKA（血糖低於 200 mg/dL 的酮酸中毒）的主要原因，進食減少與急性疾病都是誘因，可用「病假日規則（sick day rules）」預防；入院時應停用（Umpierrez et al., 2024）。血糖不高，不代表沒有酮酸中毒：吃不下、嘔吐、呼吸深快（Kussmaul 呼吸）的病人，要驗酮體。
 
 > [!CAUTION]
-> **待核對：胰臟癌化療病人的血糖目標與用藥**
-> 本手冊沒有取得專為胰臟癌化療病人訂定的血糖目標與胰島素調整規則，也沒有核對 ADA 2026 年版標準的全文（本小節的低血糖分級取自 ADA 2024 年版標準的第 6 節，見 [8.6](#86-低血糖與高血糖危象)）。目標值（要鬆還是要緊）要依預期存活、低血糖風險與病人意願，由主治醫師與糖尿病團隊決定。
+> **待核對：胰臟癌化療病人專屬的血糖目標與用藥**
+> 已核對 ADA 2026 年版標準第 6 節的血糖目標與低血糖段落（低血糖分級見 [8.6](#86-低血糖與高血糖危象)）：A1C <7%（<53 mmol/mol）適用於許多非孕成人；有複雜健康狀態或預期存活有限者，可放寬到 A1C 最高約 8%（64 mmol/mol）；選藥與訂目標時要納入低血糖風險（American Diabetes Association Professional Practice Committee for Diabetes, 2026）。該段沒有提到癌症病人。本手冊仍沒有取得專為胰臟癌化療病人訂定的血糖目標與胰島素調整規則；目標值（要鬆還是要緊）要依預期存活、低血糖風險與病人意願，由主治醫師與糖尿病團隊決定。
 
 ### 7.10 血栓：預防與處置
 
@@ -1727,8 +1736,8 @@ PEI 的機轉、劑量與台灣產品見 [5.6](#56-胰酵素替代治療pert)。
 術後的糖尿病與胰酵素不足也要接著處理：見 [7.9](#79-血糖胰源性3c-型糖尿病與化療期間) 與 [7.7](#77-胰酵素替代治療的病房流程)。
 
 > [!CAUTION]
-> **待核對：ISGPS 定義裡只在二手文獻看到的細節**
-> 以下只見於二手來源，未在 ISGPS 原文確認：（1）POPF 的「術後第 3 天或之後」時間條件；（2）DGE 各級的天數門檻（A 級為術後第 7 天仍無法吃固體食物、B 級第 14 天、C 級第 21 天的說法，取自 Jiménez-Romero et al., 2025 對 ISGPS 的轉述）；（3）PPH C 級與栓塞、內視鏡或再手術的關係。POPF 的 2016 年定義另有 2024 年更正（*Surgery*, 176(3), 988–989），本手冊未讀到更正內容。臨床分級以外科團隊為準。
+> **待核對：ISGPS 定義裡仍未讀到原文的細節**
+> ISGPS 原文（*Surgery*）未能開啟，下列細節由轉載原表的二手文獻確認：（1）DGE 各級（Tan et al., 2011，Table 1，註明改編自 Wente et al., 2007a）：A 級為鼻胃管 4–7 天或術後第 3 天後重新置入、術後第 7 天仍無法吃固體食物；B 級為 8–14 天或第 7 天後重新置入、第 14 天；C 級為 >14 天或第 14 天後重新置入、第 21 天。術後第 7、14、21 天的固體食物門檻另與先前引用的 Jiménez-Romero et al., 2025 一致；嘔吐與促腸胃蠕動藥的條件，兩篇寫法不同，此處不列。（2）PPH C 級（Tan et al., 2011，Table 3，註明改編自 Wente et al., 2007b）的處置為定位出血、血管攝影加栓塞、（內視鏡）或再手術，並入加護病房。仍未確認：（1）POPF 的「術後第 3 天或之後」條件，只在 2016 年版之前的定義看到（Tan et al., 2011，Table 4），2016 年版的摘要沒有寫這一項；（2）POPF 的 2016 年定義另有 2024 年更正（*Surgery*, 176(3), 988–989），PubMed 只有題錄，本手冊未讀到更正內容；（3）轉載的表與 ISGPS 原文是否逐字相同。臨床分級以外科團隊為準。
 
 ### 7.14 療效評估與追蹤時程
 
@@ -1922,9 +1931,9 @@ Tufano 等人（2018）寫道，當時的指引建議有症狀的 SVT 要抗凝�
 
 事件後要檢討原因：吃的量、胰島素劑量、胰酵素有沒有隨餐、化療後嘔吐、體重下降；胰源性糖尿病的升糖素反應受損，低血糖更容易發生，也更難靠自身反調節救回來（Hart et al., 2016）。病人與家屬要學會辨認症狀與處置。
 
-> [!CAUTION]
-> **待核對：低血糖分級與處置的出處**
-> 上表取自 ADA 2024 年版標準的第 6 節（American Diabetes Association Professional Practice Committee, 2024），本手冊未能開啟該節全文逐條核對（分級與「約 15 g」的規則由同一指引各年版本的摘要確認）；ADA 2026 年版（American Diabetes Association Professional Practice Committee for Diabetes, 2026）的第 6 節已併入高血糖危象，其全文也未核對。實際處置以院內低血糖 protocol 為準。
+> [!NOTE]
+> **低血糖分級與處置的出處**
+> 上表的分級取自 ADA 2024 年版標準第 6 節的表 6.4（Level 1：<70 且 ≥54 mg/dL；Level 2：<54 mg/dL，為神經低血糖症狀開始出現的門檻；Level 3：意識或身體狀態改變、需要他人協助，不論血糖數值）。意識清楚者以葡萄糖處置、15 分鐘後仍低就重複，是該節的建議 6.12；「約 15 g」寫在同節 Hypoglycemia Treatment 的內文（American Diabetes Association Professional Practice Committee, 2024）。ADA 2026 年版第 6 節已更名為「血糖目標、低血糖與高血糖危象」，分級與 15 g 的文字相同（American Diabetes Association Professional Practice Committee for Diabetes, 2026）。Level 3 的處置欄是本手冊的整理，不是 ADA 表格內容：ADA 2024 寫 glucagon 用於無法或不願攝取碳水化合物者；靜脈葡萄糖與給藥流程各院不同，以院內低血糖 protocol 為準。
 
 **高血糖危象：DKA 與 HHS**（ADA/EASD/JBDS/AACE/DTS 2024 共識，Umpierrez et al., 2024）
 
@@ -1979,7 +1988,7 @@ Tufano 等人（2018）寫道，當時的指引建議有症狀的 SVT 要抗凝�
 - **依據版本**：全民健康保險藥品給付規定第 9 節「抗癌瘤藥物」，**115/10/22 版**（衛生福利部中央健康保險署，2026；原文存於 `sources/nhi/section9-1151022.md`，附表另見 `sources/nhi/nhi-drug-rules-1151022.docx`）。日期是民國紀年，115 年 ＝ 2026 年。
 - **第 9 節與胰臟有關的條文只有九條**：以「胰」全文搜尋命中 9.4、9.5.2、9.10、9.12.1、9.12.2、9.31、9.36.1、9.46、9.95；英文 pancrea 無命中。本段的「原文未見」都是逐條對照的結果。
 - **條號欄的日期**是該條最新的修訂日期；括號裡的「本點」日期是該款自己的日期。兩者不同時，兩個都寫。
-- **藥證適應症是疊加條件**：9.4 寫「依藥品許可證登載之適應症範圍內給付」，9.10、9.12.1 的標題寫「需符合藥品許可證登載之適應症」，也就是藥要先用在藥證適應症的範圍內，再符合該款的給付條件。gemcitabine 在藥證上的逐字適應症本手冊沒有核對（見 [4.4](#44-術後輔助治療) 的待核對說明）。
+- **藥證適應症是疊加條件**：9.4 寫「依藥品許可證登載之適應症範圍內給付」，9.10、9.12.1 的標題寫「需符合藥品許可證登載之適應症」，也就是藥要先用在藥證適應症的範圍內，再符合該款的給付條件。gemcitabine 的藥證適應症列有「胰臟癌」，未限分期或線別（Taiwan Food and Drug Administration, 2026）；術後輔助的實際申報情形見 [4.4](#44-術後輔助治療) 的待核對說明。
 - **用字不同不代表意思不同**：9.10、9.12.1 寫「轉移性胰臟癌」，9.5.2、9.12.2 寫「轉移性胰腺癌」，同一種病。
 - **ECOG 與 biomarker**：胰臟癌的九條都沒有寫 ECOG；只有 9.95 需要檢附生物標記報告（NTRK），其他條文要的是病理報告與影像。
 - **5-FU 與 leucovorin 沒有獨立條文**：第 9 節找不到這兩個藥的條號，只以併用藥身分出現在 9.10、9.12.1、9.12.2。
@@ -2100,8 +2109,9 @@ Tufano 等人（2018）寫道，當時的指引建議有症狀的 SVT 要抗凝�
 | sotorasib（Lumakras）、adagrasib（Krazati） | [4.10](#410-生物標記導向治療與-kras-標靶) | 有許可證，**無胰臟適應症** | 原文未收載 | KRAS G12C 只占約 1.6% |
 | zenocutuzumab | [4.10](#410-生物標記導向治療與-kras-標靶) | **無** | 原文未收載 | 美國 FDA 2024-12-04 加速核准（NRG1 融合） |
 | daraxonrasib（RASONQUE） | [4.10](#410-生物標記導向治療與-kras-標靶) | **無**（2026-10-27 資料查無） | 原文未收載 | 美國 FDA 2026-08-26 核准；台灣尚未上市 |
-| selpercatinib、rucaparib、erdafitinib | [2.4](#24-可標靶的變異與藥物)、[4.9](#49-維持治療與二線以後) | 本手冊未核對 | 原文未收載 | 藥證狀態不要告訴病人「可以處方」，先向藥事部門確認 |
-| dabrafenib ＋ trametinib、trastuzumab deruxtecan | [2.4](#24-可標靶的變異與藥物) | 本手冊未核對胰臟適應症 | 9.91（黑色素瘤與非小細胞肺癌）與 9.115（乳癌）有條文，**原文未見胰臟癌** | 無健保給付 |
+| selpercatinib、rucaparib | [2.4](#24-可標靶的變異與藥物)、[4.9](#49-維持治療與二線以後) | 本手冊未核對 | 原文未收載 | 藥證狀態不要告訴病人「可以處方」，先向藥事部門確認 |
+| erdafitinib（Balversa） | [2.4](#24-可標靶的變異與藥物) | 藥證只有 FGFR3 變異的局部晚期或轉移性泌尿道上皮癌（衛部藥輸字第027912、027913、027914號），無胰臟癌適應症 | 原文未收載 | 無健保給付 |
+| dabrafenib ＋ trametinib、trastuzumab deruxtecan | [2.4](#24-可標靶的變異與藥物) | 有不分癌別實體腫瘤適應症（BRAF V600E；HER2 IHC 3+，先前治療後且無其他適當替代），無胰臟專屬字樣 | 9.91（黑色素瘤與非小細胞肺癌）與 9.115（乳癌）有條文，**原文未見胰臟癌** | 無健保給付 |
 
 **有條文，但本章用到的胰臟癌用法原文未見**
 
@@ -2555,6 +2565,8 @@ Cancer Genome Atlas Research Network. (2017). Integrated genomic characterizatio
 
 Carrier, M., Abou-Nassar, K., Mallick, R., Tagalakis, V., Shivakumar, S., Schattner, A., Kuruvilla, P., Hill, D., Spadafora, S., Marquis, K., Trinkaus, M., Tomiak, A., Lee, A. Y. Y., Gross, P. L., Lazo-Langner, A., El-Maraghi, R., Goss, G., Le Gal, G., Stewart, D., . . . Wells, P. S. (2019). Apixaban to prevent venous thromboembolism in patients with cancer. *New England Journal of Medicine, 380*(8), 711–719. https://doi.org/10.1056/NEJMoa1814468（PMID: 30511879）
 
+Carvalho de Brito, A. B., Riechelmann, R. P., & Fonseca de Jesus, V. H. (2023). Impact of granulocyte colony-stimulating factor (G-CSF) on the outcomes of patients with metastatic pancreatic adenocarcinoma (MPA) during first-line treatment with FOLFIRINOX: A single-center retrospective analysis. *Cancer Control, 30*, Article 10732748221149543. https://doi.org/10.1177/10732748221149543（PMID: 36592369）
+
 Chang, J. S., Chen, L.-T., Shan, Y.-S., Chu, P.-Y., Tsai, C.-R., & Tsai, H.-J. (2018). The incidence and survival of pancreatic cancer by histology, including rare subtypes: A nation-wide cancer registry-based study from Taiwan. *Cancer Medicine, 7*(11), 5775–5788. https://doi.org/10.1002/cam4.1795（PMID: 30264519）
 
 Chang, T. C., Shiah, H. S., Yang, C. H., Yeh, K. H., Cheng, A. L., Shen, B. N., Wang, Y. W., Yeh, C. G., Chiang, N. J., Chang, J. Y., & Chen, L. T. (2015). Phase I study of nanoliposomal irinotecan (PEP02) in advanced solid tumor patients. *Cancer Chemotherapy and Pharmacology, 75*(3), 579–586. https://doi.org/10.1007/s00280-014-2671-x（PMID: 25577133）
@@ -2665,6 +2677,10 @@ Jiménez-Romero, C., de Juan Lerma, A., Marcacuzco Quinto, A., Caso Maestro, O.,
 
 Jones, M. R., Williamson, L. M., Topham, J. T., Lee, M. K. C., Goytain, A., Ho, J., Denroche, R. E., Jang, G., Pleasance, E., Shen, Y., Karasinska, J. M., McGhie, J. P., Gill, S., Lim, H. J., Moore, M. J., Wong, H.-L., Ng, T., Yip, S., Zhang, W., . . . Renouf, D. J. (2019). NRG1 gene fusions are recurrent, clinically actionable gene rearrangements in KRAS wild-type pancreatic ductal adenocarcinoma. *Clinical Cancer Research, 25*(15), 4674–4681. https://doi.org/10.1158/1078-0432.CCR-19-0191（PMID: 31068372）
 
+Jung, J. H., Shin, D. W., Kim, J., Lee, J.-C., & Hwang, J.-H. (2020). Primary granulocyte colony-stimulating factor prophylaxis in metastatic pancreatic cancer patients treated with FOLFIRINOX as the first-line treatment. *Cancers, 12*(11), Article 3137. https://doi.org/10.3390/cancers12113137（PMID: 33120908）
+
+Kalser, M. H., Barkin, J., & MacIntyre, J. M. (1985). Pancreatic cancer: Assessment of prognosis by clinical presentation. *Cancer, 56*(2), 397–402. https://doi.org/10.1002/1097-0142(19850715)56:2<397::aid-cncr2820560232>3.0.co;2-i（PMID: 4005804）
+
 Kamada, Y., Hori, T., Yamamoto, H., Harada, H., Yamamoto, M., Yamada, M., Yazawa, T., Sasaki, B., Tani, M., Sato, A., Katsura, H., Tani, R., Aoyama, R., Sasaki, Y., Okada, M., & Zaima, M. (2021). Fatal arterial hemorrhage after pancreaticoduodenectomy: How do we simultaneously accomplish complete hemostasis and hepatic arterial flow? *World Journal of Hepatology, 13*(4), 483–503. https://doi.org/10.4254/wjh.v13.i4.483（PMID: 33959229）
 
 Kastrinos, F., Mukherjee, B., Tayob, N., Wang, F., Sparr, J., Raymond, V. M., Bandipalliam, P., Stoffel, E. M., Gruber, S. B., & Syngal, S. (2009). Risk of pancreatic cancer in families with Lynch syndrome. *JAMA, 302*(16), 1790–1795. https://doi.org/10.1001/jama.2009.1529（PMID: 19861671）
@@ -2685,11 +2701,19 @@ Kirkegård, J., Mortensen, F. V., & Cronin-Fenton, D. (2017). Chronic pancreatit
 
 Ko, A. H., Malafa, M. P., Aguilera, T., Basturk, O., Benson, A. B., III, Cardin, D. B., Chiorean, E. G., Christensen, J. A., Chung, V., Czito, B., Del Chiaro, M., Dillhoff, M., Donahue, T. R., Fountzilas, C., Hardacre, J., Klute, K., Kunstman, J. W., Lim, K.-H., LoConte, N., . . . Ramakrishnan, S. (2026). Pancreatic adenocarcinoma, version 4.2026, NCCN Clinical Practice Guidelines in Oncology. *Journal of the National Comprehensive Cancer Network, 24*(10), Article e260046. https://doi.org/10.6004/jnccn.2026.0046（PMID: 42869082）
 
+Korsse, S. E., Harinck, F., van Lier, M. G. F., Biermann, K., Offerhaus, G. J. A., Krak, N., Looman, C. W. N., van Veelen, W., Kuipers, E. J., Wagner, A., Dekker, E., Mathus-Vliegen, E. M. H., Fockens, P., van Leerdam, M. E., & Bruno, M. J. (2013). Pancreatic cancer risk in Peutz-Jeghers syndrome patients: A large cohort study and implications for surveillance. *Journal of Medical Genetics, 50*(1), 59–64. https://doi.org/10.1136/jmedgenet-2012-101277（PMID: 23240097）
+
+Kwok, D. C. P., & Chok, K. S. H. (2026). Surgical management of pancreatic cancer: An overview. *Chinese Clinical Oncology, 15*(2), Article 33. https://doi.org/10.21037/cco-25-86（PMID: 42145017）
+
 Labori, K. J., Bratlie, S. O., Andersson, B., Angelsen, J. H., Biörserud, C., Björnsson, B., Bringeland, E. A., Elander, N., Garresori, H., Grønbech, J. E., Haux, J., Hemmingsson, O., Liljefors, M. G., Myklebust, T. Å., Nymo, L. S., Peltola, K., Pfeiffer, P., Sallinen, V., Sandström, P., . . . Lassen, K. (2024). Neoadjuvant FOLFIRINOX versus upfront surgery for resectable pancreatic head cancer (NORPACT-1): A multicentre, randomised, phase 2 trial. *The Lancet Gastroenterology & Hepatology, 9*(3), 205–217. https://doi.org/10.1016/S2468-1253(23)00405-3（PMID: 38237621）
 
 Laine, L., Barkun, A. N., Saltzman, J. R., Martel, M., & Leontiadis, G. I. (2021). ACG clinical guideline: Upper gastrointestinal and ulcer bleeding. *American Journal of Gastroenterology, 116*(5), 899–917. https://doi.org/10.14309/ajg.0000000000001245（PMID: 33929377）
 
+Lambert, A., Gavoille, C., & Conroy, T. (2017). Current status on the place of FOLFIRINOX in metastatic pancreatic cancer and future directions. *Therapeutic Advances in Gastroenterology, 10*(8), 631–645. https://doi.org/10.1177/1756283X17713879（PMID: 28835777）
+
 Larsson, S. C., Orsini, N., & Wolk, A. (2007). Body mass index and pancreatic cancer risk: A meta-analysis of prospective studies. *International Journal of Cancer, 120*(9), 1993–1998. https://doi.org/10.1002/ijc.22535（PMID: 17266034）
+
+Lee, C.-K., Kim, I., Seo, D. H., Park, S., Kim, M., Lee, S. H., Lee, Y. J., Kim, J. H., Kim, C. G., & Choi, H. J. (2025). Pegylated granulocyte colony-stimulating factor primary prophylaxis versus no prophylaxis in patients with unresectable pancreatic cancer treated with modified-FOLFIRINOX: A randomized, open-label, multicenter, phase 2 trial. *eClinicalMedicine, 90*, Article 103646. https://doi.org/10.1016/j.eclinm.2025.103646（PMID: 41324016）
 
 Lena, J., Alamé, M., Italiano, A., Soubeyran, I., Blouin, L., Khalifa, E., Cousin, S., Pernot, S., & Palmieri, L.-J. (2025). Extensive molecular profiling of KRAS wild-type as compared to KRAS mutated pancreatic ductal adenocarcinoma on 318 patients. *European Journal of Cancer, 216*, Article 115197. https://doi.org/10.1016/j.ejca.2024.115197（PMID: 39729677）
 
@@ -2719,6 +2743,8 @@ Meitheal. (2025). *Gemcitabine injection* [Package insert]. DailyMed. https://da
 
 Merck Sharp & Dohme LLC. (2026). *Keytruda (pembrolizumab) injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287（版本日期 2026-07-10）
 
+Meric-Bernstam, F., Makker, V., Oaknin, A., Oh, D.-Y., Banerjee, S., González-Martín, A., Jung, K. H., Ługowska, I., Manso, L., Manzano, A., Melichar, B., Siena, S., Stroyakovskiy, D., Fielding, A., Ma, Y., Puvvada, S., Shire, N., & Lee, J.-Y. (2024). Efficacy and safety of trastuzumab deruxtecan in patients with HER2-expressing solid tumors: Primary results from the DESTINY-PanTumor02 phase II trial. *Journal of Clinical Oncology, 42*(1), 47–58. https://doi.org/10.1200/JCO.23.02005（PMID: 37870536）
+
 Miura, F., Okamoto, K., Takada, T., Strasberg, S. M., Asbun, H. J., Pitt, H. A., Gomi, H., Solomkin, J. S., Schlossberg, D., Han, H.-S., Kim, M.-H., Hwang, T.-L., Chen, M.-F., Huang, W. S.-W., Kiriyama, S., Itoi, T., Garden, O. J., Liau, K.-H., Horiguchi, A., . . . Yamamoto, M. (2018). Tokyo Guidelines 2018: Initial management of acute biliary infection and flowchart for acute cholangitis. *Journal of Hepato-Biliary-Pancreatic Sciences, 25*(1), 31–40. https://doi.org/10.1002/jhbp.509（PMID: 28941329）
 
 Moekotte, A. L., Malleo, G., van Roessel, S., Bonds, M., Halimi, A., Zarantonello, L., Napoli, N., Dreyer, S. B., Wellner, U. F., Bolm, L., Mavroeidis, V. K., Robinson, S., Khalil, K., Ferraro, D., Mortimer, M. C., Harris, S., Al-Sarireh, B., Fusai, G. K., Roberts, K. J., . . . Abu Hilal, M. (2020). Gemcitabine-based adjuvant chemotherapy in subtypes of ampullary adenocarcinoma: International propensity score-matched cohort study. *British Journal of Surgery, 107*(9), 1171–1182. https://doi.org/10.1002/bjs.11555（PMID: 32259295）
@@ -2740,6 +2766,8 @@ Neoptolemos, J. P., Stocken, D. D., Friess, H., Bassi, C., Dunn, J. A., Hickey, 
 Neuss, M. N., Polovich, M., McNiff, K., Esper, P., Gilmore, T. R., LeFebvre, K. B., Schulmeister, L., & Jacobson, J. O. (2013). 2013 updated American Society of Clinical Oncology/Oncology Nursing Society chemotherapy administration safety standards including standards for the safe administration and management of oral chemotherapy. *Journal of Oncology Practice, 9*(2 Suppl), 5s–13s. https://doi.org/10.1200/JOP.2013.000874（PMID: 23914148）
 
 Norton, C., Shaw, M. S., Rubnitz, Z., Smith, J., Soares, H. P., Nevala-Plagemann, C. D., Garrido-Laguna, I., & Florou, V. (2025). KRAS mutation status and treatment outcomes in patients with metastatic pancreatic adenocarcinoma. *JAMA Network Open, 8*(1), Article e2453588. https://doi.org/10.1001/jamanetworkopen.2024.53588（PMID: 39777438）
+
+Novartis Pharmaceuticals Corporation. (2026). *Tafinlar (dabrafenib)* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fee1e6b1-e1a5-4254-9f2e-a70e0f8dbdea（版本日期 2026-05-20）
 
 Oar, A., Kneebone, A., Sjoquist, K. M., Espinoza, D., Lee, M., Le, H., Gholamrezaei, L., Chu, J., Lynam, J., Mallesara, G., Lee, D., Vignarajah, D., Ward, I., Samra, J., Barbour, A., Whitehead, A., Brooks, S., Nicholson, A., Wang, T. W., . . . Goldstein, D. (2026). Perioperative chemotherapy and stereotactic body radiotherapy versus perioperative chemotherapy alone in patients with high-risk, localised pancreatic cancer (MASTERPLAN): An open-label, phase 2, multicentre, randomised trial of the Australasian Gastro-Intestinal Trials Group. *The Lancet Oncology*. Advance online publication. https://doi.org/10.1016/S1470-2045(26)00532-2（PMID: 42914998）
 
@@ -2768,6 +2796,8 @@ Park, W., Chawla, A., & O'Reilly, E. M. (2021). Pancreatic cancer: A review. *JA
 Park, W., Kasi, A., Spira, A. I., Paz-Ares Rodríguez, L., Herzberg, B. O., Pelster, M. S., Tolcher, A. W., Kuboki, Y., Kitano, S., Shoji, H., Wang, J. S., Berlin, J. D., Hollebecque, A., LoRusso, P., Fountzilas, C., Cassier, P. A., Nishina, T., Sakai, D., Inagaki, C., . . . Goldman, J. W. (2026). Setidegrasib in advanced non-small-cell lung cancer and pancreatic cancer. *New England Journal of Medicine, 394*(14), 1409–1420. https://doi.org/10.1056/NEJMoa2600752（PMID: 41879829）
 
 Permuth-Wey, J., & Egan, K. M. (2009). Family history is a significant risk factor for pancreatic cancer: Results from a systematic review and meta-analysis. *Familial Cancer, 8*(2), 109–117. https://doi.org/10.1007/s10689-008-9214-8（PMID: 18763055）
+
+Perri, G., Engstrand, J., Wright, R. D., Bronzwaer, S. F. C., Kroese, T. E., Huang, B., Acidi, B., Vitale, A., Tran Cao, H. S., van Hillegersberg, R., Nilsson, M., Sparrelid, E., Katz, M. H. G., Marchegiani, G., & Cillo, U. (2025). The evolving concept of conversion surgery for upfront unresectable upper gastrointestinal and hepato-pancreato-biliary cancers: Comprehensive review. *BJS Open, 9*(4), Article zraf070. https://doi.org/10.1093/bjsopen/zraf070（PMID: 40631805）
 
 Pharmacia & Upjohn. (2026). *Camptosar (irinotecan hydrochloride) injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056（版本日期 2026-05-12）
 
@@ -2799,6 +2829,8 @@ Sandhya, L., Devi Sreenivasan, N., Goenka, L., Dubashi, B., Kayal, S., Solaiappa
 
 Sawas, T., Al Halabi, S., Parsi, M. A., & Vargo, J. J. (2015). Self-expandable metal stents versus plastic stents for malignant biliary obstruction: A meta-analysis. *Gastrointestinal Endoscopy, 82*(2), 256–267.e7. https://doi.org/10.1016/j.gie.2015.03.1980（PMID: 25982849）
 
+Schmidt-Hansen, M., Berendse, S., & Hamilton, W. (2016). Symptoms of pancreatic cancer in primary care: A systematic review. *Pancreas, 45*(6), 814–818. https://doi.org/10.1097/MPA.0000000000000527（PMID: 26495795）
+
 Schram, A. M., Goto, K., Kim, D. W., Macarulla, T., Hollebecque, A., O'Reilly, E. M., Ou, S. I., Rodon, J., Rha, S. Y., Nishino, K., Duruisseaux, M., Park, J. O., Neuzillet, C., Liu, S. V., Weinberg, B. A., Cleary, J. M., Calvo, E., Umemoto, K., Nagasaka, M., . . . Drilon, A. (2025). Efficacy of zenocutuzumab in NRG1 fusion-positive cancer. *New England Journal of Medicine, 392*(6), 566–576. https://doi.org/10.1056/NEJMoa2405008（PMID: 39908431）
 
 Sharma, A., Kandlakunta, H., Nagpal, S. J. S., Feng, Z., Hoos, W., Petersen, G. M., & Chari, S. T. (2018). Model to determine risk of pancreatic cancer in patients with new-onset diabetes. *Gastroenterology, 155*(3), 730–739.e3. https://doi.org/10.1053/j.gastro.2018.05.023（PMID: 29775599）
@@ -2808,6 +2840,8 @@ Shi, S., Wei, M., Du, N., Li, J., Han, B., Wang, W., Hu, X., Luo, F., Xu, J., & 
 Singhi, A. D., George, B., Greenbowe, J. R., Chung, J., Suh, J., Maitra, A., Klempner, S. J., Hendifar, A., Javle, M. M., Golan, T., Brand, R. E., Zureikat, A. H., Roy, S., Schrock, A. B., Miller, V. A., Ross, J. S., Ali, S. M., & Bahary, N. (2019). Real-time targeted genome profile analysis of pancreatic ductal adenocarcinomas identifies genetic alterations that might be targeted with existing drugs or used as biomarkers. *Gastroenterology, 156*(8), 2242–2253.e4. https://doi.org/10.1053/j.gastro.2019.02.037（PMID: 30836094）
 
 Singhi, A. D., Lilo, M., Hruban, R. H., Cressman, K. L., Fuhrer, K., & Seethala, R. R. (2014). Overexpression of lymphoid enhancer-binding factor 1 (LEF1) in solid-pseudopapillary neoplasms of the pancreas. *Modern Pathology, 27*(10), 1355–1363. https://doi.org/10.1038/modpathol.2014.40（PMID: 24658583）
+
+Smith, T. J., Bohlke, K., Lyman, G. H., Carson, K. R., Crawford, J., Cross, S. J., Goldberg, J. M., Khatcheressian, J. L., Leighl, N. B., Perkins, C. L., Somlo, G., Wade, J. L., Wozniak, A. J., & Armitage, J. O. (2015). Recommendations for the use of WBC growth factors: American Society of Clinical Oncology clinical practice guideline update. *Journal of Clinical Oncology, 33*(28), 3199–3212. https://doi.org/10.1200/JCO.2015.62.3488（PMID: 26169616）
 
 Sohal, D. P. S., Duong, M., Ahmad, S. A., Gandhi, N. S., Beg, M. S., Wang-Gillam, A., Wade, J. L., Chiorean, E. G., Guthrie, K. A., Lowy, A. M., Philip, P. A., & Hochster, H. S. (2021). Efficacy of perioperative chemotherapy for resectable pancreatic adenocarcinoma: A phase 2 randomized clinical trial. *JAMA Oncology, 7*(3), 421–427. https://doi.org/10.1001/jamaoncol.2020.7328（PMID: 33475684）
 
@@ -2822,6 +2856,8 @@ Su, Y.-Y., Chiang, N.-J., Li, C.-P., Yen, C.-J., Yang, S.-H., Chou, W.-C., Chen,
 Tai, D., Conroy, T., Lee, J. J. X., Chee, C. E., Hao, C. Y., Wijaya, I., Aggarwal, S., Ueno, M., Jeung, H. C., Hashim, N. M., Tan Chun Bing, J., Chen, L. T., Korphaisarn, K., Tanasanvimon, S., Chou, W. C., Cargullo, E., Muin, N. F. A., Lee, M. A., Ohba, A., . . . Ducreux, M. (2025). Pan-Asian adapted ESMO Clinical Practice Guidelines for the diagnosis, treatment and follow-up of patients with pancreatic cancer. *ESMO Open, 10*(10), Article 105826. https://doi.org/10.1016/j.esmoop.2025.105826（PMID: 41067164）
 
 Taiwan Food and Drug Administration. (2026). *全部藥品許可證資料集* [Data set; InfoId 36; file dated 2026-10-27; downloaded 2026-10-29]. https://data.fda.gov.tw/opendata/exportDataList.do?method=ExportData&InfoId=36&logType=2
+
+Tan, W. J., Kow, A. W. C., & Liau, K. H. (2011). Moving towards the new International Study Group for Pancreatic Surgery (ISGPS) definitions in pancreaticoduodenectomy: A comparison between the old and new. *HPB, 13*(8), 566–572. https://doi.org/10.1111/j.1477-2574.2011.00336.x（PMID: 21762300）
 
 Tanaka, M., Ito, H., Ono, Y., Matsueda, K., Mise, Y., Ishizawa, T., Inoue, Y., Takahashi, Y., Hiratsuka, M., Unno, T., & Saiura, A. (2019). Impact of portal vein resection with splenic vein reconstruction after pancreatoduodenectomy on sinistral portal hypertension: Who needs reconstruction? *Surgery, 165*(2), 291–297. https://doi.org/10.1016/j.surg.2018.08.025（PMID: 30268375）
 
@@ -2909,10 +2945,14 @@ Yokoi, K., Nakajima, Y., Matsuoka, H., Shinkai, Y., Ishihara, T., Maeda, Y., Kat
 
 Zhao, K., Son, S. Y., Sarkar, D., & Santos, E. G. (2024). Trans-splenic percutaneous glue embolization of bleeding gastric varices in the setting of malignant sinistral portal hypertension. *CVIR Endovascular, 7*(1), Article 58. https://doi.org/10.1186/s42155-024-00467-1（PMID: 39066948）
 
-癌症登記中心. (2025). *112年癌症登記長表年報*. https://twcr.tw/wp-content/uploads/2025/12/CA17_LF112.pdf
+癌症登記中心. (2025a). *112年癌症登記長表年報*. https://twcr.tw/wp-content/uploads/2025/12/CA17_LF112.pdf
+
+癌症登記中心. (2025b). *台灣10大癌症108-112年新發個案存活率（追蹤至113年）*. https://twcr.tw/wp-content/uploads/2025/12/Survival_108_112.pdf
 
 衛生福利部. (2025, December 30). *公布112年國人癌症登記資料分析結果 守護健康未來 從癌症篩檢開始* [新聞稿]. https://mohw.gov.tw/cp-2704-84987-1.html
 
 衛生福利部. (2026, June 22). *國人死亡人數連續3年下降 十大死因中6項死因人數、死亡率都減少* [新聞稿]. https://mohw.gov.tw/cp-16-86970-1.html
 
 衛生福利部中央健康保險署. (2026). *全民健康保險藥品給付規定：第9節 抗癌瘤藥物* [115年10月22日版公告原文]. https://www.nhi.gov.tw/
+
+衛生福利部國民健康署. (2025). *中華民國112年癌症登記報告*. 衛生福利部國民健康署. https://www.hpa.gov.tw/Pages/ashx/GetFile.ashx?lang=c&type=1&sid=19b0fbcde39a4e4da6252552cafe6176

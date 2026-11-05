@@ -83,7 +83,7 @@
 | IV 期 | 7.3% | 臨床 IV 期 7.1% |
 | 不明 | 1.0% | |
 
-長表只涵蓋 106 家申報醫院，**含原位癌**（分析 n = 20,493），分期用 AJCC 第 8 版的整併期別（合併臨床與病理分期），所以總數和官方的 17,779 人不同。0 期加 I 期約占 48.4%，III 加 IV 期約占 18.0%（自行計算）。侵襲癌的組織型：invasive carcinoma NST（一般所說的 ductal）**85.4%**、invasive lobular 5.5%、mucinous 3.3%、papillary 2.2%、metaplastic 0.6%、Paget disease 0.2%。
+長表只涵蓋 106 家申報醫院，**含原位癌**（分析 n = 20,493），分期用 AJCC 第 8 版的整併期別（有手術且術前沒做 neoadjuvant 治療者取病理期別，術前做過 neoadjuvant 治療或沒手術者取臨床期別），所以總數和官方的 17,779 人不同。0 期加 I 期約占 48.4%，III 加 IV 期約占 18.0%（自行計算）。侵襲癌的組織型：invasive carcinoma NST（一般所說的 ductal）**85.4%**、invasive lobular 5.5%、mucinous 3.3%、papillary 2.2%、metaplastic 0.6%、Paget disease 0.2%。
 
 **年齡別發生率（2019–2023 年，每 10 萬女性）**
 
@@ -187,7 +187,7 @@ BRCA1/2 帶因的男性：自我乳房檢查訓練，35 歲起每年 CBE，50 �
 
 > [!CAUTION]
 > **待核對：BRCA 與其他基因檢測的健保給付**
-> 衛福部健保署公告，2024-05-01 起癌症次世代定序（NGS）依固定點數給付：BRCA 檢測 10,000 點、小套組（≤100 個基因）20,000 點、大套組（>100 個基因）30,000 點；涵蓋的實體癌包括三陰性乳癌；每人每個癌別終身一次，由區域醫院以上或癌症品質認證醫院、符合 LDT 計畫並設有分子腫瘤討論會者申報，結果須上傳健保署（衛福部健保署 2024-04-19）。這屬於醫療服務給付項目，不在藥品給付規定第 9 節。本章**未核對**：(1) 乳癌各適應症（例如 HER2 陰性高風險早期、轉移性 HR 陽性）是否都在給付範圍；(2) PIK3CA、ESR1 檢測有沒有給付；(3) 2024 年之後有無修訂。第 9 節各藥要求檢附的檢測報告，必須符合通則十二（113/6/1）三種來源之一，見[第 9 段](#9-健保給付與事前審查)。
+> 衛福部健保署公告，2024-05-01 起癌症次世代定序（NGS）依固定點數給付：BRCA 檢測 10,000 點、小套組（≤100 個基因）20,000 點、大套組（>100 個基因）30,000 點；每人每個癌別終身一次，由區域醫院以上或癌症品質認證醫院、符合 LDT 計畫並設有分子腫瘤討論會者申報，結果須上傳健保署（衛福部健保署 2024-04-19）。該新聞稿列出的 NGS 涵蓋實體癌中，乳癌只列三陰性乳癌。**2026 年有擴大給付的報導**：據中央社（陳婕翎, 2026-06-25）與聯合報（周佑政與李樹人, 2026-09-14）報導，健保署 2026-06-25 的醫療服務共同擬訂會議達成共識，擴大 NGS 給付癌別，2026 年 9 月起增列 HR 陽性、HER2 陰性早期乳癌病人的 BRCA1/2 檢測，並增列局部晚期或轉移性病人的 PIK3CA、AKT1、PTEN 檢測（報導沒有明寫後者是否限乳癌）。以上 2026 年的內容只來自新聞報導，本章**未取得健保署公告原文**，所以仍未核對：(1) 增列項目的點數、適應症條件與申報限制；(2) ESR1 檢測有沒有給付（兩則報導都沒提）；(3) 轉移性 HR 陽性乳癌的 BRCA1/2 檢測是否在範圍。這屬於醫療服務給付項目，不在藥品給付規定第 9 節。第 9 節各藥要求檢附的檢測報告，必須符合通則十二（113/6/1）三種來源之一，見[第 9 段](#9-健保給付與事前審查)。
 
 ---
 
@@ -478,9 +478,12 @@ ESMO 建議治療前的病理評估要完整，包含原發腫瘤組織型、腋
 | IIIC | 任何 T，N3 |
 | IV | 任何 T，任何 N，M1 |
 
+**發炎性乳癌的臨床診斷標準（國際專家共識，不是 AJCC 原文）**
+國際專家小組共識（Dawood et al., 2011）建議，臨床診斷發炎性乳癌至少要符合四項：(1) 發病快速的乳房紅斑、水腫和／或橘皮樣變化（peau d'orange），和／或乳房發熱，可有或沒有腫塊；(2) 病程不超過 6 個月；(3) 紅斑範圍至少占乳房的 1/3；(4) 乳房 core biopsy 證實為侵襲癌。
+
 > [!CAUTION]
-> **待核對：發炎性乳癌（T4d）的臨床診斷標準**
-> AJCC 對發炎性乳癌的臨床認定（紅斑與水腫涵蓋乳房皮膚的範圍、病程長短）寫在另外的分類規則裡，NCI PDQ 沒有轉載，本章也沒有開啟 AJCC 原文，所以這裡只寫 T4d = 發炎性乳癌，不寫具體標準。臨床判斷與病歷記載請看 AJCC 分期手冊或 NCCN 發炎性乳癌指引。
+> **待核對：AJCC 第 8 版發炎性乳癌（T4d）的原文標準**
+> NCI PDQ 轉載的 AJCC 表格只寫「T4d：Inflammatory carcinoma（見分類規則）」，並把 T4b 定義為皮膚水腫「未達發炎性乳癌標準」者，沒有轉載標準本身；本章也沒有開啟 AJCC 原文，所以上面四項是專家共識的標準，不是 AJCC 的逐字定義。病歷記載請看 AJCC 分期手冊或 NCCN 發炎性乳癌指引。
 
 > [!IMPORTANT]
 > **AJCC 第 8 版乳癌分期的常考規則**
@@ -539,9 +542,12 @@ ESMO 建議治療前的病理評估要完整，包含原發腫瘤組織型、腋
 
 **Oncotype 規則**：在 AJCC 第 8 版病理預後分期，ER 陽性、HER2 陰性、T1–2、N0、M0 的腫瘤（grade 1–3），若 Oncotype DX 的 Recurrence Score **<11**，分類為**病理預後分期 IA**（Ibis et al., 2018，引述 AJCC 第 8 版規則）。在一個 353 人的土耳其單一機構資料中，改用預後分期後 54.4% 的病人期別改變，多數是往前調（Ibis et al., 2018）；這是外國單中心的資料，不代表台灣。
 
+**台灣癌登長表的「整併期別」怎麼來的**
+長表的整併期別不是把臨床與病理分期混在一起算，而是依治療流程取其一：有接受原發部位手術且術前沒做 neoadjuvant 治療者取病理期別；術前做過 neoadjuvant 治療者，或沒有接受原發部位手術者，取臨床期別；該期別不詳則記為「期別不詳」（Taiwan Cancer Registry Center, 2025a，圖 1）。乳癌的預後分期（臨床預後分期與病理預後分期各一）在長表是另外一組「其他分期系統」欄位（代碼 12），其中病理預後分期不採用 Oncotype DX 分數；登記規則並說明，乳癌若取不到預後因子，原 AJCC 臨床／病理期別組合欄位使用解剖分期（anatomic stage group）（衛生福利部, 2026；Taiwan Cancer Registry Center, n.d.）。
+
 > [!CAUTION]
 > **待核對：台灣癌登乳癌期別是解剖分期還是預後分期**
-> 2023 年癌登長表報告的乳癌期別標示為 AJCC 第 8 版的「整併期別」（合併臨床與病理分期），但報告沒有說明記錄的是解剖分期還是預後分期。引用台灣期別分布時（見 1.1），請只說「AJCC 第 8 版整併期別」，不要推論成預後分期。
+> 2023 年癌登長表報告（表十四之二）只標示「整併期別」，沒有逐字寫明用的是解剖分期還是預後分期的欄位。依上述登記規則推測，整併流程所用的臨床／病理期別組合欄位很可能是解剖分期，但這是由登記手冊與報告流程圖合併推得，不是報告原文；手冊也只在「取不到預後因子」的情況下明寫使用解剖分期。引用台灣期別分布時（見 1.1），請只說「AJCC 第 8 版整併期別」，不要推論成預後分期。
 
 ### 3.6 術前治療後的分期與 pCR
 
@@ -630,9 +636,9 @@ DCIS 的治療目標是**預防日後的侵襲性復發**，不是救命：長�
 3. **開始前一定要做的三件事**：core biopsy、放 clip、腋下評估（見 [3.2](#32-診斷流程臨床影像病理三合一)）。ESMO 也指出 cN1 淋巴結先標記，治療後轉為 cN0 者才有機會免除 ALND（Loibl, André, et al., 2024）。
 4. **局部晚期與發炎性乳癌**：先全身治療；ABC 5 共識是幾乎所有發炎性乳癌都要乳房切除加腋下淋巴結廓清（即使反應良好）、一般不建議即刻重建，且**即使達 pCR 也要做胸壁與區域淋巴結放療**（Cardoso et al., 2020）。
 
-> [!CAUTION]
-> **待核對：術前化療後前哨淋巴結切片的技術細節**
-> Z1071 顯示取到的前哨淋巴結 ≥2 顆時假陰性率仍有 12.6%。讓術後前哨淋巴結切片可被接受的技術細節（例如取 ≥3 顆、取出先前標記的淋巴結的 targeted axillary dissection）本章沒有逐篇核對。實際做法請依外科與院內流程。
+> [!NOTE]
+> **術前化療後做前哨淋巴結切片：三個降低假陰性率的做法**
+> cN1 病人術前化療後，要用前哨淋巴結切片（SLNB）取代腋下淋巴結廓清，必須壓低假陰性率（FNR）。ACOSOG Z1071 與後續分析顯示三件事有幫助：(1) **雙示蹤劑**（藍染劑加放射性膠體）：FNR 10.8%，單一示蹤劑 20.3%；(2) **取出 ≥3 顆前哨淋巴結**：FNR 9.1%，只取 2 顆為 21.1%（Boughey et al., 2013；二變項分析）；(3) **取出治療前放過 clip 的陽性淋巴結**：clip 淋巴結落在前哨淋巴結標本內者 FNR 6.8%，落在腋下廓清標本者 19.0%（Boughey et al., 2016）。MD Anderson 的前瞻研究把「前哨淋巴結切片加以 iodine-125 seed 定位取出 clip 淋巴結」稱為 targeted axillary dissection（TAD）：只做前哨淋巴結切片的 FNR 為 10.1%，加上 clip 淋巴結後降到 1.4%；clip 淋巴結有 23% 沒有被當成前哨淋巴結取出，所以要另外定位（Caudle et al., 2016）。Z1071 作者建議，化療後仍有臨床可見的殘存淋巴結病灶，或化療反應不佳者，不要做前哨淋巴結切片（Boughey et al., 2013）。ASCO／Ontario Health 2021 指引（Brackstone et al., 2021；本章依 Guideline Central, n.d. 的摘要，未開啟指引全文）對初診經 biopsy 證實淋巴結陽性、術前化療後轉為陰性者，建議以 SLNB 重新分期（弱建議，證據品質低）：有放 clip 者在術中定位並與前哨淋巴結一併取出，沒有 clip 的機構則用雙示蹤劑並取出至少 3 顆前哨淋巴結。以上多為 Z1071 的探索性分析與單一機構前瞻研究；clip 的定位方式（seed、wire 或其他）與是否做 TAD，依外科與院內流程。
 
 > [!TIP]
 > **局部治療像「除草」，全身治療像「處理種子」**
@@ -849,7 +855,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 | 情境 | 方案 | 關鍵結果 |
 |------|------|---------|
 | **PD-L1 CPS ≥10**（22C3，見 [2.6](#26-轉移或復發時的-biomarker)） | **pembrolizumab 200 mg q3w ＋ 化療**（nab-paclitaxel、paclitaxel，或 gemcitabine ＋ carboplatin） | KEYNOTE-355（n = 847）：CPS ≥10 PFS 9.7 對 5.6 個月（HR 0.65，0.49–0.86）；**OS 23.0 對 16.1 個月（HR 0.73，0.55–0.95）**。CPS ≥1：OS 17.6 對 16.0 個月（HR 0.86，0.72–1.04）**未達顯著**，所以**切點是 10 不是 1**（Cortes et al., 2022） |
-| PD-L1 陽性（SP142，IC ≥1%），台灣許可證仍有 | atezolizumab ＋ nab-paclitaxel | IMpassion130：全體 OS HR 0.87（0.75–1.02），**未達顯著**；PD-L1 陽性 OS 25.4 對 17.9 個月屬探索性。換成 paclitaxel 的 IMpassion131 為陰性試驗（PD-L1 陽性 PFS HR 0.82，0.60–1.12）（Schmid et al., 2018；Emens et al., 2021；Miles et al., 2021） |
+| PD-L1 陽性（SP142，IC ≥1%），台灣許可證仍有（美國 FDA 已於 2021-10-06 撤銷，見下） | atezolizumab ＋ nab-paclitaxel | IMpassion130：全體 OS HR 0.87（0.75–1.02），**未達顯著**；PD-L1 陽性 OS 25.4 對 17.9 個月屬探索性。換成 paclitaxel 的 IMpassion131 為陰性試驗（PD-L1 陽性 PFS HR 0.82，0.60–1.12）（Schmid et al., 2018；Emens et al., 2021；Miles et al., 2021） |
 | 第一線，**不適合免疫治療**（ASCENT-03：CPS <10；或 CPS ≥10 但已用過 PD-(L)1 或有共病） | **sacituzumab govitecan**（ASCENT-03）；**Dato-DXd**（TROPION-Breast02） | ASCENT-03（n = 558）：PFS 9.7 對 6.9 個月（HR 0.62，0.50–0.77），OS 尚未成熟（Cortés et al., 2025）。TROPION-Breast02（n = 644）：PFS 10.8 對 5.6 個月（HR 0.57），**OS 23.7 對 18.7 個月（HR 0.79，0.64–0.98）**（Dent et al., 2026） |
 | 第一線，PD-L1 陽性（CPS ≥10，22C3） | sacituzumab govitecan ＋ pembrolizumab（ASCENT-04） | PFS 11.2 對 7.8 個月（HR 0.65，0.51–0.84），OS 尚未成熟（Tolaney, de Azambuja, et al., 2026） |
 | **已接受 ≥2 種全身治療**（其中 ≥1 種在晚期） | **sacituzumab govitecan 10 mg/kg 第 1、8 天 q21d** | ASCENT（主要分析族群 n = 468，無腦轉移）：PFS 5.6 對 1.7 個月（HR 0.41，0.32–0.52）；**OS 12.1 對 6.7 個月（HR 0.48，0.38–0.59）**；全部隨機分派者（含腦轉移）OS 11.8 對 6.9 個月（HR 0.51，0.42–0.63）（Bardia et al., 2021；Bardia, Rugo, et al., 2024） |
@@ -860,9 +866,9 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 > **sacituzumab govitecan 的嗜中性球低下與腹瀉是加框警語**
 > 仿單：嗜中性球低下 64%（grade 3–4 48%），發燒性嗜中性球低下 6%，嗜中性球減少性結腸炎 1.4%；腹瀉 62%（grade 3–4 10%）。**第 1 天 ANC <1,500/mm³、第 8 天 <1,000/mm³ 或發燒性嗜中性球低下時要暫停**；高發燒性嗜中性球低下風險者建議從第 1 週期就用 G-CSF 預防。UGT1A1*28/*28 同型合子的風險較高：ASCENT 的發燒性嗜中性球低下 18%（*1/*28 為 5%，*1/*1 為 3%）（Rugo, Tolaney, et al., 2022），但美國仿單**不要求**事先基因分型。腹瀉先排除感染，再用 loperamide；**不可與 irinotecan 類藥物合用或互換**。UGT1A1 的檢測與解讀見[化療基礎](00-shared/01-chemo-basics.md#122-ugt1a1-與-irinotecansacituzumab-govitecan)。
 
-> [!CAUTION]
-> **待核對：atezolizumab 在美國的適應症撤銷日期**
-> IMpassion130 的全體 OS 從未達顯著，IMpassion131、IMpassion132 為陰性試驗。2025 年一篇分析指出美國的三陰性乳癌適應症已撤銷、日本仍保留（Hakariya et al., 2025），但這是二手來源，**撤銷的確切日期未核對**。台灣 TFDA 資料（2026-10-27）中，Tecentriq 兩張許可證仍列有 atezolizumab ＋ nab-paclitaxel、PD-L1 IC ≥1% 的三陰性乳癌適應症；健保 9.69 對乳癌只收 pembrolizumab 的早期三陰性（P131），**轉移性三陰性的免疫治療原文未見**。
+> [!NOTE]
+> **atezolizumab 的三陰性乳癌適應症：美國已撤銷，台灣許可證仍有**
+> 美國 FDA 於 2019-03-08 加速核准 atezolizumab ＋ nab-paclitaxel（PD-L1 陽性、無法切除的局部晚期或轉移性三陰性乳癌），**撤銷日為 2021-10-06**（U.S. Food and Drug Administration, n.d.-b；該頁的撤銷日是 Federal Register 生效日或仿單更新日，取較早者）。IMpassion130 的全體 OS 從未達顯著，IMpassion131、IMpassion132 為陰性試驗；日本仍保留此適應症（Hakariya et al., 2025）。台灣 TFDA 資料（2026-10-27）中，Tecentriq 兩張許可證仍列有 atezolizumab ＋ nab-paclitaxel、PD-L1 IC ≥1% 的三陰性乳癌適應症；健保 9.69 對乳癌只收 pembrolizumab 的早期三陰性（P131），**轉移性三陰性的免疫治療原文未見**。
 
 ### 4.10 gBRCA 突變：PARP 抑制劑
 
@@ -892,9 +898,13 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 - **術後輔助 bisphosphonate**：整合分析（18,766 人）只有**停經後**（含 OFS 誘發的停經）有好處：復發 RR 0.86（0.78–0.94），骨復發 RR 0.72（0.60–0.86），乳癌死亡 RR 0.82（0.73–0.93）；停經前沒有明顯好處（EBCTCG, 2015a）。
 - **AI 治療中的骨折預防**：denosumab 60 mg SC q6m 使停經後 AI 使用者的首次臨床骨折風險 HR 0.50（0.39–0.65）（ABCSG-18；Gnant et al., 2015）。這是骨骼保護，不是降低復發。
 
+> [!NOTE]
+> **術後輔助 bisphosphonate 的療程（ASCO／CCO 2017）**
+> 對象為適合輔助全身治療的停經後病人（含自然停經與卵巢抑制誘發）：zoledronic acid 4 mg IV（輸注 15 分鐘以上）每 6 個月，**共 3–5 年**；或口服 clodronate 1,600 mg/日，**共 2–3 年**；指引同時寫「可考慮其他療程長度」，並說明不同藥物、劑量、間隔與療程的比較仍待研究（Dhesy-Thind et al., 2017；療程句經 The ASCO Post, 2017 刊出的指引建議核對，指引全文需訂閱，本章未能開啟）。2022 年更新把選項寫為 oral clodronate、oral ibandronate、IV zoledronic acid，摘要沒有列各藥的療程（Eisen et al., 2022）。
+
 > [!CAUTION]
-> **待核對：術後輔助 bisphosphonate 的療程與重複 DXA 的間隔**
-> 術後輔助 zoledronic acid 的劑量（4 mg IV 每 6 個月）已由 ASCO／CCO 指引確認，見 [7.8](#78-骨骼健康)；本章仍沒有查到輔助治療的總療程長短，也沒有核對 AI 治療期間重複骨密度檢查的間隔。這兩項請依院內處方集與指引原文確認，不要從 BMA 在骨轉移的 q4w／q12w 方案推算。
+> **待核對：AI 治療期間重複 DXA 的間隔，與 2022 年更新後的各藥療程**
+> ASCO 2019 骨質疏鬆指引的摘要只寫「骨折風險高者要做骨密度檢查」，沒有寫重複檢查的間隔（Shapiro et al., 2019）；2022 年更新的各藥療程也沒有讀到全文。這兩項請依院內處方集與指引原文確認，不要從 BMA 在骨轉移的 q4w／q12w 方案推算。
 
 **腦轉移**
 
@@ -1052,8 +1062,8 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 | **eribulin**（Halaven 賀樂維） | **1.4 mg/m²** IV 2–5 分鐘，D1 與 D8，q21d | **不可用含葡萄糖的溶液稀釋或同管給藥**。D1 或 D8 若 ANC <1,000/mm³、血小板 <75,000/mm³ 或非血液學毒性 grade 3–4，不給；D8 可延後 ≤1 週，第 15 天仍未恢復到 grade ≤2 就省略該劑。減量 1.4 → 1.1 → 0.7 mg/m² → 停藥，不可再升。起始劑量：輕度肝功能不全（Child-Pugh A）1.1、中度（B）0.7；CrCl 15–49 mL/min 為 1.1 mg/m²（Halaven 美國仿單）。台灣 9.48，與 ixabepilone 擇一 |
 
 > [!CAUTION]
-> **待核對：eribulin 劑量的鹽類與游離鹼寫法**
-> 美國仿單的 1.4 mg/m² 是以 eribulin mesylate 表示。台灣核准仿單用 mesylate 還是游離鹼的寫法，本手冊沒有核對；開立時請抄病房實際使用的台灣仿單。
+> **待核對：台灣仿單的 eribulin 劑量寫法**
+> 歐盟 SmPC 以游離鹼 eribulin 表示，推薦劑量為 **1.23 mg/m²**（靜脈注射 2–5 分鐘，第 1、8 天，每 21 天），減量階梯為 0.97、0.62 mg/m²，並註明美國與瑞士的推薦劑量以鹽形式（eribulin mesilate）為基礎（European Medicines Agency, n.d.）。美國仿單的劑量為 **1.4 mg/m²**，製劑每 mL 含 0.5 mg eribulin mesylate（相當於 0.44 mg eribulin）（Eisai Inc., 2025）。所以 1.4 與 1.23 是同一個給藥方案以鹽或游離鹼計的兩種寫法，不是兩種劑量，不可混用，也不可自行換算。台灣核准仿單用哪一種寫法，原文 PDF 無法自動開啟，仍未核對；開立時請抄病房實際使用的台灣仿單。
 
 ### 5.5 內分泌治療與 CDK4/6 抑制劑
 
@@ -1142,12 +1152,17 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 - **算入先前所有 anthracycline 與 anthracenedione**；縱隔腔放療、cyclophosphamide 與 trastuzumab 的心臟風險會相加（doxorubicin 美國仿單）。不同 anthracycline 之間的等效換算係數本手冊沒有可靠來源，見[化療基礎 11.3](00-shared/01-chemo-basics.md#113-累積劑量上限)。
 - **LVEF 追蹤**：治療前、中、後都要測，用同一種方法（超音波或 MUGA）；**累積超過 300 mg/m² 後要更頻繁**；出現心肌病變的症狀或徵象就停藥評估（doxorubicin 美國仿單）。病人要知道的警訊：新的喘、下肢水腫、夜間躺平會喘、心悸。
 - **Dexrazoxane**：美國仿單的適應症是**轉移性**乳癌、doxorubicin 已累積 300 mg/m² 且要繼續使用者，劑量為 doxorubicin 的 10 倍（例如 50 mg/m² 配 500 mg/m²），doxorubicin 在 dexrazoxane 輸注結束後 30 分鐘內給，CrCl <40 mL/min 劑量減半，**不可在 doxorubicin 開始時就用**（dexrazoxane 美國仿單）。**台灣沒有 dexrazoxane 藥證**（TFDA 2026-10-27），所以台灣實務上靠控制累積劑量、換成不含 anthracycline 的方案（如 TCH、TC），或轉移性時用健保 9.14 第 3 項的 liposomal doxorubicin（限單一治療、有心臟疾病風險考量者；93/11/1）。
-- **肝功能不全**：doxorubicin 依 bilirubin 1.2–3 mg/dL 與 3.1–5 mg/dL 兩階減量，>5 mg/dL 或 Child-Pugh C 不開始。
+- **肝功能不全**：doxorubicin 依 bilirubin 1.2–3 mg/dL 與 3.1–5 mg/dL 兩階減量（給 50% 與 25% 的劑量，見下方框），>5 mg/dL 或 Child-Pugh C 不開始。
 - 其他：doxorubicin 與 epirubicin 都有繼發性 AML／MDS 的警語；嘔吐機率高（AC 屬高致吐，見[支持性照護 1.1](00-shared/03-supportive-care.md#1-化療引起的噁心嘔吐cinv)）。
 
+> [!NOTE]
+> **Doxorubicin 肝功能不全減量，與 ESC 2022 的心臟監測建議**
+> (1) 美國仿單 Table 1 的欄名是「Dosage Modification」，列 50%（total bilirubin 1.2–3 mg/dL）與 75%（3.1–5 mg/dL），>5 mg/dL 不開始、已在用則停藥；8.6 節寫「Reduce the dose」。英國 medac doxorubicin 2 mg/mL SmPC（2024-05 修訂）在對應的 bilirubin 區間（20–50 µmol/L、50–85 µmol/L，換算約 1.2–3 與 3.1–5 mg/dL）明寫給「50 % normal dose」與「25 % normal dose」，與本手冊「給 50% 與 25% 的劑量」的解讀一致。
+> (2) ESC 2022 心臟腫瘤學指引（Lyon et al., 2022）：中度風險者在 doxorubicin 等效累積 ≥250 mg/m² 後考慮心臟超音波；anthracycline 治療期間每兩個週期與治療後 3 個月內測 troponin 與 natriuretic peptide（Class IIa, Level C，中度風險）；高風險或計畫高累積劑量者考慮 dexrazoxane（每次 anthracycline 前至少 30 分鐘）。無症狀的癌症治療相關心臟功能不全（CTRCD）分級：重度為 LVEF 新降到 <40%；中度為 LVEF 下降 ≥10 個百分點並降到 40–49%（或下降 <10 個百分點到 40–49% 且 GLS 相對下降 >15% 或心臟生物標記上升）；輕度為 LVEF ≥50% 且 GLS 新降 >15% 及（或）生物標記上升。
+
 > [!CAUTION]
-> **待核對：doxorubicin 肝功能不全減量的百分比，與 ESC 2022 的心臟監測建議表**
-> (1) Doxorubicin 仿單表格的欄名是「dosage modification」，列 50%（bilirubin 1.2–3 mg/dL）與 75%（3.1–5 mg/dL），內文寫「reduce the dose」；本手冊解讀為給 50% 與 25% 的劑量，這個解讀未與藥劑部確認，開立前請由藥劑部核對。(2) ESC 2022 心臟腫瘤學指引（Lyon et al., 2022）的建議表是圖片，本章只讀到文字：中度風險者在 doxorubicin 等效累積 ≥250 mg/m² 後考慮心臟超音波；anthracycline 治療期間每兩個週期與治療後 3 個月內測 troponin 與 natriuretic peptide（Class IIa, Level C，中度風險）；高風險或計畫高累積劑量者考慮 dexrazoxane（每次 anthracycline 前至少 30 分鐘）。無症狀的癌症治療相關心臟功能不全（CTRCD）分級：重度為 LVEF 新降到 <40%；中度為 LVEF 下降 ≥10 個百分點並降到 40–49%（或下降 <10 個百分點到 40–49% 且 GLS 相對下降 >15% 或心臟生物標記上升）；輕度為 LVEF ≥50% 且 GLS 新降 >15% 及（或）生物標記上升。台灣是否採用這些切點、治療後 12 個月是否安排心臟超音波，請依院內與心臟科流程。
+> **待核對：ESC 2022 建議表的圖片內容、台灣仿單與院內流程**
+> ESC 2022 的 Recommendation Table 7 是圖片，文字版讀不到：上面的 troponin／natriuretic peptide 與超音波條件取自圖的註腳，超音波與 dexrazoxane 在可讀文字中沒有標明 Class 與 Level；治療後 12 個月是否安排心臟超音波，在可讀的文字中也沒有找到。台灣 doxorubicin 仿單的肝功能減量寫法、台灣是否採用這些切點，請與藥劑部和心臟科確認；開立前減量百分比仍由藥劑部核對。
 
 > [!IMPORTANT]
 > **Anthracycline 心臟毒性考點**
@@ -1257,8 +1272,8 @@ Loperamide 的劑量，Verzenio 仿單沒有訂；一般腹瀉的分類與處置
 - **腹瀉與口腔炎**：capivasertib 腹瀉 72.4%（grade 2 暫停到 ≤grade 1，grade 3 暫停，>28 天未恢復停藥，grade 4 停藥）；inavolisib 口腔炎 55.3%、腹瀉 52.2%（口腔炎 grade 1 用含類固醇漱口水，grade 2 暫停到 ≤grade 1，grade 3 暫停後降一階，grade 4 停藥）。Alpelisib 仿單另有腹瀉或結腸炎、肺炎的警語，胰臟炎也有劑量調整規則。腹瀉的一般處置見[支持性照護第 5 節](00-shared/03-supportive-care.md#5-腹瀉)，口腔炎見[第 4 節](00-shared/03-supportive-care.md#4-口腔黏膜炎)。Everolimus 的口腔炎發生率 44–78%，多在前 8 週（5.6）。
 
 > [!CAUTION]
-> **待核對：SGLT2 抑制劑併用的酮酸中毒風險**
-> Alpelisib 仿單把 SGLT2 抑制劑列為可選的降血糖藥，但本手冊沒有取得 SGLT2 抑制劑與 PI3K／AKT 抑制劑併用時的酮酸中毒資料。這類病人選用降血糖藥，請由主治醫師與新陳代謝科決定，專師不要自行加藥。
+> **待核對：SGLT2 抑制劑併用 PI3K／AKT 抑制劑的酮酸中毒風險**
+> Alpelisib 仿單把 SGLT2 抑制劑列為可選的降血糖藥（Piqray 美國仿單），但證據薄弱且方向不一。單一機構回溯分析（alpelisib，n = 103）：加用 SGLT2 抑制劑與隨機血糖平均下降 46 mg/dL 相關（校正後模型，95% CI −77 至 −15）；5 例糖尿病酮酸中毒（DKA）中有 2 例發生在 alpelisib ＋ SGLT2 抑制劑，估計發生率為每 100 人年 48 例（95% CI 6–171），對照為 alpelisib ＋ 其他降血糖藥 15 例、只用 alpelisib 4 例，信賴區間很寬（Weintraub et al., 2023）。作者群含 Novartis 員工的探索性分析（SOLAR-1 與 BYLieve）則顯示，19 位加用 SGLT2 抑制劑者的 grade ≥3 高血糖事件比配對對照少 4.9 倍；摘要沒有報告病人的酮症結果（Borrego et al., 2024）。Capivasertib 與 inavolisib 沒有找到 SGLT2 抑制劑併用的資料；兩者的美國仿單都有酮酸中毒警語，也都沒有提到 SGLT2 抑制劑（Truqap、Itovebi 美國仿單）。這類病人選用降血糖藥，請由主治醫師與新陳代謝科決定，專師不要自行加藥。
 
 > [!TIP]
 > **PI3K／AKT 抑制劑像「把胰島素的收件信箱關起來」**
@@ -1360,7 +1375,7 @@ Kadcyla 有三個加框警語：**肝毒性、心臟毒性、胚胎毒性**。�
 
 - **關節痛是不遵囑的主因**：ATAC（anastrozole 對 tamoxifen）關節炎 17% 對 14%、關節痛 15% 對 11%、骨質疏鬆 11% 對 7%、骨折 10% 對 7%（OR 1.57）；BIG 1-98（letrozole 對 tamoxifen）關節痛或關節炎 25.4% 對 20.6%、骨折 14.7% 對 11.4%、高膽固醇 52.3% 對 28.6%，腰椎 BMD 24 個月中位 −4.1%（tamoxifen +0.3%）；exemestane 的腰椎 BMD 24 個月下降 3.1–3.5%（Arimidex、Femara、Aromasin 美國仿單）。仿單建議考慮 BMD 與膽固醇監測。
 - **關節痛的處置**：運動（Irwin 等人隨機試驗，n = 121，每週 150 分鐘有氧加每週 2 次監督下肌力訓練，12 個月最痛關節的疼痛分數下降 1.6 分〔29%〕，對照組上升 0.2 分；Irwin et al., 2015）；針灸（SWOG S1200，n = 226，12 次針灸後每週 1 次共 6 週，6 週時最痛分數下降 2.05 對假針灸 1.07、候補 0.99；Hershman et al., 2018）；duloxetine（SWOG S1202，13 週，12 週時平均關節痛比安慰劑多降 0.82 分〔95% CI −1.24 至 −0.40〕，低級別不良事件較多 78% 對 50%；Henry et al., 2018）。
-- **骨骼**：開始 AI 前查 25-OH vitamin D，有骨質疏鬆或其風險者在開始時做 BMD（Aromasin 美國仿單）；ASCO 2019 指引：用已建立的工具評估骨折風險，風險高時做 BMD，需要用藥時以 bisphosphonate 或 denosumab（骨質疏鬆劑量）為主（Shapiro et al., 2019）。ABCSG-18：denosumab 60 mg SC 每 6 個月，AI 使用者首次臨床骨折 HR 0.50（0.39–0.65）（Gnant et al., 2015）。術後輔助 zoledronic acid 的劑量療程與重複 DXA 的間隔本章未取得，見 4.11 的待核對框。骨轉移用的 BMA 見[支持性照護第 8 節](00-shared/03-supportive-care.md#8-骨轉移的骨骼保護劑bone-modifying-agents)。
+- **骨骼**：開始 AI 前查 25-OH vitamin D，有骨質疏鬆或其風險者在開始時做 BMD（Aromasin 美國仿單）；ASCO 2019 指引：用已建立的工具評估骨折風險，風險高時做 BMD，需要用藥時以 bisphosphonate 或 denosumab（骨質疏鬆劑量）為主（Shapiro et al., 2019）。ABCSG-18：denosumab 60 mg SC 每 6 個月，AI 使用者首次臨床骨折 HR 0.50（0.39–0.65）（Gnant et al., 2015）。術後輔助 zoledronic acid 的劑量與療程見 4.11（ASCO／CCO 2017：每 6 個月、共 3–5 年）；重複 DXA 的間隔本章未取得，見 4.11 的待核對框。骨轉移用的 BMA 見[支持性照護第 8 節](00-shared/03-supportive-care.md#8-骨轉移的骨骼保護劑bone-modifying-agents)。
 - 停經前 exemestane ＋ OFS：骨質疏鬆 13.2%（tamoxifen ＋ OFS 為 6.4%）、憂鬱症狀任何級別約 50%（見 4.4）。
 
 **口服 SERD 與其他**：elacestrant 噁心 35%、高膽固醇 30%、高三酸甘油酯 27%（要監測血脂）；imlunestrant 多為 grade 1 的疲倦、腹瀉、噁心，心搏過緩 2.1%；camizestrant 心搏過緩 8%、QTc 延長 2.6%、視覺異常 34%，**與 ribociclib 併用有加框警語**，需 ECG（起始與前 2 週每週）；vepdegestrant QTc 延長 10%。Fulvestrant 的注射部位反應、出血與坐骨神經注意事項見 5.5。
@@ -1378,9 +1393,10 @@ Kadcyla 有三個加框警語：**肝毒性、心臟毒性、胚胎毒性**。�
 - **為什麼要分開看**：術前階段的化療（carboplatin、paclitaxel、anthracycline）本來就會造成嗜中性球低下、腹瀉、疲倦、肝功能變化，這些症狀和免疫相關不良反應重疊。**術後階段只剩 pembrolizumab 單藥**（q3w 最多 9 次），此時出現的新症狀（疲倦、低血壓、低血鈉、腹瀉、咳嗽、皮疹、甲狀腺或肝功能異常）先想到 irAE。
 - **處置**：分級與類固醇用法見 [irAE 章第 3 節](00-shared/04-irae.md#3-通用分級處置)；各器官見腸胃道（[5.2](00-shared/04-irae.md#52-腸胃道腹瀉大腸炎)）、肝炎（[5.3](00-shared/04-irae.md#53-肝炎)）、肺炎（[5.4](00-shared/04-irae.md#54-肺炎pneumonitis)）、甲狀腺（[5.5](00-shared/04-irae.md#55-甲狀腺)）、腎上腺（[5.7](00-shared/04-irae.md#57-原發性腎上腺功能不全)）。台灣 9.69 規定中重度或危及生命的不良反應即停用。
 
-> [!CAUTION]
-> **待核對：KEYNOTE-522 專屬的 irAE 監測時程**
-> 美國仿單沒有為 KEYNOTE-522 列出專屬的血液與甲狀腺監測時程，本章也沒有取得試驗計畫書的監測表。實務上的抽血項目與頻率，請依 irAE 章的基線評估與院內流程，並確認 9.69 事前審查要求的器官功能（GOT／GPT <60 U/L、T-bil <1.5 mg/dL、Cr <1.5 mg/dL 且 eGFR >60）。
+> [!NOTE]
+> **KEYNOTE-522 試驗計畫書的檢驗時程（試驗規定，不是臨床常規）**
+> 美國仿單沒有為 KEYNOTE-522 列出專屬的血液與甲狀腺監測時程。試驗最終版計畫書（MK-3475-522-06，2023-05-25；NCT03036488）的 Trial Flow Chart 規定：(1) **CBC 與分類、chemistry panel**：篩檢（開始治療前 10 天內採檢）；術前 paclitaxel／carboplatin 階段的第 1 週期第 8、15 天與第 2–4 週期第 1、8、15 天；AC／EC 每週期第 1 天；術後 pembrolizumab 每週期第 1 天（C1–C9）。(2) **T3、FT4、TSH**：只在篩檢、AC／EC 第 1 週期第 1 天，以及各次 30 天安全追蹤訪視、提早停藥訪視與長期追蹤訪視；術後 pembrolizumab 各週期沒有排。(3) **晨間 cortisol、troponin 與 BNP**：篩檢與手術前。治療結束後的檢驗若在正常範圍可不重複（流程表註 v）。Chemistry panel 含 ALT、AST、total bilirubin、creatinine、glucose、Na、K、Ca 等；T3 優先測 total T3。
+> 台灣 9.69 第 3 項「使用條件」(2)（115/10/22 版）：NYHA Class I 或 II；GOT <60 U/L、GPT <60 U/L 且 T-bilirubin <1.5 mg/dL；其他癌別（含乳癌）creatinine <1.5 mg/dL 且 eGFR >60 mL/min/1.73 m²。臨床上實際的抽血項目與頻率，仍依 [irAE 章](00-shared/04-irae.md)的基線評估與院內流程，不要把上面的試驗時程當成臨床建議。
 
 ### 6.11 淋巴水腫與手臂照護
 
@@ -1600,9 +1616,13 @@ Kadcyla 有三個加框警語：**肝毒性、心臟毒性、胚胎毒性**。�
 > **首次輸注：加框警語的輸注反應，與「稀釋液不能錯」**
 > Trastuzumab 的加框警語包含嚴重且可致命的輸注反應，症狀多出現在輸注當下或 24 小時內；呼吸困難或明顯低血壓要中斷輸注，anaphylaxis、血管水腫、間質性肺炎或 ARDS 要永久停藥，處置見[急症章第 10 節](00-shared/02-oncologic-emergencies.md#10-輸注反應過敏反應與過敏性休克)。**Trastuzumab 要用 0.9% 生理食鹽水 250 mL 稀釋，仿單明寫不可用 5% 葡萄糖**（Herceptin 美國仿單，2026-05-29）；pertuzumab 用 0.45% 或 0.9% 生理食鹽水 250 mL（Perjeta 美國仿單，2026-04-30）。T-DXd 和 Dato-DXd 剛好相反，要用葡萄糖、不可用生理食鹽水（5.2 的 WARNING），同一個病房兩種藥的稀釋液不同，核對藥名與稀釋液要一起做。
 
+> [!NOTE]
+> **TCHP 的發燒性嗜中性球低下，與 G-CSF**
+> TRYPHAENA 的 TCHP 組（n = 76）發燒性嗜中性球低下為 17%，且全部是 grade 3–4；含 anthracycline 的 FEC → docetaxel ＋ trastuzumab ＋ pertuzumab 組（n = 75）為 9%。同一表中 TCHP 組 grade 3–4 的嗜中性球低下 46%、貧血 17%、血小板低下 12%（Perjeta 美國仿單 Table 5，2026-04-30 版）。G-CSF 初級預防請依[支持性照護 2.1](00-shared/03-supportive-care.md#21-什麼時候用)的風險評估，不要直接套用 ddAC 的做法。
+
 > [!CAUTION]
-> **待核對：TCHP 的 docetaxel 與 carboplatin 給藥順序、TCHP 的 FN 發生率**
-> Perjeta 仿單只規定「pertuzumab 與 trastuzumab 順序不拘，taxane 在它們之後」，沒有規定 carboplatin 的位置；本手冊沒有取得 TRYPHAENA 計畫書的給藥順序與 TCHP 組的發燒性嗜中性球低下發生率，所以上面的醫囑把 carboplatin 順序留給院內 protocol，G-CSF 初級預防也請依[支持性照護 2.1](00-shared/03-supportive-care.md#21-什麼時候用)的風險評估，不要直接套用 ddAC 的做法。
+> **待核對：TCHP 的 docetaxel 與 carboplatin 給藥順序**
+> Perjeta 仿單只規定「pertuzumab 與 trastuzumab 順序不拘，taxane 在它們之後」，沒有規定 carboplatin 的位置。TRYPHAENA 的 ClinicalTrials.gov 登錄（NCT00976989；Hoffmann-La Roche, n.d.）把 TCH 寫成「trastuzumab 之後接 carboplatin AUC 6 與 docetaxel 75 mg/m²」，沒有寫 carboplatin 與 docetaxel 誰先；計畫書的給藥順序沒有取得，所以上面的醫囑把 carboplatin 順序留給院內 protocol。
 
 ### 7.4 Order set 範例三：門診開始 CDK4/6 抑制劑（ribociclib ＋ letrozole 為例）
 
@@ -1676,7 +1696,7 @@ P：1. 今天不給 C4 T-DXd（暫停），病歷寫明原因，通知主治醫�
 - 內分泌治療每 **2–4 個月**、化療每 **2–4 個週期**評估一次；**腫瘤標記單獨上升不應作為換藥的理由**（Cardoso et al., 2020）。RECIST 1.1 的 CR、PR、SD、PD 定義見[肺癌章 7.6](01-lung-cancer.md#76-療效評估與追蹤)。
 - 健保續用需要「療效評估」：CDK4/6 抑制劑每 24 週、T-DXd（第 1 項）每 12 週、早期乳癌 trastuzumab 與 pertuzumab 每 24 週再申請；日期記在病歷最前面，避免到期才補資料（[第 9 段](#9-健保給付與事前審查)）。
 
-**治癒目標治療結束後（ASCO 2013；Khatcheressian et al., 2013）**
+**治癒目標治療結束後：ASCO 2013 年版的固定時程（Khatcheressian et al., 2013；2026 年已改為風險分層，見下方）**
 
 | 項目 | 建議 |
 |------|------|
@@ -1684,9 +1704,21 @@ P：1. 今天不給 C4 T-DXd（暫停），病歷寫明原因，通知主治醫�
 | 乳房攝影 | 保乳手術後，第一次追蹤乳攝在初次乳攝後 1 年、且放療結束後至少 6 個月，之後每年 |
 | 無症狀、理學檢查正常時**不建議**常規做 | 全血球與生化、骨掃描、胸部 X 光、肝或骨盆超音波、CT、FDG-PET、MRI、腫瘤標記（CEA、CA 15-3、CA 27.29） |
 
+**ASCO 2026 年更新：追蹤改為依復發風險分三層**（Nahleh et al., 2026）
+上表是 ASCO 2013 年的固定時程；ASCO 已在 2026 年更新追蹤指引，改為依復發風險決定追蹤的頻率與強度。PubMed 摘要寫明：建議定期做病史、理學檢查與乳房X光攝影，門診或遠距看診皆可；局部晚期、或新輔助化療後仍有殘留病灶者，需要更密集的追蹤。下表的層級與間隔依 Guideline Central 的指引摘要整理（CancerNetwork、OncoDaily 的摘要大致相同；JCO 全文本次無法開啟）：
+
+| 層級 | 對象（摘要） | 病史與理學檢查 |
+|------|------------|--------------|
+| 低 | DCIS（未用內分泌治療，或已停藥）；stage I HR 陽性且已停止內分泌等全身治療；TNBC 或 HER2 陽性已滿 5 年 | 每年 1 次，門診或遠距；可由存活者門診、進階執業人員或基層／婦科門診負責 |
+| 中 | stage I TNBC 或 HER2 陽性（5 年內）；stage II–III TNBC 或 HER2 陽性且新輔助治療後 pCR；內分泌治療進行中 | 腫瘤團隊或存活者門診每 6–12 個月，5–10 年 |
+| 高 | TNBC 或 HER2 陽性新輔助後仍有殘留病灶（5 年內）；TNBC 或 HER2 陽性全身治療進行中；germline 突變帶因者（如 BRCA1/2、PALB2）；炎性乳癌；HR 陽性合併 CDK4/6 抑制劑 | 腫瘤團隊每 3–6 個月，最長 10 年 |
+
+- **乳房X光攝影**（同一份摘要）：低風險層保乳術後前 3 年每年 1 次，之後 ≥50 歲、具低風險特徵且 3 年無復發者可每 1–2 年 1 次（<50 歲或 TNBC、HER2 陽性維持每年）；中、高風險層保乳術後維持每年 1 次，單側乳房切除者每年做對側乳攝，雙側乳房切除者無症狀時不做例行乳攝。
+- **不建議**：無症狀者的例行抽血（全血球、生化）與腫瘤標記（CEA、CA 15-3、CA 27.29）、遠端轉移的影像追蹤；ctDNA 不建議用於復發監測（臨床試驗除外）。乳房 MRI 可在共同決策下提供給部分高風險者，但目前沒有整體存活益處的證據。
+
 > [!CAUTION]
-> **待核對：追蹤頻率取自 2013 年 ASCO 指引**
-> 上表的追蹤頻率來自 ASCO 2013 年更新（與 2006 年版相同），本章沒有逐字核對 NCCN 專業版 v9.2026 的追蹤頻率與 ASCO 之後的更新。台灣公費乳房X光攝影的對象是 40–74 歲一般女性（1.3），乳癌存活者的追蹤乳攝依主治醫師與院內流程安排，不靠公費篩檢。
+> **待核對：NCCN 專業版 v9.2026 的追蹤頻率，與 ASCO 2026 全文**
+> NCCN 專業版需登入，本章仍沒有核對 v9.2026 的追蹤頻率。ASCO 2026 的層級定義與乳攝間隔取自第三方指引摘要，JCO 全文（doi:10.1200/JCO-26-01700）本次無法開啟，臨床使用前請對照原文。台灣公費乳房X光攝影的對象是 40–74 歲一般女性（1.3），乳癌存活者的追蹤乳攝依主治醫師與院內流程安排，不靠公費篩檢。
 
 **藥物導向的追蹤**（每次回診，不只是影像）
 
@@ -1716,9 +1748,17 @@ P：1. 今天不給 C4 T-DXd（暫停），病歷寫明原因，通知主治醫�
 | 想懷孕的 HR 陽性病人 | POSITIVE：≤42 歲、I–III 期，內分泌治療 18–30 個月後暫停，3 個月洗脫期後嘗試懷孕，最多暫停 2 年；74.0% 至少一次懷孕、63.8% 活產；3 年乳癌事件 8.9%，外部對照 9.2%。暫停內分泌治療是共同決策，不是常規建議 | Partridge et al., 2023 |
 | 男性病人 | 治療前提供精子冷凍保存 | [化療基礎 12.5](00-shared/01-chemo-basics.md#125-生育力保存與避孕諮詢) |
 
+**哺乳與卵巢刺激（已讀到的資料）**
+
+- **妊娠與哺乳期間的診斷與手術**（ASBrS 建議摘要；Johnson et al., 2025）：乳房X光與超音波在妊娠和哺乳期間都安全；妊娠期間不建議做含 gadolinium 的乳房 MRI（引 ACR）。不要因為擔心乳漏而延後癌症手術，也不要為了斷奶而延後。
+- **治療期間哺乳**（同上）：開始治療前可從患側哺乳；哺乳期間不可用內分泌治療；細胞毒性化療藥物會進入乳汁，這段時間的乳汁要丟棄；要停乳時可用 cabergoline（仿單外使用）。放療期間不要從受照射的乳房哺乳或擠奶，對側可繼續。
+- **治療後的哺乳**（同上）：哺乳不增加乳癌復發風險；放療後的乳房無法正常泌乳（有的完全不能，有的只有少量），不建議從該側哺乳或擠奶。
+- **取卵前以 letrozole 搭配卵巢刺激**（系統性回顧；Rodgers et al., 2017）：建議 letrozole 5 mg/日從週期第 2 天開始、持續到刺激結束，可降低雌二醇尖峰而不明顯減少取卵數。2 項前瞻性、非隨機的研究中，搭配 letrozole 刺激者與未做生育力保存者都沒有看到復發率變差的跡象；其中較大的一項是 6/120 [5.0%] 對 12/217 [5.5%]，平均追蹤 5.0 對 6.9 年，HR 0.77，95% CI 0.28–2.13。證據只有少數觀察性研究，不能排除小幅差異；是否做、怎麼排程由生殖醫學科與主治醫師決定。
+- **台灣藥品給付**（藥品給付規定 5.3.2、5.3.3，115/10/22 版全文）：FSH、HMG 用於誘發排卵時，限 hypothalamus failure（下視丘功能衰竭）患者，並須事前專案報准；第 9 節沒有以保存生育力為適應症的藥品條文；條文也沒有寫明是否適用於癌症病人取卵前的卵巢刺激。
+
 > [!CAUTION]
-> **待核對：妊娠期乳癌、哺乳，與台灣的生育力保存給付**
-> 本章沒有取得妊娠期間診斷乳癌（pregnancy-associated breast cancer）、治療期間哺乳，以及輔助生殖技術使用的荷爾蒙刺激（如 letrozole 方案）的資料，遇到這些情境請直接與主治醫師、婦產科及生殖醫學科討論，不要憑印象回答。台灣取卵、冷凍保存的給付與補助，115/10/22 版第 9 節沒有以保存生育力為適應症的藥品條文（原文未見），其他政策請向院內個案管理師確認。
+> **待核對：妊娠期乳癌的全身治療，與取卵、冷凍保存的費用和補助**
+> 本章仍沒有取得妊娠期間診斷乳癌（pregnancy-associated breast cancer）時，化療、抗 HER2 治療與內分泌治療的時機與藥物選擇的指引全文，遇到這種情況請直接與主治醫師、婦產科及生殖醫學科討論，不要憑印象回答。上列哺乳與 letrozole 的內容來自 ASBrS 的 oncolactation 建議摘要與一篇系統性回顧，不是腫瘤內科或生殖醫學的指引全文。台灣取卵手術、卵子與胚胎冷凍保存的費用，以及政府補助，不在藥品給付規定內，本章未核對，請向院內個案管理師確認。
 
 ### 7.8 骨骼健康
 
@@ -1738,8 +1778,8 @@ P：1. 今天不給 C4 T-DXd（暫停），病歷寫明原因，通知主治醫�
 > 停經讓骨質存款不再增加，AI 或 OFS 再加上一筆固定扣款。一開始看不出來，幾年後才發現餘額不足（骨折）。所以重點在「開始前先看餘額」（風險評估與 BMD），不是等骨折了才補。
 
 > [!CAUTION]
-> **待核對：重複 DXA 的間隔與輔助 bisphosphonate 的總療程**
-> 本章沒有查到 AI 治療期間重複骨密度檢查的建議間隔（ASCO 2019 摘要沒有寫），也沒有查到輔助 zoledronic acid 的總療程長短與各療程的證據等級。實際安排請依院內與骨質疏鬆團隊；ASCO／CCO 2022 年更新對「盡早開始」屬共識性建議（Eisen et al., 2022）。
+> **待核對：重複 DXA 的間隔與輔助 bisphosphonate 的最佳療程**
+> 本章沒有查到 AI 治療期間重複骨密度檢查的建議間隔（ASCO 2019 摘要沒有寫）。輔助 bisphosphonate 的最佳療程與劑量間隔，ASCO／CCO 2017 指引自己寫明還需要更多比較不同藥物、劑量、間隔與療程的研究（Dhesy-Thind et al., 2017）；ABCSG-12 的子研究（從 3 年 landmark 起算，依實際接受的 zoledronic acid 輸注次數分組，不是隨機分組）中，≤6 次與 ≥7 次的無病存活、整體存活沒有顯著差異，作者也寫需要進一步研究，不能據此縮短療程（Beltran-Bless et al., 2023）。各療程的證據等級本章仍未查到。實際安排請依院內與骨質疏鬆團隊；ASCO／CCO 2022 年更新對「盡早開始」屬共識性建議（Eisen et al., 2022）。
 
 
 ### 7.9 淋巴水腫預防與手臂照護
@@ -1762,9 +1802,14 @@ P：1. 今天不給 C4 T-DXd（暫停），病歷寫明原因，通知主治醫�
 - **要用藥時**：tamoxifen 病人避免 paroxetine、fluoxetine、bupropion（強效 CYP2D6 抑制劑）與 duloxetine（中效），**sertraline、escitalopram 未被 CPIC 要求避免**，熱潮紅的非荷爾蒙選擇是 venlafaxine（75 mg 熱潮紅分數中位下降 61%；Loprinzi et al., 2000），細節見 6.8 的表。精神科用藥由主治醫師或精神科決定，專師負責在轉介時附上「正在吃 tamoxifen」。
 - **轉移或復發**：早期緩和照護（[支持性照護第 9 節](00-shared/03-supportive-care.md#9-早期緩和照護)）、預立醫療照護諮商與社工、心理師介入，要在症狀嚴重之前就轉介。
 
+**停經症狀與性健康（已讀到的證據）**
+
+- **熱潮紅的非荷爾蒙選擇**：北美更年期學會（NAMS）2023 立場聲明（對象是一般停經婦女，不是乳癌專屬）列為 Level I 證據的有認知行為治療、clinical hypnosis、SSRI／SNRI、gabapentin 與 fezolinetant，oxybutynin 為 Level I–II（North American Menopause Society, 2023）。乳癌病人服用 tamoxifen 時，SSRI／SNRI 要避開 CYP2D6 抑制劑，見 6.8 的表。
+- **陰道乾澀、性交疼痛（泌尿生殖症候群，GSM）**：非荷爾蒙處置（陰道保濕劑、潤滑劑）是第一線（Lubián López, 2022）；無效時才考慮低劑量陰道雌激素，且要與腫瘤團隊共同決定（Ryan & Brennan, 2026）。乳癌存活者全身性雌激素禁忌；其他選項有 ospemifene、局部雄激素、prasterone 與雷射，安全性仍有爭議（Lubián López, 2022）。骨盆底物理治療、擴張器與心理諮商也屬非荷爾蒙處置（Crean-Tate et al., 2019）。
+
 > [!CAUTION]
-> **待核對：停經症狀與性健康的具體處置**
-> 本章沒有取得乳癌病人陰道乾澀、性功能障礙與熱潮紅的藥物處置指引全文（只有 venlafaxine 的隨機試驗與 CYP2D6 的交互作用），也沒有核對台灣各院的心理腫瘤科與癌症資源中心資源。遇到這些問題請轉介主治醫師、婦產科與社工，不要自行建議荷爾蒙類藥物。
+> **待核對：乳癌專屬的停經症狀與性健康指引，與台灣的院內資源**
+> 本章仍沒有取得 ASCO、NCCN 等乳癌專屬的熱潮紅與性健康指引全文：上列 NAMS 聲明針對一般停經婦女，GSM 的內容來自綜述，不是指引原文。台灣可取得的品項，以及各院心理腫瘤科與癌症資源中心的資源，本章沒有核對。遇到這些問題請轉介主治醫師、婦產科與社工，不要自行建議荷爾蒙類藥物。
 
 > [!IMPORTANT]
 > **專師實務考點（乳癌章）**
@@ -1772,7 +1817,7 @@ P：1. 今天不給 C4 T-DXd（暫停），病歷寫明原因，通知主治醫�
 > - **Paclitaxel 前置**：dexamethasone 20 mg PO（前約 12 與 6 小時）、diphenhydramine 50 mg IV、H2 blocker；基線 ANC <1,500 不給。
 > - **TCHP**：trastuzumab 8 → 6 mg/kg、pertuzumab 840 → 420 mg、docetaxel 75 mg/m²（不升量）、carboplatin AUC 6；taxane 最後給；pertuzumab 後觀察 30–60 分鐘；trastuzumab 用 0.9% 生理食鹽水稀釋、**不可用葡萄糖**；LVEF 基線、約每 12 週，輔助期每 3 個月，結束後每 6 個月至少 2 年。
 > - **Ribociclib 開始前**：ECG QTcF <450 ms 才開始，週期 1 約 D14 再做；CBC 與肝功能前 2 個週期每 2 週；**不與 tamoxifen 併用**；停經前要 OFS ＋ AI。
-> - **追蹤**：治癒目標治療後第 1–3 年每 3–6 個月看病史與理學檢查，無症狀者不做例行影像、血液與腫瘤標記；保乳後每年乳攝。
+> - **追蹤**：ASCO 2026 依復發風險分三層：低風險每年 1 次、中風險每 6–12 個月、高風險每 3–6 個月（最長 10 年）；2013 年版是第 1–3 年每 3–6 個月的固定時程，已被取代。無症狀者不做例行抽血、腫瘤標記與遠端轉移影像；保乳後每年乳攝（僅低風險層中 ≥50 歲且具低風險特徵者，3 年後可改每 1–2 年）。
 > - **輔助 bisphosphonate**：只有停經後有復發上的好處；zoledronic acid 4 mg IV 每 6 個月；不建議用 denosumab 預防復發。
 > - **生育力**：確診當天問並記錄；GnRH agonist 不能取代冷凍；POSITIVE 試驗給想懷孕的 HR 陽性病人暫停內分泌治療的證據。
 
@@ -2101,7 +2146,7 @@ HER2 過度表現在這一組各條一律寫作「IHC 3+ 或 FISH+」。事審�
 | pyrotinib | **無藥證** | 原文未見 | PHILA、PHOEBE 是中國的試驗（見 4.8） |
 | margetuximab | 本章未核對 TFDA | 原文未見 | |
 | pembrolizumab：轉移性三陰性（CPS ≥10） | 有（早期高風險 TNBC 與轉移性 CPS ≥10） | 9.69 乳癌款只有早期三陰性；轉移性原文未見 | KEYNOTE-355 的用法沒有給付文字（見 4.9） |
-| atezolizumab：三陰性乳癌 | TFDA 仍列 nab-paclitaxel 組合（PD-L1 IC ≥1%） | 乳癌原文未見 | 美國適應症撤銷日期待核對（見 4.9） |
+| atezolizumab：三陰性乳癌 | TFDA 仍列 nab-paclitaxel 組合（PD-L1 IC ≥1%） | 乳癌原文未見 | 美國 FDA 已於 2021-10-06 撤銷（見 4.9） |
 | sacituzumab govitecan：第一線三陰性 | 藥證沒有第一線適應症（TNBC 與 HR 陽性皆限已接受 ≥2 種全身治療） | 9.106 第 1 項要求先前已接受兩次以上全身性治療 | ASCENT-03、ASCENT-04 的第一線用法，台灣藥證與健保都沒有 |
 | albumin-based paclitaxel（nab-paclitaxel） | 本章未核對乳癌適應症 | 9.5.2 只給付轉移性胰腺癌第一線；乳癌原文未見 | KEYNOTE-355、IMpassion130 的夥伴化療之一 |
 | bevacizumab：乳癌 | 本章未核對 | 9.37 的給付範圍沒有乳癌 | |
@@ -2238,7 +2283,7 @@ HER2 過度表現在這一組各條一律寫作「IHC 3+ 或 FISH+」。事審�
 
 1. **9.129 ＋ 9.130 第 2 項**：曾接受 CDK4/6 抑制劑但惡化的停經後轉移性乳癌（符合）；ER 或 PR >30%（90%、50%，符合）；HER-2 陰性（符合）；PIK3CA 突變（符合）；與 fulvestrant 併用。**事前審查**：初次申請檢附 PIK3CA 突變報告，須符合通則十二（三種合格來源之一）；之後每 12 週檢附療效評估再申請；每日最多處方 2 粒。PIK3CA 突變者，alpelisib ＋ fulvestrant 與 capivasertib ＋ fulvestrant **僅得擇一給付**（兩條都寫），原文沒有說因耐受不良時能否轉換。她同時符合 9.135（PIK3CA 突變；capivasertib 要用腫瘤**組織** NGS 檢測變異，她有，見 5.6）；兩藥的高血糖發生率和處置不同（6.6），選哪一個是主治醫師的決定。她在 ribociclib 惡化後，9.72 規定不得再申請 ribociclib、palbociclib。
 2. 開始前已測空腹血糖與 HbA1c（6.6 的要求）；HbA1c 5.9% 沒有超過 CAPItello-291 的排除門檻（≥8%），但 BMI 29、HbA1c 5.9%，算不算「高風險者」由主治醫師判斷；**仿單說高風險者可在開始前預防性使用 metformin**（代價是噁心、嘔吐、腹瀉增加；Piqray 美國仿單），是否預防性使用由主治醫師與新陳代謝科決定。**皮疹預防**：SOLAR-1 加入預防性抗組織胺後，任何級別皮疹由 64.1% 降到 26.7%（Rugo et al., 2020），所以在皮疹出現前就開始。衛教：第 1–2 週加密監測血糖（至少每週一次 × 2 週，之後至少每 4 週；HbA1c 每 3 個月）、口渴多尿要通報、嘔吐或不能進食時暫停藥物並聯絡團隊（有酮酸血症風險）。
-3. 空腹血糖 251–500 mg/dL 屬 alpelisib 仿單的「**暫停**」級距：**暫停 alpelisib**、評估脫水並視需要靜脈輸液；開始或加強降血糖藥（第一線是 metformin，SOLAR-1 的遞增方式：500 mg QD → 500 mg BID → 早餐 500 mg ＋ 晚餐 1,000 mg → 1,000 mg BID）；因為有口渴多尿，要測酮體與電解質，懷疑酮酸血症要立即處理。SGLT2 抑制劑與 PI3K 抑制劑併用的酮酸中毒風險本手冊沒有資料，不要自行加（見 6.6 的待核對框）。仿單的暫停規則針對 alpelisib，fulvestrant 要不要照給由主治醫師決定。
+3. 空腹血糖 251–500 mg/dL 屬 alpelisib 仿單的「**暫停**」級距：**暫停 alpelisib**、評估脫水並視需要靜脈輸液；開始或加強降血糖藥（第一線是 metformin，SOLAR-1 的遞增方式：500 mg QD → 500 mg BID → 早餐 500 mg ＋ 晚餐 1,000 mg → 1,000 mg BID）；因為有口渴多尿，要測酮體與電解質，懷疑酮酸血症要立即處理。SGLT2 抑制劑與 PI3K 抑制劑併用的酮酸中毒風險只有小型非隨機資料、證據不足，不要自行加（見 6.6 的待核對框）。仿單的暫停規則針對 alpelisib，fulvestrant 要不要照給由主治醫師決定。
 4. **3–5 天內空腹血糖 ≤160 mg/dL** → 以**降一階**的劑量恢復：300 → **250 mg QD**。台灣錠劑 50／150／200 mg：250 mg ＝ 200 mg ＋ 50 mg，每日 2 粒，沒有超過 9.129 的每日最多 2 粒（300 mg ＝ 150 mg × 2，也是 2 粒；200 mg ＝ 1 粒）。若 3–5 天內沒有降到 ≤160，轉內分泌專科；**21 天內仍未降到 ≤160 就停藥**；若空腹血糖 >500 mg/dL，暫停並在 24 小時內重測，確認 >500 就停藥（Piqray 美國仿單；6.6 的表）。病歷記錄暫停與恢復日期，並維持 12 週的再申請日不變，因為原文沒有寫暫停期間對核准有效期間的影響，有疑問問健保室。
 
 </details>
@@ -2560,11 +2605,19 @@ Baselga, J., Cortés, J., Kim, S.-B., Im, S.-A., Hegg, R., Im, Y.-H., Roman, L.,
 
 Bedrosian, I., Somerfield, M. R., Achatz, M. I., Boughey, J. C., Curigliano, G., Friedman, S., Kohlmann, W. K., Kurian, A. W., Laronga, C., Lynce, F., Norquist, B. S., Plichta, J. K., Rodriguez, P., Shah, P. D., Tischkowitz, M., Wood, M., Yadav, S., Yao, K., & Robson, M. E. (2024). Germline testing in patients with breast cancer: ASCO–Society of Surgical Oncology guideline. *Journal of Clinical Oncology, 42*(5), 584–604. https://doi.org/10.1200/JCO.23.02225（PMID: 38175972）
 
+Beltran-Bless, A.-A., Clemons, M. J., Fesl, C., Greil, R., Pond, G. R., Balic, M., Vandermeer, L., Bjelic-Radisic, V., Singer, C. F., Steger, G. G., Helfgott, R., Egle, D., Sölkner, L., Gampenrieder, S. P., Kacerovsky-Strobl, S., Suppan, C., Ritter, M., Rinnerthaler, G., Pfeiler, G., . . . Gnant, M. (2023). Does the number of 6-monthly adjuvant zoledronate infusions received affect treatment efficacy for early breast cancer? A sub-study of ABCSG-12. *European Journal of Cancer, 180*, 108–116. https://doi.org/10.1016/j.ejca.2022.12.003（PMID: 36592505）
+
 Bidard, F.-C., Kaklamani, V. G., Neven, P., Streich, G., Montero, A. J., Forget, F., Mouret-Reynier, M.-A., Sohn, J. H., Taylor, D., Harnden, K. K., Khong, H., Kocsis, J., Dalenc, F., Dillon, P. M., Babu, S., Waters, S., Deleu, I., García Sáenz, J. A., Bria, E., . . . Bardia, A. (2022). Elacestrant (oral selective estrogen receptor degrader) versus standard endocrine therapy for estrogen receptor–positive, human epidermal growth factor receptor 2–negative advanced breast cancer: Results from the randomized phase III EMERALD trial. *Journal of Clinical Oncology, 40*(28), 3246–3256. https://doi.org/10.1200/JCO.22.00338（PMID: 35584336）
 
 Bidard, F.-C., Mayer, E. L., Park, Y. H., Janni, W., Ma, C., Cristofanilli, M., Bianchini, G., Kalinsky, K., Iwata, H., Chia, S., Fasching, P. A., Brufsky, A., Nowecki, Z., Pascual, J., Moreau, L., Chen, S.-C., Karadurmus, N., Gal-Yam, E. N., Jung, K. H., . . . Turner, N. C. (2025). First-line camizestrant for emerging ESR1-mutated advanced breast cancer. *New England Journal of Medicine, 393*(6), 569–580. https://doi.org/10.1056/NEJMoa2502929（PMID: 40454637）
 
+Borrego, M. R., Lu, Y.-S., Reyes-Cosmelli, F., Park, Y. H., Yamashita, T., Chiu, J., Airoldi, M., Turner, N., Fein, L., Ghaznawi, F., Singh, J., Pantoja, K., Schnell, C., Akdere, M., & Chia, S. (2024). SGLT2 inhibition improves PI3Kα inhibitor-induced hyperglycemia: Findings from preclinical animal models and from patients in the BYLieve and SOLAR-1 trials. *Breast Cancer Research and Treatment, 208*(1), 111–121. https://doi.org/10.1007/s10549-024-07405-8（PMID: 39177931）
+
+Boughey, J. C., Ballman, K. V., Le-Petross, H. T., McCall, L. M., Mittendorf, E. A., Ahrendt, G. M., Wilke, L. G., Taback, B., Feliberti, E. C., & Hunt, K. K. (2016). Identification and resection of clipped node decreases the false-negative rate of sentinel lymph node surgery in patients presenting with node-positive breast cancer (T0–T4, N1–N2) who receive neoadjuvant chemotherapy: Results from ACOSOG Z1071 (Alliance). *Annals of Surgery, 263*(4), 802–807. https://doi.org/10.1097/SLA.0000000000001375（PMID: 26649589）
+
 Boughey, J. C., Suman, V. J., Mittendorf, E. A., Ahrendt, G. M., Wilke, L. G., Taback, B., Leitch, A. M., Kuerer, H. M., Bowling, M., Flippo-Morton, T. S., Byrd, D. R., Ollila, D. W., Julian, T. B., McLaughlin, S. A., McCall, L., Symmans, W. F., Le-Petross, H. T., Haffty, B. G., Buchholz, T. A., . . . Hunt, K. K. (2013). Sentinel lymph node surgery after neoadjuvant chemotherapy in patients with node-positive breast cancer: The ACOSOG Z1071 (Alliance) clinical trial. *JAMA, 310*(14), 1455–1461. https://doi.org/10.1001/jama.2013.278932（PMID: 24101169）
+
+Brackstone, M., Baldassarre, F. G., Perera, F. E., Cil, T., Chavez Mac Gregor, M., Dayes, I. S., Engel, J., Horton, J. K., King, T. A., Kornecki, A., George, R., SenGupta, S. K., Spears, P. A., & Eisen, A. F. (2021). Management of the axilla in early-stage breast cancer: Ontario Health (Cancer Care Ontario) and ASCO guideline. *Journal of Clinical Oncology, 39*(27), 3056–3082. https://doi.org/10.1200/JCO.21.00934（PMID: 34279999）
 
 Burstein, H. J., DeMichele, A., Somerfield, M. R., & Henry, N. L. (2023). Testing for ESR1 mutations to guide therapy for hormone receptor–positive, human epidermal growth factor receptor 2–negative metastatic breast cancer: ASCO guideline rapid recommendation update. *Journal of Clinical Oncology, 41*(18), 3423–3425. https://doi.org/10.1200/JCO.23.00638（PMID: 37196213）
 
@@ -2583,6 +2636,8 @@ Cardoso, F., Ribeiro, J. M., Schumacher-Wulf, E., Swain, S. M., Paluch-Shimon, S
 Cardoso, F., van't Veer, L. J., Bogaerts, J., Slaets, L., Viale, G., Delaloge, S., Pierga, J.-Y., Brain, E., Causeret, S., DeLorenzi, M., Glas, A. M., Golfinopoulos, V., Goulioti, T., Knox, S., Matos, E., Meulemans, B., Neijenhuis, P. A., Nitz, U., Passalacqua, R., . . . Piccart, M. (2016). 70-gene signature as an aid to treatment decisions in early-stage breast cancer. *New England Journal of Medicine, 375*(8), 717–729. https://doi.org/10.1056/NEJMoa1602253（PMID: 27557300）
 
 Carlson, L. E., Ismaila, N., Addington, E. L., Asher, G. N., Atreya, C., Balneaves, L. G., Bradt, J., Fuller-Shavel, N., Goodman, J., Hoffman, C. J., Huston, A., Mehta, A., Paller, C. J., Richardson, K., Seely, D., Siwik, C. J., Temel, J. S., & Rowland, J. H. (2023). Integrative oncology care of symptoms of anxiety and depression in adults with cancer: Society for Integrative Oncology–ASCO guideline. *Journal of Clinical Oncology, 41*(28), 4562–4591. https://doi.org/10.1200/JCO.23.00857（PMID: 37582238）
+
+Caudle, A. S., Yang, W. T., Krishnamurthy, S., Mittendorf, E. A., Black, D. M., Gilcrease, M. Z., Bedrosian, I., Hobbs, B. P., DeSnyder, S. M., Hwang, R. F., Adrada, B. E., Shaitelman, S. F., Chavez-MacGregor, M., Smith, B. D., Candelaria, R. P., Babiera, G. V., Dogan, B. E., Santiago, L., Hunt, K. K., & Kuerer, H. M. (2016). Improved axillary evaluation following neoadjuvant therapy for patients with node-positive breast cancer using selective evaluation of clipped nodes: Implementation of targeted axillary dissection. *Journal of Clinical Oncology, 34*(10), 1072–1078. https://doi.org/10.1200/JCO.2015.64.0094（PMID: 26811528）
 
 Chan, A., Delaloge, S., Holmes, F. A., Moy, B., Iwata, H., Harvey, V. J., Robert, N. J., Silovski, T., Gokmen, E., von Minckwitz, G., Ejlertsen, B., Chia, S. K. L., Mansi, J., Barrios, C. H., Gnant, M., Buyse, M., Gore, I., Smith, J., II, Harker, G., . . . Martin, M. (2016). Neratinib after trastuzumab-based adjuvant therapy in patients with HER2-positive breast cancer (ExteNET): A multicentre, randomised, double-blind, placebo-controlled, phase 3 trial. *The Lancet Oncology, 17*(3), 367–377. https://doi.org/10.1016/S1470-2045(15)00551-3（PMID: 26874901）
 
@@ -2604,11 +2659,15 @@ Cortés, J., Punie, K., Barrios, C., Hurvitz, S. A., Schneeweiss, A., Sohn, J., 
 
 Cortes, J., Rugo, H. S., Cescon, D. W., Im, S.-A., Yusof, M. M., Gallardo, C., Lipatov, O., Barrios, C. H., Perez-Garcia, J., Iwata, H., Masuda, N., Torregroza Otero, M., Gokmen, E., Loi, S., Guo, Z., Zhou, X., Karantza, V., Pan, W., & Schmid, P. (2022). Pembrolizumab plus chemotherapy in advanced triple-negative breast cancer. *New England Journal of Medicine, 387*(3), 217–226. https://doi.org/10.1056/NEJMoa2202809（PMID: 35857659）
 
+Crean-Tate, K. K., Faubion, S. S., Pederson, H. J., Vencill, J. A., & Batur, P. (2019). Management of genitourinary syndrome of menopause in female cancer patients: A focus on vaginal hormonal therapy. *American Journal of Obstetrics and Gynecology, 222*(2), 103–113. https://doi.org/10.1016/j.ajog.2019.08.043（PMID: 31473229）
+
 Crown, J., Stroyakovskii, D., Yardley, D. A., Huang, C.-S., Fasching, P. A., Bardia, A., Chia, S., Im, S.-A., Martin, M., Xu, B., Barrios, C. H., Untch, M., Moroose, R., Hurvitz, S. A., Hortobagyi, G. N., Slamon, D. J., Visco, F., Spera, G., Zarate, J. P., . . . Loi, S. (2025). Adjuvant ribociclib plus nonsteroidal aromatase inhibitor therapy in patients with HR-positive/HER2-negative early breast cancer: 5-year follow-up of NATALEE efficacy outcomes and updated overall survival. *ESMO Open, 10*(11), Article 105858. https://doi.org/10.1016/j.esmoop.2025.105858（PMID: 41320342）
 
 Curigliano, G., Mueller, V., Borges, V., Hamilton, E., Hurvitz, S., Loi, S., Murthy, R., Okines, A., Paplomata, E., Cameron, D., Carey, L. A., Gelmon, K., Hortobagyi, G. N., Krop, I., Loibl, S., Pegram, M., Slamon, D., Ramos, J., Feng, W., & Winer, E. (2022). Tucatinib versus placebo added to trastuzumab and capecitabine for patients with pretreated HER2+ metastatic breast cancer with and without brain metastases (HER2CLIMB): Final overall survival analysis. *Annals of Oncology, 33*(3), 321–329. https://doi.org/10.1016/j.annonc.2021.12.005（PMID: 34954044）
 
 Davies, C., Pan, H., Godwin, J., Gray, R., Arriagada, R., Raina, V., Abraham, M., Medeiros Alencar, V. H., Badran, A., Bonfill, X., Bradbury, J., Clarke, M., Collins, R., Davis, S. R., Delmestri, A., Forbes, J. F., Haddad, P., Hou, M.-F., Inbar, M., . . . Peto, R. (2013). Long-term effects of continuing adjuvant tamoxifen to 10 years versus stopping at 5 years after diagnosis of oestrogen receptor-positive breast cancer: ATLAS, a randomised trial. *The Lancet, 381*(9869), 805–816. https://doi.org/10.1016/S0140-6736(12)61963-1（PMID: 23219286）
+
+Dawood, S., Merajver, S. D., Viens, P., Vermeulen, P. B., Swain, S. M., Buchholz, T. A., Dirix, L. Y., Levine, P. H., Lucci, A., Krishnamurthy, S., Robertson, F. M., Woodward, W. A., Yang, W. T., Ueno, N. T., & Cristofanilli, M. (2011). International expert panel on inflammatory breast cancer: Consensus statement for standardized diagnosis and treatment. *Annals of Oncology, 22*(3), 515–523. https://doi.org/10.1093/annonc/mdq345（PMID: 20603440）
 
 Dent, R., Shao, Z., Schmid, P., Cortes, J., Cescon, D. W., Saji, S., Jung, K. H., Bachelot, T., Wang, S., Ramírez, E. M., Basaran, G., Stradella, A., Mathiba, R., Chen, S.-C., Shen, K., Wéber, Á., Battelli, N., Niikura, N., Luo, T., . . . Traina, T. (2026). Datopotamab deruxtecan in patients with untreated, advanced triple-negative breast cancer (TROPION-Breast02): A randomised, open-label, international, phase III trial. *Annals of Oncology, 37*(8), 1066–1080. https://doi.org/10.1016/j.annonc.2026.03.008（PMID: 41937088）
 
@@ -2700,6 +2759,8 @@ Jhaveri, K. L., Im, S.-A., Saura, C., Loibl, S., Kalinsky, K., Schmid, P., Loi, 
 
 Jhaveri, K. L., Neven, P., Casalnuovo, M. L., Kim, S.-B., Tokunaga, E., Aftimos, P., Saura, C., O'Shaughnessy, J., Harbeck, N., Carey, L. A., Curigliano, G., Llombart-Cussac, A., Lim, E., García Tinoco, M. D. L. L., Sohn, J., Mattar, A., Zhang, Q., Huang, C.-S., Hung, C.-C., . . . Bidard, F.-C. (2025). Imlunestrant with or without abemaciclib in advanced breast cancer. *New England Journal of Medicine, 392*(12), 1189–1202. https://doi.org/10.1056/NEJMoa2410858（PMID: 39660834）
 
+Johnson, H. M., Miller, M. E., Mitchell, K. B., & American Society of Breast Surgeons Research Committee. (2025). Oncolactation for patients with breast cancer: Executive summary from the American Society of Breast Surgeons. *Annals of Surgical Oncology, 32*(12), 8720–8727. https://doi.org/10.1245/s10434-025-17742-7（PMID: 40627104）
+
 Johnston, S., Martin, M., Di Leo, A., Im, S.-A., Awada, A., Forrester, T., Frenzel, M., Hardebeck, M. C., Cox, J., Barriga, S., Toi, M., Iwata, H., & Goetz, M. P. (2019). MONARCH 3 final PFS: A randomized study of abemaciclib as initial therapy for advanced breast cancer. *npj Breast Cancer, 5*, Article 5. https://doi.org/10.1038/s41523-018-0097-z（PMID: 30675515）
 
 Johnston, S., Martin, M., O'Shaughnessy, J., Hegg, R., Tolaney, S. M., Guarneri, V., Del Mastro, L., Campone, M., Sohn, J., Boyle, F., Cortes, J., Rugo, H. S., Goetz, M. P., Hamilton, E. P., Huang, C.-S., Senkus, E., Cicin, I., Testa, L., Neven, P., . . . Harbeck, N. (2026). Overall survival with abemaciclib in early breast cancer. *Annals of Oncology, 37*(2), 155–165. https://doi.org/10.1016/j.annonc.2025.10.005（PMID: 41110697）
@@ -2756,6 +2817,8 @@ Loibl, S., Park, Y. H., Shao, Z., Huang, C.-S., Barrios, C., Abraham, J., Prat, 
 
 Loprinzi, C. L., Kugler, J. W., Sloan, J. A., Mailliard, J. A., LaVasseur, B. I., Barton, D. L., Novotny, P. J., Dakhil, S. R., Rodger, K., Rummans, T. A., & Christensen, B. J. (2000). Venlafaxine in management of hot flashes in survivors of breast cancer: A randomised controlled trial. *The Lancet, 356*(9247), 2059–2063. https://doi.org/10.1016/S0140-6736(00)03403-6（PMID: 11145492）
 
+Lubián López, D. M. (2022). Management of genitourinary syndrome of menopause in breast cancer survivors: An update. *World Journal of Clinical Oncology, 13*(2), 71–100. https://doi.org/10.5306/wjco.v13.i2.71（PMID: 35316932）
+
 Lyon, A. R., López-Fernández, T., Couch, L. S., Asteggiano, R., Aznar, M. C., Bergler-Klein, J., Boriani, G., Cardinale, D., Cordoba, R., Cosyns, B., Cutter, D. J., de Azambuja, E., de Boer, R. A., Dent, S. F., Farmakis, D., Gevaert, S. A., Gorog, D. A., Herrmann, J., Lenihan, D., . . . van der Pal, H. J. H. (2022). 2022 ESC guidelines on cardio-oncology developed in collaboration with the European Hematology Association (EHA), the European Society for Therapeutic Radiology and Oncology (ESTRO) and the International Cardio-Oncology Society (IC-OS). *European Heart Journal, 43*(41), 4229–4361. https://doi.org/10.1093/eurheartj/ehac244（PMID: 36017568）
 
 Ma, F., Yan, M., Li, W., Ouyang, Q., Tong, Z., Teng, Y., Wang, Y., Wang, S., Geng, C., Luo, T., Zhong, J., Zhang, Q., Liu, Q., Zeng, X., Sun, T., Mo, Q., Liu, H., Cheng, Y., Cheng, J., . . . Xu, B. (2023). Pyrotinib versus placebo in combination with trastuzumab and docetaxel as first line treatment in patients with HER2 positive metastatic breast cancer (PHILA): Randomised, double blind, multicentre, phase 3 trial. *BMJ, 383*, Article e076065. https://doi.org/10.1136/bmj-2023-076065（PMID: 37907210）
@@ -2794,6 +2857,8 @@ Murray Brunt, A., Haviland, J. S., Wheatley, D. A., Sydenham, M. A., Alhasso, A.
 
 Murthy, R. K., Loi, S., Okines, A., Paplomata, E., Hamilton, E., Hurvitz, S. A., Lin, N. U., Borges, V., Abramson, V., Anders, C., Bedard, P. L., Oliveira, M., Jakobsen, E., Bachelot, T., Shachar, S. S., Müller, V., Braga, S., Duhoux, F. P., Greil, R., . . . Winer, E. P. (2020). Tucatinib, trastuzumab, and capecitabine for HER2-positive metastatic breast cancer. *New England Journal of Medicine, 382*(7), 597–609. https://doi.org/10.1056/NEJMoa1914609（PMID: 31825569）
 
+Nahleh, Z., Alfano, C. M., Somerfield, M. R., Lee, J. M., Hieken, T. J., Magnuson, A., Rao, R. D., Chew, H. K., Chia, S. K. L., Harvey, B. E., Landsberger, E., Lim, B., Mwanzi, S. A., Parsons, H. A., Patt, D., Sukumar, J. S., Sung, H., Werutsky, G., & Lustberg, M. (2026). Breast cancer follow-up and surveillance after primary treatment: ASCO guideline update. *Journal of Clinical Oncology, 44*(30), 2953–2971. https://doi.org/10.1200/JCO-26-01700（PMID: 42462191）
+
 Nangia, J., Wang, T., Osborne, C., Niravath, P., Otte, K., Papish, S., Holmes, F., Abraham, J., Lacouture, M., Courtright, J., Paxman, R., Rude, M., Hilsenbeck, S., Osborne, C. K., & Rimawi, M. (2017). Effect of a scalp cooling device on alopecia in women undergoing chemotherapy for breast cancer: The SCALP randomized clinical trial. *JAMA, 317*(6), 596–605. https://doi.org/10.1001/jama.2016.20939（PMID: 28196254）
 
 Nielsen, T. O., Leung, S. C. Y., Rimm, D. L., Dodson, A., Acs, B., Badve, S., Denkert, C., Ellis, M. J., Fineberg, S., Flowers, M., Kreipe, H. H., Laenkholm, A.-V., Pan, H., Penault-Llorca, F. M., Polley, M.-Y., Salgado, R., Smith, I. E., Sugie, T., Bartlett, J. M. S., . . . Hayes, D. F. (2021). Assessment of Ki67 in breast cancer: Updated recommendations from the International Ki67 in Breast Cancer Working Group. *Journal of the National Cancer Institute, 113*(7), 808–819. https://doi.org/10.1093/jnci/djaa201（PMID: 33369635）
@@ -2826,6 +2891,8 @@ Robson, M., Im, S.-A., Senkus, E., Xu, B., Domchek, S. M., Masuda, N., Delaloge,
 
 Robson, M. E., Tung, N., Conte, P., Im, S.-A., Senkus, E., Xu, B., Masuda, N., Delaloge, S., Li, W., Armstrong, A., Wu, W., Goessl, C., Runswick, S., & Domchek, S. M. (2019). OlympiAD final overall survival and tolerability results: Olaparib versus chemotherapy treatment of physician's choice in patients with a germline BRCA mutation and HER2-negative metastatic breast cancer. *Annals of Oncology, 30*(4), 558–566. https://doi.org/10.1093/annonc/mdz012（PMID: 30689707）
 
+Rodgers, R. J., Reid, G. D., Koch, J., Deans, R., Ledger, W. L., Friedlander, M., Gilchrist, R. B., Walters, K. A., & Abbott, J. A. (2017). The safety and efficacy of controlled ovarian hyperstimulation for fertility preservation in women with early breast cancer: A systematic review. *Human Reproduction, 32*(5), 1033–1045. https://doi.org/10.1093/humrep/dex027（PMID: 28333356）
+
 Rugo, H. S., André, F., Yamashita, T., Cerda, H., Toledano, I., Stemmer, S. M., Jurado, J. C., Juric, D., Mayer, I., Ciruelos, E. M., Iwata, H., Conte, P., Campone, M., Wilke, C., Mills, D., Lteif, A., Miller, M., Gaudenzi, F., & Loibl, S. (2020). Time course and management of key adverse events during the randomized phase III SOLAR-1 study of PI3K inhibitor alpelisib plus fulvestrant in patients with HR-positive advanced breast cancer. *Annals of Oncology, 31*(8), 1001–1010. https://doi.org/10.1016/j.annonc.2020.05.001（PMID: 32416251）
 
 Rugo, H. S., Bardia, A., Marmé, F., Cortés, J., Schmid, P., Loirat, D., Trédan, O., Ciruelos, E., Dalenc, F., Gómez Pardo, P., Jhaveri, K. L., Delaney, R., Valdez, T., Wang, H., Motwani, M., Yoon, O. K., Verret, W., & Tolaney, S. M. (2023). Overall survival with sacituzumab govitecan in hormone receptor-positive and human epidermal growth factor receptor 2-negative metastatic breast cancer (TROPiCS-02): A randomised, open-label, multicentre, phase 3 trial. *The Lancet, 402*(10411), 1423–1433. https://doi.org/10.1016/S0140-6736(23)01245-X（PMID: 37633306）
@@ -2839,6 +2906,8 @@ Rugo, H. S., O'Shaughnessy, J., Boyle, F., Toi, M., Broom, R., Blancas, I., Gumu
 Rugo, H. S., Tokunaga, E., Iwata, H., Petry, V., Smit, E. F., Goto, Y., Kim, D.-W., Shitara, K., Gruden, J. F., Modi, S., Cortés, J., Krop, I., Jänne, P. A., Cheng, Y., Taitt, C., Cheng, F.-C., & Powell, C. A. (2025). Pooled analysis of trastuzumab deruxtecan retreatment after recovery from grade 1 interstitial lung disease/pneumonitis. *Annals of Oncology, 36*(11), 1389–1399. https://doi.org/10.1016/j.annonc.2025.07.015（PMID: 40769277）
 
 Rugo, H. S., Tolaney, S. M., Loirat, D., Punie, K., Bardia, A., Hurvitz, S. A., O'Shaughnessy, J., Cortés, J., Diéras, V., Carey, L. A., Gianni, L., Piccart, M. J., Loibl, S., Goldenberg, D. M., Hong, Q., Olivo, M., Itri, L. M., & Kalinsky, K. (2022). Safety analyses from the phase 3 ASCENT trial of sacituzumab govitecan in metastatic triple-negative breast cancer. *npj Breast Cancer, 8*(1), Article 98. https://doi.org/10.1038/s41523-022-00467-1（PMID: 36038616）
+
+Ryan, H. M., & Brennan, D. J. (2026). Genitourinary syndrome of menopause in women with cancer: A narrative review. *Maturitas, 211*, Article 109004. https://doi.org/10.1016/j.maturitas.2026.109004（PMID: 42224847）
 
 Schmid, P., Adams, S., Rugo, H. S., Schneeweiss, A., Barrios, C. H., Iwata, H., Diéras, V., Hegg, R., Im, S.-A., Shaw Wright, G., Henschel, V., Molinero, L., Chui, S. Y., Funke, R., Husain, A., Winer, E. P., Loi, S., & Emens, L. A. (2018). Atezolizumab and nab-paclitaxel in advanced triple-negative breast cancer. *New England Journal of Medicine, 379*(22), 2108–2121. https://doi.org/10.1056/NEJMoa1809615（PMID: 30345906）
 
@@ -2910,6 +2979,8 @@ von Minckwitz, G., Procter, M., de Azambuja, E., Zardavas, D., Benyunes, M., Via
 
 Wapnir, I. L., Dignam, J. J., Fisher, B., Mamounas, E. P., Anderson, S. J., Julian, T. B., Land, S. R., Margolese, R. G., Swain, S. M., Costantino, J. P., & Wolmark, N. (2011). Long-term outcomes of invasive ipsilateral breast tumor recurrences after lumpectomy in NSABP B-17 and B-24 randomized clinical trials for DCIS. *Journal of the National Cancer Institute, 103*(6), 478–488. https://doi.org/10.1093/jnci/djr027（PMID: 21398619）
 
+Weintraub, M. A., Liu, D., DeMatteo, R., Goncalves, M. D., & Flory, J. H. (2023). Sodium-glucose cotransporter-2 inhibitors for hyperglycemia in phosphoinositide 3-kinase pathway inhibition. *Breast Cancer Research and Treatment, 203*(1), 85–93. https://doi.org/10.1007/s10549-023-07110-y（PMID: 37704834）
+
 Whelan, T. J., Olivotto, I. A., Parulekar, W. R., Ackerman, I., Chua, B. H., Nabid, A., Vallis, K. A., White, J. R., Rousseau, P., Fortin, A., Pierce, L. J., Manchul, L., Chafe, S., Nolan, M. C., Craighead, P., Bowen, J., McCready, D. R., Pritchard, K. I., Gelmon, K., . . . Levine, M. N. (2015). Regional nodal irradiation in early-stage breast cancer. *New England Journal of Medicine, 373*(4), 307–316. https://doi.org/10.1056/NEJMoa1415340（PMID: 26200977）
 
 Wolff, A. C., Hammond, M. E. H., Allison, K. H., Harvey, B. E., Mangu, P. B., Bartlett, J. M. S., Bilous, M., Ellis, I. O., Fitzgibbons, P., Hanna, W., Jenkins, R. B., Press, M. F., Spears, P. A., Vance, G. H., Viale, G., McShane, L. M., & Dowsett, M. (2018). Human epidermal growth factor receptor 2 testing in breast cancer: American Society of Clinical Oncology/College of American Pathologists clinical practice guideline focused update. *Journal of Clinical Oncology, 36*(20), 2105–2122. https://doi.org/10.1200/JCO.2018.77.8738（PMID: 29846122）
@@ -2927,6 +2998,8 @@ Yen, A. M.-F., Tsau, H.-S., Fann, J. C.-Y., Chen, S. L.-S., Chiu, S. Y.-H., Lee,
 American Joint Committee on Cancer. (2026). *AJCC current staging system* [Chart]. https://www.facs.org/media/c5ik5tkr/ajcc-current-staging-system-2026.pdf
 
 ANI Pharmaceuticals, Inc. (2026). *ARIMIDEX (anastrozole): Prescribing information* (effective 2026-03-02). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de
+
+The ASCO Post. (2017, August 10). *Cancer Care Ontario and ASCO clinical practice guideline: Use of adjuvant bisphosphonates and other bone-modifying agents in breast cancer*. https://ascopost.com/issues/august-10-2017/cancer-care-ontario-and-asco-clinical-practice-guideline-use-of-adjuvant-bisphosphonates-and-other-bone-modifying-agents-in-breast-cancer
 
 The ASCO Post. (2023, June 25). *Guideline update provides new testing and treatment recommendations for patients with ER-positive, HER2-negative metastatic breast cancer with ESR1 mutations*. https://ascopost.com/issues/june-25-2023/guideline-update-provides-new-testing-and-treatment-recommendations-for-patients-with-er-positive-her2-negative-metastatic-breast-cancer-with-esr1-mutations
 
@@ -2964,6 +3037,8 @@ Eisai Inc. (2025). *HALAVEN (eribulin mesylate): Prescribing information* (effec
 
 Eugia US LLC. (2026). *Dexrazoxane for injection: Prescribing information* (effective 2026-08-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cb72203a-0b09-42d5-bf51-7f479feb3adb
 
+European Medicines Agency. (n.d.). *Halaven: EPAR product information* [Summary of product characteristics]. Retrieved November 5, 2026, from https://www.ema.europa.eu/en/documents/product-information/halaven-epar-product-information_en.pdf
+
 Genentech, Inc. (2026a). *HERCEPTIN (trastuzumab): Prescribing information* (effective 2026-05-29). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2
 
 Genentech, Inc. (2026b). *ITOVEBI (inavolisib): Prescribing information* (effective 2026-04-21). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5de59f5b-e5db-410f-b692-658686ef4107
@@ -2976,11 +3051,19 @@ Genentech, Inc. (2026e). *PHESGO (pertuzumab, trastuzumab, and hyaluronidase-zzx
 
 Gilead Sciences, Inc. (2026). *TRODELVY (sacituzumab govitecan-hziy): Prescribing information* (effective 2026-06-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d
 
+Guideline Central. (n.d.). *ASCO/CCO management of the axilla in early-stage breast cancer guideline summary*. Retrieved November 5, 2026, from https://www.guidelinecentral.com/guideline/1034344/
+
 H2-Pharma, LLC. (2026). *XELODA (capecitabine): Prescribing information* (effective 2026-02-05). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5
+
+Hoffmann-La Roche. (n.d.). *A study of pertuzumab in combination with Herceptin and chemotherapy in participants with HER2-positive breast cancer* (ClinicalTrials.gov Identifier NCT00976989; study ID BO22280) [Clinical trial registration]. U.S. National Library of Medicine. https://clinicaltrials.gov/study/NCT00976989
 
 Lilly USA, LLC. (2026a). *INLURIYO (imlunestrant): Prescribing information* (effective 2026-06-04). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bc172e4-e8a2-441a-be52-279a7f890196
 
 Lilly USA, LLC. (2026b). *VERZENIO (abemaciclib): Prescribing information* (effective 2026-07-13). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06
+
+medac Pharma LLP. (2024). *Doxorubicin hydrochloride 2 mg/ml solution for infusion: Summary of product characteristics* (date of revision 05/2024). electronic Medicines Compendium. https://www.medicines.org.uk/emc/product/4613/smpc
+
+Merck Sharp & Dohme LLC. (2023). *Protocol/Amendment No. 522-06: A phase III, randomized, double-blind study to evaluate pembrolizumab plus chemotherapy vs placebo plus chemotherapy as neoadjuvant therapy and pembrolizumab vs placebo as adjuvant therapy for triple negative breast cancer (TNBC)* (MK-3475-522; ClinicalTrials.gov Identifier NCT03036488) [Clinical trial protocol, document date 2023-05-25]. https://cdn.clinicaltrials.gov/large-docs/88/NCT03036488/Prot_SAP_000.pdf
 
 Merck Sharp & Dohme LLC. (2026). *KEYTRUDA (pembrolizumab): Prescribing information* (effective 2026-07-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287
 
@@ -2999,6 +3082,8 @@ National Comprehensive Cancer Network. (2026e). *NCCN Guidelines for Patients: I
 National Comprehensive Cancer Network. (2026f). *NCCN Guidelines for Patients: Metastatic breast cancer* (Based on NCCN Guidelines for Breast Cancer, Version 3.2026). https://www.nccn.org/patients/guidelines/content/PDF/stage_iv_breast-patient.pdf
 
 Nexus Pharmaceuticals, LLC. (2026). *Cyclophosphamide injection: Prescribing information* (effective 2026-09-03). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c961a1ac-6705-4756-9abc-9d84a6fcb5c8
+
+North American Menopause Society. (2023). The 2023 nonhormone therapy position statement of The North American Menopause Society. *Menopause, 30*(6), 573–590. https://doi.org/10.1097/GME.0000000000002200（PMID: 37252752）
 
 Novartis Pharmaceuticals Corporation. (2025). *PIQRAY (alpelisib): Prescribing information* (effective 2025-12-15). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b
 
@@ -3026,6 +3111,8 @@ Seagen Inc. (2024). *TUKYSA (tucatinib): Prescribing information* (effective 202
 
 Stemline Therapeutics, Inc. (2026). *ORSERDU (elacestrant): Prescribing information* (effective 2026-06-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa66ae5c-2bd2-4444-8178-b55651e054ef
 
+Taiwan Cancer Registry Center. (n.d.). *附件一：AJCC 第 8 版期別編碼相關規則與操作型定義（適用於 107 年 1 月 1 日起新診斷癌症個案）* [Coding annex]. https://twcr.tw/wp-content/uploads/2021/12/AJCC%E7%AC%AC8%E7%89%88%E6%9C%9F%E5%88%A5%E7%B7%A8%E7%A2%BC%E7%9B%B8%E9%97%9C%E8%A6%8F%E5%89%87%E8%88%87%E6%93%8D%E4%BD%9C%E5%9E%8B%E5%AE%9A%E7%BE%A9.pdf
+
 Taiwan Cancer Registry Center. (2025a, December). *112年癌症登記長表報告* [Report] (CA17_LF112.pdf). https://twcr.tw/wp-content/uploads/2025/12/CA17_LF112.pdf
 
 Taiwan Cancer Registry Center. (2025b, December). *台灣10大癌症108-112年新發個案存活率（追蹤至113年）* [Report] (Survival_108_112.pdf). https://twcr.tw/wp-content/uploads/2025/12/Survival_108_112.pdf
@@ -3040,9 +3127,15 @@ TerSera Therapeutics LLC. (2026). *ZOLADEX (goserelin): Prescribing information*
 
 Teva Parenteral Medicines, Inc. (2026). *Paclitaxel injection: Prescribing information* (effective 2026-09-09). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e4be6cbf-72b9-4f7f-9b1b-459b2d35961a
 
-U.S. Food and Drug Administration. (n.d.). *For healthcare professionals: FDA's examples of drugs that interact with CYP enzymes and transporter systems*. Retrieved October 29, 2026, from https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems
+U.S. Food and Drug Administration. (n.d.-a). *For healthcare professionals: FDA's examples of drugs that interact with CYP enzymes and transporter systems*. Retrieved October 29, 2026, from https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems
+
+U.S. Food and Drug Administration. (n.d.-b). *Withdrawn: Cancer accelerated approvals*. Retrieved November 5, 2026, from https://www.fda.gov/drugs/resources-information-approved-drugs/withdrawn-cancer-accelerated-approvals
 
 U.S. National Library of Medicine. (2026). *Combination chemotherapy in treating patients with breast cancer* (ClinicalTrials.gov Identifier NCT00003088) [Registry record]. https://clinicaltrials.gov/study/NCT00003088
+
+周佑政、李樹人. (2026, September 14). *NGS納健保給付擴大 增5100癌友受惠* [新聞]. 聯合報. https://udn.com/news/story/7266/9752309
+
+陳婕翎. (2026, June 25). *健保擴大NGS給付癌別 挹注1億元5100患者受惠* [新聞]. 中央社. https://www.cna.com.tw/news/ahel/202606250366.aspx
 
 衛生福利部中央健康保險署. (2024, April 19). *健保5月1日起給付癌症精準醫療「實體癌/血癌次世代基因定序檢測(NGS)」2萬多名癌友受惠* [新聞稿]. https://mohw.gov.tw/cp-16-78416-1.html
 
@@ -3057,5 +3150,7 @@ U.S. National Library of Medicine. (2026). *Combination chemotherapy in treating
 衛生福利部國民健康署. (2026b, September 17). *乳房X光攝影檢查兩年一篩 給自己15分鐘 「乳」此心安* [新聞稿]. https://www.mohw.gov.tw/cp-16-88006-1.html
 
 衛生福利部. (2025, December 30). *公布112年國人癌症登記資料分析結果 守護健康未來 從癌症篩檢開始* [新聞稿]. https://mohw.gov.tw/cp-2704-84987-1.html
+
+衛生福利部. (2026, July 28). *癌症登記檔長表 LF（2018 年以後版本）（HEALTH-14：H_BHP_CRFLF_3）資料庫使用手冊* [資料庫使用手冊]. https://www.mohw.gov.tw/dl-100517-63c0700e-24d5-40e2-b72e-d72bd2559b5f.html
 
 衛生福利部統計處. (2026, June 22). *國人死亡人數連續3年下降 十大死因中6項死因人數、死亡率都減少* [新聞稿]. https://mohw.gov.tw/cp-16-86970-1.html

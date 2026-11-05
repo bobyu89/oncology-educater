@@ -62,7 +62,7 @@
 **結論先行**
 
 - 台灣的結核病發生率屬中度（Chen et al., 2024），肺癌又是 TB 的高風險族群。開始 ICI 前，至少問清楚 TB 病史、治療是否完成、接觸史，並看一次胸部影像（肺癌分期本來就有）。
-- 主要 irAE 指引沒有把「ICI 前常規驗 IGRA」列為建議。ASCO 2021 全文提到 TB 檢測，只出現在 infliximab 等第二線藥、免疫性大腸炎與發炎性關節炎的檢查、以及開始類固醇前的基線評估（Schneider et al., 2021）。
+- ASCO 2021 沒有把「ICI 前常規驗 IGRA」列為建議；全文提到 TB 檢測，只出現在 infliximab 等第二線藥、免疫性大腸炎與發炎性關節炎的檢查、以及開始類固醇前的基線評估（Schneider et al., 2021）。ESMO 2022 主文的推薦條文也沒有談 TB 篩檢，但補充材料表 S3 把 T-spot test 列入 ICI 前的基線感染篩檢（Haanen et al., 2022）。
 - 台灣的證據支持「準備用 ICI 的肺癌病人考慮篩檢」，但屬觀察性研究，不是隨機試驗（Chen et al., 2024）。
 - 要用 infliximab、tocilizumab 或 abatacept 時，**一定要先驗 latent TB，陽性者先開始治療**（Schneider et al., 2021）。
 
@@ -94,6 +94,9 @@
 | 免疫性大腸炎 Grade 2 的檢查 | 驗 HIV、A 型與 B 型肝炎、TB；需要 infliximab 或 vedolizumab 超過 1 年者每年重驗 | ASCO 2021 Table 2.1 |
 | 發炎性關節炎 Grade 3–4，準備用 DMARD 或生物製劑 | 驗 B、C 型肝炎與 latent／active TB；需要生物製劑超過 1 年者每年重驗 | ASCO 2021 |
 | 準備用 infliximab、tocilizumab、abatacept | 驗 latent TB，陽性者先治療再用藥；用藥期間持續監測 active TB，基線陰性也要 | ASCO 2021 Table A2（引自各藥仿單） |
+| 開始 ICI 前（ESMO 2022） | 補充材料表 S3「基線評估」的感染篩檢列出 T-spot test、HIV-1 或 HIV-2、B 型／C 型／E 型肝炎；HTLV-1／2 限流行地區 | ESMO 2022 補充表 S3（Haanen et al., 2022） |
+| 免疫性大腸炎，可能需要 infliximab 或 vedolizumab（ESMO 2022） | 在 GI irAE 早期就做 IGRA、病毒性肝炎（B、C、E，部分情況加 A）與 HIV 檢驗；Figure 5 把 IGRA 列入 Grade 2 腹瀉／大腸炎的檢查 | ESMO 2022 補充 Section 5、Figure 5（Haanen et al., 2022） |
+| 準備開始全身性類固醇前（ESMO 2022） | 治療前評估包括 A、B、C 型肝炎與結核病篩檢；HIV 限高風險者 | ESMO 2022 補充表 S2（Haanen et al., 2022） |
 
 **IGRA 的限制**
 
@@ -128,8 +131,8 @@
 > ICI 病人同時吃 isoniazid（加或不加 rifampin）時，AST／ALT 上升可能是 irAE 肝炎、抗結核藥肝毒性或 B 肝再活化，處置完全不同：irAE 肝炎要考慮類固醇，藥物肝毒性要考慮停藥，B 肝再活化要給抗病毒藥。isoniazid 仿單的加框警語指出，嚴重甚至致命的肝炎多發生在治療前 3 個月，要每月問診，35 歲（含）以上者治療前與治療中要定期驗 AST／ALT，肝功能超過 ULN 的 3–5 倍時應強烈考慮停藥；rifampin 與 isoniazid 併用要密切監測肝毒性（Bryant Ranch Prepack, 2026；PuraCap Laboratories, 2025）。開始 LTBI 治療前先留下基線肝功能、HBsAg 與 anti-HBc，異常時同步會診感染科與肝膽科（見 5.3）。
 
 > [!CAUTION]
-> **待核對：ESMO 2022 與 NCCN 對 TB 篩檢的原文**
-> 本節的指引層級建議以 ASCO 2021 全文（Table 2.1、12.1、A2）為準。ESMO 2022（Haanen et al., 2022）與 NCCN Version 1.2026 的全文本手冊無法取得，所以沒有寫它們對「ICI 前是否篩檢 TB」與「infliximab 前篩檢」的確切措辭，請對照原文。「ICI 前常規 IGRA」在能取得全文的 ASCO 2021 中沒有這項建議，目前只有台灣的觀察性研究支持考慮篩檢。
+> **待核對：NCCN 對 TB 篩檢的原文**
+> ESMO 2022 已核對原文（見上表與上方「結論先行」）。NCCN Version 1.2026 的全文需登入 nccn.org，本手冊無法取得，所以沒有寫它對「ICI 前是否篩檢 TB」與「infliximab 前篩檢」的確切措辭，請對照原文。已核對的兩份指引寫法不同：ASCO 2021 全文沒有「ICI 前常規 IGRA」的建議；ESMO 2022 主文的文字推薦條目沒有談 TB 篩檢，但補充材料表 S3 的基線感染篩檢列出 T-spot test，補充材料 Section 5 與主文 Figure 5 的大腸炎檢查列出 IGRA（Haanen et al., 2022）。台灣另有觀察性研究支持考慮篩檢（Chen et al., 2024）。
 
 健保對 infliximab 的相關規定見第 6.1 節。
 
@@ -225,15 +228,15 @@
 |-------|---------------------|------|
 | 1 | > ULN–3 × ULN | 繼續 ICI；每週追蹤肝功能 1–2 次 |
 | 2 | > 3–5 × ULN | 暫停 ICI；每 3 天追蹤；持續不降考慮 prednisone 0.5–1 mg/kg/day |
-| 3 | > 5–20 × ULN | 暫停 ICI（ASCO 2021：無症狀者考慮永久停用，有症狀者永久停用）；立即給 IV methylprednisolone 1–2 mg/kg/day 或等效藥物；會診肝膽科 |
+| 3 | > 5–20 × ULN | 暫停 ICI（ASCO 2021：無症狀者考慮永久停用，有症狀者永久停用；ESMO 2022：永久停用，例外見下方說明）；立即給 IV methylprednisolone 1–2 mg/kg/day 或等效藥物；會診肝膽科 |
 | 4 | > 20 × ULN | 永久停用；處置同 Grade 3，但 methylprednisolone 提高到 2 mg/kg/day（ASCO 2021） |
 
 - **先排除其他原因**：病毒性肝炎（**台灣特別注意 B 肝再活化**）、藥物（含中草藥）、酒精、肝轉移惡化、膽道阻塞。
 - 類固醇反應不足時（G2 約 3 天無改善、G3 類固醇難治），在原有類固醇之外**加用** **mycophenolate mofetil（MMF）**（或 azathioprine，用前先測 TPMT）；**肝炎不使用 infliximab**（本身可能有肝毒性）。
 
 > [!CAUTION]
-> **待核對：ESMO 2022 與 NCCN 對 Grade 3 肝炎永久停用的原文**
-> 上表 Grade 3 已依 ASCO 2021 Table 2.2 寫成：無症狀者考慮永久停用 ICI，有症狀者永久停用（Schneider et al., 2021）；ASCO 2018 版對 Grade 3 肝炎同樣建議永久停用（Brahmer et al., 2018）。本手冊尚未逐條比對 ESMO 2022 與最新 NCCN 版本的原文，所以不確定它們是否對部分 anti-PD-1/PD-L1 單用病人允許在恢復後審慎評估重新給藥，臨床上依主治醫師判斷。
+> **待核對：NCCN 對 Grade 3 肝炎永久停用的原文**
+> ESMO 2022 已核對原文：補充材料 Section 4 寫 Grade 3 或 4 肝損傷永久停用 ICI，明文例外是先前接受合併治療者可再給 anti-PD-(L)1 單用；Figure 4 的 Grade 3 欄位寫 Discontinue ICI therapy，減量說明另註明 Grade 3「rechallenge only at consultant discretion」（Haanen et al., 2022）。上表 Grade 3 依 ASCO 2021 寫成無症狀者「考慮」永久停用、有症狀者永久停用（Schneider et al., 2021）；兩份指引在無症狀 Grade 3 的鬆緊略有差異，臨床上依主治醫師判斷。NCCN 最新版全文需登入 nccn.org，本手冊無法取得，未比對。
 
 ### 5.4 肺炎（Pneumonitis）
 

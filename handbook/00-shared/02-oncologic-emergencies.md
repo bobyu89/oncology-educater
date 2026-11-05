@@ -501,9 +501,19 @@ ICANS 分級：Grade 1 = ICE 7–9 分；Grade 2 = 3–6 分；Grade 3 = 0–2 �
 - **ICANS**：**以類固醇為主**（tocilizumab 不易通過血腦屏障）；Grade 3 以上入加護病房；評估癲癇。
 - 依仿單決定暫停或停藥、重新給藥前的監測要求。
 
+**美國仿單數字（已核對：Imdelltra Revised 9/2026；Actemra Revised 12/2025；Tecvayli Revised 3/2026）**
+
+- 階梯劑量（靜脈輸注 1 小時）：Cycle 1 Day 1 為 1 mg，Day 8 與 Day 15 各 10 mg，之後每 2 週 10 mg，直到疾病惡化或無法耐受的毒性（Amgen, 2026）。
+- Cycle 1 Day 1 與 Day 8 的併用藥：輸注前 1 小時內給 dexamethasone 8 mg IV（或同等劑量）；輸注完成後立即給 0.9% 生理食鹽水 1 L，於 2–4 小時內輸注。
+- 監測：Cycle 1 Day 1 與 Day 8 從輸注開始起，在適當的醫療環境監測 6–8 小時；Cycle 1 Day 2 與 Day 9 要做病人評估（含生命徵象）；Day 1 與 Day 8 給藥後共 48 小時內，病人需待在距離適當醫療機構 1 小時內的地方，並有照顧者陪同。Day 15 與 Cycle 2 的觀察為 6–8 小時，Cycle 3–4 為 3–4 小時，Cycle 5 起為 2 小時；除非先前出現 Grade ≥ 2 CRS、ICANS 或神經毒性，否則不需延長醫療機構內監測。
+- CRS 處置（仿單 Table 5，ASTCT 分級）：Grade 1 給症狀處置（如 acetaminophen），可考慮 dexamethasone 4–10 mg PO/IV；Grade 2 建議住院至少 24 小時並做心電監視與血氧監測，可考慮 dexamethasone 8 mg PO/IV 與 tocilizumab；Grade 3 在 Grade 2 處置之上加加護監測與 dexamethasone 8 mg IV q8h（最多 3 劑），仿單為「建議」tocilizumab；Grade 4 永久停藥，處置同 Grade 3。
+- ICANS 處置（Table 6）：Grade 1 為支持性處置；Grade 2 為 dexamethasone 8–10 mg PO/IV（可每 12 小時重複）或 methylprednisolone 1 mg/kg IV q12h（症狀惡化時）；Grade 3 為 dexamethasone 10 mg IV q6h 或 methylprednisolone 1 mg/kg IV q12h，建議加護監測；Grade 4 永久停藥，使用高劑量類固醇（例如 methylprednisolone 1,000 mg/day 分次 IV，連續 3 天）。
+- Tocilizumab：tarlatamab 仿單對 CRS Grade 2 寫「考慮」、Grade 3–4 寫「建議」，但**沒有給劑量**。Actemra 仿單列有劑量的 CRS 適應症是 CAR T 細胞誘發的嚴重或危及生命 CRS：體重 ≥ 30 kg 為 8 mg/kg，靜脈輸注 60 分鐘，單次不超過 800 mg；改善不足時最多再給 3 劑，間隔至少 8 小時（Genentech, 2025a）。雙特異性抗體引起的 CRS 不在該適應症內，實際劑量依院內流程。
+- 產品之間確實不同：teclistamab（Tecvayli，皮下注射，美國仿單 Revised 3/2026）單藥以 0.06 mg/kg（Day 1）、0.3 mg/kg（Day 4）、1.5 mg/kg（Day 7）階梯式起始；階梯劑量 1 與階梯劑量 2 之後各要住院 48 小時，第一個治療劑量（Day 7）之後則是留在醫療機構附近並每日監測 48 小時；階梯期內的三劑，每劑前 1–3 小時都要給 dexamethasone 16 mg（Janssen Biotech, 2026）。
+
 > [!CAUTION]
-> **待核對：產品特定的劑量與監測規定**
-> Tarlatamab 等雙特異性抗體的階梯劑量、首幾劑後需留院監測的時間、tocilizumab 與類固醇的建議劑量，各產品仿單規定不同且會隨上市後資料更新。開立前請以最新仿單與院內流程為準。
+> **待核對：台灣核准仿單與其他雙特異性抗體**
+> 上列數字來自美國 FDA 仿單。本手冊尚未取得 TFDA 核准的 tarlatamab（安泰適）仿單，無法確認台灣版的劑量與監測要求是否相同；除 teclistamab 外，elranatamab、glofitamab、epcoritamab、blinatumomab 等產品的仿單也未逐一核對。Tocilizumab 用於雙特異性抗體 CRS 的劑量，tarlatamab 與 teclistamab 的仿單都沒有給。仿單會隨上市後資料更新，開立前請以最新仿單與院內流程為準。
 
 > [!TIP]
 > **CRS 與 ICANS 的區分**
@@ -593,7 +603,7 @@ Grade 5 皆為死亡（National Cancer Institute, 2017）。
 | docetaxel | 加框警語：有 dexamethasone 前置用藥仍發生嚴重 HSR；對 docetaxel 或 polysorbate 80 製劑有嚴重過敏史者禁用（Hospira, 2025） | 口服 dexamethasone 16 mg/日（8 mg BID）共 3 天，從輸注前 1 天開始 | HSR 發生要立即停止輸注並處置 |
 | carboplatin | 加框警語：anaphylactic-like reaction 可在數分鐘內發生；曾接觸鉑類者風險增加（Apotex, 2024）。Markman 病例系列：首次反應的鉑類療程數中位數為第 8 次（範圍 6–21），約一半在藥量輸注超過一半後才發作（Markman et al., 1999） | 無常規前置用藥 | 多數有 carboplatin HSR 的病人沒有再挑戰（Banerji et al., 2014）；Markman 系列 3 例再挑戰僅 1 例成功；要繼續鉑類需過敏科評估（見 10.7） |
 | oxaliplatin | 加框警語：嚴重與致命的 HSR（含 anaphylaxis）可在數分鐘內、**任何週期**發生；對 oxaliplatin 或其他鉑類有 HSR 病史者禁忌（Meitheal, 2024） | 無常規前置用藥 | 仿單：發生 HSR 立即且永久停藥並處置 |
-| rituximab | 加框警語：可致命的 IRR，輸注後 24 小時內曾有死亡，約 80% 的致命反應發生在第一次輸注（Genentech, 2025） | 每次輸注前給 acetaminophen 與抗組織胺 | 第一次：起始 50 mg/hr，無毒性則每 30 分鐘增加 50 mg/hr，最高 400 mg/hr；之後：起始 100 mg/hr，每 30 分鐘增加 100 mg/hr，最高 400 mg/hr；重度反應停止輸注，Grade 3–4 給予醫療處置 |
+| rituximab | 加框警語：可致命的 IRR，輸注後 24 小時內曾有死亡，約 80% 的致命反應發生在第一次輸注（Genentech, 2025b） | 每次輸注前給 acetaminophen 與抗組織胺 | 第一次：起始 50 mg/hr，無毒性則每 30 分鐘增加 50 mg/hr，最高 400 mg/hr；之後：起始 100 mg/hr，每 30 分鐘增加 100 mg/hr，最高 400 mg/hr；重度反應停止輸注，Grade 3–4 給予醫療處置 |
 | cetuximab | 加框警語：嚴重甚至致命的輸注反應；臨床試驗 1,373 人中任何級別 8.4%、Grade 3–4 為 2.2%；有蜱叮咬、紅肉過敏或抗 galactose-α-1,3-galactose IgE 者 anaphylaxis 風險可能增加（ImClone, 2026） | 第一劑前 30–60 分鐘靜脈給 H1 antagonist，後續劑量視需要 | 初劑 400 mg/m² 輸注 120 分鐘，之後每週 250 mg/m² 輸注 60 分鐘；Grade 1–2 降低輸注速率 50%，Grade 3–4 立即且永久停用 |
 | trastuzumab | 加框警語：嚴重且可致命的輸注反應，症狀多出現在輸注當下或 24 小時內（Genentech, 2026） | 依院內規範 | 輕中度降低輸注速率；呼吸困難或明顯低血壓要中斷輸注並監測到症狀完全消失；anaphylaxis、血管水腫、間質性肺炎或 ARDS 要永久停藥；嚴重反應後是否能再給缺乏資料，有人預先給抗組織胺或類固醇後仍復發 |
 | amivantamab | MARIPOSA（併用 lazertinib）IRR 63%（Grade 3 為 5%、Grade 4 為 1%）；單藥 CHRYSALIS 為 66%（Janssen Biotech, 2025） | 首劑前 2 天起口服 dexamethasone 8 mg BID；Day 1 再給 dexamethasone 20 mg IV、diphenhydramine 25–50 mg 與 acetaminophen 650–1,000 mg；Day 2 給 dexamethasone 10 mg IV 與同樣的抗組織胺與 acetaminophen；之後每次仍給抗組織胺等預防用藥（細節以仿單 Table 5 為準） | 首劑拆成 Day 1 與 Day 2 兩天輸注；Week 1 與 Week 2 經周邊靜脈給藥；疑似 IRR 立即中斷輸注，依嚴重度減速或永久停藥 |
@@ -689,9 +699,10 @@ Grade 5 皆為死亡（National Cancer Institute, 2017）。
 - 院內不良事件與藥物不良反應通報，依院內流程。
 - 法源：《藥事法》第 45 條之 1 規定，醫療機構、藥局及藥商對於因藥物所引起的嚴重不良反應，應行通報；方式、內容與其他應遵行事項，由中央衛生主管機關以辦法定之。
 
-> [!CAUTION]
-> **待核對：嚴重藥品不良反應的通報時限與適用定義**
-> 《藥事法》第 45 條之 1 的條文已核對。至於授權辦法（《嚴重藥物不良反應通報辦法》，修正後名稱疑為《藥品嚴重不良反應通報辦法》）的**現行版本、嚴重不良反應的定義與通報期限**，網路摘要查到的版本不一致（有的寫醫療機構於知悉死亡或危及生命的反應後 7 日內通報），尚未取得全國法規資料庫的官方條文逐項核對。請以現行辦法與院內藥劑部的通報流程為準，並用衛福部「全國藥物不良反應通報系統」通報。
+- 授權辦法為《藥品嚴重不良反應通報辦法》（衛生福利部，113 年 3 月 28 日修正，114 年 1 月 1 日施行）。醫療機構、藥局知悉嚴重不良反應時，要到中央衛生主管機關指定的網路系統填表通報；必要時可先以口頭、電話、傳真或電子郵件通報，但仍須在期限內完成網路通報（第 3 條；衛生福利部, 2024）。
+- **嚴重不良反應**指使用藥品後發生下列情形之一：死亡、危及生命、永久性殘疾、胎兒或嬰兒先天性畸形、病人住院或延長住院時間、其他可能導致永久性傷害的併發症（第 2 條）。
+- **醫療機構與藥局的通報期限**，自知悉之次日起算：死亡或危及生命者 **7 日內**；其餘四款（永久性殘疾、先天性畸形、住院或延長住院、其他可能導致永久性傷害的併發症）**30 日內**（第 6 條）。藥商為知悉通報事由之次日起 15 日內（第 7 條）。
+- 輸注反應或 anaphylaxis 是否符合上述任一款（例如危及生命、住院），依臨床判斷；院內通報窗口與表單依藥劑部流程。條文改版後，以全國法規資料庫的現行版本為準。
 
 ### 10.10 專師該開的 order（範例）
 
@@ -1287,6 +1298,8 @@ Adler, Y., Charron, P., Imazio, M., Badano, L., Barón-Esquivias, G., Bogaert, J
 
 Alembic Pharmaceuticals Inc. (2024). *Paclitaxel injection, for intravenous use* [Prescribing information]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c12c77c-5fd4-48dc-a318-e96892233992
 
+Amgen Inc. (2026). *IMDELLTRA (tarlatamab-dlle) for injection, for intravenous use* [Prescribing information]. https://pi.amgen.com/united_states/Imdelltra/imdelltra_pi.pdf
+
 Anthony, T., Baron, T., Mercadante, S., Green, S., Chi, D., Cunningham, J., Herbst, A., Smart, E., & Krouse, R. S. (2007). Report of the clinical protocol committee: Development of randomized trials for malignant bowel obstruction. *Journal of Pain and Symptom Management, 34*(1 Suppl), S49–S59. https://doi.org/10.1016/j.jpainsymman.2007.04.011（PMID: 17544243）
 
 Apotex Corp. (2024). *Carboplatin injection, for intravenous use* [Prescribing information]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c275825-0275-4c73-b650-e4c1519f13b8
@@ -1337,7 +1350,9 @@ Feller-Kopman, D. J., Reddy, C. B., DeCamp, M. M., Diekemper, R. L., Gould, M. K
 
 Freifeld, A. G., Bow, E. J., Sepkowitz, K. A., Boeckh, M. J., Ito, J. I., Mullen, C. A., Raad, I. I., Rolston, K. V., Young, J. A., & Wingard, J. R. (2011). Clinical practice guideline for the use of antimicrobial agents in neutropenic patients with cancer: 2010 update by the Infectious Diseases Society of America. *Clinical Infectious Diseases, 52*(4), e56–e93. https://doi.org/10.1093/cid/cir073 （PMID: 21258094）
 
-Genentech, Inc. (2025). *Rituxan (rituximab) injection, for intravenous use* [Prescribing information]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b172773b-3905-4a1c-ad95-bab4b6126563
+Genentech, Inc. (2025a). *ACTEMRA (tocilizumab) injection, for intravenous or subcutaneous use* [Prescribing information]. U.S. Food and Drug Administration. https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/125276s147lbl.pdf
+
+Genentech, Inc. (2025b). *Rituxan (rituximab) injection, for intravenous use* [Prescribing information]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b172773b-3905-4a1c-ad95-bab4b6126563
 
 Genentech, Inc. (2026). *Herceptin (trastuzumab) for injection, for intravenous use* [Prescribing information]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2
 
@@ -1358,6 +1373,8 @@ ImClone LLC. (2026). *Erbitux (cetuximab) injection, for intravenous use* [Presc
 Janssen, J. P., Collier, G., Astoul, P., Tassi, G. F., Noppen, M., Rodriguez-Panadero, F., Loddenkemper, R., Herth, F. J., Gasparini, S., Marquette, C. H., Becke, B., Froudarakis, M. E., Driesen, P., Bolliger, C. T., & Tschopp, J. M. (2007). Safety of pleurodesis with talc poudrage in malignant pleural effusion: A prospective cohort study. *Lancet, 369*(9572), 1535–1539. https://doi.org/10.1016/S0140-6736(07)60708-9（PMID: 17482984）
 
 Janssen Biotech, Inc. (2025). *Rybrevant (amivantamab-vmjw) injection, for intravenous use* [Prescribing information]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1466c070-9f97-4fa4-a955-6a6b59981fb8
+
+Janssen Biotech, Inc. (2026). *TECVAYLI (teclistamab-cqyv) injection, for subcutaneous use* [Prescribing information]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=54e0f974-ccee-44ea-9254-40e9883cee1e
 
 Jingelski, M., Cote Robson, P. M., & Wagner, K. (2010). *Caring for your PleurX drainage catheter* [Patient information booklet]. Memorial Sloan Kettering Cancer Center. https://www.mskcc.org/sites/default/files/node/20238/files/B-179v_pleurx.pdf
 
@@ -1442,3 +1459,5 @@ Weiss, R. B., Donehower, R. C., Wiernik, P. H., Ohnuma, T., Gralla, R. J., Trump
 Wilson, L. D., Detterbeck, F. C., & Yahalom, J. (2007). Superior vena cava syndrome with malignant causes. *New England Journal of Medicine, 356*(18), 1862–1869. https://doi.org/10.1056/NEJMcp067190 （PMID: 17476012）
 
 Yu, J. B., Wilson, L. D., & Detterbeck, F. C. (2008). Superior vena cava syndrome: A proposed classification system and algorithm for management. *Journal of Thoracic Oncology, 3*(8), 811–814. https://doi.org/10.1097/JTO.0b013e3181804791 （PMID: 18670297）
+
+衛生福利部. (2024). *藥品嚴重不良反應通報辦法*（民國 113 年 3 月 28 日修正，114 年 1 月 1 日施行）[法規]. 全國法規資料庫. https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=L0030049

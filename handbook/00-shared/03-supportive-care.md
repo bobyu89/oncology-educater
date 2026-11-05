@@ -512,17 +512,33 @@ DOAC 的健保規定在《藥品給付規定》2.1.4「其他抗血栓劑」，�
 英國 BCSH（現 BSH）的急性輸血反應指引也指出，輸血應在能直接觀察病人、且人員受過處理輸血併發症（特別是過敏性休克）訓練的地方進行（Tinegate et al., 2012）。
 
 > [!CAUTION]
-> **待核對：輸血期間生命徵象的測量時間點**
-> 英國 BSH 輸血投與指引（Robinson et al., 2018）的最低要求，依引用該指引的二手摘要是輸血前（約 1 小時內）量體溫、脈搏、血壓、呼吸，開始後 15 分鐘再量體溫、脈搏、血壓；本手冊沒有取得該指引全文，這個時間點未經原文核對。台灣各院的輸血觀察頻率與輸血速度規定不同，請以院內輸血作業規範為準。
+> **待核對：輸血期間生命徵象的測量時間點（BSH 2018 原文）**
+> BSH 輸血投與指引（Robinson et al., 2018）全文需訂閱，本手冊仍未讀到原文。下列時間點取自兩份讀過全文的指引，兩者對「開始後 15 分鐘」一致，對呼吸次數何時量不同：
+>
+> - BCSH 2009 年同名指引（Harris et al., 2009）的最低監測：輸血前量脈搏、血壓、體溫、呼吸，在開始前 60 分鐘內完成並記錄；開始後 15 分鐘量脈搏、血壓、體溫，這三項與基準值相比有明顯變化時才加量呼吸；輸血結束後 60 分鐘內再量脈搏、血壓、體溫。
+> - 澳紐輸血學會 2024 年指引（Australian and New Zealand Society of Blood Transfusion, 2024，與 Australian College of Nursing 共同發布；其參考文獻列有 Robinson 等人的 BSH 指引）：體溫、脈搏、呼吸與血壓四項，在輸血前 60 分鐘內、開始後 15 分鐘、輸血結束時各量一次並記錄。
+>
+> Robinson 等人 2018 年的原文是否與上述相同，仍待核對。台灣各院的輸血觀察頻率與輸血速度規定不同，請以院內輸血作業規範為準。
 
 ### 10.7 輻射血品與其他特殊血品
 
 - **輻射血品**用來預防輸血相關移植物抗宿主病（TA-GVHD），只用於特定高風險族群，不是所有癌症病人都需要；是否需要，請與血庫確認（Foukaneli et al., 2020）。
 - **去白血球血品**：ASCO 2018 建議急性骨髓性白血病誘導治療的病人從診斷起使用，並指出接受化療的其他癌症病人可能也有益（減少抗體介導的血小板輸注無效、輸血反應與 CMV 傳染）（Schiffer et al., 2018）；台灣各院血品規格，依血庫。
 
-> [!CAUTION]
-> **待核對：輻射血品的適應症**
-> BSH 2020 輻射血品指引（Foukaneli et al., 2020）全文無法取得，手冊沒有逐項核對適應症。引用該指引的二手摘要列出需要輻射血品的情況包括接受 purine analogue（如 fludarabine、cladribine、clofarabine、pentostatin）或 bendamustine 治療者，以及 Hodgkin lymphoma，持續時間依來源而異；實體腫瘤標準化療是否需要輻射血品，沒有查到明確的原文。開立輸血醫囑前，請向血庫確認該病人是否屬於需要輻射血品的族群。
+> [!NOTE]
+> **輻射血品的適應症（英國 BSH 2020 指引）**
+> 指引建議：有風險的病人，紅血球、血小板與顆粒球都要輻射；新鮮冷凍血漿、冷凍沉澱品與分離血漿製品不需要（Foukaneli et al., 2020）。與癌症病人相關的適應症如下：
+>
+> - **Hodgkin lymphoma**：任何分期，紅血球與血小板都要輻射，終身。
+> - **Purine analogue**（fludarabine、cladribine、bendamustine、pentostatin）：不論原本的診斷，終身。指引的建議文字沒有列 clofarabine。
+> - **Alemtuzumab 治療的 CLL 或其他血液疾病**，以及用 ATG 或 alemtuzumab 治療的再生不良性貧血：需要輻射；持續多久，指引表示 alemtuzumab 無法訂出、ATG 也不清楚。
+> - **異體造血幹細胞移植**：從 conditioning 開始；移植後超過 6 個月，且淋巴球數、慢性 GvHD、免疫抑制劑等條件都達標才可停；若依移植前處置、原本疾病或先前治療需要，則終身（例如 Hodgkin lymphoma 或 purine analogue 病史）。
+> - **自體幹細胞移植**：從 conditioning 開始到移植後 3 個月（conditioning 用全身照射則 6 個月）；終身的條件同上。採集幹細胞前 7 天到採集期間也要用。
+> - **CAR-T**：採集淋巴球前 7 天到採集期間用，並持續到輸注後 3 個月；終身的條件同上。
+> - **不常規需要**：急性白血病與 non-Hodgkin lymphoma（含 CLL，除非用 alemtuzumab），除非需要 HLA-selected 血小板、顆粒球、一等或二等親捐血，或現在或過去的治療本身有適應症；只用 rituximab 不是適應症。
+> - **實體腫瘤**：指引全文沒有把實體腫瘤或其標準化療列為適應症。
+>
+> 這份指引以英國為前提（自 1999 年起全面使用去白血球血品），指引自述各國指引的建議差異很大；台灣血庫的輻射血品規定，本手冊沒有查到公開原文，以血庫為準。需要輻射血品時，醫囑上要明確註明。
 
 ### 10.8 Order 範例
 
@@ -1200,6 +1216,8 @@ Alembic. (2024). *Paclitaxel injection* [Package insert]. DailyMed. https://dail
 
 Amgen. (2026). *Aranesp (darbepoetin alfa) injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fd36cb9-c4f6-4167-93c9-8530865db3f9（版本日期 2026-07-07）
 
+Australian and New Zealand Society of Blood Transfusion, & Australian College of Nursing. (2024). *Guidelines for the administration of blood products* (3rd ed., rev. Feb 2024). ANZSBT. https://anzsbt.org.au/wp-content/uploads/2025/06/Guidelines-for-the-Administration-of-Blood-Products-revised-Feb-2024.pdf（無 DOI／PMID，未收錄於 PubMed）
+
 Basch, E., Deal, A. M., Dueck, A. C., Scher, H. I., Kris, M. G., Hudis, C., & Schrag, D. (2017). Overall survival results of a trial assessing patient-reported outcomes for symptom monitoring during routine cancer treatment. *JAMA, 318*(2), 197–198. https://doi.org/10.1001/jama.2017.7156（PMID: 28586821）
 
 Bayer. (2026). *Stivarga (regorafenib) tablets* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7（版本日期 2026-02-09）
@@ -1247,6 +1265,8 @@ Goetz, M. P., Sangkuhl, K., Guchelaar, H.-J., Schwab, M., Province, M., Whirl-Ca
 Gyawali, B., Bohlke, K., Dickter, J. K., Kelkar, A. H., Knopf, K. B., Rapoport, B. L., Roof, L., Schott, S., Seshadri, M. R., Shilpakar, R., Smith, T. J., Trapani, D., Woodard, A. B., & Cigler, T. (2026). WBC growth factors: ASCO guideline update. *Journal of Clinical Oncology, 44*(9), 812–824. https://doi.org/10.1200/JCO-25-02938（PMID: 41740078）
 
 Hanai, A., Ishiguro, H., Sozu, T., Tsuda, M., Yano, I., Nakagawa, T., Imai, S., Hamabe, Y., Toi, M., Arai, H., & Tsuboyama, T. (2018). Effects of cryotherapy on objective and subjective symptoms of paclitaxel-induced neuropathy: Prospective self-controlled trial. *Journal of the National Cancer Institute, 110*(2), 141–148. https://doi.org/10.1093/jnci/djx178（PMID: 29924336）
+
+Harris, A. M., Atterbury, C. L. J., Chaffe, B., Elliott, C., Hawkins, T., Hennem, S. J., Howell, C., Jones, J., Murray, S., New, H. V., Norfolk, D., Pirie, L., Russell, J., & Taylor, C. (2009). *Guideline on the administration of blood components*. British Committee for Standards in Haematology. https://b-s-h.org.uk/media/5152/admin_blood_components-BCSH-05012010.pdf（無 DOI／PMID，未收錄於 PubMed）
 
 Hashimoto, H., Abe, M., Tokuyama, O., Mizutani, H., Uchitomi, Y., Yamaguchi, T., Hoshina, Y., Sakata, Y., Takahashi, T. Y., Nakashima, K., Nakao, M., Takei, D., Zenda, S., Mizukami, K., Iwasa, S., Sakurai, M., Yamamoto, N., & Ohe, Y. (2020). Olanzapine 5 mg plus standard antiemetic therapy for the prevention of chemotherapy-induced nausea and vomiting (J-FORCE): A multicentre, randomised, double-blind, placebo-controlled, phase 3 trial. *The Lancet Oncology, 21*(2), 242–249. https://doi.org/10.1016/S1470-2045(19)30678-3（PMID: 31838011）
 

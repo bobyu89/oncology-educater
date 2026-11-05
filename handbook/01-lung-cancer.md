@@ -179,9 +179,12 @@
 | NSCLC | 肥厚性肺性骨關節病（HPOA） | 杵狀指（趾）、關節與長骨疼痛；占 NSCLC 的 1–5%，可早於肺癌的其他症狀出現（Lommatzsch et al., 2012） | 手腳骨 X 光或骨掃描；找肺部原發 |
 | 腺癌（尤其黏液性） | Trousseau 症候群（癌症相關高凝血） | 反覆或遊走性血栓；與黏液素（mucin）活化血小板和選擇素有關（Varki, 2007） | 見[支持性照護](00-shared/03-supportive-care.md#7-癌症相關靜脈血栓vte)第 7 節 VTE |
 
-> [!CAUTION]
-> **待核對：副腫瘤症候群與組織型的對應**
-> 本手冊查到的來源只確認兩點：鱗狀細胞癌的高血鈣和 SCLC 的 SIADH 是肺癌最常見的兩種副腫瘤症候群（Kanaji et al., 2014）；HPOA 的 1–5% 是 NSCLC 全體的數字，來源沒有按腺癌與鱗癌拆開（Lommatzsch et al., 2012）。考試常把杵狀指與 HPOA 配腺癌、把 ACTH 與 LEMS 配 SCLC，但這兩組對應的比例與組織型分佈，本手冊沒有核對到原文。
+> [!IMPORTANT]
+> **副腫瘤症候群與組織型：是「最常見」，不是「專屬」**
+> - **SCLC 與異位 ACTH**：在所有異位 Cushing 症候群病例中，類癌占 36–46%、SCLC 占 8–20%；SCLC 病人中臨床明顯者約 1.6–4.5%（上表引的瑞典 213 位 SCLC 回溯系列只有 0.5% 確診、1% 很可能，數字低於此範圍）；NSCLC 來源少見（Kanaji et al., 2014）。所以「ACTH 配 SCLC」成立，但就整個異位 ACTH 的來源而言，類癌比 SCLC 更常見。
+> - **SCLC 與 LEMS**：LEMS 病人約一半有腫瘤，腫瘤幾乎都是 SCLC，NSCLC 只有少數個案報告（Kanaji et al., 2014）。反過來，SCLC 病人中 LEMS 的發生率在有限的前瞻與回溯研究約 3–6%；但美國申報資料中，推定為 SCLC 的病人只有 0.16% 有 LEMS 診斷，作者認為診斷率遠低於預期（Drapkin et al., 2025）。
+> - **HPOA 與腺癌**：兩個 HPOA 病例系列都是腺癌最多，鱗癌也占兩到四成。日本 2,625 位肺癌病人中 19 位（0.72%）有 HPOA，其中腺癌 53%、鱗癌 21%（Ito et al., 2010；組織型數字引自 Kanaji et al., 2014 對該系列的敘述）；法國 53 位可切除 NSCLC 併 HPOA，腺癌 50%、鱗癌 40%（Magdeleinat et al., 1999）。「HPOA 配腺癌」是最常見的配對，不是腺癌專屬。
+> - **HPOA 的頻率因研究而異**：1–5% 是 NSCLC 的綜述數字（Lommatzsch et al., 2012）；上述日本系列在 2,625 位肺癌病人（做過骨掃描者）中只有 0.72%。
 
 **聚焦的身體評估（入院或回診時 5 分鐘能做完的版本）**
 
@@ -251,9 +254,7 @@ T 分類與第 8 版相同；第 9 版主要改在 **N2 細分為 N2a／N2b**，
 - **粗體是和第 8 版不同的格子**：T1N1 由 IIB 降為 IIA；T1N2a 由 IIIA 降為 IIB；T3N2a 由 IIIB 降為 IIIA；T2N2b 由 IIIA 升為 IIIB（Rami-Porta et al., 2024）。
 - 適用時間：AJCC／IASLC 肺癌第 9 版自 2025 年 1 月 1 日起診斷的病人適用；UICC 第 9 版全書建議 2026 年 1 月 1 日起使用。SCLC 也已驗證適用第 9 版。
 
-> [!CAUTION]
-> **待核對：台灣癌登仍用第 8 版**
-> 2023 年台灣癌症登記報告的肺癌期別仍以 AJCC 第 8 版統計，2025 年起診斷的個案何時改用第 9 版尚未確認。閱讀統計報表與臨床病歷時，先確認寫的是哪一版。
+- **台灣癌症登記的版次：** 依《台灣癌症登記長表摘錄手冊》民國 114 年 12 月修訂版的分期版本對照表，肺癌（V9036）自 **2025 年診斷**的個案起申報 AJCC 第 9 版；2018–2024 年診斷者仍是第 8 版（衛生福利部國民健康署, 2025）。因此本手冊第 1 節引用的 2023 年癌登統計是第 8 版期別；讀 2025 年以後診斷的統計或病歷時，先確認寫的是哪一版。
 
 ### 3.3 SCLC 分期
 
@@ -272,9 +273,9 @@ T 分類與第 8 版相同；第 9 版主要改在 **N2 細分為 N2a／N2b**，
 - 例子：術前 FEV1 為預測值的 80%，預定切除右下葉（5 個肺節）。ppoFEV1 ＝ 80% ×（1 − 5 × 0.0526）＝ 80% × 0.737 ≈ **59%**，落在 30–60% 之間，下一步是低科技運動測試。
 - 這個公式在肺葉切除時與實測值相關良好（r ＝ 0.87），但會低估實際的術後 FEV1（約 250 mL）；全肺切除的預測較不準（Zeiher et al., 1995）。
 
-> [!CAUTION]
-> **待核對：19 個肺節的各肺葉分配**
-> 分母 19 與係數 0.0526 取自 Zeiher 等人的論文摘要。各肺葉的肺節數（常見計法：右上 3、右中 2、右下 5、左上 5、左下 4）屬解剖學慣用算法，ACCP 指引全文未能取得核對，各院的計算表略有不同，請以外科部的計算表為準。
+> [!NOTE]
+> **肺節數的算法各院略有不同，左肺尤其如此**
+> 右肺三葉的肺節數在兩篇論文一致：右上葉 3、右中葉 2、右下葉 5，合計 10 節（Bae et al., 2022；Lim et al., 2024）。左肺在 19 節模型裡共 9 節，但左上葉與左下葉各算幾節沒有統一算法：Bae 等人把左上葉算 4（上區 2、舌區 2）、左下葉算 5；Lim 等人指出左肺 9 節的分配沒有共識（左上區 2 節，或左下葉 4 節、也就是左上葉 5 節，兩種說法），因此改用 20 節模型（每節占 5%，左上葉 5、左下葉 5）。兩種 19 節分法對左側肺葉切除的 S 差 1 節，ppo 值約差術前值的 1/19（約 5%）。本章例子用右下葉（5 節），不受左肺分配差異影響；左側手術請以胸腔外科部的計算表為準。
 
 **風險分層與下一步（ACCP 2013；Brunelli et al., 2013）**
 
@@ -1129,9 +1130,7 @@ P：1. 通知主治醫師；繼續留院觀察，離院時間由主治醫師決�
 | Assist 協助 | 訂戒菸日；開藥物（見下表）；轉介戒菸服務；教病人辨識觸發情境；請家人配合 |
 | Arrange 安排追蹤 | 每次回診再問；復吸不是失敗，重新開始（NCCN 原則③） |
 
-> [!CAUTION]
-> **待核對：5A 流程的出處**
-> 5A（Ask、Advise、Assess、Assist、Arrange）是常用的簡短介入架構；本手冊沒有取得美國公共衛生署《Treating Tobacco Use and Dependence》原文，上表只作為流程提示。NCCN 戒菸指引的三個原則（Shields et al., 2023）是本手冊核對過的出處。
+5A 流程見於美國公共衛生署（PHS）《Treating Tobacco Use and Dependence》2008 年更新版。本手冊讀的是該指引發表在期刊的摘要版（Clinical Practice Guideline Treating Tobacco Use and Dependence 2008 Update Panel et al., 2008），不是指引全文。摘要版把 5A 定義為在基層照護提供簡短介入的五個主要步驟（詢問是否使用菸品、建議戒菸、評估戒菸意願、協助有意願者、安排追蹤以預防復發），設計為直接臨床時間 3 分鐘以內，並註明可依臨床情況調整順序或形式。上表右欄的「病房做法」是本手冊依此架構改寫的提示，沒有逐項對照指引原文。
 
 **戒菸藥物（ATS 2020 指引，針對一般吸菸成人）**
 
@@ -1142,14 +1141,19 @@ P：1. 通知主治醫師；繼續留院觀察，離院時間由主治醫師決�
 
 （Leone et al., 2020）。這份指引不是癌症專屬，劑量、禁忌與肺癌病人的使用要與主治醫師與藥師確認；NCCN 指引也要求所有吸菸的癌症病人使用有實證的藥物治療（Shields et al., 2023）。
 
-**台灣的戒菸服務（衛福部新聞稿，2026-03-07）**
+**台灣的戒菸服務（衛福部新聞稿，2026-03-07；國健署作業須知）**
 
 - 台灣自 2002 年起提供戒菸服務，2012 年推動二代戒菸計畫，**2022 年取消戒菸藥品部分負擔**，**2023 年實施新的戒菸服務制度**，提高補助鼓勵更多人參與；至 2025 年全國有 2,803 間戒菸服務機構與 11,510 名專業人員（衛生福利部, 2026a）。
 - 推動方向包括把「戒菸門診」轉型為「門診戒菸」，讓各專科門診提供戒菸（衛生福利部, 2026a）。
 
+- **補助對象與療程**（國健署《戒菸服務補助計畫作業須知》，112/1/1 生效、113/9/1 修訂；國健署網站現列的 115/3/1 生效版附註「115.3 月修正附錄五」）：戒菸治療限滿 18 歲的健保被保險人，尼古丁成癮度測試分數 ≥4 分（1991 年版 Fagerström 量表）或平均每天吸紙菸 ≥10 支，且有明確戒菸意願（延續療程不受此限）；戒菸衛教不限年齡，同樣要有明確戒菸意願。每年補助 2 個療程（有特定情事並於病歷說明理由時，可提供第三療程），每療程含 8 次診察、8 週用藥、8 次衛教與 3 次追蹤（3 個月、6 個月、1 年），須在同一機構、90 日內完成；超次使用須全額自付（衛生福利部國民健康署, 2026）。
+- **補助藥物**（同作業須知附錄五，115/3/1 生效版）：尼古丁貼片、咀嚼錠、口含錠、口腔吸入劑與噴霧，以及處方藥 varenicline（0.5 mg、1 mg 錠）與 bupropion SR 150 mg；bupropion 與 varenicline 依健保處方規定辦理（衛生福利部國民健康署, 2026）。附錄五的品項與補助單價會隨公告異動（113/4/1 版與 115/3/1 版之間，varenicline 的品牌與補助單價就不同），以國健署網站最新公告為準。第 9 節（115/10/22 版）全文沒有 varenicline 或「戒菸」字樣。
+- **部分負擔**：戒菸輔助用藥的部分負擔自 2022-05-15 起不分對象免收（衛生福利部, 2022）；作業須知的申報說明對補助的服務一律填部分負擔 0 元，並註明因皆不須繳交部分負擔（衛生福利部國民健康署, 2026）。
+- **轉介**：免付費戒菸專線 0800-636363（衛生福利部, 2022）。
+
 > [!CAUTION]
-> **待核對：目前的服務對象、可用藥物與轉介方式**
-> 上述新聞稿沒有寫服務對象、補助的藥物品項與自付金額，國健署網站 www.hpa.gov.tw 又無法自動查詢。第 9 節的藥品給付規定是抗癌藥，也沒有收載戒菸藥物。轉介方式（戒菸服務合約院所、國健署戒菸專線）以院內個管師與國健署最新公告為準；搜尋結果顯示國健署免費戒菸專線為 0800-636363，本手冊未能在原文核對。
+> **待核對：合約院所與是否再修訂**
+> 上列依國健署網站現列的 115/3/1 生效版作業須知與 2022 年新聞稿整理。作業須知註明藥品品項與補助額度以國健署網站最新公告為準，且補助由菸品健康福利捐支付、國健署得視預算暫停或減支。本手冊未核對 115/3/1 之後是否又有修訂、附錄五補助額度以外病人是否另有自付項目，也未再核對 0800-636363 現在是否仍是專線號碼（只讀到 2022 年新聞稿）。病人附近的戒菸服務合約院所，以院內個管師與國健署最新公告為準。
 
 > [!IMPORTANT]
 > **考試重點：診斷後戒菸**
@@ -1767,6 +1771,8 @@ AstraZeneca Pharmaceuticals LP. (2023). *IRESSA (gefitinib) tablets: Prescribing
 
 AstraZeneca Pharmaceuticals LP. (2026). *TAGRISSO (osimertinib) tablets: Prescribing information* (effective 2026-09-14). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5e81b4a7-b971-45e1-9c31-29cea8c87ce7
 
+Bae, S. Y., Lee, H., Na, K. J., Na, B., Park, S., Park, I. K., Kang, C. H., & Kim, Y. T. (2022). Computed tomography volumetric analysis for predicting postoperative lung function for segmentectomy. *Interactive CardioVascular and Thoracic Surgery, 35*(2), Article ivac195. https://doi.org/10.1093/icvts/ivac195（PMID: 35876799）
+
 Baize, N., Monnet, I., Greillier, L., Geier, M., Lena, H., Janicot, H., Vergnenegre, A., Crequit, J., Lamy, R., Auliac, J.-B., Letreut, J., Le Caer, H., Gervais, R., Dansin, E., Madroszyk, A., Renault, P.-A., Le Garff, G., Falchero, L., Berard, H., . . . Chouaid, C. (2020). Carboplatin plus etoposide versus topotecan as second-line treatment for patients with sensitive relapsed small-cell lung cancer: An open-label, multicentre, randomised, phase 3 trial. *The Lancet Oncology, 21*(9), 1224–1233. https://doi.org/10.1016/S1470-2045(20)30461-7（PMID: 32888454）
 
 Barlesi, F., Yao, W., Duruisseaux, M., Doucet, L., Martínez, A. A., Gregorc, V., Juan-Vidal, O., Lu, S., De Bondt, C., de Marinis, F., Linardou, H., Kim, Y.-C., Jotte, R., Felip, E., Lo Russo, G., Reck, M., Michenzie, M. F., Yang, W., Meade, J. N., . . . Mok, T. S. K. (2025). Adagrasib versus docetaxel in KRASG12C-mutated non-small-cell lung cancer (KRYSTAL-12): A randomised, open-label, phase 3 trial. *The Lancet, 406*(10503), 615–626. https://doi.org/10.1016/S0140-6736(25)00866-9（PMID: 40783289）
@@ -1803,6 +1809,8 @@ Cho, B. C., Li, W., Spira, A. I., Sauder, M., Feldman, J., Bozorgmehr, F., Mak, 
 
 Cho, B. C., Lu, S., Felip, E., Spira, A. I., Girard, N., Lee, J.-S., Lee, S.-H., Ostapenko, Y., Danchaivijitr, P., Liu, B., Alip, A., Korbenfeld, E., Mourão Dias, J., Besse, B., Lee, K.-H., Xiong, H., How, S.-H., Cheng, Y., Chang, G.-C., . . . Hayashi, H. (2024). Amivantamab plus lazertinib in previously untreated EGFR-mutated advanced NSCLC. *New England Journal of Medicine, 391*(16), 1486–1498. https://doi.org/10.1056/NEJMoa2403614（PMID: 38924756）
 
+Clinical Practice Guideline Treating Tobacco Use and Dependence 2008 Update Panel, Liaisons, and Staff. (2008). A clinical practice guideline for treating tobacco use and dependence: 2008 update. A U.S. Public Health Service report. *American Journal of Preventive Medicine, 35*(2), 158–176. https://doi.org/10.1016/j.amepre.2008.04.009（PMID: 18617085）
+
 Davidson, K., & Shojaee, S. (2020). Managing massive hemoptysis. *Chest, 157*(1), 77–88. https://doi.org/10.1016/j.chest.2019.07.012（PMID: 31374211）
 
 Davies, H. E., Mishra, E. K., Kahan, B. C., Wrightson, J. M., Stanton, A. E., Guhan, A., Davies, C. W. H., Grayez, J., Harrison, R., Prasad, A., Crosthwaite, N., Lee, Y. C. G., Davies, R. J. O., Miller, R. F., & Rahman, N. M. (2012). Effect of an indwelling pleural catheter vs chest tube and talc pleurodesis for relieving dyspnea in patients with malignant pleural effusion: The TIME2 randomized controlled trial. *JAMA, 307*(22), 2383–2389. https://doi.org/10.1001/jama.2012.5535（PMID: 22610520）
@@ -1810,6 +1818,8 @@ Davies, H. E., Mishra, E. K., Kahan, B. C., Wrightson, J. M., Stanton, A. E., Gu
 de Koning, H. J., van der Aalst, C. M., de Jong, P. A., Scholten, E. T., Nackaerts, K., Heuvelmans, M. A., Lammers, J.-W. J., Weenink, C., Yousaf-Khan, U., Horeweg, N., van 't Westeinde, S., Prokop, M., Mali, W. P., Mohamed Hoesein, F. A. A., van Ooijen, P. M. A., Aerts, J. G. J. V., den Bakker, M. A., Thunnissen, E., Verschakelen, J., . . . Oudkerk, M. (2020). Reduced lung-cancer mortality with volume CT screening in a randomized trial. *New England Journal of Medicine, 382*(6), 503–513. https://doi.org/10.1056/NEJMoa1911793（PMID: 31995683）
 
 de Langen, A. J., Johnson, M. L., Mazieres, J., Dingemans, A.-M. C., Mountzios, G., Pless, M., Wolf, J., Schuler, M., Lena, H., Skoulidis, F., Yoneshima, Y., Kim, S.-W., Linardou, H., Novello, S., van der Wekken, A. J., Chen, Y., Peters, S., Felip, E., Solomon, B. J., . . . Paz-Ares, L. (2023). Sotorasib versus docetaxel for previously treated non-small-cell lung cancer with KRASG12C mutation: A randomised, open-label, phase 3 trial. *The Lancet, 401*(10378), 733–746. https://doi.org/10.1016/S0140-6736(23)00221-0（PMID: 36764316）
+
+Drapkin, B. J., Morrell, D. J., Grebla, R., Shechter, G., & Gerber, D. E. (2025). Marked under-diagnosis of Lambert-Eaton myasthenic syndrome in small cell lung cancer: An analysis of real-world claims data. *Frontiers in Oncology, 15*, Article 1650373. https://doi.org/10.3389/fonc.2025.1650373（PMID: 41179675）
 
 Drilon, A., Camidge, D. R., Lin, J. J., Kim, S.-W., Solomon, B. J., Dziadziuszko, R., Besse, B., Goto, K., de Langen, A. J., Wolf, J., Lee, K. H., Popat, S., Springfeld, C., Nagasaka, M., Felip, E., Yang, N., Velcheti, V., Lu, S., Kao, S., . . . Cho, B. C. (2024). Repotrectinib in ROS1 fusion-positive non-small-cell lung cancer. *New England Journal of Medicine, 390*(2), 118–131. https://doi.org/10.1056/NEJMoa2302299（PMID: 38197815）
 
@@ -1871,6 +1881,8 @@ Hui, D., Bohlke, K., Bao, T., Campbell, T. C., Coyne, P. J., Currow, D. C., Gupt
 
 Hui, D., Maddocks, M., Johnson, M. J., Ekström, M., Simon, S. T., Ogliari, A. C., Booth, S., & Ripamonti, C. (2020). Management of breathlessness in patients with cancer: ESMO clinical practice guidelines. *ESMO Open, 5*(6), Article e001038. https://doi.org/10.1136/esmoopen-2020-001038（PMID: 33303485）
 
+Ito, T., Goto, K., Yoh, K., Niho, S., Ohmatsu, H., Kubota, K., Nagai, K., Miyazaki, E., Kumamoto, T., & Nishiwaki, Y. (2010). Hypertrophic pulmonary osteoarthropathy as a paraneoplastic manifestation of lung cancer. *Journal of Thoracic Oncology, 5*(7), 976–980. https://doi.org/10.1097/JTO.0b013e3181dc1f3c（PMID: 20453688）
+
 Ittrich, H., Bockhorn, M., Klose, H., & Simon, M. (2017). The diagnosis and treatment of hemoptysis. *Deutsches Ärzteblatt International, 114*(21), 371–381. https://doi.org/10.3238/arztebl.2017.0371（PMID: 28625277）
 
 Jänne, P. A., Planchard, D., Kobayashi, K., Yang, J. C.-H., Liu, Y., Valdiviezo, N., Kim, T. M., Jiang, L., Kagamu, H., Yanagitani, N., Wang, J., Biswas, B., Poltoratskiy, A., Neron, Y., Rojas, C., Koubkova, L., Escriu, C., Ezeife, D. A., Mann, H., . . . Lee, C. K. (2026). Survival with osimertinib plus chemotherapy in EGFR-mutated advanced NSCLC. *New England Journal of Medicine, 394*(1), 27–38. https://doi.org/10.1056/NEJMoa2510308（PMID: 41104938）
@@ -1887,9 +1899,13 @@ Lee, D. W., Santomasso, B. D., Locke, F. L., Ghobadi, A., Turtle, C. J., Brudno,
 
 Leone, F. T., Zhang, Y., Evers-Casey, S., Evins, A. E., Eakin, M. N., Fathi, J., Fennig, K., Folan, P., Galiatsatos, P., Gogineni, H., Kantrow, S., Kathuria, H., Lamphere, T., Neptune, E., Pacheco, M. C., Pakhale, S., Prezant, D., Sachs, D. P. L., Toll, B., . . . Farber, H. J. (2020). Initiating pharmacologic treatment in tobacco-dependent adults: An official American Thoracic Society clinical practice guideline. *American Journal of Respiratory and Critical Care Medicine, 202*(2), e5–e31. https://doi.org/10.1164/rccm.202005-1982ST（PMID: 32663106）
 
+Lim, E., Seif, K., Goetz, T., Marsicola, O., Law, J. J., De Sousa, P., Aw, T. C., & Lim, E. (2024). Agreement between observed and predicted postoperative forced expiratory volume in one second, forced vital capacity, and diffusing capacity for carbon monoxide after anatomic lung resection. *Journal of Thoracic Disease, 16*(1), 247–252. https://doi.org/10.21037/jtd-23-1390（PMID: 38410582）
+
 Lommatzsch, M., Julius, P., Lück, W., Bier, A., & Virchow, J. C. (2012). [Hypertrophic pulmonary osteoarthropathy as a cue for NSCLC: Four cases in the light of the current literature]. *Pneumologie, 66*(2), 67–73. https://doi.org/10.1055/s-0031-1291476（PMID: 22249782）
 
 Lu, S., Kato, T., Dong, X., Ahn, M.-J., Quang, L.-V., Soparattanapaisarn, N., Inoue, T., Wang, C.-L., Huang, M., Yang, J. C.-H., Cobo, M., Özgüroğlu, M., Casarini, I., Khiem, D.-V., Sriuranpong, V., Cronemberger, E., Takahashi, T., Runglodvatana, Y., Chen, M., . . . Ramalingam, S. S. (2024). Osimertinib after chemoradiotherapy in stage III EGFR-mutated NSCLC. *New England Journal of Medicine, 391*(7), 585–597. https://doi.org/10.1056/NEJMoa2402614（PMID: 38828946）
+
+Magdeleinat, P., Icard, P., Regnard, J.-F., Nicolosi, M., Oulid-Aissa, D., Sarnacki, S., & Levasseur, P. (1999). [A retrospective study of 53 cases of resectable primary bronchopulmonary cancers associated with Pierre Marie syndrome]. *Revue de Pneumologie Clinique, 55*(2), 94–99.（PMID: 10418053；PubMed 無 DOI）
 
 Mok, T., Camidge, D. R., Gadgeel, S. M., Rosell, R., Dziadziuszko, R., Kim, D.-W., Pérol, M., Ou, S.-H. I., Ahn, J. S., Shaw, A. T., Bordogna, W., Smoljanović, V., Hilton, M., Ruf, T., Noé, J., & Peters, S. (2020). Updated overall survival and final progression-free survival data for patients with treatment-naive advanced ALK-positive non-small-cell lung cancer in the ALEX study. *Annals of Oncology, 31*(8), 1056–1064. https://doi.org/10.1016/j.annonc.2020.04.478（PMID: 32418886）
 
@@ -2033,6 +2049,8 @@ Zhou, Q., Xu, C.-R., Cheng, Y., Liu, Y.-P., Chen, G.-Y., Cui, J.-W., Yang, N., S
 
 癌症登記中心. (2025). *民國112年長表申報17種癌症期別與治療方式統計*. https://twcr.tw/wp-content/uploads/2025/12/CA17_LF112.pdf
 
+衛生福利部. (2022, May 11). *111年5月15日起免收戒菸藥品部分負擔費用 戒菸省錢又輕鬆* [新聞稿]. https://www.mohw.gov.tw/cp-5268-69501-1.html
+
 衛生福利部. (2023, January 5). *第五癌肺癌篩檢 半年救一百多個家庭* [新聞稿]. https://mohw.gov.tw/cp-2704-73083-1.html
 
 衛生福利部. (2025a, December 30). *公布112年國人癌症登記資料分析結果 守護健康未來 從癌症篩檢開始* [新聞稿]. https://mohw.gov.tw/cp-2704-84987-1.html
@@ -2044,3 +2062,7 @@ Zhou, Q., Xu, C.-R., Cheng, Y., Liu, Y.-P., Chen, G.-Y., Cui, J.-W., Yang, N., S
 衛生福利部. (2026a, March 7). *預防勝治療　推動戒菸強化心血管防治力* [新聞稿]. https://mohw.gov.tw/cp-16-85729-1.html
 
 衛生福利部. (2026b, June 22). *國人死亡人數連續3年下降 十大死因中6項死因人數、死亡率都減少* [新聞稿]. https://mohw.gov.tw/cp-16-86970-1.html
+
+衛生福利部國民健康署. (2025). *台灣癌症登記長表摘錄手冊：民國 114 年（Long Form Revision 2025v.1）*. 台灣癌症登記中心. https://twcr.tw/wp-content/uploads/2025/12/Longform-Manual_Official-version_20251203_W.pdf
+
+衛生福利部國民健康署. (2026, March 1). *「戒菸服務補助計畫」作業須知*（112 年 1 月 1 日生效，113 年 9 月 1 日修訂；115 年 3 月 1 日生效並修正附錄五）[作業須知]. https://www.hpa.gov.tw/Pages/ashx/GetFile.ashx?lang=c&type=2&sid=432b4a45777146169728b89b0119fd46

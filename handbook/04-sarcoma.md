@@ -147,8 +147,13 @@
 - 該論文記載的台灣給付起始年：imatinib 2002 年、sunitinib 2010 年、regorafenib 2016 年。
 
 > [!CAUTION]
-> **待核對：台灣 GIST 全國每年新診斷人數**
-> 衛福部新聞稿與 TCR 年度資料表都沒有公布 2023 年全國（所有醫院）的 GIST 人數，上表只是長表醫院的胃 GIST。較早的估計有兩個：單一醫療中心外推的 13.74／百萬人年（約每年 300 例；Tzen et al., 2007），以及依組織型的全國 ASIR 1.55／10 萬（Hung et al., 2019）。兩者數量級相近，但年份不同，不能互相換算成「現在每年幾例」。
+> **待核對：台灣 GIST 全國每年新診斷人數（2023 年全國數字仍未取得）**
+> 衛福部新聞稿與 TCR 年度資料表都沒有公布 2023 年全國（所有醫院）的 GIST 人數，上表只是長表醫院的胃 GIST。可引用的較早估計有兩個，年份與算法不同，不能互相換算成「現在每年幾例」：
+>
+> - **單一醫療中心外推**：馬偕醫院依 1998–2000 年資料，推估全國約 303.6 例／年、13.74／百萬人（該院治療全國消化道癌症病人的 4.72%，GIST 平均 14.33 例／年；Tzen et al., 2007）。
+> - **TCR 依組織型的全國資料**：2007–2013 年全部位 STS 共 11,393 例，GIST 占 29.2%，ASIR 1.55／10 萬人年（年齡標準化率，約等於 15.5／百萬人年；Hung et al., 2019）。依這兩個數字自行推算（論文沒有直接報告）：約 3,330 例，7 年平均約 475 例／年。
+>
+> 兩者的資料年份都較早（1998–2000 年與 2007–2013 年）；要知道目前的全國年新診斷人數，需要 TCR 依組織型的最新統計。
 
 ### 1.5 死亡與存活
 
@@ -277,8 +282,9 @@
 > 術前化療後的手術檢體要評估壞死率：**活的腫瘤 <10%（壞死 ≥90%）= good response**，EURAMOS-1 約一半的病人達到（Whelan et al., 2015）；Rosen 在 1982 年就以「>90% 壞死」作為術後化療選擇的依據（Rosen et al., 1982）。反應好壞預測預後：COSS 1,702 位病人 10 年 OS 73.4% 對 47.2%（Bielack et al., 2002）；EURAMOS-1 手術後 poor response 的 EFS HR 2.13（1.76–2.58）（Smeland et al., 2019）。**但 poor responder 加強術後化療（MAPIE）並沒有改善結果**（見第 4 段）。
 
 > [!CAUTION]
-> **待核對：Huvos 分級的定義取自二手文獻**
-> 病理報告常用 Huvos 分級描述化療反應。本手冊目前只取得轉述 Huvos 1977 的二手文獻（Bispo Júnior & Camargo, 2011），沒有開啟原始論文，說法如下，使用前請對照病理科的報告格式：Grade I 無化療效果；Grade II 部分反應、壞死 >50%；Grade III 壞死 >90% 但仍有存活腫瘤；Grade IV 沒有存活的腫瘤。「good responder」（壞死 >90%）採用 Rosen 準則。
+> **待核對：Huvos 分級各級的百分比界線仍取自二手文獻**
+> 已核對：Huvos 分級共四級；Grade III–IV 為 good response、Grade I–II 為 poor response（Juergens et al., 1981，作者含 Huvos 與 Rosen，摘要只寫 grade III or IV／grade I or II，沒有冠上 Huvos 之名；Bispo Júnior & Camargo, 2011 的討論段也把壞死 >90% 的 Huvos III–IV 歸為好反應組）；good responder 的壞死 >90% 採 Rosen 準則（Rosen et al., 1982）。
+> 未核對：Huvos 等人 1977 年論文的摘要只寫「variable degrees of tumor destruction」，沒有定義各級（Huvos et al., 1977），本手冊沒有開啟全文。各級界線目前只有二手文獻（Bispo Júnior & Camargo, 2011）轉述：Grade I 無化療效果（該文討論段寫壞死 <50%）、Grade II 部分反應（引言寫壞死 >50%，討論段寫 50–90%，兩處寫法不同）、Grade III 壞死 >90% 但仍有存活腫瘤、Grade IV 沒有存活的腫瘤。實務上看 good／poor 的 90% 切點即可；要引用 Grade I 與 II 的界線，或對照病理報告格式時，請以病理科為準。
 
 ### 2.5 GIST 的分子分型
 
@@ -418,7 +424,7 @@ AJCC 第 8 版適用於 2018 年 1 月 1 日起診斷的病人；骨腫瘤依部
 | IVB | 任何 T | **N1** | 任何 M | 任何 G |
 | IVB | 任何 T | 任何 N | **M1b** | 任何 G |
 
-**(b) 脊椎**：五個椎體節段（右椎弓根、右椎體、左椎體、左椎弓根、後方構造）。T1 = 1 個節段或 2 個相鄰節段；T2 = 3 個相鄰節段；T3 = 4 個相鄰節段；T4a = 侵犯椎管；T4b = 侵犯鄰近血管或鄰近血管內有腫瘤栓子。
+**(b) 脊椎**：五個椎體節段（右椎弓根、右椎體、左椎體、左椎弓根、後方構造）。T1 = 1 個節段或 2 個相鄰節段；T2 = 3 個相鄰節段；T3 = 4 個以上相鄰節段，或任何不相鄰節段（Rose et al., 2019；UICC 登記表單與 ICCR 報告指引寫「4 個相鄰節段」）；T4a = 侵犯椎管；T4b = 侵犯鄰近血管或鄰近血管內有腫瘤栓子。
 
 **(c) 骨盆**：四個節段（薦骨外側至薦孔、髂骨翼、髖臼與髖臼周圍、恥骨枝／恥骨聯合／坐骨）。T1–T3 再依大小分 **a = ≤8 cm、b = >8 cm**（T4 的 a／b 不是依大小，而是依侵犯範圍，見下）。T1 = 1 個節段、沒有骨外侵犯；T2 = 1 個節段並骨外侵犯，或 2 個相鄰節段、沒有骨外侵犯；T3 = 2 個節段並骨外侵犯；T4a = 3 個相鄰節段，或跨越薦髂關節到薦神經孔；T4b = 包覆髂外血管，或骨盆大血管內有肉眼可見的腫瘤栓子。
 
@@ -538,8 +544,10 @@ TNM 不適用於兒童或症候群型 GIST（ACS）。實務上**決定要不要
 | 台灣骨肉瘤（TCR 2013–2022 年） | III–IV 期 HR 1.94、低惡性度 HR 0.31、保肢手術 HR 0.38、年齡越大越差 | Chu et al., 2026 |
 
 > [!CAUTION]
-> **待核對：本段仍有四處沒有核對到原始文獻**
-> （1）**脊椎 T3 的定義**：UICC 與 ICCR 寫「4 個相鄰節段」，ENCR／UICC 教學投影片（Van Eycken, 2019）寫「>4 個相鄰，或任何不相鄰節段」，兩者不同，本手冊採前者，請對照 AJCC 手冊。（2）**modified NIH 表中「≤2 cm、有絲分裂 6–10」那一格**（中／高）：本手冊取自 2025 年亞洲共識的轉載表，沒有開啟 Joensuu 2008 原始表格。（3）**骨肉瘤是否應做整段骨 MRI**：本手冊依 AJCC T3（skip lesion）與 NCI PDQ 的 skip lesion 討論推論，沒有開啟 ESMO 與 NCCN 專業版全文確認明文建議。（4）**切片針道要切除**：理由與 NCI PDQ、MSTS 與針道種植資料一致，但 ESMO 指引的原文措辭沒有開啟。
+> **待核對：本段仍有兩處沒有核對到原始文獻**
+> （1）**modified NIH 表中「≤2 cm、有絲分裂 6–10」那一格**（中／高）：本手冊取自 2025 年亞洲共識的轉載表，沒有開啟 Joensuu 2008 原始表格。Joensuu 2008 的摘要只明列兩種「非胃部位升為高風險」的情形（2.1–5 cm 且 >5 個有絲分裂；5.1–10 cm 且 ≤5 個）與腫瘤破裂，沒有提到 ≤2 cm 那一格，所以該格「其他部位＝高」請對照原文。
+> （2）**骨肉瘤是否應做整段骨 MRI**：ESMO 2018 版指引（Casali et al., 2018；讀到的是作者預印本）寫局部分期用「MRI of the whole compartment with adjacent joints」，且 whole-body MRI 與 PET/CT 越來越常用於分期（含 skip bone lesions）；但沒有明文寫「骨肉瘤要看整段骨找 skip lesion」。2021 版（Strauss et al., 2021）與 NCCN 專業版全文沒有開啟，本手冊的建議仍是依 AJCC T3（skip lesion）與 NCI PDQ 推論。
+> 已核對：脊椎 T3 依 AJCC 第 8 版是「4 個以上相鄰節段，或任何不相鄰節段」（Rose et al., 2019；3.5(b) 已採此寫法，UICC 與 ICCR 的「4 個相鄰節段」較窄）。切片針道要在確定手術時隨檢體一併切除，ESMO 2018 版骨腫瘤指引有明文（針對骨的侵襲性與惡性腫瘤；Casali et al., 2018，同為作者預印本）；2021 版的措辭沒有開啟。
 
 ---
 
@@ -1045,12 +1053,13 @@ Ewing sarcoma 的第一線是 interval-compressed VDC/IE（每 14 天一個週�
 | IE | ifosfamide 1,800 mg/m²/日 D1–5 ＋ mesna；etoposide 100 mg/m²/日 D1–5 | ifosfamide 9 g/m²、etoposide 500 mg/m² | ifosfamide 的 mesna 與水化見 6.2 |
 
 - **G-CSF**：Huang 等人的亞洲系列用 filgrastim 5–10 µg/kg/日（Huang et al., 2023）。兒童研究中 pegfilgrastim 100 µg/kg 每週期一次，約相當於 filgrastim 5 µg/kg/日（Spunt et al., 2010）。成人 pegfilgrastim 6 mg 每週期一次的用法與時機見[支持性照護](00-shared/03-supportive-care.md#22-怎麼用)第 2.2 節。單位是 **µg/kg**：Womer 等人的摘要印成 mg/kg 是單位排版錯誤（該文 2015 年勘誤〔J Clin Oncol 33(7):814〕更正的是 Figure 1 圖說裡的 vincristine 劑量，不是 filgrastim 的單位）。
-- **累積劑量**：VDC 與 IE 交替，14 個週期約各 7 次（依「交替」推算，未對照 protocol 核對），VDC 全含 doxorubicin 會達 525 mg/m²，所以才有「達 375 後改 VC」的規則。每次的 doxorubicin 累積量要記在病歷上，之後若再用 anthracycline（如復發後的 doxorubicin 方案），累積劑量要接著算（見 6.3）。
+- **累積劑量**：VDC（或 VC）與 IE 交替，14 個週期各 7 次；Womer 等人的 Table A1 排程在手術組是第 1、3、5、7、9 週期 VDC（5 次，共 375 mg/m²）、第 11 與 13 週期改為 VC、偶數週期為 IE（放療組的週期位置因放療而調整，未逐欄核對）。7 次 VDC 全含 doxorubicin 會達 525 mg/m²，所以才有「達 375 後改 VC」的規則。每次的 doxorubicin 累積量要記在病歷上，之後若再用 anthracycline（如復發後的 doxorubicin 方案），累積劑量要接著算（見 6.3）。
 - **性腺毒性**：依上述推算，IE 的 ifosfamide 累積約 63 g/m²，超過男性生育力下降的 60 g/m²（Williams et al., 2008）；用藥前的生育力諮詢見 6.10。
 
 > [!CAUTION]
-> **待核對：VDC/IE 的每日劑量與例外**
-> AEWS0031 全文的每日劑量表，本手冊是由二手摘要取得，未逐字核對。同一篇論文的 Figure 1 圖說曾把 vincristine 印成 1.5 mg/m²，2015 年勘誤已更正為 2 mg/m²（上限 2 mg）；「達 375 mg/m² 後改 VC」的細節、cyclophosphamide 是否加 mesna，以及 VIDE（EURO EWING 2012 對照組）的每日劑量，本手冊都沒有核對。開單一律以醫院核准的 protocol 為準，不要拿本表直接開。
+> **待核對：mesna 劑量與 VIDE 每日劑量**
+> 已核對：上表的每日劑量與 Womer 等人的 PMC 全文（Table A1；Womer et al., 2012）一致，VDC 的 cyclophosphamide 與 IE 的 ifosfamide 都併用 mesna。Table A1 附註寫 doxorubicin 累積量在所有方案是 375 mg/m²；其排程表中，手術組是第 1、3、5、7、9 週期 VDC（5 次 × 75 mg/m² = 375 mg/m²）、第 11 與 13 週期改為 VC（vincristine 加 cyclophosphamide，不含 doxorubicin）、偶數週期為 IE（放療組的週期位置因放療而調整，本手冊沒有逐欄核對）。同篇 Figure 1 圖說仍印 vincristine 1.5 mg/m²（上限 2 mg），與 Table A1 的 2 mg/m² 不同；2015 年勘誤（J Clin Oncol 33(7):814）更正為 2 mg/m²。
+> 未核對：（1）Womer 等人只寫「with mesna」，沒有 mesna 劑量；（2）VIDE（EURO EWING 2012 對照組）的每日劑量。開單一律以醫院核准的 protocol 為準，不要拿本表直接開。
 
 **高劑量 ifosfamide（HDI）的三種文獻版本**（連續輸注，以體外泵浦給藥）
 
@@ -1063,7 +1072,7 @@ Ewing sarcoma 的第一線是 interval-compressed VDC/IE（每 14 天一個週�
 
 > [!CAUTION]
 > **待核對：連續輸注或高劑量 ifosfamide 的 mesna 時程**
-> 美國仿單只給 ifosfamide 1.2 g/m²/日的 mesna 時程，並說 IV ＋ 口服的組合在 ifosfamide > 2 g/m²/日時未建立（Bamboo, 2025）；ASCO 1999 認為 ifosfamide > 2.5 g/m²/日的 mesna 證據不足（Hensley et al., 1999）。EORTC 62012 的 mesna 劑量、泵浦式 HDI 的 mesna 給法，本手冊沒有取得可核對的原文。這類病人的 mesna 一律依醫院核准的 protocol 與藥劑部配製單，專師不要自行推算。
+> 美國仿單沒有適用於這類病人的時程：它只給 ifosfamide 1.2 g/m²/日的 mesna 時程，並說 IV ＋ 口服的組合在 ifosfamide > 2 g/m²/日時未建立（Bamboo, 2025）；ASCO 1999 認為 ifosfamide > 2.5 g/m²/日的 mesna 證據不足（Hensley et al., 1999）。已核對的三篇高劑量文獻，做法都是 mesna 與 ifosfamide 等量：EURAMOS-1 的 ifosfamide 14 g/m²（2.8 g/m²/日）搭配 equidose mesna（Marina et al., 2016）；Meazza 的 14 天泵浦為 mesna 14 g/m² 對 ifosfamide 14 g/m²（Meazza et al., 2010）；Royal Marsden 的 14 天泵浦（35 位病人的回溯研究）mesna 總量等於 ifosfamide，放入泵浦或部分改口服（口服：靜脈 ＝ 2：1），尿中有血時另加 mesna 1,000 mg/m²（Martin-Liberal et al., 2013）。EORTC 62012 的 mesna 見 7.3：論文摘要未載，二手來源 eviQ 引述為與 ifosfamide 同時給的 1,500 mg/m²/日（eviQ, 2023）。ISG-STS 1001 的 14 天 HDI 的 mesna 給法，以及各版本的分次時間，本手冊沒有取得可核對的原文。這類病人的 mesna 一律依醫院核准的 protocol 與藥劑部配製單，專師不要自行推算。
 
 復發或難治的骨肉瘤、Ewing sarcoma 處方（ifosfamide ＋ etoposide、topotecan ＋ cyclophosphamide、irinotecan ＋ temozolomide、gemcitabine ＋ docetaxel、regorafenib、cabozantinib）的劑量與證據已列在 4.1、4.2 的表，此處不重複。**台灣狀態**：ifosfamide（Holoxan）藥證的適應症列有骨肉瘤與軟組織肉瘤；mesna（Uromitexan）有藥證，健保 11.2.3 限癌症或骨髓移植病例使用大量 Endoxan、ifosphamide 類藥物時使用（原文未標修訂日期）；第 9 節原文未見 ifosfamide、etoposide 的專條。
 
@@ -1088,7 +1097,7 @@ Ewing sarcoma 的第一線是 interval-compressed VDC/IE（每 14 天一個週�
 
 > [!CAUTION]
 > **待核對：「AIM」與其他 anthracycline ＋ ifosfamide 版本**
-> 「AIM」（doxorubicin ＋ ifosfamide ＋ mesna）是臨床俗稱，各院方案的劑量與分日不同。本手冊只列有出處的 EORTC 62012 版本；其他版本的每日劑量、mesna 劑量與 G-CSF 時機，本手冊沒有取得可核對的原文，以醫院核准的 protocol 為準。
+> 「AIM」（doxorubicin ＋ ifosfamide ＋ mesna）是臨床俗稱，不同來源的 doxorubicin ＋ ifosfamide 方案，劑量與分日確實不同：EORTC 62012 是 doxorubicin 25 mg/m²/日 D1–3 ＋ ifosfamide 10 g/m²（分 4 天）（Judson et al., 2014）；較早的 EORTC 三組隨機試驗的 doxorubicin ＋ ifosfamide 組（arm C）是 ifosfamide 5 g/m² ＋ doxorubicin 50 mg/m²（Santoro et al., 1995）；加拿大 BC Cancer 的 SAAI 方案是 doxorubicin 60 mg/m² ＋ ifosfamide 5,000 mg/m² 連續 24 小時，每 21 天（BC Cancer, 2021）。這兩個非 EORTC 62012 的版本只用來說明「同類方案不同劑量」，**不是處方依據**，本手冊仍只列有出處的 EORTC 62012 版本。其他版本的每日劑量、mesna 劑量與 G-CSF 時機，本手冊沒有取得可核對的原文，以醫院核准的 protocol 為準。
 
 其他組織型與良性／局部侵犯腫瘤的藥物劑量（ASPS 的 atezolizumab 1,200 mg 每 3 週、desmoid 的 sorafenib 與 nirogacestat、TGCT 的 vimseltinib 與 pexidartinib、GCTB 的 denosumab）已列在 4.3 至 4.4.5，此處不重複。
 
@@ -1190,9 +1199,9 @@ HD-MTX 的核心風險是**急性腎損傷（AKI）**。MTX 與代謝物（7-OH-
 - Leucovorin 通常在 MTX 開始後 24–42 小時開始，**不可晚於 42–48 小時**，晚於 48 小時嚴重毒性明顯增加；MTX 很高時（尤其 > 10 µM 超過 48 小時）leucovorin 因與 MTX 競爭葉酸載體而效果變差。「過度解救」也與骨肉瘤的治療失敗有關，不要憑感覺加量（Ramsey et al., 2018）。
 - 上一療程有明顯毒性但濃度只是輕度異常時，下一療程可延長到 14 次（84 小時）。IV push 速度不超過 160 mg/min（含鈣）；超過 200–500 mg 的劑量要輸注 1–2 小時；不可鞘內注射（Sagent, 2026；Ramsey et al., 2018）。
 
-> [!CAUTION]
-> **待核對：leucovorin 有不只一套算法，不要混用**
-> 美國 leucovorin 仿單內有兩套解救流程：HD-MTX 表（停在 MTX < 0.05 µM，延遲時 150 mg 每 3 小時）與「清除受損／過量」段落（10 mg/m² 每 6 小時直到 < 0.01 µM；肌酸酐上升 50%、24 小時 MTX > 5 µM 或 48 小時 > 0.9 µM 時改 100 mg/m² 每 3 小時）（Sagent, 2026）。EURAMOS-1 則是 15 mg/m² 從 24–48 小時開始、直到 MTX < 0.1 µM（Marina et al., 2016）。表中的數字取自 HD-MTX 表；實際以醫院核准的 protocol 為準，同一位病人不要在兩套算法間切換。
+> [!WARNING]
+> **Leucovorin 有不只一套算法，同一位病人不要在兩套之間切換**
+> 美國 leucovorin 仿單內有兩套解救流程：HD-MTX 表（停在 MTX < 0.05 µM，延遲時 150 mg 每 3 小時）與「清除受損／過量」段落（10 mg/m² 每 6 小時直到 < 0.01 µM；肌酸酐上升 50%、24 小時 MTX > 5 µM 或 48 小時 > 0.9 µM 時改 100 mg/m² 每 3 小時）（Sagent, 2026）。EURAMOS-1 則是 15 mg/m² 從 MTX 輸注後 24–48 小時開始、直到 MTX < 0.1 µM，並依 MTX 濃度的給藥列表（nomogram）調整（Marina et al., 2016）。表中的數字取自 HD-MTX 表；實際劑量與停止門檻以醫院核准的 protocol 為準。
 
 **延遲清除（MTX 濃度或肌酸酐超過上表）時的處置**
 
@@ -1539,7 +1548,7 @@ GIST 的 TKI 要吃很久，毒性管理的目標是**讓病人留在藥上**：
 - CrCl（Cockcroft-Gault，女性 × 0.85）=（140 − 45）× 58 ÷（72 × 0.7）× 0.85 = 5,510 ÷ 50.4 × 0.85 ≈ **93 mL/min**。
 - Doxorubicin 25 mg/m²/日 × 1.61 = 40.25 mg → **40 mg/日，第 1–3 天**；每個週期 75 mg/m² × 1.61 ≈ 121 mg，**記入累積帳本**。
 - Ifosfamide 10 g/m² 分 4 天 = 2.5 g/m²/日；2,500 × 1.61 = **4,025 mg/日，第 1–4 天**（每個週期 16.1 g；院內捨入規則可能取 4,000 mg）。
-- Mesna（示範算法，**不是 EORTC 62012 的劑量**）：仿單的全程靜脈時程為 ifosfamide 當日劑量的 20%，於 0、4、8 小時各一次（Bamboo, 2025）→ 4,025 × 20% = 805 mg/次，每日共 2,415 mg，第 1–4 天每天重複。
+- Mesna（示範算法，**未對照 EORTC 62012 的 mesna 時程**，試驗的做法見下方的待核對提示框）：仿單的全程靜脈時程為 ifosfamide 當日劑量的 20%，於 0、4、8 小時各一次（Bamboo, 2025）→ 4,025 × 20% = 805 mg/次，每日共 2,415 mg，第 1–4 天每天重複。
 - Pegfilgrastim 6 mg 皮下注射一次，第 5 天（EORTC 62012 的設計；時機見[支持性照護](00-shared/03-supportive-care.md#22-怎麼用)第 2.2 節，不在化療同一天）。
 
 **醫囑範例**
@@ -1566,8 +1575,8 @@ D5     Pegfilgrastim 6 mg SC × 1
 ```
 
 > [!CAUTION]
-> **待核對：EORTC 62012 的 mesna 劑量與 doxorubicin 給法**
-> 論文摘要只寫「ifosfamide 10 g/m² 分 4 天，搭配 mesna 與 pegfilgrastim」，沒有 mesna 的劑量與時程（Judson et al., 2014），本手冊也沒有取得全文或 protocol。美國仿單的 mesna 時程是以 ifosfamide 1.2 g/m²/日為例，並說 IV 加口服的組合在 ifosfamide > 2 g/m²/日時未建立（Bamboo, 2025）；ASCO 1999 認為 ifosfamide > 2.5 g/m²/日的 mesna 證據不足（Hensley et al., 1999）。上方的 805 mg × 3 是**學習算法**，不能直接拿去開單；doxorubicin 是推注還是 72 小時輸注，也以院內 protocol 為準。
+> **待核對：EORTC 62012 的 mesna 時程與 doxorubicin 給法**
+> 論文摘要只寫「ifosfamide 10 g/m² 分 4 天，搭配 mesna 與 pegfilgrastim」，沒有 mesna 的劑量與時程（Judson et al., 2014），本手冊也沒有取得全文或 protocol。二手來源 eviQ 引述 Judson 等人的做法為：mesna 與 ifosfamide 同時給，1,500 mg/m²/日，D1–4；試驗的口服 mesna 為 1,000 mg/m²（eviQ, 2023）。1,500 mg/m² 是 ifosfamide 2,500 mg/m²/日的 60%，與上方學習算法的每日總量相同（1,500 × 1.61 ≈ 2,415 mg）；但分次方式、是否有起始劑量、口服時程，本手冊沒有核對。試驗登錄資料寫 AI 組為 doxorubicin D1–3 靜脈給藥、ifosfamide 每日輸注 4 小時 D1–4（EORTC, n.d.；NCT00061984）；摘要只寫單藥組可用 D1 推注或 72 小時連續輸注，AI 組的 doxorubicin 是推注還是連續輸注，本手冊沒有取得可核對的原文。美國仿單的 mesna 時程是以 ifosfamide 1.2 g/m²/日為例，並說 IV 加口服的組合在 ifosfamide > 2 g/m²/日時未建立（Bamboo, 2025）；ASCO 1999 認為 ifosfamide > 2.5 g/m²/日的 mesna 證據不足（Hensley et al., 1999）。上方的 805 mg × 3 是**學習算法**，不能直接拿去開單；doxorubicin 的給法與 mesna 的時程，以院內 protocol 為準。
 
 > [!WARNING]
 > **AI 的第一個週期：先盤點腦病變與發燒的風險，再開單**
@@ -1725,8 +1734,10 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 > **AYA 病人像搭電車時的「轉乘站」**
 > 兒科像一條線，成人腫瘤科像另一條線，AYA 病人正好站在轉乘站，兩條線都可以載他們，卻沒有人固定負責「換車」。專師的角色就是站務員：知道下一班車在哪裡、病人有沒有帶齊行李（累積劑量、聽力、生育力諮詢的紀錄）。
 
+可核對的一項資源（**不是癌症或 AYA 專屬**）：衛福部「115 年度 15–45 歲青壯世代心理健康支持方案」，期間 115/1/1–115/12/31，限年滿 15 歲且未滿 46 歲，至多 3 次個別心理諮商、每次至少 40 分鐘，每人每次補助最高 NT$1,600（不含機構掛號費）（臺北市政府衛生局社區心理衛生中心, 2026）；116 年度是否延續、癌症病人的申請方式，本手冊沒有核對。
+
 > [!CAUTION]
-> **待核對：台灣的 AYA 心理社會資源與補助**
+> **待核對：台灣的 AYA 專屬門診、復學就業與經濟補助**
 > NCCN 有獨立的 Adolescent and Young Adult Oncology 指引（版本 2.2027；2026-10-29 於 nccn.org 查詢；National Comprehensive Cancer Network, 2026a），專業版內容需登入、未能開啟。台灣的 AYA 專屬門診、心理社會篩檢工具、復學與就業支持、經濟補助，本手冊沒有取得可核對的來源（國民健康署網站無法自動存取）。請向院內個案管理師與社工確認。
 
 ### 7.9 生育力保存（肉瘤病人）
@@ -1791,8 +1802,8 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 | 心理社會 | 每次回診問學業、工作與情緒（7.8） | Quinn et al., 2015 |
 
 > [!CAUTION]
-> **待核對：GIST 術後的追蹤間隔**
-> 2025 年亞洲共識只寫了「追蹤為弱建議、須個別化」與「中高風險者早期較密集做增強 CT」，沒有給出具體的月份間隔，本手冊也沒有取得 Joensuu 2015 的追蹤表。imatinib 輔助期間的抽血與回診頻率見 7.4；影像間隔請依主治醫師與院內肉瘤團隊的 protocol。
+> **待核對：中高風險 GIST 術後的追蹤間隔**
+> 低風險與極低風險者：義大利肉瘤小組的研究（737 位 2001–2019 年手術、依 AFIP 準則屬低風險的病人，回溯性）記載所用的 ESMO 追蹤計畫為每 6 個月做理學檢查與腹部／骨盆腔 CT，共 5 年，之後每年一次、最長到 10 年；該文未註明 ESMO 指引的版本，本手冊也沒有對照現行 ESMO 2021 全文（D'Ambrosio et al., 2023）。同一研究每約 170 次 CT 才偵測到 1 次復發，42 位復發者中有 9 位在 10 年之後才復發，25% 的病人有第二原發腫瘤；作者建議對低風險者減少 CT 次數，這是該研究的建議，不是現行指引。2025 年亞洲共識只寫「追蹤為弱建議、須個別化」與「中高風險者早期較密集做增強 CT」，沒有給出具體的月份間隔（Hirano et al., 2026）。中、高風險者的具體間隔，本手冊沒有取得可核對的原文（ESMO 2021 指引與 NCCN 專業版全文皆無法開啟）；imatinib 輔助期間的抽血與回診頻率見 7.4；影像間隔請依主治醫師與院內肉瘤團隊的 protocol。
 
 > [!TIP]
 > **追蹤像颱風季的氣象預報：前三年每天都要看**
@@ -1943,11 +1954,20 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 
 > [!CAUTION]
 > **待核對：肉瘤肺轉移氣胸的專屬處置指引**
-> 本手冊沒有取得針對骨肉瘤肺轉移氣胸的引流方式、胸腔鏡手術或沾黏術時機的指引；Li 等人與 Tian 等人都是單一或少數中心的回溯研究。處置依一般氣胸流程與胸腔外科會診。
+> 骨肉瘤肺轉移氣胸的引流方式、胸腔鏡手術與沾黏術時機，沒有找到專屬指引；Li 等人是單一醫院、Tian 等人是 3 家機構的回溯研究。下列是**一般**次發性自發性氣胸（secondary spontaneous pneumothorax, SSP）的做法，出自 2023 年英國胸腔醫學會（BTS）胸膜疾病指引，經 Cheng 等人（2024）的回顧轉述；這些建議不是針對肺轉移，是否適用於肺轉移空洞破裂造成的氣胸，沒有資料：
+> - **引流**：SSP 最常用胸管；保守觀察與門診處置在 SSP 的證據比原發性氣胸弱（Cheng et al., 2024）。
+> - **手術**：胸管引流 5–7 天仍漏氣或肺未再擴張時考慮手術；第二次同側氣胸、第一次對側氣胸、雙側同時氣胸也列為手術適應症（Cheng et al., 2024）。
+> - **持續漏氣且不適合手術者**：血液沾黏術（autologous blood patch pleurodesis）或支氣管內治療是 BTS 的 good-practice point（Cheng et al., 2024）。
+>
+> 實際處置依一般氣胸流程與胸腔外科會診。
+
+> [!WARNING]
+> **SFT 病人意識混亂，先測血糖（Doege–Potter syndrome）**
+> SFT 約 5–10% 伴有非胰島細胞腫瘤低血糖（non-islet cell tumour hypoglycaemia, NICTH），原因是腫瘤分泌 IGF-2（Kiely et al., 2021）。表現以空腹低血糖與神經低血糖症狀為主（意識混亂、失憶、抽搐）；低血糖時胰島素與 C-peptide 都被抑制；反覆低血糖時，IGF-2 對 IGF-1 的莫耳比 >10 可確認 NICTH（營養不良與敗血症可能偽陽性，腎衰竭可能偽陰性），單獨一個正常的血清 IGF-2 不能排除；約半數 NICTH 病人有低血鉀，常事後才認出（Crowley et al., 2022）。處置：先補葡萄糖，之後用 glucocorticoid 預防再發，根治靠完整切除，無法完整切除時考慮減積（Crowley et al., 2022）。
 
 > [!CAUTION]
-> **待核對：孤立性纖維性腫瘤（SFT）的低血糖（Doege–Potter syndrome）**
-> SFT 可分泌 IGF-2 造成非胰島細胞腫瘤低血糖，頻率約 5–10%，低血鉀是線索，切除後緩解（Kiely et al., 2021；Crowley et al., 2022）。這兩篇是病例報告加文獻回顧，證據等級低；大型胸腔或骨盆腔腫塊的病人若意識混亂，先測血糖。
+> **待核對：SFT 低血糖的證據等級**
+> 以上來自一篇系統性回顧加單一病例（Kiely et al., 2021）與一篇單一病例加文獻回顧（Crowley et al., 2022）。5–10% 是回顧轉述的比例；「約半數低血鉀」指所有 NICTH，不是只有 SFT。沒有查到 SFT 的世代資料或專屬指引，本手冊不列 glucocorticoid 劑量。
 
 > [!IMPORTANT]
 > **肉瘤急症的考點**
@@ -2619,6 +2639,8 @@ Brock, P. R., Maibach, R., Childs, M., Rajput, K., Roebuck, D., Sullivan, M. J.,
 
 Callegaro, D., Raut, C. P., Ajayi, T., Strauss, D., Bonvalot, S., Ng, D., Stoeckle, E., Fairweather, M., Rutkowski, P., van Houdt, W. J., Gelderblom, H., Sangalli, C., Hayes, A., Honoré, C., Gladdy, R. A., Fau, M., Haas, R., Tzanis, D., Miah, A. B., . . . Gronchi, A. (2023). Preoperative radiotherapy in patients with primary retroperitoneal sarcoma: EORTC-62092 trial (STRASS) versus off-trial (STREXIT) results. *Annals of Surgery, 278*(1), 127–134. https://doi.org/10.1097/SLA.0000000000005492（PMID: 35833413）
 
+Casali, P. G., Bielack, S., Abecassis, N., Aro, H. T., Bauer, S., Biagini, R., Bonvalot, S., Boukovinas, I., Bovee, J. V. M. G., Brennan, B., Brodowicz, T., Martin-Broto, J., Brugières, L., Buonadonna, A., De Álava, E., Dei Tos, A. P., Del Muro, X. G., Dileo, P., Dhooge, C., . . . Blay, J. Y. (2018). Bone sarcomas: ESMO–PaedCan–EURACAN clinical practice guidelines for diagnosis, treatment and follow-up. *Annals of Oncology, 29*(Suppl. 4), iv79–iv95. https://doi.org/10.1093/annonc/mdy310（PMID: 30285218）
+
 Casali, P. G., Blay, J. Y., Abecassis, N., Bajpai, J., Bauer, S., Biagini, R., Bielack, S., Bonvalot, S., Boukovinas, I., Bovee, J. V. M. G., Boye, K., Brodowicz, T., Buonadonna, A., De Álava, E., Dei Tos, A. P., Del Muro, X. G., Dufresne, A., Eriksson, M., Fedenko, A., . . . ESMO Guidelines Committee, EURACAN and GENTURIS. (2022). Gastrointestinal stromal tumours: ESMO–EURACAN–GENTURIS clinical practice guidelines for diagnosis, treatment and follow-up. *Annals of Oncology, 33*(1), 20–33. https://doi.org/10.1016/j.annonc.2021.09.005（PMID: 34560242）
 
 Casali, P. G., Le Cesne, A., Velasco, A. P., Kotasek, D., Rutkowski, P., Hohenberger, P., Fumagalli, E., Judson, I. R., Italiano, A., Gelderblom, H., Penel, N., Hartmann, J. T., Duffaud, F., Goldstein, D., Martin-Broto, J., Gronchi, A., Wardelmann, E., Marréaud, S., Zalcberg, J. R., . . . Blay, J.-Y. (2021). Final analysis of the randomized trial on imatinib as an adjuvant in localized gastrointestinal stromal tumors (GIST) from the EORTC Soft Tissue and Bone Sarcoma Group (STBSG), the Australasian Gastro-Intestinal Trials Group (AGITG), UNICANCER, French Sarcoma Group (FSG), Italian Sarcoma Group (ISG), and Spanish Group for Research on Sarcomas (GEIS). *Annals of Oncology, 32*(4), 533–541. https://doi.org/10.1016/j.annonc.2021.01.004（PMID: 33482247）
@@ -2637,6 +2659,8 @@ Chen, P. C.-H., Yen, C.-C., Hung, G.-Y., Pan, C.-C., & Chen, W.-M. (2019). Gene 
 
 Chen, T. W.-W., Chiang, R. C.-J., Le Cesne, A., Hsieh, Y.-C., Italiano, A., Yang, Y.-W., Penel, N., Lee, W.-C., Bompas, E., Valentin, T., Anract, P., Firmin, N., Duffaud, F., Cheng, A.-L., Ducimetiere, F., Chan, K. A., & Blay, J.-Y. (2022). Soft tissue sarcoma incidences and clinical characteristics are significantly different in France and Taiwan. *Cancer, 128*(18), 3360–3369. https://doi.org/10.1002/cncr.34372（PMID: 35796499）
 
+Cheng, H.-S., Wong, C., Chiu, P.-H., Tong, C.-W., & Miu, P.-L. F. (2024). Management of spontaneous pneumothorax: A mini-review on its latest evidence. *Journal of Thoracic Disease, 16*(7), 4756–4763. https://doi.org/10.21037/jtd-24-415（PMID: 39144356）
+
 Choi, H., Charnsangavej, C., Faria, S. C., Macapinlac, H. A., Burgess, M. A., Patel, S. R., Chen, L. L., Podoloff, D. A., & Benjamin, R. S. (2007). Correlation of computed tomography and positron emission tomography in patients with metastatic gastrointestinal stromal tumor treated at a single institution with imatinib mesylate: Proposal of new computed tomography response criteria. *Journal of Clinical Oncology, 25*(13), 1753–1759. https://doi.org/10.1200/JCO.2006.07.3049（PMID: 17470865）
 
 Chu, H.-Y., Shen, X.-H., Lin, C.-N., Lee, C.-C., Chen, Y.-C., Chen, Y.-J., Lin, Y.-C., & Chang, S.-H. (2026). Overall survival and prognostic factors in osteosarcoma: A nationwide cohort study from Taiwan. *Life, 16*(2), Article 288. https://doi.org/10.3390/life16020288（PMID: 41752924）
@@ -2652,6 +2676,8 @@ Cranmer, L. D., Hess, L. M., Sugihara, T., & Muntz, H. G. (2023). Cardiac events
 Crowley, M. T., Lonergan, E., O'Callaghan, P., Joyce, C. M., Morita, M., Conlon, N., & O'Halloran, D. J. (2022). IGF-2 mediated hypoglycemia and the paradox of an apparently benign lesion: A case report & review of the literature. *BMC Endocrine Disorders, 22*(1), Article 262. https://doi.org/10.1186/s12902-022-01175-4（PMID: 36303203）
 
 Crozat, A., Aman, P., Mandahl, N., & Ron, D. (1993). Fusion of CHOP to a novel RNA-binding protein in human myxoid liposarcoma. *Nature, 363*(6430), 640–644. https://doi.org/10.1038/363640a0（PMID: 8510758）
+
+D'Ambrosio, L., Fumagalli, E., De Pas, T. M., Nannini, M., Bertuzzi, A., Carpano, S., Boglione, A., Buonadonna, A., Comandini, D., Gasperoni, S., Vincenzi, B., Brunello, A., Badalamenti, G., Maccaroni, E., Baldi, G. G., Merlini, A., Mogavero, A., Ligorio, F., Pennacchioli, E., . . . Grignani, G. (2023). Guideline-based follow-up outcomes in patients with gastrointestinal stromal tumor with low risk of recurrence: A report from the Italian Sarcoma Group. *JAMA Network Open, 6*(11), Article e2341522. https://doi.org/10.1001/jamanetworkopen.2023.41522（PMID: 37930700）
 
 D'Angelo, S. P., Araujo, D. M., Abdul Razak, A. R., Agulnik, M., Attia, S., Blay, J.-Y., Carrasco Garcia, I., Charlson, J. A., Choy, E., Demetri, G. D., Druta, M., Forcade, E., Ganjoo, K. N., Glod, J., Keedy, V. L., Le Cesne, A., Liebner, D. A., Moreno, V., Pollack, S. M., . . . Van Tine, B. A. (2024). Afamitresgene autoleucel for advanced synovial sarcoma and myxoid round cell liposarcoma (SPEARHEAD-1): An international, open-label, phase 2 trial. *The Lancet, 403*(10435), 1460–1471. https://doi.org/10.1016/S0140-6736(24)00319-2（PMID: 38554725）
 
@@ -2779,6 +2805,8 @@ Hung, G.-Y., Yen, C.-C., Horng, J.-L., Liu, C.-Y., Chen, W.-M., Chen, T.-H., & L
 
 Hunold, A., Weddeling, N., Paulussen, M., Ranft, A., Liebscher, C., & Jürgens, H. (2006). Topotecan and cyclophosphamide in patients with refractory or relapsed Ewing tumors. *Pediatric Blood & Cancer, 47*(6), 795–800. https://doi.org/10.1002/pbc.20719（PMID: 16411206）
 
+Huvos, A. G., Rosen, G., & Marcove, R. C. (1977). Primary osteogenic sarcoma: Pathologic aspects in 20 patients after treatment with chemotherapy en bloc resection, and prosthetic bone replacement. *Archives of Pathology & Laboratory Medicine, 101*(1), 14–18.（PMID: 299812）
+
 Italiano, A., Mir, O., Mathoulin-Pelissier, S., Penel, N., Piperno-Neumann, S., Bompas, E., Chevreau, C., Duffaud, F., Entz-Werlé, N., Saada, E., Ray-Coquard, I., Lervat, C., Gaspar, N., Marec-Berard, P., Pacquement, H., Wright, J., Toulmonde, M., Bessede, A., Crombe, A., . . . Blay, J.-Y. (2020). Cabozantinib in patients with advanced Ewing sarcoma or osteosarcoma (CABONE): A multicentre, single-arm, phase 2 trial. *The Lancet Oncology, 21*(3), 446–455. https://doi.org/10.1016/S1470-2045(19)30825-3（PMID: 32078813）
 
 Jawad, M. U., Cheung, M. C., Min, E. S., Schneiderbauer, M. M., Koniaris, L. G., & Scully, S. P. (2009). Ewing sarcoma demonstrates racial disparities in incidence-related and sex-related differences in outcome: An analysis of 1631 cases from the SEER database, 1973–2005. *Cancer, 115*(15), 3526–3536. https://doi.org/10.1002/cncr.24388（PMID: 19548262）
@@ -2796,6 +2824,8 @@ Joensuu, H., Eriksson, M., Sundby Hall, K., Reichardt, A., Hermes, B., Schütte,
 Jones, R. L., Serrano, C., von Mehren, M., George, S., Heinrich, M. C., Kang, Y.-K., Schöffski, P., Cassier, P. A., Mir, O., Chawla, S. P., Eskens, F. A. L. M., Rutkowski, P., Tap, W. D., Zhou, T., Roche, M., & Bauer, S. (2021). Avapritinib in unresectable or metastatic PDGFRA D842V-mutant gastrointestinal stromal tumours: Long-term efficacy and safety data from the NAVIGATOR phase I trial. *European Journal of Cancer, 145*, 132–142. https://doi.org/10.1016/j.ejca.2020.12.008（PMID: 33465704）
 
 Judson, I., Verweij, J., Gelderblom, H., Hartmann, J. T., Schöffski, P., Blay, J.-Y., Kerst, J. M., Sufliarsky, J., Whelan, J., Hohenberger, P., Krarup-Hansen, A., Alcindor, T., Marreaud, S., Litière, S., Hermans, C., Fisher, C., Hogendoorn, P. C. W., dei Tos, A. P., & van der Graaf, W. T. A. (2014). Doxorubicin alone versus intensified doxorubicin plus ifosfamide for first-line treatment of advanced or metastatic soft-tissue sarcoma: A randomised controlled phase 3 trial. *The Lancet Oncology, 15*(4), 415–423. https://doi.org/10.1016/S1470-2045(14)70063-4（PMID: 24618336）
+
+Juergens, H., Kosloff, C., Nirenberg, A., Mehta, B. M., Huvos, A. G., & Rosen, G. (1981). Prognostic factors in the response of primary osteogenic sarcoma to preoperative chemotherapy (high-dose methotrexate with citrovorum factor). *National Cancer Institute Monograph*, (56), 221–226.（PMID: 6975439）
 
 Kang, Y.-K., George, S., Jones, R. L., Rutkowski, P., Shen, L., Mir, O., Patel, S., Zhou, Y., von Mehren, M., Hohenberger, P., Villalobos, V., Brahmi, M., Tap, W. D., Trent, J., Pantaleo, M. A., Schöffski, P., He, K., Hew, P., Newberry, K., . . . Bauer, S. (2021). Avapritinib versus regorafenib in locally advanced unresectable or metastatic GI stromal tumor: A randomized, open-label phase III study. *Journal of Clinical Oncology, 39*(28), 3128–3139. https://doi.org/10.1200/JCO.21.00217（PMID: 34343033）
 
@@ -2915,6 +2945,8 @@ Rose, P. S., Holt, G. E., & Kneisl, J. S. (2019). Changes to the American Joint 
 
 Rosen, G., Caparros, B., Huvos, A. G., Kosloff, C., Nirenberg, A., Cacavio, A., Marcove, R. C., Lane, J. M., Mehta, B., & Urban, C. (1982). Preoperative chemotherapy for osteogenic sarcoma: Selection of postoperative adjuvant chemotherapy based on the response of the primary tumor to preoperative chemotherapy. *Cancer, 49*(6), 1221–1230. https://doi.org/10.1002/1097-0142(19820315)49:6<1221::aid-cncr2820490625>3.0.co;2-e（PMID: 6174200）
 
+Santoro, A., Tursz, T., Mouridsen, H., Verweij, J., Steward, W., Somers, R., Buesa, J., Casali, P., Spooner, D., & Rankin, E. (1995). Doxorubicin versus CYVADIC versus doxorubicin plus ifosfamide in first-line treatment of advanced soft tissue sarcomas: A randomized study of the European Organization for Research and Treatment of Cancer Soft Tissue and Bone Sarcoma Group. *Journal of Clinical Oncology, 13*(7), 1537–1545. https://doi.org/10.1200/JCO.1995.13.7.1537（PMID: 7602342）
+
 Saylors, R. L., Stine, K. C., Sullivan, J., Kepner, J. L., Wall, D. A., Bernstein, M. L., Harris, M. B., Hayashi, R., & Vietti, T. J. (2001). Cyclophosphamide plus topotecan in children with recurrent or refractory solid tumors: A Pediatric Oncology Group phase II study. *Journal of Clinical Oncology, 19*(15), 3463–3469. https://doi.org/10.1200/JCO.2001.19.15.3463（PMID: 11481351）
 
 Sbaraglia, M., Bellan, E., & Dei Tos, A. P. (2021). The 2020 WHO classification of soft tissue tumours: News and perspectives. *Pathologica, 113*(2), 70–84. https://doi.org/10.32074/1591-951X-213（PMID: 33179614）
@@ -3013,6 +3045,8 @@ Bamboo US Bidco LLC. (2025). *MESNEX (mesna) injection and tablets: Prescribing 
 
 Bayer HealthCare Pharmaceuticals Inc. (2026). *STIVARGA (regorafenib) tablets: Prescribing information* (effective 2026-02-09). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7
 
+BC Cancer. (2021). *BC Cancer protocol summary for DOXOrubicin–ifosfamide–mesna for use in patients with advanced soft tissue sarcoma* (Protocol code SAAI; revised 2021-04-01). https://www.bccancer.bc.ca/chemotherapy-protocols-site/Documents/Sarcoma/SAAI_Protocol.pdf
+
 Blueprint Medicines Corporation. (2026). *AYVAKIT (avapritinib) tablets: Prescribing information* (effective 2026-08-05). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9
 
 BTG International Inc. (2024). *VORAXAZE (glucarpidase) for injection: Prescribing information* (effective 2024-11-27). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acaef5a6-b740-40e3-8ffe-74a75c74745c
@@ -3022,6 +3056,10 @@ Deciphera Pharmaceuticals, LLC. (2025). *QINLOCK (ripretinib) tablets: Prescribi
 Eisai Inc. (2025). *HALAVEN (eribulin mesylate) injection: Prescribing information* (effective 2025-11-07). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822
 
 Eugia US LLC. (2026). *Dexrazoxane for injection: Prescribing information* (effective 2026-08-10). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cb72203a-0b09-42d5-bf51-7f479feb3adb
+
+European Organisation for Research and Treatment of Cancer. (n.d.). *Randomised trial of single agent doxorubicin versus doxorubicin plus ifosfamide in the first line treatment of advanced or metastatic soft tissue sarcoma* (NCT00061984) [Clinical trial registration]. ClinicalTrials.gov. 擷取日 2026-11-05. https://clinicaltrials.gov/study/NCT00061984
+
+eviQ. (2023, December 19). *Soft tissue sarcoma locally advanced or metastatic DOXOrubicin and iFOSFamide* (eviQ protocol ID 1659) [Treatment protocol; last reviewed 2023-12-19]. https://www.eviq.org.au/medical-oncology/sarcoma/soft-tissue-sarcoma/1659-soft-tissue-sarcoma-locally-advanced-or-metas
 
 Fennec Pharmaceuticals Inc. (2025). *PEDMARK (sodium thiosulfate) injection: Prescribing information* (effective 2025-10-27). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f98c7076-2a7b-4fd7-ab90-eed5e9137bae
 
@@ -3078,6 +3116,8 @@ WG Critical Care, LLC. (2026). *Cisplatin injection: Prescribing information* (e
 癌症登記中心. (2026, January). *Year_Bones_2023、Period_Bones_2023、Year_Soft-tissue_2023、Period_Soft-tissue_2023* [資料集]. https://twcr.tw/wp-content/uploads/2026/01/Year_Bones_2023.xlsx
 
 癌症登記中心. (2026, April 15). *[癌登第115004號通知文] ICD-O-4最新訊息與修正AJCC Version 9 TNM、stage編碼對應與第8版差異處*. https://twcr.tw/?p=3529
+
+臺北市政府衛生局社區心理衛生中心. (2026, January 2). *【重要公告】衛生福利部115年度15-45歲青壯世代心理健康支持方案，請善加運用* [公告]. https://mental-health.gov.taipei/News_Content.aspx?n=FAB9374F6BCE2D48&sms=EEA94C26A90DD864&s=1CAF0520811909A9
 
 衛生福利部. (2025, January 10). *114年擴大肺癌篩檢服務 新年從健康開始* [新聞稿]. https://mohw.gov.tw/cp-16-81184-1.html
 
