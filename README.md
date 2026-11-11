@@ -53,7 +53,7 @@
 
 ## 怎麼讀
 
-- **網頁版（GitHub Pages）**：<https://bobyu89.github.io/oncology-educater/>（公開網址；設定方式見下方「發布到 GitHub Pages」）。
+- **網頁版（GitHub Pages）**：<https://bobyu89.github.io/oncology-educater/>（公開網址）。
 - **網頁版（Claude Artifact）**：<https://claude.ai/artifact/HcoEjbf9RVudFnytExVpHK>（私人頁面，需登入擁有者帳號或經分享才能開啟；登入時學習紀錄會存到帳號）。
 - **網頁版（離線）**：`site/index.html` 是建置好的單一網頁，下載後用瀏覽器打開即可，醫院網路擋外站時也能用；學習紀錄存在那台裝置的瀏覽器。
 - **在 GitHub 上讀**：直接點上表連結，提示框與摺疊答案都會正常顯示；學習路徑見 [handbook/LEARNING_PATH.md](handbook/LEARNING_PATH.md)。
@@ -90,13 +90,12 @@ python3 tools/build_site.py
 
 ## 發布到 GitHub Pages
 
-`.github/workflows/pages.yml` 會在每次推到 `main` 時檢查章節、建置網頁並部署到 GitHub Pages。第一次使用要先開啟 Pages：
+公開網址：<https://bobyu89.github.io/oncology-educater/>
 
-1. 到 repo 的 **Settings → Pages**。
-2. **Build and deployment → Source** 選 **GitHub Actions**。
-3. 推一次到 `main`，或到 **Actions → Deploy handbook to GitHub Pages → Run workflow** 手動執行。
-
-部署完成後的網址是 <https://bobyu89.github.io/oncology-educater/>。GitHub Pages 的網站是公開的；學習紀錄只存在讀者自己的瀏覽器。
+- GitHub Pages 的來源是 `gh-pages` 分支，裡面只有建置好的 `index.html`。
+- `.github/workflows/pages.yml` 會在每次推到 `main` 時檢查章節、建置網頁，再把結果推到 `gh-pages`；分支更新後 GitHub 會自動重新發布，通常一兩分鐘內生效。
+- 要手動重新發布：到 **Actions → Publish handbook to GitHub Pages → Run workflow**。
+- GitHub Pages 的網站是公開的；學習紀錄只存在讀者自己的瀏覽器。
 
 ## 內容依據
 
