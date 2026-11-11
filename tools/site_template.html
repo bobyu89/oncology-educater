@@ -369,6 +369,113 @@ a.step:hover { background: var(--raised); text-decoration: none; }
   .toolbar label { flex: 1 1 100%; justify-content: space-between; }
   .toolbar .field { flex: 1; }
 }
+
+/* ---------- 白板（Heptabase 式）：點狀畫布、區塊、卡片、箭頭，右側打開卡片內容 ---------- */
+:root {
+  --wb-canvas: #fafbfb; --wb-dot: #d5dadb; --wb-card: #ffffff; --wb-card-border: #dfe3e4; --wb-link: #9aa4a7;
+  --wb-shadow: 0 1px 2px rgba(16, 24, 28, 0.06), 0 3px 10px rgba(16, 24, 28, 0.05);
+  --wb-gray-bg: #f0f2f2;   --wb-gray-bd: #d9dddd;   --wb-gray-ink: #485053;
+  --wb-blue-bg: #e8f1fb;   --wb-blue-bd: #c2d9f1;   --wb-blue-ink: #1f5b94;
+  --wb-teal-bg: #e4f3f4;   --wb-teal-bd: #bcdde2;   --wb-teal-ink: #17606d;
+  --wb-green-bg: #e8f5eb;  --wb-green-bd: #c0e0c8;  --wb-green-ink: #256a3a;
+  --wb-yellow-bg: #fcf5dc; --wb-yellow-bd: #eedd9f; --wb-yellow-ink: #775809;
+  --wb-orange-bg: #fdefe2; --wb-orange-bd: #f1d0aa; --wb-orange-ink: #8a4b10;
+  --wb-red-bg: #fcebeb;    --wb-red-bd: #f0c6c6;    --wb-red-ink: #982b2b;
+  --wb-purple-bg: #f0ebfb; --wb-purple-bd: #d7caf2; --wb-purple-ink: #593d9d;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --wb-canvas: #0f1111; --wb-dot: #2a3031; --wb-card: #1a1d1e; --wb-card-border: #2e3536; --wb-link: #667175;
+    --wb-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 3px 10px rgba(0, 0, 0, 0.3);
+    --wb-gray-bg: #1a1d1e;   --wb-gray-bd: #2f3637;   --wb-gray-ink: #b9c1c4;
+    --wb-blue-bg: #13202d;   --wb-blue-bd: #223e5a;   --wb-blue-ink: #8fc0ee;
+    --wb-teal-bg: #10252a;   --wb-teal-bd: #1e464d;   --wb-teal-ink: #7fcbd6;
+    --wb-green-bg: #13231a;  --wb-green-bd: #23462e;  --wb-green-ink: #8fd3a8;
+    --wb-yellow-bg: #26200f; --wb-yellow-bd: #493c15; --wb-yellow-ink: #e8c868;
+    --wb-orange-bg: #291c0f; --wb-orange-bd: #50371b; --wb-orange-ink: #f0b678;
+    --wb-red-bg: #291616;    --wb-red-bd: #512525;    --wb-red-ink: #f0a0a0;
+    --wb-purple-bg: #1e192d; --wb-purple-bd: #392e5b; --wb-purple-ink: #c0aef0;
+  }
+}
+:root[data-theme="dark"] {
+  --wb-canvas: #0f1111; --wb-dot: #2a3031; --wb-card: #1a1d1e; --wb-card-border: #2e3536; --wb-link: #667175;
+  --wb-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 3px 10px rgba(0, 0, 0, 0.3);
+  --wb-gray-bg: #1a1d1e;   --wb-gray-bd: #2f3637;   --wb-gray-ink: #b9c1c4;
+  --wb-blue-bg: #13202d;   --wb-blue-bd: #223e5a;   --wb-blue-ink: #8fc0ee;
+  --wb-teal-bg: #10252a;   --wb-teal-bd: #1e464d;   --wb-teal-ink: #7fcbd6;
+  --wb-green-bg: #13231a;  --wb-green-bd: #23462e;  --wb-green-ink: #8fd3a8;
+  --wb-yellow-bg: #26200f; --wb-yellow-bd: #493c15; --wb-yellow-ink: #e8c868;
+  --wb-orange-bg: #291c0f; --wb-orange-bd: #50371b; --wb-orange-ink: #f0b678;
+  --wb-red-bg: #291616;    --wb-red-bd: #512525;    --wb-red-ink: #f0a0a0;
+  --wb-purple-bg: #1e192d; --wb-purple-bd: #392e5b; --wb-purple-ink: #c0aef0;
+}
+.wb-c-gray { --c-bg: var(--wb-gray-bg); --c-bd: var(--wb-gray-bd); --c-ink: var(--wb-gray-ink); }
+.wb-c-blue { --c-bg: var(--wb-blue-bg); --c-bd: var(--wb-blue-bd); --c-ink: var(--wb-blue-ink); }
+.wb-c-teal { --c-bg: var(--wb-teal-bg); --c-bd: var(--wb-teal-bd); --c-ink: var(--wb-teal-ink); }
+.wb-c-green { --c-bg: var(--wb-green-bg); --c-bd: var(--wb-green-bd); --c-ink: var(--wb-green-ink); }
+.wb-c-yellow { --c-bg: var(--wb-yellow-bg); --c-bd: var(--wb-yellow-bd); --c-ink: var(--wb-yellow-ink); }
+.wb-c-orange { --c-bg: var(--wb-orange-bg); --c-bd: var(--wb-orange-bd); --c-ink: var(--wb-orange-ink); }
+.wb-c-red { --c-bg: var(--wb-red-bg); --c-bd: var(--wb-red-bd); --c-ink: var(--wb-red-ink); }
+.wb-c-purple { --c-bg: var(--wb-purple-bg); --c-bd: var(--wb-purple-bd); --c-ink: var(--wb-purple-ink); }
+
+.view.board-view { padding: 0; }
+.board { position: relative; height: calc(100vh - var(--bar) - var(--inset) - 2px); height: calc(100dvh - var(--bar) - var(--inset) - 2px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); min-height: 360px; overflow: hidden; border-radius: calc(var(--radius-sheet) - 1px); background: var(--wb-canvas); }
+.board-canvas { position: absolute; inset: 0; overflow: hidden; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; background-image: radial-gradient(circle, var(--wb-dot) 1px, transparent 1.3px); background-size: 24px 24px; }
+.board-canvas.is-dragging { cursor: grabbing; }
+.board-world { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
+.wb-links { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.wb-links path { fill: none; stroke: var(--wb-link); stroke-width: 2; stroke-linecap: round; }
+.wb-links marker path { fill: var(--wb-link); stroke: none; }
+.wb-text { position: absolute; margin: 0; white-space: nowrap; font-size: 30px; font-weight: 600; line-height: 1.2; color: var(--text); }
+.wb-text small { display: block; margin-top: 6px; font-size: 16px; font-weight: 400; color: var(--muted); }
+.wb-section { position: absolute; padding: 16px 22px; border: 1.5px solid var(--c-bd); border-radius: 14px; background: var(--c-bg); }
+.wb-section-title { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin: 0; font-size: 18px; font-weight: 600; line-height: 1.3; color: var(--c-ink); }
+.wb-section-title .frac { font-size: 13px; font-weight: 500; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.wb-goal { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; margin: 6px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); }
+.wb-card { position: absolute; display: flex; flex-direction: column; align-items: stretch; gap: 4px; padding: 12px 14px 12px; border: 1px solid var(--wb-card-border); border-radius: 10px; background: var(--wb-card); box-shadow: var(--wb-shadow); color: var(--text); font: inherit; text-align: left; cursor: pointer; overflow: hidden; }
+.wb-card:hover { border-color: var(--control); }
+.wb-card.is-selected { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent), var(--wb-shadow); }
+.wb-card.is-next { border-color: var(--accent); }
+.wb-card.is-pending { cursor: default; opacity: 0.6; }
+.wb-card-title { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; padding-right: 22px; font-size: 15px; font-weight: 600; line-height: 1.4; }
+.wb-card-sub { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 12.5px; line-height: 1.4; color: var(--muted); }
+.wb-card-foot { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: center; margin-top: auto; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.wb-card .tick { position: absolute; top: 12px; right: 12px; width: 16px; height: 16px; }
+.wb-card.is-done .tick::after { left: 4.5px; top: 1.5px; width: 3.5px; height: 7.5px; }
+.wb-card.is-next .wb-card-title { padding-right: 74px; }
+.wb-card .next-flag { position: absolute; top: -1px; right: 38px; padding: 2px 6px 3px; border-radius: 0 0 5px 5px; background: var(--accent); color: var(--on-accent); font-size: 11px; font-weight: 600; line-height: 1.2; }
+.wb-drug { gap: 2px; padding: 10px 12px; }
+.wb-drug .wb-card-title { -webkit-line-clamp: 1; padding-right: 0; font-size: 14.5px; overflow-wrap: anywhere; }
+.wb-drug .state-chip { align-self: flex-start; margin-top: auto; }
+.board-tabs, .board-tools { position: absolute; z-index: 3; display: flex; align-items: center; gap: 2px; padding: 3px; border: 1px solid var(--border); border-radius: 10px; background: var(--sheet); box-shadow: var(--wb-shadow); }
+.board-tabs { top: 12px; left: 12px; }
+.board-tools { left: 12px; bottom: 12px; }
+.board-tabs button, .board-tools button { min-width: 34px; height: 32px; padding: 0 10px; border: 0; border-radius: 7px; background: none; color: var(--text); font: inherit; font-size: 13px; cursor: pointer; }
+.board-tabs button:hover, .board-tools button:hover { background: var(--active); }
+.board-tabs button[aria-pressed="true"] { background: var(--active); font-weight: 600; }
+.board-tools .zoom { min-width: 46px; text-align: center; font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.board-hint { position: absolute; z-index: 2; right: 14px; bottom: 16px; margin: 0; font-size: 12px; color: var(--muted); pointer-events: none; }
+.wb-panel { position: absolute; z-index: 5; top: 12px; right: 12px; bottom: 12px; display: flex; flex-direction: column; width: min(580px, calc(100% - 24px)); border: 1px solid var(--border); border-radius: 12px; background: var(--sheet); box-shadow: 0 16px 48px rgba(0, 0, 0, 0.16); }
+.wb-panel-head { display: flex; align-items: flex-start; gap: 10px; padding: 14px 12px 12px 20px; border-bottom: 1px solid var(--rule); }
+.wb-panel-head > div { flex: 1; min-width: 0; }
+.wb-panel-kicker { margin: 0 0 2px; font-size: var(--fs-small); color: var(--muted); }
+.wb-panel-title { margin: 0; font-size: 18px; font-weight: 600; line-height: 1.35; text-wrap: balance; }
+.wb-panel-meta { margin: 4px 0 0; font-size: var(--fs-small); color: var(--muted); }
+.wb-panel-body { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 18px 20px 28px; }
+.wb-panel-body.prose { font-size: 15.5px; }
+.wb-panel-body.prose h2 { margin: 36px 0 12px; font-size: 19px; }
+.wb-panel-body.prose > h2:first-child { margin-top: 0; }
+.wb-panel-body.prose h3 { margin-top: 28px; font-size: 16.5px; }
+.wb-panel-body .sec-done { margin-top: 24px; }
+@media (max-width: 860px) {
+  .board { height: calc(100vh - 49px); height: calc(100dvh - 49px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)); border-radius: 0; }
+  .board-hint { display: none; }
+  .board-tabs { left: max(10px, env(safe-area-inset-left, 0px)); top: 10px; }
+  .board-tools { left: max(10px, env(safe-area-inset-left, 0px)); bottom: 10px; }
+  .wb-panel { inset: 0; width: auto; border: 0; border-radius: 0; box-shadow: none; }
+  .wb-panel-head { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(8px, env(safe-area-inset-right, 0px)); }
+  .wb-panel-body { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+}
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -378,7 +485,7 @@ a.step:hover { background: var(--raised); text-decoration: none; }
 <div class="shell">
   <nav class="sidebar" id="sidebar" aria-label="章節" data-open="false">
     <div class="sidebar-head">
-      <a class="brand" href="#home">
+      <a class="brand" href="#board">
         <svg class="clawd" width="32" height="20" aria-hidden="true"><use href="#clawd-body"/></svg>
         <span class="brand-name">{{TITLE}}<span class="brand-sub">實習臨床 × 專師甄審</span></span>
       </a>
@@ -391,7 +498,8 @@ a.step:hover { background: var(--raised); text-decoration: none; }
       <div class="results" id="results-mobile" hidden></div>
     </div>
     <ul class="nav-main">
-      <li><a href="#home" data-chapter="home"><span class="nav-title">總覽</span></a></li>
+      <li><a href="#board" data-chapter="board"><span class="nav-title">學習白板</span></a></li>
+      <li><a href="#home" data-chapter="home"><span class="nav-title">進度總覽</span></a></li>
       <li><a href="#path" data-chapter="path"><span class="nav-title">學習路徑</span><span class="chip" id="chip-path"></span></a></li>
       <li><a href="#quiz" data-chapter="quiz"><span class="nav-title">測驗中心</span><span class="chip" id="chip-quiz"></span></a></li>
       <li><a href="#drugs" data-chapter="drugs"><span class="nav-title">藥物卡</span><span class="chip" id="chip-drugs"></span></a></li>
@@ -405,7 +513,7 @@ a.step:hover { background: var(--raised); text-decoration: none; }
       <button class="icon-btn menu-btn" type="button" id="menu-open" aria-label="開啟章節選單" aria-controls="sidebar" aria-expanded="false">
         <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 5h12M3 9h12M3 13h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       </button>
-      <p class="crumb" id="crumb"><strong>總覽</strong></p>
+      <p class="crumb" id="crumb"><strong>學習白板</strong></p>
       <div class="search" role="search">
         <input type="search" id="search" placeholder="搜尋藥名、試驗、症狀…（按 / 開始）" aria-label="搜尋手冊" autocomplete="off">
         <div class="results" id="results" hidden></div>
@@ -413,7 +521,35 @@ a.step:hover { background: var(--raised); text-decoration: none; }
     </header>
 
     <main class="sheet" id="sheet">
-      <section class="view home" id="v-home" data-route="home" data-title="總覽">
+      <section class="view board-view" id="v-board" data-route="board" data-title="學習白板">
+        <div class="board" id="board">
+          <div class="board-canvas" id="board-canvas"><div class="board-world" id="board-world"></div></div>
+          <div class="board-tabs" role="group" aria-label="白板">
+            <button type="button" data-act="board-mode" data-mode="path" aria-pressed="true">學習地圖</button>
+            <button type="button" data-act="board-mode" data-mode="drugs" aria-pressed="false" id="board-tab-drugs" hidden>藥物地圖</button>
+          </div>
+          <div class="board-tools" role="group" aria-label="畫面控制">
+            <button type="button" data-act="board-zoom-out" aria-label="縮小">−</button>
+            <span class="zoom" id="board-zoom">100%</span>
+            <button type="button" data-act="board-zoom-in" aria-label="放大">+</button>
+            <button type="button" data-act="board-fit">看全圖</button>
+            <button type="button" data-act="board-next" id="board-next">下一步</button>
+          </div>
+          <p class="board-hint">拖曳移動畫面；Ctrl＋滾輪或雙指縮放；點卡片打開內容</p>
+          <aside class="wb-panel" id="wb-panel" aria-label="卡片內容" hidden>
+            <div class="wb-panel-head">
+              <div><p class="wb-panel-kicker" id="wb-panel-kicker"></p><h2 class="wb-panel-title" id="wb-panel-title"></h2><p class="wb-panel-meta" id="wb-panel-meta"></p></div>
+              <a class="btn" id="wb-panel-full" href="#home">整頁閱讀</a>
+              <button class="icon-btn" type="button" data-act="board-close" aria-label="關閉卡片" style="display:inline-flex">
+                <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <div class="wb-panel-body prose" id="wb-panel-body"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view home" id="v-home" data-route="home" data-title="進度總覽" hidden>
         <div class="home-head">
           <div>
             <h1>{{TITLE}}</h1>
@@ -996,7 +1132,300 @@ a.step:hover { background: var(--raised); text-decoration: none; }
     var b = box.querySelector(".btn-primary"); if (b) b.focus();
   }
 
-  function refresh() { renderChips(); renderHome(); renderPath(); paintRead(); paintQuizzes(); if (!session) renderQuizCenter(); if (!flash) renderDrugs(); }
+  // ---------- 白板（Heptabase 式）：區塊＝學習路徑的一站，卡片＝一個步驟，箭頭＝閱讀順序 ----------
+  var WB = { cw: 252, ch: 112, gapX: 52, pad: 22, head: 92, gapY: 76, colGap: 240, top: 96 };
+  var STAGE_COLOR = { overview: "gray", chemo: "blue", targeted: "green", immuno: "purple", support: "yellow", lung: "teal", breast: "red", pancreas: "orange", sarcoma: "blue", review: "gray" };
+  var DRUG_COLOR = ["blue", "green", "purple", "red", "orange", "teal"];
+  var boardEl = $("board"), canvasEl = $("board-canvas"), worldEl = $("board-world"), panelEl = $("wb-panel");
+  var cam = { x: 0, y: 0, s: 1 }, boardMode = "path", boardReady = false, boardNodes = {}, boardBounds = { w: 1, h: 1 }, selectedNode = null;
+
+  function stageCards(st) {
+    var cards = st.steps.map(function (sp, i) { return { id: st.id + ":" + i, kind: sp.kind, step: sp, stage: st }; });
+    if (stageQuiz(st)) cards.push({ id: st.id + ":quiz", kind: "quiz", stage: st });
+    return cards;
+  }
+  function nodeState(n) {
+    if (n.kind === "quiz") {
+      var q = stageQuiz(n.stage);
+      return { complete: q.complete, started: q.answered > 0, done: q.correct, total: q.total, foot: "答對 " + q.correct + "/" + q.total };
+    }
+    var s = stepState(n.step);
+    s.foot = n.kind === "read" ? (s.pending ? "撰寫中" : s.done + "/" + s.total + " 段") : n.kind === "wrong" ? s.text : (s.pending ? "尚無卡片" : s.done + "/" + s.total + " 張");
+    return s;
+  }
+  function nextNodeId() {
+    for (var i = 0; i < PATH.stages.length; i++) {
+      var cards = stageCards(PATH.stages[i]);
+      for (var j = 0; j < cards.length; j++) { var s = nodeState(cards[j]); if (!s.complete && !s.pending) return cards[j].id; }
+    }
+    return null;
+  }
+  function layoutPath() {
+    var nodes = [], sections = [], links = [], texts = [];
+    var split = PATH.stages.length > 6 ? 5 : PATH.stages.length;
+    var cols = [PATH.stages.slice(0, split), PATH.stages.slice(split)].filter(function (c) { return c.length; });
+    var headings = [["藥物與基本功", "一類藥怎麼被發現、怎麼作用、怎麼安全地給"], ["癌別實戰", "病人從發現腫瘤，到診斷、分期、治療與照顧"]];
+    var x0 = 0, maxH = 0, ends = [];
+    cols.forEach(function (stages, ci) {
+      var y = WB.top, maxW = 0, first = null, last = null;
+      stages.forEach(function (st, si) {
+        var cards = stageCards(st);
+        var w = Math.max(cards.length * WB.cw + (cards.length - 1) * WB.gapX + WB.pad * 2, 580);
+        var h = WB.head + WB.ch + WB.pad;
+        var sec = { st: st, x: x0, y: y, w: w, h: h, color: STAGE_COLOR[st.id] || "gray" };
+        sections.push(sec);
+        cards.forEach(function (c, i) {
+          c.x = x0 + WB.pad + i * (WB.cw + WB.gapX); c.y = y + WB.head; c.w = WB.cw; c.h = WB.ch;
+          nodes.push(c);
+          if (i > 0) links.push("M" + (c.x - WB.gapX + 7) + " " + (c.y + WB.ch / 2) + "H" + (c.x - 9));
+        });
+        if (si > 0) links.push("M" + (x0 + 64) + " " + (last.y + last.h + 9) + "V" + (y - 11));
+        if (!first) first = sec;
+        last = sec;
+        y += h + WB.gapY; maxW = Math.max(maxW, w);
+      });
+      texts.push({ x: x0, y: 0, t: headings[ci] || ["", ""] });
+      ends.push({ first: first, last: last });
+      maxH = Math.max(maxH, y - WB.gapY);
+      x0 += maxW + WB.colGap;
+    });
+    if (ends.length > 1) {   // 第一欄最後一站接到第二欄第一站
+      var a = ends[0].last, b = ends[1].first;
+      var sx = a.x + a.w + 10, sy = a.y + a.h / 2, ex = b.x - 12, ey = b.y + b.h / 2, mid = (sx + ex) / 2;
+      links.push("M" + sx + " " + sy + "C" + mid + " " + sy + " " + mid + " " + ey + " " + ex + " " + ey);
+    }
+    return { nodes: nodes, sections: sections, links: links, texts: texts, w: x0 - WB.colGap, h: maxH };
+  }
+  function layoutDrugs() {
+    var nodes = [], sections = [], groups = [], seen = {};
+    DRUGS.forEach(function (d, i) {
+      if (!seen[d.chapter]) { seen[d.chapter] = { id: d.chapter, list: [] }; groups.push(seen[d.chapter]); }
+      seen[d.chapter].list.push({ d: d, i: i });
+    });
+    var cw = 212, ch = 78, gx = 14, gy = 14, cols = 5, head = 62, x = 0, maxH = 0;
+    groups.forEach(function (g, gi) {
+      g.list.sort(function (p, q) { return p.d.cls === q.d.cls ? p.i - q.i : p.d.cls < q.d.cls ? -1 : 1; });
+      var rows = Math.ceil(g.list.length / cols);
+      var w = cols * cw + (cols - 1) * gx + WB.pad * 2, h = head + rows * ch + (rows - 1) * gy + WB.pad;
+      var c = chapterById[g.id];
+      sections.push({ x: x, y: WB.top, w: w, h: h, color: DRUG_COLOR[gi % DRUG_COLOR.length], title: c ? c.title : g.id, frac: g.list.filter(function (p) { return cardOf(p.d.key) === "know"; }).length + "/" + g.list.length + " 張會了", goal: "" });
+      g.list.forEach(function (p, k) {
+        nodes.push({ id: p.d.key, kind: "drug", drug: p.d, x: x + WB.pad + (k % cols) * (cw + gx), y: WB.top + head + Math.floor(k / cols) * (ch + gy), w: cw, h: ch });
+      });
+      maxH = Math.max(maxH, WB.top + h);
+      x += w + 72;
+    });
+    return { nodes: nodes, sections: sections, links: [], texts: [{ x: 0, y: 0, t: ["藥物地圖", "每張卡一個藥，依藥物篇的章節分區；點卡片看機轉、必記毒性與監測"] }], w: x - 72, h: maxH };
+  }
+  function renderBoard() {
+    var L = boardMode === "drugs" ? layoutDrugs() : layoutPath();
+    var nextId = boardMode === "path" ? nextNodeId() : null, html = "";
+    boardNodes = {};
+    boardBounds = { w: Math.max(L.w, 1), h: Math.max(L.h, 1) };
+    html += '<svg class="wb-links" width="' + L.w + '" height="' + L.h + '" aria-hidden="true"><defs><marker id="wb-arrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z"/></marker></defs>' +
+      L.links.map(function (d) { return '<path d="' + d + '" marker-end="url(#wb-arrow)"/>'; }).join("") + "</svg>";
+    L.texts.forEach(function (t) { html += '<p class="wb-text" style="left:' + t.x + "px;top:" + t.y + 'px">' + esc(t.t[0]) + "<small>" + esc(t.t[1]) + "</small></p>"; });
+    L.sections.forEach(function (sec) {
+      var title = sec.st ? sec.st.title : sec.title, goal = sec.st ? sec.st.goal : sec.goal, frac = sec.frac;
+      if (sec.st) { var ss = stageState(sec.st); frac = ss.done + "/" + ss.total + " 步"; }
+      html += '<div class="wb-section wb-c-' + sec.color + '" style="left:' + sec.x + "px;top:" + sec.y + "px;width:" + sec.w + "px;height:" + sec.h + 'px"><p class="wb-section-title"><span>' + esc(title) + '</span><span class="frac">' + esc(frac) + "</span></p>" + (goal ? '<p class="wb-goal">' + esc(goal) + "</p>" : "") + "</div>";
+    });
+    L.nodes.forEach(function (n) {
+      boardNodes[n.id] = n;
+      var pos = 'style="left:' + n.x + "px;top:" + n.y + "px;width:" + n.w + "px;height:" + n.h + 'px"', sel = n.id === selectedNode ? " is-selected" : "";
+      if (n.kind === "drug") {
+        var st = cardOf(n.drug.key);
+        html += '<button type="button" class="wb-card wb-drug' + sel + '" data-node="' + esc(n.id) + '" ' + pos + '><span class="wb-card-title">' + esc(n.drug.name) + '</span><span class="wb-card-sub">' + esc(n.drug.cls) + '</span><span class="state-chip ' + st + '">' + STATE_LABEL[st] + "</span></button>";
+        return;
+      }
+      var s = nodeState(n), cls = (s.complete ? " is-done" : s.started ? " is-partial" : "") + (s.pending ? " is-pending" : "") + (n.id === nextId ? " is-next" : "") + sel;
+      var title = n.kind === "quiz" ? "本站測驗：答對率 " + Math.round(PATH.passRate * 100) + "% 以上" : n.step.label;
+      var sub = n.kind === "read" ? n.step.chapterTitle + (s.pending ? "" : "，" + hours(n.step.min)) : n.kind === "quiz" ? stageQuiz(n.stage).ids.map(function (id) { return chapterById[id].title; }).join("、") : n.kind === "wrong" ? "測驗中心" : "藥物卡";
+      html += '<button type="button" class="wb-card' + cls + '" data-node="' + esc(n.id) + '" ' + pos + (s.pending ? ' aria-disabled="true"' : "") + '><span class="tick"></span>' + (n.id === nextId ? '<span class="next-flag">下一步</span>' : "") +
+        '<span class="wb-card-title">' + esc(title) + '</span><span class="wb-card-sub">' + esc(sub) + '</span><span class="wb-card-foot">' + bar(s.done || 0, s.total || 0) + "<span>" + esc(s.foot) + "</span></span></button>";
+    });
+    worldEl.innerHTML = html;
+    $("board-next").hidden = boardMode !== "path" || !nextId;
+  }
+  function applyCam() {
+    worldEl.style.transform = "translate(" + cam.x + "px," + cam.y + "px) scale(" + cam.s + ")";
+    canvasEl.style.backgroundPosition = cam.x + "px " + cam.y + "px";
+    canvasEl.style.backgroundSize = 24 * cam.s + "px " + 24 * cam.s + "px";
+    $("board-zoom").textContent = Math.round(cam.s * 100) + "%";
+  }
+  function clampZoom(s) { return Math.max(0.15, Math.min(2, s)); }
+  function viewSize() {
+    var w = canvasEl.clientWidth, h = canvasEl.clientHeight;
+    var pw = !panelEl.hidden && w > 860 ? panelEl.offsetWidth + 24 : 0;   // 右側卡片面板開著時，可見範圍往左縮
+    return { w: w - pw, h: h };
+  }
+  function zoomAt(px, py, factor) {
+    var ns = clampZoom(cam.s * factor), k = ns / cam.s;
+    cam.x = px - (px - cam.x) * k; cam.y = py - (py - cam.y) * k; cam.s = ns;
+    applyCam();
+  }
+  function fitBoard() {
+    var v = viewSize();
+    cam.s = clampZoom(Math.min((v.w - 64) / boardBounds.w, (v.h - 150) / boardBounds.h, 1));
+    cam.x = (v.w - boardBounds.w * cam.s) / 2; cam.y = Math.max(64, (v.h - boardBounds.h * cam.s) / 2);
+    applyCam();
+  }
+  function focusNode(id, scale) {
+    var n = boardNodes[id], v = viewSize();
+    if (!n) { fitBoard(); return; }
+    if (scale) cam.s = clampZoom(scale);
+    cam.x = v.w / 2 - (n.x + n.w / 2) * cam.s; cam.y = v.h / 2 - (n.y + n.h / 2) * cam.s;
+    applyCam();
+  }
+  function initBoard() {
+    if (boardReady) return;
+    boardReady = true;
+    $("board-tab-drugs").hidden = !DRUGS.length;
+    renderBoard();
+    var next = nextNodeId();
+    if (next) focusNode(next, canvasEl.clientWidth > 860 ? 0.85 : 0.7); else fitBoard();
+  }
+  function cloneSection(secId) {
+    var frag = document.createDocumentFragment(), n = $(secId);
+    while (n) {
+      var c = n.cloneNode(true);
+      c.removeAttribute("id");
+      all("[id]", c).forEach(function (x) { x.removeAttribute("id"); });
+      frag.appendChild(c);
+      n = n.nextElementSibling;
+      if (!n || n.tagName === "H2" || n.classList.contains("chapter-end")) break;
+    }
+    return frag;
+  }
+  function openNode(id, keepScroll) {
+    var n = boardNodes[id];
+    if (!n) return;
+    var body = $("wb-panel-body"), full = $("wb-panel-full"), top = keepScroll ? body.scrollTop : 0, s, q;
+    if (n.kind !== "drug" && nodeState(n).pending) return;
+    selectedNode = id;
+    all(".wb-card", worldEl).forEach(function (c) { c.classList.toggle("is-selected", c.getAttribute("data-node") === id); });
+    body.innerHTML = "";
+    full.hidden = false;
+    if (n.kind === "drug") {
+      var d = n.drug, st = cardOf(d.key);
+      $("wb-panel-kicker").textContent = chapterById[d.chapter] ? chapterById[d.chapter].title : "藥物卡";
+      $("wb-panel-title").textContent = d.name;
+      $("wb-panel-meta").textContent = "目前：" + STATE_LABEL[st];
+      body.innerHTML = '<div data-key="' + esc(d.key) + '">' + facts(d) + '<p class="drug-actions"><button type="button" class="btn" data-act="card-learn">還不熟</button><button type="button" class="btn btn-primary" data-act="card-know">會了</button></p></div>';
+      full.setAttribute("href", "#" + d.chapter); full.textContent = "讀這一章";
+    } else if (n.kind === "read") {
+      s = stepState(n.step);
+      $("wb-panel-kicker").textContent = n.stage.title;
+      $("wb-panel-title").textContent = n.step.label;
+      $("wb-panel-meta").textContent = n.step.chapterTitle + "，" + n.step.secs.length + " 段，" + hours(n.step.min) + "；已讀 " + s.done + " 段";
+      n.step.secs.forEach(function (sec) { body.appendChild(cloneSection(sec)); });
+      full.setAttribute("href", "#" + firstUnread(n.step)); full.textContent = "整頁閱讀";
+      paintRead();
+    } else if (n.kind === "quiz") {
+      q = stageQuiz(n.stage);
+      $("wb-panel-kicker").textContent = n.stage.title;
+      $("wb-panel-title").textContent = "本站測驗";
+      $("wb-panel-meta").textContent = "已答 " + q.answered + "/" + q.total + " 題，答對 " + q.correct + " 題；門檻是全部答完且答對率 " + Math.round(PATH.passRate * 100) + "% 以上";
+      body.innerHTML = q.ids.map(function (cid) {
+        var x = quizStats([cid]);
+        return '<div class="score-row"><a href="#' + esc(quizSection(cid)) + '">' + esc(chapterById[cid].title) + "</a>" + bar(x.correct, x.total) + '<span class="frac">答對 ' + x.correct + "/" + x.total + "</span></div>";
+      }).join("") + '<p class="muted">點章名到該章的自我測驗作答；也可以到測驗中心跨章抽題、重做錯題。</p>';
+      full.setAttribute("href", "#quiz"); full.textContent = "測驗中心";
+    } else {
+      s = stepState(n.step);
+      $("wb-panel-kicker").textContent = n.stage.title;
+      $("wb-panel-title").textContent = n.step.label;
+      $("wb-panel-meta").textContent = n.kind === "wrong" ? s.text : "會了 " + s.done + "/" + s.total + " 張";
+      body.innerHTML = '<p class="muted">' + (n.kind === "wrong" ? "錯題本在測驗中心。把出題方式選「只做錯題」，重做到每一題都答對。" : "藥物卡可以用列表搜尋，也可以翻卡練習；白板上方切到「藥物地圖」可以看全部的藥。") + "</p>";
+      full.setAttribute("href", n.kind === "wrong" ? "#quiz" : "#drugs"); full.textContent = n.kind === "wrong" ? "測驗中心" : "藥物卡";
+    }
+    panelEl.hidden = false;
+    body.scrollTop = top;
+    if (!keepScroll && canvasEl.clientWidth > 860) {   // 卡片被面板蓋住時，把它移回可見範圍
+      var v = viewSize(), right = cam.x + (n.x + n.w) * cam.s;
+      if (right > v.w - 16) { cam.x -= right - (v.w - 40); applyCam(); }
+    }
+  }
+  function closePanel() {
+    panelEl.hidden = true; selectedNode = null;
+    all(".wb-card.is-selected", worldEl).forEach(function (c) { c.classList.remove("is-selected"); });
+  }
+  function setBoardMode(mode) {
+    if (mode === boardMode) return;
+    boardMode = mode; closePanel();
+    all(".board-tabs button").forEach(function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-mode") === mode ? "true" : "false"); });
+    renderBoard(); fitBoard();
+  }
+
+  // 拖曳移動、雙指縮放、Ctrl＋滾輪縮放
+  var ptrs = {}, drag = null, pinch = null, boardDragged = false;
+  function ptrDist(a, b) { return Math.hypot(a.x - b.x, a.y - b.y) || 1; }
+  canvasEl.addEventListener("pointerdown", function (e) {
+    if (e.pointerType === "mouse" && e.button !== 0) return;
+    ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+    var ids = Object.keys(ptrs);
+    if (ids.length === 1) { drag = { id: e.pointerId, x: e.clientX, y: e.clientY, cx: cam.x, cy: cam.y }; boardDragged = false; }
+    else if (ids.length === 2) {
+      var a = ptrs[ids[0]], b = ptrs[ids[1]];
+      pinch = { d: ptrDist(a, b), s: cam.s, mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2, cx: cam.x, cy: cam.y };
+      boardDragged = true;
+    }
+  });
+  canvasEl.addEventListener("pointermove", function (e) {
+    if (!ptrs[e.pointerId]) return;
+    ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+    var ids = Object.keys(ptrs), r = canvasEl.getBoundingClientRect();
+    if (ids.length >= 2 && pinch) {
+      var a = ptrs[ids[0]], b = ptrs[ids[1]];
+      var ns = clampZoom(pinch.s * ptrDist(a, b) / pinch.d), k = ns / pinch.s;
+      cam.s = ns;
+      cam.x = (a.x + b.x) / 2 - r.left - (pinch.mx - r.left - pinch.cx) * k;
+      cam.y = (a.y + b.y) / 2 - r.top - (pinch.my - r.top - pinch.cy) * k;
+      applyCam();
+      return;
+    }
+    if (drag && e.pointerId === drag.id) {
+      var dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+      if (!boardDragged && Math.abs(dx) + Math.abs(dy) < 6) return;
+      if (!boardDragged) { boardDragged = true; canvasEl.classList.add("is-dragging"); try { canvasEl.setPointerCapture(e.pointerId); } catch (err) { /* 沒有也能拖 */ } }
+      cam.x = drag.cx + dx; cam.y = drag.cy + dy;
+      applyCam();
+    }
+  });
+  function endPtr(e) {
+    delete ptrs[e.pointerId];
+    var ids = Object.keys(ptrs);
+    if (ids.length < 2) pinch = null;
+    if (ids.length === 1) { var p = ptrs[ids[0]]; drag = { id: +ids[0], x: p.x, y: p.y, cx: cam.x, cy: cam.y }; }
+    else if (!ids.length) { drag = null; canvasEl.classList.remove("is-dragging"); setTimeout(function () { boardDragged = false; }, 0); }
+  }
+  canvasEl.addEventListener("pointerup", endPtr);
+  canvasEl.addEventListener("pointercancel", endPtr);
+  canvasEl.addEventListener("wheel", function (e) {
+    e.preventDefault();
+    var unit = e.deltaMode === 1 ? 16 : 1, r = canvasEl.getBoundingClientRect();
+    if (e.ctrlKey || e.metaKey) zoomAt(e.clientX - r.left, e.clientY - r.top, Math.exp(-e.deltaY * unit * 0.01));
+    else { cam.x -= e.deltaX * unit; cam.y -= e.deltaY * unit; applyCam(); }
+  }, { passive: false });
+  canvasEl.addEventListener("focusin", function (e) {   // 用鍵盤移到畫面外的卡片時，把它帶進畫面
+    var c = e.target.closest ? e.target.closest(".wb-card") : null;
+    if (!c || !c.matches(":focus-visible")) return;
+    var n = boardNodes[c.getAttribute("data-node")], v = viewSize();
+    if (!n) return;
+    var l = cam.x + n.x * cam.s, t = cam.y + n.y * cam.s;
+    if (l < 0 || t < 0 || l + n.w * cam.s > v.w || t + n.h * cam.s > v.h) focusNode(n.id);
+    canvasEl.scrollLeft = 0; canvasEl.scrollTop = 0;
+  });
+
+  function refresh() {
+    renderChips(); renderHome(); renderPath(); paintRead(); paintQuizzes();
+    if (!session) renderQuizCenter();
+    if (!flash) renderDrugs();
+    if (boardReady) {
+      renderBoard();
+      if (!panelEl.hidden && selectedNode && boardNodes[selectedNode] && boardNodes[selectedNode].kind !== "read") openNode(selectedNode, true);
+    }
+  }
 
   // ---------- 章節：插入「讀完打勾」與測驗列 ----------
   all(".chapter").forEach(function (view) {
@@ -1041,7 +1470,7 @@ a.step:hover { background: var(--raised); text-decoration: none; }
   function show(id, anchorId) {
     // section 的 id 加上 v- 前綴，避免瀏覽器依網址 hash 自動捲動
     var view = $("v-" + id);
-    if (!view) { view = $("v-home"); id = "home"; }
+    if (!view) { view = $("v-board"); id = "board"; }
     if (current !== id) {
       views.forEach(function (v) { v.hidden = v !== view; });
       navLinks.forEach(function (a) {
@@ -1052,6 +1481,7 @@ a.step:hover { background: var(--raised); text-decoration: none; }
       crumb.innerHTML = view.classList.contains("chapter") ? "手冊 / <strong>" + esc(title) + "</strong>" : "<strong>" + esc(title) + "</strong>";
       current = id;
       observeToc(view);
+      if (id === "board") initBoard();
     }
     setMenu(false);
     if (anchorId) {
@@ -1062,7 +1492,7 @@ a.step:hover { background: var(--raised); text-decoration: none; }
   }
   function route() {
     var h = decodeURIComponent(location.hash.replace(/^#/, ""));
-    var parts = h ? h.split("--") : ["home"];
+    var parts = h ? h.split("--") : ["board"];
     current = null;
     show(parts[0], parts.length > 1 ? h : null);
   }
@@ -1117,8 +1547,8 @@ a.step:hover { background: var(--raised); text-decoration: none; }
       all("#drug-groups button").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
       renderDrugs();
     },
-    "card-know": function (b) { setCard(b.closest(".drug").getAttribute("data-key"), "know"); },
-    "card-learn": function (b) { setCard(b.closest(".drug").getAttribute("data-key"), "learn"); },
+    "card-know": function (b) { setCard(b.closest("[data-key]").getAttribute("data-key"), "know"); },
+    "card-learn": function (b) { setCard(b.closest("[data-key]").getAttribute("data-key"), "learn"); },
     "flash-start": startFlash,
     "flash-flip": function () { flash.flipped = true; renderFlash(); },
     "flash-know": function () { var d = flash.list[flash.i]; flash.know++; flash.i++; flash.flipped = false; setCard(d.key, "know"); renderFlash(); },
@@ -1129,6 +1559,12 @@ a.step:hover { background: var(--raised); text-decoration: none; }
       renderFlash();
     },
     "flash-exit": function () { flash = null; $("drugs-flash").hidden = true; $("drugs-flash").innerHTML = ""; $("drugs-browse").hidden = false; renderDrugs(); },
+    "board-mode": function (b) { setBoardMode(b.getAttribute("data-mode")); },
+    "board-zoom-in": function () { var v = viewSize(); zoomAt(v.w / 2, v.h / 2, 1.25); },
+    "board-zoom-out": function () { var v = viewSize(); zoomAt(v.w / 2, v.h / 2, 0.8); },
+    "board-fit": fitBoard,
+    "board-next": function () { var id = nextNodeId(); if (id) focusNode(id, Math.max(cam.s, 0.8)); },
+    "board-close": closePanel,
     "reset-all": function (b) {
       if (Date.now() - resetArmed > 5000) {
         resetArmed = Date.now();
@@ -1146,6 +1582,8 @@ a.step:hover { background: var(--raised); text-decoration: none; }
   document.addEventListener("click", function (e) {
     var t = e.target;
     if (!t.closest) return;
+    var wbCard = t.closest(".wb-card");
+    if (wbCard) { if (!boardDragged) openNode(wbCard.getAttribute("data-node")); return; }
     var opt = t.closest(".quiz-opt");
     if (opt) { answer(opt.closest(".quiz-q"), opt.getAttribute("data-k")); return; }
     var readBtn = t.closest(".btn-read");
@@ -1230,6 +1668,12 @@ a.step:hover { background: var(--raised); text-decoration: none; }
   });
   document.addEventListener("keydown", function (e) {
     var tag = document.activeElement ? document.activeElement.tagName : "";
+    if (current === "board" && tag !== "INPUT" && tag !== "SELECT" && tag !== "TEXTAREA") {
+      if (e.key === "Escape" && !panelEl.hidden) { closePanel(); return; }
+      if (e.key === "+" || e.key === "=") { ACTIONS["board-zoom-in"](); return; }
+      if (e.key === "-") { ACTIONS["board-zoom-out"](); return; }
+      if (e.key === "0") { fitBoard(); return; }
+    }
     if (e.key === "/" && tag !== "INPUT" && tag !== "SELECT" && tag !== "TEXTAREA") {
       e.preventDefault();
       $(window.innerWidth > 860 ? "search" : "search-mobile").focus();

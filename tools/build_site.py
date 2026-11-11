@@ -338,6 +338,14 @@ def main() -> int:
             body, tokens = convert(md_text)
             body = rewrite(body, c["id"], file_to_id, c["file"])
             body, info["quiz"] = quizify(body, c["id"])
+            status = c.get("status", "已查核")
+            if status != "已查核":   # 還沒通過獨立查核的章節，開頭先講清楚
+                note = (
+                    '<blockquote class="callout callout-caution"><p class="callout-label">待核對</p>'
+                    f'<p><strong class="callout-title">這一章目前的狀態：{html.escape(status)}</strong>'
+                    "內容還沒有經過獨立查核。劑量、年份與試驗數字請先對照章末的原始文獻，不要直接用在臨床判斷。</p></blockquote>"
+                )
+                body = body.replace("</h1>", "</h1>" + note, 1)
             body = body.replace(
                 "<!-- drug-cards -->",
                 '<p class="to-cards"><a href="#drugs">到「藥物卡」把這張表變成翻卡練習</a></p>',
@@ -398,7 +406,7 @@ def main() -> int:
 
     # 站內連結檢查：指向不存在錨點的連結印出警告
     joined = "".join(sections)
-    routes = {"home", "path", "quiz", "drugs", "clawd-body"}
+    routes = {"board", "home", "path", "quiz", "drugs", "clawd-body"}
     ids = set(re.findall(r'id="([^"]+)"', joined)) | routes | set(file_to_id.values())
     broken = sorted({h for h in re.findall(r'href="#([^"]+)"', joined) if h not in ids})
     for h in broken:
@@ -422,10 +430,16 @@ def main() -> int:
 
     SITE.mkdir(exist_ok=True)
     (SITE / "artifact.html").write_text(page, encoding="utf-8")
+    # 離線檔與 GitHub Pages 用的完整 HTML：把 <title>、字型與樣式放進 <head>
+    cut = page.index("</style>") + len("</style>")
     standalone = (
         '<!doctype html>\n<html lang="zh-Hant">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
-        "</head>\n<body>\n" + page + "\n</body>\n</html>\n"
+        f'<meta name="description" content="{html.escape(config["subtitle"])}">\n'
+        + page[:cut]
+        + "\n</head>\n<body>\n"
+        + page[cut:]
+        + "\n</body>\n</html>\n"
     )
     (SITE / "index.html").write_text(standalone, encoding="utf-8")
     quiz_total = sum(i["quiz"] for i in built.values())
