@@ -51,7 +51,7 @@
 | 1942 | Yale 的 Gilman 與 Goodman 做完兔子與小鼠實驗後，8 月 27 日第一位淋巴肉瘤病人接受 nitrogen mustard 靜脈注射（Christakis, 2011; Fenn & Udelsman, 2011） | 第一次靜脈化療：腫瘤縮小、很快復發、骨髓被打垮 |
 | 1943 | 義大利 Bari 港空襲，超過 100 噸芥子氣意外外洩（Turner & Sapp, 2026; Alexander, 1947） | 傷患的醫學報告讓芥子類化合物對血球的作用更受注意 |
 | 1946 | Nitrogen mustard 治療 Hodgkin 病、淋巴肉瘤與白血病的臨床結果在 JAMA 發表（Goodman & Wintrobe, 1946） | 戰時保密解除，化療正式進入醫學文獻 |
-| 1948 | Farber 用葉酸拮抗劑 aminopterin 讓急性白血病兒童得到暫時緩解（Farber et al., 1948） | 第一個抗代謝物；之後由 methotrexate 接手 |
+| 1948 | Farber 用葉酸拮抗劑 aminopterin 讓急性白血病兒童得到暫時緩解（Farber et al., 1948） | 抗葉酸藥是最早被研究的一類抗代謝物；之後由 methotrexate 接手（Falzone et al., 2018） |
 | 1957 | Heidelberger 等人發表氟化嘧啶，其中包括 5-fluorouracil（Heidelberger et al., 1957） | 第一個嘧啶類抗代謝物，至今仍是腸胃道癌的骨幹（Falzone et al., 2018） |
 | 1959 | Cyclophosphamide 在美國核准（BluePoint, 2026） | 把 nitrogen mustard 做成「運送型」前驅藥，治療指數提高（Brock, 1989） |
 | 1950 年代末 | 從長春花（Catharanthus roseus）找到 vinblastine 與 vincristine 兩個生物鹼（Noble, 1990; Falzone et al., 2018） | 第一類抗微管藥 |
@@ -60,9 +60,9 @@
 | 1966 | Wall 與 Wani 從喜樹（Camptotheca acuminata）分離出 camptothecin；同年日本發現 bleomycin（Falzone et al., 2018; Umezawa et al., 1966） | Topoisomerase I 抑制劑與 bleomycin 的起點 |
 | 1971 | Wani 等人發表太平洋紫杉（Taxus brevifolia）中 taxol 的結構（Wani et al., 1971） | Paclitaxel 的起點 |
 | 1974 | 高劑量 methotrexate 加 citrovorum factor（leucovorin）用於骨肉瘤術後輔助（Jaffe et al., 1974） | 「先下重藥、再救正常細胞」的做法成形 |
-| 1977 | Cisplatin ＋ vinblastine ＋ bleomycin 治療轉移性睪丸癌，完全緩解 74%（Einhorn & Donohue, 1977） | 證明合併化療能治癒轉移性實體腫瘤 |
+| 1977 | Cisplatin ＋ vinblastine ＋ bleomycin 治療轉移性睪丸癌，完全緩解 74%（Einhorn & Donohue, 1977） | 轉移性實體腫瘤也能靠合併化療得到高比例的完全緩解 |
 | 1978 | Cisplatin 獲美國 FDA 核准（Dasari & Tchounwou, 2014; WG Critical Care, 2026） | 第一個鉑類藥 |
-| 1979 | Horwitz 團隊發現 taxol 會促進微管聚合（Schiff et al., 1979） | 和 vinca 相反的全新機轉 |
+| 1979 | Horwitz 團隊發現 taxol 會促進微管聚合（Schiff et al., 1979） | 和 vinca 相反：vinca 阻止微管聚合，taxol 促進聚合（Weaver, 2014） |
 | 1985 | 證實 camptothecin 的標靶是 topoisomerase I（Hsiang et al., 1985） | 兩年後日本發表水溶性衍生物 CPT-11，即 irinotecan（Kunimoto et al., 1987） |
 | 1989 | Calvert 公式發表：carboplatin 劑量 = 目標 AUC ×（GFR ＋ 25）（Calvert et al., 1989） | 劑量依腎功能計算，而不是依體表面積 |
 | 1995 | Pegylated liposomal doxorubicin 成為第一個 FDA 核准的奈米藥物（Barenholz, 2012） | 化療進入「換包裝」的時代 |
@@ -201,7 +201,7 @@ Goldie 與 Coldman 用數學模型把腫瘤的藥物敏感性和自發突變率�
 
 ### 2.5 為什麼要合併用藥
 
-單一藥物很少能治癒癌症。1960 到 1970 年代初，合併化療治癒了兒童急性白血病與晚期 Hodgkin 病，才扭轉了「藥物治不好晚期癌症」的悲觀看法，並帶動輔助化療的研究（DeVita & Chu, 2008）。Hodgkin 病的 MOPP 四藥處方讓八成病人達到完全緩解（Falzone et al., 2018）。
+最早的單一藥物只帶來短暫的緩解，第一位 nitrogen mustard 病人與 Farber 的白血病兒童都是如此（1.2、1.3）。1960 到 1970 年代初，合併化療治癒了兒童急性白血病與晚期 Hodgkin 病，才扭轉了「藥物治不好晚期癌症」的悲觀看法，並帶動輔助化療的研究（DeVita & Chu, 2008）。Hodgkin 病的 MOPP 四藥處方讓八成病人達到完全緩解（Falzone et al., 2018）。
 
 設計合併處方的三個原則：
 
@@ -215,7 +215,7 @@ Goldie 與 Coldman 用數學模型把腫瘤的藥物敏感性和自發突變率�
 
 **治療指數（therapeutic index）** 是「產生毒性的劑量」與「產生療效的劑量」之間的距離。化療藥的治療指數窄，所以劑量要依體表面積或腎功能個別計算（見[化療基礎第 2 節](../00-shared/01-chemo-basics.md#2-體表面積bsa計算)）。化療史上的改良大多是在把這個距離拉開：cyclophosphamide 的設計目標就是提高烷化劑的治療指數，mesna 又進一步加寬（Brock, 1989）。
 
-化療攻擊分裂中的細胞，而身體裡分裂最快的正常組織就是骨髓、口腔與腸道黏膜（Accord, 2026）以及毛囊。
+化療攻擊分裂中的細胞。Methotrexate 的仿單就寫：增殖活躍的組織，例如癌細胞、骨髓、口腔與腸道黏膜，對藥物最敏感（Accord, 2026）；毛囊的毛基質細胞也是（Paus et al., 2013）。
 
 | 正常組織 | 為什麼受傷 | 看到什麼 | 連到哪裡 |
 |---------|-----------|---------|---------|
@@ -251,9 +251,9 @@ Mesna 會在尿液中和 ifosfamide 的代謝物 acrolein 與 4-hydroxy-ifosfami
 
 | 藥物 | 特點 | 招牌毒性與監測 | 本手冊用在哪 |
 |------|------|--------------|-------------|
-| cisplatin | 第一代；主要由腎臟排出（WG Critical Care, 2026） | 加框警語：腎毒性（劑量相關且累積）、周邊神經病變、噁心嘔吐、骨髓抑制；耳毒性會累積。要水化、監測腎功能與電解質、用高效止吐，考慮聽力檢查（WG Critical Care, 2026） | 肺癌（[肺癌章 5.1–5.3](../01-lung-cancer.md#5-常用處方regimen)）；骨肉瘤 MAP（[肉瘤章 5.1](../04-sarcoma.md#51-骨肉瘤map-與高劑量-methotrexate)、[6.4](../04-sarcoma.md#64-cisplatin腎耳與神經)） |
-| carboplatin | 第二代；活化（aquation）比 cisplatin 慢；主要經腎排出（Natco, 2026） | 骨髓抑制是劑量相關的主要毒性，血小板低下比 cisplatin 明顯，最低點約在第 21 天；可能在幾分鐘內發生類過敏反應；嘔吐、神經、耳、腎毒性都比 cisplatin 少（Natco, 2026） | 肺癌；乳癌 TCH、TCHP 與 KEYNOTE-522（[乳癌章 5.2](../03-breast-cancer.md#52-her2-陽性抗-her2-抗體與化療組合)） |
-| oxaliplatin | 第三代；帶 DACH 配位基（Sagent, 2025） | 加框警語：過敏與 anaphylaxis，任何週期、幾分鐘內都可能發生。急性感覺神經病變約 56%，遇冷誘發或加重；另有持續性神經病變。CrCl < 30 mL/min 要減量（Sagent, 2025） | 胰臟癌 FOLFIRINOX、NALIRIFOX（[胰臟癌章 5.1](../02-pancreatic-cancer.md#51-folfirinox-家族輔助-mfolfirinox-與轉移性-folfirinox)、[6.3](../02-pancreatic-cancer.md#63-oxaliplatin)） |
+| cisplatin | 第一代（Falzone et al., 2018）；主要由腎臟排出（WG Critical Care, 2026） | 加框警語：腎毒性（劑量相關且累積）、周邊神經病變、噁心嘔吐、骨髓抑制；耳毒性會累積。要水化、監測腎功能與電解質、用高效止吐，考慮聽力檢查（WG Critical Care, 2026） | 肺癌（[肺癌章 5.1–5.3](../01-lung-cancer.md#5-常用處方regimen)）；骨肉瘤 MAP（[肉瘤章 5.1](../04-sarcoma.md#51-骨肉瘤map-與高劑量-methotrexate)、[6.4](../04-sarcoma.md#64-cisplatin腎耳與神經)） |
+| carboplatin | 第二代（Kelland, 2007）；活化（aquation）比 cisplatin 慢；主要經腎排出（Natco, 2026） | 骨髓抑制是劑量相關的主要毒性，血小板低下比 cisplatin 明顯，最低點約在第 21 天；可能在幾分鐘內發生類過敏反應；嘔吐、神經、耳、腎毒性都比 cisplatin 少（Natco, 2026） | 肺癌；乳癌 TCH、TCHP 與 KEYNOTE-522（[乳癌章 5.2](../03-breast-cancer.md#52-her2-陽性抗-her2-抗體與化療組合)） |
+| oxaliplatin | 第三代（Falzone et al., 2018）；帶 DACH 配位基（Sagent, 2025） | 加框警語：過敏與 anaphylaxis，任何週期、幾分鐘內都可能發生。急性感覺神經病變約 56%，遇冷誘發或加重；另有持續性神經病變。CrCl < 30 mL/min 要減量（Sagent, 2025） | 胰臟癌 FOLFIRINOX、NALIRIFOX（[胰臟癌章 5.1](../02-pancreatic-cancer.md#51-folfirinox-家族輔助-mfolfirinox-與轉移性-folfirinox)、[6.3](../02-pancreatic-cancer.md#63-oxaliplatin)） |
 
 > [!IMPORTANT]
 > **三個鉑類，三種劑量限制毒性**
@@ -326,7 +326,7 @@ Mesna 會在尿液中和 ifosfamide 的代謝物 acrolein 與 4-hydroxy-ifosfami
 
 > [!TIP]
 > **鷹架的比喻**
-> 微管像工地的鷹架，蓋的時候要搭、蓋完要拆，細胞分裂時每幾分鐘就搭拆一輪。Vinca 與 eribulin 讓鷹架搭不起來；taxane 是把鷹架焊死、拆不掉。兩種做法都讓工程停擺。神經細胞的長軸突也靠微管運送物質，所以這一類藥的共同毒性是周邊神經病變，而且從最長的神經（手指、腳趾）開始。
+> 微管像工地的鷹架，蓋的時候要搭、蓋完要拆，細胞分裂時要不停地搭了又拆。Vinca 與 eribulin 讓鷹架搭不起來；taxane 是把鷹架焊死、拆不掉。兩種做法都讓工程停擺。周邊神經病變是這一類藥的共同毒性；一般推測是最長的神經軸突裡靠微管進行的運送受到影響，不過直接證據還不多（Weaver, 2014）。
 
 > [!WARNING]
 > **Vincristine 只能靜脈給**

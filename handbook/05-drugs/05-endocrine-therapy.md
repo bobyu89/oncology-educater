@@ -243,6 +243,7 @@ Raloxifene 的定位來自 STAR 試驗：19,747 位停經後高風險女性，ra
 | **exemestane** | 類固醇，不可逆的「自殺性抑制」 | 25 mg 每天一次，**餐後** | 約 24 小時；CYP3A4 | 併用強效 CYP3A4 誘導劑（rifampicin、phenytoin）時改為 50 mg；開始前查 25-OH vitamin D（Pharmacia & Upjohn, 2025） |
 
 - 三個藥的適應症略有不同（例如 exemestane 的輔助適應症是 tamoxifen 用 2–3 年後接續），但整合分析把三者合併看，結論一致：比 tamoxifen 多降低約三成的復發（Early Breast Cancer Trialists' Collaborative Group, 2015）。
+- Exemestane 的輔助試驗中，關節痛 15%，tamoxifen 9%；熱潮紅兩者相近（21% 對 20%）（Pharmacia & Upjohn, 2025）。
 - 非類固醇與類固醇 AI 的結構不同，臨床上的意義之一是「換一個試試看」：因副作用停掉第一個 AI 的病人，換成另一個之後 38.6% 可以繼續服用（Henry et al., 2012）。
 - Anastrozole 與 exemestane 的仿單都寫明不要與含雌激素的製劑併用，因為會抵銷藥效（ANI Pharmaceuticals, 2026；Pharmacia & Upjohn, 2025）。
 
@@ -259,13 +260,13 @@ Raloxifene 的定位來自 STAR 試驗：19,747 位停經後高風險女性，ra
 | 卵巢放射線照射 | 放射治療 | 不可逆 | SOFT 與 TEXT 允許的第三種方法（Pagani et al., 2014） |
 
 - **機轉**：GnRH agonist 持續佔住腦下垂體的受體，LH 與 FSH 先上升、後下降，卵巢最後停工（TerSera, 2026）。
-- **代價**：等於提早停經。ASCO 指出，與單用 tamoxifen 相比，加上卵巢抑制會明顯增加更年期症狀與性功能障礙，生活品質下降（Burstein et al., 2016）。
+- **代價**：等於提早停經。ASCO 指出，與單用 tamoxifen 相比，加上卵巢抑制會明顯增加更年期症狀與性功能障礙，生活品質下降（Burstein et al., 2016）；goserelin 仿單的警語也包括骨密度下降（TerSera, 2026）。
 - **台灣**：goserelin、leuprorelin、triptorelin 的許可證狀態與健保 5.5.1 的條件，乳癌章已整理（[乳癌章 4.4](../03-breast-cancer.md#44-早期-hrher2內分泌治療是底其他是加分) 的警示框與 [5.5](../03-breast-cancer.md#55-內分泌治療與-cdk46-抑制劑)），開立前先確認院內有哪一個藥。
 - GnRH agonist 在化療期間保護卵巢的用途（POEMS）是另一個題目，見[乳癌章 6.12](../03-breast-cancer.md#612-生育力懷孕與避孕)。
 
 ### 3.4 SERD 與 PROTAC 降解劑
 
-**Fulvestrant** 是唯一的注射型 SERD：ER 拮抗劑，會讓乳癌細胞的 ER 蛋白減少，沒有促效作用（Osborne et al., 2004；AstraZeneca, 2020）。美國仿單的適應症是停經後 HR 陽性、HER2 陰性晚期乳癌的單獨使用（未曾用過內分泌治療，或內分泌治療後惡化），以及與 palbociclib、abemaciclib、ribociclib 合用。未曾用過內分泌治療的病人，fulvestrant 的無惡化存活比 anastrozole 長（FALCON：16.6 對 13.8 個月，HR 0.797，0.637–0.999）（Robertson et al., 2016）。給法見 [4.3](#43-fulvestrant長效肌肉注射與負荷劑量)。
+**Fulvestrant** 是唯一的注射型 SERD：ER 拮抗劑，會讓乳癌細胞的 ER 蛋白減少，沒有促效作用（Osborne et al., 2004；AstraZeneca, 2020）。美國仿單的適應症是停經後 HR 陽性、HER2 陰性晚期乳癌的單獨使用（未曾用過內分泌治療，或內分泌治療後惡化），以及與 palbociclib、abemaciclib、ribociclib 合用。未曾用過內分泌治療的病人，fulvestrant 的無惡化存活比 anastrozole 長（FALCON：16.6 對 13.8 個月，HR 0.797，0.637–0.999）（Robertson et al., 2016）。CONFIRM 試驗 500 mg 組最常見的不良反應是注射部位疼痛 12%、噁心 10%、骨痛 9%（AstraZeneca, 2020）。給法見 [4.3](#43-fulvestrant長效肌肉注射與負荷劑量)。
 
 **口服 SERD 與 PROTAC**（以下都是美國仿單；台灣的藥證與健保狀態見[乳癌章 4.12](../03-breast-cancer.md#412-新藥與常用藥在台灣的藥證與健保狀態)）：
 
@@ -275,6 +276,8 @@ Raloxifene 的定位來自 STAR 試驗：19,747 位停經後高風險女性，ra
 | **imlunestrant**（2025 年核准） | 成人 ER 陽性、HER2 陰性晚期乳癌，至少一線內分泌治療後惡化；單用或併用 abemaciclib | 400 mg 每天一次，**空腹**（餐前至少 2 小時或餐後 1 小時） | 強效 CYP3A 抑制劑：避免，不得已時減為 200 mg；強效誘導劑：避免，不得已時增為 600 mg | 血紅素下降 30%、肌肉骨骼疼痛 30%、疲倦 23%、腹瀉 22%（Eli Lilly and Company, 2026） |
 | **camizestrant**（2026 年加速核准） | 與 CDK4/6 抑制劑合用；在「AI 加 CDK4/6 抑制劑」治療期間驗出 ESR1 突變時，把 AI 換成它 | 75 mg 每天一次，與進食無關 | 見下方警示框 | 心搏過緩 8%、QTc 延長 2.6%、視覺異常 34%（AstraZeneca, 2026） |
 | **vepdegestrant**（2026 年核准） | 成人 ER 陽性、HER2 陰性晚期乳癌，至少一線內分泌治療後惡化 | 200 mg 每天一次，**隨餐** | 強效 CYP3A 抑制劑：避免，不得已時減為 100 mg；強效誘導劑：避免，不得已時增為 300 mg；避免併用延長 QT 的藥 | QTc 延長 10%：治療前驗 ECG 與電解質，QTc >470 ms 不開始，約 4 週後再驗一次（Arvinas Operations, 2026） |
+
+肝功能不全時的劑量：elacestrant 在中度（Child-Pugh B）減為 258 mg，重度避免使用（Stemline Therapeutics, 2026）；imlunestrant 在中度或重度減為 200 mg（Eli Lilly and Company, 2026）。
 
 Vepdegestrant 不是傳統的 SERD。仿單稱它為異質雙功能蛋白降解劑：一端結合 ER，另一端結合 E3 ligase cereblon，讓 ER 被多重泛素化後送進 proteasome 分解（Arvinas Operations, 2026）。這就是 PROTAC（proteolysis-targeting chimera）的作法（Campone et al., 2025）。
 
@@ -301,7 +304,7 @@ Megestrol acetate 錠劑的美國仿單適應症是晚期乳癌或子宮內膜�
 | GnRH antagonist | degarelix（注射）、relugolix（口服） | 直接阻斷受體，沒有 flare | degarelix 在 2–3 天內壓低 testosterone（Crawford et al., 2019）；HERO 試驗：relugolix 維持去勢 96.7%，leuprolide 88.8%，重大心血管事件 2.9% 對 6.2%（Shore et al., 2020） |
 | 第一代 antiandrogen | bicalutamide、flutamide、nilutamide | 擋住雄性素與 AR 結合，不降低 testosterone | 多用於擋 flare 或合併去勢（Crawford et al., 2019）；27 項合併去勢的隨機試驗只有 3 項顯示存活好處（Denmeade & Isaacs, 2002） |
 | 雄性素合成抑制劑 | abiraterone，**併用 prednisone** | 抑制 CYP17，阻斷睪丸、腎上腺與腫瘤內的雄性素合成 | 礦物皮質素過多：高血壓、低血鉀、水腫；要追蹤肝功能、血壓與血鉀。COU-AA-301：整體存活 14.8 對 10.9 個月，HR 0.65（de Bono et al., 2011；Crawford et al., 2019） |
-| 新一代 AR 抑制劑 | enzalutamide、apalutamide、darolutamide | 結合 AR，並阻止它進入細胞核與結合 DNA | AFFIRM：enzalutamide 的整體存活 18.4 對 13.6 個月，HR 0.63；癲癇 0.6%（Scher et al., 2012；Crawford et al., 2019） |
+| 新一代 AR 抑制劑 | enzalutamide、apalutamide、darolutamide | 結合 AR，並阻止它進入細胞核與結合 DNA | AFFIRM：enzalutamide 的整體存活 18.4 對 13.6 個月，HR 0.63；疲倦、腹瀉、熱潮紅較多，癲癇 0.6%（Scher et al., 2012；Crawford et al., 2019） |
 
 **對乳癌與其他癌別照護有用的兩點：**
 
@@ -445,7 +448,7 @@ SOFT 與 TEXT 的 15 年最終報告把訊息說得更清楚：在 SOFT 沒有�
 - **ATLAS**：12,894 位吃滿 5 年 tamoxifen 的女性，隨機分派到繼續吃到 10 年或停藥。ER 陽性的 6,846 人中，復發 617 對 711 人，乳癌死亡 331 對 397 人。好處主要出現在第 10 年以後：復發 RR 在第 5–9 年為 0.90，之後為 0.75；乳癌死亡 RR 分別是 0.97 與 0.71。代價是肺栓塞（RR 1.87）與子宮內膜癌（RR 1.74）（Davies et al., 2013）。
 - **aTTom**：設計相同的另一個試驗，6,953 人，繼續吃到 10 年的復發 580 例，停藥組 672 例；子宮內膜癌 102 例（2.9%）對 45 例（1.3%）。這個試驗只以 2013 年的會議摘要發表，以上數字取自 ASCO 指引的整理（Burstein et al., 2014）。
 - **MA.17**：5,187 位吃滿 5 年 tamoxifen 的停經後女性，接著用 letrozole 或安慰劑。第一次期中分析的 4 年無病存活為 93% 對 87%，試驗因此提前解盲（Goss et al., 2003）。
-- **AI 之後再延長 AI**：12 項試驗、22,031 人的整合分析顯示，延長 AI 讓復發減少 27%（RR 0.73）。已用過 AI 的人再吃 5 年，第 5–15 年的復發風險為 11.6% 對 15.2%，但乳癌死亡的差異未達顯著（RR 0.90，0.70–1.15）；絕對好處在淋巴結陽性（16.3% 對 20.1%）大於陰性（9.1% 對 11.8%）；5 年骨折風險增加（RR 1.35）；約 39% 的人沒有照分派服藥（EBCTCG, 2025）。
+- **AI 之後再延長 AI**：12 項試驗、22,031 人的整合分析顯示，延長 AI 讓復發減少 27%（RR 0.73）。已用過 AI 的人再吃 5 年，第 5–15 年的復發風險為 11.6% 對 15.2%，但乳癌死亡的差異未達顯著（RR 0.90，0.70–1.15）；絕對好處在淋巴結陽性（16.3% 對 20.1%）大於陰性（9.1% 對 11.8%）；5 年骨折風險增加（RR 1.35）；約 39% 的人沒有照分派服藥（Early Breast Cancer Trialists' Collaborative Group, 2025）。
 - **為什麼值得延長**：停藥後復發不會停。吃滿 5 年內分泌治療後，第 5–20 年的遠端復發風險依原始的 T、N 與分級從 10% 到 41% 不等，連 T1N0、低分級的腫瘤也有 10%（Pan et al., 2017）。
 - **指引怎麼說**：停經前或停經狀態不明者，吃滿 5 年 tamoxifen 後應提供繼續吃到 10 年；已確定停經者，可以繼續 tamoxifen 或換成 AI，總長 10 年（Burstein et al., 2014）。淋巴結陽性者建議延長治療（含 AI）到總長最多 10 年；淋巴結陰性者依復發風險個別決定。延長 AI 沒有整體存活的好處，骨骼毒性較多，要與病人共同決定（Burstein et al., 2019）。
 
@@ -654,14 +657,14 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 |---------|-----------|------------------------|---------|
 | **elacestrant**，EMERALD | 478 位，內分泌治療加 CDK4/6 抑制劑後；對照為 fulvestrant 或 AI | 3.8 對 1.9 個月（HR 0.55，0.39–0.77）；整體存活 HR 0.90（0.63–1.30），無差異。事後分析：前一線 CDK4/6 抑制劑用了 ≥12 個月者 8.6 對 1.9 個月（HR 0.41） | 美國只核准 ESR1 突變（US Food and Drug Administration, 2023；Stemline Therapeutics, 2026；Bardia et al., 2024） |
 | **imlunestrant**，EMBER-3 | 874 位，AI（含或不含 CDK4/6 抑制劑）治療中或治療後惡化；對照為標準內分泌單藥 | 5.5 對 3.8 個月（仿單 HR 0.62，0.46–0.82） | 5.6 對 5.5 個月（HR 0.87，0.72–1.04），未達顯著。imlunestrant 加 abemaciclib 對 imlunestrant 單用：9.4 對 5.5 個月（HR 0.57，0.44–0.73），不論 ESR1 狀態（Jhaveri et al., 2025；Eli Lilly and Company, 2026） |
-| **vepdegestrant**，VERITAC-2 | 624 位，一線 CDK4/6 抑制劑加內分泌治療後；對照為 fulvestrant | 5.0 對 2.1 個月（HR 0.58，0.43–0.78） | 3.8 對 3.6 個月（HR 0.83，0.69–1.01），未達顯著（Campone et al., 2025） |
+| **vepdegestrant**，VERITAC-2 | 624 位，曾用過一線 CDK4/6 抑制劑加內分泌治療；對照為 fulvestrant | 5.0 對 2.1 個月（HR 0.58，0.43–0.78） | 3.8 對 3.6 個月（HR 0.83，0.69–1.01），未達顯著（Campone et al., 2025） |
 | **camizestrant**，SERENA-6 | 一線 AI 加 CDK4/6 抑制劑期間 ctDNA 出現 ESR1 突變、影像尚未惡化的 315 位；把 AI 換成 camizestrant 或維持原治療 | 16.0 對 9.2 個月（HR 0.44，0.31–0.60） | 不適用，全部都是 ESR1 突變（Bidard et al., 2025） |
 
 > [!IMPORTANT]
 > **口服 SERD 與 PROTAC 的考點**
 > - 單用時，好處**只出現在 ESR1 突變的病人**；EMBER-3 與 VERITAC-2 的全體族群都沒有達到統計顯著。開藥前一定要有 ESR1 突變的檢測報告。
-> - 對照組（fulvestrant 或 AI 單用）的無惡化存活只有 2–4 個月：CDK4/6 抑制劑之後，舊的內分泌單藥效果很有限。
-> - 到目前為止沒有一個證明延長整體存活：elacestrant 的整體存活無差異，其他試驗的存活資料尚未成熟。
+> - ESR1 突變族群的對照組（fulvestrant 或 AI 單用）無惡化存活只有 2–4 個月：CDK4/6 抑制劑之後，舊的內分泌單藥效果很有限。
+> - 到目前為止沒有一個證明延長整體存活：elacestrant 的整體存活無差異；vepdegestrant 與 camizestrant 的仿單都寫存活資料尚未成熟（Arvinas Operations, 2026；AstraZeneca, 2026）；imlunestrant 的整體存活結果本章沒有查到。
 > - 新藥各有特殊毒性：elacestrant 看血脂，camizestrant 與 vepdegestrant 看心電圖（見 [3.4](#34-serd-與-protac-降解劑)）。
 
 **合併治療是另一條路。** 與其只換一個更強的 ER 藥，不如同時守住旁路：imlunestrant 加 abemaciclib（EMBER-3）、camizestrant 加原本的 CDK4/6 抑制劑（SERENA-6）、fulvestrant 加 PI3K 或 AKT 抑制劑（SOLAR-1、CAPItello-291），以及第一線就用三種藥的 inavolisib 加 palbociclib 加 fulvestrant（INAVO120）。各試驗的數字與台灣能不能用，見[乳癌章 4.7](../03-breast-cancer.md#47-轉移性-hrher2先排除-visceral-crisis再走內分泌路線)與[標靶藥物](03-targeted-therapy.md)。
@@ -695,7 +698,7 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 | 停經狀態 | 年齡、最後一次月經、是否做過卵巢或子宮切除、是否剛做完化療、是否正在用 tamoxifen 或 GnRH agonist；有疑問抽 FSH 與 estradiol | 決定能不能用 AI；化療後無月經不等於停經（見 [5.1](#51-開藥前先確定兩件事er-與停經狀態)） |
 | 懷孕與避孕 | 有生育可能者驗孕；確認非荷爾蒙避孕方式；問未來的生育計畫 | 這些藥可傷害胎兒；tamoxifen 與 GnRH agonist 都不保證避孕（見 [6.8](#68-生育避孕與懷孕)） |
 | 藥單 | CYP2D6 抑制劑、warfarin、rifampin、抗癲癇藥、含雌激素的製劑、St. John's wort 等草藥、其他延長 QT 的藥 | 見 [4.5](#45-一起開的標靶藥才是交互作用的重點) 的對照表 |
-| 血栓與中風病史 | 深部靜脈栓塞、肺栓塞、中風、遺傳性血栓體質、是否長期臥床或即將手術 | tamoxifen、raloxifene、megestrol 的血栓風險 |
+| 血栓與中風病史 | 深部靜脈栓塞、肺栓塞、中風；是否正在使用抗凝血藥 | tamoxifen、raloxifene、megestrol 的血栓風險（見 [6.2](#62-靜脈血栓與中風)） |
 | 婦科 | 子宮是否還在、有無異常出血、上次婦科檢查的時間 | tamoxifen 的子宮內膜風險（見 [6.3](#63-子宮內膜增生息肉與癌)） |
 | 骨骼 | 骨折史、骨質疏鬆危險因子、25-OH vitamin D；骨折風險明顯者做骨密度 | AI 與 OFS 造成骨質流失（見 [6.5](#65-骨質流失與骨折)） |
 | 心血管與血脂 | 血壓、血脂基線、缺血性心臟病史 | AI 與 elacestrant 影響血脂 |
@@ -727,8 +730,8 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 - **為什麼要吃這麼久**：「這個藥不是在治療看得到的腫瘤，而是在餓死可能躲在身體裡、還看不到的癌細胞。它們長得很慢，所以藥要吃很多年。研究顯示吃滿 5 年的人，之後 15 年的乳癌死亡率少了大約三分之一。」（EBCTCG, 2011）
 - **Tamoxifen 與避孕、出血**：「這個藥不能避孕，吃的時候懷孕會傷到寶寶，所以要用保險套或其他不含荷爾蒙的方法。停經後如果有任何陰道出血，或是月經變得很不規則、下腹悶痛，不要等下次回診，請先打電話給我們。」
 - **Tamoxifen 與其他藥**：「有些抗憂鬱藥、戒菸藥和口服的灰指甲藥會讓這個藥失效。以後不管哪一科開新的藥，都請先給我們或藥師看過。」
-- **AI 的關節痛**：「大約一半的人吃這類藥會關節僵硬或痠痛，通常在頭幾個月出現。這不代表癌症轉移到骨頭。規律運動是目前證據最好的方法；如果還是很不舒服，我們可以換另一個同類的藥，或加上止痛的方法。請不要自己停藥，先跟我們說。」
-- **打停經針加 AI**：「停經針要按時打，晚幾天卵巢就可能醒過來，口服藥就會失效。如果月經又來了，或原本的熱潮紅突然完全消失，請告訴我們。月經停了也還是可能懷孕，要繼續避孕。」
+- **AI 的關節痛**：「最多大約一半的人吃這類藥會關節僵硬或痠痛，不少人在頭半年就因此想停藥。這不代表癌症轉移到骨頭。規律運動是目前證據最好的方法；如果還是很不舒服，我們可以換另一個同類的藥，或加上止痛的方法。請不要自己停藥，先跟我們說。」
+- **打停經針加 AI**：「停經針要按時打，拖太久卵巢可能恢復功能，口服藥就會失效。如果月經又來了，或原本的熱潮紅突然完全消失，請告訴我們。月經停了也還是可能懷孕，要繼續避孕。」
 - **忘記吃藥**：依各藥仿單與院內衛教單回答；原則是不要一次補吃兩倍的劑量。口服抗癌藥的通用衛教見[化療基礎 14.5](../00-shared/01-chemo-basics.md#145-口服抗癌藥)。
 
 ### 8.4 遵從性支持
@@ -903,12 +906,12 @@ A. 49 歲，stage I，腫瘤 0.8 cm，淋巴結陰性，不需化療　B. 62 歲
 
 **Q13.** 60 歲女性即將開始 5 年的 anastrozole。關於骨骼健康，下列哪一項做法符合指引？
 
-A. 所有人一律每月注射 zoledronic acid 4 mg　B. 評估骨折風險，風險明顯者做骨密度；鼓勵運動與足夠的鈣和維生素 D，需要用藥時以骨質疏鬆劑量的 bisphosphonate 或 denosumab 為主　C. 等到發生骨折再處理　D. 為了避免骨質流失，所有停經後病人都改用 tamoxifen
+A. 所有人一律每 3–4 週注射 zoledronic acid 4 mg　B. 評估骨折風險，風險明顯者做骨密度；鼓勵運動與足夠的鈣和維生素 D，需要用藥時以骨質疏鬆劑量的 bisphosphonate 或 denosumab 為主　C. 等到發生骨折再處理　D. 為了避免骨質流失，所有停經後病人都改用 tamoxifen
 
 <details>
 <summary>答案與詳解</summary>
 
-**答案：B**。這是 ASCO 骨質疏鬆指引的做法（Shapiro et al., 2019）。AI 的 5 年骨折風險 8.2%，tamoxifen 5.5%（EBCTCG, 2015）；ABCSG-18 中 denosumab 60 mg 每 6 個月讓臨床骨折減半（Gnant et al., 2015）。每月 4 mg 是骨轉移的劑量，不是預防骨質疏鬆的劑量（見 6.5）。
+**答案：B**。這是 ASCO 骨質疏鬆指引的做法（Shapiro et al., 2019）。AI 的 5 年骨折風險 8.2%，tamoxifen 5.5%（EBCTCG, 2015）；ABCSG-18 中 denosumab 60 mg 每 6 個月讓臨床骨折減半（Gnant et al., 2015）。Zoledronic acid 4 mg 每 3–4 週是骨轉移的給法，不是預防骨質疏鬆的劑量（見 6.5 與乳癌章 7.8）。
 
 </details>
 
