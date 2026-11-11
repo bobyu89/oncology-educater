@@ -668,4 +668,175 @@ irAE 緩解後能不能再用 ICI，取決於是哪一個器官、當時幾級�
 
 ---
 
-<!-- END-PART -->
+## 10. 自我測驗
+
+**Q1.** 一位黑色素瘤病人從 nivolumab 單用改成 nivolumab ＋ ipilimumab。在 CheckMate 067，3–4 級治療相關不良事件從 16.3% 升到 55.0%。下列哪一個機轉最能解釋合併治療的毒性較高？
+
+A. Ipilimumab 直接抑制骨髓造血　B. Ipilimumab 經 CYP3A4 代謝，使 nivolumab 的血中濃度上升　C. CTLA-4 管的是 T 細胞活化的早期，擋住它等於再放開一個影響範圍更廣的煞車　D. Ipilimumab 會結合 PD-L2，使 PD-1 的訊號完全中斷
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：C**。CTLA-4 調節 T 細胞活化早期的幅度，PD-1 限制 T 細胞在周邊組織的活性（Pardoll, 2012）。CTLA-4 剔除小鼠 3 到 4 週就因多器官 T 細胞浸潤而瀕死（Waterhouse et al., 1995），PD-1 剔除小鼠到老年才發病（Nishimura et al., 1999），兩個煞車同時放開，毒性疊加（Larkin et al., 2015）。A 錯：ICI 的毒性是自體免疫，不是骨髓抑制。B 錯：抗體不經 CYP 代謝。D 錯：ipilimumab 的標的是 CTLA-4。
+
+</details>
+
+**Q2.** 下列哪一組「藥名與標的」的配對正確？
+
+A. atezolizumab：PD-1　B. durvalumab：PD-L1　C. ipilimumab：LAG-3　D. cemiplimab：CTLA-4
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：B**。PD-L1 抑制劑是 atezolizumab、durvalumab、avelumab（A-D-A）。Cemiplimab 是 PD-1 抑制劑（Markham & Duggan, 2018），ipilimumab 是 CTLA-4 抑制劑（Hodi et al., 2010），LAG-3 抑制劑是 relatlimab（Paik, 2022）。
+
+</details>
+
+**Q3.** 62 歲不吸菸女性，新診斷第 IV 期肺腺癌，PD-L1（22C3）TPS 80%。EGFR 與 ALK 檢測已送驗，報告還沒回來，病人症狀穩定。主治醫師請你安排第一次 pembrolizumab。最適當的做法是？
+
+A. 先確認 EGFR 與 ALK 的結果再決定，必要時加送血液 ctDNA 加快速度　B. TPS ≥50% 已符合單用條件，直接安排給藥　C. 先打一劑 pembrolizumab，報告若有突變再換 osimertinib　D. 改用 nivolumab ＋ ipilimumab，因為不受 EGFR 影響
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：A**。EGFR 突變的 NSCLC 用 ICI 沒有存活好處（對 docetaxel 的 HR 1.05；Lee et al., 2017）。更重要的是，PD-(L)1 抑制劑之後 3 個月內接 osimertinib，24% 發生 3–4 級 irAE（Schoenfeld et al., 2019），所以 C 最危險。PD-L1 再高也不能取代基因檢測；不吸菸的肺腺癌女性正是 EGFR 突變機率最高的族群（見[肺癌章 2.2](../01-lung-cancer.md#22-必驗-biomarker)）。
+
+</details>
+
+**Q4.** 轉移性三陰性乳癌病人的病理報告寫「PD-L1：TPS 5%（22C3）」，主治醫師考慮化療 ＋ pembrolizumab。專師最應該提出的是？
+
+A. TPS 5% 已經超過 1%，符合條件　B. 請病理科改用 SP142 重染，再看 TPS　C. 這個適應症看的是 CPS，切點是 10，請病理科補報 CPS　D. 三陰性乳癌用免疫治療都不需要 PD-L1 報告
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：C**。KEYNOTE-355 只在 CPS ≥10 的病人看到整體存活的好處，CPS ≥1 未達顯著（Cortes et al., 2022）。TPS 只算腫瘤細胞，CPS 把免疫細胞也算進去，同一個檢體兩個數字可以差很多（Kulangara et al., 2019）。D 只對了一半：早期三陰性乳癌的 KEYNOTE-522 不看 PD-L1，轉移性的要看（見[乳癌章 4.9](../03-breast-cancer.md#49-轉移性三陰性看-pd-l1看前線用藥)）。
+
+</details>
+
+**Q5.** 肺鱗狀細胞癌病人因疾病惡化，3 個月前停用 pembrolizumab，目前接受 docetaxel。這週腹瀉每天 7 次、帶血絲，沒有發燒。住院醫師認為「免疫治療已經停 3 個月，應該是化療引起的」。下列何者最適當？
+
+A. 同意，給 loperamide 後出院　B. 仍要把免疫性大腸炎列入鑑別：排除感染，並依 irAE 的分級處置　C. 免疫性大腸炎只會發生在用藥的前 12 週，可以排除　D. 不必檢查，直接給 infliximab
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：B**。Pembrolizumab 的半衰期是 22 天，仿單寫明免疫相關不良反應可以在停藥後發生（Merck Sharp & Dohme, 2026）；anti-PD-1 抗體輸注後 2 個月以上，T 細胞上的 PD-1 仍大部分被占住（Brahmer et al., 2010）；文獻中停藥後才發生的 irAE，中位在停藥後 6 個月（Couey et al., 2019）。每天增加 7 次以上屬 Grade 3，先排除感染，處置見 [irAE 5.2](../00-shared/04-irae.md#52-腸胃道腹瀉大腸炎)。A 的止瀉藥會掩蓋病情。
+
+</details>
+
+**Q6.** 使用 nivolumab 240 mg q2w 的病人，AST 與 ALT 升到正常上限的 6 倍（Grade 3），已排除病毒性肝炎與其他藥物。下列醫囑何者正確？
+
+A. Nivolumab 減為 180 mg 繼續給　B. 劑量不變，間隔拉長為 q4w　C. 繼續原劑量並加上保肝藥　D. 暫停 nivolumab，給高劑量類固醇，改善後至少 4 到 6 週慢慢減量
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：D**。ICI 不減量，仿單只有暫停與永久停用兩種調整（Bristol-Myers Squibb, 2026）。Grade 3 的 irAE 一般是暫停並開始高劑量類固醇，類固醇至少 4 到 6 週減完（Schneider et al., 2021）。肝炎的細節（類固醇無效時加 mycophenolate、不用 infliximab）見 [irAE 5.3](../00-shared/04-irae.md#53-肝炎)。
+
+</details>
+
+**Q7.** 一位晚期 NSCLC 病人準備開始 pembrolizumab。他因為疲倦與食慾差，兩週前開始每天吃 prednisolone 15 mg。關於這顆類固醇，下列敘述何者最正確？
+
+A. 類固醇與 ICI 的療效沒有任何關聯，不必理會　B. 隨機試驗已證明基線類固醇會使 ICI 失效，必須延後免疫治療 3 個月　C. 觀察性研究顯示開始時 prednisone ≥10 mg/day 的病人預後較差，尤其是因緩和症狀而用的人；應檢視能否減量，並記錄劑量與原因　D. 應該把類固醇加到 30 mg/day，用來預防 irAE
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：C**。開始 ICI 時使用 prednisone ≥10 mg/day 的 NSCLC 病人，無惡化存活與整體存活都較差（Arbour et al., 2018）；但差別主要出現在因緩和症狀而用類固醇的病人，因非癌症原因而用的病人和用量 <10 mg 的人相近（Ricciuti et al., 2019）。這些都是觀察性研究，B 把相關說成因果。D 沒有根據；反過來，irAE 發生之後用類固醇治療，並不影響存活（Horvat et al., 2015）。
+
+</details>
+
+**Q8.** 復發的擴散期小細胞肺癌病人接受 tarlatamab 第 1 週期第 1 天（1 mg）。完成院內監測後回到醫院附近的住處，輸注後約 14 小時發燒 38.6°C 而返院，血壓與血氧正常。下列處置何者最適當？
+
+A. 視為 CRS（ASTCT Grade 1）：同時抽血液培養排除感染，依 CRS 流程退燒、補液並密切監測　B. 當成一般感冒，給退燒藥後請他回家　C. 這是輸注反應，下次把輸注速度調快　D. 立刻給 infliximab
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：A**。Tarlatamab 的 CRS 發生率 57%，發生 CRS 的病人有 73% 是在第一劑之後（Amgen, 2026）。只有發燒、沒有低血壓與缺氧是 Grade 1（分級表見[腫瘤急症 9.2](../00-shared/02-oncologic-emergencies.md#92-astct-分級lee-et-al-2019)）。CRS 的發燒和感染分不開，所有 CRS 都要先排除感染；之後若出現低血壓或缺氧就升級，依流程考慮 tocilizumab 與類固醇（見[腫瘤急症 9.3](../00-shared/02-oncologic-emergencies.md#93-處置原則)與[肺癌章 7.7](../01-lung-cancer.md#77-tarlatamab-病房實務c1d1c1d8-的醫囑監測與出院衛教)）。
+
+</details>
+
+**Q9.** Avelumab 和其他 PD-1／PD-L1 抑制劑相比，給藥流程上最大的不同是？
+
+A. 要依體表面積計算劑量　B. 前 4 次輸注前要先給抗組織胺與 acetaminophen　C. 必須連續靜脈輸注 28 天　D. 只能皮下注射
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：B**。美國仿單要求 avelumab 前 4 次輸注前給抗組織胺與 acetaminophen，之後依臨床判斷；它的半衰期只有 6.1 天，所以是 800 mg q2w（EMD Serono, 2026）。C 是 blinatumomab 這類短半衰期 T 細胞銜接抗體的給法（Zhu et al., 2016）。
+
+</details>
+
+**Q10.** 醫囑寫「pembrolizumab 皮下劑型 400 mg q6w」。核對時你應該注意到什麼？
+
+A. 沒有問題，皮下與靜脈的劑量相同　B. 皮下劑型應該每 2 週打一次　C. 皮下劑型要先稀釋成 250 mL 再靜脈滴注　D. 美國核准的皮下劑量是 395 mg q3w 或 790 mg q6w，400 mg q6w 是靜脈劑型的劑量，應向開立者確認劑型與劑量
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：D**。皮下劑型的毫克數和靜脈不同：pembrolizumab 皮下是 395 mg q3w 或 790 mg q6w（US Food and Drug Administration, 2025），樞紐試驗比較的正是皮下 790 mg q6w 與靜脈 400 mg q6w（Felip et al., 2025）。劑型、劑量、途徑三項要一起核對。
+
+</details>
+
+**Q11.** NSCLC 病人使用 PD-1 抑制劑 6 週後，CT 顯示腫瘤明顯變大並出現新病灶，同時體能從 ECOG 1 掉到 3，喘也變嚴重。家屬問：「聽說免疫治療會先變大再變小，是不是再等等看？」下列回應何者最適當？
+
+A. 假性惡化確實存在但不常見；影像和臨床同時變差時，應先當成真的惡化，請主治醫師盡快評估下一步　B. 一定是假性惡化，繼續用藥 3 個月再評估　C. 影像變大代表藥物過敏，要給類固醇　D. 這是超進展，把劑量加倍可以改善
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：A**。406 位 NSCLC 病人的世代中，假性惡化只有 4.7%，超進展有 13.8%，而且前 6 週內超進展者的中位存活只有 3.4 個月（Ferrara et al., 2018）。iRECIST 允許「先觀察再確認」（Seymour et al., 2017），健保也讓 iUPD 的病人再用 4 到 8 週後複評，但那是給臨床穩定的病人的。ICI 沒有加量這回事。
+
+</details>
+
+**Q12.** 轉移性胰臟腺癌病人在第一線化療後惡化，家屬問能不能打免疫治療。回答之前最需要先看的報告是？
+
+A. PD-L1 TPS　B. 錯配修復蛋白的免疫染色或 MSI 檢測　C. CA19-9 的數值　D. HLA-A*02 分型
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：B**。不挑 biomarker 時，ICI 在胰臟癌的反應率只有 0 到 3.1%（O'Reilly et al., 2019）。有資料支持的是 MSI-H／dMMR：KEYNOTE-158 的 22 位胰臟癌病人反應率 18%（Merck Sharp & Dohme, 2026），這個不分癌別的適應症源自 dMMR 腫瘤對 PD-1 抑制劑的高反應率（Le et al., 2015）。台灣藥證與給付見[胰臟癌章 9.5](../02-pancreatic-cancer.md#95-有藥證或指引建議但原文沒有胰臟條文的藥)。
+
+</details>
+
+**Q13.** 病人接受 nivolumab ＋ ipilimumab 第 2 次給藥後 1 週，主訴這幾天眼皮下垂、看東西有兩個影子、爬樓梯沒力。生命徵象穩定。除了神經學評估，下一步最重要的是？
+
+A. 安排下週門診追蹤　B. 給抗組織胺後觀察　C. 先照腦部 MRI，結果正常就可以回家　D. 立刻驗 troponin、CK 並做心電圖，因為心肌炎常和肌炎、重症肌無力一起出現
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：D**。免疫性心肌炎的中位發生時間是第 34 天，病例中有 34% 接受合併治療（對照組 2%），近半數發生重大心臟事件（Mahmood et al., 2018）；通報病例的致死比例 39.7%，合併治療的致死性毒性中位在第 14.5 天就發生（Wang et al., 2018）。眼瞼下垂、複視、近端無力要同時想到重症肌無力、肌炎與心肌炎，見 [irAE 5.10](../00-shared/04-irae.md#510-心肌炎最致命的-irae)。
+
+</details>
+
+**Q14.** 腎臟移植 9 年、腎功能穩定的病人，被診斷出轉移性黑色素瘤，考慮使用 PD-1 抑制劑。關於風險，下列何者正確？
+
+A. 移植超過 5 年就沒有排斥的風險　B. 排斥通常在用藥半年以後才發生　C. 文獻整理中約四成病人發生排斥，中位時間約 3 週，發生排斥者多數失去移植器官；必須由移植團隊、腫瘤科與病人共同決定　D. 只要把抗排斥藥加倍，就可以避免排斥
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：C**。39 位移植後使用 ICI 的病人中 41% 發生排斥，中位時間 21 天，發生排斥者 81% 失去移植器官；排斥的頻率和距離移植多久沒有關聯（Abdel-Wahab et al., 2019）。仿單也把移植器官排斥列為免疫相關不良反應（Merck Sharp & Dohme, 2026）。
+
+</details>
+
+**Q15.** 滑膜肉瘤病人詢問 afamitresgene autoleucel。和治療 B 細胞白血病的 CAR-T 相比，哪一項檢查是這種 TCR-T 特有的治療前條件？
+
+A. HLA-A*02 分型與腫瘤的 MAGE-A4 表現　B. 用流式細胞儀確認 CD19　C. PD-L1 CPS　D. EGFR 突變
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：A**。TCR-T 轉入的是 T 細胞受體，它認的是 HLA 呈現的抗原，所以病人要有特定的 HLA-A*02 型別，腫瘤也要表現 MAGE-A4（Barnett et al., 2025）。CAR-T 的人工受體直接認細胞表面的 CD19，不受 HLA 限制。這個藥台灣沒有藥證（見[肉瘤章 4.4.4](../04-sarcoma.md#444-依組織型選藥)）。
+
+</details>
+
+---
+
+## 11. 參考文獻
+
+<!-- REFS -->
