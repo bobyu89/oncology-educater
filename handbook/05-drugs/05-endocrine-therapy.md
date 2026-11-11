@@ -37,7 +37,7 @@
 > [!IMPORTANT]
 > **必背數字**
 > - Tamoxifen 5 年：ER 陽性乳癌的復發率在第 0–4 年降到一半左右（RR 0.53），乳癌死亡率在前 15 年降低約三分之一；ER 陰性無效（Early Breast Cancer Trialists' Collaborative Group, 2011；以下簡稱 EBCTCG）。
-> - AI 對 tamoxifen（停經後，各 5 年）：10 年乳癌死亡 12.1% 對 14.2%；代價是 5 年骨折 8.2% 對 5.5%，但子宮內膜癌 0.4% 對 1.2%（Early Breast Cancer Trialists' Collaborative Group, 2015）。
+> - AI 對 tamoxifen（停經後，各 5 年）：10 年乳癌死亡 12.1% 對 14.2%；代價是 5 年骨折 8.2% 對 5.5%，但 10 年子宮內膜癌 0.4% 對 1.2%（Early Breast Cancer Trialists' Collaborative Group, 2015）。
 > - Tamoxifen 10 年對 5 年（ATLAS）：第 5–14 年乳癌死亡 12.2% 對 15.0%；子宮內膜癌累積風險 3.1% 對 1.6%（Davies et al., 2013）。
 > - Fulvestrant 500 mg 肌肉注射：第 1、15、29 天，之後每月一次（美國仿單；AstraZeneca, 2020）。
 > - Tamoxifen 是 prodrug，靠 CYP2D6 變成 endoxifen；強效 CYP2D6 抑制劑有 paroxetine、fluoxetine、bupropion（Goetz et al., 2018；US Food and Drug Administration, 2026）。
@@ -57,30 +57,30 @@
 
 | 年份 | 事件 | 意義 |
 |------|------|------|
-| 1896 | 格拉斯哥外科醫師 Beatson 在愛丁堡報告：晚期乳癌病人切除卵巢後腫瘤明顯縮小（原文刊於 Transactions of the Medico-Chirurgical Society of Edinburgh 第 15 卷 153–179 頁，PMID 29584099）；1900 年 Boyd 彙整英國病例，只有約三分之一有反應，維持約一年 | 第一次證明乳癌受荷爾蒙控制，也留下「為什麼只有三分之一有效」的問題（Jordan, 2006） |
-| 1941 | Huggins 與 Hodges：轉移性攝護腺癌以去勢或雌激素治療，並用血清 acid phosphatase 追蹤反應 | 第一個全身性的癌症荷爾蒙治療；Huggins 在 1966 年獲諾貝爾生理醫學獎（Huggins & Hodges, 1972；Denmeade & Isaacs, 2002） |
-| 1958 | Lerner 等發現第一個非類固醇抗雌激素 MER-25，因毒性大、效力低而停止開發 | 「抗雌激素」這個藥理概念成立（Jordan, 2006） |
+| 1896 | 格拉斯哥外科醫師 Beatson 在愛丁堡報告：晚期乳癌病人切除卵巢後腫瘤明顯縮小（原文刊於 Transactions of the Medico-Chirurgical Society of Edinburgh 第 15 卷 153–179 頁，PMID 29584099）；1900 年 Boyd 彙整英國病例，只有約三分之一有反應，維持約一年 | 從此知道部分乳癌的生長依賴卵巢，也留下「為什麼只有三分之一有效」的問題（Jordan, 2006） |
+| 1941 | Huggins 與 Hodges：轉移性攝護腺癌以去勢或雌激素治療，並用血清 acid phosphatase 追蹤反應 | 口服雌激素的藥物去勢成為第一個有效的全身性癌症治療；Huggins 在 1966 年獲諾貝爾生理醫學獎（Huggins & Hodges, 1972；Denmeade & Isaacs, 2002） |
+| 1958 | Lerner 等報告第一個非類固醇抗雌激素 MER-25，後來因毒性大、效力低而停止臨床研究 | 「抗雌激素」這個藥理概念成立（Jordan, 2006） |
 | 1962 | Jensen 與 Jacobson 證明放射標記的 estradiol 會被目標組織留住；同年 ICI 藥廠的化學家 Dora Richardson 合成 ICI 46,474 | ER 的概念誕生；tamoxifen 的分子出現（Jordan, 2006；Quirke, 2017） |
 | 1967 | Harper 與 Walpole 發表 ICI 46,474 在大鼠抑制著床的作用 | 它原本是避孕藥計畫的產物（Harper & Walpole, 1967） |
 | 1971 | Cole 等的第一個乳癌臨床試驗：46 位晚期乳癌病人，10 位反應良好，副作用少 | tamoxifen 轉向乳癌（Cole et al., 1971） |
-| 1971 | Jensen 等報告腫瘤的 ER 與腎上腺切除等內分泌治療的反應有關 | ER 成為第一個預測療效的 biomarker（Jensen et al., 1971；Jensen & Jordan, 2003） |
+| 1971 | Jensen 等報告腫瘤的 ER 與腎上腺切除等內分泌治療的反應有關 | ER 成為預測內分泌治療反應的 biomarker（Jensen et al., 1971；Jensen & Jordan, 2003） |
 | 1971 | Schally 團隊從豬下視丘分離出 LHRH（即 GnRH），定出十胜肽結構並合成 | GnRH 類似物的起點；Schally 與 Guillemin 在 1977 年獲諾貝爾獎（Schally et al., 1971；Nobel Prize Outreach, 2026） |
-| 1973 | 英國核發 Nolvadex（tamoxifen）許可，適應症是不排卵性不孕與晚期乳癌的緩和治療 | 第一個上市的 ER 標靶藥（Quirke, 2017） |
+| 1973 | 英國核發 Nolvadex（tamoxifen）許可並上市，適應症是不排卵性不孕與乳癌的緩和治療 | 乳癌的第一個標靶治療藥上市（Quirke, 2017；Jordan, 2006） |
 | 1977 | Brodie 等：選擇性 aromatase 抑制劑 4-hydroxyandrostenedione 讓大鼠的雌激素依賴性乳腺腫瘤 80% 明顯縮小 | 「只關掉 aromatase」可行（Brodie et al., 1977） |
 | 1982–1984 | LHRH agonist 用於攝護腺癌：10 位病人的初步報告，之後 leuprolide 與 diethylstilbestrol（DES）的隨機試驗 | 藥物去勢開始取代手術與雌激素（Tolis et al., 1982；Leuprolide Study Group, 1984） |
-| 1984 | Coombes 等：4-hydroxyandrostenedione 單次肌肉注射治療 11 位停經後轉移性乳癌，4 位有反應 | 選擇性 AI 的臨床概念驗證（Coombes et al., 1984） |
-| 1991 | Wakeling 等發表純抗雌激素 ICI 182,780，即後來的 fulvestrant | 第一個 SERD（Wakeling et al., 1991） |
-| 1998 | EBCTCG 整合 55 項試驗、約 37,000 人；同年 NSABP P-1 顯示 tamoxifen 讓高風險女性的侵襲性乳癌減少 49% | 輔助 tamoxifen 約 5 年成為標準；第一個癌症化學預防藥（Early Breast Cancer Trialists' Collaborative Group, 1998；Fisher et al., 1998） |
+| 1984 | Coombes 等：4-hydroxyandrostenedione 肌肉注射治療 11 位停經後轉移性乳癌，4 位有反應 | 選擇性 AI 的臨床概念驗證（Coombes et al., 1984） |
+| 1991 | Wakeling 等發表純抗雌激素 ICI 182,780，即後來的 fulvestrant | 第一個 SERD（Wakeling et al., 1991；Osborne et al., 2004） |
+| 1998 | EBCTCG 整合 55 項試驗、約 37,000 人；同年 NSABP P-1 顯示 tamoxifen 讓高風險女性的侵襲性乳癌減少 49% | 輔助 tamoxifen 約 5 年成為標準；第一個癌症化學預防藥（Early Breast Cancer Trialists' Collaborative Group, 1998；Fisher et al., 1998；Jordan, 2006） |
 | 2002–2005 | ATAC 與 BIG 1-98：anastrozole、letrozole 在停經後輔助治療勝過 tamoxifen | AI 成為停經後的首選（Baum et al., 2002；Breast International Group 1-98 Collaborative Group, 2005） |
 | 2003 | MA.17：tamoxifen 吃滿 5 年後接 letrozole，4 年無病存活 93% 對 87% | 延長輔助治療的開始（Goss et al., 2003） |
 | 2013 | ATLAS：tamoxifen 10 年優於 5 年；同年在轉移性腫瘤找到 ESR1 ligand-binding domain 突變 | 「吃多久」與「為什麼失效」同時有新答案（Davies et al., 2013；Toy et al., 2013） |
 | 2014–2015 | SOFT 與 TEXT：停經前高風險者加 OFS，exemestane 加 OFS 再降低復發 | 停經前治療開始依風險分層（Pagani et al., 2014；Francis et al., 2015） |
-| 2023 | 美國 FDA 核准第一個口服 SERD elacestrant，限 ESR1 突變 | 內分泌治療進入 biomarker 導向（US Food and Drug Administration, 2023） |
+| 2023 | 美國 FDA 核准口服 SERD elacestrant（第一個在第三期試驗勝過標準內分泌單藥的口服 SERD），限 ESR1 突變 | 內分泌治療進入 biomarker 導向（US Food and Drug Administration, 2023；Bardia et al., 2024） |
 | 2025–2026 | imlunestrant、vepdegestrant、camizestrant 取得美國適應症（camizestrant 為加速核准） | 口服 SERD 與 PROTAC 降解劑進入臨床（Eli Lilly and Company, 2026；Arvinas Operations, 2026；AstraZeneca, 2026） |
 
 ### 1.1 Beatson 的卵巢切除：為什麼停經狀態決定一切
 
-Beatson 在 1896 年報告一位晚期乳癌病人切除卵巢後戲劇性地好轉。這是第一次有人用「拿掉荷爾蒙」治療癌症。但之後彙整的病例顯示只有約三分之一的病人有反應，而且大約一年後就失效（Jordan, 2006）。
+Beatson 在 1896 年報告一位晚期乳癌病人切除卵巢後戲劇性地好轉，這是用「拿掉荷爾蒙」治療乳癌的開端。但之後彙整的病例顯示只有約三分之一的病人有反應，而且大約一年後就失效（Jordan, 2006）。
 
 **和今天的連結：** 停經前病人的卵巢仍是雌激素的主要來源，所以高風險的停經前病人到今天還在做同一件事，只是把手術刀換成每月一針的 GnRH agonist（見 [3.3](#33-卵巢功能抑制與卵巢去除)）。「為什麼只有三分之一有效」要等到 ER 被發現才有答案。
 
@@ -90,7 +90,7 @@ Beatson 在 1896 年報告一位晚期乳癌病人切除卵巢後戲劇性地好
 
 **和今天的連結：** 乳癌與攝護腺癌的荷爾蒙治療用的是同一套邏輯（抽掉荷爾蒙，或擋住受體），所以毒性也像：熱潮紅、骨質流失、代謝與心血管問題。攝護腺癌的藥整理在 [3.6](#36-攝護腺癌的雄性素路徑藥對照用不在本手冊四個癌別內)。
 
-### 1.3 Jensen 與雌激素受體：第一個預測性 biomarker
+### 1.3 Jensen 與雌激素受體：預測內分泌治療反應的 biomarker
 
 Jensen 在 1960 年代初證明，放射標記的 estradiol 會被子宮等目標組織留住，推論一定有一個受體在接它。1971 年他的團隊把這件事變成檢驗：腫瘤有 ER，內分泌治療才可能有效；沒有 ER，幾乎不會有反應（Jensen et al., 1971；Jordan, 2006）。Beatson 的三分之一之謎就此解開。Jensen 與 Jordan 的回顧把 ER 稱為分子醫學的範本：先找到標靶，再用檢驗預測誰會對藥有反應（Jensen & Jordan, 2003）。
 
@@ -101,7 +101,7 @@ Jensen 在 1960 年代初證明，放射標記的 estradiol 會被子宮等目�
 1962 年，ICI 藥廠的化學家 Dora Richardson 在避孕藥計畫中合成了 ICI 46,474。計畫主持人是生物學家 Arthur Walpole，內分泌學家 Mike Harper 同年加入團隊，協助篩選化合物（Quirke, 2017）。在大鼠，它是很有效的事後避孕藥（Harper & Walpole, 1967）。但用在女性時結果相反：它**誘發排卵**，不能避孕。加上在美國拿不到專利，ICI 董事會一度決定終止計畫，Walpole 以辭職相逼才保住它，並把它轉向乳癌（Quirke, 2017）。
 
 - **第一個臨床試驗**：曼徹斯特 Christie 醫院，46 位晚期乳癌病人，10 位反應良好；療效與當時使用的雌激素、雄性素相當，但副作用少得多（Cole et al., 1971）。
-- **實驗室的轉折**：V. Craig Jordan 1974 年起在里茲大學證明 tamoxifen 會擋住 estradiol 與 ER 的結合，並能預防致癌物誘發的大鼠乳腺腫瘤；他在動物身上發現，腫瘤負荷小的時候長期給藥效果最好，這成為「長期輔助治療」的依據（Jordan, 2006）。
+- **實驗室的轉折**：V. Craig Jordan 從 1972 年起先在美國的 Worcester Foundation、1974 年回到里茲大學後繼續，證明 tamoxifen 會擋住 estradiol 與 ER 的結合，並能預防致癌物誘發的大鼠乳腺腫瘤；他在動物身上發現，腫瘤負荷小的時候長期給藥效果最好，這成為「長期輔助治療」的依據（Jordan, 2006）。
 - **整合分析定案**：EBCTCG 1998 年的整合分析顯示，tamoxifen 用 1 年、2 年、約 5 年，復發分別減少 21%、29%、47%，死亡減少 12%、17%、26%，用得越久越好；ER 很低或沒有的腫瘤效果很小（EBCTCG, 1998）。2011 年的更新確認 5 年 tamoxifen 讓 ER 陽性病人的乳癌死亡率在之後 15 年都降低約三分之一（EBCTCG, 2011）。
 - **預防**：NSABP P-1 於 1992 年開始，13,388 位高風險女性，tamoxifen 讓侵襲性乳癌減少 49%（Fisher et al., 1998）；美國 FDA 於 1998 年核准它用於降低乳癌風險（Jordan, 2006）。
 
@@ -113,7 +113,7 @@ Jensen 在 1960 年代初證明，放射標記的 estradiol 會被子宮等目�
 
 ### 1.5 Aromatase 抑制劑：從非選擇性到第三代
 
-第一個被當成 AI 使用的藥是 aminoglutethimide。它原本的目的是阻斷腎上腺功能來治療乳癌，後來才意外發現它是強力但**非選擇性**的 aromatase 抑制劑（Santen et al., 2009）。Angela Brodie 與 Harry Brodie 走另一條路：用類固醇受質的類似物專門抑制 aromatase。他們的 4-hydroxyandrostenedione（formestane）在大鼠讓血中 estradiol 降低 80%，並讓雌激素依賴性乳腺腫瘤縮小（Brodie et al., 1977）；1984 年 Coombes 與 Brodie 合作，把它用在 11 位停經後轉移性乳癌病人，4 位有反應（Coombes et al., 1984）。這兩個藥證明了概念，之後才有更強、更專一的第三代 AI：anastrozole、letrozole、exemestane（Santen et al., 2009），美國分別於 1995、1997、1999 年核准（ANI Pharmaceuticals, 2026；Novartis Pharmaceuticals Corporation, 2024；Pharmacia & Upjohn, 2025）。
+早期被當成 AI 使用的藥是 aminoglutethimide。它原本的目的是阻斷腎上腺功能來治療乳癌，後來才意外發現它是強力但**非選擇性**的 aromatase 抑制劑（Santen et al., 2009）。Angela Brodie 與 Harry Brodie 走另一條路：用類固醇受質的類似物專門抑制 aromatase。他們的 4-hydroxyandrostenedione（formestane）在大鼠讓血中 estradiol 降低 80%，並讓雌激素依賴性乳腺腫瘤縮小（Brodie et al., 1977）；1984 年 Coombes 與 Brodie 合作，把它用在 11 位停經後轉移性乳癌病人，4 位有反應（Coombes et al., 1984）。這兩個藥證明了概念，之後才有更強、更專一的第三代 AI：anastrozole、letrozole、exemestane（Santen et al., 2009），美國分別於 1995、1997、1999 年核准（ANI Pharmaceuticals, 2026；Novartis Pharmaceuticals Corporation, 2024；Pharmacia & Upjohn, 2025）。
 
 兩個大型輔助試驗確立了 AI 的地位：
 
@@ -135,7 +135,7 @@ Jensen 在 1960 年代初證明，放射標記的 estradiol 會被子宮等目�
 
 Tamoxifen 在某些組織有雌激素作用。ICI 的化學家想要一個「純」的抗雌激素：ICI 182,780 對 ER 的親和力接近 estradiol，沒有促效作用，在乳癌細胞株抑制生長的效果比 tamoxifen 的活性代謝物更完全（Wakeling et al., 1991）。它還會讓 ER 蛋白減少，所以被稱為第一個 SERD（Osborne et al., 2004）。Fulvestrant 於 2002 年在美國核准，當時劑量是每月 250 mg；CONFIRM 試驗證明 500 mg 加上負荷劑量的無惡化存活更好（HR 0.80，0.68–0.94），才改成今天的給法（Di Leo et al., 2010；AstraZeneca, 2020）。
 
-Fulvestrant 只能肌肉注射，藥廠因此開發口服 SERD。第一個成功的是 elacestrant，美國 FDA 在 2023 年 1 月 27 日核准，適應症限 ESR1 突變（US Food and Drug Administration, 2023）；之後的 imlunestrant、camizestrant 與 PROTAC 降解劑 vepdegestrant 見 [7.3](#73-下一代藥物證據與限制)。
+Fulvestrant 只能肌肉注射，藥廠因此開發口服 SERD。第一個在第三期試驗勝過標準內分泌單藥的是 elacestrant（Bardia et al., 2024），美國 FDA 在 2023 年 1 月 27 日核准，適應症限 ESR1 突變（US Food and Drug Administration, 2023）；之後的 imlunestrant、camizestrant 與 PROTAC 降解劑 vepdegestrant 見 [7.3](#73-下一代藥物證據與限制)。
 
 攝護腺癌走的是平行的路：去勢後腫瘤仍靠腎上腺與腫瘤自己製造的雄性素生長。Abiraterone 抑制雄性素合成，enzalutamide 更徹底地阻斷雄性素受體，兩者都在去勢抗性攝護腺癌延長存活（de Bono et al., 2011；Scher et al., 2012）。
 
@@ -230,7 +230,7 @@ Raloxifene 不刺激子宮內膜，所以被拿來做停經後女性的乳癌預
 |-----|-------------------|------|
 | **tamoxifen** | 轉移性乳癌（女性與男性）、輔助治療、DCIS 術後、高風險女性的風險降低（≥35 歲且 5 年 Gail 風險 ≥1.67%）；輔助治療的試驗劑量為每天 20–40 mg，超過 20 mg 沒有更有效 | 停經前後都可用；prodrug，注意 CYP2D6（見 [4.1](#41-tamoxifen-是-prodrug)）；加框警語針對 DCIS 與風險降低的族群：子宮惡性腫瘤、中風、肺栓塞（Bryant Ranch Prepack, 2026） |
 | **toremifene** | 停經後、ER 陽性或不明的轉移性乳癌；60 mg 每天一次 | 結構與 tamoxifen 相近的 triphenylethylene 衍生物；**加框警語：QT 延長**，與劑量和濃度相關，先天或後天 QT 延長、未矯正的低血鉀或低血鎂禁用；避免併用延長 QT 的藥與強效 CYP3A4 抑制劑（Kyowa Kirin, 2024） |
-| **raloxifene** | 停經後骨質疏鬆的治療與預防；降低「停經後、有骨質疏鬆或乳癌高風險」女性的侵襲性乳癌風險；60 mg 每天一次 | **不能用來治療乳癌，也不用於降低復發風險**；停經前不用；加框警語：VTE 與中風死亡（Eli Lilly and Company, 2023） |
+| **raloxifene** | 停經後骨質疏鬆的治療與預防；降低「停經後、有骨質疏鬆或乳癌高風險」女性的侵襲性乳癌風險；60 mg 每天一次 | **不能用來治療乳癌，也不用於降低復發風險**；停經前不用；加框警語：VTE 與中風死亡，現在或過去有 VTE 者禁用（Eli Lilly and Company, 2023） |
 
 Raloxifene 的定位來自 STAR 試驗：19,747 位停經後高風險女性，raloxifene 預防侵襲性乳癌的效果與 tamoxifen 相當（RR 1.02，0.82–1.28），血栓栓塞較少（RR 0.70，0.54–0.91），白內障較少，子宮癌 23 例對 36 例（RR 0.62，0.35–1.08）（Vogel et al., 2006）。
 
@@ -242,7 +242,7 @@ Raloxifene 的定位來自 STAR 試驗：19,747 位停經後高風險女性，ra
 | **anastrozole** | 非類固醇 | 1 mg 每天一次 | 約 50 小時；約 85% 經肝代謝 | 已有缺血性心臟病的女性，缺血性心血管事件 17%，tamoxifen 為 10%（ANI Pharmaceuticals, 2026） |
 | **exemestane** | 類固醇，不可逆的「自殺性抑制」 | 25 mg 每天一次，**餐後** | 約 24 小時；CYP3A4 | 併用強效 CYP3A4 誘導劑（rifampicin、phenytoin）時改為 50 mg；開始前查 25-OH vitamin D（Pharmacia & Upjohn, 2025） |
 
-- 三個藥的適應症略有不同（例如 exemestane 的輔助適應症是 tamoxifen 用 2–3 年後接續），但整合分析把三者合併看，結論一致：比 tamoxifen 多降低約三成的復發（Early Breast Cancer Trialists' Collaborative Group, 2015）。
+- 三個藥的適應症略有不同（例如 exemestane 的輔助適應症是 tamoxifen 用 2–3 年後接續），但整合分析把三者合併看，結論一致：在兩組用藥不同的期間，比 tamoxifen 多降低約三成的復發（Early Breast Cancer Trialists' Collaborative Group, 2015）。
 - Exemestane 的輔助試驗中，關節痛 15%，tamoxifen 9%；熱潮紅兩者相近（21% 對 20%）（Pharmacia & Upjohn, 2025）。
 - 非類固醇與類固醇 AI 的結構不同，臨床上的意義之一是「換一個試試看」：因副作用停掉第一個 AI 的病人，換成另一個之後 38.6% 可以繼續服用（Henry et al., 2012）。
 - Anastrozole 與 exemestane 的仿單都寫明不要與含雌激素的製劑併用，因為會抵銷藥效（ANI Pharmaceuticals, 2026；Pharmacia & Upjohn, 2025）。
@@ -266,7 +266,7 @@ Raloxifene 的定位來自 STAR 試驗：19,747 位停經後高風險女性，ra
 
 ### 3.4 SERD 與 PROTAC 降解劑
 
-**Fulvestrant** 是唯一的注射型 SERD：ER 拮抗劑，會讓乳癌細胞的 ER 蛋白減少，沒有促效作用（Osborne et al., 2004；AstraZeneca, 2020）。美國仿單的適應症是停經後 HR 陽性、HER2 陰性晚期乳癌的單獨使用（未曾用過內分泌治療，或內分泌治療後惡化），以及與 palbociclib、abemaciclib、ribociclib 合用。未曾用過內分泌治療的病人，fulvestrant 的無惡化存活比 anastrozole 長（FALCON：16.6 對 13.8 個月，HR 0.797，0.637–0.999）（Robertson et al., 2016）。CONFIRM 試驗 500 mg 組最常見的不良反應是注射部位疼痛 12%、噁心 10%、骨痛 9%（AstraZeneca, 2020）。給法見 [4.3](#43-fulvestrant長效肌肉注射與負荷劑量)。
+**Fulvestrant** 是唯一的注射型 SERD：ER 拮抗劑，會讓乳癌細胞的 ER 蛋白減少，沒有促效作用（Osborne et al., 2004；AstraZeneca, 2020）。美國仿單的單獨使用適應症限停經後女性的 HR 陽性晚期乳癌（未曾用過內分泌治療而 HER2 陰性者，或內分泌治療後惡化者）；也可與 ribociclib（停經後）或與 palbociclib、abemaciclib（內分泌治療後惡化的女性）合用，停經前、停經中女性併用這些藥時要加 LHRH agonist（AstraZeneca, 2020）。未曾用過內分泌治療的病人，fulvestrant 的無惡化存活比 anastrozole 長（FALCON：16.6 對 13.8 個月，HR 0.797，0.637–0.999）（Robertson et al., 2016）。CONFIRM 試驗 500 mg 組最常見的不良反應是注射部位疼痛 12%、噁心 10%、骨痛 9%（AstraZeneca, 2020）。給法見 [4.3](#43-fulvestrant長效肌肉注射與負荷劑量)。
 
 **口服 SERD 與 PROTAC**（以下都是美國仿單；台灣的藥證與健保狀態見[乳癌章 4.12](../03-breast-cancer.md#412-新藥與常用藥在台灣的藥證與健保狀態)）：
 
@@ -279,6 +279,8 @@ Raloxifene 的定位來自 STAR 試驗：19,747 位停經後高風險女性，ra
 
 肝功能不全時的劑量：elacestrant 在中度（Child-Pugh B）減為 258 mg，重度避免使用（Stemline Therapeutics, 2026）；imlunestrant 在中度或重度減為 200 mg（Eli Lilly and Company, 2026）。
 
+**停經前病人與 imlunestrant：仿單改過版。** Imlunestrant 仿單在 2026-06-04 以前的版本，劑量段有一句「停經前、停經中女性與男性應併用 GnRH agonist」；本章讀取的 2026-09-18 版新增了併用 abemaciclib 的適應症，劑量段已經沒有這一句（Eli Lilly and Company, 2026）。乳癌章引用的是舊版，所以兩章寫法不同。VERITAC-2 中，停經前、停經中女性與男性都併用 GnRH agonist（Arvinas Operations, 2026）。開立時以當時的仿單為準，並和主治醫師確認是否需要卵巢抑制。
+
 Vepdegestrant 不是傳統的 SERD。仿單稱它為異質雙功能蛋白降解劑：一端結合 ER，另一端結合 E3 ligase cereblon，讓 ER 被多重泛素化後送進 proteasome 分解（Arvinas Operations, 2026）。這就是 PROTAC（proteolysis-targeting chimera）的作法（Campone et al., 2025）。
 
 > [!WARNING]
@@ -287,7 +289,7 @@ Vepdegestrant 不是傳統的 SERD。仿單稱它為異質雙功能蛋白降解�
 
 ### 3.5 Progestin：megestrol
 
-Megestrol acetate 錠劑的美國仿單適應症是晚期乳癌或子宮內膜癌的緩和治療，乳癌劑量為每天 160 mg（40 mg 一天四次），至少連續治療 2 個月才能判斷療效；確切的抗腫瘤機轉不明，可能與抑制腦下垂體促性腺激素、使雌激素分泌下降有關（Teva Pharmaceuticals, 2022）。在 AI、fulvestrant 與標靶藥出現之後，它已經很少用來治療乳癌。
+Megestrol acetate 錠劑的美國仿單適應症是晚期乳癌或子宮內膜癌的緩和治療，乳癌劑量為每天 160 mg（40 mg 一天四次），至少連續治療 2 個月才能判斷療效。仿單寫它對子宮內膜癌的確切抗腫瘤機轉不明，可能與抑制腦下垂體促性腺激素、使雌激素分泌下降有關；對乳癌則是改變其他類固醇荷爾蒙的作用，並直接作用於腫瘤細胞（Teva Pharmaceuticals, 2022）。在 AI、fulvestrant 與標靶藥出現之後，它已經很少用來治療乳癌。
 
 現在比較常看到它用在食慾不振與惡病質：ASCO 2020 指引認為沒有任何藥物足以列為惡病質的標準治療，但若決定試用藥物，progesterone analog 是可用的選項之一（Roeland et al., 2020）。用法、證據與健保 5.3.6 見[支持性照護 12.1](../00-shared/03-supportive-care.md#121-惡病質與食慾不振)。
 
@@ -320,8 +322,8 @@ Megestrol acetate 錠劑的美國仿單適應症是晚期乳癌或子宮內膜�
 ### 4.1 Tamoxifen 是 prodrug
 
 - **代謝路徑**：tamoxifen 本身活性弱。CYP3A4 先把它去甲基成 N-desmethyltamoxifen（占代謝的九成以上），CYP2D6 再把它氧化成 endoxifen。Endoxifen 與 4-hydroxytamoxifen 的抗雌激素效力約為原型藥的 100 倍（Goetz et al., 2018）。
-- **半衰期很長**：tamoxifen 約 5–7 天，N-desmethyltamoxifen 約 14 天，約 4 週達到穩定濃度（Bryant Ranch Prepack, 2026）。偶爾漏一天影響不大；但停藥後藥物還會留在體內數週，所以仿單要求停藥後 2 個月內不可懷孕。
-- **CYP2D6 抑制劑會讓它「吃了等於沒吃」**：加拿大安大略的世代研究納入 2,430 位 66 歲以上、同時使用 tamoxifen 與一種 SSRI 的女性。Tamoxifen 用藥期間與 paroxetine 重疊的比例每增加 25%、50%、75%，乳癌死亡風險分別增加 24%、54%、91%；其他抗憂鬱藥沒有這個現象（Kelly et al., 2010）。
+- **半衰期很長**：tamoxifen 約 5–7 天，N-desmethyltamoxifen 約 14 天，tamoxifen 約 4 週達到穩定濃度。停藥後藥物還會留在體內，仿單的病人須知寫大約 2 個月才清除，所以要求停藥後 2 個月內不可懷孕（Bryant Ranch Prepack, 2026）。
+- **強效 CYP2D6 抑制劑會壓低 endoxifen，療效可能打折**：加拿大安大略的世代研究納入 2,430 位 66 歲以上、同時使用 tamoxifen 與一種 SSRI 的女性。Tamoxifen 用藥期間與 paroxetine 重疊的比例每增加 25%、50%、75%，乳癌死亡風險分別增加 24%、54%、91%；其他抗憂鬱藥沒有這個現象（Kelly et al., 2010）。這是觀察性研究，看到的是相關；ASCO 也說這類交互作用影響乳癌結果的證據有限而間接，但仍建議小心（Burstein et al., 2010）。
 
 | FDA 範例表的 CYP2D6 抑制強度 | 藥物 | tamoxifen 病人怎麼辦 |
 |---------------------------|------|-------------------|
@@ -366,7 +368,7 @@ Megestrol acetate 錠劑的美國仿單適應症是晚期乳癌或子宮內膜�
 - **第 1、15、29 天各一次，之後每月一次。**
 - 中度肝功能不全（Child-Pugh B）減為 250 mg；重度（Child-Pugh C）沒有研究資料。
 
-**為什麼要在第 15 天多打一次？** 肌肉注射後的半衰期約 40 天（AstraZeneca, 2020），只照每月一次給藥，血中濃度要好幾個月才會爬到穩定。CONFIRM 試驗把「500 mg 加第 14 天的負荷劑量」與原本核准的每月 250 mg 相比，無惡化存活較好（HR 0.80，0.68–0.94），毒性沒有增加（Di Leo et al., 2010）。
+**為什麼要在第 15 天多打一次？** 肌肉注射後的半衰期約 40 天；仿單寫明，第一劑後兩週多打的這一劑，讓血中濃度在第一個月內就達到穩定（AstraZeneca, 2020）。CONFIRM 試驗把「500 mg 加第 14 天的負荷劑量」與原本核准的每月 250 mg 相比，無惡化存活較好（HR 0.80，0.68–0.94），毒性沒有增加（Di Leo et al., 2010）。
 
 給藥前要想到的四件事（AstraZeneca, 2020）：
 
@@ -446,7 +448,7 @@ SOFT 與 TEXT 的 15 年最終報告把訊息說得更清楚：在 SOFT 沒有�
 **吃 5 年還是 10 年？**
 
 - **ATLAS**：12,894 位吃滿 5 年 tamoxifen 的女性，隨機分派到繼續吃到 10 年或停藥。ER 陽性的 6,846 人中，復發 617 對 711 人，乳癌死亡 331 對 397 人。好處主要出現在第 10 年以後：復發 RR 在第 5–9 年為 0.90，之後為 0.75；乳癌死亡 RR 分別是 0.97 與 0.71。代價是肺栓塞（RR 1.87）與子宮內膜癌（RR 1.74）（Davies et al., 2013）。
-- **aTTom**：設計相同的另一個試驗，6,953 人，繼續吃到 10 年的復發 580 例，停藥組 672 例；子宮內膜癌 102 例（2.9%）對 45 例（1.3%）。這個試驗只以 2013 年的會議摘要發表，以上數字取自 ASCO 指引的整理（Burstein et al., 2014）。
+- **aTTom**：設計相同的另一個試驗，6,953 人，繼續吃到 10 年的復發 580 例，停藥組 672 例；子宮內膜癌 102 例（2.9%）對 45 例（1.3%）。ASCO 指引引用的是這個試驗 2013 年的會議摘要，以上數字取自指引的整理（Burstein et al., 2014）。
 - **MA.17**：5,187 位吃滿 5 年 tamoxifen 的停經後女性，接著用 letrozole 或安慰劑。第一次期中分析的 4 年無病存活為 93% 對 87%，試驗因此提前解盲（Goss et al., 2003）。
 - **AI 之後再延長 AI**：12 項試驗、22,031 人的整合分析顯示，延長 AI 讓復發減少 27%（RR 0.73）。已用過 AI 的人再吃 5 年，第 5–15 年的復發風險為 11.6% 對 15.2%，但乳癌死亡的差異未達顯著（RR 0.90，0.70–1.15）；絕對好處在淋巴結陽性（16.3% 對 20.1%）大於陰性（9.1% 對 11.8%）；5 年骨折風險增加（RR 1.35）；約 39% 的人沒有照分派服藥（Early Breast Cancer Trialists' Collaborative Group, 2025）。
 - **為什麼值得延長**：停藥後復發不會停。吃滿 5 年內分泌治療後，第 5–20 年的遠端復發風險依原始的 T、N 與分級從 10% 到 41% 不等，連 T1N0、低分級的腫瘤也有 10%（Pan et al., 2017）。
@@ -656,15 +658,15 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 | 藥與試驗 | 對象與對照 | ESR1 突變族群的無惡化存活 | 全體族群 |
 |---------|-----------|------------------------|---------|
 | **elacestrant**，EMERALD | 478 位，內分泌治療加 CDK4/6 抑制劑後；對照為 fulvestrant 或 AI | 3.8 對 1.9 個月（HR 0.55，0.39–0.77）；整體存活 HR 0.90（0.63–1.30），無差異。事後分析：前一線 CDK4/6 抑制劑用了 ≥12 個月者 8.6 對 1.9 個月（HR 0.41） | 美國只核准 ESR1 突變（US Food and Drug Administration, 2023；Stemline Therapeutics, 2026；Bardia et al., 2024） |
-| **imlunestrant**，EMBER-3 | 874 位，AI（含或不含 CDK4/6 抑制劑）治療中或治療後惡化；對照為標準內分泌單藥 | 5.5 對 3.8 個月（仿單 HR 0.62，0.46–0.82） | 5.6 對 5.5 個月（HR 0.87，0.72–1.04），未達顯著。imlunestrant 加 abemaciclib 對 imlunestrant 單用：9.4 對 5.5 個月（HR 0.57，0.44–0.73），不論 ESR1 狀態（Jhaveri et al., 2025；Eli Lilly and Company, 2026） |
-| **vepdegestrant**，VERITAC-2 | 624 位，曾用過一線 CDK4/6 抑制劑加內分泌治療；對照為 fulvestrant | 5.0 對 2.1 個月（HR 0.58，0.43–0.78） | 3.8 對 3.6 個月（HR 0.83，0.69–1.01），未達顯著（Campone et al., 2025） |
+| **imlunestrant**，EMBER-3 | 874 位，AI（含或不含 CDK4/6 抑制劑）治療中或治療後惡化；對照為標準內分泌單藥 | 5.5 對 3.8 個月（仿單 HR 0.62，0.46–0.82） | 5.6 對 5.5 個月（HR 0.87，0.72–1.04），未達顯著。imlunestrant 加 abemaciclib 對 imlunestrant 單用：9.4 對 5.5 個月（HR 0.57，0.44–0.73），不論 ESR1 狀態；但美國仿單的併用適應症仍限 ESR1 突變（Jhaveri et al., 2025；Eli Lilly and Company, 2026） |
+| **vepdegestrant**，VERITAC-2 | 624 位，曾用過一線 CDK4/6 抑制劑加內分泌治療；對照為 fulvestrant | 5.0 對 2.1 個月（HR 0.58，0.43–0.78；美國仿單的分析為 HR 0.57，0.42–0.77） | 3.8 對 3.6 個月（HR 0.83，0.69–1.01），未達顯著（Campone et al., 2025；Arvinas Operations, 2026） |
 | **camizestrant**，SERENA-6 | 一線 AI 加 CDK4/6 抑制劑期間 ctDNA 出現 ESR1 突變、影像尚未惡化的 315 位；把 AI 換成 camizestrant 或維持原治療 | 16.0 對 9.2 個月（HR 0.44，0.31–0.60） | 不適用，全部都是 ESR1 突變（Bidard et al., 2025） |
 
 > [!IMPORTANT]
 > **口服 SERD 與 PROTAC 的考點**
 > - 單用時，好處**只出現在 ESR1 突變的病人**；EMBER-3 與 VERITAC-2 的全體族群都沒有達到統計顯著。開藥前一定要有 ESR1 突變的檢測報告。
 > - ESR1 突變族群的對照組（fulvestrant 或 AI 單用）無惡化存活只有 2–4 個月：CDK4/6 抑制劑之後，舊的內分泌單藥效果很有限。
-> - 到目前為止沒有一個證明延長整體存活：elacestrant 的整體存活無差異；vepdegestrant 與 camizestrant 的仿單都寫存活資料尚未成熟（Arvinas Operations, 2026；AstraZeneca, 2026）；imlunestrant 的整體存活結果本章沒有查到。
+> - 到目前為止沒有一個證明延長整體存活：elacestrant 的整體存活無差異；imlunestrant、vepdegestrant 與 camizestrant 的仿單都寫存活資料尚未成熟（Eli Lilly and Company, 2026；Arvinas Operations, 2026；AstraZeneca, 2026）。
 > - 新藥各有特殊毒性：elacestrant 看血脂，camizestrant 與 vepdegestrant 看心電圖（見 [3.4](#34-serd-與-protac-降解劑)）。
 
 **合併治療是另一條路。** 與其只換一個更強的 ER 藥，不如同時守住旁路：imlunestrant 加 abemaciclib（EMBER-3）、camizestrant 加原本的 CDK4/6 抑制劑（SERENA-6）、fulvestrant 加 PI3K 或 AKT 抑制劑（SOLAR-1、CAPItello-291），以及第一線就用三種藥的 inavolisib 加 palbociclib 加 fulvestrant（INAVO120）。各試驗的數字與台灣能不能用，見[乳癌章 4.7](../03-breast-cancer.md#47-轉移性-hrher2先排除-visceral-crisis再走內分泌路線)與[標靶藥物](03-targeted-therapy.md)。
@@ -676,7 +678,7 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 **邊治療邊驗**有兩個隨機試驗：
 
 - **PADA-1**（法國，1,017 人）：一線 AI 加 palbociclib 治療期間定期驗血中的 ESR1 突變。279 人（27%）出現上升的突變，其中 172 人在影像還沒惡化時隨機分派：把 AI 換成 fulvestrant（palbociclib 不變），或維持原治療。換藥組的無惡化存活 11.9 個月，維持組 5.7 個月（HR 0.61，0.43–0.86）（Bidard et al., 2022）。
-- **SERENA-6**（23 國）：一線 AI 加 CDK4/6 抑制劑至少 6 個月後，每 2–3 個月驗一次 ctDNA。3,256 人受檢，548 人驗出 ESR1 突變，315 人隨機分派。把 AI 換成 camizestrant 的無惡化存活 16.0 對 9.2 個月（HR 0.44）；生活品質開始惡化的時間 21.0 對 6.4 個月（HR 0.54，0.34–0.84）（Bidard et al., 2025）。延伸分析中，第二次無惡化存活也達到統計顯著（Turner et al., 2026）。美國仿單因此建議每 3 個月驗一次 ctDNA，直到出現 ESR1 突變；但整體存活資料尚未成熟，核准屬於加速核准（AstraZeneca, 2026）。
+- **SERENA-6**（23 國）：一線 AI 加 CDK4/6 抑制劑至少 6 個月後，每 2–3 個月驗一次 ctDNA。3,256 人受檢，548 人驗出 ESR1 突變（Turner et al., 2026），315 人隨機分派。把 AI 換成 camizestrant 的無惡化存活 16.0 對 9.2 個月（HR 0.44）；生活品質開始惡化的時間 21.0 對 6.4 個月（HR 0.54，0.34–0.84）（Bidard et al., 2025）。延伸分析中，第二次無惡化存活也達到統計顯著（Turner et al., 2026）。美國仿單因此建議每 3 個月驗一次 ctDNA，直到出現 ESR1 突變；但整體存活資料尚未成熟，核准屬於加速核准（AstraZeneca, 2026）。
 
 **怎麼對病人解釋：** 這兩個試驗證明「看到突變就提早換藥」可以把疾病穩定的時間拉長，還沒有證明這樣做能活得更久。每 2–3 個月抽一次 ctDNA 也有費用與可近性的問題。
 
@@ -730,7 +732,7 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 - **為什麼要吃這麼久**：「這個藥不是在治療看得到的腫瘤，而是在餓死可能躲在身體裡、還看不到的癌細胞。它們長得很慢，所以藥要吃很多年。研究顯示吃滿 5 年的人，之後 15 年的乳癌死亡率少了大約三分之一。」（EBCTCG, 2011）
 - **Tamoxifen 與避孕、出血**：「這個藥不能避孕，吃的時候懷孕會傷到寶寶，所以要用保險套或其他不含荷爾蒙的方法。停經後如果有任何陰道出血，或是月經變得很不規則、下腹悶痛，不要等下次回診，請先打電話給我們。」
 - **Tamoxifen 與其他藥**：「有些抗憂鬱藥、戒菸藥和口服的灰指甲藥會讓這個藥失效。以後不管哪一科開新的藥，都請先給我們或藥師看過。」
-- **AI 的關節痛**：「最多大約一半的人吃這類藥會關節僵硬或痠痛，不少人在頭半年就因此想停藥。這不代表癌症轉移到骨頭。規律運動是目前證據最好的方法；如果還是很不舒服，我們可以換另一個同類的藥，或加上止痛的方法。請不要自己停藥，先跟我們說。」
+- **AI 的關節痛**：「最多大約一半的人吃這類藥會關節僵硬或痠痛，不少人在頭半年就因此想停藥。這不代表癌症轉移到骨頭。規律運動在臨床試驗中證明可以減輕疼痛；如果還是很不舒服，我們可以換另一個同類的藥，或加上止痛的方法。請不要自己停藥，先跟我們說。」
 - **打停經針加 AI**：「停經針要按時打，拖太久卵巢可能恢復功能，口服藥就會失效。如果月經又來了，或原本的熱潮紅突然完全消失，請告訴我們。月經停了也還是可能懷孕，要繼續避孕。」
 - **忘記吃藥**：依各藥仿單與院內衛教單回答；原則是不要一次補吃兩倍的劑量。口服抗癌藥的通用衛教見[化療基礎 14.5](../00-shared/01-chemo-basics.md#145-口服抗癌藥)。
 
@@ -759,12 +761,12 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 | goserelin (Zoladex) | GnRH agonist | 持續刺激使腦下垂體受體 downregulation，性腺停工 | 停經前乳癌的卵巢功能抑制；攝護腺癌去勢 | flare、提早停經的症狀、骨質流失；骨轉移者可有高血鈣 | 3.6 mg 皮下每 28 天，按時注射；非荷爾蒙避孕 |
 | leuprolide | GnRH agonist | 同 goserelin | 攝護腺癌去勢；同類藥也用於停經前乳癌的卵巢抑制 | flare、熱潮紅、骨質疏鬆 | 攝護腺癌可先併用 antiandrogen 擋 flare；按時注射 |
 | triptorelin | GnRH agonist | 同 goserelin | SOFT 與 TEXT 使用的卵巢抑制藥；攝護腺癌去勢 | 更年期症狀、性功能障礙、骨質流失 | 併 exemestane 時約兩成壓不完全；月經恢復要回報 |
-| fulvestrant (Faslodex) | SERD（注射） | 拮抗 ER 並使 ER 蛋白減少，沒有促效作用 | 停經後 HR 陽性晚期乳癌，單用或併 CDK4/6 抑制劑 | 注射部位疼痛、噁心、骨痛；出血與坐骨神經風險 | 500 mg IM 第 1、15、29 天後每月；干擾 estradiol 檢驗 |
+| fulvestrant (Faslodex) | SERD（注射） | 拮抗 ER 並使 ER 蛋白減少，沒有促效作用 | HR 陽性晚期乳癌：停經後單用，或併 CDK4/6 抑制劑 | 注射部位疼痛、噁心、骨痛；出血與坐骨神經風險 | 500 mg IM 第 1、15、29 天後每月；干擾 estradiol 檢驗 |
 | elacestrant (Orserdu) | 口服 SERD | 拮抗並降解 ER | ESR1 突變的 ER 陽性、HER2 陰性晚期乳癌（美國） | 噁心、高膽固醇、高三酸甘油酯 | 345 mg 隨餐；治療前後驗血脂；避免 CYP3A4 抑制劑與誘導劑 |
 | imlunestrant (Inluriyo) | 口服 SERD | 拮抗並降解 ER | ESR1 突變晚期乳癌，單用或併 abemaciclib（美國） | 血紅素下降、肌肉骨骼疼痛、疲倦、腹瀉 | 400 mg 空腹；併強效 CYP3A 抑制劑或誘導劑時調整劑量 |
 | camizestrant (Etcamah) | 口服 SERD | 拮抗並降解 ER | 一線治療中驗出 ESR1 突變時取代 AI，併 CDK4/6 抑制劑（美國加速核准） | 心搏過緩、QTc 延長、視覺異常；併 ribociclib 有加框警語 | 治療前與前 2 週每週 ECG；每 3 個月驗 ctDNA 直到出現突變 |
 | vepdegestrant (Veppanu) | PROTAC 降解劑 | 同時結合 ER 與 cereblon，使 ER 泛素化後被 proteasome 分解 | ESR1 突變晚期乳癌（美國） | QTc 延長 | 200 mg 隨餐；治療前與約 4 週後 ECG；QTc >470 ms 不開始 |
-| megestrol | progestin | 抗腫瘤機轉不明，可能與抑制促性腺激素有關 | 晚期乳癌或子宮內膜癌的緩和治療；惡病質的食慾促進 | 血栓、腎上腺抑制、糖尿病惡化、體重增加 | 停藥或遇壓力時想到腎上腺功能不全 |
+| megestrol | progestin | 確切抗腫瘤機轉不明；仿單提到抑制促性腺激素與直接作用於腫瘤細胞 | 晚期乳癌或子宮內膜癌的緩和治療；惡病質的食慾促進 | 血栓、腎上腺抑制、糖尿病惡化、體重增加 | 停藥或遇壓力時想到腎上腺功能不全 |
 | abiraterone | 雄性素合成抑制劑 | 抑制 CYP17，阻斷睪丸、腎上腺與腫瘤內的雄性素合成 | 攝護腺癌，須併用 prednisone | 高血壓、低血鉀、水腫、肝功能異常 | 追蹤血壓、血鉀、肝功能；是中效 CYP2D6 抑制劑 |
 | enzalutamide | AR 抑制劑 | 結合 AR，阻止它進入細胞核與結合 DNA | 攝護腺癌 | 疲倦、腹瀉、熱潮紅、癲癇（0.6%） | 是強效 CYP3A 誘導劑，併用藥要查交互作用 |
 
@@ -772,14 +774,14 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 
 ## 10. 自我測驗
 
-**Q1.** 44 歲女性，月經規則，stage I、ER 陽性、HER2 陰性乳癌術後，不需要化療。下列哪一個輔助內分泌處方**不適當**？
+**Q1.** 44 歲女性，月經規則，ER 陽性、HER2 陰性乳癌術後，準備開始輔助內分泌治療。不論她的復發風險高低，下列哪一個處方都**不適當**？
 
 A. tamoxifen 20 mg 每天一次　B. letrozole 2.5 mg 每天一次，單獨使用　C. goserelin 加 tamoxifen　D. goserelin 加 exemestane
 
 <details>
 <summary>答案與詳解</summary>
 
-**答案：B**。停經前的雌激素主要來自卵巢，AI 只能抑制周邊的 aromatase，單用無效，ASCO 寫明 AI 禁用於仍有卵巢功能的病人（Burstein et al., 2010）。這位低風險病人的標準選擇是 A；C 與 D 是高風險者才需要的加強做法，雖然對她可能過度治療，但藥理上成立（見 2.1、5.2）。
+**答案：B**。停經前的雌激素主要來自卵巢，AI 只能抑制周邊的 aromatase，單用無效，ASCO 寫明 AI 禁用於仍有卵巢功能的病人（Burstein et al., 2010）。A 是低風險者的標準選擇；C 與 D 是高風險者（一般會建議化療的 stage II–III）加上卵巢抑制的做法，不需要化療的 stage I 則不應加（Burstein et al., 2016）。只有 B 在任何風險層級都不成立（見 2.1、5.2）。
 
 </details>
 
@@ -951,7 +953,7 @@ André, F., Ciruelos, E., Rubovszky, G., Campone, M., Loibl, S., Rugo, H. S., Iw
 
 ANI Pharmaceuticals, Inc. (2026). *ARIMIDEX (anastrozole): Prescribing information* (revised 2025-12; DailyMed version effective 2026-03-02). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de
 
-Arvinas Operations, Inc. (2026). *VEPPANU (vepdegestrant): Prescribing information* (revised 2026-04). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=751e18d5-1d41-4b67-b1f3-10272ca5312d
+Arvinas Operations, Inc. (2026). *VEPPANU (vepdegestrant): Prescribing information* (revised 2026-04; DailyMed version 2, published 2026-05-20). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=751e18d5-1d41-4b67-b1f3-10272ca5312d
 
 AstraZeneca Pharmaceuticals LP. (2020). *FASLODEX (fulvestrant): Prescribing information* (effective 2020-09-25). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=83d7a440-e904-4e36-afb5-cb02b1c919f7
 
@@ -959,7 +961,7 @@ AstraZeneca Pharmaceuticals LP. (2026). *ETCAMAH (camizestrant): Prescribing inf
 
 Bardia, A., Cortés, J., Bidard, F.-C., Neven, P., Garcia-Sáenz, J., Aftimos, P., O'Shaughnessy, J., Lu, J., Tonini, G., Scartoni, S., Paoli, A., Binaschi, M., Wasserman, T., & Kaklamani, V. (2024). Elacestrant in ER+, HER2− metastatic breast cancer with ESR1-mutated tumors: Subgroup analyses from the phase III EMERALD trial by prior duration of endocrine therapy plus CDK4/6 inhibitor and in clinical subgroups. *Clinical Cancer Research, 30*(19), 4299–4309. https://doi.org/10.1158/1078-0432.CCR-24-1073（PMID: 39087959）
 
-Baum, M., Budzar, A. U., Cuzick, J., Forbes, J., Houghton, J. H., Klijn, J. G. M., Sahmoud, T., & ATAC Trialists' Group. (2002). Anastrozole alone or in combination with tamoxifen versus tamoxifen alone for adjuvant treatment of postmenopausal women with early breast cancer: First results of the ATAC randomised trial. *The Lancet, 359*(9324), 2131–2139. https://doi.org/10.1016/S0140-6736(02)09088-8（PMID: 12090977）
+Baum, M., Budzar, A. U., Cuzick, J., Forbes, J., Houghton, J. H., Klijn, J. G., Sahmoud, T., & ATAC Trialists' Group. (2002). Anastrozole alone or in combination with tamoxifen versus tamoxifen alone for adjuvant treatment of postmenopausal women with early breast cancer: First results of the ATAC randomised trial. *The Lancet, 359*(9324), 2131–2139. https://doi.org/10.1016/S0140-6736(02)09088-8（PMID: 12090977）
 
 Bellet, M., Gray, K. P., Francis, P. A., Láng, I., Ciruelos, E., Lluch, A., Climent, M. A., Catalán, G., Avella, A., Bohn, U., González-Martin, A., Ferrer, R., Catalán, R., Azaro, A., Rajasekaran, A., Morales, J., Vázquez, J., Fleming, G. F., Price, K. N., & Regan, M. M. (2016). Twelve-month estrogen levels in premenopausal women with hormone receptor–positive breast cancer receiving adjuvant triptorelin plus exemestane or tamoxifen in the Suppression of Ovarian Function Trial (SOFT): The SOFT-EST substudy. *Journal of Clinical Oncology, 34*(14), 1584–1593. https://doi.org/10.1200/JCO.2015.61.2259（PMID: 26729437）
 
@@ -1059,7 +1061,7 @@ Hershman, D. L., Unger, J. M., Greenlee, H., Capodice, J. L., Lew, D. L., Darke,
 
 Hortobagyi, G. N., Stemmer, S. M., Burris, H. A., Yap, Y.-S., Sonke, G. S., Hart, L., Campone, M., Petrakova, K., Winer, E. P., Janni, W., Conte, P., Cameron, D. A., André, F., Arteaga, C. L., Zarate, J. P., Chakravartty, A., Taran, T., Le Gac, F., Serra, P., & O'Shaughnessy, J. (2022). Overall survival with ribociclib plus letrozole in advanced breast cancer. *New England Journal of Medicine, 386*(10), 942–950. https://doi.org/10.1056/NEJMoa2114663（PMID: 35263519）
 
-Huggins, C., & Hodges, C. V. (1972). Studies on prostatic cancer: I. The effect of castration, of estrogen and of androgen injection on serum phosphatases in metastatic carcinoma of the prostate. *CA: A Cancer Journal for Clinicians, 22*(4), 232–240. https://doi.org/10.3322/canjclin.22.4.232（PMID: 4625049；重刊 1941 年原文）
+Huggins, C., & Hodges, C. V. (1972). Studies on prostatic cancer: I. The effect of castration, of estrogen and androgen injection on serum phosphatases in metastatic carcinoma of the prostate. *CA: A Cancer Journal for Clinicians, 22*(4), 232–240. https://doi.org/10.3322/canjclin.22.4.232（PMID: 4625049；重刊 1941 年原文）
 
 Irwin, M. L., Cartmel, B., Gross, C. P., Ercolano, E., Li, F., Yao, X., Fiellin, M., Capozza, S., Rothbard, M., Zhou, Y., Harrigan, M., Sanft, T., Schmitz, K., Neogi, T., Hershman, D., & Ligibel, J. (2015). Randomized exercise trial of aromatase inhibitor–induced arthralgia in breast cancer survivors. *Journal of Clinical Oncology, 33*(10), 1104–1111. https://doi.org/10.1200/JCO.2014.57.1547（PMID: 25452437）
 
@@ -1089,7 +1091,7 @@ Loprinzi, C. L., Kugler, J. W., Sloan, J. A., Mailliard, J. A., LaVasseur, B. I.
 
 Margolese, R. G., Cecchini, R. S., Julian, T. B., Ganz, P. A., Costantino, J. P., Vallow, L. A., Albain, K. S., Whitworth, P. W., Cianfrocca, M. E., Brufsky, A. M., Gross, H. M., Soori, G. S., Hopkins, J. O., Fehrenbacher, L., Sturtz, K., Wozniak, T. F., Seay, T. E., Mamounas, E. P., & Wolmark, N. (2016). Anastrozole versus tamoxifen in postmenopausal women with ductal carcinoma in situ undergoing lumpectomy plus radiotherapy (NSABP B-35): A randomised, double-blind, phase 3 clinical trial. *The Lancet, 387*(10021), 849–856. https://doi.org/10.1016/S0140-6736(15)01168-X（PMID: 26686957）
 
-Nobel Prize Outreach. (2026). *The Nobel Prize in Physiology or Medicine 1977*. NobelPrize.org. Retrieved November 11, 2026, from https://www.nobelprize.org/prizes/medicine/1977/summary/（網站阻擋自動存取，本章經網路搜尋結果的摘要讀取頁面內容）
+Nobel Prize Outreach. (2026). *The Nobel Prize in Physiology or Medicine 1977*. NobelPrize.org. Retrieved November 11, 2026, from https://www.nobelprize.org/prizes/medicine/1977/summary/
 
 Novartis Pharmaceuticals Corporation. (2024). *FEMARA (letrozole): Prescribing information* (revised 2024-12; DailyMed version effective 2026-06-11). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406
 

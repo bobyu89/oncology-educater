@@ -664,7 +664,7 @@ DCIS 的治療目標是**預防日後的侵襲性復發**，不是救命：長�
 
 > [!WARNING]
 > **停經前病人不可單用 AI**
-> 停經前的卵巢仍在製造雌激素，AI 單用無法取代卵巢功能抑制，所以停經前使用 AI 的試驗都是 AI ＋ OFS（Pagani et al., 2014；EBCTCG, 2022）；palbociclib、ribociclib、abemaciclib 與 imlunestrant 的仿單也都要求停經前或停經中女性合併 GnRH agonist（各藥美國仿單）。**台灣 OFS 的藥要注意兩件事**：goserelin（Zoladex）的兩張許可證已於 2026-10-07 因廠商申請而註銷，TFDA 資料中沒有 goserelin 的有效許可證；目前仍有乳癌適應症的 GnRH agonist 包括 leuprorelin（柳菩林 Leuplin Depot 3.75 mg 與 11.25 mg）與 triptorelin（達菲林 Diphereline、帕摩霖 Pamorelin），實際供應請問藥局。健保 GnRH analogue 的乳癌條文在第 5 節 5.5.1（113/6/1），要求事前審查；早期乳癌那一款是「與 tamoxifen 併用、取代化療」，使用期限 3 年，細節見[第 9 段](#9-健保給付與事前審查)。
+> 停經前的卵巢仍在製造雌激素，AI 單用無法取代卵巢功能抑制，所以停經前使用 AI 的試驗都是 AI ＋ OFS（Pagani et al., 2014；EBCTCG, 2022）；palbociclib、ribociclib、abemaciclib 的仿單也都要求停經前或停經中女性合併 GnRH agonist（各藥美國仿單）；imlunestrant 在本章引用的 2026-06-04 版仿單有同樣的要求，2026-09-18 版已沒有這句（Lilly USA, 2026a）。**台灣 OFS 的藥要注意兩件事**：goserelin（Zoladex）的兩張許可證已於 2026-10-07 因廠商申請而註銷，TFDA 資料中沒有 goserelin 的有效許可證；目前仍有乳癌適應症的 GnRH agonist 包括 leuprorelin（柳菩林 Leuplin Depot 3.75 mg 與 11.25 mg）與 triptorelin（達菲林 Diphereline、帕摩霖 Pamorelin），實際供應請問藥局。健保 GnRH analogue 的乳癌條文在第 5 節 5.5.1（113/6/1），要求事前審查；早期乳癌那一款是「與 tamoxifen 併用、取代化療」，使用期限 3 年，細節見[第 9 段](#9-健保給付與事前審查)。
 
 #### 延長內分泌治療（5 年以後還要不要吃）
 
@@ -1078,7 +1078,7 @@ ASCO 指引（Burstein et al., 2019）：淋巴結陽性者建議延長到總共
 | **fulvestrant** | 500 mg IM，分兩支各 5 mL、**左右臀各一支**，各 1–2 分鐘；**第 1、15、29 天，之後每月**；中度肝功能不全 250 mg | 抗凝血藥或血小板低下者有出血風險；注意坐骨神經；停藥後避孕 1 年（Faslodex 美國仿單；Di Leo et al., 2010） | 9.130 |
 | **OFS（GnRH agonist）** | SOFT／TEXT：triptorelin 3.75 mg IM q28d（Pagani et al., 2014）；goserelin 3.6 mg SC q28d（美國仿單） | 停經前病人單用 AI 無效，必須 AI ＋ OFS（見 4.4）。**goserelin 在台灣已無有效許可證（2026-10-07 註銷）**；leuprorelin（Leuplin Depot 3.75 mg 與 3M 11.25 mg）、triptorelin（Diphereline、Pamorelin）仍有乳癌適應症，給藥間隔以台灣仿單為準（本章未核對） | 5.5.1（113/6/1），需事前審查 |
 | **elacestrant** | 345 mg QD **隨餐**（試驗寫 400 mg 是鹽類換算）；減量 258 → 172 mg → 停藥 | ESR1 突變（血漿）；監測血脂（高膽固醇 30%、高三酸甘油酯 27%）（Orserdu 美國仿單） | 無藥證 |
-| **imlunestrant** | 400 mg QD，**空腹**（餐前 ≥2 小時或餐後 1 小時）；停經前、停經中女性與男性加 GnRH agonist；中重度肝功能不全減量 | ESR1 突變（Inluriyo 美國仿單） | 有藥證（2026-05-15），無健保 |
+| **imlunestrant** | 400 mg QD，**空腹**（餐前 ≥2 小時或餐後 1 小時）；停經前、停經中女性與男性加 GnRH agonist（2026-06-04 版仿單的寫法；2026-09-18 版已沒有這句）；中重度肝功能不全減量 | ESR1 突變（Inluriyo 美國仿單；2026-09-18 版新增與 abemaciclib 併用，同樣限 ESR1 突變） | 有藥證（2026-05-15），無健保 |
 | camizestrant、vepdegestrant | camizestrant 75 mg QD，**加在原有的 CDK4/6 抑制劑上**，ESR1 突變出現後使用，無減量階梯；vepdegestrant 200 mg QD | camizestrant：起始與前 2 週每週 ECG，與 ribociclib 併用有心律不整加框警語（Etcamah 美國仿單） | **皆無藥證**；camizestrant 為美國加速核准 |
 
 **CDK4/6 抑制劑：同一類藥，三種完全不同的服法**

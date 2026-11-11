@@ -33,7 +33,7 @@
 > **必背數字**
 > - Pembrolizumab 200 mg q3w 或 400 mg q6w；nivolumab 240 mg q2w 或 480 mg q4w（美國仿單；Merck Sharp & Dohme, 2026；Bristol-Myers Squibb, 2026）。
 > - 半衰期：pembrolizumab 22 天、nivolumab 25 天、atezolizumab 27 天（同上；Genentech, 2026）。停藥後藥效還在，irAE 可以在停藥後數月才出現。
-> - 開始 ICI 時 prednisone ≥10 mg/day（或等效劑量）的病人，療效較差（Arbour et al., 2018）。
+> - 開始 ICI 時 prednisone ≥10 mg/day（或等效劑量）的病人，在觀察性研究中反應率與存活較差；這是相關，不是因果（Arbour et al., 2018；見 4.4）。
 > - NSCLC 單用 pembrolizumab：KEYNOTE-024 與健保給付的門檻都是 PD-L1 TPS ≥50%（Reck et al., 2016）；轉移性三陰性乳癌併用化療的門檻是 CPS ≥10（KEYNOTE-355；Cortes et al., 2022）。
 > - irAE 通則：G1 多可繼續、G2 多半暫停、G3 暫停並給高劑量類固醇、G4 永久停用（以荷爾蒙補充控制的內分泌病變除外）；類固醇至少 4–6 週慢慢減（Schneider et al., 2021）。
 > - 免疫性心肌炎中位發生時間是開始治療後 34 天（Mahmood et al., 2018）。
@@ -57,8 +57,8 @@
 | 1995–1996 | Allison 實驗室證明 CTLA-4 和 CD28 送出相反的訊號（Krummel & Allison, 1995）；用抗體擋住 CTLA-4，小鼠的腫瘤被排斥（Leach et al., 1996） | 「拆煞車」的想法誕生 |
 | 1999–2000 | PD-1 剔除小鼠出現類狼瘡的自體免疫病（Nishimura et al., 1999）；陳列平實驗室發現 B7-H1（Dong et al., 1999）；隔年 Freeman 與本庶佑等報告 PD-1 的配體 PD-L1（Freeman et al., 2000），兩者是同一個分子（Pardoll, 2012） | PD-1 是第二個煞車，配體長在周邊組織 |
 | 2002 | 免疫編輯（immunoediting）：免疫系統清除腫瘤，同時也「雕塑」出能逃脫的腫瘤（Dunn et al., 2002） | 解釋為什麼臨床看到的腫瘤多半已經會躲 |
-| 2008 | Blinatumomab（CD19 × CD3）用極低劑量就讓淋巴瘤縮小（Bargou et al., 2008） | 雙特異性 T 細胞銜接抗體的第一份臨床證據 |
-| 2010 | Ipilimumab 第 3 期試驗：轉移性黑色素瘤的整體存活，含 ipilimumab 的組別 10.0 對 6.4 個月（Hodi et al., 2010）；一位晚期濾泡性淋巴瘤病人接受 CD19 CAR-T 後腫瘤明顯縮小（Kochenderfer et al., 2010） | 檢查點抑制劑第一次在第 3 期試驗延長存活 |
+| 2008 | Blinatumomab（CD19 × CD3）用極低劑量就讓淋巴瘤縮小（Bargou et al., 2008） | 雙特異性 T 細胞銜接抗體在病人身上讓腫瘤縮小的早期證據 |
+| 2010 | Ipilimumab 第 3 期試驗：轉移性黑色素瘤的整體存活，含 ipilimumab 的組別 10.0 對 6.4 個月（Hodi et al., 2010）；一位晚期濾泡性淋巴瘤病人接受 CD19 CAR-T 後腫瘤明顯縮小（Kochenderfer et al., 2010） | 檢查點抑制劑第一次在第 3 期試驗延長存活；更早完成的 tremelimumab 第 3 期試驗沒有存活好處（Pardoll, 2012） |
 | 2011 | Ipilimumab 在美國核准（Cameron et al., 2011）；June 團隊的 CAR-T 讓一位頑固型慢性淋巴性白血病完全緩解（Porter et al., 2011） | |
 | 2012 | Anti-PD-1 與 anti-PD-L1 的第 1 期報告在同一期刊出（Topalian et al., 2012；Brahmer et al., 2012） | 肺癌也有反應；PD-L1 陰性的 17 人無人有反應，PD-L1 檢測由此而來 |
 | 2014 | Nivolumab 在日本、pembrolizumab 在美國先後核准用於黑色素瘤（Deeks, 2014；Poole, 2014）；blinatumomab 於 2014-12-03 獲美國加速核准（Przepiorka et al., 2015） | PD-1 抑制劑上市 |
@@ -66,7 +66,7 @@
 | 2017 | 2017-05-23 美國核准 pembrolizumab 用於 MSI-H／dMMR 實體腫瘤（Marcus et al., 2019）；2017-08-30 核准 tisagenlecleucel（O'Leary et al., 2019） | 第一個不分癌別的適應症；第一個 CAR-T |
 | 2018 | Allison 與本庶佑獲諾貝爾生理醫學獎（Huang & Chang, 2019） | |
 | 2022 | Relatlimab ＋ nivolumab（LAG-3 ＋ PD-1）於 3 月在美國核准（Paik, 2022） | 第三個臨床可用的檢查點 |
-| 2024 | 美國核准 lifileucel（2 月；Hu et al., 2025）、tarlatamab（5 月；Liu et al., 2026）、afamitresgene autoleucel（8 月；Barnett et al., 2025） | 細胞治療與 T 細胞銜接抗體進入實體腫瘤 |
+| 2024 | 美國核准 lifileucel（2 月；Hu et al., 2025）、tarlatamab（5 月；Liu et al., 2026）、afamitresgene autoleucel（8 月；Barnett et al., 2025） | 細胞治療（TIL、TCR-T）進入實體腫瘤；T 細胞銜接抗體進入小細胞肺癌 |
 | 2025–2026 | Tarlatamab 於 2025-11-19 轉為傳統核准；dostarlimab 於 2026-10-19 獲加速核准，用於 MSI-H／dMMR 的局部晚期直腸癌（US Food and Drug Administration, 2026） | |
 
 ### 1.2 Coley 的毒素：免疫治療從肉瘤病房開始
@@ -83,7 +83,7 @@ Burnet 與 Thomas 的免疫監視假說認為免疫系統會清除新生的癌�
 > **警察與慣犯**
 > 免疫系統像巡邏的警察，剛出現的癌細胞像生手，多半當場被抓。逃過幾輪追捕、最後長成腫瘤的，是學會變裝的慣犯：有的把身分證（抗原與 MHC）藏起來，有的舉起「自己人」的牌子（PD-L1）要警察停手。臨床上看得到的腫瘤，都是已經通過這場篩選的。所以免疫治療要做的不是「增加警力」而已，還要拆穿變裝。
 
-**和今天的關係：** 腫瘤逃脫的方式決定了治療的方向。舉牌子的，用 PD-1／PD-L1 抑制劑；把身分證藏起來的（MHC 下調），ICI 沒有用，要靠不看 MHC 的 CAR-T 或 T 細胞銜接抗體（見第 7 段）。
+**和今天的關係：** 腫瘤逃脫的方式決定了治療的方向。舉牌子的，用 PD-1／PD-L1 抑制劑；把身分證藏起來的（MHC 下調），T 細胞認不出腫瘤，再拆煞車效果也差，理論上要靠不看 MHC 的 CAR-T 或 T 細胞銜接抗體（見 2.1 與第 7 段）。
 
 ### 1.4 IL-2：第一個證明 T 細胞能治癌的藥
 
@@ -131,23 +131,23 @@ Le 等假設：錯配修復缺失的腫瘤突變多，產生的新抗原（neoan
 
 ## 2. 作用機轉
 
-**這一段的結論先講：** T 細胞要殺掉腫瘤得走完七個步驟，腫瘤只要卡住其中一步就能逃。CTLA-4 抑制劑放開的是第 3 步（淋巴結裡的啟動），PD-1／PD-L1 抑制劑放開的是第 7 步（腫瘤裡的執行）。藥物作用在 T 細胞而不是腫瘤細胞，所以反應的時間、影像的樣子、毒性的型態都和化療不同。
+**這一段的結論先講：** T 細胞要殺掉腫瘤得走完七個步驟，腫瘤只要卡住其中一步就能逃。CTLA-4 抑制劑放開的是第 3 步（淋巴結裡的啟動），PD-1／PD-L1 抑制劑主要放開的是第 7 步（腫瘤裡的執行）。藥物作用在 T 細胞而不是腫瘤細胞，所以反應的時間、影像的樣子、毒性的型態都和化療不同。
 
 ### 2.1 癌症免疫循環（cancer-immunity cycle）
 
-Chen 與 Mellman 把抗腫瘤免疫整理成一個循環：T 細胞殺死癌細胞只是其中一步，循環同時要在「認出非我」與「避免自體免疫」之間維持平衡（Chen & Mellman, 2013）。循環有七個步驟，每一步失敗都對應一種免疫逃脫（Kim & Chen, 2016）。
+Chen 與 Mellman 把抗腫瘤免疫整理成一個循環：T 細胞殺死癌細胞只是其中一步，循環同時要在「認出非我」與「避免自體免疫」之間維持平衡（Chen & Mellman, 2013）。循環有七個步驟；Mellman 後來在開放取用的回顧裡用同樣的順序重述，並列出每一步可以用的治療（Chiang & Mellman, 2022）。每一步失敗都對應一種免疫逃脫（Kim & Chen, 2016）。「發生的地方」一欄的依據是：T 細胞在淋巴結被啟動，再移動到抗原所在的周邊組織與腫瘤發揮作用（Pardoll, 2012）。
 
-| 步驟 | 發生的地方 | 卡住時的原因（Kim & Chen, 2016） | 對準這一步的治療 |
+| 步驟 | 發生的地方 | 卡住時的原因（Kim & Chen, 2016） | 對準這一步的治療（Chiang & Mellman, 2022） |
 |------|-----------|-------------------------------|----------------|
-| 1. 癌細胞死亡，釋出抗原 | 腫瘤 | 沒有夠強的腫瘤抗原 | 沒有直接的藥；MSI-H 或突變多的腫瘤在這一步占優勢（Le et al., 2015） |
+| 1. 癌細胞死亡，釋出抗原 | 腫瘤 | 沒有夠強的腫瘤抗原 | 化療、放療等直接殺腫瘤的治療可以增加抗原釋出；MSI-H 或突變多的腫瘤，抗原本來就多（Le et al., 2015） |
 | 2. 抗原呈現細胞呈現抗原 | 腫瘤到淋巴結 | 同上 | 癌症疫苗（見 3.8） |
-| 3. T 細胞啟動與活化 | 淋巴結 | 腫瘤專一的 T 細胞活化不足 | **CTLA-4 抑制劑** |
-| 4. T 細胞隨血流移動 | 血液 | | |
-| 5. T 細胞浸潤腫瘤 | 腫瘤的血管與基質 | T 細胞進不了腫瘤 | 合併治療（見第 7 段） |
-| 6. T 細胞辨認癌細胞 | 腫瘤 | 癌細胞把 MHC 下調 | 不靠 MHC 的 CAR-T 與 T 細胞銜接抗體 |
+| 3. T 細胞啟動與活化 | 淋巴結 | 腫瘤專一的 T 細胞活化不足 | **CTLA-4 抑制劑**（PD-1 抑制劑在這一步也有作用） |
+| 4. T 細胞移動到腫瘤 | 血液 | | 細胞治療增加能對抗腫瘤的 T 細胞數量；T 細胞銜接抗體把 T 細胞導向腫瘤細胞 |
+| 5. T 細胞浸潤腫瘤 | 腫瘤的血管與基質 | T 細胞進不了腫瘤 | 抗血管新生藥等調整腫瘤微環境的合併治療（見第 7 段） |
+| 6. T 細胞辨認癌細胞 | 腫瘤 | 癌細胞把 MHC 下調 | 不受 HLA 限制的 CAR-T（Porter et al., 2011）與不靠抗原呈現的 T 細胞銜接抗體（Baeuerle & Reinhardt, 2009）可以繞過這一步 |
 | 7. T 細胞殺死癌細胞 | 腫瘤 | 腫瘤微環境裡的抑制因子與抑制性細胞 | **PD-1／PD-L1 抑制劑** |
 
-第 7 步殺死的癌細胞又釋出抗原，回到第 1 步，所以免疫反應一旦轉起來可以自己維持。這是療效能持續的理論基礎，也解釋了為什麼單用 PD-1 抑制劑只在「本來就有抗腫瘤免疫反應」的病人有效（Pardoll, 2012）。
+第 7 步殺死的癌細胞又釋出抗原，回到第 1 步，所以免疫反應一旦轉起來可以自己維持（Chiang & Mellman, 2022）。這是療效能持續的理論基礎，也解釋了為什麼單用 PD-1 抑制劑只在「本來就有抗腫瘤免疫反應」的病人有效（Pardoll, 2012）。
 
 ### 2.2 兩個煞車，兩個地點
 
@@ -270,8 +270,9 @@ Relatlimab 是第一個 LAG-3 抗體，和 nivolumab 做成固定劑量的合併
 | 類別毒性 | CRS 與神經毒性是嚴重毒性（Przepiorka et al., 2015） | 仿單合併族群 CRS 57%（3 級 1.7%、4 級 0.2%），發生 CRS 的病人有 73% 是在第一劑之後；神經毒性 65%，3 級以上 7%；加框警語（Amgen, 2026） |
 | 怎麼降低 CRS | 階梯式劑量（Zhu et al., 2016） | 先給 1 mg 的起始劑量，一週後才升到 10 mg；前兩劑在醫療機構監測 6–8 小時（Amgen, 2026） |
 
-- **CRS（cytokine release syndrome）** 是 T 細胞一口氣被活化、大量釋放細胞激素造成的發燒、低血壓與缺氧。**ICANS（immune effector cell-associated neurotoxicity syndrome）** 是隨之而來的神經毒性。兩者的 ASTCT 分級（Lee et al., 2019）與處置在[腫瘤急症第 9 節](../00-shared/02-oncologic-emergencies.md#9-細胞激素釋放症候群crs與神經毒性icans)。
+- **CRS（cytokine release syndrome）** 是 T 細胞一口氣被活化、大量釋放細胞激素造成的發燒、低血壓與缺氧。**ICANS（immune effector cell-associated neurotoxicity syndrome）** 是這類治療引起的神經毒性，可以和 CRS 同時出現、在 CRS 緩解後出現，也可以在沒有 CRS 時出現（Amgen, 2026）。兩者的 ASTCT 分級（Lee et al., 2019）與處置在[腫瘤急症第 9 節](../00-shared/02-oncologic-emergencies.md#9-細胞激素釋放症候群crs與神經毒性icans)。
 - Tarlatamab 的醫囑範本、監測表與出院衛教在[肺癌章 7.7](../01-lung-cancer.md#77-tarlatamab-病房實務c1d1c1d8-的醫囑監測與出院衛教)，本章不重複。
+- 這類抗體可以把任何一種細胞毒性 T 細胞接到癌細胞上，不看 T 細胞受體原本認什麼，也不需要癌細胞呈現胜肽抗原（Baeuerle & Reinhardt, 2009）。
 - 這類藥還有一個容易漏掉的交互作用：細胞激素短暫升高會抑制 CYP450，CRS 發生期間到之後 14 天內，併用的 CYP 受質藥物濃度可能上升（Amgen, 2026）。病人若在吃 warfarin 這類治療範圍窄的藥，CRS 之後要加強監測。
 
 > [!TIP]
@@ -283,12 +284,12 @@ Relatlimab 是第一個 LAG-3 抗體，和 nivolumab 做成固定劑量的合併
 | 比較 | CAR-T | TCR-T | TIL |
 |------|-------|-------|-----|
 | 代表藥 | tisagenlecleucel（標的 CD19） | afamitresgene autoleucel（標的 MAGE-A4） | lifileucel |
-| 怎麼認腫瘤 | 人工受體直接認細胞表面的抗原 | 轉入的 T 細胞受體，認的是 HLA 呈現的抗原；病人要先驗 HLA-A*02 型別與腫瘤的 MAGE-A4（Barnett et al., 2025） | 腫瘤裡原本就在的 T 細胞，取出後擴增；它是第一個獲美國核准、取自腫瘤的 T 細胞治療（Hu et al., 2025） |
+| 怎麼認腫瘤 | 人工受體直接認細胞表面的抗原，不受 HLA 限制（Porter et al., 2011） | 轉入的 T 細胞受體，認的是 HLA 呈現的抗原；病人要先驗 HLA-A*02 型別與腫瘤的 MAGE-A4（Barnett et al., 2025） | 腫瘤裡原本就在的 T 細胞，取出後擴增；它是第一個獲美國核准、取自腫瘤的 T 細胞治療（Hu et al., 2025） |
 | 細胞從哪裡來 | 病人自己的 T 細胞，經基因改造 | 病人自己的 T 細胞，經基因改造 | 手術取下的腫瘤，在製造廠擴增約 22 天（Sarnaik et al., 2021） |
 | 流程 | fludarabine ＋ cyclophosphamide 淋巴球清除，2 至 14 天後單次輸注（O'Leary et al., 2019） | 淋巴球清除後單次輸注（Barnett et al., 2025） | 淋巴球清除、單次輸注，之後最多 6 劑高劑量 IL-2（Sarnaik et al., 2021） |
 | 核准時的療效 | 25 歲以下的復發或難治 B 細胞急性淋巴性白血病，完全緩解率 63%（O'Leary et al., 2019）；ELIANA 試驗 3 個月內緩解率 81%（Maude et al., 2018） | 曾接受化療的滑膜肉瘤，反應率 43.2%，中位反應持續 6.0 個月（Barnett et al., 2025）；SPEARHEAD-1 論文中全體 52 人（含黏液樣／圓細胞脂肪肉瘤）的反應率是 37%，滑膜肉瘤 39%（D'Angelo et al., 2024） | PD-1 抑制劑治療過的黑色素瘤，反應率 31.5%（Hu et al., 2025） |
 | 主要毒性 | CRS 77%（其中 48% 用到 tocilizumab）、神經事件 40%（Maude et al., 2018） | CRS 75%（3 級以上 2%），加框警語；也有長時間的嚴重血球低下（Barnett et al., 2025） | 3 級不良事件 95.5%、4 級 87.8%；加框警語包含治療相關死亡、長期嚴重血球低下、嚴重感染、心肺與腎功能損害（Hu et al., 2025） |
-| 美國核准 | 2017-08-30（O'Leary et al., 2019） | 2024-08-01 加速核准（Barnett et al., 2025） | 2024-02-16 加速核准（Hu et al., 2025） |
+| 美國核准 | 2017-08-30（O'Leary et al., 2019） | 2024-08-01 加速核准（Barnett et al., 2025；FDA 核准公告頁記為 2024-08-02；US Food and Drug Administration, 2026） | 2024-02-16 加速核准（Hu et al., 2025） |
 
 - TIL 的療效另有一個第 3 期試驗：168 位晚期黑色素瘤病人（86% 對 PD-1 抑制劑無效），TIL（此試驗用的不是 lifileucel）對 ipilimumab 的無惡化存活 7.2 對 3.1 個月（HR 0.50）；TIL 組所有病人都有 3 級以上的治療相關不良事件，主要是化療造成的骨髓抑制（Rohaan et al., 2022）。
 - **和本手冊的關係**：afamitresgene autoleucel 是肉瘤章介紹的細胞治療，台灣沒有藥證，細節在[肉瘤章 4.4.4](../04-sarcoma.md#444-依組織型選藥)。本章提到的 CAR-T 用在血液腫瘤；病房會遇到的是 CRS 的處置，以及執行醫院必須備妥 tocilizumab 的規定（[腫瘤急症 9.4](../00-shared/02-oncologic-emergencies.md#94-台灣藥證與健保給付)）。
@@ -404,11 +405,11 @@ Sipuleucel-T 是第一個獲美國 FDA 核准的治療性癌症疫苗，設計�
 **MSI-H／dMMR 與 TMB：不分癌別的 biomarker**
 
 - **MSI-H／dMMR**：KEYNOTE-158 收了 233 位非大腸直腸癌的 MSI-H／dMMR 病人（27 種癌別），反應率 34.3%，中位整體存活 23.5 個月（Marabelle et al., 2020）。
-- **TMB-H**：2020-06-16 美國加速核准 pembrolizumab 用於 TMB ≥10 mut/Mb 的實體腫瘤，依據是 KEYNOTE-158 中 102 位病人的反應率 29%（Marcus et al., 2021）。2026-10-16 改為傳統核准（US Food and Drug Administration, 2026），現行美國仿單把 TMB-H 定義為 **≥13 mut/Mb**（FoundationOne CDx），220 位病人的反應率 36%（Merck Sharp & Dohme, 2026）。
+- **TMB-H**：2020-06-16 美國加速核准 pembrolizumab 用於 TMB ≥10 mut/Mb 的實體腫瘤，依據是 KEYNOTE-158 中 102 位病人的反應率 29%；試驗的統計計畫當時就預先訂了 ≥10 與 ≥13 兩個切點（Marcus et al., 2021）。2026-10-16 改為傳統核准，適應症同時更新（US Food and Drug Administration, 2026）：現行美國仿單（2026-10-16 版）把 TMB-H 定義為 **≥13 mut/Mb**（適應症要求用 FDA 授權的檢測判定；試驗用的是 FoundationOne CDx），220 位病人的反應率 36%（95% CI 30–43）（Merck Sharp & Dohme, 2026）。
 
 > [!CAUTION]
 > **待核對：TMB-H 的切點正在改**
-> 美國仿單的 TMB-H 切點在 2026-10 的版本是 ≥13 mut/Mb，2020 年加速核准時是 ≥10 mut/Mb（Marcus et al., 2021）。本手冊其他章節引用的指引與台灣仿單是否已跟著修改，本章沒有查證。看到 TMB 報告時，要同時確認檢測平台與當時適用的切點；台灣藥證與給付請見各癌別章第 9 段。
+> 美國仿單的 TMB-H 切點在 2026-10 的版本是 ≥13 mut/Mb，2020 年加速核准時是 ≥10 mut/Mb（Marcus et al., 2021）。本手冊[乳癌章 2.6](../03-breast-cancer.md#26-轉移或復發時的-biomarker)寫的仍是 ≥10 mut/Mb；其他章節引用的指引與台灣仿單是否已跟著修改，本章沒有查證。看到 TMB 報告時，要同時確認檢測平台與當時適用的切點；台灣藥證與給付請見各癌別章第 9 段。
 
 ### 5.2 本手冊四個癌別怎麼用
 
@@ -422,7 +423,7 @@ Sipuleucel-T 是第一個獲美國 FDA 核准的治療性癌症疫苗，設計�
 | SCLC 局限期，同步化放療後未惡化 | durvalumab 鞏固 | ADRIATIC：整體存活 55.9 對 33.4 個月（HR 0.73）（Cheng et al., 2024） | 同上 |
 | SCLC 含鉑化療後惡化 | tarlatamab | DeLLphi-304：整體存活 13.6 對 8.3 個月（HR 0.60）（Mountzios et al., 2025） | [肺癌 4.4](../01-lung-cancer.md#44-sclc)、[7.7](../01-lung-cancer.md#77-tarlatamab-病房實務c1d1c1d8-的醫囑監測與出院衛教) |
 | 早期三陰性乳癌（II–III 期） | 術前化療 ＋ pembrolizumab，術後續用 pembrolizumab | KEYNOTE-522：病理完全反應 63.0% 對 55.6%（Merck Sharp & Dohme, 2026），36 個月無事件存活 84.5% 對 76.8%（HR 0.63）（Schmid et al., 2022），5 年存活 86.6% 對 81.7%（Schmid et al., 2024） | [乳癌 4.6](../03-breast-cancer.md#46-早期三陰性keynote-522-為骨幹殘存病灶再加碼)、[9.3](../03-breast-cancer.md#93-三陰性與-gbrca免疫治療parp-抑制劑sacituzumab-govitecan-與-larotrectinib) |
-| 轉移性三陰性乳癌 | 化療 ＋ pembrolizumab，限 CPS ≥10 | KEYNOTE-355：CPS ≥10 的整體存活 23.0 對 16.1 個月（HR 0.73）；CPS ≥1 是 17.6 對 16.0 個月，未達顯著（Cortes et al., 2022）。Atezolizumab ＋ nab-paclitaxel 的 IMpassion130：全體整體存活 21.3 對 17.6 個月（HR 0.84），未達顯著（Schmid et al., 2018） | [乳癌 4.9](../03-breast-cancer.md#49-轉移性三陰性看-pd-l1看前線用藥) |
+| 轉移性三陰性乳癌 | 化療 ＋ pembrolizumab，限 CPS ≥10 | KEYNOTE-355：CPS ≥10 的整體存活 23.0 對 16.1 個月（HR 0.73）；CPS ≥1 是 17.6 對 16.0 個月，未達顯著（Cortes et al., 2022）。Atezolizumab ＋ nab-paclitaxel 的 IMpassion130：全體整體存活 21.3 對 17.6 個月（HR 0.84），未達顯著（Schmid et al., 2018；這是追蹤中位數 12.9 個月時的分析，後續分析的數字見乳癌章 4.9） | [乳癌 4.9](../03-breast-cancer.md#49-轉移性三陰性看-pd-l1看前線用藥) |
 | 胰臟癌 | 只有 MSI-H／dMMR 才考慮 pembrolizumab | KEYNOTE-158 的胰臟癌 22 人，反應率 18%（95% CI 5–40）（Merck Sharp & Dohme, 2026）。不挑 biomarker 時，durvalumab ± tremelimumab 二線的反應率只有 3.1% 與 0%（O'Reilly et al., 2019） | [胰臟癌 4.10](../02-pancreatic-cancer.md#410-生物標記導向治療與-kras-標靶)、[9.5](../02-pancreatic-cancer.md#95-有藥證或指引建議但原文沒有胰臟條文的藥) |
 | 肉瘤：肺泡狀軟組織肉瘤（ASPS） | atezolizumab | 論文反應率 37%（19/52，中位反應持續 24.7 個月）（Chen et al., 2023）；美國仿單的獨立審查反應率 24%（49 人）（Genentech, 2026） | [肉瘤 4.4.4](../04-sarcoma.md#444-依組織型選藥)、[9.4](../04-sarcoma.md#94-本章提到但第-9-節沒有肉瘤條文的藥) |
 | 肉瘤：其他組織型 | 不是常規；依組織型差很多 | SARC028（pembrolizumab）：軟組織肉瘤 18%（7/40），其中未分化多形性肉瘤 4/10、脂肪肉瘤 2/10、滑膜肉瘤 1/10、平滑肌肉瘤 0/10；骨肉瘤 1/22、Ewing 肉瘤 0/13（Tawbi et al., 2017）。Alliance A091401：nivolumab 單用 5%，加 ipilimumab 16%（D'Angelo et al., 2018） | [肉瘤 4.4.4](../04-sarcoma.md#444-依組織型選藥) |
@@ -435,7 +436,7 @@ Sipuleucel-T 是第一個獲美國 FDA 核准的治療性癌症疫苗，設計�
 ### 5.3 用多久、什麼時候停
 
 - **轉移性疾病**：KEYNOTE-024 與 KEYNOTE-189 的 pembrolizumab 都設計成最多 35 個週期（約 2 年）（Reck et al., 2021；Garassino et al., 2023）。KEYNOTE-024 完成 35 個週期的 39 人，約 5 年時 82.1% 仍存活（Reck et al., 2021）。健保 9.69 的給付時程也是 2 年（見[肺癌章 9.3](../01-lung-cancer.md#93-免疫檢查點抑制劑969)）。
-- **不要太早停**：CheckMate 153 把用滿 1 年的 NSCLC 病人隨機分成繼續用與停藥，繼續用的無惡化存活 24.7 對 9.4 個月（HR 0.56）（Waterhouse et al., 2020）。
+- **不要太早停**：CheckMate 153 把用滿 1 年的 NSCLC 病人隨機分成繼續用與停藥，繼續用的無惡化存活 24.7 對 9.4 個月（HR 0.56）；這是探索性分析，證據強度有限（Waterhouse et al., 2020）。
 - **輔助、鞏固與圍術期**：療程是固定的，例如 PACIFIC 的 durvalumab 是 12 個月；各試驗的療程長度見上表連結的章節。
 - **因 irAE 停藥**：停藥不等於失去療效，已經啟動的免疫反應可以持續（見 2.3）；能不能重新給藥見第 8 段。
 
@@ -545,23 +546,23 @@ Ivonescimab 是同時結合 PD-1 與血管內皮生長因子（VEGF）的雙特�
 | HARMONi-2（Xiong et al., 2025） | 中國；PD-L1 陽性的晚期 NSCLC 第一線，398 人 | ivonescimab 對 pembrolizumab | 無惡化存活 11.1 對 5.8 個月（HR 0.51）；3 級以上治療相關不良事件 29% 對 16% |
 | HARMONi-6（Lu et al., 2026） | 中國；晚期鱗狀 NSCLC 第一線，532 人 | ivonescimab ＋ 化療對 tislelizumab ＋ 化療 | 整體存活 27.9 對 23.7 個月（HR 0.66）；3 級以上治療相關不良事件 69% 對 59%，3 級以上出血 3% 對 1% |
 | HARMONi-A（Fang et al., 2026） | 中國；EGFR-TKI 治療後惡化的 EGFR 突變非鱗狀 NSCLC，322 人 | ivonescimab ＋ 化療對化療 | 整體存活 16.8 對 14.1 個月（HR 0.74） |
-| HARMONi（Le et al., 2026） | 跨國（亞洲人占 70%）；與 HARMONi-A 相同的族群，438 人 | ivonescimab ＋ 化療對化療 | 無惡化存活 6.8 對 4.4 個月（HR 0.52）；整體存活 16.8 對 14.0 個月（HR 0.79，95% CI 0.62–1.01），**未達顯著** |
+| HARMONi（Le et al., 2026） | 跨國（亞洲人占 70%）；第三代 EGFR-TKI 治療後惡化的 EGFR 突變非鱗狀 NSCLC，438 人 | ivonescimab ＋ 化療對化療 | 無惡化存活 6.8 對 4.4 個月（HR 0.52）；整體存活 16.8 對 14.0 個月（HR 0.79，95% CI 0.62–1.01），**未達顯著** |
 
 讀這張表要注意兩件事：四個試驗中三個只在中國收案；唯一的跨國試驗，整體存活沒有達到統計顯著。
 
 > [!CAUTION]
 > **待核對：ivonescimab 的美國審查結果**
-> Ivonescimab 已在中國核准。美國 FDA 於 2026 年 1 月受理它併用化療治療 EGFR-TKI 後惡化的 EGFR 突變非鱗狀 NSCLC 的申請，目標審查日期是 2026-11-14（Serani, 2026），也就是本章定稿後 3 天；美國 FDA 核准公告頁到 2026-11-10 為止沒有 ivonescimab 的條目（US Food and Drug Administration, 2026）。審查結果、台灣藥證與給付都有時效性，請以最新公告為準。
+> Ivonescimab 於 2024 年 5 月首次在中國核准，在美國與歐洲仍是試驗用藥。美國 FDA 已受理它併用化療治療 EGFR-TKI 後惡化的 EGFR 突變非鱗狀 NSCLC 的申請，目標審查日期（PDUFA goal date）是 2026-11-14（公司 2026-01-29 新聞稿；Summit Therapeutics, 2026），也就是本章定稿後 3 天；美國 FDA 核准公告頁到 2026-11-10 為止沒有 ivonescimab 的條目（US Food and Drug Administration, 2026）。審查結果、台灣藥證與給付都有時效性，請以最新公告為準。
 
 **三、抗體藥物複合體（ADC）＋ 免疫**
 
 - 泌尿上皮癌第一線的 EV-302：enfortumab vedotin ＋ pembrolizumab 對化療，整體存活 31.5 對 16.1 個月（HR 0.47）（Powles et al., 2024）。
-- 三陰性乳癌第一線的 ASCENT-04：sacituzumab govitecan ＋ pembrolizumab 對化療 ＋ pembrolizumab，無惡化存活 11.2 對 7.8 個月（HR 0.65），整體存活資料尚未成熟（Tolaney et al., 2026）。美國於 2026-06-24 核准 sacituzumab govitecan 新的三陰性乳癌適應症（US Food and Drug Administration, 2026）；台灣的狀態見[乳癌章 4.9](../03-breast-cancer.md#49-轉移性三陰性看-pd-l1看前線用藥)。
+- PD-L1 陽性三陰性乳癌第一線的 ASCENT-04：sacituzumab govitecan ＋ pembrolizumab 對化療 ＋ pembrolizumab，無惡化存活 11.2 對 7.8 個月（HR 0.65），整體存活資料尚未成熟（Tolaney et al., 2026）。美國於 2026-06-24 核准 sacituzumab govitecan 新的三陰性乳癌適應症（US Food and Drug Administration, 2026）；台灣的狀態見[乳癌章 4.9](../03-breast-cancer.md#49-轉移性三陰性看-pd-l1看前線用藥)。
 - ADC 的機轉與毒性見[標靶藥物](03-targeted-therapy.md)。
 
-**四、不靠腫瘤自己的抗原呈現**
+**四、直接補上 T 細胞，或把 T 細胞拉到腫瘤旁**
 
-T 細胞銜接抗體（tarlatamab）、TIL（lifileucel）與 TCR-T（afamitresgene autoleucel）在 2024 年進入實體腫瘤（見 3.5、3.6）。它們共同的限制是毒性大、製程或監測複雜，而且台灣不一定有藥證。
+T 細胞銜接抗體（tarlatamab）、TIL（lifileucel）與 TCR-T（afamitresgene autoleucel）都在 2024 年獲美國核准用於實體腫瘤（見 3.5、3.6）。三者之中，只有 T 細胞銜接抗體不靠癌細胞呈現抗原（Baeuerle & Reinhardt, 2009）；TCR-T 認的仍是 HLA 呈現的抗原，所以要先驗 HLA（Barnett et al., 2025）。它們共同的限制是毒性大、製程或監測複雜，而且台灣不一定有藥證。
 
 **五、仍在試驗階段**
 
@@ -1081,8 +1082,6 @@ Schneider, B. J., Naidoo, J., Santomasso, B. D., Lacchetti, C., Adkins, S., Anad
 
 Schoenfeld, A. J., Arbour, K. C., Rizvi, H., Iqbal, A. N., Gadgeel, S. M., Girshman, J., Kris, M. G., Riely, G. J., Yu, H. A., & Hellmann, M. D. (2019). Severe immune-related adverse events are common with sequential PD-(L)1 blockade and osimertinib. *Annals of Oncology, 30*(5), 839–844. https://doi.org/10.1093/annonc/mdz077 （PMID: 30847464）
 
-Serani, S. (2026, January 30). FDA accepts BLA for ivonescimab in pretreated EGFR-mutated NSCLC. *Targeted Oncology*. https://www.targetedonc.com/view/fda-accepts-bla-for-ivonescimab-in-pretreated-egfr-mutated-nsclc
-
 Seymour, L., Bogaerts, J., Perrone, A., Ford, R., Schwartz, L. H., Mandrekar, S., Lin, N. U., Litière, S., Dancey, J., Chen, A., Hodi, F. S., Therasse, P., Hoekstra, O. S., Shankar, L. K., Wolchok, J. D., Ballinger, M., Caramella, C., & de Vries, E. G. E. (2017). iRECIST: Guidelines for response criteria for use in trials testing immunotherapeutics. *The Lancet Oncology, 18*(3), e143–e152. https://doi.org/10.1016/S1470-2045(17)30074-8 （PMID: 28271869）
 
 Sezer, A., Kilickap, S., Gümüş, M., Bondarenko, I., Özgüroğlu, M., Gogishvili, M., Turk, H. M., Cicin, I., Bentsion, D., Gladkov, O., Clingan, P., Sriuranpong, V., Rizvi, N., Gao, B., Li, S., Lee, S., McGuire, K., Chen, C.-I., Makharadze, T., . . . Rietschel, P. (2021). Cemiplimab monotherapy for first-line treatment of advanced non-small-cell lung cancer with PD-L1 of at least 50%: A multicentre, open-label, global, phase 3, randomised, controlled trial. *The Lancet, 397*(10274), 592–604. https://doi.org/10.1016/S0140-6736(21)00228-2 （PMID: 33581821）
@@ -1098,6 +1097,8 @@ Socinski, M. A., Jotte, R. M., Cappuzzo, F., Orlandi, F., Stroyakovskiy, D., Nog
 Spicer, J. D., Garassino, M. C., Wakelee, H., Liberman, M., Kato, T., Tsuboi, M., Lee, S.-H., Chen, K.-N., Dooms, C., Majem, M., Eigendorff, E., Martinengo, G. L., Bylicki, O., Rodríguez-Abreu, D., Chaft, J. E., Novello, S., Yang, J., Arunachalam, A., Keller, S. M., . . . Gao, S. (2024). Neoadjuvant pembrolizumab plus chemotherapy followed by adjuvant pembrolizumab compared with neoadjuvant chemotherapy alone in patients with early-stage non-small-cell lung cancer (KEYNOTE-671): A randomised, double-blind, placebo-controlled, phase 3 trial. *The Lancet, 404*(10459), 1240–1252. https://doi.org/10.1016/S0140-6736(24)01756-2 （PMID: 39288781）
 
 Spigel, D. R., Faivre-Finn, C., Gray, J. E., Vicente, D., Planchard, D., Paz-Ares, L., Vansteenkiste, J. F., Garassino, M. C., Hui, R., Quantin, X., Rimner, A., Wu, Y.-L., Özgüroğlu, M., Lee, K. H., Kato, T., de Wit, M., Kurata, T., Reck, M., Cho, B. C., . . . Antonia, S. J. (2022). Five-year survival outcomes from the PACIFIC trial: Durvalumab after chemoradiotherapy in stage III non-small-cell lung cancer. *Journal of Clinical Oncology, 40*(12), 1301–1311. https://doi.org/10.1200/JCO.21.01308 （PMID: 35108059）
+
+Summit Therapeutics Inc. (2026, January 29). *Summit Therapeutics announces U.S. FDA acceptance of biologics license application (BLA) seeking approval for ivonescimab in combination with chemotherapy in treatment of patients with EGFRm NSCLC post-TKI therapy* [Press release]. https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx
 
 Syed, Y. Y. (2017). Durvalumab: First global approval. *Drugs, 77*(12), 1369–1376. https://doi.org/10.1007/s40265-017-0782-5 （PMID: 28643244）
 
