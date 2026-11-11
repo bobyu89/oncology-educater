@@ -2,7 +2,7 @@
 
 | 項目 | 本章依據 |
 |------|---------|
-| 發現史 | 原始論文（Goodman & Wintrobe, 1946; Farber et al., 1948; Heidelberger et al., 1957; Rosenberg et al., 1965; Wani et al., 1971）與史料回顧（DeVita & Chu, 2008; Christakis, 2011; Falzone et al., 2018） |
+| 發現史 | 原始論文（Goodman et al., 1946; Farber et al., 1948; Heidelberger et al., 1957; Rosenberg et al., 1965; Wani et al., 1971）與史料回顧（DeVita & Chu, 2008; Christakis, 2011; Falzone et al., 2018） |
 | 機轉、藥動、毒性 | 美國 FDA 仿單（DailyMed，2026-11-11 讀取；各藥的版本日期見[第 11 段](#11-參考文獻)）；S-1 沒有美國仿單，用歐盟 EMA 的 Teysuno 仿單 |
 | 治療原則 | Log-kill（Skipper et al., 1964）、Goldie–Coldman（Goldie & Coldman, 1979）、Norton–Simon（Norton & Simon, 1977）、CALGB 9741（Citron et al., 2003）、EBCTCG 2019 統合分析 |
 | 本章不重複的內容 | 處方劑量見各癌別章第 5 段；CTCAE 分級處置、解毒劑、外滲與止吐見共用章；健保給付與台灣藥證見各癌別章第 9 段（藥品給付規定 115/10/22 版） |
@@ -41,7 +41,7 @@
 
 ## 1. 怎麼被發現的
 
-**結論先講：** 化療藥的來源只有四條路：戰爭毒氣（烷化劑）、營養學（抗葉酸藥）、實驗室的意外（cisplatin）、大自然（植物、土壤細菌、海洋生物）。之後幾十年的工作，大多是把這些分子改得比較不毒、能口服，或送得更準。知道來源，就能解釋今天床邊的很多規矩。
+**結論先講：** 化療藥的來源主要有四條路：戰爭毒氣（烷化劑）、營養學（抗葉酸藥）、實驗室的意外（cisplatin）、大自然（植物、土壤細菌、海洋生物）；另外還有實驗室合成的類似物，例如氟化嘧啶與 gemcitabine（1.4、1.7）。之後幾十年的工作，大多是把這些分子改得比較不毒、能口服，或送得更準。知道來源，就能解釋今天床邊的很多規矩。
 
 ### 1.1 時間軸
 
@@ -49,8 +49,8 @@
 |------|------|------|
 | 1919 | Krumbhaar 報告芥子氣中毒的士兵白血球先升後降（Christakis, 2011） | 第一次有人注意到芥子氣的標靶是骨髓 |
 | 1942 | Yale 的 Gilman 與 Goodman 做完兔子與小鼠實驗後，8 月 27 日第一位淋巴肉瘤病人接受 nitrogen mustard 靜脈注射（Christakis, 2011; Fenn & Udelsman, 2011） | 第一次靜脈化療：腫瘤縮小、很快復發、骨髓被打垮 |
-| 1943 | 義大利 Bari 港空襲，超過 100 噸芥子氣意外外洩（Turner & Sapp, 2026; Alexander, 1947） | 傷患的醫學報告讓芥子類化合物對血球的作用更受注意 |
-| 1946 | Nitrogen mustard 治療 Hodgkin 病、淋巴肉瘤與白血病的臨床結果在 JAMA 發表（Goodman & Wintrobe, 1946） | 戰時保密解除，化療正式進入醫學文獻 |
+| 1943 | 義大利 Bari 港空襲，超過 100 噸芥子氣意外外洩（Turner & Sapp, 2026; Alexander, 1947） | 暴露的傷患出現骨髓再生不良（Falzone et al., 2018）；這起事件常被當成化療誕生的起點之一（Turner & Sapp, 2026） |
+| 1946 | Nitrogen mustard 治療 Hodgkin 病、淋巴肉瘤與白血病的臨床結果在 JAMA 發表（Goodman et al., 1946） | 第一批 nitrogen mustard 臨床結果公開發表，化療正式進入醫學文獻（Falzone et al., 2018） |
 | 1948 | Farber 用葉酸拮抗劑 aminopterin 讓急性白血病兒童得到暫時緩解（Farber et al., 1948） | 抗葉酸藥是最早被研究的一類抗代謝物；之後由 methotrexate 接手（Falzone et al., 2018） |
 | 1957 | Heidelberger 等人發表氟化嘧啶，其中包括 5-fluorouracil（Heidelberger et al., 1957） | 第一個嘧啶類抗代謝物，至今仍是腸胃道癌的骨幹（Falzone et al., 2018） |
 | 1959 | Cyclophosphamide 在美國核准（BluePoint, 2026） | 把 nitrogen mustard 做成「運送型」前驅藥，治療指數提高（Brock, 1989） |
@@ -59,7 +59,7 @@
 | 1965 | Rosenberg 發現鉑電極的電解產物會抑制大腸桿菌分裂（Rosenberg et al., 1965） | Cisplatin 的意外發現 |
 | 1966 | Wall 與 Wani 從喜樹（Camptotheca acuminata）分離出 camptothecin；同年日本發現 bleomycin（Falzone et al., 2018; Umezawa et al., 1966） | Topoisomerase I 抑制劑與 bleomycin 的起點 |
 | 1971 | Wani 等人發表太平洋紫杉（Taxus brevifolia）中 taxol 的結構（Wani et al., 1971） | Paclitaxel 的起點 |
-| 1974 | 高劑量 methotrexate 加 citrovorum factor（leucovorin）用於骨肉瘤術後輔助（Jaffe et al., 1974） | 「先下重藥、再救正常細胞」的做法成形 |
+| 1974 | Methotrexate 加 citrovorum factor（leucovorin）用於骨肉瘤術後輔助（Jaffe et al., 1974） | 抗葉酸藥配解救劑的做法進入實體腫瘤的輔助治療 |
 | 1977 | Cisplatin ＋ vinblastine ＋ bleomycin 治療轉移性睪丸癌，完全緩解 74%（Einhorn & Donohue, 1977） | 轉移性實體腫瘤也能靠合併化療得到高比例的完全緩解 |
 | 1978 | Cisplatin 獲美國 FDA 核准（Dasari & Tchounwou, 2014; WG Critical Care, 2026） | 第一個鉑類藥 |
 | 1979 | Horwitz 團隊發現 taxol 會促進微管聚合（Schiff et al., 1979） | 和 vinca 相反：vinca 阻止微管聚合，taxol 促進聚合（Weaver, 2014） |
@@ -70,12 +70,12 @@
 | 1998–2005 | Capecitabine（1998）、oxaliplatin（2002）、pemetrexed（2004）、nab-paclitaxel（2005）在美國核准（H2-Pharma, 2026; Sagent, 2025; Eli Lilly, 2023; Abraxis, 2022） | 口服前驅藥、第三代鉑類、多標靶抗葉酸藥、無溶劑紫杉醇 |
 | 2010–2015 | Eribulin（2010）與 trabectedin（2015）在美國核准；liposomal irinotecan 於 2015 年核准用於胰臟癌（Eisai, 2025; Janssen, 2026; Thomas & Pommier, 2019） | 海洋生物來源的藥與脂質體劑型 |
 
-表中的核准年份是美國仿單上的「Initial U.S. Approval」，不是台灣上市年份。台灣藥證與給付請見各癌別章第 9 段。
+表中的核准年份是美國仿單上的「Initial U.S. Approval」，不是台灣上市年份。例外是 liposomal irinotecan：Onivyde 仿單的 Initial U.S. Approval 寫的是 irinotecan 的 1996 年（Ipsen, 2025），2015 年這個劑型的核准年份取自回顧文獻（Thomas & Pommier, 2019）。台灣藥證與給付請見各癌別章第 9 段。
 
 ### 1.2 從毒氣到烷化劑
 
 - **觀察**：一次大戰後就有人發現芥子氣會讓白血球大幅下降。二次大戰期間，美國政府委託 Yale 的藥理學家 Gilman 與 Goodman 研究 nitrogen mustard 的毒性。他們在兔子身上看到淋巴球與顆粒球下降，推想這也許能治療淋巴系統的腫瘤，並在移植淋巴瘤的小鼠身上看到腫瘤縮小（Christakis, 2011）。
-- **第一位病人**：病歷上只寫 JD、1894 年出生的男性，淋巴肉瘤對放射治療已無效。1942 年 8 月 27 日起每天靜脈注射 0.1 mg/kg，共 10 天；第 5 劑後症狀改善，療程後切片找不到腫瘤。接著白血球與血小板下降、牙齦出血需要輸血；第 49 天腫瘤復發，再給藥的效果愈來愈短，第 96 天過世，解剖顯示骨髓極度再生不良。因為戰時保密，病歷上只寫「substance X」（Christakis, 2011; Fenn & Udelsman, 2011）。
+- **第一位病人**：文獻上只以姓名縮寫 JD 稱呼，是 1894 年出生的男性，淋巴肉瘤對放射治療已無效。1942 年 8 月 27 日起每天靜脈注射 0.1 mg/kg，共 10 天；第 5 劑後症狀改善，療程後切片找不到腫瘤。接著白血球與血小板下降、牙齦出血需要輸血；第 49 天腫瘤復發，再給藥的效果愈來愈短，第 96 天過世，解剖顯示骨髓極度再生不良。因為戰時保密，病歷上沒有出現 nitrogen mustard 這個詞，只寫「a lymphocidal」或「substance X」（Christakis, 2011; Fenn & Udelsman, 2011）。
 - **Bari 事件**：1943 年 12 月 Bari 港遭空襲，一艘載有芥子氣彈的船被炸，毒氣外洩（Falzone et al., 2018; Turner & Sapp, 2026）。Alexander 的傷患醫學報告在 1947 年發表（Alexander, 1947）。時間上，Yale 的第一位病人比 Bari 事件早一年多。
 - **改良**：nitrogen mustard 太活潑。Brock 等人把它做成沒有活性的「運送型」，進入體內再由酵素轉成「作用型」，這就是 cyclophosphamide 與 ifosfamide；後來再加上保護泌尿道的 mesna（Brock, 1989）。原本設想由癌細胞裡的 phosphamidase 活化，事後證明這個假說和藥效無關，真正讓它有選擇性的是代謝與 aldehyde dehydrogenase 的去活化（Emadi et al., 2009）。
 
@@ -85,7 +85,7 @@
 
 - **觀察**：病理科醫師 Sidney Farber 注意到葉酸會刺激白血病細胞生長、讓病程加速，於是反過來想：葉酸的拮抗劑也許能讓癌細胞停下來（Miller, 2006）。
 - **論文**：1948 年他在 NEJM 報告 aminopterin 讓急性白血病兒童得到暫時緩解（Farber et al., 1948）。之後毒性較低的 methotrexate（amethopterin）取代了 aminopterin（Falzone et al., 2018），美國仿單的首次核准年份是 1953 年（Accord, 2026）。
-- **解救的概念**：methotrexate 抑制 dihydrofolate reductase（DHFR），細胞就沒有還原型葉酸可用（Accord, 2026）。Leucovorin（又叫 citrovorum factor、folinic acid）本身已是還原型葉酸，不需要經過 DHFR 就能用（Gland, 2026）。1974 年 Jaffe 等人把高劑量 methotrexate 加 citrovorum factor 用在骨肉瘤術後（Jaffe et al., 1974），這個做法延續到今天的 MAP 方案。
+- **解救的概念**：methotrexate 抑制 dihydrofolate reductase（DHFR），細胞就沒有還原型葉酸可用（Accord, 2026）。Leucovorin（又叫 citrovorum factor、folinic acid）本身已是還原型葉酸，不需要經過 DHFR 就能用（Gland, 2026）。1974 年 Jaffe 等人把 methotrexate 加 citrovorum factor 用在骨肉瘤術後輔助（Jaffe et al., 1974）；methotrexate 加 leucovorin 解救的做法延續到今天骨肉瘤的 MAP 方案。
 
 **和今天的連結**：
 - 高劑量 methotrexate（≥ 500 mg/m²）一定要有 leucovorin 解救、水化與鹼化尿液（Howard et al., 2016; Accord, 2026）。病房流程見[肉瘤章 6.1](../04-sarcoma.md#61-高劑量-methotrexatehd-mtx完整病房流程)。
@@ -95,7 +95,7 @@
 > **葉酸是影印機的碳粉**
 > 細胞要複製 DNA，就像影印機要碳粉；還原型葉酸就是碳粉。Methotrexate 把補碳粉的機器（DHFR）關掉，影印最勤快的細胞（癌細胞、骨髓、黏膜）最先停工。Leucovorin 是直接送來的現成碳粉，不必經過那台被關掉的機器，所以能救正常細胞。給得太晚救不回來，這是 leucovorin 要照時間表給的原因。
 
-### 1.4 Heidelberger 與 5-FU：從設計出發的藥
+### 1.4 Heidelberger 與 5-FU：實驗室合成的氟化嘧啶
 
 1957 年 Heidelberger 等人在 Nature 發表氟化嘧啶這一類新的抑瘤化合物（Heidelberger et al., 1957）。5-FU 在體內變成 FdUMP，和葉酸輔因子一起把 thymidylate synthase 鎖住，細胞就做不出 thymidine（Alembic, 2026; H2-Pharma, 2026）。美國仿單的首次核准年份是 1962 年（Alembic, 2026）。
 
@@ -123,7 +123,7 @@
 | 來源 | 故事 | 今天的藥 | 和今天的連結 |
 |------|------|---------|-------------|
 | 長春花（Catharanthus roseus，Madagascar periwinkle） | 民間拿它治糖尿病。研究者想驗證降血糖效果，結果找到的是兩個抗癌生物鹼（Noble, 1990） | vincristine、vinblastine；半合成的 vinorelbine（Sagent, 2024） | Vincristine 幾乎不壓骨髓，毒性在神經，所以常被放進合併處方（Hospira, 2026） |
-| 鬼臼（podophyllin） | 幾百年的民俗藥。1950 年代開始找更有效的 podophyllotoxin 衍生物，最後得到一類新的 topoisomerase II 抑制劑（Hande, 1998） | etoposide（Hikma, 2024） | SCLC 的 EP 處方、Ewing sarcoma 的 IE |
+| 鬼臼類植物的樹脂（podophyllin） | 含 podophyllin 的材料當了幾百年的民俗藥。1950 年代開始找更有效的 podophyllotoxin 衍生物，最後得到一類新的 topoisomerase II 抑制劑（Hande, 1998） | etoposide（Hikma, 2024） | SCLC 的 EP 處方、Ewing sarcoma 的 IE |
 | 土壤細菌 Streptomyces | 義大利藥廠 Farmitalia 與米蘭國家腫瘤研究所合作，1960 年起研究 Streptomyces peucetius，先得到 daunorubicin，再從突變株得到 doxorubicin；doxorubicin 的療效較好，但心臟毒性沒有消失（Falzone et al., 2018; Arcamone et al., 1969） | doxorubicin、epirubicin；同屬 Streptomyces 來源的還有 bleomycin、dactinomycin、mitomycin（Meitheal, 2026; Eugia, 2024; Hikma, 2026） | Anthracycline 傷心肌，所以要算累積劑量、追蹤 LVEF（Pfizer, 2026） |
 | 喜樹（Camptotheca acuminata） | 1966 年 Wall 與 Wani 分離出 camptothecin（Wall & Wani, 1995; Falzone et al., 2018）。1985 年才知道標靶是 topoisomerase I（Hsiang et al., 1985）。之後的工作是找水溶性較好、毒性較低的衍生物（Kunimoto et al., 1987） | irinotecan、topotecan | Irinotecan 是前驅藥，活性代謝物 SN-38 靠 UGT1A1 清除，所以要想到 UGT1A1（Actavis, 2025） |
 | 太平洋紫杉（Taxus brevifolia） | 1962 年美國農業部植物學家採到樹皮樣本，1967 年 Wall 與 Wani 分離出 taxol，1971 年發表結構，1979 年 Horwitz 發現它促進微管聚合，1984 年進入臨床試驗。剝樹皮會殺死樹，供應一度短缺，後來改用半合成（Weaver, 2014; Wani et al., 1971; Schiff et al., 1979） | paclitaxel、docetaxel（由紫杉針葉的前驅物半合成；Ringel & Horwitz, 1991; Mylan, 2026）、nab-paclitaxel | Paclitaxel 不溶於水，要用 polyoxyl 35 castor oil 當溶劑，這個溶劑會引起嚴重過敏，所以要前置用藥（Weaver, 2014; Teva Parenteral Medicines, 2026） |
@@ -176,7 +176,7 @@ Skipper 等人在小鼠白血病 L1210 的實驗提出 log-kill 假說：一個�
 用假設的數字算一次：如果一個週期能殺掉 99%（2 個 log），10 億個細胞打完一次還剩 1,000 萬個，要重複很多次才可能歸零，而且兩次治療之間腫瘤還會長回來。這個模型解釋了三件事：
 
 1. **化療要打很多個週期**，影像上看不到腫瘤不代表沒有細胞了。
-2. **腫瘤負荷愈小愈有機會清光**，這是術後輔助化療的邏輯：用全身治療清掉看不到的微轉移（Fornier & Norton, 2005）。1976 年 Bonadonna 的 CMF 輔助試驗裡，淋巴結陽性乳癌術後 27 個月的復發率是 24% 對 5.3%（Bonadonna et al., 1976）。
+2. **腫瘤負荷愈小愈有機會清光**，這是術後輔助化療的邏輯：用全身治療清掉看不到的微轉移（Fornier & Norton, 2005）。1976 年 Bonadonna 的 CMF 輔助試驗裡，淋巴結陽性乳癌術後 27 個月的復發率是對照組 24%、CMF 組 5.3%（Bonadonna et al., 1976）。
 3. **劑量不是加愈高愈好**。乳癌的 AC 處方把劑量再往上加並沒有改善結果，doxorubicin 60 mg/m²、cyclophosphamide 600 mg/m² 之上有門檻效應；在乳癌也沒有可信的證據顯示高劑量化療加幹細胞支持優於標準劑量（Fornier & Norton, 2005）。
 
 > [!TIP]
@@ -234,13 +234,13 @@ Goldie 與 Coldman 用數學模型把腫瘤的藥物敏感性和自發突變率�
 
 ### 3.1 烷化劑（alkylating agents）
 
-**來源**：nitrogen mustard 的後代（1.2）。**機轉**：活性代謝物把烷基接到 DNA 上；cyclophosphamide 與 ifosfamide 的主要作用是造成 DNA 交聯（BluePoint, 2026; Fresenius Kabi, 2026），temozolomide 的活性物 MTIC 主要烷化鳥糞嘌呤的 O6 與 N7 位置（Merck Sharp & Dohme, 2026）。
+**來源**：nitrogen mustard 的後代（1.2）。**機轉**：活性代謝物把烷基接到 DNA 上。Ifosfamide 的仿單寫細胞毒性主要來自 DNA 交聯（Fresenius Kabi, 2026）；cyclophosphamide 的仿單寫機轉尚未完全釐清，可能與腫瘤細胞 DNA 的交聯有關（BluePoint, 2026）；temozolomide 的活性物 MTIC 主要烷化鳥糞嘌呤的 O6 與 N7 位置（Merck Sharp & Dohme, 2026）。
 
 | 藥物 | 特點 | 招牌毒性與監測 | 本手冊用在哪 |
 |------|------|--------------|-------------|
 | cyclophosphamide | 前驅藥，經肝臟 CYP450 活化；代謝產生有活性的 phosphoramide mustard 與 acrolein（BluePoint, 2026）；ifosfamide 的仿單指出 acrolein 具泌尿毒性（Fresenius Kabi, 2026） | 骨髓抑制；出血性膀胱炎（大量水化與勤排尿可減少，並定期檢查尿沉渣有無紅血球）；心臟毒性（心肌炎、心包膜積液、心衰竭）；不孕；次發性惡性腫瘤（BluePoint, 2026） | 乳癌 AC、EC、TC（[乳癌章 5.1](../03-breast-cancer.md#51-靜脈化療骨幹anthracyclinetaxanecyclophosphamidecapecitabine)）；Ewing sarcoma VDC（[肉瘤章 5.2](../04-sarcoma.md#52-ewing-sarcomavdcie以及高劑量-ifosfamide)） |
 | ifosfamide | Cyclophosphamide 的合成類似物，同樣是前驅藥，由 CYP3A4 與 CYP2B6 代謝（Fresenius Kabi, 2026） | 加框警語：骨髓抑制、神經毒性（腦病變，可致死）、泌尿與腎毒性；出血性膀胱炎用 mesna 預防（Fresenius Kabi, 2026） | 肉瘤 AI、IE（[肉瘤章 5.3](../04-sarcoma.md#53-軟組織肉瘤細胞毒性處方)、[6.2](../04-sarcoma.md#62-ifosfamide腦病變出血性膀胱炎與腎小管損傷)） |
-| dacarbazine | 靜脈給；確切機轉未明，假說之一是烷化作用（Hikma, 2025） | 仿單警語：造血抑制、肝壞死（約 0.01%）；噁心嘔吐是最常見的毒性；外滲會造成組織傷害與劇痛（Hikma, 2025） | 美國仿單適應症是黑色素瘤與 Hodgkin 病；肉瘤後線與試驗對照組（[肉瘤章 5.3](../04-sarcoma.md#53-軟組織肉瘤細胞毒性處方)） |
+| dacarbazine | 靜脈給；確切機轉未明，假說之一是烷化作用（Hikma, 2025） | 加框警語：造血抑制（警語稱它是最常見的毒性）、肝壞死（約 0.01%）；不良反應段另寫厭食、噁心、嘔吐是最常被注意到的毒性反應，九成以上病人在前幾劑出現；外滲會造成組織傷害與劇痛（Hikma, 2025） | 美國仿單適應症是黑色素瘤與 Hodgkin 病；肉瘤後線與試驗對照組（[肉瘤章 5.3](../04-sarcoma.md#53-軟組織肉瘤細胞毒性處方)） |
 | temozolomide | 口服；不需酵素就轉成 MTIC（Merck Sharp & Dohme, 2026） | 骨髓抑制；合併放療時要給 Pneumocystis 肺炎預防；肝毒性；每個 28 天週期的第 1 與第 22 天驗 CBC（Merck Sharp & Dohme, 2026） | 美國仿單適應症是膠質母細胞瘤與分化不良星狀細胞瘤；復發 Ewing sarcoma 與 irinotecan 併用屬適應症外（[肉瘤章 4.2](../04-sarcoma.md#42-ewing-sarcoma)） |
 
 Mesna 會和 ifosfamide 具泌尿毒性的代謝物 acrolein 與 4-hydroxy-ifosfamide 起化學反應，讓它們失去毒性（Eugia, 2026）。Trabectedin 在仿單上也歸為烷化藥，但作用方式特殊，放在 3.7。
@@ -300,12 +300,12 @@ Mesna 會和 ifosfamide 具泌尿毒性的代謝物 acrolein 與 4-hydroxy-ifosf
 
 ### 3.5 Topoisomerase II 抑制劑
 
-**來源**：Streptomyces 的 anthracycline 與鬼臼的 podophyllotoxin（1.6）。**機轉**：和 topoisomerase II 形成可切割複合物，DNA 兩股都斷。Anthracycline 另外會嵌入 DNA 鹼基對之間，抑制 DNA 與 RNA 聚合酶（Pfizer, 2026）。
+**來源**：Streptomyces 的 anthracycline 與鬼臼的 podophyllotoxin（1.6）。**機轉**：和 topoisomerase II 形成可切割複合物，DNA 兩股都斷。Anthracycline 另外會嵌入 DNA 鹼基對之間，抑制 DNA 與 RNA 的合成（Pfizer, 2026; Pharmacia & Upjohn, 2026）。
 
 | 藥物 | 特點 | 招牌毒性與監測 | 本手冊用在哪 |
 |------|------|--------------|-------------|
 | doxorubicin | 主要經代謝與膽汁排出（Pfizer, 2026） | 加框警語：心肌病變（累積 300–500 mg/m² 時 1–20%）、次發性 AML／MDS、外滲組織壞死、嚴重骨髓抑制。嗜中性球最低點在第 10–14 天。膽紅素升高要減量，嚴重肝功能不全禁用；會加重放射毒性並引起放射回憶反應（Pfizer, 2026） | 乳癌 AC（[乳癌章 6.1](../03-breast-cancer.md#61-anthracycline累積劑量與心臟毒性)）；肉瘤單藥、AI、MAP、VDC（[肉瘤章 6.3](../04-sarcoma.md#63-doxorubicin累積劑量dexrazoxane-與外滲)） |
-| epirubicin | Doxorubicin 的 4-epimer（Pharmacia & Upjohn, 2026） | 加框警語同 doxorubicin。心肌病變：累積 550 mg/m² 約 0.9%、700 約 1.6%、900 約 3.3%；肝功能異常要減量（Pharmacia & Upjohn, 2026） | 乳癌 EC、FEC（[乳癌章 5.1](../03-breast-cancer.md#51-靜脈化療骨幹anthracyclinetaxanecyclophosphamidecapecitabine)）；肉瘤 EI |
+| epirubicin | Doxorubicin 的 4-epimer；嵌入 DNA 後引發 topoisomerase II 切斷 DNA（Pharmacia & Upjohn, 2026） | 加框警語同 doxorubicin。心肌病變：累積 550 mg/m² 約 0.9%、700 約 1.6%、900 約 3.3%；肝功能異常要減量（Pharmacia & Upjohn, 2026） | 乳癌 EC、FEC（[乳癌章 5.1](../03-breast-cancer.md#51-靜脈化療骨幹anthracyclinetaxanecyclophosphamidecapecitabine)）；肉瘤 EI |
 | pegylated liposomal doxorubicin | PEG 脂質體劑型（Barenholz, 2012） | 加框警語：心肌病變、輸注相關反應（實體腫瘤病人 11%）；手足症候群；治療前、中、後都要評估左心室功能；不可取代一般 doxorubicin（Sagent, 2026） | 美國仿單適應症含鉑類治療後的卵巢癌與 AIDS 相關 Kaposi sarcoma（Sagent, 2026）；本手冊在[乳癌章 6.1](../03-breast-cancer.md#61-anthracycline累積劑量與心臟毒性)與肉瘤章提到 |
 | etoposide | Podophyllotoxin 的半合成衍生物；腎清除約占總清除的 35%（Hikma, 2024） | 嚴重骨髓抑制；輸注太快會低血壓，要用 30–60 分鐘慢慢滴；anaphylaxis；罕見的次發性急性白血病；CrCl 15–50 mL/min 給 75% 劑量（Hikma, 2024） | SCLC（[肺癌章 5.3](../01-lung-cancer.md#53-sclc-處方)）；Ewing sarcoma IE（[肉瘤章 5.2](../04-sarcoma.md#52-ewing-sarcomavdcie以及高劑量-ifosfamide)） |
 
@@ -320,9 +320,9 @@ Mesna 會和 ifosfamide 具泌尿毒性的代謝物 acrolein 與 4-hydroxy-ifosf
 | vincristine | 長春花生物鹼；由肝臟 CYP3A 代謝（Hospira, 2026） | **只能靜脈給，其他途徑會致死**。神經毒性、便秘、麻痺性腸阻塞；外滲造成刺激；直接膽紅素 > 3 mg/dL 劑量減半（Hospira, 2026） | Ewing sarcoma VDC（[肉瘤章 5.2](../04-sarcoma.md#52-ewing-sarcomavdcie以及高劑量-ifosfamide)） |
 | vinorelbine | 半合成 vinca（Sagent, 2024） | 加框警語：骨髓抑制。嚴重便秘與腸阻塞、周邊神經病變、外滲造成組織壞死、肺毒性；膽紅素升高要減量；與 CYP3A 抑制劑併用要小心（Sagent, 2024） | NSCLC 術後輔助 cisplatin ＋ vinorelbine（[肺癌章 5.1](../01-lung-cancer.md#51-nsclc-靜脈處方)）；轉移性乳癌 |
 | paclitaxel | 溶劑是 polyoxyl 35 castor oil；主要由 CYP2C8 代謝，CYP3A4 次之（Teva Parenteral Medicines, 2026） | 加框警語：anaphylaxis 與嚴重過敏（2–4%），所有病人都要前置類固醇、diphenhydramine 與 H2 阻斷劑。骨髓抑制是劑量限制毒性，最低點中位數第 11 天；周邊神經病變常見（Teva Parenteral Medicines, 2026） | 乳癌、肺癌、血管肉瘤（[乳癌章 6.3](../03-breast-cancer.md#63-taxane-與其他化療藥的特殊毒性頭皮冷卻)） |
-| nab-paclitaxel | 白蛋白結合的奈米粒子，不含 castor oil 溶劑（Gradishar et al., 2005） | 加框警語：嚴重骨髓抑制，基線 ANC < 1,500/mm³ 不可給。感覺神經病變、敗血症、肺炎；中重度肝功能不全要降低起始劑量（Abraxis, 2022） | 胰臟癌 GnP（[胰臟癌章 6.5](../02-pancreatic-cancer.md#65-nab-paclitaxel-與-gemcitabinegnp)）；乳癌、肺癌 |
+| nab-paclitaxel | 白蛋白結合的奈米粒子，不含 castor oil 溶劑（Gradishar et al., 2005） | 加框警語：嚴重骨髓抑制，基線 ANC < 1,500/mm³ 不可給。感覺神經病變、敗血症、肺炎（pneumonitis）；中重度肝功能不全時，乳癌與肺癌要降低起始劑量，胰臟癌不建議使用（Abraxis, 2022） | 胰臟癌 GnP（[胰臟癌章 6.5](../02-pancreatic-cancer.md#65-nab-paclitaxel-與-gemcitabinegnp)）；乳癌、肺癌 |
 | docetaxel | 由紫杉針葉的前驅物半合成；溶劑含 polysorbate 80（Mylan, 2026） | 加框警語：治療相關死亡、肝毒性、嗜中性球低下、過敏、體液滯留。膽紅素 > ULN，或 AST／ALT > 1.5 × ULN 合併 ALP > 2.5 × ULN 要避免使用。前置口服 dexamethasone 3 天；避免與強效 CYP3A4 抑制劑併用（Mylan, 2026） | 乳癌 TC、TCHP；肺癌二線；肉瘤 gemcitabine ＋ docetaxel |
-| eribulin | Halichondrin B 的合成類似物（Eisai, 2025） | 嗜中性球低下、周邊神經病變、QT 延長；每劑前評估神經病變並驗 CBC；肝功能不全與中重度腎功能不全要減量；不可用含 dextrose 的溶液稀釋（Eisai, 2025） | 轉移性乳癌（[乳癌章 5.4](../03-breast-cancer.md#54-三陰性與其他靜脈處方keynote-522eribulin)）；脂肪肉瘤，對 dacarbazine 的 OS 13.5 對 11.5 個月（HR 0.77；Schöffski et al., 2016）（[肉瘤章 5.3](../04-sarcoma.md#53-軟組織肉瘤細胞毒性處方)） |
+| eribulin | Halichondrin B 的合成類似物（Eisai, 2025） | 嗜中性球低下、周邊神經病變、QT 延長；每劑前評估神經病變並驗 CBC；肝功能不全與中重度腎功能不全要減量；不可用含 dextrose 的溶液稀釋（Eisai, 2025） | 轉移性乳癌（[乳癌章 5.4](../03-breast-cancer.md#54-三陰性與其他靜脈處方keynote-522eribulin)）；脂肪肉瘤（美國仿單的肉瘤適應症只有脂肪肉瘤；Eisai, 2025）。第三期試驗收脂肪肉瘤與平滑肌肉瘤，對 dacarbazine 的 OS 13.5 對 11.5 個月（HR 0.77；Schöffski et al., 2016）；仿單列出的脂肪肉瘤次群是 15.6 對 8.4 個月（HR 0.51；Eisai, 2025）（[肉瘤章 5.3](../04-sarcoma.md#53-軟組織肉瘤細胞毒性處方)） |
 
 > [!TIP]
 > **鷹架的比喻**
@@ -381,7 +381,7 @@ Mesna 會和 ifosfamide 具泌尿毒性的代謝物 acrolein 與 4-hydroxy-ifosf
 | 腎 | topotecan、etoposide | Topotecan：CrCl 20–39 mL/min 減為 0.75 mg/m²（Accord, 2025）。Etoposide：CrCl 15–50 mL/min 給 75% 劑量（Hikma, 2024） |
 | 腎 | oxaliplatin、eribulin、bleomycin | Oxaliplatin：CrCl < 30 mL/min 減為 65 mg/m²（Sagent, 2025）。Eribulin：CrCl 15–49 mL/min 減為 1.1 mg/m²（Eisai, 2025）。Bleomycin：約 65% 在 24 小時內由尿液排出（Meitheal, 2026） |
 | 肝與膽汁 | doxorubicin、epirubicin | Doxorubicin：膽紅素 1.2–3 mg/dL 減量 50%，3.1–5 mg/dL 減量 75%，> 5 mg/dL 不可給（Pfizer, 2026）。Epirubicin：AST 或膽紅素升高要減量（Pharmacia & Upjohn, 2026） |
-| 肝 | paclitaxel、nab-paclitaxel、docetaxel | Paclitaxel 由 CYP2C8 與 CYP3A4 代謝，膽紅素異常時暴露量增加（Teva Parenteral Medicines, 2026）。nab-paclitaxel：中重度肝功能不全降低起始劑量（Abraxis, 2022）。Docetaxel：膽紅素 > ULN，或 AST／ALT > 1.5 × ULN 合併 ALP > 2.5 × ULN 避免使用（Mylan, 2026） |
+| 肝 | paclitaxel、nab-paclitaxel、docetaxel | Paclitaxel 由 CYP2C8 與 CYP3A4 代謝，膽紅素異常時暴露量增加（Teva Parenteral Medicines, 2026）。nab-paclitaxel：中重度肝功能不全時，乳癌與肺癌降低起始劑量，胰臟癌不建議使用（Abraxis, 2022）。Docetaxel：膽紅素 > ULN，或 AST／ALT > 1.5 × ULN 合併 ALP > 2.5 × ULN 避免使用（Mylan, 2026） |
 | 肝 | vincristine、vinorelbine | Vincristine：直接膽紅素 > 3 mg/dL 劑量減半（Hospira, 2026）。Vinorelbine：總膽紅素 2.1–3.0 mg/dL 給 50%，> 3.0 mg/dL 給 25%（Sagent, 2024） |
 | 肝與膽汁 | irinotecan、eribulin | Irinotecan：膽紅素 > 2 mg/dL 沒有建議劑量（Actavis, 2025）。Eribulin：Child-Pugh A 減為 1.1 mg/m²，Child-Pugh B 減為 0.7 mg/m²（Eisai, 2025） |
 
@@ -508,7 +508,7 @@ Methotrexate 會跑進肋膜積水、腹水這類「第三空間」，再慢慢�
 | 系統 | 常見元兇 | 怎麼認 | 專師第一步 | 詳見 |
 |------|---------|--------|-----------|------|
 | 骨髓 | 幾乎所有細胞毒性藥；最低點時間見 5.3 | 化療後發燒、畏寒；瘀青、出血；喘與疲倦 | 發燒就當急症：生命徵象、抽血與血液培養、盡快給經驗性抗生素，不等報告 | [腫瘤急症第 1 節](../00-shared/02-oncologic-emergencies.md#1-發燒性嗜中性球低下)、[支持性照護第 2 節](../00-shared/03-supportive-care.md#2-g-csf預防發燒性嗜中性球低下)、[第 10 節](../00-shared/03-supportive-care.md#10-化療相關貧血血小板低下與輸血) |
-| 噁心嘔吐 | cisplatin（加框警語；WG Critical Care, 2026）；dacarbazine（最常見的毒性；Hikma, 2025） | 急性、延遲性、預期性 | 給藥前確認止吐組合符合處方的致吐等級，第一個週期就給足 | [支持性照護第 1 節](../00-shared/03-supportive-care.md#1-化療引起的噁心嘔吐cinv) |
+| 噁心嘔吐 | cisplatin（加框警語；WG Critical Care, 2026）；dacarbazine（九成以上病人在前幾劑出現；Hikma, 2025） | 急性、延遲性、預期性 | 給藥前確認止吐組合符合處方的致吐等級，第一個週期就給足 | [支持性照護第 1 節](../00-shared/03-supportive-care.md#1-化療引起的噁心嘔吐cinv) |
 | 口腔與腸道 | 5-FU、capecitabine、S-1、methotrexate、irinotecan | 口腔潰瘍、水瀉次數、脫水；irinotecan 輸注後幾小時內的腹瀉常伴隨膽鹼性症狀，24 小時後的遲發性腹瀉可以很嚴重（Thomas & Pommier, 2019） | Irinotecan 早發性腹瀉給 atropine，遲發性立刻開始 loperamide 並補液；出現腸阻塞、發燒或嚴重嗜中性球低下要加抗生素（Actavis, 2025） | [支持性照護第 4 節](../00-shared/03-supportive-care.md#4-口腔黏膜炎)、[第 5 節](../00-shared/03-supportive-care.md#5-腹瀉)；[胰臟癌章 6.2](../02-pancreatic-cancer.md#62-irinotecan-與脂質體-irinotecan)；[腫瘤急症第 11.6 節](../00-shared/02-oncologic-emergencies.md#116-嗜中性球低下性小腸結腸炎ne) |
 | 腎與泌尿 | cisplatin；高劑量 methotrexate；ifosfamide 與 cyclophosphamide（出血性膀胱炎）；gemcitabine 與 mitomycin（HUS；Meitheal, 2025; Hikma, 2026） | 肌酸酐上升、尿量減少、血尿、低血鎂；HUS 是貧血、血小板低下加腎功能惡化（Hikma, 2026） | 確認水化與 mesna 已開立；找出併用的腎毒性藥物；懷疑 HUS 先暫停給藥並通知主治 | [化療基礎第 11.5 節](../00-shared/01-chemo-basics.md#115-高劑量-methotrexatehd-mtx安全摘要)、[第 11.6 節](../00-shared/01-chemo-basics.md#116-ifosfamide-安全摘要)；[肉瘤章 6.4](../04-sarcoma.md#64-cisplatin腎耳與神經) |
 | 周邊神經 | oxaliplatin（遇冷）、cisplatin、taxane、vinca、eribulin | 手腳麻刺、扣鈕扣困難、走路不穩 | 每次給藥前問功能；oxaliplatin 病人避免冰飲與冰敷（Sagent, 2025）；vinorelbine 第 2 級以上神經病變仿單要求停藥（Sagent, 2024） | [支持性照護第 11 節](../00-shared/03-supportive-care.md#11-化療相關周邊神經病變與手足症候群)、[第 11.4 節](../00-shared/03-supportive-care.md#114-oxaliplatin-的急性與累積神經病變) |
@@ -646,7 +646,7 @@ ADC 可以理解成「標靶化的化療」：抗體負責找到細胞，真正�
 <!-- drug-cards -->
 | 藥名 | 分類 | 機轉 | 主要用途 | 必記毒性 | 監測與處置 |
 |------|------|------|----------|----------|------------|
-| cyclophosphamide | 烷化劑 | 前驅藥，經肝臟 CYP450 活化後使 DNA 交聯 | 乳癌 AC、EC、TC；Ewing sarcoma VDC | 骨髓抑制、出血性膀胱炎、心臟毒性、不孕 | 大量水化、勤排尿；CBC 與尿沉渣 |
+| cyclophosphamide | 烷化劑 | 前驅藥，經肝臟 CYP450 活化成烷化代謝物；仿單寫可能與 DNA 交聯有關 | 乳癌 AC、EC、TC；Ewing sarcoma VDC | 骨髓抑制、出血性膀胱炎、心臟毒性、不孕 | 大量水化、勤排尿；CBC 與尿沉渣 |
 | ifosfamide | 烷化劑 | 前驅藥，經 CYP3A4 與 CYP2B6 活化後使 DNA 交聯 | 肉瘤 AI、IE | 腦病變、出血性膀胱炎、腎毒性、骨髓抑制 | 配 mesna 與水化；出現腦病變就停藥 |
 | dacarbazine | 烷化劑 | 確切機轉未明，假說之一是烷化作用 | 肉瘤後線；仿單為黑色素瘤與 Hodgkin 病 | 造血抑制、肝壞死、噁心嘔吐 | CBC、肝功能；防外滲 |
 | temozolomide | 烷化劑（口服） | 自行水解成 MTIC，烷化鳥糞嘌呤 | 膠質母細胞瘤；復發 Ewing sarcoma（適應症外） | 骨髓抑制、肝毒性 | 第 1 與第 22 天驗 CBC；合併放療時預防 Pneumocystis 肺炎 |
@@ -664,7 +664,7 @@ ADC 可以理解成「標靶化的化療」：抗體負責找到細胞，真正�
 | topotecan | Topoisomerase I 抑制劑 | 卡住 topoisomerase I 與 DNA 的複合物 | SCLC 二線；復發 Ewing sarcoma | 骨髓抑制、嗜中性球低下性結腸炎、間質性肺病 | 基線 ANC ≥ 1,500；CrCl 20–39 減量 |
 | etoposide | Topoisomerase II 抑制劑 | 卡住 topoisomerase II，主要作用在 G2 期 | SCLC；Ewing sarcoma IE | 骨髓抑制、輸注太快低血壓、過敏 | 用 30–60 分鐘慢慢滴；CrCl 15–50 給 75% 劑量 |
 | doxorubicin | Anthracycline（topoisomerase II 抑制劑） | 嵌入 DNA，並與 topoisomerase II 形成可切割複合物 | 乳癌 AC；肉瘤 AI、MAP、VDC | 累積劑量相關心肌病變、外滲壞死、骨髓抑制、次發性白血病 | 加總累積劑量；LVEF；膽紅素升高要減量 |
-| epirubicin | Anthracycline（topoisomerase II 抑制劑） | Doxorubicin 的 4-epimer | 乳癌 EC、FEC；肉瘤 EI | 心肌病變（累積 900 mg/m² 約 3.3%）、外滲壞死、骨髓抑制 | 累積劑量；LVEF；肝功能異常要減量 |
+| epirubicin | Anthracycline（topoisomerase II 抑制劑） | Doxorubicin 的 4-epimer；嵌入 DNA 後引發 topoisomerase II 切斷 DNA | 乳癌 EC、FEC；肉瘤 EI | 心肌病變（累積 900 mg/m² 約 3.3%）、外滲壞死、骨髓抑制 | 累積劑量；LVEF；肝功能異常要減量 |
 | pegylated liposomal doxorubicin | Anthracycline（脂質體） | 包在 PEG 脂質體裡的 doxorubicin | 仿單為卵巢癌與 Kaposi sarcoma | 手足症候群、輸注反應、心肌病變 | 不可取代一般 doxorubicin；評估左心室功能 |
 | paclitaxel | 抗微管藥（taxane） | 促進微管聚合並阻止解聚 | 乳癌、肺癌、血管肉瘤 | 嚴重過敏、周邊神經病變、骨髓抑制 | 前置類固醇、diphenhydramine、H2 阻斷劑；神經評估 |
 | nab-paclitaxel | 抗微管藥（taxane，白蛋白結合） | 白蛋白結合的 paclitaxel，不含 castor oil 溶劑 | 胰臟癌 GnP；乳癌、肺癌 | 骨髓抑制、感覺神經病變、敗血症、肺炎 | 基線 ANC ≥ 1,500；不可與其他 paclitaxel 劑型互換 |
@@ -861,7 +861,7 @@ A. 不可以，兩者劑量與藥動不同，仿單明訂不可互換，要請�
 
 ## 11. 參考文獻
 
-APA 備註：（1）藥品仿單在內文以藥廠簡稱加年份引用，年份取自該版仿單的版本日期；仿單全文於 2026-11-11 經 DailyMed 以 SPL set ID 讀取，網址是同一 set ID 的頁面。同一個學名藥有多家藥廠的仿單，本章為每個藥選一家，內容以該版為準。（2）1980 年以前的原始論文有幾篇在 PubMed 沒有摘要（例如 Goodman 與 Wintrobe 1946、Farber 等 1948、Heidelberger 等 1957、Rosenberg 等 1965、Skipper 等 1964、Norton 與 Simon 1977），本章只引用書目資料本身能支持的事實，細節取自有摘要或開放全文可讀的回顧文獻。（3）台灣藥證與健保給付不在本章範圍，請見各癌別章第 9 段。
+APA 備註：（1）藥品仿單在內文以藥廠簡稱加年份引用，年份取自該版仿單的版本日期；仿單全文於 2026-11-11 經 DailyMed 以 SPL set ID 讀取，網址是同一 set ID 的頁面。同一個學名藥有多家藥廠的仿單，本章為每個藥選一家，內容以該版為準。（2）1980 年以前的原始論文有幾篇在 PubMed 沒有摘要（例如 Goodman 等 1946、Farber 等 1948、Heidelberger 等 1957、Rosenberg 等 1965、Skipper 等 1964、Norton 與 Simon 1977），本章只引用書目資料本身能支持的事實，細節取自有摘要或開放全文可讀的回顧文獻。（3）台灣藥證與健保給付不在本章範圍，請見各癌別章第 9 段。
 
 Abraxis. (2022). *Abraxane (paclitaxel protein-bound particles for injectable suspension) (albumin-bound)* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24d10449-2936-4cd3-b7db-a7683db721e4（版本日期 2022-10-31）
 
@@ -939,7 +939,7 @@ Godley, L. A., & Larson, R. A. (2008). Therapy-related myeloid leukemia. *Semina
 
 Goldie, J. H., & Coldman, A. J. (1979). A mathematic model for relating the drug sensitivity of tumors to their spontaneous mutation rate. *Cancer Treatment Reports, 63*(11-12), 1727–1733. PMID: 526911
 
-Goodman, L. S., & Wintrobe, M. M. (1946). Nitrogen mustard therapy; use of methyl-bis (beta-chloroethyl) amine hydrochloride and tris (beta-chloroethyl) amine hydrochloride for Hodgkin's disease, lymphosarcoma, leukemia and certain allied and miscellaneous disorders. *Journal of the American Medical Association, 132*, 126–132. https://doi.org/10.1001/jama.1946.02870380008004（PMID: 20997191）（作者依 PubMed 與 CrossRef 紀錄所列）
+Goodman, L. S., Wintrobe, M. M., Dameshek, W., Goodman, M. J., Gilman, A., & McLennan, M. T. (1946). Nitrogen mustard therapy; use of methyl-bis (beta-chloroethyl) amine hydrochloride and tris (beta-chloroethyl) amine hydrochloride for Hodgkin's disease, lymphosarcoma, leukemia and certain allied and miscellaneous disorders. *Journal of the American Medical Association, 132*(3), 126–132. https://doi.org/10.1001/jama.1946.02870380008004（PMID: 20997191）（PubMed 的 1946 年紀錄只列前兩位作者、CrossRef 只列第一位；六位作者依 JAMA 1984 年「Landmark article」重刊的 PubMed 紀錄，PMID: 6368885）
 
 Gottesman, M. M., Fojo, T., & Bates, S. E. (2002). Multidrug resistance in cancer: Role of ATP-dependent transporters. *Nature Reviews Cancer, 2*(1), 48–58. https://doi.org/10.1038/nrc706（PMID: 11902585）
 

@@ -46,9 +46,9 @@
 | 年份 | 事件 | 意義 |
 |------|------|------|
 | 1908 | Paul Ehrlich 獲得諾貝爾獎；他提出「魔術子彈（magic bullet）」的想法：做出只打病灶、不傷正常組織的藥（Strebhardt & Ullrich, 2008） | 標靶治療的理念源頭 |
-| 1960 | Nowell 與 Hungerford 在慢性骨髓性白血病（chronic myeloid leukemia, CML）病人的細胞中看到一條異常小的染色體，後來稱為費城染色體（Nowell, 2007） | 第一次把特定的染色體異常和特定癌症連在一起 |
+| 1960 | Nowell 與 Hungerford 在慢性骨髓性白血病（chronic myeloid leukemia, CML）病人的細胞中看到一條異常小的染色體，後來稱為費城染色體（Nowell, 2007） | 把一個固定出現的染色體異常和一種癌症連在一起 |
 | 1971 | Folkman 提出腫瘤血管新生（angiogenesis）可以當治療標的（Folkman, 1971） | 抗血管新生藥物的起點 |
-| 1973 | Rowley 用新的染色法指出費城染色體來自染色體易位，即 9 號與 22 號互換（Rowley, 1973；Nowell, 2007） | 之後才找到融合基因 BCR-ABL 與它製造的異常激酶 |
+| 1973 | Rowley 用 quinacrine 螢光與 Giemsa 染色，在 CML 找到一個新的、固定出現的染色體異常（Rowley, 1973）；費城染色體後來確認來自 9 號與 22 號染色體的易位（Nowell, 2007） | 之後才找到融合基因 BCR-ABL 與它製造的異常激酶 |
 | 1975 | Köhler 與 Milstein 發表融合瘤（hybridoma）技術，可以連續培養只分泌單一專一性抗體的細胞（Köhler & Milstein, 1975） | 單株抗體藥物的技術基礎 |
 | 1984–1992 | 嵌合抗體：鼠的可變區接上人的恆定區（Morrison et al., 1984）；人源化的抗 HER2 抗體（Carter et al., 1992） | 解決鼠抗體會引發人抗鼠抗體反應、又缺乏作用功能的問題 |
 | 1987 | Slamon：189 例乳癌中約 30% 有 HER2 基因擴增，而且和復發、存活較差有關（Slamon et al., 1987） | HER2 從預後因子變成治療標的 |
@@ -70,9 +70,9 @@
 
 ### 1.1 費城染色體 → imatinib → GIST
 
-CML 的細胞帶著一條變短的 22 號染色體。Nowell 回憶，Hungerford 先在兩位病人身上看到，後來分析的 7 位病人全都有（Nowell, 2007）。這條染色體來自 9 號與 22 號染色體的易位，產生的 BCR-ABL 融合蛋白是一個關不掉的酪胺酸激酶（tyrosine kinase）（Nowell, 2007；Druker et al., 2001）。Druker 的第一期試驗讓 83 位干擾素治療失敗的慢性期病人口服 STI571（imatinib），每日 300 mg 以上的 54 人中有 53 人達到血液學完全緩解，副作用以噁心、肌痛、水腫、腹瀉為主（Druker et al., 2001）。美國 FDA 在 2001 年核准 imatinib 用於 CML（Dagher et al., 2002）。
+CML 的細胞帶著一條變短的 22 號染色體。Nowell 回憶，Hungerford 先在兩位病人身上看到，後來分析的 7 位病人全都有（Nowell, 2007）。這條染色體來自 9 號與 22 號染色體的易位，產生的 BCR-ABL 融合蛋白是一個關不掉的酪胺酸激酶（tyrosine kinase）（Nowell, 2007；Druker et al., 2001）。Druker 的第一期試驗讓 83 位干擾素治療失敗的慢性期病人口服 STI571（imatinib），每日 300 mg 以上的 54 人中有 53 人達到血液學完全緩解，副作用以噁心、肌痛、水腫、腹瀉為主（Druker et al., 2001）。美國 FDA 在 2001 年 5 月 10 日以加速核准的方式核准 imatinib 用於 CML（急性轉化期、加速期，或干擾素治療失敗的慢性期）（Food and Drug Administration, 2001；Dagher et al., 2002）。
 
-同一顆藥也抑制 KIT。GIST 帶有讓 KIT 持續活化的突變（Hirota et al., 1998），而傳統化療對 GIST 無效；147 位晚期 GIST 病人用 imatinib 後，53.7% 部分反應、27.9% 疾病穩定（Demetri et al., 2002），美國隨後核准 GIST 適應症（Dagher et al., 2002）。
+同一顆藥也抑制 KIT。GIST 帶有讓 KIT 持續活化的突變（Hirota et al., 1998），而傳統化療對 GIST 無效；147 位晚期 GIST 病人用 imatinib 後，53.7% 部分反應、27.9% 疾病穩定（Demetri et al., 2002）。美國依這個試驗，在 2002 年 2 月 1 日核准 KIT 陽性、無法切除或轉移性 GIST 的適應症（Food and Drug Administration, 2002；Dagher et al., 2002）。
 
 **和今天的關係：** GIST 用藥前要先有基因型，因為 KIT exon 11、exon 9 與 PDGFRA D842V 對 imatinib 的反應不同（第 7 段），選藥流程見[肉瘤章 4.5](../04-sarcoma.md#45-gist)。
 
@@ -137,7 +137,7 @@ Weinstein 在 2002 年提出：癌細胞雖然累積很多基因異常，卻常�
 | 細胞外的配體 | VEGF | bevacizumab（Hurwitz et al., 2004） |
 | 細胞膜上的受體 | EGFR、HER2、ALK、ROS1、RET、MET、TRK、KIT、PDGFRA、VEGFR2 | 抗體（trastuzumab、cetuximab、amivantamab、ramucirumab）與各種 TKI |
 | 下游路徑一 | RAS → RAF → MEK → ERK | sotorasib（KRAS G12C；de Langen et al., 2023）、dabrafenib（BRAF）＋ trametinib（MEK）（Planchard et al., 2017） |
-| 下游路徑二 | PI3K → AKT → mTOR | alpelisib、inavolisib（PI3Kα）、capivasertib（AKT）、everolimus（mTOR）（André et al., 2019；Turner et al., 2023；Baselga et al., 2012） |
+| 下游路徑二 | PI3K → AKT → mTOR | alpelisib、inavolisib（PI3Kα）、capivasertib（AKT）、everolimus（mTOR）（André et al., 2019；Turner et al., 2024；Turner et al., 2023；Baselga et al., 2012） |
 | 細胞週期 | cyclin D–CDK4/6 → Rb 磷酸化 → 進入 S 期 | palbociclib、ribociclib、abemaciclib（Finn et al., 2009） |
 | DNA 修復 | PARP | olaparib、talazoparib（Farmer et al., 2005） |
 
@@ -232,7 +232,7 @@ Sotorasib 是專一、不可逆的 KRAS G12C 抑制劑（de Langen et al., 2023�
 | 藥物 | 類型與特性 | 選病人的 biomarker | 代表性毒性 | 本手冊用在哪 |
 |------|-----------|------------------|-----------|-------------|
 | trastuzumab | 人源化抗 HER2 單株抗體；動物模型顯示療效有一部分來自 Fc 受體媒介的 ADCC（Clynes et al., 2000） | HER2 陽性（判讀見[乳癌章 2.3](../03-breast-cancer.md#23-her2-判讀)） | 加框警語：心肌病變、輸注反應、胚胎胎兒毒性、肺毒性（美國仿單；Genentech, 2026） | [乳癌章 4.5](../03-breast-cancer.md#45-早期-her2-陽性抗-her2-治療的階梯)、[4.8](../03-breast-cancer.md#48-轉移性-her2-陽性從-thp-到-adc再到-tucatinib) |
-| pertuzumab | 第二個抗 HER2 單株抗體，與 trastuzumab 合用（雙標靶）（Swain et al., 2015） | HER2 陽性 | 與 trastuzumab、docetaxel 併用時，多數不良事件發生在 docetaxel 期間，長期心臟安全性維持（Swain et al., 2015） | 乳癌章 4.5、4.8 |
+| pertuzumab | 人源化抗 HER2 單株抗體，結合的 HER2 位置與 trastuzumab 不同，兩者合用阻斷更完整（雙標靶）（Swain et al., 2015） | HER2 陽性 | 與 trastuzumab、docetaxel 併用時，多數不良事件發生在 docetaxel 期間，長期心臟安全性維持（Swain et al., 2015） | 乳癌章 4.5、4.8 |
 | lapatinib | HER2 與 EGFR 的小分子 TKI（Geyer et al., 2006） | HER2 陽性 | 與 capecitabine 併用時腹瀉、噁心嘔吐、手足症候群比 T-DM1 多（Verma et al., 2012）；吸收受食物影響極大（第 4 段） | 乳癌章 4.8 |
 | neratinib | 不可逆的 HER1、HER2、HER4 抑制劑（Chan et al., 2016） | HER2 陽性早期乳癌的延長輔助治療 | **3 級腹瀉 40%**（Chan et al., 2016） | 乳癌章 4.5 |
 | tucatinib | 高選擇性的 HER2 TKI（Murthy et al., 2020） | HER2 陽性，含腦轉移 | 腹瀉、手足症候群、轉胺酶上升（Murthy et al., 2020） | 乳癌章 4.8 |
@@ -253,7 +253,7 @@ Sotorasib 是專一、不可逆的 KRAS G12C 抑制劑（de Langen et al., 2023�
 | sunitinib | 多靶點 TKI（Demetri et al., 2006） | imatinib 失敗或不耐受的 GIST | 疲倦、腹瀉、皮膚變色、噁心（Demetri et al., 2006） | 肉瘤章 4.5.3、6.8 |
 | regorafenib | 口服激酶抑制劑（Demetri et al., 2013） | imatinib 與 sunitinib 都失敗的 GIST | 3 級以上高血壓 23%、手足皮膚反應 20%（Demetri et al., 2013）；加框警語：肝毒性；亞洲病人手足皮膚反應 72%（美國仿單；Bayer, 2026） | 肉瘤章 4.5.3、6.8 |
 | ripretinib | 「開關控制」型 TKI，把激酶的活化環鎖在不活化的構形，涵蓋多種 KIT 與 PDGFRA 突變（Smith et al., 2019） | 多線治療後的晚期 GIST（線別見肉瘤章 4.5.3） | 3–4 級事件以 lipase 上升 5%、高血壓 4% 為主（Blay et al., 2020） | 肉瘤章 4.5.3、6.8 |
-| avapritinib | 針對 PDGFRA exon 18（含 D842V）的 TKI | PDGFRA D842V 的 GIST（Heinrich et al., 2020） | 顱內出血 2.9%、認知影響 33%（美國仿單；Blueprint Medicines, 2026） | 肉瘤章 4.5.3、6.8 |
+| avapritinib | KIT 與 PDGFRA 的 TKI，能強力抑制 PDGFRA D842V（Heinrich et al., 2020） | PDGFRA D842V 的 GIST（Heinrich et al., 2020） | 顱內出血 2.9%（GIST 與進階性全身性肥大細胞增生症合併的 749 人；其中 GIST 病人 267 人為 1.1%）；認知不良反應在 GIST 病人為 41%（601 人），連同肥大細胞增生症合併的 995 人為 33%（美國仿單；Blueprint Medicines, 2026） | 肉瘤章 4.5.3、6.8 |
 | pazopanib | 多靶點 TKI（van der Graaf et al., 2012） | 化療後的晚期軟組織肉瘤 | 加框警語：肝毒性（美國仿單；Novartis, 2025）；疲倦、腹瀉、噁心、體重下降（van der Graaf et al., 2012） | [肉瘤章 4.4.3](../04-sarcoma.md#443-後線與寡轉移)、[6.7](../04-sarcoma.md#67-pazopanib肝毒性與高血壓) |
 
 抗 VEGF 抗體沒有可以拿來選病人的基因檢測，所以「誰不能用」比「誰能用」重要：鱗狀細胞肺癌、近期咳血、未癒合的傷口、未控制的高血壓，都要先排除（見 6.4）。
@@ -266,7 +266,7 @@ Sotorasib 是專一、不可逆的 KRAS G12C 抑制劑（de Langen et al., 2023�
 | ribociclib | 服 3 週停 1 週；轉移性 600 mg、早期 400 mg（美國仿單；Novartis, 2026） | QT 延長、肝毒性、嗜中性球低下、ILD、嚴重皮膚反應（美國仿單；Novartis, 2026） | 乳癌章 4.4、4.7、6.5 |
 | abemaciclib | 每日兩次、連續服用（Goetz et al., 2017） | 腹瀉 81.3%（多為 1 級）；3–4 級嗜中性球低下 21.1%（Goetz et al., 2017） | 乳癌章 4.4、4.7、6.5 |
 
-三個藥都用於荷爾蒙受體陽性、HER2 陰性乳癌，並且一定和內分泌治療併用；內分泌藥本身見[內分泌治療](05-endocrine-therapy.md)。
+三個藥都用於荷爾蒙受體陽性、HER2 陰性乳癌；本章列出的試驗都是和內分泌治療併用（abemaciclib 另有單用的研究；Goetz et al., 2017）。內分泌藥本身見[內分泌治療](05-endocrine-therapy.md)。
 
 ### 3.6 PI3K／AKT／mTOR 抑制劑
 
@@ -291,7 +291,7 @@ PI3K 的 p110α 也負責細胞對胰島素的幾乎所有反應；抑制它，�
 | 藥物 | 構造 | 選病人的依據 | 代表性毒性 | 本手冊用在哪 |
 |------|------|-------------|-----------|-------------|
 | sacituzumab govitecan | 抗 Trop-2 抗體 ＋ 可水解連接子 ＋ SN-38（拓樸異構酶 I 抑制劑）（Bardia et al., 2021） | 不需驗 Trop-2：存活好處不因 Trop-2 表現量而異（Rugo et al., 2023） | 3 級以上嗜中性球低下 51%、腹瀉 10%、發燒性嗜中性球低下 6%（Bardia et al., 2021） | [乳癌章 4.9](../03-breast-cancer.md#49-轉移性三陰性看-pd-l1看前線用藥)、[6.7](../03-breast-cancer.md#67-抗體藥物複合體t-dxdt-dm1sacituzumab-govitecandato-dxd) |
-| datopotamab deruxtecan（Dato-DXd） | 人源化抗 Trop-2 抗體 ＋ 可切斷連接子 ＋ 拓樸異構酶 I 抑制劑載藥（Bardia et al., 2025） | 不需驗 Trop-2 | 口腔炎 50%、噁心 51.1%；眼表事件 40%（乾眼 21.7%），多為 1 級（Bardia et al., 2025） | 乳癌章 4.7、6.7；肺癌章 6.3 |
+| datopotamab deruxtecan（Dato-DXd） | 人源化抗 Trop-2 抗體 ＋ 可切斷連接子 ＋ 拓樸異構酶 I 抑制劑載藥（Bardia et al., 2025） | 不需驗 Trop-2：TROPION-Breast01 收案時沒有用 Trop-2 表現量篩選病人（Bardia et al., 2025） | 口腔炎 50%、噁心 51.1%；眼表事件 40%（乾眼 21.7%），多為 1 級（Bardia et al., 2025） | 乳癌章 4.7、6.7；肺癌章 6.3 |
 
 Sacituzumab govitecan 的嗜中性球低下與 UGT1A1 基因型的關係，見[化療基礎 12.2](../00-shared/01-chemo-basics.md#122-ugt1a1-與-irinotecansacituzumab-govitecan)。
 
@@ -308,7 +308,7 @@ Denosumab 是抗 RANKL 的單株抗體，用於骨轉移時延後骨骼相關事
 ### 4.1 口服 TKI 的吸收：食物與胃酸
 
 - **食物**：同一顆藥空腹吃和飯後吃，進到血液的量可以差好幾倍。Lapatinib 單次 1,500 mg 的研究中，低脂早餐讓 AUC 變成空腹的 2.67 倍，高脂早餐變成 4.25 倍，所以建議空腹服用，才能得到穩定的暴露量（Koch et al., 2009）。各藥規定不同，不能只教一句「飯後吃」：pazopanib 與 avapritinib 要空腹（餐前至少 1 小時或餐後至少 2 小時）（美國仿單；Novartis, 2025；Blueprint Medicines, 2026），alectinib 要隨餐（歐盟產品資訊；European Medicines Agency, 2025），regorafenib 要在低脂餐後（少於 600 大卡、脂肪少於 30%）（美國仿單；Bayer, 2026），osimertinib 不受食物限制（美國仿單；AstraZeneca, 2026）。逐藥整理見[肺癌章 5.4](../01-lung-cancer.md#54-口服標靶藥)與[肉瘤章 5.4](../04-sarcoma.md#54-gist非脂肪細胞型-sts-與-ntrk-融合口服標靶藥)。
-- **胃酸**：多數口服標靶藥是弱鹼，要在酸性環境才溶得好。胃的 pH 平常約 1，用了胃酸抑制劑後約 4；溶解度在 pH 1–4 之間變化大的藥，吸收受影響最大，可能造成暴露量下降與治療失敗（Budha et al., 2012）。Pazopanib 的美國仿單要求避免併用胃酸抑制劑（Novartis, 2025）。Gefitinib、erlotinib、dacomitinib 等肺癌 TKI 與 PPI、H2 阻斷劑、制酸劑各自要錯開幾小時，已整理在[肺癌章 5.4](../01-lung-cancer.md#54-口服標靶藥)的警示框，這裡不重複。
+- **胃酸**：多數口服標靶藥是弱鹼，要在酸性環境才溶得好。胃的 pH 平常約 1，用了胃酸抑制劑後約 4；溶解度在 pH 1–4 之間變化大的藥，吸收受影響最大，可能造成暴露量下降與治療失敗（Budha et al., 2012）。Pazopanib 的美國仿單要求避免併用胃酸抑制劑（Novartis, 2025）。Gefitinib、erlotinib、dacomitinib 等肺癌 TKI 要盡量避免 PPI；非用制酸藥不可時，與 H2 阻斷劑、制酸劑各自要錯開幾小時，逐藥的時間已整理在[肺癌章 5.4](../01-lung-cancer.md#54-口服標靶藥)的警示框，這裡不重複。
 - **漏服與嘔吐**：規則因藥而異，見[肺癌章 5.5](../01-lung-cancer.md#55-口服標靶藥的實務漏服嘔吐管灌與居家安全)、[肉瘤章 5.5](../04-sarcoma.md#55-口服-tki-的實務漏服嘔吐吞嚥與交互作用)與[化療基礎 14.5](../00-shared/01-chemo-basics.md#145-口服抗癌藥)。
 
 ### 4.2 CYP3A4：誘導劑讓藥失效，抑制劑讓毒性上升
@@ -326,7 +326,7 @@ TKI 的交互作用主要有三類：胃內 pH 改變影響吸收、CYP 酵素�
 
 > [!WARNING]
 > **Lorlatinib 加 rifampin：不是「效果變差」，是肝會壞**
-> 12 位健康受試者同時用 rifampin 與單劑 lorlatinib，10 位出現嚴重肝毒性；仿單因此把強效 CYP3A 誘導劑列為禁忌，而且開始 lorlatinib 前要先停誘導劑達 3 個血漿半衰期（美國仿單；Pfizer, 2026）。台灣肺癌病人同時需要抗結核藥並不少見；看到抗結核處方時先核對病人正在吃的 TKI，但專師不要自己停藥或改劑量，聯絡主治醫師、感染科與藥師一起決定。
+> 12 位健康受試者同時用 rifampin 與單劑 lorlatinib，10 位出現嚴重肝毒性；仿單因此把強效 CYP3A 誘導劑列為禁忌，而且開始 lorlatinib 前要先停誘導劑達 3 個血漿半衰期（美國仿單；Pfizer, 2026）。看到抗結核處方時先核對病人正在吃的 TKI，但專師不要自己停藥或改劑量，聯絡主治醫師、感染科與藥師一起決定。
 
 ### 4.3 QT 延長
 
@@ -399,9 +399,9 @@ ADC 的抗體部分決定它在血中停留多久，所以和抗體一樣每 1�
 | HER2 陽性，早期 | 化療 ＋ trastuzumab | B-31／N9831 合併分析：OS HR 0.63，10 年 OS 由 75.2% 升到 84%（Perez et al., 2014） |
 | HER2 陽性，術前治療後仍有殘存病灶 | T-DM1 | KATHERINE：3 年無侵襲性疾病存活 88.3% 對 77.0%（HR 0.50）（von Minckwitz et al., 2019） |
 | HER2 陽性，延長輔助 | neratinib | ExteNET：2 年無侵襲性疾病存活 93.9% 對 91.6%（HR 0.67）；3 級腹瀉 40%（Chan et al., 2016） |
-| HER2 陽性，轉移第一線 | trastuzumab ＋ pertuzumab ＋ docetaxel | CLEOPATRA：OS 56.5 對 40.8 個月（HR 0.68）（Swain et al., 2015） |
-| HER2 陽性，轉移第二線 | T-DXd（對 T-DM1） | DESTINY-Breast03：PFS 28.8 對 6.8 個月（HR 0.33）；OS HR 0.64（Hurvitz et al., 2023） |
-| HER2 陽性，後線或腦轉移 | tucatinib ＋ trastuzumab ＋ capecitabine；lapatinib ＋ capecitabine | HER2CLIMB：PFS 7.8 對 5.6 個月（HR 0.54），OS 21.9 對 17.4 個月（HR 0.66）（Murthy et al., 2020）。Lapatinib ＋ capecitabine：疾病惡化時間 8.4 對 4.4 個月（HR 0.49）（Geyer et al., 2006） |
+| HER2 陽性，轉移第一線 | trastuzumab ＋ pertuzumab ＋ docetaxel | CLEOPATRA 試驗結束時的分析：OS 57.1 對 40.8 個月（HR 0.69），8 年存活率 37% 對 23%（Swain et al., 2020） |
+| HER2 陽性，轉移第二線 | T-DXd（對 T-DM1） | DESTINY-Breast03：PFS 28.8 對 6.8 個月（HR 0.33）；該次期中分析的 OS HR 0.64，兩組中位數都還沒到（Hurvitz et al., 2023）；之後更新的 OS 見[乳癌章 4.8](../03-breast-cancer.md#48-轉移性-her2-陽性從-thp-到-adc再到-tucatinib) |
+| HER2 陽性，後線或腦轉移 | tucatinib ＋ trastuzumab ＋ capecitabine；lapatinib ＋ capecitabine | HER2CLIMB 初次分析：PFS 7.8 對 5.6 個月（HR 0.54），OS 21.9 對 17.4 個月（HR 0.66）（Murthy et al., 2020）；最終 OS 見乳癌章 4.8。Lapatinib ＋ capecitabine：疾病惡化時間 8.4 對 4.4 個月（HR 0.49）（Geyer et al., 2006） |
 | HER2 低表現，轉移 | T-DXd | DESTINY-Breast04（HR 陽性族群）：PFS 10.1 對 5.4 個月（HR 0.51），OS 23.9 對 17.5 個月（HR 0.64）（Modi et al., 2022） |
 | HR 陽性／HER2 陰性，轉移第一線 | CDK4/6 抑制劑 ＋ 內分泌治療 | PALOMA-2：PFS 24.8 對 14.5 個月（HR 0.58），但 OS 53.9 對 51.2 個月（HR 0.96）無差異（Finn et al., 2016；Slamon et al., 2024）。MONALEESA-2：OS 63.9 對 51.4 個月（HR 0.76）（Hortobagyi et al., 2022）。MONARCH 3：PFS HR 0.54（Goetz et al., 2017） |
 | HR 陽性／HER2 陰性，高風險早期 | abemaciclib ＋ 內分泌治療 | monarchE：OS HR 0.842，7 年 OS 86.8% 對 85.0%（Johnston et al., 2026）；其他輔助試驗見[乳癌章 4.4](../03-breast-cancer.md#輔助-cdk46-抑制劑只有兩個是贏家) |
@@ -490,7 +490,7 @@ EGFR 抑制劑在多數病人造成皮膚副作用，處理得好才能維持劑
 
 ### 6.3 心臟：抗 HER2 治療與 LVEF
 
-Trastuzumab 的心臟功能不全在與 anthracycline 同時使用時最高（27%），與 paclitaxel 併用 13%，單用 3–7%（Seidman et al., 2002）。美國仿單的監測時程：開始前測 LVEF，治療中每 3 個月，暫停期間每 4 週，輔助治療結束後每 6 個月、至少 2 年。暫停條件：LVEF 比治療前絕對值下降 16 個百分點以上，或低於正常下限且下降 10 個百分點以上；暫停至少 4 週（Genentech, 2026）。T-DXd 也要在治療前與治療中定期測 LVEF（Daiichi Sankyo, 2026）；osimertinib 的心肌病變 3.8%，有心臟危險因子者要測 LVEF（AstraZeneca, 2026）。各藥切點不同，完整對照表見[乳癌章 6.2](../03-breast-cancer.md#62-抗-her2-治療lvef-監測與暫停規則)。
+Trastuzumab 的心臟功能不全在與 anthracycline 同時使用時最高（27%），與 paclitaxel 併用 13%，單用 3–7%（Seidman et al., 2002）。美國仿單的監測時程：開始前測 LVEF，治療中每 3 個月，暫停期間每 4 週，輔助治療結束後每 6 個月、至少 2 年。暫停條件：LVEF 比治療前絕對值下降 16 個百分點以上，或低於正常下限且下降 10 個百分點以上；暫停至少 4 週（Genentech, 2026）。T-DXd 也要在治療前與治療中定期測 LVEF（美國仿單；Daiichi Sankyo, 2026）；osimertinib 的心肌病變 3.8%，有心臟危險因子者要測 LVEF（美國仿單；AstraZeneca, 2026）。各藥切點不同，完整對照表見[乳癌章 6.2](../03-breast-cancer.md#62-抗-her2-治療lvef-監測與暫停規則)。
 
 ### 6.4 抗 VEGF：血壓、尿蛋白、出血、穿孔、傷口
 
@@ -505,7 +505,7 @@ Bevacizumab 美國仿單（Genentech, 2025）的要點：
 | 胃腸穿孔 | 停用 |
 | 動脈血栓、PRES | 嚴重動脈血栓停用；PRES 停用 |
 
-口服的抗血管新生 TKI 有同樣的類別毒性：pazopanib 在血壓未控制時不可開始（美國仿單；Novartis, 2025）；regorafenib 前 6 週每週量血壓，GRID 試驗 3 級以上高血壓 23%、手足皮膚反應 20%（Bayer, 2026；Demetri et al., 2013）。手足皮膚反應的處置見[支持性照護 11.6](../00-shared/03-supportive-care.md#116-手足症候群hfs與手足皮膚反應hfsr)；bevacizumab 與 ramucirumab 的逐項比較見[肺癌章 6.8](../01-lung-cancer.md#68-抗血管新生藥物bevacizumab-與-ramucirumab)。
+口服的抗血管新生 TKI 有同樣的類別毒性：pazopanib 在血壓未控制時不可開始（美國仿單；Novartis, 2025）；regorafenib 前 6 週每週量血壓，GRID 試驗 3 級以上高血壓 23%、手足皮膚反應 20%（美國仿單；Bayer, 2026；Demetri et al., 2013）。手足皮膚反應的處置見[支持性照護 11.6](../00-shared/03-supportive-care.md#116-手足症候群hfs與手足皮膚反應hfsr)；bevacizumab 與 ramucirumab 的逐項比較見[肺癌章 6.8](../01-lung-cancer.md#68-抗血管新生藥物bevacizumab-與-ramucirumab)。
 
 > [!WARNING]
 > **抗 VEGF 病人的腹痛與咳血都是急症**
@@ -537,11 +537,11 @@ ADC 則像化療：sacituzumab govitecan 的 3 級以上嗜中性球低下 51%�
 | 輸注反應 | amivantamab（66%；Park et al., 2021）、trastuzumab（加框警語；Genentech, 2026） | 前置用藥與處置見[肺癌章 6.4](../01-lung-cancer.md#64-amivantamab-lazertinib)與急症章第 10 節 |
 | 靜脈血栓 | amivantamab ＋ lazertinib（Yang et al., 2025） | 預防性抗凝血的做法見肺癌章 6.4 |
 | 中樞神經作用與血脂 | lorlatinib：中樞神經作用 52%；用藥前、第 1 與第 2 個月及之後定期驗膽固醇與三酸甘油酯（美國仿單；Pfizer, 2026） | 情緒、認知、說話改變要連家屬一起衛教 |
-| 顱內出血與認知 | avapritinib：顱內出血 2.9%，任何等級都永久停藥；認知影響 33%（美國仿單；Blueprint Medicines, 2026） | 新的頭痛、嗜睡當急症 |
+| 顱內出血與認知 | avapritinib：顱內出血 2.9%（GIST 與肥大細胞增生症合併分析），任何等級都永久停藥；認知不良反應在 GIST 病人 41%（美國仿單；Blueprint Medicines, 2026） | 新的頭痛、嗜睡當急症 |
 | 水腫 | imatinib（Demetri et al., 2002）、capmatinib 51%（Wolf et al., 2020） | 固定時間量體重 |
 | 發燒 | dabrafenib ＋ trametinib（Planchard et al., 2017） | 先排除感染；暫停規則見肺癌章 6.3 |
 | 血液惡性疾病 | olaparib：MDS／AML 約 1.2%；基線與每月驗血球（美國仿單；AstraZeneca, 2025） | 持續的血球低下要查原因 |
-| 胚胎胎兒毒性 | trastuzumab、T-DXd 的加框警語（Genentech, 2026；Daiichi Sankyo, 2026） | 開藥前確認懷孕狀態與避孕 |
+| 胚胎胎兒毒性 | trastuzumab、T-DXd 的加框警語（美國仿單；Genentech, 2026；Daiichi Sankyo, 2026） | 開藥前確認懷孕狀態與避孕 |
 
 ---
 
@@ -595,10 +595,10 @@ ADC 則像化療：sacituzumab govitecan 的 3 級以上嗜中性球低下 51%�
 | 項目 | 要確認什麼 |
 |------|-----------|
 | biomarker 報告 | 病歷上有書面報告；變異型別對得上藥物（例如 EGFR exon 19 缺失或 L858R、KIT exon 11 或 PDGFRA D842V、germline 而不只是 somatic BRCA）；送健保事前審查的要求見各癌別章第 9 段 |
-| 排除條件 | bevacizumab：鱗狀細胞癌、近期咳血、28 天內的手術或未癒合傷口（Genentech, 2025）；pazopanib：未控制的高血壓（Novartis, 2025）；免疫治療與 osimertinib 的先後順序（Schoenfeld et al., 2019） |
+| 排除條件 | bevacizumab：鱗狀細胞癌、近期咳血、28 天內的手術或未癒合傷口（美國仿單；Genentech, 2025）；pazopanib：未控制的高血壓（美國仿單；Novartis, 2025）；免疫治療與 osimertinib 的先後順序（Schoenfeld et al., 2019） |
 | 基線檢查 | 依類別：抗 HER2 藥與 osimertinib（有心臟危險因子者）測 LVEF；osimertinib、ribociclib 做心電圖與電解質；抗 VEGF 藥量血壓、驗尿蛋白；pazopanib、regorafenib、alectinib、ribociclib 驗肝功能；PI3K／AKT 抑制劑驗空腹血糖與 HbA1c；lorlatinib 驗血脂與血糖；CDK4/6 抑制劑、PARP 抑制劑與 ADC 驗血球（出處見第 6 段與 8.3） |
 | 併用藥 | 胃酸抑制劑、CYP3A4 誘導劑與抑制劑（抗結核藥、抗黴菌藥、抗癲癇藥）、其他延長 QT 的藥、中草藥與保健食品（van Leeuwen et al., 2014） |
-| 懷孕與避孕 | trastuzumab 與 T-DXd 有胚胎胎兒毒性加框警語（Genentech, 2026；Daiichi Sankyo, 2026）；其他藥依仿單 |
+| 懷孕與避孕 | trastuzumab 與 T-DXd 有胚胎胎兒毒性加框警語（美國仿單；Genentech, 2026；Daiichi Sankyo, 2026）；其他藥依仿單 |
 | 服藥能力 | 吞嚥、管灌、誰幫忙備藥、空腹或隨餐的規定能不能做到；流程見[化療基礎 14.5](../00-shared/01-chemo-basics.md#145-口服抗癌藥) |
 | B 型肝炎 | 依[化療基礎第 6 節](../00-shared/01-chemo-basics.md#6-b-型肝炎篩檢與預防性抗病毒)的篩檢流程 |
 
@@ -639,11 +639,11 @@ ADC 則像化療：sacituzumab govitecan 的 3 級以上嗜中性球低下 51%�
 <!-- drug-cards -->
 | 藥名 | 分類 | 機轉 | 主要用途 | 必記毒性 | 監測與處置 |
 |------|------|------|----------|----------|------------|
-| gefitinib（Iressa） | EGFR TKI，第一代 | 抑制 EGFR 酪胺酸激酶 | EGFR 敏感突變的 NSCLC | 皮疹或痤瘡 66.2%、腹瀉 46.6% | 皮膚預防照護；胃酸抑制劑降低吸收，要錯開 |
+| gefitinib（Iressa） | EGFR TKI，第一代 | 抑制 EGFR 酪胺酸激酶 | EGFR 敏感突變的 NSCLC | 皮疹或痤瘡 66.2%、腹瀉 46.6% | 皮膚預防照護；盡量避免 PPI，H2 阻斷劑與制酸劑要錯開 |
 | erlotinib（Tarceva） | EGFR TKI，第一代 | 抑制 EGFR 酪胺酸激酶 | EGFR 敏感突變的 NSCLC；胰臟癌效益極小 | 皮疹、腹瀉（EGFR 抑制劑的類別毒性） | 同 gefitinib；胰臟癌不建議常規使用 |
 | afatinib（Giotrif） | EGFR TKI，第二代 | 不可逆阻斷 EGFR、HER2、ErbB4 | EGFR 突變的 NSCLC | 腹瀉、皮疹或痤瘡、口腔炎 | 及早止瀉；皮膚預防照護 |
-| dacomitinib（Vizimpro） | EGFR TKI，第二代 | 不可逆的 EGFR TKI | EGFR 突變的 NSCLC 第一線 | 3–4 級痤瘡樣皮膚炎 14%、腹瀉 8% | 皮膚預防照護；胃酸抑制劑要錯開 |
-| osimertinib（Tagrisso） | EGFR TKI，第三代 | 不可逆，選擇性抑制敏感突變與 T790M | EGFR 突變 NSCLC：輔助、III 期化放療後、晚期 | ILD 約 4%、QTc 延長、心肌病變 3.8% | 新的喘咳立即停藥評估；心電圖；高風險者測 LVEF |
+| dacomitinib（Vizimpro） | EGFR TKI，第二代 | 不可逆的 EGFR TKI | EGFR 突變的 NSCLC 第一線 | 3–4 級痤瘡樣皮膚炎 14%、腹瀉 8% | 皮膚預防照護；盡量避免 PPI，H2 阻斷劑要錯開 |
+| osimertinib（Tagrisso） | EGFR TKI，第三代 | 不可逆，選擇性抑制敏感突變與 T790M | EGFR 突變 NSCLC：輔助、III 期化放療後、晚期 | ILD 約 4%、QTc 延長、心肌病變 3.8% | 新的喘咳先暫停並評估 ILD，確診即永久停藥；高風險者做心電圖；有心臟危險因子者測 LVEF |
 | amivantamab（Rybrevant） | 雙特異性抗體 | 結合 EGFR 與 MET 的胞外區 | EGFR exon 20 插入；併 lazertinib 用於敏感突變 | 輸注反應 66%、皮疹 86%、甲溝炎 45%、靜脈血栓 | 前置用藥；預防性皮膚照護；注意血栓症狀 |
 | crizotinib（Xalkori） | ALK／ROS1 TKI，第一代 | 抑制 ALK 等激酶 | ALK 或 ROS1 融合的 NSCLC | 視覺異常、腸胃症狀、水腫、肝毒性、ILD、QT | 肝功能、心電圖；視力變化要回報 |
 | alectinib（Alecensa） | ALK TKI，第二代 | 高選擇性抑制 ALK | ALK 融合 NSCLC：輔助與晚期 | 肌痛 35.3%、CPK 上升 56.2%、心搏過緩 11.3% | 肝功能前 3 個月每 2 週；CPK 第 1 個月每 2 週；隨餐 |
@@ -654,7 +654,7 @@ ADC 則像化療：sacituzumab govitecan 的 3 級以上嗜中性球低下 51%�
 | dabrafenib（Tafinlar） | BRAF TKI | 抑制 BRAF，與 MEK 抑制劑 trametinib 併用 | BRAF V600E 的 NSCLC | 發燒 | 發燒先排除感染，依仿單暫停 |
 | sotorasib（Lumakras） | KRAS G12C 抑制劑 | 專一、不可逆地結合 KRAS G12C | KRAS G12C 的 NSCLC（第二線） | 腹瀉、ALT 與 AST 上升 | 驗肝功能；只對 G12C 有效 |
 | trastuzumab（Herceptin） | 抗 HER2 單株抗體 | 人源化抗 HER2 抗體；Fc 端可引發 ADCC | HER2 陽性乳癌：早期與轉移 | 心肌病變、輸注反應 | LVEF 開始前、每 3 個月；不可與 T-DM1、T-DXd 互換 |
-| pertuzumab（Perjeta） | 抗 HER2 單株抗體 | 第二個抗 HER2 抗體，與 trastuzumab 合用 | HER2 陽性乳癌 | 併用時不良事件多在化療期間 | 與 trastuzumab 一起監測 LVEF |
+| pertuzumab（Perjeta） | 抗 HER2 單株抗體 | 結合的 HER2 位置與 trastuzumab 不同，兩者合用（雙標靶） | HER2 陽性乳癌 | 併用時不良事件多在化療期間 | 與 trastuzumab 一起監測 LVEF |
 | lapatinib（Tykerb） | HER2／EGFR TKI | 抑制 HER2 與 EGFR 激酶 | HER2 陽性轉移性乳癌，併 capecitabine | 腹瀉、手足症候群 | 食物使 AUC 增為 2.67–4.25 倍，要固定空腹吃 |
 | neratinib（Nerlynx） | 泛 HER TKI | 不可逆抑制 HER1、HER2、HER4 | HER2 陽性早期乳癌延長輔助 | 3 級腹瀉 40% | 開藥時就安排止瀉計畫 |
 | tucatinib（Tukysa） | HER2 TKI | 高選擇性抑制 HER2 激酶 | HER2 陽性轉移性乳癌，含腦轉移 | 腹瀉、手足症候群、轉胺酶上升 | 驗肝功能 |
@@ -664,11 +664,11 @@ ADC 則像化療：sacituzumab govitecan 的 3 級以上嗜中性球低下 51%�
 | datopotamab deruxtecan（Datroway） | 抗 Trop-2 ADC | 抗 Trop-2 抗體 ＋ 拓樸異構酶 I 抑制劑 | HR 陽性／HER2 陰性轉移性乳癌化療後 | 口腔炎 50%、眼表事件 40% | 口腔與眼睛的預防照護；新的喘咳要評估 ILD |
 | bevacizumab（Avastin） | 抗 VEGF 單株抗體 | 中和 VEGF，阻斷血管新生 | 非鱗狀 NSCLC 等 | 高血壓、蛋白尿、出血、穿孔、傷口癒合不良 | 每次量血壓與尿蛋白；手術前後各隔 28 天 |
 | ramucirumab（Cyramza） | 抗 VEGFR-2 單株抗體 | 結合 VEGFR-2 胞外區 | NSCLC 第二線，併 docetaxel | 高血壓；併 docetaxel 時發燒性嗜中性球低下 16% | 量血壓、看血球 |
-| imatinib（Glivec） | BCR-ABL／KIT TKI | 抑制 KIT 訊號 | GIST：晚期第一線、高風險術後輔助 3 年 | 水腫、腹瀉、疲倦；腫瘤出血約 5% | 量體重；不要自行停藥；先看基因型 |
+| imatinib（Glivec） | BCR-ABL／KIT TKI | 抑制 KIT 訊號 | GIST：晚期第一線、高風險術後輔助 3 年 | 水腫、腹瀉、疲倦；胃腸道或腹腔內出血約 5% | 量體重；不要自行停藥；先看基因型 |
 | sunitinib（Sutent） | 多靶點 TKI | 抑制多種受體酪胺酸激酶 | imatinib 失敗的 GIST | 疲倦、腹瀉、皮膚變色、噁心 | 細節見肉瘤章 6.8 |
 | regorafenib（Stivarga） | 激酶抑制劑 | 抑制多種激酶 | imatinib 與 sunitinib 失敗的 GIST | 肝毒性（加框）、高血壓 23%、手足皮膚反應 20% | 肝功能前 2 個月每 2 週；血壓前 6 週每週；低脂餐後吃 |
 | ripretinib（Qinlock） | 開關控制型 TKI | 把激酶活化環鎖在不活化構形 | 多線治療後的 GIST | lipase 上升、高血壓 | 細節見肉瘤章 6.8 |
-| avapritinib（Ayvakit） | PDGFRA TKI | 抑制 PDGFRA D842V | PDGFRA D842V 的 GIST | 顱內出血 2.9%、認知影響 33% | 顱內出血任何等級永久停藥；空腹吃 |
+| avapritinib（Ayvakit） | KIT／PDGFRA TKI | 抑制 KIT 與 PDGFRA，對 PDGFRA D842V 效力強 | PDGFRA D842V 的 GIST | 顱內出血（合併分析 2.9%）、認知不良反應（GIST 病人 41%） | 顱內出血任何等級永久停藥；空腹吃 |
 | pazopanib（Votrient） | 多靶點 TKI | 抑制多種受體酪胺酸激酶 | 化療後的晚期軟組織肉瘤 | 肝毒性（加框）、高血壓、腹瀉、疲倦 | 肝功能第 3、5、7、9 週；空腹；避免胃酸抑制劑 |
 | palbociclib（Ibrance） | CDK4/6 抑制劑 | 阻斷 Rb 磷酸化，細胞停在 G1 期 | HR 陽性／HER2 陰性轉移性乳癌 | 3–4 級嗜中性球低下 66.4%，發燒性 1.8% | 照時程驗血球；暫停與減量為主 |
 | ribociclib（Kisqali） | CDK4/6 抑制劑 | 抑制 CDK4/6 | HR 陽性／HER2 陰性乳癌：轉移與早期 | QT 延長、肝毒性、嗜中性球低下 | 心電圖基線與第 14 天；QTcF 低於 450 ms 才開始；避免 tamoxifen |
@@ -677,7 +677,7 @@ ADC 則像化療：sacituzumab govitecan 的 3 級以上嗜中性球低下 51%�
 | inavolisib（Itovebi） | PI3Kα 抑制劑 | 抑制並促進突變 p110α 降解 | PIK3CA 突變的 HR 陽性乳癌 | 高血糖、口腔炎、腹瀉 | 血糖監測；口腔照護 |
 | capivasertib（Truqap） | AKT 抑制劑 | 抑制 AKT | PIK3CA、AKT1 或 PTEN 變異的 HR 陽性乳癌 | 3 級以上皮疹 12.1%、腹瀉 9.3% | 皮膚與腹瀉處置；血糖規則見乳癌章 6.6 |
 | everolimus（Afinitor） | mTOR 抑制劑 | 抑制 mTOR | HR 陽性乳癌，併 exemestane | 口腔炎、非感染性肺炎、高血糖 | dexamethasone 漱口水預防口腔炎；新的喘咳要評估 |
-| olaparib（Lynparza） | PARP 抑制劑 | 對 BRCA 缺陷細胞合成致死 | germline BRCA 乳癌；胰臟癌維持治療 | 貧血、噁心、疲倦；MDS／AML 約 1.2% | 血球基線與每月；CYP3A 抑制劑要減量 |
+| olaparib（Lynparza） | PARP 抑制劑 | 對 BRCA 缺陷細胞合成致死 | germline BRCA 乳癌；胰臟癌維持治療 | 貧血、噁心、疲倦；MDS／AML 約 1.2% | 血球基線與每月；避免強效或中效 CYP3A 抑制劑，避不開才減量 |
 | talazoparib（Talzenna） | PARP 抑制劑 | 對 BRCA 缺陷細胞合成致死 | germline BRCA 的轉移性乳癌 | 3–4 級血液學事件 55%，以貧血為主 | 定期驗血球 |
 
 ---
@@ -746,7 +746,7 @@ A. 減一階劑量後繼續給藥　B. 暫停一次，症狀改善後以原劑�
 <details>
 <summary>答案與詳解</summary>
 
-**答案：C**。T-DXd 的 ILD 規則是：Grade 1（無症狀）暫停到完全恢復；**Grade 2 以上永久停藥**，並給 prednisolone ≥1 mg/kg/日至少 14 天，再減量至少 4 週（Daiichi Sankyo, 2026）。合併分析中 ILD 發生率 15.4%、5 級 2.2%，87% 的首次事件發生在 12 個月內（Powell et al., 2022）。有症狀就已經是 Grade 2，不能再給。
+**答案：C**。T-DXd 的 ILD 規則是：Grade 1（無症狀）暫停到完全恢復；**Grade 2 以上永久停藥**，並給 prednisolone ≥1 mg/kg/日至少 14 天，再減量至少 4 週（美國仿單；Daiichi Sankyo, 2026）。合併分析中 ILD 發生率 15.4%、5 級 2.2%，87% 的首次事件發生在 12 個月內（Powell et al., 2022）。有症狀就已經是 Grade 2，不能再給。
 
 </details>
 
@@ -768,7 +768,7 @@ A. 兩藥沒有交互作用，可以併用　B. 把 lorlatinib 劑量加倍以�
 <details>
 <summary>答案與詳解</summary>
 
-**答案：D**。12 位健康受試者併用 rifampin 與 lorlatinib，10 位出現嚴重肝毒性，仿單列為禁忌（Pfizer, 2026）。B 是把 osimertinib 的規則（併用強效誘導劑時加到 160 mg；AstraZeneca, 2026）套錯藥。誘導劑的處理因藥而異，專師不自行停藥或改劑量，但要把處方攔下來。
+**答案：D**。12 位健康受試者併用 rifampin 與 lorlatinib，10 位出現嚴重肝毒性，美國仿單列為禁忌（Pfizer, 2026）。B 是把 osimertinib 的規則（美國仿單：併用強效誘導劑時加到 160 mg；AstraZeneca, 2026）套錯藥。誘導劑的處理因藥而異，專師不自行停藥或改劑量，但要把處方攔下來。
 
 </details>
 
@@ -779,7 +779,7 @@ A. PPI 誘導 CYP3A4，加速 TKI 代謝　B. 多數口服 TKI 是弱鹼，胃�
 <details>
 <summary>答案與詳解</summary>
 
-**答案：B**。多數口服標靶藥是弱鹼，溶解度隨 pH 改變；胃酸抑制劑把胃內 pH 從約 1 拉到約 4，溶解度在這個範圍變化大的藥受影響最大（Budha et al., 2012）。各藥要不要避開、怎麼錯開時間，規則不同，見肺癌章 5.4；pazopanib 的仿單直接要求避免（Novartis, 2025）。
+**答案：B**。多數口服標靶藥是弱鹼，溶解度隨 pH 改變；胃酸抑制劑把胃內 pH 從約 1 拉到約 4，溶解度在這個範圍變化大的藥受影響最大（Budha et al., 2012）。各藥要不要避開、怎麼錯開時間，規則不同，見肺癌章 5.4；pazopanib 的美國仿單直接要求避免（Novartis, 2025）。
 
 </details>
 
@@ -790,7 +790,7 @@ A. 第一劑的輸注反應比較少，可以多給　B. 腫瘤一開始比較�
 <details>
 <summary>答案與詳解</summary>
 
-**答案：C**。Trastuzumab 的半衰期約 18–27 天；8 → 6 mg/kg 的給法在第 1 週期結束時谷濃度就超過 20 µg/mL（Leyland-Jones et al., 2003），而穩定狀態大約要 12 週才達到（Genentech, 2026）。這是藥動學上的理由，和腫瘤大小無關。
+**答案：C**。Trastuzumab 的半衰期約 18–27 天；8 → 6 mg/kg 的給法在第 1 週期結束時谷濃度就超過 20 µg/mL（Leyland-Jones et al., 2003），而穩定狀態大約要 12 週才達到（美國仿單；Genentech, 2026）。這是藥動學上的理由，和腫瘤大小無關。
 
 </details>
 
@@ -823,7 +823,7 @@ A. Imatinib 400 mg，因為所有 GIST 第一線都用 imatinib　B. Avapritinib
 <details>
 <summary>答案與詳解</summary>
 
-**答案：B**。PDGFRA D842V 的 GIST 對一般 TKI 高度抗藥；avapritinib 在這個族群的反應率 88%（Heinrich et al., 2020）。這是「同一種腫瘤、不同基因型用不同藥」的例子：KIT exon 11 對 imatinib 的部分反應率 83.5%，沒有 KIT 或 PDGFRA 突變者為 0%（Heinrich et al., 2003）。Avapritinib 要注意顱內出血與認知影響（Blueprint Medicines, 2026）。
+**答案：B**。PDGFRA D842V 的 GIST 對一般 TKI 高度抗藥；avapritinib 在這個族群的反應率 88%（Heinrich et al., 2020）。這是「同一種腫瘤、不同基因型用不同藥」的例子：KIT exon 11 對 imatinib 的部分反應率 83.5%，沒有 KIT 或 PDGFRA 突變者為 0%（Heinrich et al., 2003）。Avapritinib 要注意顱內出血與認知影響（美國仿單；Blueprint Medicines, 2026）。
 
 </details>
 
@@ -933,6 +933,10 @@ Finn, R. S., Dering, J., Conklin, D., Kalous, O., Cohen, D. J., Desai, A. J., Gi
 Finn, R. S., Martin, M., Rugo, H. S., Jones, S., Im, S.-A., Gelmon, K., Harbeck, N., Lipatov, O. N., Walshe, J. M., Moulder, S., Gauthier, E., Lu, D. R., Randolph, S., Diéras, V., & Slamon, D. J. (2016). Palbociclib and letrozole in advanced breast cancer. *New England Journal of Medicine, 375*(20), 1925–1936. https://doi.org/10.1056/NEJMoa1607303（PMID: 27959613）
 
 Folkman, J. (1971). Tumor angiogenesis: Therapeutic implications. *New England Journal of Medicine, 285*(21), 1182–1186. https://doi.org/10.1056/NEJM197111182852108（PMID: 4938153）
+
+Food and Drug Administration. (2001, May 10). *NDA 21-335 approval letter: Gleevec (imatinib mesylate) capsules*. U.S. Department of Health and Human Services. https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2001/21335ltr.pdf（核准日期依 Drugs@FDA 的 NDA 021335 紀錄，2026-11-11 查詢）
+
+Food and Drug Administration. (2002, February 1). *NDA 21-335/S-001 approval letter: Gleevec (imatinib mesylate) capsules, gastrointestinal stromal tumors*. U.S. Department of Health and Human Services. https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2002/21335s001ltr.pdf（核准日期依 Drugs@FDA 的 NDA 021335 紀錄，2026-11-11 查詢）
 
 Gainor, J. F., Dardaei, L., Yoda, S., Friboulet, L., Leshchiner, I., Katayama, R., Dagogo-Jack, I., Gadgeel, S., Schultz, K., Singh, M., Chin, E., Parks, M., Lee, D., DiCecca, R. H., Lockerman, E., Huynh, T., Logan, J., Ritterhouse, L. L., Le, L. P., . . . Shaw, A. T. (2016). Molecular mechanisms of resistance to first- and second-generation ALK inhibitors in ALK-rearranged lung cancer. *Cancer Discovery, 6*(10), 1118–1133. https://doi.org/10.1158/2159-8290.CD-16-0596（PMID: 27432227）
 
@@ -1107,6 +1111,8 @@ Strebhardt, K., & Ullrich, A. (2008). Paul Ehrlich's magic bullet concept: 100 y
 Strickler, J. H., Satake, H., George, T. J., Yaeger, R., Hollebecque, A., Garrido-Laguna, I., Schuler, M., Burns, T. F., Coveler, A. L., Falchook, G. S., Vincent, M., Sunakawa, Y., Dahan, L., Bajor, D., Rha, S.-Y., Lemech, C., Juric, D., Rehn, M., Ngarmchamnanrith, G., . . . Hong, D. S. (2023). Sotorasib in KRAS p.G12C-mutated advanced pancreatic cancer. *New England Journal of Medicine, 388*(1), 33–43. https://doi.org/10.1056/NEJMoa2208470（PMID: 36546651）
 
 Swain, S. M., Baselga, J., Kim, S.-B., Ro, J., Semiglazov, V., Campone, M., Ciruelos, E., Ferrero, J.-M., Schneeweiss, A., Heeson, S., Clark, E., Ross, G., Benyunes, M. C., Cortés, J., & CLEOPATRA Study Group (2015). Pertuzumab, trastuzumab, and docetaxel in HER2-positive metastatic breast cancer. *New England Journal of Medicine, 372*(8), 724–734. https://doi.org/10.1056/NEJMoa1413513（PMID: 25693012）
+
+Swain, S. M., Miles, D., Kim, S.-B., Im, Y.-H., Im, S.-A., Semiglazov, V., Ciruelos, E., Schneeweiss, A., Loi, S., Monturus, E., Clark, E., Knott, A., Restuccia, E., Benyunes, M. C., Cortés, J., & CLEOPATRA study group (2020). Pertuzumab, trastuzumab, and docetaxel for HER2-positive metastatic breast cancer (CLEOPATRA): End-of-study results from a double-blind, randomised, placebo-controlled, phase 3 study. *The Lancet Oncology, 21*(4), 519–530. https://doi.org/10.1016/S1470-2045(19)30863-0（PMID: 32171426）
 
 Thatcher, N., Chang, A., Parikh, P., Rodrigues Pereira, J., Ciuleanu, T., von Pawel, J., Thongprasert, S., Tan, E. H., Pemberton, K., Archer, V., & Carroll, K. (2005). Gefitinib plus best supportive care in previously treated patients with refractory advanced non-small-cell lung cancer: Results from a randomised, placebo-controlled, multicentre study (Iressa Survival Evaluation in Lung Cancer). *The Lancet, 366*(9496), 1527–1537. https://doi.org/10.1016/S0140-6736(05)67625-8（PMID: 16257339）
 

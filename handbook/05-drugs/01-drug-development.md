@@ -50,7 +50,7 @@
 
 | 年份 | 事件 | 意義 |
 |------|------|------|
-| 1942（1946 年發表） | 耶魯大學為一位淋巴肉瘤病人靜脈注射 nitrogen mustard（Goodman et al., 1946；Christakis, 2011） | 第一次證明全身性藥物能讓腫瘤縮小，也第一次看到骨髓抑制與復發 |
+| 1942（1946 年發表） | 耶魯大學為一位淋巴肉瘤病人靜脈注射 nitrogen mustard（Goodman et al., 1946；Christakis, 2011） | 第一次用靜脈化療讓腫瘤縮小，同時看到骨髓抑制與復發後抗藥 |
 | 1948 | Farber 用葉酸拮抗劑 aminopterin 讓兒童急性白血病暫時緩解（Farber et al., 1948） | 抗代謝藥的起點；methotrexate 與 leucovorin 解救由此而來 |
 | 1955 | 美國成立 Cancer Chemotherapy National Service Center（DeVita & Chu, 2008） | 國家級的抗癌藥篩選與開發體系 |
 | 1965–1969 | Rosenberg 發現鉑電極的電解產物會抑制大腸桿菌分裂，接著證實鉑化合物有抗腫瘤活性（Rosenberg et al., 1965；Rosenberg et al., 1969） | cisplatin 的由來 |
@@ -72,7 +72,7 @@
 
 ### 1.1 化療：從毒氣到治癒（1940–1970 年代）
 
-**Nitrogen mustard。** 第一次世界大戰後，Krumbhaar 在 1919 年報告接觸芥子氣的士兵白血球先升後降。二次大戰期間，美國政府委託耶魯大學的藥理學家 Alfred Gilman 與 Louis Goodman 研究解毒劑；他們在兔子身上看到淋巴球與顆粒球下降，想到可以用來治療淋巴系統的腫瘤，並在移植淋巴瘤的小鼠身上看到腫瘤縮小。1942 年 8 月 27 日，外科醫師 Lindskog 的團隊為一位放射治療已經無效的淋巴肉瘤病人（病歷代號 JD）注射第一劑，劑量 0.1 mg/kg，連續 10 天。腫瘤明顯縮小，切片找不到腫瘤；但接著白血球與血小板下降、牙齦出血、需要輸血；第 49 天復發，再給藥的效果變差，第 96 天過世。因為戰時保密，病歷上只寫「substance X」，結果到 1946 年才發表（Christakis, 2011；Goodman et al., 1946；Gilman & Philips, 1946）。1943 年 12 月義大利巴里港的芥子氣外洩，暴露者同樣出現骨髓抑制（Falzone et al., 2018），但耶魯的第一位病人在前一年就已經治療了。
+**Nitrogen mustard。** 第一次世界大戰後，Krumbhaar 在 1919 年報告接觸芥子氣的士兵白血球先升後降。二次大戰期間，美國政府委託耶魯大學的藥理學家 Alfred Gilman 與 Louis Goodman 研究解毒劑；他們在兔子身上看到淋巴球與顆粒球下降，想到可以用來治療淋巴系統的腫瘤，並在移植淋巴瘤的小鼠身上看到腫瘤縮小。1942 年 8 月 27 日，外科醫師 Lindskog 的團隊為一位放射治療已經無效的淋巴肉瘤病人（病歷代號 JD）注射第一劑，劑量 0.1 mg/kg，連續 10 天。腫瘤明顯縮小，切片找不到腫瘤；但接著白血球與血小板下降、牙齦出血、需要輸血；第 49 天復發，再給藥的效果變差，第 96 天過世。因為戰時保密，病歷上只寫「substance X」，結果到 1946 年才發表（Christakis, 2011；Goodman et al., 1946；Gilman & Philips, 1946）。1943 年 12 月義大利巴里港（Bari）遭空襲，船上載運的芥子氣外洩，暴露者同樣出現骨髓抑制（Falzone et al., 2018；Turner & Sapp, 2026），但耶魯的第一位病人在前一年就已經治療了。
 
 第一位病人就示範了今天每天在看的三件事：腫瘤會縮小、骨髓會被抑制、復發後再用同一個藥效果變差。所以每次給藥前要看血球（[化療基礎第 5 節](../00-shared/01-chemo-basics.md#5-化療前檢核pre-chemo-checklist)），發燒要當急症處理（[腫瘤急症第 1 節](../00-shared/02-oncologic-emergencies.md#1-發燒性嗜中性球低下)）。
 
@@ -188,7 +188,7 @@ FDA 的描述取自其藥物開發流程說明（Food and Drug Administration, 2
 | Accelerated approval（加速核准） | 依替代終點核准治療嚴重疾病、填補未滿足需求的藥物 |
 | Priority review（優先審查） | FDA 的目標是在 6 個月內完成審查 |
 
-FDA 回顧 1992 年 12 月到 2017 年 5 月的腫瘤與血液加速核准：64 個產品、93 個適應症；87% 以反應率為依據，72% 的資料來自單臂試驗；55% 已完成確認（中位數 3.4 年），40% 尚未完成，5% 被撤回（Beaver et al., 2018）。Sotorasib 的確認性第三期試驗 CodeBreaK 200 顯示 PFS 5.6 對 4.5 個月（HR 0.66），優於 docetaxel（de Langen et al., 2023）。
+FDA 回顧 1992 年 12 月到 2017 年 5 月的腫瘤與血液加速核准：64 個產品、93 個適應症；87% 以反應率為依據，72% 的資料來自單臂試驗；55% 已完成確認（中位數 3.4 年），40% 尚未完成，5% 被撤回（Beaver et al., 2018）。Sotorasib 的確認性第三期試驗 CodeBreaK 200 顯示 PFS 5.6 對 4.5 個月（HR 0.66），優於 docetaxel（de Langen et al., 2023）；但兩組的 OS 沒有顯著差異，FDA 的腫瘤藥物諮詢委員會（ODAC）2023 年 10 月因此不建議轉為一般核准（Wei et al., 2026）。
 
 > [!WARNING]
 > **加速核准不等於已經證明活得比較久**
@@ -231,7 +231,7 @@ FDA 回顧 1992 年 12 月到 2017 年 5 月的腫瘤與血液加速核准：64 
 | 無病存活（disease-free survival, DFS）與無事件存活（event-free survival, EFS） | DFS：從隨機分派到復發或死亡，用在術後輔助治療。EFS：在手術前就隨機分派，事件包括惡化到無法手術、復發與死亡 | 治癒性治療要追很久才看得到 OS，DFS／EFS 比較實際 | 各試驗對「事件」的定義不完全一樣，要看原文 | KATHERINE：3 年無侵襲性疾病存活 88.3% 對 77.0%（von Minckwitz et al., 2019）；KEYNOTE-522 的 EFS（Schmid et al., 2020） |
 | 客觀反應率（objective response rate, ORR） | 腫瘤縮小達到預設標準並維持一段時間的病人比例，即 CR 加 PR；不含 SD | 直接反映藥物的抗腫瘤活性，單臂試驗就能評估 | 腫瘤縮小不等於活得久 | FLAURA 兩組反應率 80% 對 76% 幾乎一樣，PFS 卻差將近一倍（Soria et al., 2018） |
 | 反應持續時間（duration of response, DoR） | 從第一次達到反應到確定惡化的時間 | 和 ORR 一起看，才知道反應是否持久 | 只計算有反應的病人 | FLAURA：17.2 對 8.5 個月（Soria et al., 2018） |
-| 病理完全反應（pathological complete response, pCR） | 術前治療後，手術檢體的乳房與淋巴結都找不到侵襲癌 | 手術時就知道結果 | 對個別病人是很強的預後因子，但不能直接代表試驗的長期結果（見 3.4） | KEYNOTE-522：64.8% 對 51.2%（Schmid et al., 2020） |
+| 病理完全反應（pathological complete response, pCR） | 術前治療後，手術檢體的乳房與淋巴結都找不到侵襲癌 | 手術時就知道結果 | 對個別病人是很強的預後因子，但不能直接代表試驗的長期結果（見 3.4） | KEYNOTE-522 第一次期中分析（前 602 人）：64.8% 對 51.2%（Schmid et al., 2020）；全體族群的數字見[乳癌章 4.6](../03-breast-cancer.md#46-早期三陰性keynote-522-為骨幹殘存病灶再加碼) |
 
 定義取自 FDA 的終點指引（Oncology Center of Excellence et al., 2018）；pCR 的定義取自 KEYNOTE-522（Schmid et al., 2020）。
 
@@ -334,7 +334,7 @@ FDA 回顧 1992 年 12 月到 2017 年 5 月的腫瘤與血液加速核准：64 
 | -mustine | 烷化劑，β-氯乙基胺衍生物 | bendamustine | nitrogen mustard 的後代 |
 | -bulin | 有絲分裂抑制劑，與微管蛋白結合 | eribulin | |
 
-字尾定義與例子都取自 WHO 的 Stem Book 2024（World Health Organization, 2024）；「看到要想到」一欄是本手冊的臨床提醒，細節在各癌別章（biomarker 見[肺癌章 2.2](../01-lung-cancer.md#22-必驗-biomarker)與[乳癌章第 2 段](../03-breast-cancer.md#2-病理與分子標記)，累積劑量見[化療基礎 11.3](../00-shared/01-chemo-basics.md#113-累積劑量上限)，UGT1A1 見[化療基礎 12.2](../00-shared/01-chemo-basics.md#122-ugt1a1-與-irinotecansacituzumab-govitecan)）。蛋白降解劑的命名方式 WHO 還在制定；Stem Book 2024 把 vepdegestrant 歸在 -estrant、bavdegalutamide 歸在 -lutamide，名字中間的 -deg- 提示它是降解劑（degrader）。
+字尾定義與例子都取自 WHO 的 Stem Book 2024（World Health Organization, 2024）；「看到要想到」一欄是本手冊的臨床提醒，細節在各癌別章（biomarker 見[肺癌章 2.2](../01-lung-cancer.md#22-必驗-biomarker)與[乳癌章第 2 段](../03-breast-cancer.md#2-病理與分子標記)，累積劑量見[化療基礎 11.3](../00-shared/01-chemo-basics.md#113-累積劑量上限)，UGT1A1 見[化療基礎 12.2](../00-shared/01-chemo-basics.md#122-ugt1a1-與-irinotecansacituzumab-govitecan)）。蛋白降解劑在 Stem Book 2024 還沒有自己的正式字尾：vepdegestrant 歸在 -estrant、bavdegalutamide 歸在 -lutamide。WHO 2024 年 3 月的 pre-stem 工作文件列出這類藥的組法是「-deg-（必要時加一個母音）＋標靶的字尾」，例如 -deg-estrant、-dega-lutamide，所以名字中間的 -deg- 提示它是降解劑（degrader）（Programme on International Nonproprietary Names, 2024）。
 
 ### 4.3 單株抗體：舊名字怎麼拆，新名字怎麼認
 
@@ -537,7 +537,7 @@ iRECIST 是給臨床試驗統一收集資料用的規範；要不要繼續治療
 
 - **腫瘤是會演化的族群。** Nowell 在 1976 年提出：腫瘤多半起源於單一細胞，之後不斷產生遺傳變異，比較有優勢的次族群被選出來；他當時就預言，針對個別病人設計的治療，也可能因為出現抗藥的變異株而失效（Nowell, 1976）。
 - **腫瘤越大，越可能已經藏著抗藥細胞。** Goldie 與 Coldman 的數學模型指出，腫瘤內出現抗藥細胞的機率隨突變率上升，而且會在腫瘤生長過程中很短的一段時間內，從「機率很低」變成「機率很高」（Goldie & Coldman, 1979）。也就是說，突變率固定時，腫瘤大小決定有沒有抗藥細胞（Vasan et al., 2019）。
-- **治療本身就是篩選壓力。** Sequist 等人為 37 位對 EGFR-TKI 抗藥的肺癌病人重新切片：所有腫瘤都保留原本的 EGFR 突變，另外多了抗藥的變化；其中 3 位停藥一段時間後，抗藥機轉消失，再用 EGFR-TKI 又有效（Sequist et al., 2011）。
+- **治療本身就是篩選壓力。** Sequist 等人為 37 位對 EGFR-TKI 抗藥的肺癌病人重新切片：所有腫瘤都保留原本的 EGFR 突變，部分另外出現已知的抗藥變化（例如 T790M、MET 放大）；其中 3 位停藥一段時間後，抗藥機轉消失，再用 EGFR-TKI 又有效（Sequist et al., 2011）。
 
 > [!TIP]
 > **除草劑與雜草**
@@ -588,7 +588,7 @@ ASCO 與 ONS 的化療給藥安全標準依「處方、調配、給藥」的順�
 
 > [!WARNING]
 > **核對不是蓋章**
-> 多數嚴重的給藥錯誤，在「處方」這一步就看得出來：biomarker 與藥不符、體重是舊的、藥名看錯。前面提過的兩個例子都會致命或造成嚴重傷害：把 trastuzumab deruxtecan 當成 trastuzumab emtansine（第 4.4 段），以及 EGFR 報告沒回來就開免疫治療（第 5.1 段）。vinca 類藥物的給藥途徑錯誤同樣致命，見[化療基礎第 14 節](../00-shared/01-chemo-basics.md#14-給藥安全標準與口服抗癌藥)。看到不符合，先停下來問，不要先給藥。
+> 許多嚴重的給藥錯誤，在「處方」這一步就看得出來：biomarker 與藥不符、體重是舊的、藥名看錯。前面提過的兩個例子都會致命或造成嚴重傷害：把 trastuzumab deruxtecan 當成 trastuzumab emtansine（第 4.4 段），以及 EGFR 報告沒回來就開免疫治療（第 5.1 段）。vinca 類藥物的給藥途徑錯誤同樣致命，見[化療基礎第 14 節](../00-shared/01-chemo-basics.md#14-給藥安全標準與口服抗癌藥)。看到不符合，先停下來問，不要先給藥。
 
 > [!NOTE]
 > **專師的執行範圍與院內核對流程**
@@ -957,13 +957,15 @@ Piaggio, G., Elbourne, D. R., Pocock, S. J., Evans, S. J. W., Altman, D. G., & C
 
 Prasad, V., Kim, C., Burotto, M., & Vandross, A. (2015). The strength of association between surrogate end points and survival in oncology: A systematic review of trial-level meta-analyses. *JAMA Internal Medicine, 175*(8), 1389–1398. https://doi.org/10.1001/jamainternmed.2015.2829（PMID: 26098871）
 
+Programme on International Nonproprietary Names. (2024, March 8). *Pre-stems: Suffixes used in the selection of INN* (INN Working Document 23.574 rev.). World Health Organization. https://cdn.who.int/media/docs/default-source/international-nonproprietary-names-%28inn%29/prestem-suffixes-202403.pdf
+
 Ramalingam, S. S., Vansteenkiste, J., Planchard, D., Cho, B. C., Gray, J. E., Ohe, Y., Zhou, C., Reungwetwattana, T., Cheng, Y., Chewaskulyong, B., Shah, R., Cobo, M., Lee, K. H., Cheema, P., Tiseo, M., John, T., Lin, M.-C., Imamura, F., Kurata, T., . . . Soria, J.-C. (2020). Overall survival with osimertinib in untreated, EGFR-mutated advanced NSCLC. *New England Journal of Medicine, 382*(1), 41–50. https://doi.org/10.1056/NEJMoa1913662（PMID: 31751012）
 
-Rosenberg, B., VanCamp, L., & Krigas, T. (1965). Inhibition of cell division in Escherichia coli by electrolysis products from a platinum electrode. *Nature, 205*, 698–699. https://doi.org/10.1038/205698a0（PMID: 14287410）
+Rosenberg, B., VanCamp, L., & Krigas, T. (1965). Inhibition of cell division in Escherichia coli by electrolysis products from a platinum electrode. *Nature, 205*(4972), 698–699. https://doi.org/10.1038/205698a0（PMID: 14287410）
 
 Rosenberg, B., VanCamp, L., Trosko, J. E., & Mansour, V. H. (1969). Platinum compounds: A new class of potent antitumour agents. *Nature, 222*(5191), 385–386. https://doi.org/10.1038/222385a0（PMID: 5782119）
 
-Sartor, O., de Bono, J., Chi, K. N., Fizazi, K., Herrmann, K., Rahbar, K., Tagawa, S. T., Nordquist, L. T., Vaishampayan, N., El-Haddad, G., Park, C. H., Beer, T. M., Armour, A., Pérez-Contreras, W. J., DeSilvio, M., Kpamegan, E., Gericke, G., Messmann, R. A., Morris, M. J., . . . Krause, B. J. (2021). Lutetium-177-PSMA-617 for metastatic castration-resistant prostate cancer. *New England Journal of Medicine, 385*(12), 1091–1103. https://doi.org/10.1056/NEJMoa2107322（PMID: 34161051）
+Sartor, O., de Bono, J., Chi, K. N., Fizazi, K., Herrmann, K., Rahbar, K., Tagawa, S. T., Nordquist, L. T., Vaishampayan, N., El-Haddad, G., Park, C. H., Beer, T. M., Armour, A., Pérez-Contreras, W. J., DeSilvio, M., Kpamegan, E., Gericke, G., Messmann, R. A., Morris, M. J., & Krause, B. J. (2021). Lutetium-177-PSMA-617 for metastatic castration-resistant prostate cancer. *New England Journal of Medicine, 385*(12), 1091–1103. https://doi.org/10.1056/NEJMoa2107322（PMID: 34161051）
 
 Schmid, P., Cortes, J., Pusztai, L., McArthur, H., Kümmel, S., Bergh, J., Denkert, C., Park, Y. H., Hui, R., Harbeck, N., Takahashi, M., Foukakis, T., Fasching, P. A., Cardoso, F., Untch, M., Jia, L., Karantza, V., Zhao, J., Aktan, G., . . . O'Shaughnessy, J. (2020). Pembrolizumab for early triple-negative breast cancer. *New England Journal of Medicine, 382*(9), 810–821. https://doi.org/10.1056/NEJMoa1910549（PMID: 32101663）
 
@@ -989,11 +991,15 @@ Temel, J. S., Greer, J. A., Muzikansky, A., Gallagher, E. R., Admane, S., Jackso
 
 Thress, K. S., Paweletz, C. P., Felip, E., Cho, B. C., Stetson, D., Dougherty, B., Lai, Z., Markovets, A., Vivancos, A., Kuang, Y., Ercan, D., Matthews, S. E., Cantarini, M., Barrett, J. C., Jänne, P. A., & Oxnard, G. R. (2015). Acquired EGFR C797S mutation mediates resistance to AZD9291 in non-small cell lung cancer harboring EGFR T790M. *Nature Medicine, 21*(6), 560–562. https://doi.org/10.1038/nm.3854（PMID: 25939061）
 
+Turner, M. D., & Sapp, J. (2026). The Bari bombing and the birth of chemotherapy. *Military Medicine, 191*(9–10), 148–150. https://doi.org/10.1093/milmed/usaf568（PMID: 41223052）
+
 Vasan, N., Baselga, J., & Hyman, D. M. (2019). A view on drug resistance in cancer. *Nature, 575*(7782), 299–309. https://doi.org/10.1038/s41586-019-1730-1（PMID: 31723286）
 
 Von Hoff, D. D., Ervin, T., Arena, F. P., Chiorean, E. G., Infante, J., Moore, M., Seay, T., Tjulandin, S. A., Ma, W. W., Saleh, M. N., Harris, M., Reni, M., Dowden, S., Laheru, D., Bahary, N., Ramanathan, R. K., Tabernero, J., Hidalgo, M., Goldstein, D., . . . Renschler, M. F. (2013). Increased survival in pancreatic cancer with nab-paclitaxel plus gemcitabine. *New England Journal of Medicine, 369*(18), 1691–1703. https://doi.org/10.1056/NEJMoa1304369（PMID: 24131140）
 
 von Minckwitz, G., Huang, C.-S., Mano, M. S., Loibl, S., Mamounas, E. P., Untch, M., Wolmark, N., Rastogi, P., Schneeweiss, A., Redondo, A., Fischer, H. H., Jacot, W., Conlin, A. K., Arce-Salinas, C., Wapnir, I. L., Jackisch, C., DiGiovanna, M. P., Fasching, P. A., Crown, J. P., . . . Geyer, C. E., Jr. (2019). Trastuzumab emtansine for residual invasive HER2-positive breast cancer. *New England Journal of Medicine, 380*(7), 617–628. https://doi.org/10.1056/NEJMoa1814017（PMID: 30516102）
+
+Wei, Z., Han, Y., Yang, L., Roy, P., He, C., Liu, L., Huang, S.-P., & Hsieh, H.-J. (2026). Evaluating post-progression survival in the context of progression-free survival benefits: A revisit of the CodeBreaK200 design. *Therapeutic Innovation & Regulatory Science, 60*(3), 847–859. https://doi.org/10.1007/s43441-026-00924-0（PMID: 41665865）
 
 Wong, C. H., Siah, K. W., & Lo, A. W. (2019). Estimation of clinical trial success rates and related parameters. *Biostatistics, 20*(2), 273–286. https://doi.org/10.1093/biostatistics/kxx069（PMID: 29394327）
 

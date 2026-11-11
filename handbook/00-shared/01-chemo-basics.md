@@ -414,7 +414,7 @@ v6.0 最明顯的差異之一是**以病人自己的基線值分級**：例如�
 
 | 類別（代表藥） | 機轉與細胞週期 | 劑量限制毒性 | 重點器官毒性與監測 |
 |--------------|--------------|------------|------------------|
-| 烷化劑（alkylating agents）：cyclophosphamide、ifosfamide | 兩者都是前驅藥，經肝臟 CYP450 活化，以烷基化使 DNA 交聯（BluePoint, 2026; Fresenius Kabi, 2026b）。對細胞週期沒有特異性 | 骨髓抑制（ifosfamide 為加框警語） | 出血性膀胱炎（代謝物 acrolein；用 mesna 與水化預防）。Ifosfamide 加框：神經毒性（腦病變，可致死）、腎毒性。Cyclophosphamide：心臟毒性（心肌炎、心包膜積液、心衰竭）、肺毒性、不孕、次發性惡性腫瘤。詳見 11.6 |
+| 烷化劑（alkylating agents）：cyclophosphamide、ifosfamide | 兩者都是前驅藥，經肝臟 CYP450 活化，活性代謝物把烷基接到 DNA 上。Ifosfamide 仿單寫細胞毒性主要來自 DNA 交聯（Fresenius Kabi, 2026b）；cyclophosphamide 仿單寫機轉尚未完全釐清，可能與 DNA 交聯有關（BluePoint, 2026）。對細胞週期沒有特異性 | 骨髓抑制（ifosfamide 為加框警語） | 出血性膀胱炎（代謝物 acrolein；用 mesna 與水化預防）。Ifosfamide 加框：神經毒性（腦病變，可致死）、腎毒性。Cyclophosphamide：心臟毒性（心肌炎、心包膜積液、心衰竭）、肺毒性、不孕、次發性惡性腫瘤。詳見 11.6 |
 | 鉑類（platinum）：cisplatin、carboplatin、oxaliplatin | 與 DNA 形成鏈間與鏈內交聯（WG Critical Care, 2026）；carboplatin 仿單稱此作用與細胞週期無關（Natco, 2026） | cisplatin：腎毒性（劑量相關且累積）；carboplatin：骨髓抑制（劑量相關）；oxaliplatin：累積性感覺神經病變 | Cisplatin 加框：腎毒性、周邊神經病變、嚴重噁心嘔吐、骨髓抑制；耳毒性累積，先影響高頻（4,000–8,000 Hz）。Carboplatin：數分鐘內可出現類過敏反應，貧血可能累積。Oxaliplatin 加框：過敏／anaphylaxis（任何週期、數分鐘內都可能發生）；約 56% 的病人有急性冷誘發感覺異常，要避免冰冷（Sagent, 2025） |
 | 抗代謝物（antimetabolites）：5-FU、capecitabine（前驅藥，在體內轉成 5-FU） | 代謝物 FdUMP 與葉酸輔因子結合 thymidylate synthase，阻斷 thymidylate 合成，抑制 DNA 合成；作用於 DNA 合成期（H2-Pharma, 2026） | 腹瀉、黏膜炎、骨髓抑制；capecitabine 另有手足症候群（EU SmPC 列為劑量限制毒性；European Medicines Agency, n.d.） | 加框：DPD 缺乏的嚴重或致死毒性（第 12.1 節）；capecitabine 併用 warfarin 出血風險。心臟毒性（心肌缺血、心律不整、心衰竭）。腎功能調整見第 5、7 節 |
 | 抗代謝物：gemcitabine | 核苷類似物，殺死正在合成 DNA 的細胞並阻擋 G1／S 交界（Meitheal, 2025） | 骨髓抑制；輸注超過 60 分鐘或比每週一次更頻繁會增加毒性 | 肺毒性、溶血性尿毒症候群（HUS）、肝毒性、嚴重皮膚反應；用藥前與期間監測腎功能與肝功能（Meitheal, 2025） |
