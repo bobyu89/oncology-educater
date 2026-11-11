@@ -1,0 +1,117 @@
+{
+  "title": "學習路徑",
+  "intro": "照這個順序讀，前面的章節會先把後面要用的觀念講完。每一站最後有測驗；答對率到 80% 再往下走。",
+  "pass_rate": 0.8,
+  "stages": [
+    {
+      "id": "overview",
+      "title": "第一站　先看全貌",
+      "goal": "知道抗癌藥物怎麼來、一位病人從發現腫瘤到決定治療會經過哪些步驟，之後每一章才知道自己在地圖的哪裡。",
+      "steps": [
+        { "chapter": "drug-development", "sections": "all", "label": "抗癌藥物總論：從發現到臨床" },
+        { "chapter": "chemo-basics", "sections": ["本章重點", 1], "label": "體能狀態：ECOG 與 KPS" }
+      ],
+      "quiz": ["drug-development"]
+    },
+    {
+      "id": "chemo",
+      "title": "第二站　化療的基本功",
+      "goal": "能說出每一類化療藥怎麼殺細胞、先傷哪個器官，並且會算劑量、會做給藥前檢核。",
+      "steps": [
+        { "chapter": "cytotoxic-chemotherapy", "sections": "all", "label": "化療藥物：從芥子氣到紫杉醇" },
+        { "chapter": "chemo-basics", "sections": [2, 3, 4, 5, 6, 7, 8], "label": "劑量計算、給藥前檢核、劑量調整與 CTCAE" },
+        { "chapter": "chemo-basics", "sections": [9, 10, 11, 13, 14], "label": "外滲、安全操作、解毒劑、導管與給藥安全" }
+      ],
+      "quiz": ["cytotoxic-chemotherapy", "chemo-basics"]
+    },
+    {
+      "id": "targeted",
+      "title": "第三站　標靶與荷爾蒙治療",
+      "goal": "看到一個標靶藥，能回答它打哪個標的、開藥前要驗什麼、最要注意哪個副作用；能依停經狀態選荷爾蒙治療。",
+      "steps": [
+        { "chapter": "targeted-therapy", "sections": "all", "label": "標靶藥物與抗體藥物複合體" },
+        { "chapter": "endocrine-therapy", "sections": "all", "label": "荷爾蒙治療藥物" },
+        { "chapter": "chemo-basics", "sections": [12], "label": "藥物基因檢測與特殊族群" }
+      ],
+      "quiz": ["targeted-therapy", "endocrine-therapy"]
+    },
+    {
+      "id": "immuno",
+      "title": "第四站　免疫治療",
+      "goal": "能解釋免疫檢查點抑制劑為什麼有效、為什麼副作用可以出現在任何器官，並且會分級處置 irAE。",
+      "steps": [
+        { "chapter": "immunotherapy", "sections": "all", "label": "免疫治療藥物" },
+        { "chapter": "irae", "sections": "all", "label": "免疫治療副作用（irAE）的分級處置" }
+      ],
+      "quiz": ["immunotherapy", "irae"]
+    },
+    {
+      "id": "support",
+      "title": "第五站　支持照護與腫瘤急症",
+      "goal": "值班遇到發燒、喘、意識改變、電解質異常，知道前 30 分鐘要做什麼；會開止吐、G-CSF 與止痛的醫囑。",
+      "steps": [
+        { "chapter": "supportive-care", "sections": "all", "label": "支持性照護" },
+        { "chapter": "oncologic-emergencies", "sections": "all", "label": "腫瘤急症" }
+      ],
+      "quiz": ["supportive-care", "oncologic-emergencies"]
+    },
+    {
+      "id": "lung",
+      "title": "第六站　肺癌：從發現到治療",
+      "goal": "拿到一位肺癌新病人，能依組織型、期別與 biomarker 說出治療方向，並寫出入院醫囑與病程紀錄。",
+      "steps": [
+        { "chapter": "lung-cancer", "sections": [0, 1, 2, 3], "label": "怎麼發現：流病、病理、診斷與分期" },
+        { "chapter": "lung-cancer", "sections": [4, 5], "label": "怎麼治療：治療策略與常用處方" },
+        { "chapter": "lung-cancer", "sections": [6, 7, 8], "label": "怎麼照顧：副作用、專師實務與急症" },
+        { "chapter": "lung-cancer", "sections": [9, 10], "label": "健保給付與個案練習" }
+      ],
+      "quiz": ["lung-cancer"]
+    },
+    {
+      "id": "breast",
+      "title": "第七站　乳癌：從發現到治療",
+      "goal": "能依 HR、HER2 與期別把乳癌分到正確的治療路線，並知道每條路線的藥、療程與監測。",
+      "steps": [
+        { "chapter": "breast-cancer", "sections": [0, 1, 2, 3], "label": "怎麼發現：流病、病理、診斷與分期" },
+        { "chapter": "breast-cancer", "sections": [4, 5], "label": "怎麼治療：治療策略與常用處方" },
+        { "chapter": "breast-cancer", "sections": [6, 7, 8], "label": "怎麼照顧：副作用、專師實務與急症" },
+        { "chapter": "breast-cancer", "sections": [9, 10], "label": "健保給付與個案練習" }
+      ],
+      "quiz": ["breast-cancer"]
+    },
+    {
+      "id": "pancreas",
+      "title": "第八站　胰臟癌：從發現到治療",
+      "goal": "會判斷可切除性、選第一線化療，並處理黃疸、疼痛、胰酵素與營養這些每天都會遇到的問題。",
+      "steps": [
+        { "chapter": "pancreatic-cancer", "sections": [0, 1, 2, 3], "label": "怎麼發現：流病、病理、診斷與分期" },
+        { "chapter": "pancreatic-cancer", "sections": [4, 5], "label": "怎麼治療：治療策略與常用處方" },
+        { "chapter": "pancreatic-cancer", "sections": [6, 7, 8], "label": "怎麼照顧：副作用、專師實務與急症" },
+        { "chapter": "pancreatic-cancer", "sections": [9, 10], "label": "健保給付與個案練習" }
+      ],
+      "quiz": ["pancreatic-cancer"]
+    },
+    {
+      "id": "sarcoma",
+      "title": "第九站　骨肉瘤與軟組織肉瘤：從發現到治療",
+      "goal": "分得出骨肉瘤、Ewing sarcoma、軟組織肉瘤與 GIST 的治療邏輯，會照顧高劑量 methotrexate 與 ifosfamide 的病人。",
+      "steps": [
+        { "chapter": "sarcoma", "sections": [0, 1, 2, 3], "label": "怎麼發現：流病、病理、診斷與分期" },
+        { "chapter": "sarcoma", "sections": [4, 5], "label": "怎麼治療：治療策略與常用處方" },
+        { "chapter": "sarcoma", "sections": [6, 7, 8], "label": "怎麼照顧：副作用、專師實務與急症" },
+        { "chapter": "sarcoma", "sections": [9, 10], "label": "健保給付與個案練習" }
+      ],
+      "quiz": ["sarcoma"]
+    },
+    {
+      "id": "review",
+      "title": "第十站　總複習",
+      "goal": "考前把錯題清空、把藥物卡翻到每一張都能說出機轉和必記毒性。",
+      "steps": [
+        { "kind": "wrong", "label": "錯題本清空：每一題錯過的都重做到答對" },
+        { "kind": "cards", "label": "藥物卡全部翻到「會了」" }
+      ],
+      "quiz": []
+    }
+  ]
+}

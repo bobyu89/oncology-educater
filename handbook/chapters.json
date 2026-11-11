@@ -73,6 +73,51 @@
       "group": "共用",
       "ribbon": "shared",
       "status": "已查核"
+    },
+    {
+      "id": "drug-development",
+      "file": "05-drugs/01-drug-development.md",
+      "title": "抗癌藥物總論",
+      "en": "From Discovery to Bedside",
+      "group": "藥物",
+      "ribbon": "drug",
+      "status": "撰寫中"
+    },
+    {
+      "id": "cytotoxic-chemotherapy",
+      "file": "05-drugs/02-cytotoxic-chemotherapy.md",
+      "title": "化療藥物",
+      "en": "Cytotoxic Chemotherapy",
+      "group": "藥物",
+      "ribbon": "drug",
+      "status": "撰寫中"
+    },
+    {
+      "id": "targeted-therapy",
+      "file": "05-drugs/03-targeted-therapy.md",
+      "title": "標靶藥物",
+      "en": "Targeted Therapy & ADC",
+      "group": "藥物",
+      "ribbon": "drug",
+      "status": "撰寫中"
+    },
+    {
+      "id": "immunotherapy",
+      "file": "05-drugs/04-immunotherapy.md",
+      "title": "免疫治療藥物",
+      "en": "Immunotherapy",
+      "group": "藥物",
+      "ribbon": "drug",
+      "status": "撰寫中"
+    },
+    {
+      "id": "endocrine-therapy",
+      "file": "05-drugs/05-endocrine-therapy.md",
+      "title": "荷爾蒙治療藥物",
+      "en": "Endocrine Therapy",
+      "group": "藥物",
+      "ribbon": "drug",
+      "status": "撰寫中"
     }
   ]
 }

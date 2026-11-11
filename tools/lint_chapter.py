@@ -162,6 +162,16 @@ def check(path: Path, cancer: bool) -> Report:
         else:
             i += 1
 
+    # --- 藥物卡 ---
+    for k, ln in enumerate(lines):
+        if ln.strip() == "<!-- drug-cards -->":
+            head = lines[k + 1] if k + 1 < len(lines) else ""
+            cols = [c.strip() for c in head.strip().strip("|").split("|")]
+            if cols != ["藥名", "分類", "機轉", "主要用途", "必記毒性", "監測與處置"]:
+                rep.add("ERROR", k + 2, f"藥物卡表格欄位應為 藥名｜分類｜機轉｜主要用途｜必記毒性｜監測與處置，實際：{cols}")
+    if "05-drugs" in rel and "01-drug-development" not in rel and "<!-- drug-cards -->" not in text:
+        rep.add("ERROR", 1, "藥物篇缺少 <!-- drug-cards --> 藥物卡表格")
+
     # --- details ---
     opens = sum(1 for k, ln in enumerate(lines) if not in_code[k] and ln.strip() == "<details>")
     closes = sum(1 for k, ln in enumerate(lines) if not in_code[k] and ln.strip() == "</details>")
@@ -183,6 +193,8 @@ def check(path: Path, cancer: bool) -> Report:
                 rep.add("ERROR", q, "測驗題缺少答案與詳解摺疊區塊")
         if cancer and len(qs) < 16:
             rep.add("ERROR", quiz[0], f"測驗題只有 {len(qs)} 題，癌別章至少 16 題")
+        if "05-drugs" in rel and len(qs) < 12:
+            rep.add("ERROR", quiz[0], f"測驗題只有 {len(qs)} 題，藥物篇至少 12 題")
         nums = [int(re.match(r"^\*\*Q(\d+)", lines[q - 1]).group(1)) for q in qs]
         if nums and nums != list(range(1, len(nums) + 1)):
             rep.add("ERROR", quiz[0], f"題號不連續：{nums}")
@@ -241,7 +253,7 @@ def check(path: Path, cancer: bool) -> Report:
         for _, _, e in refs:
             if e not in cited:
                 rep.add("WARN", ref_start, f"文獻表有、內文未引用：{e[:60]}")
-    elif cancer or "00-shared" in rel:
+    elif cancer or "00-shared" in rel or "05-drugs" in rel:
         rep.add("ERROR", 1, "缺少「參考文獻」段落")
     return rep
 
@@ -257,8 +269,9 @@ def main() -> int:
     if a.all:
         for p in sorted((ROOT / "handbook").glob("0[1-9]-*.md")):
             targets.append((p, True))
-        for p in sorted((ROOT / "handbook" / "00-shared").glob("*.md")):
-            targets.append((p, False))
+        for sub in ("00-shared", "05-drugs"):
+            for p in sorted((ROOT / "handbook" / sub).glob("*.md")):
+                targets.append((p, False))
     for f in a.files:
         targets.append((Path(f).resolve(), a.cancer))
     if not targets:

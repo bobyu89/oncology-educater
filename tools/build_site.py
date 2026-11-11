@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
-"""把 handbook/ 的 Markdown 轉成單一互動網頁。
+"""把 handbook/ 的 Markdown 轉成單一互動網頁（學習系統）。
 
 輸出：
-  site/index.html     完整 HTML，可離線開啟（醫院網路擋外站時也能用）
-  site/artifact.html  不含 <html>/<head> 外殼的版本，供發布成 Artifact 網頁
+  site/index.html            完整 HTML，可離線開啟（醫院網路擋外站時也能用）
+  site/artifact.html         不含 <html>/<head> 外殼的版本，供發布成 Artifact 網頁
+  handbook/LEARNING_PATH.md  由 handbook/learning-path.json 產生的學習路徑（給在 GitHub 上讀的人）
 
 用法：python3 tools/build_site.py
 
-章節狀態：在某個 `## N. 標題` 段落內放 `<!-- status: pending -->`，首頁進度表會標成「待補」。
+網頁版除了章節內容，還會產生：
+  學習路徑  handbook/learning-path.json 定義的站別與步驟
+  測驗      各章「自我測驗」的題目轉成可作答的元件
+  藥物卡    藥物篇裡 <!-- drug-cards --> 標記的表格
 """
 
 from __future__ import annotations
@@ -34,9 +38,6 @@ CALLOUT_LABELS = {
     "caution": "待核對",
 }
 
-# 每個癌別章節固定的 13 段（對應 docs/STYLE_GUIDE.md §2）
-TEMPLATE_SECTIONS = ["速查", "流病", "病理", "分期", "治療", "處方", "副作用", "實務", "急症", "健保", "個案", "測驗", "文獻"]
-
 EMOJI = re.compile("[\U0001F300-\U0001FAFF☀-➿️‍]")
 
 
@@ -50,17 +51,6 @@ def gh_slug(text: str, separator: str = "-") -> str:
     text = html.unescape(text).strip().lower()
     text = re.sub(r"[^\w\- ]", "", text)
     return text.replace(" ", separator)
-
-
-def section_status(md_text: str) -> list[str]:
-    """回傳 13 段各自的狀態：done / pending / empty。"""
-    status = ["empty"] * len(TEMPLATE_SECTIONS)
-    parts = re.split(r"^## (\d+)\.", md_text, flags=re.M)
-    for i in range(1, len(parts) - 1, 2):
-        n = int(parts[i])
-        if 0 <= n < len(status):
-            status[n] = "pending" if "<!-- status: pending -->" in parts[i + 1] else "done"
-    return status
 
 
 def convert(md_text: str) -> tuple[str, list[dict]]:
@@ -138,66 +128,263 @@ def toc_html(tokens: list[dict], chapter_id: str) -> str:
     return "<ol>" + "".join(items) + "</ol>" if items else ""
 
 
-def progress_table(rows: list[tuple[dict, list[str]]]) -> str:
-    labels = {"done": "完成", "pending": "待補", "empty": "未開始"}
-    head = "".join(f"<th scope=\"col\">{s}</th>" for s in TEMPLATE_SECTIONS)
-    body = []
-    for c, status in rows:
-        cells = "".join(
-            f'<td><span class="cell cell-{s}" title="{TEMPLATE_SECTIONS[i]}：{labels[s]}"></span>'
-            f'<span class="sr-only">{TEMPLATE_SECTIONS[i]}：{labels[s]}</span></td>'
-            for i, s in enumerate(status)
+def split_sections(md_text: str) -> list[tuple[str, str]]:
+    """依 H2 把章節切成 (標題, 內文)；``` 區塊內的 ## 不算標題。"""
+    out, title, buf, fenced = [], None, [], False
+    for ln in md_text.split("\n"):
+        if ln.lstrip().startswith("```"):
+            fenced = not fenced
+        m = None if fenced else re.match(r"^## +(.+?)\s*$", ln)
+        if m:
+            if title is not None:
+                out.append((title, "\n".join(buf)))
+            title, buf = m.group(1), []
+        elif title is not None:
+            buf.append(ln)
+    if title is not None:
+        out.append((title, "\n".join(buf)))
+    return out
+
+
+def reading_minutes(md: str) -> int:
+    """粗估閱讀時間：去掉標記後每分鐘約 450 字（含表格的醫學內容）。"""
+    text = re.sub(r"https?://\S+|[|>#*`_\-]|\s", "", md)
+    return max(1, round(len(text) / 450))
+
+
+def sections_meta(md_text: str, tokens: list[dict], chapter_id: str) -> list[dict]:
+    flat = []
+    for t in tokens:
+        flat.extend(t.get("children", []) if t["level"] == 1 else [t])
+    ids = [t["id"] for t in flat if t["level"] == 2]
+    parts = split_sections(md_text)
+    meta = []
+    for (title, body), sid in zip(parts, ids):
+        plain = re.sub(r"[*_`]", "", title)
+        num = re.match(r"^(\d+)\.", plain)
+        kind = "quiz" if "自我測驗" in plain else "refs" if "參考文獻" in plain else "read"
+        meta.append(
+            {
+                "id": f"{chapter_id}--{sid}",
+                "title": plain,
+                "num": int(num.group(1)) if num else None,
+                "kind": kind,
+                "min": reading_minutes(body),
+            }
         )
-        done = status.count("done")
-        body.append(
-            f'<tr><th scope="row"><a href="#{c["id"]}">{c["title"]}</a></th>{cells}'
-            f'<td class="num">{done}/{len(status)}</td></tr>'
+    if len(parts) != len(ids):
+        print(f"warning: {chapter_id}: H2 數量與目錄不一致（{len(parts)} vs {len(ids)}）", file=sys.stderr)
+    return meta
+
+
+QUIZ_RE = re.compile(
+    r"<p><strong>Q(\d+)\.</strong>\s*(.*?)</p>\s*((?:(?!<p><strong>Q\d+\.</strong>)(?!<details).)*?)"
+    r"<p>(A\.\s.*?)</p>\s*(<details[^>]*>.*?</details>)",
+    re.S,
+)
+
+
+def quizify(body: str, chapter_id: str) -> tuple[str, int]:
+    """把「自我測驗」的題目轉成可作答的元件；格式不符的題目保留原樣並印警告。"""
+    count = 0
+
+    def one(m: re.Match) -> str:
+        nonlocal count
+        num, stem, extra, opts, details = m.groups()
+        pieces = re.split(r"[\s　]*　[\s　]*(?=[B-E]\.\s)", opts.strip())
+        letters = [p[0] for p in pieces]
+        ans = re.search(r"<strong>答案：\s*([A-E])", details)
+        if letters != list("ABCDE")[: len(letters)] or len(letters) < 3 or not ans or ans.group(1) not in letters:
+            print(f"warning: {chapter_id} Q{num}: 選項或答案格式無法解析，保留原樣", file=sys.stderr)
+            return m.group(0)
+        count += 1
+        buttons = "".join(
+            f'<button type="button" class="quiz-opt" data-k="{p[0]}"><span class="quiz-k">{p[0]}</span>'
+            f'<span class="quiz-t">{p[2:].strip()}</span></button>'
+            for p in pieces
         )
-    return (
-        '<div class="table-wrap progress"><table><thead><tr><th scope="col">癌別</th>'
-        f'{head}<th scope="col" class="num">完成</th></tr></thead><tbody>{"".join(body)}</tbody></table></div>'
-    )
+        return (
+            f'<div class="quiz-q" data-q="{chapter_id}:{num}" data-answer="{ans.group(1)}">'
+            f'<p class="quiz-stem"><span class="quiz-no">Q{num}</span> {stem.strip()}</p>{extra}'
+            f'<div class="quiz-opts" role="group" aria-label="選項">{buttons}</div>'
+            f'<p class="quiz-result" hidden></p>{details}</div>'
+        )
+
+    return QUIZ_RE.sub(one, body), count
+
+
+DRUG_COLS = ["name", "cls", "moa", "use", "tox", "mon"]
+
+
+def drug_cards(md_text: str, chapter: dict) -> list[dict]:
+    """讀出 <!-- drug-cards --> 之後的表格，一列一張卡。"""
+    cards, lines = [], md_text.split("\n")
+    for i, ln in enumerate(lines):
+        if ln.strip() != "<!-- drug-cards -->":
+            continue
+        j = i + 1
+        while j < len(lines) and not lines[j].strip():
+            j += 1
+        rows = []
+        while j < len(lines) and lines[j].lstrip().startswith("|"):
+            rows.append([c.strip() for c in lines[j].strip().strip("|").split("|")])
+            j += 1
+        for row in rows[2:]:
+            if len(row) != len(DRUG_COLS):
+                print(f"warning: {chapter['id']}: 藥物卡欄數不符：{row[:1]}", file=sys.stderr)
+                continue
+            clean = [re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", re.sub(r"[*_`]", "", c)) for c in row]
+            card = dict(zip(DRUG_COLS, clean))
+            card["chapter"] = chapter["id"]
+            card["group"] = chapter["title"].replace("藥物", "") or chapter["title"]
+            card["key"] = chapter["id"] + ":" + re.sub(r"[^a-z0-9]+", "-", clean[0].split("（")[0].lower()).strip("-")
+            cards.append(card)
+    return cards
+
+
+def resolve_path(path_cfg: dict, chapters: dict[str, dict]) -> dict:
+    """把 learning-path.json 的步驟對應到實際段落 id；章節還沒寫完的步驟標成 pending。"""
+    stages = []
+    for st in path_cfg["stages"]:
+        steps = []
+        for sp in st["steps"]:
+            if "kind" in sp:
+                steps.append({"kind": sp["kind"], "label": sp["label"]})
+                continue
+            ch = chapters.get(sp["chapter"])
+            if ch is None:
+                raise SystemExit(f"learning-path.json：找不到章節 {sp['chapter']}")
+            readable = [s for s in ch["sections"] if s["kind"] == "read"]
+            if sp["sections"] == "all":
+                secs = readable
+            else:
+                secs = []
+                for want in sp["sections"]:
+                    hit = [s for s in readable if (s["num"] == want if isinstance(want, int) else s["title"] == want)]
+                    if not hit and ch["sections"]:
+                        raise SystemExit(f"learning-path.json：{sp['chapter']} 沒有段落 {want}")
+                    secs.extend(hit)
+            steps.append(
+                {
+                    "kind": "read",
+                    "label": sp["label"],
+                    "chapter": sp["chapter"],
+                    "chapterTitle": ch["title"],
+                    "secs": [s["id"] for s in secs],
+                    "min": sum(s["min"] for s in secs),
+                    "pending": not ch["sections"],
+                }
+            )
+        stages.append({"id": st["id"], "title": st["title"], "goal": st["goal"], "steps": steps, "quiz": st.get("quiz", [])})
+    return {"title": path_cfg["title"], "intro": path_cfg["intro"], "passRate": path_cfg["pass_rate"], "stages": stages}
+
+
+def write_path_markdown(path: dict, chapters: dict[str, dict]) -> None:
+    """產生 handbook/LEARNING_PATH.md，讓在 GitHub 上讀的人也有同一份路徑。"""
+
+    def fmt(minutes: int) -> str:
+        return f"約 {minutes} 分鐘" if minutes < 90 else f"約 {minutes / 60:.1f} 小時"
+
+    out = [
+        "# 學習路徑",
+        "",
+        "<!-- 這個檔案由 tools/build_site.py 依 handbook/learning-path.json 產生，請不要手動修改。 -->",
+        "",
+        path["intro"],
+        "",
+        "網頁版會記錄讀到哪裡、測驗答對幾題；在 GitHub 上讀的人可以把下面的清單複製到自己的筆記打勾。",
+        "",
+    ]
+    for st in path["stages"]:
+        out += [f"## {st['title']}", "", f"**目標：** {st['goal']}", ""]
+        for sp in st["steps"]:
+            if sp["kind"] != "read":
+                out.append(f"- [ ] {sp['label']}（網頁版的測驗中心與藥物卡）")
+                continue
+            ch = chapters[sp["chapter"]]
+            if sp["pending"]:
+                out.append(f"- [ ] {sp['label']}（撰寫中）")
+                continue
+            names = "、".join(s["title"] for s in ch["sections"] if s["id"] in sp["secs"])
+            whole = len(sp["secs"]) == len([s for s in ch["sections"] if s["kind"] == "read"])
+            scope = "整章" if whole else names
+            out.append(f"- [ ] [{sp['label']}]({ch['file']})：{scope}（{fmt(sp['min'])}）")
+        if st["quiz"]:
+            titles = "、".join(chapters[c]["title"] for c in st["quiz"])
+            out.append(f"- [ ] 本站測驗：{titles} 的自我測驗，答對率 {int(path['passRate'] * 100)}% 以上")
+        out.append("")
+    (HANDBOOK / "LEARNING_PATH.md").write_text("\n".join(out), encoding="utf-8")
+
+
+def embed(data) -> str:
+    return json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
 def main() -> int:
     config = json.loads((HANDBOOK / "chapters.json").read_text(encoding="utf-8"))
+    path_cfg = json.loads((HANDBOOK / "learning-path.json").read_text(encoding="utf-8"))
     file_to_id = {c["file"]: c["id"] for c in config["chapters"]}
+    groups = (("藥物", "藥物篇"), ("癌別", "癌別"), ("共用", "共用章節"))
 
-    ordered = [c for g in ("癌別", "共用") for c in config["chapters"] if c["group"] == g]
-    next_of = {c["id"]: ordered[i + 1] if i + 1 < len(ordered) else None for i, c in enumerate(ordered)}
+    # 第一輪：轉換每一章，收集段落、測驗題數與藥物卡
+    built: dict[str, dict] = {}
+    drugs: list[dict] = []
+    for c in config["chapters"]:
+        path = HANDBOOK / c["file"]
+        info = {"id": c["id"], "title": c["title"], "en": c.get("en", ""), "group": c["group"], "file": c["file"],
+                "sections": [], "quiz": 0, "body": None, "toc": ""}
+        if path.exists():
+            md_text = path.read_text(encoding="utf-8")
+            body, tokens = convert(md_text)
+            body = rewrite(body, c["id"], file_to_id, c["file"])
+            body, info["quiz"] = quizify(body, c["id"])
+            body = body.replace(
+                "<!-- drug-cards -->",
+                '<p class="to-cards"><a href="#drugs">到「藥物卡」把這張表變成翻卡練習</a></p>',
+            )
+            info.update(body=body, toc=toc_html(tokens, c["id"]), sections=sections_meta(md_text, tokens, c["id"]))
+            drugs.extend(drug_cards(md_text, c))
+        built[c["id"]] = info
 
-    nav, sections, progress = [], [], []
-    for group, label in (("癌別", "癌別"), ("共用", "共用章節")):
+    learning = resolve_path(path_cfg, built)
+    write_path_markdown(learning, built)
+
+    # 「下一章」依學習路徑的順序
+    order = []
+    for st in learning["stages"]:
+        for sp in st["steps"]:
+            if sp["kind"] == "read" and sp["chapter"] not in order:
+                order.append(sp["chapter"])
+    order += [c["id"] for c in config["chapters"] if c["id"] not in order]
+    next_of = {cid: order[i + 1] if i + 1 < len(order) else None for i, cid in enumerate(order)}
+
+    nav, sections = [], []
+    for group, label in groups:
+        members = [c for c in config["chapters"] if c["group"] == group]
+        if not members:
+            continue
         nav.append(f'<p class="nav-group">{label}</p><ul>')
-        for c in (c for c in config["chapters"] if c["group"] == group):
-            path = HANDBOOK / c["file"]
-            ready = path.exists()
-            status = c["status"] if ready else "規劃中"
+        for c in members:
+            info = built[c["id"]]
+            ready = info["body"] is not None
             nav.append(
                 f'<li><a href="#{c["id"]}" data-chapter="{c["id"]}">'
                 f'<span class="nav-title">{c["title"]}</span>'
-                f'<span class="chip{" chip-active" if ready else ""}">{status}</span></a></li>'
+                f'<span class="chip" data-chip="{c["id"]}">{"" if ready else "撰寫中"}</span></a></li>'
             )
-            md_text = path.read_text(encoding="utf-8") if ready else ""
-            if group == "癌別":
-                progress.append((c, section_status(md_text)))
             if ready:
-                body, tokens = convert(md_text)
-                body = rewrite(body, c["id"], file_to_id, c["file"])
-                toc = toc_html(tokens, c["id"])
+                body, toc = info["body"], info["toc"]
+                nxt = built.get(next_of.get(c["id"]) or "")
+                tail = f'，或直接讀下一章：<a href="#{nxt["id"]}">{nxt["title"]}</a>' if nxt and nxt["body"] else ""
+                body += (
+                    f'<p class="chapter-end">{clawd()}<span>讀完了？回到 <a href="#path">學習路徑</a> 看下一步{tail}。</span></p>'
+                )
             else:
                 body = (
                     f'<h1 id="{c["id"]}--top">{c["title"]}</h1>'
-                    f'<p class="empty-state">{clawd()}<span class="lede">這一章還在規劃中。'
-                    "肺癌樣板確認後，會照同一套 13 段架構撰寫。</span></p>"
+                    f'<p class="empty-state">{clawd()}<span class="lede">這一章還在撰寫中。</span></p>'
                 )
                 toc = ""
-            nxt = next_of[c["id"]]
-            if ready and nxt:
-                body += (
-                    f'<p class="chapter-end">{clawd()}<span>讀完了？下一章：'
-                    f'<a href="#{nxt["id"]}">{nxt["title"]}</a>，或回到 <a href="#home">總覽與進度</a>。</span></p>'
-                )
             aside = (
                 f'<aside class="chapter-toc" aria-label="本章目錄"><p class="toc-label">本章目錄</p>{toc}</aside>'
                 if toc
@@ -211,18 +398,25 @@ def main() -> int:
 
     # 站內連結檢查：指向不存在錨點的連結印出警告
     joined = "".join(sections)
-    ids = set(re.findall(r'id="([^"]+)"', joined)) | {"home", "clawd-body"} | set(file_to_id.values())
+    routes = {"home", "path", "quiz", "drugs", "clawd-body"}
+    ids = set(re.findall(r'id="([^"]+)"', joined)) | routes | set(file_to_id.values())
     broken = sorted({h for h in re.findall(r'href="#([^"]+)"', joined) if h not in ids})
     for h in broken:
         print(f"warning: broken internal link #{h}", file=sys.stderr)
 
+    chapters_data = [
+        {k: info[k] for k in ("id", "title", "en", "group", "sections", "quiz")}
+        for info in (built[c["id"]] for g, _ in groups for c in config["chapters"] if c["group"] == g)
+    ]
     template = TEMPLATE.read_text(encoding="utf-8")
     page = (
         template.replace("{{TITLE}}", config["title"])
         .replace("{{SUBTITLE}}", config["subtitle"])
         .replace("{{NAV}}", "".join(nav))
-        .replace("{{PROGRESS}}", progress_table(progress))
-        .replace("{{SECTIONS}}", "".join(sections))
+        .replace("{{SECTIONS}}", joined)
+        .replace("{{DATA_CHAPTERS}}", embed(chapters_data))
+        .replace("{{DATA_PATH}}", embed(learning))
+        .replace("{{DATA_DRUGS}}", embed(drugs))
         .replace("{{BUILD_DATE}}", date.today().isoformat())
     )
 
@@ -234,7 +428,12 @@ def main() -> int:
         "</head>\n<body>\n" + page + "\n</body>\n</html>\n"
     )
     (SITE / "index.html").write_text(standalone, encoding="utf-8")
-    print(f"built {len(sections)} chapters → site/index.html, site/artifact.html")
+    quiz_total = sum(i["quiz"] for i in built.values())
+    read_total = sum(1 for i in built.values() for x in i["sections"] if x["kind"] == "read")
+    print(
+        f"built {len(sections)} chapters（{read_total} 段、{quiz_total} 題、{len(drugs)} 張藥物卡）"
+        " → site/index.html, site/artifact.html, handbook/LEARNING_PATH.md"
+    )
     return 0
 
 

@@ -57,6 +57,9 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }  /* 離線檔沒有 Artifact 外殼的重設樣式，這裡自己補 */
+body { margin: 0; }
+.prose p, .prose li, .prose dd, .home p { overflow-wrap: break-word; }  /* 文獻裡的長網址要能換行 */
 html { -webkit-text-size-adjust: 100%; }
 body { background: var(--frame); color: var(--text); font-family: var(--font); font-size: var(--fs-ui); line-height: 1.5; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--frame); }
@@ -229,6 +232,143 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .sidebar .results { position: static; width: 100%; max-height: none; box-shadow: none; margin-top: 6px; }
 @media (max-width: 860px) { .sidebar .search { display: block; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* ---------- 學習系統：共用元件 ---------- */
+:root { --on-accent: #ffffff; --accent-strong: #155a6b; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --on-accent: #0b1a1e; --accent-strong: #8fd3e2; }
+}
+:root[data-theme="dark"] { --on-accent: #0b1a1e; --accent-strong: #8fd3e2; }
+
+.nav-main { list-style: none; margin: 0 0 4px; padding: 0; display: grid; gap: 2px; }
+.chip:empty { display: none; }
+.muted { color: var(--muted); }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 38px; padding: 0 14px; border: 1px solid var(--control); border-radius: var(--radius-control); background: var(--sheet); color: var(--text); font: inherit; font-size: var(--fs-ui); font-weight: 500; line-height: 1.2; cursor: pointer; }
+.btn:hover { background: var(--raised); text-decoration: none; }
+.btn-primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn-primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); }
+.btn[disabled] { opacity: 0.45; cursor: default; }
+.field { min-height: 38px; padding: 0 10px; border: 1px solid var(--control); border-radius: var(--radius-control); background: var(--sheet); color: var(--text); font: inherit; font-size: var(--fs-ui); max-width: 100%; }
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin: 16px 0; }
+.toolbar label { display: inline-flex; align-items: center; gap: 8px; font-size: var(--fs-ui); color: var(--muted); }
+.bar { display: block; height: 6px; border-radius: 3px; background: var(--rule); overflow: hidden; }
+.bar > i { display: block; height: 100%; width: 0; border-radius: 3px; background: var(--accent); transition: width 0.25s ease; }
+.tick { flex: none; position: relative; width: 18px; height: 18px; border-radius: 50%; border: 1.5px solid var(--control); background: var(--sheet); }
+.is-done > .tick, .is-done .btn-read .tick, .btn-read.is-done .tick { background: var(--accent); border-color: var(--accent); }
+.is-done > .tick::after, .btn-read.is-done .tick::after { content: ""; position: absolute; left: 5px; top: 2px; width: 4px; height: 8px; border: solid var(--on-accent); border-width: 0 2px 2px 0; transform: rotate(45deg); }
+.is-partial > .tick { border-color: var(--accent); background: var(--accent); box-shadow: inset 0 0 0 4px var(--sheet); }
+
+/* ---------- 總覽 ---------- */
+.next-up { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; margin: 0 0 28px; padding: 16px 18px; border-radius: var(--radius); background: var(--accent-soft); }
+.next-up p { margin: 0; min-width: 0; }
+.next-up .next-label { font-size: var(--fs-small); color: var(--accent); font-weight: 600; }
+.next-up .next-title { font-size: 17px; font-weight: 600; line-height: 1.4; }
+.next-up .next-sub { font-size: var(--fs-ui); color: var(--muted); }
+.next-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 20px 32px; margin: 0 0 8px; }
+.stat-label { margin: 0; font-size: var(--fs-small); color: var(--muted); }
+.stat-value { margin: 2px 0 8px; font-size: 22px; font-weight: 600; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.stat-value small { font-size: var(--fs-ui); font-weight: 400; color: var(--muted); }
+.stage-row { display: grid; grid-template-columns: minmax(0, 1fr) 96px 4.5em; gap: 8px 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--rule); color: var(--text); }
+.stage-row:hover { text-decoration: none; background: var(--raised); }
+.stage-row .frac, .ch-row .frac { text-align: right; font-size: var(--fs-ui); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ch-group { margin: 20px 0 4px; font-size: var(--fs-small); color: var(--muted); }
+.ch-row { display: grid; grid-template-columns: minmax(8em, 15em) minmax(0, 1fr) auto; gap: 6px 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--rule); }
+.ch-row > a { font-weight: 500; color: var(--text); }
+.cells { display: flex; flex-wrap: wrap; gap: 3px; min-width: 0; }
+.cells a { width: 14px; height: 14px; border-radius: 3px; background: var(--rule); }
+.cells a:hover { outline: 2px solid var(--accent); outline-offset: 1px; }
+.cells a.is-read { background: var(--accent); }
+.record { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; font-size: var(--fs-ui); color: var(--muted); }
+
+/* ---------- 學習路徑 ---------- */
+.stage { padding: 24px 0 8px; border-top: 1px solid var(--rule); }
+.stage-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+.stage-head h2 { margin: 0; font-size: 18px; font-weight: 600; }
+.stage-head .frac { font-size: var(--fs-ui); color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.stage-goal { margin: 6px 0 10px; color: var(--muted); max-width: 46em; font-size: 15px; line-height: 1.7; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.step { display: grid; grid-template-columns: 18px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 9px 10px; margin: 0 -10px; border-radius: var(--radius); color: var(--text); }
+a.step:hover { background: var(--raised); text-decoration: none; }
+.step-label { display: block; font-weight: 500; line-height: 1.5; }
+.step-sub { display: block; font-size: var(--fs-small); color: var(--muted); }
+.step .frac { font-size: var(--fs-ui); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+/* ---------- 章節內：已讀與測驗 ---------- */
+.sec-done { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin: 32px 0 0; padding-top: 16px; border-top: 1px dashed var(--border); font-size: var(--fs-ui); color: var(--muted); }
+.chapter-toc a.is-read::after { content: ""; display: inline-block; width: 4px; height: 8px; margin-left: 8px; border: solid var(--accent); border-width: 0 1.5px 1.5px 0; transform: translateY(-1px) rotate(45deg); }
+.to-cards { font-size: var(--fs-ui); }
+.quiz-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin: 0 0 24px; padding: 12px 14px; border-radius: var(--radius); background: var(--raised); font-size: var(--fs-ui); line-height: 1.5; }
+.quiz-q { margin: 0 0 8px; padding: 18px 0 2px; border-top: 1px solid var(--rule); scroll-margin-top: calc(var(--bar) + 16px); }
+.quiz-stem { font-weight: 500; }
+.quiz-no { display: inline-block; margin-right: 4px; font-family: var(--mono); font-size: 13px; font-weight: 400; color: var(--muted); }
+.quiz-opts { display: grid; gap: 8px; margin: 10px 0 12px; }
+.quiz-opt { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 12px; align-items: start; width: 100%; padding: 10px 12px; border: 1px solid var(--control); border-radius: var(--radius); background: var(--sheet); color: var(--text); font: inherit; font-size: 15px; line-height: 1.6; text-align: left; cursor: pointer; }
+.quiz-opt:hover { background: var(--raised); }
+.quiz-opt[disabled] { cursor: default; color: var(--text); }
+.quiz-opt[disabled]:hover { background: var(--sheet); }
+.quiz-k { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: var(--raised); color: var(--muted); font-size: 13px; font-weight: 600; line-height: 1; }
+.quiz-opt.is-answer, .quiz-opt.is-answer[disabled]:hover { background: var(--tip-bg); border-color: var(--tip-ink); }
+.quiz-opt.is-answer .quiz-k { background: var(--tip-ink); color: var(--sheet); }
+.quiz-opt.is-wrong, .quiz-opt.is-wrong[disabled]:hover { background: var(--warning-bg); border-color: var(--warning-ink); }
+.quiz-opt.is-wrong .quiz-k { background: var(--warning-ink); color: var(--sheet); }
+.quiz-result { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: 0 0 10px; font-size: var(--fs-ui); font-weight: 500; }
+.quiz-result.ok { color: var(--tip-ink); }
+.quiz-result.no { color: var(--warning-ink); }
+.link-btn { padding: 0; border: 0; background: none; color: var(--accent); font: inherit; font-weight: 400; cursor: pointer; }
+.link-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- 測驗中心 ---------- */
+.score-row { display: grid; grid-template-columns: minmax(8em, 15em) minmax(0, 1fr) auto; gap: 6px 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--rule); }
+.score-row > a { font-weight: 500; color: var(--text); }
+.score-row .frac { text-align: right; font-size: var(--fs-ui); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.wrong-list { list-style: none; margin: 0; padding: 0; }
+.wrong-list li { padding: 10px 0; border-bottom: 1px solid var(--rule); }
+.wrong-list a { color: var(--text); }
+.wrong-list .r-where { display: block; font-size: var(--fs-small); color: var(--muted); }
+.quiz-progress { margin: 0 0 8px; font-size: var(--fs-ui); color: var(--muted); font-variant-numeric: tabular-nums; }
+.quiz-session { max-width: 46em; }
+.quiz-session .quiz-q { border-top: 0; padding-top: 0; }
+
+/* ---------- 藥物卡 ---------- */
+.seg { display: inline-flex; flex-wrap: wrap; gap: 6px; }
+.seg button { min-height: 34px; padding: 0 12px; border: 1px solid var(--control); border-radius: 17px; background: var(--sheet); color: var(--text); font: inherit; font-size: 13px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 500; }
+.drug-list { border-top: 1px solid var(--rule); }
+.drug { border-bottom: 1px solid var(--rule); }
+.drug summary { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 11px 4px; list-style: none; cursor: pointer; }
+.drug summary::-webkit-details-marker { display: none; }
+.drug summary:hover { background: var(--raised); }
+.drug-name { font-weight: 600; overflow-wrap: anywhere; }
+.drug-cls { font-size: var(--fs-ui); color: var(--muted); }
+.state-chip { flex: none; white-space: nowrap; font-size: 11.5px; line-height: 1; padding: 4px 6px; border-radius: 4px; background: var(--note-bg); color: var(--muted); }
+.state-chip.know { background: var(--tip-bg); color: var(--tip-ink); }
+.state-chip.learn { background: var(--caution-bg); color: var(--caution-ink); }
+.drug-body { padding: 2px 4px 16px; }
+.facts { display: grid; grid-template-columns: 7em minmax(0, 1fr); gap: 8px 16px; margin: 0 0 14px; font-size: 15px; line-height: 1.7; }
+.facts dt { padding-top: 2px; font-size: 13px; color: var(--muted); }
+.facts dd { margin: 0; }
+.drug-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0; font-size: var(--fs-ui); }
+.flash { max-width: 42em; margin: 8px 0 16px; padding: 28px 24px 24px; border: 1px solid var(--border); border-radius: var(--radius-sheet); background: var(--raised); }
+.flash-cls { margin: 0 0 4px; font-size: var(--fs-small); color: var(--muted); }
+.flash-name { margin: 0 0 12px; font-size: 28px; font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; }
+.flash-prompt { margin: 0 0 20px; color: var(--muted); font-size: 15px; line-height: 1.7; }
+
+@media (max-width: 860px) {
+  .nav-main a { min-height: 44px; }
+  .stage-row { grid-template-columns: minmax(0, 1fr) 4.5em; }
+  .stage-row .bar { grid-column: 1 / -1; order: 3; }
+  .ch-row, .score-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .ch-row .cells, .score-row .bar { grid-column: 1 / -1; order: 3; }
+  .drug summary { grid-template-columns: minmax(0, 1fr) auto; }
+  .drug-cls { grid-column: 1 / -1; order: 3; }
+  .facts { grid-template-columns: minmax(0, 1fr); gap: 2px 0; }
+  .facts dd { margin-bottom: 8px; }
+  .flash { padding: 22px 18px 18px; }
+  .flash-name { font-size: 24px; }
+  .toolbar label { flex: 1 1 100%; justify-content: space-between; }
+  .toolbar .field { flex: 1; }
+}
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -250,9 +390,14 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
       <input type="search" id="search-mobile" placeholder="搜尋藥名、試驗、症狀…" aria-label="搜尋手冊" autocomplete="off">
       <div class="results" id="results-mobile" hidden></div>
     </div>
-    <a class="nav-home" href="#home" data-chapter="home">總覽與進度</a>
+    <ul class="nav-main">
+      <li><a href="#home" data-chapter="home"><span class="nav-title">總覽</span></a></li>
+      <li><a href="#path" data-chapter="path"><span class="nav-title">學習路徑</span><span class="chip" id="chip-path"></span></a></li>
+      <li><a href="#quiz" data-chapter="quiz"><span class="nav-title">測驗中心</span><span class="chip" id="chip-quiz"></span></a></li>
+      <li><a href="#drugs" data-chapter="drugs"><span class="nav-title">藥物卡</span><span class="chip" id="chip-drugs"></span></a></li>
+    </ul>
     {{NAV}}
-    <p class="sidebar-foot">最後建置 {{BUILD_DATE}}</p>
+    <p class="sidebar-foot"><span id="sync-note">學習紀錄存在這台裝置的瀏覽器</span><br>最後建置 {{BUILD_DATE}}</p>
   </nav>
 
   <div class="main">
@@ -260,7 +405,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
       <button class="icon-btn menu-btn" type="button" id="menu-open" aria-label="開啟章節選單" aria-controls="sidebar" aria-expanded="false">
         <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 5h12M3 9h12M3 13h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       </button>
-      <p class="crumb" id="crumb"><strong>總覽與進度</strong></p>
+      <p class="crumb" id="crumb"><strong>總覽</strong></p>
       <div class="search" role="search">
         <input type="search" id="search" placeholder="搜尋藥名、試驗、症狀…（按 / 開始）" aria-label="搜尋手冊" autocomplete="off">
         <div class="results" id="results" hidden></div>
@@ -268,23 +413,27 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
     </header>
 
     <main class="sheet" id="sheet">
-      <section class="view home" id="v-home" data-route="home">
+      <section class="view home" id="v-home" data-route="home" data-title="總覽">
         <div class="home-head">
           <div>
             <h1>{{TITLE}}</h1>
-            <p class="lede">每個癌別都照同一套 13 段架構寫：從流病、分期到處方、副作用、order set、健保給付與測驗。查房時翻到哪一章，段落位置都一樣。</p>
+            <p class="lede">從一顆藥怎麼被發現，到病人怎麼被診斷、分期、選藥、照顧。照學習路徑一站一站讀，讀完打勾、做測驗、翻藥物卡。</p>
           </div>
           <svg class="clawd" viewBox="1 0 16 10" role="img" aria-label="Clawd">
             <use href="#clawd-body"/>
             <path class="lids" fill="currentColor" shape-rendering="crispEdges" d="M5 2h1v2H5zM12 2h1v2h-1z"/>
           </svg>
         </div>
-        <p class="clawd-says"><svg class="clawd" viewBox="1 0 16 10" aria-hidden="true"><use href="#clawd-body"/></svg><span><strong>Clawd 的讀法：</strong>先看速查卡抓全貌，再讀治療策略；做完自我測驗，錯的題目回頭看詳解和出處。</span></p>
+        <div class="next-up" id="home-next"></div>
+        <div class="stats" id="home-stats"></div>
 
-        <h2>章節進度</h2>
-        <p>每一格是一個癌別的一段內容。四個癌別的 13 段都已完成並經過查核；黃框代表該段內仍標有「待核對」的小節。</p>
-        {{PROGRESS}}
-        <p class="legend"><span><span class="cell cell-done"></span>完成</span><span><span class="cell cell-pending"></span>待補</span><span><span class="cell cell-empty"></span>未開始</span></p>
+        <h2>學習路徑</h2>
+        <p>十站，從藥物的來歷讀到四個癌別的實戰。每一站的步驟與測驗門檻在<a href="#path">學習路徑</a>。</p>
+        <div id="home-stages"></div>
+
+        <h2>各章進度</h2>
+        <p>一格是一段內容，讀完打勾後會填色。點格子可以直接跳到那一段。</p>
+        <div id="home-chapters"></div>
 
         <h2>提示框怎麼讀</h2>
         <p>內文裡的色塊各有固定用途，複習時可以只掃同一種顏色。</p>
@@ -302,9 +451,77 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
           <li>ESMO Clinical Practice Guidelines、ASCO Guidelines</li>
           <li>AJCC Cancer Staging Manual（肺癌採 IASLC 第 9 版分期）</li>
           <li>全民健康保險藥品給付規定 第 9 節「抗癌瘤藥物」（以原文條號引用）</li>
-          <li>關鍵臨床試驗原始論文（PubMed 核對，附 DOI／PMID）</li>
+          <li>藥物發現史的原始論文、關鍵臨床試驗與藥品仿單（PubMed 核對，附 DOI／PMID）</li>
         </ol>
+
+        <h2>學習紀錄</h2>
+        <p class="record"><span id="sync-detail">已讀段落、測驗答案與藥物卡的熟悉程度，存在這台裝置的瀏覽器。</span>
+          <button type="button" class="btn" id="reset-all" data-act="reset-all">清除全部學習紀錄</button></p>
         <p class="disclaimer">本手冊是學習用整理，不能取代原始指引、藥品仿單、健保公告與院內規範。實際處方以主治醫師判斷與院內流程為準。</p>
+      </section>
+
+      <section class="view home" id="v-path" data-route="path" data-title="學習路徑" hidden>
+        <h1>學習路徑</h1>
+        <p class="lede" id="path-intro"></p>
+        <div id="path-stages"></div>
+      </section>
+
+      <section class="view home" id="v-quiz" data-route="quiz" data-title="測驗中心" hidden>
+        <h1>測驗中心</h1>
+        <p class="lede">題目來自各章的自我測驗。答過的題目會記下來，最近一次答錯的題目留在錯題本，重做到答對才會離開。</p>
+        <div id="quiz-setup">
+          <div class="toolbar">
+            <label for="quiz-scope">範圍 <select id="quiz-scope" class="field"></select></label>
+            <label for="quiz-mode">出題方式 <select id="quiz-mode" class="field">
+              <option value="new">沒做過的優先</option>
+              <option value="wrong">只做錯題</option>
+              <option value="all">全部隨機</option>
+            </select></label>
+            <label for="quiz-count">題數 <select id="quiz-count" class="field">
+              <option value="10">10 題</option>
+              <option value="20">20 題</option>
+              <option value="0">全部</option>
+            </select></label>
+            <button type="button" class="btn btn-primary" data-act="quiz-start">開始作答</button>
+          </div>
+          <p class="muted" id="quiz-note"></p>
+          <h2>各章成績</h2>
+          <div id="quiz-table"></div>
+          <h2>錯題本</h2>
+          <div id="quiz-wrong"></div>
+        </div>
+        <div id="quiz-run" hidden>
+          <p class="quiz-progress" id="quiz-progress"></p>
+          <div class="prose quiz-session" id="quiz-stage"></div>
+          <div class="toolbar">
+            <button type="button" class="btn btn-primary" id="quiz-next" data-act="quiz-next" disabled>下一題</button>
+            <button type="button" class="btn" data-act="quiz-end">結束這一輪</button>
+          </div>
+        </div>
+        <div id="quiz-done" hidden></div>
+      </section>
+
+      <section class="view home" id="v-drugs" data-route="drugs" data-title="藥物卡" hidden>
+        <h1>藥物卡</h1>
+        <p class="lede">每張卡來自藥物篇第 9 段的表格：分類、機轉、用途、必記毒性、監測與處置。先看藥名自己講一遍，再翻開對答案。</p>
+        <div id="drugs-browse">
+          <div class="toolbar">
+            <div class="seg" id="drug-groups" role="group" aria-label="藥物類別"></div>
+          </div>
+          <div class="toolbar">
+            <input type="search" id="drug-q" class="field" placeholder="找藥名、機轉或副作用" aria-label="搜尋藥物卡" autocomplete="off">
+            <select id="drug-state" class="field" aria-label="熟悉程度">
+              <option value="">全部</option>
+              <option value="new">還沒看過</option>
+              <option value="learn">還不熟</option>
+              <option value="know">會了</option>
+            </select>
+            <button type="button" class="btn btn-primary" data-act="flash-start">翻卡練習</button>
+          </div>
+          <p class="muted" id="drug-count"></p>
+          <div class="drug-list" id="drug-list"></div>
+        </div>
+        <div id="drugs-flash" hidden></div>
       </section>
 
       {{SECTIONS}}
@@ -312,47 +529,537 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   </div>
 </div>
 
+<script type="application/json" id="data-chapters">{{DATA_CHAPTERS}}</script>
+<script type="application/json" id="data-path">{{DATA_PATH}}</script>
+<script type="application/json" id="data-drugs">{{DATA_DRUGS}}</script>
 <script>
 (function () {
-  var views = Array.prototype.slice.call(document.querySelectorAll(".view"));
-  var navLinks = Array.prototype.slice.call(document.querySelectorAll("[data-chapter]"));
-  var crumb = document.getElementById("crumb");
-  var sidebar = document.getElementById("sidebar");
-  var openBtn = document.getElementById("menu-open");
-  var closeBtn = document.getElementById("menu-close");
+  "use strict";
+  function $(id) { return document.getElementById(id); }
+  function all(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
+  function readJSON(id) { try { return JSON.parse($(id).textContent); } catch (e) { return null; } }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function pct(a, b) { return b ? Math.round((a / b) * 100) : 0; }
+  function bar(a, b) { return '<span class="bar" role="img" aria-label="' + a + " / " + b + '"><i style="width:' + pct(a, b) + '%"></i></span>'; }
+  function hours(min) { return min < 90 ? "約 " + min + " 分鐘" : "約 " + (min / 60).toFixed(1) + " 小時"; }
+  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  var CLAWD = '<svg class="clawd" viewBox="1 0 16 10" aria-hidden="true"><use href="#clawd-body"/></svg>';
+
+  // ---------- 資料 ----------
+  var CHAPTERS = readJSON("data-chapters") || [];
+  var PATH = readJSON("data-path") || { stages: [], passRate: 0.8, intro: "" };
+  var DRUGS = readJSON("data-drugs") || [];
+  var chapterById = {}, secMeta = {}, secChapter = {};
+  CHAPTERS.forEach(function (c) {
+    chapterById[c.id] = c;
+    c.readable = c.sections.filter(function (s) { return s.kind === "read"; });
+    c.sections.forEach(function (s) { secMeta[s.id] = s; secChapter[s.id] = c; });
+  });
+  var QUESTIONS = all(".chapter .quiz-q").map(function (el) {
+    var id = el.getAttribute("data-q");
+    return { id: id, chapter: id.split(":")[0], num: +id.split(":")[1], el: el };
+  });
+  var questionById = {};
+  QUESTIONS.forEach(function (q) { questionById[q.id] = q; });
+
+  // ---------- 學習紀錄（這台裝置的瀏覽器；有登入時另存一份到帳號） ----------
+  var KEY = "onc-handbook-progress-v1";
+  function blank() { return { v: 1, read: {}, quiz: {}, cards: {}, last: null, resetAt: 0 }; }
+  function merge(a, b) {
+    var out = blank();
+    out.resetAt = Math.max(a.resetAt || 0, b.resetAt || 0);
+    ["read", "quiz", "cards"].forEach(function (k) {
+      var ma = a[k] || {}, mb = b[k] || {}, keys = {};
+      Object.keys(ma).forEach(function (x) { keys[x] = 1; });
+      Object.keys(mb).forEach(function (x) { keys[x] = 1; });
+      Object.keys(keys).forEach(function (x) {
+        var ea = ma[x], eb = mb[x];
+        var e = !ea ? eb : !eb ? ea : (eb.t > ea.t ? eb : ea);
+        if (e && typeof e.t === "number" && e.t > out.resetAt) out[k][x] = e;
+      });
+    });
+    var la = a.last, lb = b.last;
+    out.last = !la ? (lb || null) : !lb ? la : (lb.t > la.t ? lb : la);
+    if (out.last && !(out.last.t > out.resetAt)) out.last = null;
+    return out;
+  }
+  var S = blank();
+  try { var raw = localStorage.getItem(KEY); if (raw) S = merge(blank(), JSON.parse(raw)); } catch (e) { /* 沒有儲存空間也能用 */ }
+  function saveLocal() { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) { /* 同上 */ } }
+  function isRead(sec) { var e = S.read[sec]; return !!(e && e.on); }
+  function quizOf(q) { var e = S.quiz[q]; return e && e.a ? e : null; }
+  function cardOf(k) { var e = S.cards[k]; return e && e.s ? e.s : "new"; }
+  function commit() { saveLocal(); schedulePush(); refresh(); }
+
+  // 帳號同步：Artifact 網頁且有登入時，把紀錄存到只有本人讀得到的位置；離線檔案沒有這一段
+  var remoteDoc = null, pushTimer = null, pushing = false, dirty = false, syncOff = false, lastPull = 0;
+  function setSync(text, detail) {
+    $("sync-note").textContent = text;
+    if (detail) $("sync-detail").textContent = detail;
+  }
+  function pull() {
+    if (!remoteDoc || syncOff) return Promise.resolve();
+    lastPull = Date.now();
+    return remoteDoc.get().then(function (snap) {
+      var body = snap.exists ? snap.data() : null;
+      if (body && typeof body.blob === "string") {
+        var before = JSON.stringify(S);
+        try { S = merge(S, JSON.parse(body.blob)); } catch (e) { /* 壞掉的遠端資料不採用 */ }
+        if (JSON.stringify(S) !== before) { saveLocal(); refresh(); }
+        if (JSON.stringify(S) !== body.blob) schedulePush();
+      } else if (Object.keys(S.read).length || Object.keys(S.quiz).length || Object.keys(S.cards).length) {
+        schedulePush();
+      }
+      setSync("學習紀錄已同步到你的帳號", "已讀段落、測驗答案與藥物卡的熟悉程度，會存到你的帳號，換裝置登入同一個網頁也看得到。");
+    });
+  }
+  function push() {
+    if (!remoteDoc || syncOff) return;
+    if (pushing) { dirty = true; return; }
+    pushing = true; dirty = false;
+    remoteDoc.set({ v: 1, updated: Date.now(), blob: JSON.stringify(S) }).then(function () {
+      pushing = false;
+      if (dirty) schedulePush();
+    }, function (err) {
+      pushing = false;
+      if (err && err.code === "unavailable") { dirty = true; schedulePush(15000); return; }
+      syncOff = true;
+      setSync("學習紀錄存在這台裝置的瀏覽器", "目前無法存到帳號，學習紀錄只存在這台裝置的瀏覽器。");
+    });
+  }
+  function schedulePush(delay) {
+    if (!remoteDoc || syncOff) return;
+    clearTimeout(pushTimer);
+    pushTimer = setTimeout(push, delay || 2500);
+  }
+  function initSync() {
+    if (!window.claude || typeof window.claude.use !== "function") return;
+    Promise.all([window.claude.use("db"), window.claude.use("user")]).then(function (r) {
+      var db = r[0], user = r[1];
+      if (!db || !user) return;
+      return user.id().then(function (id) {
+        if (!id) return;
+        remoteDoc = db.doc("data/users/" + id + "/progress");
+        return pull();
+      });
+    }).catch(function () { remoteDoc = null; });
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState === "visible" && remoteDoc && Date.now() - lastPull > 60000) pull().catch(function () {});
+    });
+  }
+
+  // ---------- 進度計算 ----------
+  function readCount(c) { return c.readable.filter(function (s) { return isRead(s.id); }).length; }
+  function quizStats(chapterIds) {
+    var st = { total: 0, answered: 0, correct: 0, wrong: 0 };
+    QUESTIONS.forEach(function (q) {
+      if (chapterIds && chapterIds.indexOf(q.chapter) < 0) return;
+      st.total++;
+      var e = quizOf(q.id);
+      if (e) { st.answered++; if (e.ok) st.correct++; else st.wrong++; }
+    });
+    return st;
+  }
+  function cardStats() {
+    var st = { total: DRUGS.length, know: 0, learn: 0 };
+    DRUGS.forEach(function (d) { var s = cardOf(d.key); if (s === "know") st.know++; else if (s === "learn") st.learn++; });
+    return st;
+  }
+  function stepState(step) {
+    if (step.kind === "read") {
+      var done = step.secs.filter(isRead).length, total = step.secs.length;
+      return { done: done, total: total, complete: total > 0 && done === total, started: done > 0, pending: step.pending };
+    }
+    if (step.kind === "wrong") {
+      var q = quizStats(null);
+      return { done: q.answered - q.wrong, total: q.total, complete: q.total > 0 && q.answered === q.total && q.wrong === 0, started: q.answered > 0, text: q.wrong ? "錯題 " + q.wrong + " 題" : "已答 " + q.answered + "/" + q.total };
+    }
+    var c = cardStats();
+    return { done: c.know, total: c.total, complete: c.total > 0 && c.know === c.total, started: c.know + c.learn > 0, pending: c.total === 0 };
+  }
+  function stageQuiz(stage) {
+    var ids = stage.quiz.filter(function (id) { return chapterById[id] && chapterById[id].quiz > 0; });
+    if (!ids.length) return null;
+    var q = quizStats(ids);
+    q.ids = ids;
+    q.complete = q.answered === q.total && q.total > 0 && q.correct / q.total >= PATH.passRate;
+    return q;
+  }
+  function stageState(stage) {
+    var done = 0, total = 0;
+    stage.steps.forEach(function (sp) { total++; if (stepState(sp).complete) done++; });
+    var q = stageQuiz(stage);
+    if (q) { total++; if (q.complete) done++; }
+    return { done: done, total: total };
+  }
+  function firstUnread(step) { for (var i = 0; i < step.secs.length; i++) if (!isRead(step.secs[i])) return step.secs[i]; return step.secs[0]; }
+  function quizSection(chapterId) {
+    var c = chapterById[chapterId];
+    var s = c ? c.sections.filter(function (x) { return x.kind === "quiz"; })[0] : null;
+    return s ? s.id : chapterId;
+  }
+  function nextStep() {
+    for (var i = 0; i < PATH.stages.length; i++) {
+      var st = PATH.stages[i];
+      for (var j = 0; j < st.steps.length; j++) {
+        var sp = st.steps[j], ss = stepState(sp);
+        if (ss.complete || ss.pending) continue;
+        if (sp.kind === "read") return { stage: st, label: sp.label, href: "#" + firstUnread(sp), sub: sp.chapterTitle + "，還有 " + (ss.total - ss.done) + " 段", go: ss.started ? "繼續讀" : "開始讀" };
+        if (sp.kind === "wrong") return { stage: st, label: sp.label, href: "#quiz", sub: ss.text, go: "到測驗中心" };
+        return { stage: st, label: sp.label, href: "#drugs", sub: "會了 " + ss.done + "/" + ss.total + " 張", go: "到藥物卡" };
+      }
+      var q = stageQuiz(st);
+      if (q && !q.complete) {
+        var target = q.ids.filter(function (id) { var x = quizStats([id]); return x.answered < x.total || x.correct / x.total < PATH.passRate; })[0] || q.ids[0];
+        return { stage: st, label: "本站測驗：" + chapterById[target].title, href: "#" + quizSection(target), sub: "已答 " + q.answered + "/" + q.total + "，答對 " + q.correct + " 題；門檻 " + Math.round(PATH.passRate * 100) + "%", go: "做測驗" };
+      }
+    }
+    return null;
+  }
+
+  // ---------- 畫面：總覽 ----------
+  function renderHome() {
+    var n = nextStep(), html;
+    if (n) {
+      html = '<div><p class="next-label">下一步　' + esc(n.stage.title) + '</p><p class="next-title">' + esc(n.label) + '</p><p class="next-sub">' + esc(n.sub) + "</p></div>" +
+        '<div class="next-actions"><a class="btn btn-primary" href="' + esc(n.href) + '">' + esc(n.go) + "</a>";
+    } else {
+      html = '<div><p class="next-label">學習路徑</p><p class="next-title">路徑上的每一步都完成了</p><p class="next-sub">考前回測驗中心隨機抽題，維持手感。</p></div><div class="next-actions"><a class="btn btn-primary" href="#quiz">到測驗中心</a>';
+    }
+    if (S.last && secMeta[S.last.s]) {
+      html += '<a class="btn" href="#' + esc(S.last.s) + '">回到上次：' + esc(secChapter[S.last.s].title) + "</a>";
+    }
+    $("home-next").innerHTML = html + "</div>";
+
+    var rTotal = 0, rDone = 0, minLeft = 0;
+    CHAPTERS.forEach(function (c) { c.readable.forEach(function (s) { rTotal++; if (isRead(s.id)) rDone++; else minLeft += s.min; }); });
+    var q = quizStats(null), c = cardStats();
+    function stat(label, value, sub, a, b) {
+      return '<div><p class="stat-label">' + label + '</p><p class="stat-value">' + value + " <small>" + sub + "</small></p>" + bar(a, b) + "</div>";
+    }
+    $("home-stats").innerHTML =
+      stat("已讀段落", rDone + "/" + rTotal, rDone === rTotal && rTotal ? "全部讀完" : "還要讀" + hours(minLeft), rDone, rTotal) +
+      stat("測驗答對", q.correct + "/" + q.total, "已答 " + q.answered + " 題" + (q.wrong ? "，錯題 " + q.wrong : ""), q.correct, q.total) +
+      (c.total ? stat("藥物卡會了", c.know + "/" + c.total, c.learn ? "還不熟 " + c.learn + " 張" : "翻卡練習", c.know, c.total) : "");
+
+    $("home-stages").innerHTML = PATH.stages.map(function (st) {
+      var ss = stageState(st);
+      return '<a class="stage-row" href="#path--' + esc(st.id) + '"><span>' + esc(st.title) + "</span>" + bar(ss.done, ss.total) + '<span class="frac">' + ss.done + "/" + ss.total + " 步</span></a>";
+    }).join("");
+
+    var group = null, rows = "";
+    CHAPTERS.forEach(function (c2) {
+      if (c2.group !== group) { group = c2.group; rows += '<p class="ch-group">' + esc({ "藥物": "藥物篇", "癌別": "癌別", "共用": "共用章節" }[group] || group) + "</p>"; }
+      if (!c2.sections.length) { rows += '<div class="ch-row"><a href="#' + esc(c2.id) + '">' + esc(c2.title) + '</a><span class="cells"></span><span class="frac">撰寫中</span></div>'; return; }
+      var cells = c2.readable.map(function (s) {
+        return '<a href="#' + esc(s.id) + '" class="' + (isRead(s.id) ? "is-read" : "") + '" title="' + esc(s.title) + (isRead(s.id) ? "（已讀）" : "") + '" aria-label="' + esc(s.title) + (isRead(s.id) ? "，已讀" : "，未讀") + '"></a>';
+      }).join("");
+      var qs = quizStats([c2.id]);
+      rows += '<div class="ch-row"><a href="#' + esc(c2.id) + '">' + esc(c2.title) + '</a><span class="cells">' + cells + '</span><span class="frac">' +
+        readCount(c2) + "/" + c2.readable.length + " 段" + (qs.total ? "　測驗 " + qs.correct + "/" + qs.total : "") + "</span></div>";
+    });
+    $("home-chapters").innerHTML = rows;
+  }
+
+  // ---------- 畫面：學習路徑 ----------
+  function renderPath() {
+    $("path-intro").textContent = PATH.intro;
+    $("path-stages").innerHTML = PATH.stages.map(function (st) {
+      var ss = stageState(st);
+      var steps = st.steps.map(function (sp) {
+        var s = stepState(sp), cls = s.complete ? " is-done" : s.started ? " is-partial" : "";
+        if (sp.kind === "read") {
+          if (s.pending) return '<li><span class="step"><span class="tick"></span><span><span class="step-label">' + esc(sp.label) + '</span><span class="step-sub">' + esc(sp.chapterTitle) + '，撰寫中</span></span><span class="frac"></span></span></li>';
+          return '<li><a class="step' + cls + '" href="#' + esc(firstUnread(sp)) + '"><span class="tick"></span><span><span class="step-label">' + esc(sp.label) + '</span><span class="step-sub">' + esc(sp.chapterTitle) + "，" + hours(sp.min) + '</span></span><span class="frac">' + s.done + "/" + s.total + " 段</span></a></li>";
+        }
+        var href = sp.kind === "wrong" ? "#quiz" : "#drugs";
+        var frac = sp.kind === "wrong" ? s.text : (s.pending ? "尚無卡片" : s.done + "/" + s.total + " 張");
+        return '<li><a class="step' + cls + '" href="' + href + '"><span class="tick"></span><span><span class="step-label">' + esc(sp.label) + '</span></span><span class="frac">' + esc(frac) + "</span></a></li>";
+      }).join("");
+      var q = stageQuiz(st);
+      if (q) {
+        var names = q.ids.map(function (id) { return chapterById[id].title; }).join("、");
+        var target = q.ids.filter(function (id) { var x = quizStats([id]); return x.answered < x.total; })[0] || q.ids[0];
+        steps += '<li><a class="step' + (q.complete ? " is-done" : q.answered ? " is-partial" : "") + '" href="#' + esc(quizSection(target)) + '"><span class="tick"></span><span><span class="step-label">本站測驗：答對率 ' + Math.round(PATH.passRate * 100) + '% 以上</span><span class="step-sub">' + esc(names) + '</span></span><span class="frac">答對 ' + q.correct + "/" + q.total + "</span></a></li>";
+      }
+      return '<section class="stage" id="path--' + esc(st.id) + '"><div class="stage-head"><h2>' + esc(st.title) + '</h2><span class="frac">' + ss.done + "/" + ss.total + ' 步</span></div><p class="stage-goal">' + esc(st.goal) + '</p><ul class="steps">' + steps + "</ul></section>";
+    }).join("");
+  }
+
+  // ---------- 畫面：側欄與章節內的標記 ----------
+  function renderChips() {
+    all("[data-chip]").forEach(function (chip) {
+      var c = chapterById[chip.getAttribute("data-chip")];
+      if (!c || !c.sections.length) return;
+      var done = readCount(c), total = c.readable.length;
+      chip.textContent = done + "/" + total;
+      chip.classList.toggle("chip-active", done === total && total > 0);
+    });
+    var sd = 0, stt = 0;
+    PATH.stages.forEach(function (st) { var s = stageState(st); stt++; if (s.done === s.total) sd++; });
+    $("chip-path").textContent = sd + "/" + stt + " 站";
+    var q = quizStats(null);
+    $("chip-quiz").textContent = q.wrong ? "錯題 " + q.wrong : q.answered + "/" + q.total;
+    $("chip-quiz").classList.toggle("chip-active", q.wrong > 0);
+    var c2 = cardStats();
+    $("chip-drugs").textContent = c2.total ? c2.know + "/" + c2.total : "";
+  }
+  function paintRead() {
+    all(".btn-read").forEach(function (b) {
+      var on = isRead(b.getAttribute("data-sec"));
+      b.classList.toggle("is-done", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+      b.querySelector(".lbl").textContent = on ? "這一段讀完了" : "讀完這一段，打勾";
+    });
+    all(".chapter-toc a").forEach(function (a) {
+      a.classList.toggle("is-read", isRead(decodeURIComponent(a.getAttribute("href").slice(1))));
+    });
+  }
+  function paintQuestion(el, e) {
+    var opts = all(".quiz-opt", el), res = el.querySelector(".quiz-result"), det = el.querySelector("details");
+    var ans = el.getAttribute("data-answer");
+    if (!e) {
+      el.classList.remove("is-answered");
+      opts.forEach(function (o) { o.classList.remove("is-answer", "is-wrong"); o.disabled = false; });
+      res.hidden = true;
+      return;
+    }
+    var fresh = !el.classList.contains("is-answered");
+    el.classList.add("is-answered");
+    opts.forEach(function (o) {
+      var k = o.getAttribute("data-k");
+      o.classList.toggle("is-answer", k === ans);
+      o.classList.toggle("is-wrong", k === e.a && k !== ans);
+      o.disabled = true;
+    });
+    res.hidden = false;
+    res.className = "quiz-result " + (e.ok ? "ok" : "no");
+    res.innerHTML = "<span>" + (e.ok ? "答對了。" : "答錯了：你選 " + esc(e.a) + "，正確答案是 " + esc(ans) + "。") + "</span>" +
+      (el.hasAttribute("data-session") ? "" : '<button type="button" class="link-btn" data-act="q-retry">重做這題</button>');
+    if (det && fresh) det.open = true;
+  }
+  function paintQuizzes() {
+    QUESTIONS.forEach(function (q) { paintQuestion(q.el, quizOf(q.id)); });
+    all("[data-quizbar]").forEach(function (barEl) {
+      var id = barEl.getAttribute("data-quizbar"), s = quizStats([id]);
+      barEl.innerHTML = "<span>本章 " + s.total + " 題：已答 " + s.answered + "，答對 " + s.correct + (s.answered ? "（" + pct(s.correct, s.answered) + "%）" : "") +
+        "。直接點選項作答，答完會顯示詳解。</span>" + (s.answered ? '<button type="button" class="btn" data-act="quiz-reset" data-chapter-id="' + esc(id) + '">重做本章測驗</button>' : "");
+    });
+  }
+
+  // ---------- 畫面：測驗中心 ----------
+  var session = null;
+  function renderQuizCenter() {
+    var scope = $("quiz-scope");
+    if (!scope.options.length) {
+      var opts = '<option value="">全部章節</option>';
+      CHAPTERS.forEach(function (c) { if (c.quiz) opts += '<option value="' + esc(c.id) + '">' + esc(c.title) + "（" + c.quiz + " 題）</option>"; });
+      scope.innerHTML = opts;
+    }
+    $("quiz-table").innerHTML = CHAPTERS.filter(function (c) { return c.quiz; }).map(function (c) {
+      var s = quizStats([c.id]);
+      return '<div class="score-row"><a href="#' + esc(quizSection(c.id)) + '">' + esc(c.title) + "</a>" + bar(s.correct, s.total) + '<span class="frac">答對 ' + s.correct + "/" + s.total + (s.wrong ? "　錯 " + s.wrong : "") + "</span></div>";
+    }).join("");
+    var wrong = QUESTIONS.filter(function (q) { var e = quizOf(q.id); return e && !e.ok; });
+    $("quiz-wrong").innerHTML = wrong.length
+      ? '<p class="muted">共 ' + wrong.length + ' 題。把出題方式選「只做錯題」可以一次重做。</p><ul class="wrong-list">' + wrong.map(function (q) {
+          var stem = q.el.querySelector(".quiz-stem").textContent.replace(/^Q\d+\s*/, "");
+          return '<li><a href="#' + esc(q.el.id) + '"><span class="r-where">' + esc(chapterById[q.chapter].title) + "　Q" + q.num + "</span>" + esc(stem.length > 90 ? stem.slice(0, 90) + "…" : stem) + "</a></li>";
+        }).join("") + "</ul>"
+      : '<p class="empty-state">' + CLAWD + '<span class="muted">目前沒有錯題。答錯的題目會出現在這裡。</span></p>';
+  }
+  function startSession() {
+    var scope = $("quiz-scope").value, mode = $("quiz-mode").value, count = +$("quiz-count").value;
+    var pool = QUESTIONS.filter(function (q) { return !scope || q.chapter === scope; });
+    var fresh = shuffle(pool.filter(function (q) { return !quizOf(q.id); }));
+    var wrong = shuffle(pool.filter(function (q) { var e = quizOf(q.id); return e && !e.ok; }));
+    var right = shuffle(pool.filter(function (q) { var e = quizOf(q.id); return e && e.ok; }));
+    var list = mode === "wrong" ? wrong : mode === "new" ? fresh.concat(wrong, right) : shuffle(pool.slice());
+    if (count) list = list.slice(0, count);
+    if (!list.length) { $("quiz-note").textContent = mode === "wrong" ? "這個範圍目前沒有錯題。" : "這個範圍沒有題目。"; return; }
+    $("quiz-note").textContent = "";
+    session = { list: list, i: 0, results: [] };
+    $("quiz-setup").hidden = true; $("quiz-done").hidden = true; $("quiz-run").hidden = false;
+    showSessionQuestion();
+  }
+  function showSessionQuestion() {
+    var q = session.list[session.i];
+    var clone = q.el.cloneNode(true);
+    clone.removeAttribute("id");
+    clone.setAttribute("data-session", "1");
+    paintQuestion(clone, null);
+    var det = clone.querySelector("details"); if (det) det.open = false;
+    var no = clone.querySelector(".quiz-no"); if (no) no.textContent = chapterById[q.chapter].title + " Q" + q.num;
+    var stage = $("quiz-stage"); stage.innerHTML = ""; stage.appendChild(clone);
+    $("quiz-progress").textContent = "第 " + (session.i + 1) + " 題，共 " + session.list.length + " 題";
+    $("quiz-next").disabled = true;
+    $("quiz-next").textContent = session.i + 1 === session.list.length ? "看結果" : "下一題";
+    window.scrollTo(0, 0);
+  }
+  function endSession() {
+    if (!session) return;
+    var done = session.results.length, ok = session.results.filter(function (r) { return r.ok; }).length;
+    var missed = session.results.filter(function (r) { return !r.ok; });
+    var html = "<h2>這一輪的結果</h2><p>" + (done ? "作答 " + done + " 題，答對 " + ok + " 題（" + pct(ok, done) + "%）。" : "這一輪沒有作答。") + "</p>";
+    if (missed.length) {
+      html += '<p class="muted">答錯的題目已進錯題本：</p><ul class="wrong-list">' + missed.map(function (r) {
+        var q = questionById[r.id];
+        return '<li><a href="#' + esc(q.el.id) + '"><span class="r-where">' + esc(chapterById[q.chapter].title) + "　Q" + q.num + "</span>" + esc(q.el.querySelector(".quiz-stem").textContent.replace(/^Q\d+\s*/, "").slice(0, 90)) + "</a></li>";
+      }).join("") + "</ul>";
+    }
+    html += '<div class="toolbar"><button type="button" class="btn btn-primary" data-act="quiz-again">再做一輪</button></div>';
+    session = null;
+    $("quiz-run").hidden = true; $("quiz-stage").innerHTML = "";
+    $("quiz-done").innerHTML = html; $("quiz-done").hidden = false;
+    $("quiz-setup").hidden = false;
+    renderQuizCenter();
+  }
+  function answer(qEl, k) {
+    if (qEl.classList.contains("is-answered")) return;
+    var id = qEl.getAttribute("data-q"), ok = k === qEl.getAttribute("data-answer");
+    S.quiz[id] = { a: k, ok: ok ? 1 : 0, t: Date.now() };
+    paintQuestion(qEl, S.quiz[id]);
+    if (qEl.hasAttribute("data-session") && session) {
+      session.results.push({ id: id, ok: ok });
+      $("quiz-next").disabled = false;
+      $("quiz-next").focus();
+    }
+    commit();
+  }
+
+  // ---------- 畫面：藥物卡 ----------
+  var drugGroup = "", flash = null;
+  var STATE_LABEL = { "new": "還沒看過", learn: "還不熟", know: "會了" };
+  function drugMatches(d) {
+    if (drugGroup && d.chapter !== drugGroup) return false;
+    var st = $("drug-state").value;
+    if (st && cardOf(d.key) !== st) return false;
+    var q = $("drug-q").value.trim().toLowerCase();
+    if (!q) return true;
+    return [d.name, d.cls, d.moa, d.use, d.tox, d.mon].join(" ").toLowerCase().indexOf(q) >= 0;
+  }
+  function facts(d) {
+    return '<dl class="facts"><dt>分類</dt><dd>' + esc(d.cls) + "</dd><dt>機轉</dt><dd>" + esc(d.moa) + "</dd><dt>主要用途</dt><dd>" + esc(d.use) +
+      "</dd><dt>必記毒性</dt><dd>" + esc(d.tox) + "</dd><dt>監測與處置</dt><dd>" + esc(d.mon) + "</dd></dl>";
+  }
+  function renderDrugs() {
+    var groups = $("drug-groups");
+    if (!DRUGS.length) {
+      $("drugs-browse").innerHTML = '<p class="empty-state">' + CLAWD + '<span class="lede">藥物篇寫完後，這裡會出現藥物卡。</span></p>';
+      return;
+    }
+    if (!groups.children.length) {
+      var seen = {}, btns = '<button type="button" data-act="drug-group" data-group="" aria-pressed="true">全部</button>';
+      DRUGS.forEach(function (d) {
+        if (seen[d.chapter]) return; seen[d.chapter] = 1;
+        btns += '<button type="button" data-act="drug-group" data-group="' + esc(d.chapter) + '" aria-pressed="false">' + esc(chapterById[d.chapter] ? chapterById[d.chapter].title : d.group) + "</button>";
+      });
+      groups.innerHTML = btns;
+    }
+    var open = {};
+    all(".drug[open]", $("drug-list")).forEach(function (el) { open[el.getAttribute("data-key")] = 1; });
+    var list = DRUGS.filter(drugMatches);
+    $("drug-count").textContent = "符合 " + list.length + " 張，共 " + DRUGS.length + " 張";
+    $("drug-list").innerHTML = list.map(function (d) {
+      var st = cardOf(d.key);
+      return '<details class="drug" data-key="' + esc(d.key) + '"' + (open[d.key] ? " open" : "") + '><summary><span class="drug-name">' + esc(d.name) + '</span><span class="drug-cls">' + esc(d.cls) +
+        '</span><span class="state-chip ' + st + '">' + STATE_LABEL[st] + '</span></summary><div class="drug-body">' + facts(d) +
+        '<p class="drug-actions"><button type="button" class="btn" data-act="card-learn">還不熟</button><button type="button" class="btn" data-act="card-know">會了</button>' +
+        '<a href="#' + esc(d.chapter) + '">到「' + esc(chapterById[d.chapter] ? chapterById[d.chapter].title : "藥物篇") + "」讀完整內容</a></p></div></details>";
+    }).join("") || '<p class="empty-state">' + CLAWD + '<span class="muted">沒有符合的藥物卡，換個關鍵字或類別。</span></p>';
+  }
+  function setCard(key, s) { S.cards[key] = { s: s, t: Date.now() }; commit(); }
+  function startFlash() {
+    var list = DRUGS.filter(drugMatches);
+    if (!list.length) return;
+    var rank = { learn: 0, "new": 1, know: 2 };
+    list = shuffle(list).sort(function (a, b) { return rank[cardOf(a.key)] - rank[cardOf(b.key)]; });
+    flash = { list: list, i: 0, know: 0, learn: 0, flipped: false };
+    $("drugs-browse").hidden = true; $("drugs-flash").hidden = false;
+    renderFlash();
+    window.scrollTo(0, 0);
+  }
+  function renderFlash() {
+    var box = $("drugs-flash");
+    if (flash.i >= flash.list.length) {
+      box.innerHTML = "<h2>這一輪翻完了</h2><p>共 " + flash.list.length + " 張：會了 " + flash.know + " 張，還不熟 " + flash.learn + ' 張。</p><div class="toolbar">' +
+        (flash.learn ? '<button type="button" class="btn btn-primary" data-act="flash-retry">再練還不熟的</button>' : "") + '<button type="button" class="btn" data-act="flash-exit">回到列表</button></div>';
+      return;
+    }
+    var d = flash.list[flash.i];
+    box.innerHTML = '<p class="quiz-progress">第 ' + (flash.i + 1) + " 張，共 " + flash.list.length + ' 張</p><div class="flash"><p class="flash-cls">' +
+      esc(chapterById[d.chapter] ? chapterById[d.chapter].title : "") + '</p><p class="flash-name">' + esc(d.name) + "</p>" +
+      (flash.flipped
+        ? facts(d) + '<div class="toolbar"><button type="button" class="btn" data-act="flash-learn">還不熟</button><button type="button" class="btn btn-primary" data-act="flash-know">會了</button></div>'
+        : '<p class="flash-prompt">先自己講一遍：哪一類？怎麼作用？用在哪裡？必記毒性？要監測什麼？</p><div class="toolbar"><button type="button" class="btn btn-primary" data-act="flash-flip">看答案</button></div>') +
+      '</div><div class="toolbar"><button type="button" class="btn" data-act="flash-exit">結束練習</button></div>';
+    var b = box.querySelector(".btn-primary"); if (b) b.focus();
+  }
+
+  function refresh() { renderChips(); renderHome(); renderPath(); paintRead(); paintQuizzes(); if (!session) renderQuizCenter(); if (!flash) renderDrugs(); }
+
+  // ---------- 章節：插入「讀完打勾」與測驗列 ----------
+  all(".chapter").forEach(function (view) {
+    var c = chapterById[view.getAttribute("data-route")];
+    var prose = view.querySelector(".prose");
+    if (!c || !prose) return;
+    var heads = all("h2", prose).filter(function (h) { return h.parentNode === prose; });
+    heads.forEach(function (h, i) {
+      var meta = secMeta[h.id];
+      if (!meta) return;
+      if (meta.kind === "read") {
+        var div = document.createElement("div");
+        div.className = "sec-done";
+        div.innerHTML = '<button type="button" class="btn btn-read" data-sec="' + esc(h.id) + '"><span class="tick"></span><span class="lbl"></span></button><span>' + esc(meta.title) + "，" + hours(meta.min) + "</span>";
+        prose.insertBefore(div, heads[i + 1] || prose.querySelector(".chapter-end"));
+      } else if (meta.kind === "quiz") {
+        var qb = document.createElement("div");
+        qb.className = "quiz-bar";
+        qb.setAttribute("data-quizbar", c.id);
+        prose.insertBefore(qb, h.nextSibling);
+      }
+    });
+  });
+
+  // ---------- 導覽 ----------
+  var views = all(".view");
+  var navLinks = all("[data-chapter]");
+  var crumb = $("crumb");
+  var sidebar = $("sidebar");
+  var openBtn = $("menu-open");
+  var closeBtn = $("menu-close");
   var current = null;
 
   function setMenu(open) {
     sidebar.setAttribute("data-open", open ? "true" : "false");
     openBtn.setAttribute("aria-expanded", open ? "true" : "false");
-    if (open) { var s = document.getElementById("search-mobile"); if (s) s.focus(); }
+    if (open) { var s = $("search-mobile"); if (s) s.focus(); }
   }
   openBtn.addEventListener("click", function () { setMenu(true); });
   closeBtn.addEventListener("click", function () { setMenu(false); });
 
   function show(id, anchorId) {
     // section 的 id 加上 v- 前綴，避免瀏覽器依網址 hash 自動捲動
-    var view = document.getElementById("v-" + id);
-    if (!view) { view = document.getElementById("v-home"); id = "home"; }
+    var view = $("v-" + id);
+    if (!view) { view = $("v-home"); id = "home"; }
     if (current !== id) {
       views.forEach(function (v) { v.hidden = v !== view; });
       navLinks.forEach(function (a) {
         if (a.getAttribute("data-chapter") === id) a.setAttribute("aria-current", "page");
         else a.removeAttribute("aria-current");
       });
-      var title = id === "home" ? "總覽與進度" : view.getAttribute("data-title");
-      crumb.innerHTML = id === "home" ? "<strong>總覽與進度</strong>" : "手冊 / <strong>" + title + "</strong>";
+      var title = view.getAttribute("data-title");
+      crumb.innerHTML = view.classList.contains("chapter") ? "手冊 / <strong>" + esc(title) + "</strong>" : "<strong>" + esc(title) + "</strong>";
       current = id;
       observeToc(view);
     }
     setMenu(false);
     if (anchorId) {
-      var target = document.getElementById(anchorId);
+      var target = $(anchorId);
       if (target) { target.scrollIntoView({ block: "start" }); return; }
     }
     window.scrollTo(0, 0);
   }
-
   function route() {
     var h = decodeURIComponent(location.hash.replace(/^#/, ""));
     var parts = h ? h.split("--") : ["home"];
@@ -360,28 +1067,12 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
     show(parts[0], parts.length > 1 ? h : null);
   }
 
-  // 站內連結：切換章節並捲到段落；網址只留章節 id，方便分享
-  document.addEventListener("click", function (e) {
-    var a = e.target.closest ? e.target.closest("a[href^='#']") : null;
-    if (!a) return;
-    var h = decodeURIComponent(a.getAttribute("href").slice(1));
-    if (!h) return;
-    e.preventDefault();
-    var parts = h.split("--");
-    show(parts[0], parts.length > 1 ? h : null);
-    try { history.replaceState(null, "", "#" + parts[0]); } catch (err) { location.hash = parts[0]; }
-    hideResults();
-  });
-  window.addEventListener("hashchange", route);
-
-  // 本章目錄：標出目前讀到的段落（最後一個已捲過頂列的 h2）
-  var tocHeads = [], tocLinks = {}, ticking = false;
+  // 本章目錄：標出目前讀到的段落（最後一個已捲過頂列的 h2），並記住上次讀到哪裡
+  var tocHeads = [], tocLinks = {}, ticking = false, lastSeen = null;
   function observeToc(view) {
-    tocHeads = Array.prototype.slice.call(view.querySelectorAll(".prose h2"));
+    tocHeads = all(".prose h2", view);
     tocLinks = {};
-    view.querySelectorAll(".chapter-toc a").forEach(function (a) {
-      tocLinks[decodeURIComponent(a.getAttribute("href").slice(1))] = a;
-    });
+    all(".chapter-toc a", view).forEach(function (a) { tocLinks[decodeURIComponent(a.getAttribute("href").slice(1))] = a; });
     markToc();
   }
   function markToc() {
@@ -391,29 +1082,111 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
       if (tocHeads[i].getBoundingClientRect().top < 120) active = tocHeads[i];
       else break;
     }
-    Object.keys(tocLinks).forEach(function (id) {
-      tocLinks[id].classList.toggle("is-current", !!active && active.id === id);
-    });
+    Object.keys(tocLinks).forEach(function (id) { tocLinks[id].classList.toggle("is-current", !!active && active.id === id); });
+    if (active && secMeta[active.id] && active.id !== lastSeen) {
+      lastSeen = active.id;
+      S.last = { r: current, s: active.id, t: Date.now() };
+      saveLocal();
+    }
   }
   window.addEventListener("scroll", function () {
     if (!ticking) { ticking = true; requestAnimationFrame(markToc); }
   }, { passive: true });
 
-  // 搜尋：以 h2/h3 段落為單位建立索引
+  // ---------- 點擊：站內連結與各種按鈕 ----------
+  var resetArmed = 0;
+  var ACTIONS = {
+    "quiz-start": startSession,
+    "quiz-again": function () { $("quiz-done").hidden = true; startSession(); },
+    "quiz-next": function () { if (!session) return; session.i++; if (session.i >= session.list.length) endSession(); else showSessionQuestion(); },
+    "quiz-end": endSession,
+    "quiz-reset": function (b) {
+      var id = b.getAttribute("data-chapter-id"), t = Date.now();
+      QUESTIONS.forEach(function (q) { if (q.chapter === id && S.quiz[q.id]) S.quiz[q.id] = { a: null, ok: 0, t: t }; });
+      all("#v-" + id + " .quiz-q details").forEach(function (d) { d.open = false; });
+      commit();
+    },
+    "q-retry": function (b) {
+      var qEl = b.closest(".quiz-q");
+      S.quiz[qEl.getAttribute("data-q")] = { a: null, ok: 0, t: Date.now() };
+      var det = qEl.querySelector("details"); if (det) det.open = false;
+      commit();
+    },
+    "drug-group": function (b) {
+      drugGroup = b.getAttribute("data-group");
+      all("#drug-groups button").forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+      renderDrugs();
+    },
+    "card-know": function (b) { setCard(b.closest(".drug").getAttribute("data-key"), "know"); },
+    "card-learn": function (b) { setCard(b.closest(".drug").getAttribute("data-key"), "learn"); },
+    "flash-start": startFlash,
+    "flash-flip": function () { flash.flipped = true; renderFlash(); },
+    "flash-know": function () { var d = flash.list[flash.i]; flash.know++; flash.i++; flash.flipped = false; setCard(d.key, "know"); renderFlash(); },
+    "flash-learn": function () { var d = flash.list[flash.i]; flash.learn++; flash.i++; flash.flipped = false; setCard(d.key, "learn"); renderFlash(); },
+    "flash-retry": function () {
+      var again = flash.list.filter(function (d) { return cardOf(d.key) === "learn"; });
+      flash = { list: shuffle(again), i: 0, know: 0, learn: 0, flipped: false };
+      renderFlash();
+    },
+    "flash-exit": function () { flash = null; $("drugs-flash").hidden = true; $("drugs-flash").innerHTML = ""; $("drugs-browse").hidden = false; renderDrugs(); },
+    "reset-all": function (b) {
+      if (Date.now() - resetArmed > 5000) {
+        resetArmed = Date.now();
+        b.textContent = "再按一次，確定清除";
+        setTimeout(function () { b.textContent = "清除全部學習紀錄"; }, 5000);
+        return;
+      }
+      resetArmed = 0;
+      S = blank(); S.resetAt = Date.now();
+      all(".quiz-q details").forEach(function (d) { d.open = false; });
+      b.textContent = "清除全部學習紀錄";
+      commit();
+    }
+  };
+  document.addEventListener("click", function (e) {
+    var t = e.target;
+    if (!t.closest) return;
+    var opt = t.closest(".quiz-opt");
+    if (opt) { answer(opt.closest(".quiz-q"), opt.getAttribute("data-k")); return; }
+    var readBtn = t.closest(".btn-read");
+    if (readBtn) {
+      var sec = readBtn.getAttribute("data-sec");
+      S.read[sec] = { on: isRead(sec) ? 0 : 1, t: Date.now() };
+      commit();
+      return;
+    }
+    var act = t.closest("[data-act]");
+    if (act && ACTIONS[act.getAttribute("data-act")]) { ACTIONS[act.getAttribute("data-act")](act); return; }
+    // 站內連結：切換章節並捲到段落；網址只留章節 id，方便分享
+    var a = t.closest("a[href^='#']");
+    if (a) {
+      var h = decodeURIComponent(a.getAttribute("href").slice(1));
+      if (!h) return;
+      e.preventDefault();
+      var parts = h.split("--");
+      show(parts[0], parts.length > 1 ? h : null);
+      try { history.replaceState(null, "", "#" + parts[0]); } catch (err) { location.hash = parts[0]; }
+      hideResults();
+      return;
+    }
+    if (!t.closest(".search")) $("results").hidden = true;
+  });
+  window.addEventListener("hashchange", route);
+  $("drug-q").addEventListener("input", renderDrugs);
+  $("drug-state").addEventListener("change", renderDrugs);
+
+  // ---------- 搜尋：以 h2/h3 段落為單位建立索引 ----------
   var index = [];
-  document.querySelectorAll(".chapter").forEach(function (view) {
+  all(".chapter").forEach(function (view) {
     var chapterTitle = view.getAttribute("data-title");
-    var route = view.getAttribute("data-route");
-    var heads = view.querySelectorAll(".prose h2, .prose h3");
-    heads.forEach(function (h) {
+    var routeId = view.getAttribute("data-route");
+    all(".prose h2, .prose h3", view).forEach(function (h) {
       var text = "";
       var n = h.nextElementSibling;
-      while (n && !/^H[1-3]$/.test(n.tagName)) { text += " " + n.textContent; n = n.nextElementSibling; }
-      index.push({ chapter: route, where: chapterTitle, id: h.id, head: h.textContent, text: text.replace(/\s+/g, " ") });
+      while (n && !/^H[1-3]$/.test(n.tagName)) { if (!n.classList.contains("sec-done") && !n.classList.contains("quiz-bar")) text += " " + n.textContent; n = n.nextElementSibling; }
+      index.push({ chapter: routeId, where: chapterTitle, id: h.id, head: h.textContent, text: text.replace(/\s+/g, " ") });
     });
   });
-
-  function esc(s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function highlight(s, q) {
     var i = s.toLowerCase().indexOf(q);
     if (i < 0) return esc(s);
@@ -436,8 +1209,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
     });
     hits.sort(function (a, b) { return a.score - b.score; });
     if (!hits.length) {
-      box.innerHTML = '<p class="r-empty"><svg class="clawd" viewBox="1 0 16 10" aria-hidden="true"><use href="#clawd-body"/></svg>' +
-        '<span>找不到「' + esc(q) + '」。試試英文藥名或試驗名。</span></p>';
+      box.innerHTML = '<p class="r-empty">' + CLAWD + "<span>找不到「" + esc(q) + "」。試試英文藥名或試驗名。</span></p>";
     } else {
       box.innerHTML = hits.slice(0, 30).map(function (h) {
         return '<a href="#' + esc(h.it.id) + '"><span class="r-where">' + esc(h.it.where) + '</span><span class="r-head">' +
@@ -446,12 +1218,10 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
     }
     box.hidden = false;
   }
-  function hideResults() {
-    document.querySelectorAll(".results").forEach(function (r) { r.hidden = true; });
-  }
+  function hideResults() { all(".results").forEach(function (r) { r.hidden = true; }); }
   [["search", "results"], ["search-mobile", "results-mobile"]].forEach(function (pair) {
-    var input = document.getElementById(pair[0]);
-    var box = document.getElementById(pair[1]);
+    var input = $(pair[0]);
+    var box = $(pair[1]);
     input.addEventListener("input", function () { search(input.value, box); });
     input.addEventListener("keydown", function (e) {
       if (e.key === "Escape") { input.value = ""; box.hidden = true; input.blur(); }
@@ -459,16 +1229,16 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
     });
   });
   document.addEventListener("keydown", function (e) {
-    if (e.key === "/" && document.activeElement.tagName !== "INPUT") {
+    var tag = document.activeElement ? document.activeElement.tagName : "";
+    if (e.key === "/" && tag !== "INPUT" && tag !== "SELECT" && tag !== "TEXTAREA") {
       e.preventDefault();
-      document.getElementById(window.innerWidth > 860 ? "search" : "search-mobile").focus();
+      $(window.innerWidth > 860 ? "search" : "search-mobile").focus();
       if (window.innerWidth <= 860) setMenu(true);
     }
   });
-  document.addEventListener("click", function (e) {
-    if (!e.target.closest(".search")) document.getElementById("results").hidden = true;
-  });
 
+  refresh();
   route();
+  initSync();
 })();
 </script>
