@@ -2949,7 +2949,7 @@ Sung, P.-L., Wen, K.-C., Chen, Y.-J., Chao, T.-C., Tsai, Y.-F., Tseng, L.-M., Qi
 
 Swain, S. M., Baselga, J., Kim, S.-B., Ro, J., Semiglazov, V., Campone, M., Ciruelos, E., Ferrero, J.-M., Schneeweiss, A., Heeson, S., Clark, E., Ross, G., Benyunes, M. C., & Cortés, J. (2015). Pertuzumab, trastuzumab, and docetaxel in HER2-positive metastatic breast cancer. *New England Journal of Medicine, 372*(8), 724–734. https://doi.org/10.1056/NEJMoa1413513（PMID: 25693012）
 
-Swain, S. M., Miles, D., Kim, S.-B., Im, Y.-H., Im, S.-A., Semiglazov, V., Ciruelos, E., Schneeweiss, A., Loi, S., Monturus, E., Clark, E., Knott, A., Restuccia, E., Benyunes, M. C., & Cortés, J. (2020). Pertuzumab, trastuzumab, and docetaxel for HER2-positive metastatic breast cancer (CLEOPATRA): End-of-study results from a double-blind, randomised, placebo-controlled, phase 3 study. *The Lancet Oncology, 21*(4), 519–530. https://doi.org/10.1016/S1470-2045(19)30863-0（PMID: 32171426）
+Swain, S. M., Miles, D., Kim, S.-B., Im, Y.-H., Im, S.-A., Semiglazov, V., Ciruelos, E., Schneeweiss, A., Loi, S., Monturus, E., Clark, E., Knott, A., Restuccia, E., Benyunes, M. C., Cortés, J., & CLEOPATRA study group. (2020). Pertuzumab, trastuzumab, and docetaxel for HER2-positive metastatic breast cancer (CLEOPATRA): End-of-study results from a double-blind, randomised, placebo-controlled, phase 3 study. *The Lancet Oncology, 21*(4), 519–530. https://doi.org/10.1016/S1470-2045(19)30863-0（PMID: 32171426）
 
 Swain, S. M., Whaley, F. S., & Ewer, M. S. (2003). Congestive heart failure in patients treated with doxorubicin: A retrospective analysis of three trials. *Cancer, 97*(11), 2869–2879. https://doi.org/10.1002/cncr.11407（PMID: 12767102）
 

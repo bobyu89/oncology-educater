@@ -1162,7 +1162,7 @@ Ewing sarcoma 的第一線是 interval-compressed VDC/IE（每 14 天一個週�
 | Imatinib | 水腫、血球低下、肝毒性 | 體重、CBC、LFT | 水腫 76.7%（400 mg）；ANC < 1.0 × 10⁹/L 或血小板 < 50 × 10⁹/L 暫停 |
 | Sunitinib | 肝毒性（加框）、高血壓、甲狀腺功能異常 | LFT、血壓、TSH | 24 小時尿蛋白 ≥ 3 g 暫停；grade 3 高血壓暫停 |
 | Regorafenib | 手足皮膚反應、肝毒性（加框）、高血壓 | LFT、血壓、手腳 | 亞洲病人 HFSR 72%；LFT 前 2 個月每 2 週 |
-| Ripretinib、avapritinib | 皮膚癌與 PPES；顱內出血與認知 | 皮膚、神經狀態 | ripretinib cuSCC 4.7%；avapritinib 顱內出血 2.9%，任何等級永久停藥 |
+| Ripretinib、avapritinib | 皮膚癌與 PPES；顱內出血與認知 | 皮膚、神經狀態 | ripretinib cuSCC 4.7%；avapritinib 顱內出血 2.9%（GIST 與 AdvSM 合併分析），任何等級永久停藥 |
 | AI、VDC/IE、doxorubicin ＋ trabectedin | 發燒性嗜中性球低下 | ANC、血小板 | AI 的 FN 46%（已用 pegfilgrastim） |
 
 ### 6.1 高劑量 methotrexate（HD-MTX）：完整病房流程
@@ -1903,7 +1903,7 @@ P：1. 繼續 imatinib 400 mg QD，不需利尿劑或減量
 | Imatinib | Phase 3 GIST 試驗 12.9%（211 人）通報 grade 3/4 出血（任何部位）；phase 2 GIST 試驗 7 人（5%）共 8 次 grade 3/4 出血；腸胃道腫瘤部位可能是出血來源（Novartis, 2026） | 仿單 5.5 沒有給出血的處置指示 |
 | Sunitinib | 合併安全族群 30% 出現出血事件（grade 3–4 為 4.2%）；觀察到腫瘤相關出血（Pfizer, 2026b） | grade 3–4 出血暫停到 ≤ grade 1 或基線，再以降低的劑量恢復；grade 3–4 未緩解則永久停藥 |
 | Regorafenib | 隨機試驗合併 18.2% 對安慰劑 9.5%；grade ≥ 3 為 3.0%；致死性出血 0.7%（Bayer, 2026） | **嚴重或危及生命的出血永久停藥**；併用 warfarin 者更密集監測 INR |
-| Avapritinib | 顱內出血 2.9%（Blueprint, 2026） | **任何等級永久停藥**（見本段首表） |
+| Avapritinib | 顱內出血 2.9%（GIST 與 AdvSM 合併的 749 位；Blueprint, 2026） | **任何等級永久停藥**（見本段首表） |
 
 **第一小時**
 
