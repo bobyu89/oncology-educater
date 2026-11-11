@@ -539,3 +539,532 @@ Methotrexate 會跑進肋膜積水、腹水這類「第三空間」，再慢慢�
 > 外滲處理包的內容、過敏反應的給藥順序、G-CSF 與止吐藥的品項，各院不同。實習的第一週先找到院內的「化療外滲處理流程」與「化療過敏反應處理流程」，並確認病房的急救藥品放在哪裡。
 
 ---
+
+## 7. 抗藥性與下一代藥物
+
+**結論先講：** 化療失效的原因可以歸成四類：藥被打出細胞、標靶變了、DNA 損傷被修好、細胞不肯死。下一代藥物的主流方向不是找更毒的分子，而是把同一個分子送得更準：脂質體、白蛋白奈米粒子，以及把化療藥掛在抗體上的抗體藥物複合體（antibody-drug conjugate, ADC）。
+
+### 7.1 為什麼會失效
+
+| 機制 | 怎麼發生 | 例子與臨床意義 |
+|------|---------|--------------|
+| 藥物外排 | 細胞膜上的 P-glycoprotein（P-gp）把藥送出細胞。1976 年 Juliano 與 Ling 在對 colchicine 抗藥的倉鼠卵巢細胞上發現這個 170 kDa 的醣蛋白，這些細胞同時對多種藥抗藥（Juliano & Ling, 1976）。這種「一次對很多藥抗藥」的現象叫多重抗藥性（multidrug resistance），由 ATP 驅動的轉運蛋白造成（Gottesman et al., 2002） | Doxorubicin 是 P-gp 受質，P-gp 抑制劑會讓它的濃度上升（Pfizer, 2026）。臨床上的意思是：一個藥失效後，機轉不同的藥也可能一起失效 |
+| 標靶改變 | 藥物標靶的量或構造改變（Holohan et al., 2013） | 換成機轉不同的藥，而不是加量 |
+| DNA 修復 | 腫瘤把藥物造成的 DNA 損傷修好 | MGMT 是一個 DNA 修復基因。它的 promoter 被甲基化而關掉的膠質母細胞瘤，temozolomide 加放療的中位存活是 21.7 個月，只做放療是 15.3 個月；沒有甲基化的病人差異不顯著（Hegi et al., 2005）。BRCA2 突變的腫瘤對鉑類特別敏感；抗藥之後，腫瘤出現讓 BRCA2 讀框恢復的二次突變，同時對 cisplatin 與 PARP 抑制劑抗藥（Sakai et al., 2008） |
+| 逃避細胞死亡 | 存活路徑被活化，或細胞死亡無法有效啟動（Holohan et al., 2013） | 這是化療與標靶藥共有的抗藥機制 |
+| 腫瘤動力學 | 抗藥細胞隨時間以機率出現（Goldie & Coldman, 1979）；腫瘤在兩次化療之間長回來（Norton & Simon, 1977） | 及早治療、合併用藥、縮短間隔，見第 2 段 |
+
+### 7.2 次發性惡性腫瘤：把病人治好之後的代價
+
+化療傷的是 DNA，所以它本身就是致癌物。治療相關的骨髓化生不良症候群與急性骨髓性白血病（t-MDS／t-AML）有兩種典型（Godley & Larson, 2008）：
+
+| | 烷化劑型 | Topoisomerase II 抑制劑型 |
+|------|---------|--------------------------|
+| 潛伏期 | 通常在治療後 5–7 年 | 較短，常在 2–3 年內，有些在 12 個月內 |
+| 之前有沒有 MDS | 常先出現 MDS，MCV 上升往往是第一個線索 | 很少先有 MDS，常以白血球很高的急性白血病表現 |
+| 染色體 | 第 5 號或第 7 號染色體缺失或單體 | 11q23（MLL）或 21q22 的平衡易位 |
+| 劑量關係 | 烷化劑劑量愈高風險愈高 | — |
+
+仿單也把這件事寫進警語：doxorubicin 與 epirubicin 的加框警語包含次發性 AML／MDS（Pfizer, 2026; Pharmacia & Upjohn, 2026），etoposide 有罕見的急性白血病報告（Hikma, 2024），cyclophosphamide 的次發性惡性腫瘤包含泌尿道癌、MDS 與急性白血病（BluePoint, 2026）。
+
+> [!IMPORTANT]
+> **兩型治療相關白血病**
+> 烷化劑：5–7 年、先有 MDS、第 5 與第 7 號染色體異常。Topoisomerase II 抑制劑（etoposide、anthracycline）：2–3 年、不經過 MDS、11q23 易位（Godley & Larson, 2008）。接受治癒性化療的年輕病人（乳癌輔助治療、肉瘤），追蹤時出現不明原因的血球低下或 MCV 上升要想到這件事。
+
+### 7.3 下一代：同一個分子，換一種送法
+
+| 做法 | 原理 | 例子 | 留下的問題 |
+|------|------|------|-----------|
+| 脂質體 | 把藥包起來延長循環時間，靠腫瘤血管的 EPR 效應聚集在腫瘤（Barenholz, 2012; Thomas & Pommier, 2019） | pegylated liposomal doxorubicin、liposomal irinotecan | 毒性的樣子會變：liposomal doxorubicin 多了手足症候群與輸注反應（Sagent, 2026）；liposomal irinotecan 的腹瀉仍然常見（Thomas & Pommier, 2019） |
+| 白蛋白奈米粒子 | 不用溶劑，就不需要為了溶劑做前置用藥（Gradishar et al., 2005） | nab-paclitaxel | 感覺神經病變較多（Gradishar et al., 2005） |
+| 口服前驅藥 | 靠酵素在體內逐步活化（Miwa et al., 1998; Shirasaka et al., 1996） | capecitabine、S-1 | 服藥遵從性與居家毒性的監測落在病人身上 |
+| 抗體藥物複合體（ADC） | 把抗體的專一性和細胞毒性藥的殺傷力結合，讓藥優先送到腫瘤（Dumontet et al., 2023） | Sacituzumab govitecan 掛的是 SN-38，trastuzumab deruxtecan 掛的是 camptothecin 衍生物（Thomas & Pommier, 2019） | 毒性仍是 ADC 發展的關鍵問題（Dumontet et al., 2023） |
+
+ADC 可以理解成「標靶化的化療」：抗體負責找到細胞，真正殺細胞的還是化療藥的親戚。所以看到 ADC，要同時想抗體那一半的毒性，和掛在上面的藥（payload）那一半的毒性。ADC 的構造、各藥的 payload 與適應症在[標靶藥物章](03-targeted-therapy.md)；乳癌用到的 ADC 毒性見[乳癌章 6.7](../03-breast-cancer.md#67-抗體藥物複合體t-dxdt-dm1sacituzumab-govitecandato-dxd)。
+
+> [!TIP]
+> **從空投到宅配**
+> 傳統化療像空投物資，整個城市（全身）都收到，敵營和民宅一起遭殃。脂質體是把物資裝進貨櫃，貨櫃比較容易從破掉的圍牆（腫瘤血管）滾進敵營。ADC 則是宅配：包裹上寫了地址（抗體認得的標記），送到門口才拆封。宅配也會送錯，或在路上掉出來，所以 ADC 還是看得到化療的毒性。
+
+---
+
+## 8. 專師實務
+
+**結論先講：** 給藥前的工作可以收成四個「對」：對的病人（體能與器官功能撐得住）、對的藥（藥名、劑型、劑量、累積量）、對的準備（前置用藥、水化、管路）、對的衛教（什麼時候一定要回來）。通用的化療前檢核表在[化療基礎第 5 節](../00-shared/01-chemo-basics.md#5-化療前檢核pre-chemo-checklist)，下面是依藥物類別要加查的項目。
+
+### 8.1 依類別加查的項目
+
+| 藥物 | 每次給藥前加查 | 依據 |
+|------|--------------|------|
+| doxorubicin、epirubicin | 累積劑量（含在其他醫院打過的）；最近一次 LVEF；膽紅素；管路回血順暢 | Pfizer, 2026; Pharmacia & Upjohn, 2026 |
+| cisplatin | 肌酸酐與電解質；水化與高效止吐的醫囑；耳鳴或聽力變化；同時段有無其他腎毒性藥物 | WG Critical Care, 2026 |
+| carboplatin | 用當次的腎功能重算 Calvert 劑量；血小板；對鉑類的過敏史 | Calvert et al., 1989; Natco, 2026 |
+| oxaliplatin | 神經症狀有沒有持續到這個週期；避冷衛教；過敏史 | Sagent, 2025 |
+| ifosfamide、cyclophosphamide | Mesna 與水化的醫囑；尿液有無紅血球；意識狀態（ifosfamide） | Fresenius Kabi, 2026; BluePoint, 2026 |
+| 高劑量 methotrexate | 有無肋膜積水或腹水；NSAID、PPI、penicillin 類與 sulfonamide 類抗生素停了沒；leucovorin 醫囑與抽血時間 | Accord, 2026 |
+| pemetrexed | Folic acid 有沒有按時吃、B12 上次注射日期；CrCl ≥ 45 mL/min；有沒有在吃 ibuprofen | Eli Lilly, 2023 |
+| 5-FU、capecitabine、S-1 | DPYD 檢測結果或已和主治討論；有沒有在吃 warfarin；上個週期的腹瀉、口腔與手足狀況 | Alembic, 2026; H2-Pharma, 2026; European Medicines Agency, 2025 |
+| irinotecan、liposomal irinotecan | UGT1A1 基因型；膽紅素；上個週期的腹瀉；atropine 備在床邊、loperamide 已開給病人 | Actavis, 2025; Ipsen, 2025 |
+| paclitaxel、docetaxel | 前置用藥給了沒、時間對不對；神經病變；docetaxel 的肝功能門檻；併用藥中的強效 CYP3A4 抑制劑 | Teva Parenteral Medicines, 2026; Mylan, 2026 |
+| vincristine、vinorelbine | 給藥途徑只有靜脈、vincristine 用軟袋；排便狀況；有沒有併用 azole 類抗黴菌藥；膽紅素 | Hospira, 2026; Sagent, 2024 |
+| eribulin | CBC 與神經病變評估；不用含 dextrose 的溶液 | Eisai, 2025 |
+| trabectedin | 中心靜脈導管；dexamethasone 前置；CPK、肝功能、ANC | Janssen, 2026 |
+| bleomycin | 累積 units；新的咳嗽或喘 | Meitheal, 2026 |
+| 所有脂質體與 nab 劑型 | 醫囑上的劑型和藥局送來的劑型一致 | Ipsen, 2025; Sagent, 2026; Abraxis, 2022 |
+
+### 8.2 衛教重點
+
+1. **發燒**：家裡要有體溫計。打完藥後發燒就回急診，不要自己吃退燒藥觀察；內容見[支持性照護第 13 節](../00-shared/03-supportive-care.md#13-感染預防疫苗與嗜中性球低下衛教)。
+2. **腹瀉**：用 irinotecan 類的病人，回家前確認手上有 loperamide，並且知道什麼時候開始吃、吃到什麼程度要回診（[胰臟癌章 6.2](../02-pancreatic-cancer.md#62-irinotecan-與脂質體-irinotecan)）。
+3. **神經**：oxaliplatin 病人避免冰飲與冰敷（Sagent, 2025）；用 taxane、vinca、eribulin 的病人，手腳麻、扣不了鈕扣要主動說。跌倒與燙傷的預防見[支持性照護第 11 節](../00-shared/03-supportive-care.md#11-化療相關周邊神經病變與手足症候群)。
+4. **口服化療**：capecitabine 在餐後 30 分鐘內配水整粒吞服（H2-Pharma, 2026），temozolomide 膠囊整粒吞服（Merck Sharp & Dohme, 2026）。漏服、嘔吐與居家保存的原則見[化療基礎第 14.5 節](../00-shared/01-chemo-basics.md#145-口服抗癌藥)。
+5. **居家輸注幫浦**：FOLFIRINOX 的 46 小時 5-FU 幫浦，衛教見[胰臟癌章 7.3](../02-pancreatic-cancer.md#73-46-小時幫浦接上拆除與居家衛教)。
+6. **生育與避孕**：第一個週期前談完並記錄（[化療基礎第 12.5 節](../00-shared/01-chemo-basics.md#125-生育力保存與避孕諮詢)）。
+7. **排泄物與體液的處理**：見[化療基礎第 10 節](../00-shared/01-chemo-basics.md#10-抗癌藥物的安全操作)。
+8. **累積劑量**：請用過 anthracycline 或 bleomycin 的病人保留治療摘要。日後換醫院、要手術或再做化療時，這是下一位醫師一定會問的數字。
+
+### 8.3 監測時程
+
+| 時間點 | 要做的事 |
+|--------|---------|
+| 第一個週期之前 | CBC、肝腎功能、電解質；B 肝篩檢（[化療基礎第 6 節](../00-shared/01-chemo-basics.md#6-b-型肝炎篩檢與預防性抗病毒)）；依藥物加做 LVEF（anthracycline）、DPYD（5-FU 類）、UGT1A1（irinotecan 類）；生育諮詢 |
+| 每個週期給藥前 | CBC、肝腎功能；逐項問上個週期的毒性並分級；量體重，變化大時重算劑量；核對累積劑量 |
+| 最低點前後 | 多數處方在第 2 週前後（5.3）；高風險病人安排電話或門診追蹤；發燒立即回診 |
+| 累積里程碑 | Doxorubicin 累積到 300 mg/m² 以上心肌病變風險上升（Pfizer, 2026）；bleomycin 超過 400 units（Meitheal, 2026）；cisplatin 的耳與神經、oxaliplatin 的神經都是累積性的（WG Critical Care, 2026; Sagent, 2025） |
+| 治療結束之後 | Anthracycline 治療後仍要評估 LVEF（Pfizer, 2026）；mitomycin 的血球追蹤到治療後至少 8 週（Hikma, 2026）；長期追蹤 CBC，留意次發性白血病（第 7 段） |
+
+> [!NOTE]
+> **各院做法不同的地方**
+> LVEF 用超音波還是 MUGA、多久做一次；DPYD 與 UGT1A1 是否列為常規檢測、由誰開單；化療前抽血的有效天數；累積劑量由誰計算、記在病歷的哪一欄。這些都依院內規範，實習時先問清楚。
+
+---
+
+## 9. 藥物卡
+
+下表每一格的內容都出自本章第 1–8 段，出處見該段。主要用途以本手冊四個癌別為主，適應症與健保給付請見各癌別章第 9 段。
+
+<!-- drug-cards -->
+| 藥名 | 分類 | 機轉 | 主要用途 | 必記毒性 | 監測與處置 |
+|------|------|------|----------|----------|------------|
+| cyclophosphamide | 烷化劑 | 前驅藥，經肝臟 CYP450 活化後使 DNA 交聯 | 乳癌 AC、EC、TC；Ewing sarcoma VDC | 骨髓抑制、出血性膀胱炎、心臟毒性、不孕 | 大量水化、勤排尿；CBC 與尿沉渣 |
+| ifosfamide | 烷化劑 | 前驅藥，經 CYP3A4 與 CYP2B6 活化後使 DNA 交聯 | 肉瘤 AI、IE | 腦病變、出血性膀胱炎、腎毒性、骨髓抑制 | 配 mesna 與水化；出現腦病變就停藥 |
+| dacarbazine | 烷化劑 | 確切機轉未明，假說之一是烷化作用 | 肉瘤後線；仿單為黑色素瘤與 Hodgkin 病 | 造血抑制、肝壞死、噁心嘔吐 | CBC、肝功能；防外滲 |
+| temozolomide | 烷化劑（口服） | 自行水解成 MTIC，烷化鳥糞嘌呤 | 膠質母細胞瘤；復發 Ewing sarcoma（適應症外） | 骨髓抑制、肝毒性 | 第 1 與第 22 天驗 CBC；合併放療時預防 Pneumocystis 肺炎 |
+| cisplatin | 鉑類 | 與 DNA 形成鏈內與鏈間交聯 | 肺癌；骨肉瘤 MAP | 腎毒性、耳毒性、嚴重嘔吐、周邊神經病變 | 水化與高效止吐；肌酸酐、電解質、聽力 |
+| carboplatin | 鉑類 | 與 cisplatin 相同，活化較慢 | 肺癌；乳癌 TCH、TCHP | 骨髓抑制（血小板），最低點約第 21 天；過敏 | Calvert 公式算劑量；CBC |
+| oxaliplatin | 鉑類 | 帶 DACH 配位基的鉑，形成 DNA 交聯 | 胰臟癌 FOLFIRINOX、NALIRIFOX | 遇冷誘發的急性神經病變、持續性神經病變、過敏 | 避冷；每週期評估神經症狀；CrCl < 30 減量 |
+| methotrexate | 抗代謝物（葉酸拮抗劑） | 抑制 DHFR，阻斷 DNA 合成 | 骨肉瘤 MAP 的高劑量 methotrexate | 黏膜炎、骨髓抑制、腎毒性、肝毒性 | 高劑量要 leucovorin 解救；先引流積液；避開 NSAID 與 PPI |
+| pemetrexed | 抗代謝物（葉酸拮抗劑） | 抑制 thymidylate synthase、DHFR、GARFT | 非鱗狀 NSCLC | 骨髓抑制 | 補 folic acid 與 B12；CrCl ≥ 45 才給；避開 ibuprofen |
+| fluorouracil（5-FU） | 抗代謝物（氟化嘧啶） | 代謝物 FdUMP 抑制 thymidylate synthase | 胰臟癌 FOLFIRINOX、NALIRIFOX | 腹瀉、黏膜炎、手足症候群、心臟毒性；DPD 缺乏可致死 | 開藥前檢測 DPYD；併用 warfarin 要監測 INR |
+| capecitabine | 抗代謝物（口服氟化嘧啶） | 口服前驅藥，三個酵素接力轉成 5-FU | 乳癌；胰臟癌 GemCap | 手足症候群、腹瀉；併用 warfarin 會出血 | DPYD；INR；CrCl 30–50 減量 25% |
+| tegafur/gimeracil/oteracil（S-1） | 抗代謝物（口服氟化嘧啶） | Tegafur 轉成 5-FU；gimeracil 抑制 DPD；oteracil 減少腸胃毒性 | 胰臟癌術後輔助（亞洲）；歐盟為晚期胃癌 | 腹瀉與脫水、骨髓抑制 | DPD 完全缺乏禁用；CrCl < 30 不建議使用 |
+| gemcitabine | 抗代謝物（核苷類似物） | 抑制 ribonucleotide reductase，並被接進 DNA | 胰臟癌 GnP；鱗狀 NSCLC；肉瘤 | 骨髓抑制、肺毒性、溶血性尿毒症候群、微血管滲漏 | 輸注時間照處方，不超過 60 分鐘；不建議與放療併用 |
+| irinotecan | Topoisomerase I 抑制劑 | 前驅藥，活性物 SN-38 卡住 topoisomerase I 與 DNA 的複合物 | 胰臟癌 FOLFIRINOX；復發 Ewing sarcoma | 早發與遲發性腹瀉、嗜中性球低下 | 早發給 atropine、遲發給 loperamide；UGT1A1；膽紅素 |
+| irinotecan liposome（Onivyde） | Topoisomerase I 抑制劑（脂質體） | 包在脂質體裡的 irinotecan | 胰臟癌 NALIRIFOX 與二線 | 嚴重嗜中性球低下、嚴重腹瀉 | 不可取代一般 irinotecan；ANC < 1,500 暫停 |
+| topotecan | Topoisomerase I 抑制劑 | 卡住 topoisomerase I 與 DNA 的複合物 | SCLC 二線；復發 Ewing sarcoma | 骨髓抑制、嗜中性球低下性結腸炎、間質性肺病 | 基線 ANC ≥ 1,500；CrCl 20–39 減量 |
+| etoposide | Topoisomerase II 抑制劑 | 卡住 topoisomerase II，主要作用在 G2 期 | SCLC；Ewing sarcoma IE | 骨髓抑制、輸注太快低血壓、過敏 | 用 30–60 分鐘慢慢滴；CrCl 15–50 給 75% 劑量 |
+| doxorubicin | Anthracycline（topoisomerase II 抑制劑） | 嵌入 DNA，並與 topoisomerase II 形成可切割複合物 | 乳癌 AC；肉瘤 AI、MAP、VDC | 累積劑量相關心肌病變、外滲壞死、骨髓抑制、次發性白血病 | 加總累積劑量；LVEF；膽紅素升高要減量 |
+| epirubicin | Anthracycline（topoisomerase II 抑制劑） | Doxorubicin 的 4-epimer | 乳癌 EC、FEC；肉瘤 EI | 心肌病變（累積 900 mg/m² 約 3.3%）、外滲壞死、骨髓抑制 | 累積劑量；LVEF；肝功能異常要減量 |
+| pegylated liposomal doxorubicin | Anthracycline（脂質體） | 包在 PEG 脂質體裡的 doxorubicin | 仿單為卵巢癌與 Kaposi sarcoma | 手足症候群、輸注反應、心肌病變 | 不可取代一般 doxorubicin；評估左心室功能 |
+| paclitaxel | 抗微管藥（taxane） | 促進微管聚合並阻止解聚 | 乳癌、肺癌、血管肉瘤 | 嚴重過敏、周邊神經病變、骨髓抑制 | 前置類固醇、diphenhydramine、H2 阻斷劑；神經評估 |
+| nab-paclitaxel | 抗微管藥（taxane，白蛋白結合） | 白蛋白結合的 paclitaxel，不含 castor oil 溶劑 | 胰臟癌 GnP；乳癌、肺癌 | 骨髓抑制、感覺神經病變、敗血症、肺炎 | 基線 ANC ≥ 1,500；不可與其他 paclitaxel 劑型互換 |
+| docetaxel | 抗微管藥（taxane） | 促進微管組裝並抑制解聚 | 乳癌 TC、TCHP；肺癌二線；肉瘤 | 嗜中性球低下、體液滯留、過敏、肝毒性 | 前置 dexamethasone 3 天；肝功能門檻；避開強效 CYP3A4 抑制劑 |
+| vinorelbine | 抗微管藥（vinca） | 干擾微管組裝，細胞停在中期 | NSCLC 術後輔助；轉移性乳癌 | 骨髓抑制、便秘與腸阻塞、神經病變、外滲壞死 | CBC；防外滲；膽紅素升高要減量 |
+| vincristine | 抗微管藥（vinca） | 抑制微管形成，細胞停在中期 | Ewing sarcoma VDC | 神經毒性、便秘與麻痺性腸阻塞；打進脊髓腔會致死 | 只能靜脈、用軟袋；預防性軟便藥；直接膽紅素 > 3 減半 |
+| eribulin | 抗微管藥（halichondrin B 類似物） | 抑制微管的生長期 | 轉移性乳癌；脂肪肉瘤 | 嗜中性球低下、周邊神經病變、QT 延長 | 每劑前驗 CBC 並評估神經病變；不用含 dextrose 的溶液 |
+| trabectedin | 其他（DNA 小溝烷化） | 結合 DNA 小溝的鳥糞嘌呤，使雙螺旋彎曲 | 脂肪肉瘤、平滑肌肉瘤 | 肝毒性、橫紋肌溶解、嗜中性球低下敗血症、心肌病變 | 中心靜脈 24 小時輸注；前置 dexamethasone；CPK 與肝功能 |
+| bleomycin | 其他（抗腫瘤抗生素） | 造成 DNA 單股與雙股斷裂 | 睪丸癌 PVB（歷史處方）；本手冊四個癌別未用 | 肺纖維化、特異體質反應 | 總量 > 400 units 風險高；日後手術給氧要告知麻醉科 |
+| dactinomycin | 其他（抗腫瘤抗生素） | 結合 DNA，抑制 RNA 合成 | 仿單為 Wilms 腫瘤、橫紋肌肉瘤、Ewing sarcoma | 外滲嚴重組織傷害、肝靜脈阻塞病、放射回憶反應 | 防外滲；肝功能 |
+| mitomycin | 其他（抗腫瘤抗生素） | 抑制 DNA 合成，造成交聯 | 仿單為胃腺癌與胰臟腺癌的合併治療 | 延遲性骨髓抑制、溶血性尿毒症候群、外滲壞死 | 血球追蹤到治療後至少 8 週；腎功能 |
+
+---
+
+## 10. 自我測驗
+
+**Q1.** 17 歲骨肉瘤病人接受 MAP，第 2 個週期前抽血發現肌酸酐上升、血鎂偏低，並說最近有耳鳴。這三件事最可能是哪一個藥造成的？
+
+A. methotrexate　B. doxorubicin　C. cisplatin　D. leucovorin
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：C**。Cisplatin 的加框警語包含腎毒性（劑量相關且累積），仿單另列低血鎂與會累積的耳毒性（WG Critical Care, 2026）。Doxorubicin 的招牌毒性是心臟，高劑量 methotrexate 也會傷腎，但不會解釋耳鳴；leucovorin 是解救藥。處置上先確認水化、補鎂，並和主治討論聽力檢查。
+
+</details>
+
+**Q2.** 骨肉瘤病人明天要打高劑量 methotrexate。今天查房發現左側有中量肋膜積水，藥單上有 esomeprazole 與 ibuprofen。專師最適當的處理是？
+
+A. 照常給藥，把 leucovorin 劑量加倍　B. 通知主治：先處理積水、停用 PPI 與 NSAID，再決定給藥時間　C. 改成口服 methotrexate　D. 加上 TMP-SMX 預防感染
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：B**。Methotrexate 會從第三空間慢慢滲回血液，半衰期拉長、毒性增加，仿單要求給藥前先引流明顯的積液；PPI、NSAID 與 sulfonamide 類抗生素都會提高 methotrexate 的血中濃度，高劑量併用 NSAID 曾有致死的腸胃毒性（Accord, 2026）。選項 D 的 TMP-SMX 含 sulfonamide，反而加重問題。完整流程見[肉瘤章 6.1](../04-sarcoma.md#61-高劑量-methotrexatehd-mtx完整病房流程)。
+
+</details>
+
+**Q3.** 處方為 carboplatin AUC 5。病人的 GFR 估計為 75 mL/min。依 Calvert 公式，劑量是多少？
+
+A. 375 mg　B. 400 mg　C. 425 mg　D. 500 mg
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：D**。劑量（mg）= 目標 AUC ×（GFR ＋ 25）= 5 ×（75 ＋ 25）= 500 mg（Calvert et al., 1989）。Carboplatin 的清除率和 GFR 成線性關係，所以用腎功能而不是體表面積算劑量。GFR 的上限與估算方式見[化療基礎第 3.2 節](../00-shared/01-chemo-basics.md#32-calvert-公式carboplatin)。
+
+</details>
+
+**Q4.** 病人正在輸注 irinotecan，30 分鐘後開始流汗、流淚、腹部絞痛並解了水便。第一線用藥是？
+
+A. atropine　B. loperamide　C. 加快輸注速度　D. 口服抗生素
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：A**。這是早發性腹瀉，伴隨膽鹼性症狀，用 atropine 預防或緩解。遲發性腹瀉才用 loperamide，而且要立刻開始；合併腸阻塞、發燒或嚴重嗜中性球低下時才加抗生素（Actavis, 2025）。兩種腹瀉的處理不能搞反。
+
+</details>
+
+**Q5.** 乳癌術後病人打完 4 次輔助化療，追蹤影像完全正常，她問：「既然看不到腫瘤了，剩下的可以不打嗎？」下列哪一個觀念最能解釋為什麼要打完？
+
+A. Goldie–Coldman：腫瘤一定已經抗藥　B. 治療指數：劑量愈高愈安全　C. Log-kill：每次化療殺掉固定比例的細胞，影像看不到不等於沒有細胞　D. 第三空間效應
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：C**。Log-kill 假說指出一個劑量殺死固定比例、而不是固定數目的腫瘤細胞（Skipper et al., 1964; Hughes et al., 2026）。輔助化療要清的是影像看不到的微轉移（Fornier & Norton, 2005），次數不足就可能留下殘存細胞。
+
+</details>
+
+**Q6.** 關於乳癌處方縮寫裡的「T」，下列何者正確？
+
+A. AC-T 與 TC 的 T 都是 paclitaxel　B. AC-T 的 T 是 paclitaxel，TC 的 T 是 docetaxel　C. AC-T 與 TC 的 T 都是 docetaxel　D. AC-T 的 T 是 trastuzumab
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：B**。AC-T 是 doxorubicin ＋ cyclophosphamide 之後接 paclitaxel（Taxol）；TC 是 docetaxel（Taxotere）＋ cyclophosphamide（見 5.2）。兩個藥的前置用藥與毒性不同：paclitaxel 要預防溶劑引起的過敏（Teva Parenteral Medicines, 2026），docetaxel 要口服 dexamethasone 3 天以減少體液滯留（Mylan, 2026）。核對醫囑要看學名，不能只看縮寫。
+
+</details>
+
+**Q7.** 長期服用 warfarin 的轉移性乳癌病人要開始 capecitabine。最適當的做法是？
+
+A. 不需要調整，兩者沒有交互作用　B. 把 capecitabine 劑量加倍　C. 把 warfarin 換成 aspirin　D. 更頻繁監測 INR 並調整抗凝血藥劑量
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：D**。Capecitabine 與 warfarin 等維生素 K 拮抗劑併用會使 INR 上升並造成出血，曾有死亡案例，是美國仿單的加框警語；仿單要求更頻繁監測 INR 並調整抗凝血藥劑量（H2-Pharma, 2026）。5-FU 也有同樣的交互作用（Alembic, 2026）。
+
+</details>
+
+**Q8.** 關於 vincristine 的給藥安全，下列何者正確？
+
+A. 只能靜脈給藥，稀釋在軟袋中並標示僅供靜脈使用　B. 可以和 methotrexate 一起由腰椎穿刺給藥　C. 用針筒抽好放在床邊最方便　D. 外滲時冰敷即可
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：A**。Vincristine 經其他途徑給藥會致死。仿單要求稀釋在軟袋中並標示「FOR INTRAVENOUS USE ONLY – FATAL IF GIVEN BY OTHER ROUTES」；外滲時是局部注射 hyaluronidase 加熱敷（Hospira, 2026）。流程見[化療基礎第 14.3 節](../00-shared/01-chemo-basics.md#143-vinca-類為什麼一定用-minibag)。
+
+</details>
+
+**Q9.** 病人 3 年前在其他醫院打過 doxorubicin，累積 240 mg/m²。現在因轉移性肉瘤要再用 doxorubicin。給藥前專師最該做的是？
+
+A. 只計算這次療程的劑量　B. 把過去的累積劑量加進來，確認近期的 LVEF　C. 直接用同樣毫克數的 liposomal doxorubicin 取代　D. 預防性輸注 mesna
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：B**。Doxorubicin 的心肌病變和累積劑量成正比，累積 300–500 mg/m² 時發生率 1–20%，仿單要求治療前、中、後評估 LVEF（Pfizer, 2026）。機轉和心肌細胞的 topoisomerase IIβ 有關（Zhang et al., 2012）。Liposomal doxorubicin 是不同的藥，不可直接替換（Sagent, 2026）；mesna 保護的是膀胱，和心臟無關。
+
+</details>
+
+**Q10.** Paclitaxel 需要前置類固醇、diphenhydramine 與 H2 阻斷劑，nab-paclitaxel 的樞紐試驗卻沒有給前置用藥。主要原因是？
+
+A. nab-paclitaxel 劑量比較低　B. nab-paclitaxel 不會造成神經病變　C. Paclitaxel 的溶劑 polyoxyl 35 castor oil 會引起嚴重過敏，nab-paclitaxel 不含這個溶劑　D. Paclitaxel 由腎臟排除
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：C**。Paclitaxel 不溶於水，要用 polyoxyl 35 castor oil 當溶劑，這個溶劑會引起嚴重過敏（Weaver, 2014; Teva Parenteral Medicines, 2026）。nab-paclitaxel 是白蛋白結合的奈米粒子、不含溶劑；第三期試驗中沒有前置用藥，劑量反而較高（260 對 175 mg/m²），但第 3 級感覺神經病變較多（Gradishar et al., 2005）。
+
+</details>
+
+**Q11.** Ewing sarcoma 病人完成 VDC/IE 兩年後出現白血球很高的急性骨髓性白血病，染色體檢查為 11q23 易位，之前沒有 MDS 的階段。最可能和哪一類藥有關？
+
+A. 抗微管藥　B. 抗代謝物　C. 鉑類　D. Topoisomerase II 抑制劑
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：D**。Topoisomerase II 抑制劑相關的治療相關白血病潛伏期短（常在 2–3 年內）、很少先有 MDS、帶 11q23 或 21q22 的平衡易位。烷化劑型則是 5–7 年、先有 MDS、第 5 或第 7 號染色體異常（Godley & Larson, 2008）。VDC/IE 裡的 doxorubicin 與 etoposide 都是 topoisomerase II 抑制劑。
+
+</details>
+
+**Q12.** 把乳癌輔助 AC → paclitaxel 從每 3 週改成每 2 週（劑量密集），理論依據與必要配套是？
+
+A. Norton–Simon 假說；每個週期給 G-CSF　B. Log-kill 假說；把每次劑量加倍　C. Goldie–Coldman 假說；兩個處方交替給　D. 治療指數；減少總週期數
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：A**。Norton–Simon 假說認為腫瘤縮小的速率和它當時的生長速率成正比，被打小的腫瘤長得更快，所以要縮短間隔（Norton & Simon, 1977）。CALGB 9741 每次劑量不變、間隔縮成 2 週並給 filgrastim，DFS 的 RR 0.74、OS 的 RR 0.69（Citron et al., 2003）。把劑量再往上加並沒有好處（Fornier & Norton, 2005）。
+
+</details>
+
+**Q13.** 非鱗狀 NSCLC 病人預計下週開始 carboplatin ＋ pemetrexed。下列哪一項是 pemetrexed 特有、給藥前一定要確認的？
+
+A. LVEF　B. UGT1A1 基因型　C. 已開始口服 folic acid 並打過維生素 B12　D. 中心靜脈導管
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：C**。Pemetrexed 是抗葉酸藥。沒有補充維生素時，第 3–4 級嗜中性球低下與發燒性嗜中性球低下都明顯較多；仿單要求第一劑前 7 天開始每天口服 folic acid，並在第一劑前 1 週肌肉注射維生素 B12（Eli Lilly, 2023）。這個做法來自早期試驗的觀察（Niyikiza et al., 2002; Vogelzang et al., 2003）。另外要確認 CrCl ≥ 45 mL/min。
+
+</details>
+
+**Q14.** 軟組織肉瘤病人接受 ifosfamide 第 2 天，家屬說他整個下午嗜睡、答非所問。專師第一步是？
+
+A. 加開一劑 mesna　B. 給 leucovorin　C. 給安眠藥讓病人休息　D. 停止 ifosfamide 輸注並通知主治，評估腦病變
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：D**。Ifosfamide 的加框警語包含神經毒性：腦病變可以致死，出現腦病變要停藥（Fresenius Kabi, 2026）。Mesna 只中和尿液裡的毒性代謝物、保護膀胱（Eugia, 2026），對腦病變沒有幫助。後續評估與處置見[肉瘤章 6.2](../04-sarcoma.md#62-ifosfamide腦病變出血性膀胱炎與腎小管損傷)。
+
+</details>
+
+**Q15.** 胰臟癌病人第一次打 FOLFIRINOX，第 5 天就出現嚴重口腔黏膜炎、水瀉與 ANC 300/µL，比一般病人早而且嚴重得多。除了支持性治療，最需要想到的是？
+
+A. 對 oxaliplatin 過敏　B. DPD 缺乏，5-FU 排不掉　C. Leucovorin 劑量太低　D. 脫水造成的假象
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：B**。很早出現、嚴重得不尋常的黏膜炎、腹瀉與嗜中性球低下，是 DPD 缺乏的典型表現；仿單要求這種情況暫停或永久停用 5-FU（Alembic, 2026）。這個處方裡的 irinotecan 也要同時想到 UGT1A1（Actavis, 2025）。檢測與後續劑量見[化療基礎第 12 節](../00-shared/01-chemo-basics.md#12-藥物基因檢測與特殊族群評估)。
+
+</details>
+
+**Q16.** 藥局通知 liposomal irinotecan（Onivyde）暫時缺貨，詢問可否用相同毫克數的一般 irinotecan 代替。正確的回應是？
+
+A. 不可以，兩者劑量與藥動不同，仿單明訂不可互換，要請主治重新決定處方　B. 可以，成分相同　C. 可以，但輸注時間加倍　D. 可以，但要加 atropine
+
+<details>
+<summary>答案與詳解</summary>
+
+**答案：A**。Onivyde 的仿單以大寫字註明不可取代其他含 irinotecan 的藥品（Ipsen, 2025）。脂質體改變了藥物在體內停留的時間與分布（Thomas & Pommier, 2019），劑量不能直接換算。同樣的原則適用於 liposomal doxorubicin（Sagent, 2026）與 nab-paclitaxel（Abraxis, 2022）。
+
+</details>
+
+---
+
+## 11. 參考文獻
+
+APA 備註：（1）藥品仿單在內文以藥廠簡稱加年份引用，年份取自該版仿單的版本日期；仿單全文於 2026-11-11 經 DailyMed 以 SPL set ID 讀取，網址是同一 set ID 的頁面。同一個學名藥有多家藥廠的仿單，本章為每個藥選一家，內容以該版為準。（2）1980 年以前的原始論文有幾篇在 PubMed 沒有摘要（例如 Goodman 與 Wintrobe 1946、Farber 等 1948、Heidelberger 等 1957、Rosenberg 等 1965、Skipper 等 1964、Norton 與 Simon 1977），本章只引用書目資料本身能支持的事實，細節取自有摘要或開放全文可讀的回顧文獻。（3）台灣藥證與健保給付不在本章範圍，請見各癌別章第 9 段。
+
+Abraxis. (2022). *Abraxane (paclitaxel protein-bound particles for injectable suspension) (albumin-bound)* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24d10449-2936-4cd3-b7db-a7683db721e4（版本日期 2022-10-31）
+
+Accord. (2025). *Topotecan injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7636bc1e-77b6-46ad-9df0-c8bb1c5e503f（版本日期 2025-12-17）
+
+Accord. (2026). *Methotrexate injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd035a9f-cd40-4314-b9d8-2294b8a924e2（版本日期 2026-09-04）
+
+Actavis. (2025). *Irinotecan hydrochloride injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1fdcaa-918f-4cd8-9c7a-4c538d866198（版本日期 2025-05-31）
+
+Alembic. (2026). *Fluorouracil injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b34cbf2-66f9-48a4-b41f-deb84ba8e8c4（版本日期 2026-09-22）
+
+Alexander, S. F. (1947). Medical report on the Bari Harbor mustard casualties. *The Military Surgeon, 101*(1), 1–17. PMID: 20248701
+
+Arcamone, F., Cassinelli, G., Fantini, G., Grein, A., Orezzi, P., Pol, C., & Spalla, C. (1969). Adriamycin, 14-hydroxydaunomycin, a new antitumor antibiotic from S. peucetius var. caesius. *Biotechnology and Bioengineering, 11*(6), 1101–1110. https://doi.org/10.1002/bit.260110607（PMID: 5365804）
+
+Barenholz, Y. (2012). Doxil®—The first FDA-approved nano-drug: Lessons learned. *Journal of Controlled Release, 160*(2), 117–134. https://doi.org/10.1016/j.jconrel.2012.03.020（PMID: 22484195）
+
+BluePoint. (2026). *Cyclophosphamide for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d3396d8-4c03-4a28-890a-d87c6c53a74e（版本日期 2026-03-12）
+
+Bonadonna, G., Brusamolino, E., Valagussa, P., Rossi, A., Brugnatelli, L., Brambilla, C., De Lena, M., Tancini, G., Bajetta, E., Musumeci, R., & Veronesi, U. (1976). Combination chemotherapy as an adjuvant treatment in operable breast cancer. *New England Journal of Medicine, 294*(8), 405–410. https://doi.org/10.1056/NEJM197602192940801（PMID: 1246307）
+
+Brock, N. (1989). Oxazaphosphorine cytostatics: Past–present–future. Seventh Cain Memorial Award lecture. *Cancer Research, 49*(1), 1–7. PMID: 2491747
+
+Burris, H. A., Moore, M. J., Andersen, J., Green, M. R., Rothenberg, M. L., Modiano, M. R., Cripps, M. C., Portenoy, R. K., Storniolo, A. M., Tarassoff, P., Nelson, R., Dorr, F. A., Stephens, C. D., & Von Hoff, D. D. (1997). Improvements in survival and clinical benefit with gemcitabine as first-line therapy for patients with advanced pancreas cancer: A randomized trial. *Journal of Clinical Oncology, 15*(6), 2403–2413. https://doi.org/10.1200/JCO.1997.15.6.2403（PMID: 9196156）
+
+Calvert, A. H., Newell, D. R., Gumbrell, L. A., O'Reilly, S., Burnell, M., Boxall, F. E., Siddik, Z. H., Judson, I. R., Gore, M. E., & Wiltshaw, E. (1989). Carboplatin dosage: Prospective evaluation of a simple formula based on renal function. *Journal of Clinical Oncology, 7*(11), 1748–1756. https://doi.org/10.1200/JCO.1989.7.11.1748（PMID: 2681557）
+
+Christakis, P. (2011). The birth of chemotherapy at Yale. Bicentennial lecture series: Surgery Grand Round. *The Yale Journal of Biology and Medicine, 84*(2), 169–172. PMID: 21698052
+
+Citron, M. L., Berry, D. A., Cirrincione, C., Hudis, C., Winer, E. P., Gradishar, W. J., Davidson, N. E., Martino, S., Livingston, R., Ingle, J. N., Perez, E. A., Carpenter, J., Hurd, D., Holland, J. F., Smith, B. L., Sartor, C. I., Leung, E. H., Abrams, J., Schilsky, R. L., . . . Norton, L. (2003). Randomized trial of dose-dense versus conventionally scheduled and sequential versus concurrent combination chemotherapy as postoperative adjuvant treatment of node-positive primary breast cancer: First report of Intergroup Trial C9741/Cancer and Leukemia Group B Trial 9741. *Journal of Clinical Oncology, 21*(8), 1431–1439. https://doi.org/10.1200/JCO.2003.09.081（PMID: 12668651）
+
+Conroy, T., Desseigne, F., Ychou, M., Bouché, O., Guimbaud, R., Bécouarn, Y., Adenis, A., Raoul, J. L., Gourgou-Bourgade, S., de la Fouchardière, C., Bennouna, J., Bachet, J. B., Khemissa-Akouz, F., Péré-Vergé, D., Delbaldo, C., Assenat, E., Chauffert, B., Michel, P., Montoto-Grillot, C., & Ducreux, M. (2011). FOLFIRINOX versus gemcitabine for metastatic pancreatic cancer. *New England Journal of Medicine, 364*(19), 1817–1825. https://doi.org/10.1056/NEJMoa1011923（PMID: 21561347）
+
+Cortes, J., O'Shaughnessy, J., Loesch, D., Blum, J. L., Vahdat, L. T., Petrakova, K., Chollet, P., Manikas, A., Diéras, V., Delozier, T., Vladimirov, V., Cardoso, F., Koh, H., Bougnoux, P., Dutcus, C. E., Seegobin, S., Mir, D., Meneses, N., Wanders, J., & Twelves, C. (2011). Eribulin monotherapy versus treatment of physician's choice in patients with metastatic breast cancer (EMBRACE): A phase 3 open-label randomised study. *The Lancet, 377*(9769), 914–923. https://doi.org/10.1016/S0140-6736(11)60070-6（PMID: 21376385）
+
+Dasari, S., & Tchounwou, P. B. (2014). Cisplatin in cancer therapy: Molecular mechanisms of action. *European Journal of Pharmacology, 740*, 364–378. https://doi.org/10.1016/j.ejphar.2014.07.025（PMID: 25058905）
+
+Demetri, G. D., von Mehren, M., Jones, R. L., Hensley, M. L., Schuetze, S. M., Staddon, A., Milhem, M., Elias, A., Ganjoo, K., Tawbi, H., Van Tine, B. A., Spira, A., Dean, A., Khokhar, N. Z., Park, Y. C., Knoblauch, R. E., Parekh, T. V., Maki, R. G., & Patel, S. R. (2016). Efficacy and safety of trabectedin or dacarbazine for metastatic liposarcoma or leiomyosarcoma after failure of conventional chemotherapy: Results of a phase III randomized multicenter clinical trial. *Journal of Clinical Oncology, 34*(8), 786–793. https://doi.org/10.1200/JCO.2015.62.4734（PMID: 26371143）
+
+DeVita, V. T., & Chu, E. (2008). A history of cancer chemotherapy. *Cancer Research, 68*(21), 8643–8653. https://doi.org/10.1158/0008-5472.CAN-07-6611（PMID: 18974103）
+
+D'Incalci, M., & Galmarini, C. M. (2010). A review of trabectedin (ET-743): A unique mechanism of action. *Molecular Cancer Therapeutics, 9*(8), 2157–2163. https://doi.org/10.1158/1535-7163.MCT-10-0263（PMID: 20647340）
+
+Dumontet, C., Reichert, J. M., Senter, P. D., Lambert, J. M., & Beck, A. (2023). Antibody-drug conjugates come of age in oncology. *Nature Reviews Drug Discovery, 22*(8), 641–661. https://doi.org/10.1038/s41573-023-00709-2（PMID: 37308581）
+
+Early Breast Cancer Trialists' Collaborative Group (EBCTCG). (2019). Increasing the dose intensity of chemotherapy by more frequent administration or sequential scheduling: A patient-level meta-analysis of 37 298 women with early breast cancer in 26 randomised trials. *The Lancet, 393*(10179), 1440–1452. https://doi.org/10.1016/S0140-6736(18)33137-4（PMID: 30739743）
+
+Einhorn, L. H., & Donohue, J. (1977). Cis-diamminedichloroplatinum, vinblastine, and bleomycin combination chemotherapy in disseminated testicular cancer. *Annals of Internal Medicine, 87*(3), 293–298. https://doi.org/10.7326/0003-4819-87-3-293（PMID: 71004）
+
+Eisai. (2025). *Halaven (eribulin mesylate) injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822（版本日期 2025-11-07）
+
+Eli Lilly. (2023). *Alimta (pemetrexed) for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f5a860f3-37ec-429c-ae04-9c88d7c55c08（版本日期 2023-05-19）
+
+Emadi, A., Jones, R. J., & Brodsky, R. A. (2009). Cyclophosphamide and cancer: Golden anniversary. *Nature Reviews Clinical Oncology, 6*(11), 638–647. https://doi.org/10.1038/nrclinonc.2009.146（PMID: 19786984）
+
+Eugia. (2024). *Dactinomycin for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc（版本日期 2024-06-18）
+
+Eugia. (2026). *Mesna injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49e9c804-9e88-4774-8faf-35bd61b3a8e9（版本日期 2026-01-27）
+
+European Medicines Agency. (2025). *Teysuno (tegafur/gimeracil/oteracil): EPAR – Product information* (Annex I, Summary of product characteristics). 擷取日 2026-11-11（PDF 最後修改日期 2025-10-24）. https://www.ema.europa.eu/en/documents/product-information/teysuno-epar-product-information_en.pdf
+
+Falzone, L., Salomone, S., & Libra, M. (2018). Evolution of cancer pharmacological treatments at the turn of the third millennium. *Frontiers in Pharmacology, 9*, Article 1300. https://doi.org/10.3389/fphar.2018.01300（PMID: 30483135）
+
+Farber, S., Diamond, L. K., Mercer, R. D., Sylvester, R. F., & Wolff, J. A. (1948). Temporary remissions in acute leukemia in children produced by folic acid antagonist, 4-aminopteroyl-glutamic acid. *New England Journal of Medicine, 238*(23), 787–793. https://doi.org/10.1056/NEJM194806032382301（PMID: 18860765）（作者名單依 CrossRef 的 DOI 紀錄；PubMed 只列前兩位）
+
+Fenn, J. E., & Udelsman, R. (2011). First use of intravenous chemotherapy cancer treatment: Rectifying the record. *Journal of the American College of Surgeons, 212*(3), 413–417. https://doi.org/10.1016/j.jamcollsurg.2010.10.018（PMID: 21247779）
+
+Fornier, M., & Norton, L. (2005). Dose-dense adjuvant chemotherapy for primary breast cancer. *Breast Cancer Research, 7*(2), 64–69. https://doi.org/10.1186/bcr1007（PMID: 15743513）
+
+Fresenius Kabi. (2026). *Ifosfamide for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a311a947-7b78-4226-bfe0-f4aa0be20e27（版本日期 2026-04-09）
+
+Gland. (2026). *Leucovorin calcium for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82c445f5-4cb7-4457-af19-3b5b8a121b4f（版本日期 2026-10-15）
+
+Godley, L. A., & Larson, R. A. (2008). Therapy-related myeloid leukemia. *Seminars in Oncology, 35*(4), 418–429. https://doi.org/10.1053/j.seminoncol.2008.04.012（PMID: 18692692）
+
+Goldie, J. H., & Coldman, A. J. (1979). A mathematic model for relating the drug sensitivity of tumors to their spontaneous mutation rate. *Cancer Treatment Reports, 63*(11-12), 1727–1733. PMID: 526911
+
+Goodman, L. S., & Wintrobe, M. M. (1946). Nitrogen mustard therapy; use of methyl-bis (beta-chloroethyl) amine hydrochloride and tris (beta-chloroethyl) amine hydrochloride for Hodgkin's disease, lymphosarcoma, leukemia and certain allied and miscellaneous disorders. *Journal of the American Medical Association, 132*, 126–132. https://doi.org/10.1001/jama.1946.02870380008004（PMID: 20997191）（作者依 PubMed 與 CrossRef 紀錄所列）
+
+Gottesman, M. M., Fojo, T., & Bates, S. E. (2002). Multidrug resistance in cancer: Role of ATP-dependent transporters. *Nature Reviews Cancer, 2*(1), 48–58. https://doi.org/10.1038/nrc706（PMID: 11902585）
+
+Gradishar, W. J., Tjulandin, S., Davidson, N., Shaw, H., Desai, N., Bhar, P., Hawkins, M., & O'Shaughnessy, J. (2005). Phase III trial of nanoparticle albumin-bound paclitaxel compared with polyethylated castor oil-based paclitaxel in women with breast cancer. *Journal of Clinical Oncology, 23*(31), 7794–7803. https://doi.org/10.1200/JCO.2005.04.937（PMID: 16172456）
+
+Hande, K. R. (1998). Etoposide: Four decades of development of a topoisomerase II inhibitor. *European Journal of Cancer, 34*(10), 1514–1521. https://doi.org/10.1016/s0959-8049(98)00228-7（PMID: 9893622）
+
+Hegi, M. E., Diserens, A. C., Gorlia, T., Hamou, M. F., de Tribolet, N., Weller, M., Kros, J. M., Hainfellner, J. A., Mason, W., Mariani, L., Bromberg, J. E., Hau, P., Mirimanoff, R. O., Cairncross, J. G., Janzer, R. C., & Stupp, R. (2005). MGMT gene silencing and benefit from temozolomide in glioblastoma. *New England Journal of Medicine, 352*(10), 997–1003. https://doi.org/10.1056/NEJMoa043331（PMID: 15758010）
+
+Heidelberger, C., Chaudhuri, N. K., Danneberg, P., Mooren, D., Griesbach, L., Duschinsky, R., Schnitzer, R. J., Pleven, E., & Scheiner, J. (1957). Fluorinated pyrimidines, a new class of tumour-inhibitory compounds. *Nature, 179*(4561), 663–666. https://doi.org/10.1038/179663a0（PMID: 13418758）
+
+Hertel, L. W., Boder, G. B., Kroin, J. S., Rinzel, S. M., Poore, G. A., Todd, G. C., & Grindey, G. B. (1990). Evaluation of the antitumor activity of gemcitabine (2',2'-difluoro-2'-deoxycytidine). *Cancer Research, 50*(14), 4417–4422. PMID: 2364394
+
+Hikma. (2024). *Etoposide injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0cd61b9-2375-4e3d-a610-d87dad962468（版本日期 2024-09-05）
+
+Hikma. (2025). *Dacarbazine for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d81315c-7021-4091-b703-ad135390c936（版本日期 2025-09-22）
+
+Hikma. (2026). *Mitomycin for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5917f7a7-cd20-407b-8dda-9fd58c5f47a6（版本日期 2026-05-29）
+
+Holohan, C., Van Schaeybroeck, S., Longley, D. B., & Johnston, P. G. (2013). Cancer drug resistance: An evolving paradigm. *Nature Reviews Cancer, 13*(10), 714–726. https://doi.org/10.1038/nrc3599（PMID: 24060863）
+
+Hospira. (2026). *Vincristine sulfate injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c（版本日期 2026-02-17）
+
+Howard, S. C., McCormick, J., Pui, C.-H., Buddington, R. K., & Harvey, R. D. (2016). Preventing and managing toxicities of high-dose methotrexate. *The Oncologist, 21*(12), 1471–1482. https://doi.org/10.1634/theoncologist.2015-0164（PMID: 27496039）
+
+H2-Pharma. (2026). *Xeloda (capecitabine) tablets* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5（版本日期 2026-02-05）
+
+Hsiang, Y. H., Hertzberg, R., Hecht, S., & Liu, L. F. (1985). Camptothecin induces protein-linked DNA breaks via mammalian DNA topoisomerase I. *The Journal of Biological Chemistry, 260*(27), 14873–14878. PMID: 2997227
+
+Hughes, E. A., Davenport, L. L., Zdyrski, C., Pawlak, A., Mochel, J. P., & Douglass, E. F. (2026). Gaps and paths forward in cancer pharmacology and translational research. *Frontiers in Pharmacology, 17*, Article 1779049. https://doi.org/10.3389/fphar.2026.1779049（PMID: 42038297）
+
+Ipsen. (2025). *Onivyde (irinotecan liposome injection)* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c8b58efa-1820-48a4-b70d-62918fc4abfc（版本日期 2025-03-03）
+
+Jaffe, N., Frei, E., Traggis, D., & Bishop, Y. (1974). Adjuvant methotrexate and citrovorum-factor treatment of osteogenic sarcoma. *New England Journal of Medicine, 291*(19), 994–997. https://doi.org/10.1056/NEJM197411072911902（PMID: 4606174）
+
+Janssen Products. (2026). *Yondelis (trabectedin) for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472bd78e-be17-4b9d-90f4-9482c3aec9ff（版本日期 2026-01-06）
+
+Juliano, R. L., & Ling, V. (1976). A surface glycoprotein modulating drug permeability in Chinese hamster ovary cell mutants. *Biochimica et Biophysica Acta, 455*(1), 152–162. https://doi.org/10.1016/0005-2736(76)90160-7（PMID: 990323）
+
+Kelland, L. (2007). The resurgence of platinum-based cancer chemotherapy. *Nature Reviews Cancer, 7*(8), 573–584. https://doi.org/10.1038/nrc2167（PMID: 17625587）
+
+Kunimoto, T., Nitta, K., Tanaka, T., Uehara, N., Baba, H., Takeuchi, M., Yokokura, T., Sawada, S., Miyasaka, T., & Mutai, M. (1987). Antitumor activity of 7-ethyl-10-[4-(1-piperidino)-1-piperidino]carbonyloxy-camptothecin, a novel water-soluble derivative of camptothecin, against murine tumors. *Cancer Research, 47*(22), 5944–5947. PMID: 3664496
+
+McGowan, J. V., Chung, R., Maulik, A., Piotrowska, I., Walker, J. M., & Yellon, D. M. (2017). Anthracycline chemotherapy and cardiotoxicity. *Cardiovascular Drugs and Therapy, 31*(1), 63–75. https://doi.org/10.1007/s10557-016-6711-0（PMID: 28185035）
+
+Meitheal. (2025). *Gemcitabine injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0b1b715-9ff8-43ca-9e49-465f1f380084（版本日期 2025-07-23）
+
+Meitheal. (2026). *Bleomycin for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee（版本日期 2026-04-17）
+
+Merck Sharp & Dohme. (2026). *Temodar (temozolomide) capsules and for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56（版本日期 2026-02-20）
+
+Miller, D. R. (2006). A tribute to Sidney Farber—the father of modern chemotherapy. *British Journal of Haematology, 134*(1), 20–26. https://doi.org/10.1111/j.1365-2141.2006.06119.x（PMID: 16803563）
+
+Miwa, M., Ura, M., Nishida, M., Sawada, N., Ishikawa, T., Mori, K., Shimma, N., Umeda, I., & Ishitsuka, H. (1998). Design of a novel oral fluoropyrimidine carbamate, capecitabine, which generates 5-fluorouracil selectively in tumours by enzymes concentrated in human liver and cancer tissue. *European Journal of Cancer, 34*(8), 1274–1281. https://doi.org/10.1016/s0959-8049(98)00058-6（PMID: 9849491）
+
+Monneret, C. (2011). Platinum anticancer drugs. From serendipity to rational design. *Annales Pharmaceutiques Françaises, 69*(6), 286–295. https://doi.org/10.1016/j.pharma.2011.10.001（PMID: 22115131）
+
+Mylan. (2026). *Docetaxel injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2992d633-08fa-44f3-b14d-41700f24686b（版本日期 2026-04-15）
+
+Natco. (2026). *Carboplatin injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c89cedc-e48b-445c-ad05-54dbe60e4fb0（版本日期 2026-07-21）
+
+Niyikiza, C., Baker, S. D., Seitz, D. E., Walling, J. M., Nelson, K., Rusthoven, J. J., Stabler, S. P., Paoletti, P., Calvert, A. H., & Allen, R. H. (2002). Homocysteine and methylmalonic acid: Markers to predict and avoid toxicity from pemetrexed therapy. *Molecular Cancer Therapeutics, 1*(7), 545–552. PMID: 12479273
+
+Noble, R. L. (1990). The discovery of the vinca alkaloids—chemotherapeutic agents against cancer. *Biochemistry and Cell Biology, 68*(12), 1344–1351. PMID: 2085431
+
+Norton, L., & Simon, R. (1977). Tumor size, sensitivity to therapy, and design of treatment schedules. *Cancer Treatment Reports, 61*(7), 1307–1317. PMID: 589597
+
+Paus, R., Haslam, I. S., Sharov, A. A., & Botchkarev, V. A. (2013). Pathobiology of chemotherapy-induced hair loss. *The Lancet Oncology, 14*(2), e50–e59. https://doi.org/10.1016/S1470-2045(12)70553-3（PMID: 23369683）
+
+Pfizer. (2026). *Doxorubicin hydrochloride injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00634b2b-4e48-4178-8877-28582af894ad（版本日期 2026-04-30）
+
+Pharmacia & Upjohn. (2026). *Ellence (epirubicin hydrochloride injection)* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42（版本日期 2026-07-24）
+
+Ringel, I., & Horwitz, S. B. (1991). Studies with RP 56976 (taxotere): A semisynthetic analogue of taxol. *Journal of the National Cancer Institute, 83*(4), 288–291. https://doi.org/10.1093/jnci/83.4.288（PMID: 1671606）
+
+Rosenberg, B., VanCamp, L., & Krigas, T. (1965). Inhibition of cell division in Escherichia coli by electrolysis products from a platinum electrode. *Nature, 205*, 698–699. https://doi.org/10.1038/205698a0（PMID: 14287410）
+
+Rosenberg, B., VanCamp, L., Trosko, J. E., & Mansour, V. H. (1969). Platinum compounds: A new class of potent antitumour agents. *Nature, 222*(5191), 385–386. https://doi.org/10.1038/222385a0（PMID: 5782119）
+
+Sagent. (2024). *Vinorelbine injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397（版本日期 2024-08-16）
+
+Sagent. (2025). *Oxaliplatin injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29a5d098-bfa7-4a65-bb4f-5daa1fef1c2f（版本日期 2025-09-09）
+
+Sagent. (2026). *Doxorubicin hydrochloride liposome injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c8eb4784-36e0-483f-9e5d-af0552e49bb5（版本日期 2026-02-24）
+
+Sakai, W., Swisher, E. M., Karlan, B. Y., Agarwal, M. K., Higgins, J., Friedman, C., Villegas, E., Jacquemont, C., Farrugia, D. J., Couch, F. J., Urban, N., & Taniguchi, T. (2008). Secondary mutations as a mechanism of cisplatin resistance in BRCA2-mutated cancers. *Nature, 451*(7182), 1116–1120. https://doi.org/10.1038/nature06633（PMID: 18264087）
+
+Schiff, P. B., Fant, J., & Horwitz, S. B. (1979). Promotion of microtubule assembly in vitro by taxol. *Nature, 277*(5698), 665–667. https://doi.org/10.1038/277665a0（PMID: 423966）
+
+Schöffski, P., Chawla, S., Maki, R. G., Italiano, A., Gelderblom, H., Choy, E., Grignani, G., Camargo, V., Bauer, S., Rha, S. Y., Blay, J.-Y., Hohenberger, P., D'Adamo, D., Guo, M., Chmielowski, B., Le Cesne, A., Demetri, G. D., & Patel, S. R. (2016). Eribulin versus dacarbazine in previously treated patients with advanced liposarcoma or leiomyosarcoma: A randomised, open-label, multicentre, phase 3 trial. *The Lancet, 387*(10028), 1629–1637. https://doi.org/10.1016/S0140-6736(15)01283-0（PMID: 26874885）
+
+Seiwert, T. Y., Salama, J. K., & Vokes, E. E. (2007). The concurrent chemoradiation paradigm—general principles. *Nature Clinical Practice Oncology, 4*(2), 86–100. https://doi.org/10.1038/ncponc0714（PMID: 17259930）
+
+Shirasaka, T., Shimamato, Y., Ohshimo, H., Yamaguchi, M., Kato, T., Yonekura, K., & Fukushima, M. (1996). Development of a novel form of an oral 5-fluorouracil derivative (S-1) directed to the potentiation of the tumor selective cytotoxicity of 5-fluorouracil by two biochemical modulators. *Anti-Cancer Drugs, 7*(5), 548–557. https://doi.org/10.1097/00001813-199607000-00010（PMID: 8862723）
+
+Skipper, H. E., Schabel, F. M., & Wilcox, W. S. (1964). Experimental evaluation of potential anticancer agents. XIII. On the criteria and kinetics associated with "curability" of experimental leukemia. *Cancer Chemotherapy Reports, 35*, 1–111. PMID: 14117037
+
+Stupp, R., Mason, W. P., van den Bent, M. J., Weller, M., Fisher, B., Taphoorn, M. J., Belanger, K., Brandes, A. A., Marosi, C., Bogdahn, U., Curschmann, J., Janzer, R. C., Ludwin, S. K., Gorlia, T., Allgeier, A., Lacombe, D., Cairncross, J. G., Eisenhauer, E., & Mirimanoff, R. O. (2005). Radiotherapy plus concomitant and adjuvant temozolomide for glioblastoma. *New England Journal of Medicine, 352*(10), 987–996. https://doi.org/10.1056/NEJMoa043330（PMID: 15758009）
+
+Swain, S. M., Whaley, F. S., & Ewer, M. S. (2003). Congestive heart failure in patients treated with doxorubicin: A retrospective analysis of three trials. *Cancer, 97*(11), 2869–2879. https://doi.org/10.1002/cncr.11407（PMID: 12767102）
+
+Teva Parenteral Medicines. (2026). *Paclitaxel injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be6cbf-72b9-4f7f-9b1b-459b2d35961a（版本日期 2026-09-09）
+
+Thomas, A., & Pommier, Y. (2019). Targeting topoisomerase I in the era of precision medicine. *Clinical Cancer Research, 25*(22), 6581–6589. https://doi.org/10.1158/1078-0432.CCR-19-1089（PMID: 31227499）
+
+Towle, M. J., Salvato, K. A., Budrow, J., Wels, B. F., Kuznetsov, G., Aalfs, K. K., Welsh, S., Zheng, W., Seletsky, B. M., Palme, M. H., Habgood, G. J., Singer, L. A., Dipietro, L. V., Wang, Y., Chen, J. J., Quincy, D. A., Davis, A., Yoshimatsu, K., Kishi, Y., . . . Littlefield, B. A. (2001). In vitro and in vivo anticancer activities of synthetic macrocyclic ketone analogues of halichondrin B. *Cancer Research, 61*(3), 1013–1021. PMID: 11221827
+
+Turner, M. D., & Sapp, J. (2026). The Bari bombing and the birth of chemotherapy. *Military Medicine, 191*(9-10), 148–150. https://doi.org/10.1093/milmed/usaf568（PMID: 41223052）
+
+Uesaka, K., Boku, N., Fukutomi, A., Okamura, Y., Konishi, M., Matsumoto, I., Kaneoka, Y., Shimizu, Y., Nakamori, S., Sakamoto, H., Morinaga, S., Kainuma, O., Imai, K., Sata, N., Hishinuma, S., Ojima, H., Yamaguchi, R., Hirano, S., Sudo, T., & Ohashi, Y. (2016). Adjuvant chemotherapy of S-1 versus gemcitabine for resected pancreatic cancer: A phase 3, open-label, randomised, non-inferiority trial (JASPAC 01). *The Lancet, 388*(10041), 248–257. https://doi.org/10.1016/S0140-6736(16)30583-9（PMID: 27265347）
+
+Umezawa, H., Maeda, K., Takeuchi, T., & Okami, Y. (1966). New antibiotics, bleomycin A and B. *The Journal of Antibiotics, 19*(5), 200–209. PMID: 5953301
+
+Vogelzang, N. J., Rusthoven, J. J., Symanowski, J., Denham, C., Kaukel, E., Ruffie, P., Gatzemeier, U., Boyer, M., Emri, S., Manegold, C., Niyikiza, C., & Paoletti, P. (2003). Phase III study of pemetrexed in combination with cisplatin versus cisplatin alone in patients with malignant pleural mesothelioma. *Journal of Clinical Oncology, 21*(14), 2636–2644. https://doi.org/10.1200/JCO.2003.11.136（PMID: 12860938）
+
+Von Hoff, D. D., Ervin, T., Arena, F. P., Chiorean, E. G., Infante, J., Moore, M., Seay, T., Tjulandin, S. A., Ma, W. W., Saleh, M. N., Harris, M., Reni, M., Dowden, S., Laheru, D., Bahary, N., Ramanathan, R. K., Tabernero, J., Hidalgo, M., Goldstein, D., . . . Renschler, M. F. (2013). Increased survival in pancreatic cancer with nab-paclitaxel plus gemcitabine. *New England Journal of Medicine, 369*(18), 1691–1703. https://doi.org/10.1056/NEJMoa1304369（PMID: 24131140）
+
+Wall, M. E., & Wani, M. C. (1995). Camptothecin and taxol: Discovery to clinic—Thirteenth Bruce F. Cain Memorial Award Lecture. *Cancer Research, 55*(4), 753–760. PMID: 7850785
+
+Wang-Gillam, A., Li, C. P., Bodoky, G., Dean, A., Shan, Y. S., Jameson, G., Macarulla, T., Lee, K. H., Cunningham, D., Blanc, J. F., Hubner, R. A., Chiu, C. F., Schwartsmann, G., Siveke, J. T., Braiteh, F., Moyo, V., Belanger, B., Dhindsa, N., Bayever, E., . . . Chen, L. T. (2016). Nanoliposomal irinotecan with fluorouracil and folinic acid in metastatic pancreatic cancer after previous gemcitabine-based therapy (NAPOLI-1): A global, randomised, open-label, phase 3 trial. *The Lancet, 387*(10018), 545–557. https://doi.org/10.1016/S0140-6736(15)00986-1（PMID: 26615328）
+
+Wani, M. C., Taylor, H. L., Wall, M. E., Coggon, P., & McPhail, A. T. (1971). Plant antitumor agents. VI. The isolation and structure of taxol, a novel antileukemic and antitumor agent from Taxus brevifolia. *Journal of the American Chemical Society, 93*(9), 2325–2327. https://doi.org/10.1021/ja00738a045（PMID: 5553076）
+
+Weaver, B. A. (2014). How Taxol/paclitaxel kills cancer cells. *Molecular Biology of the Cell, 25*(18), 2677–2681. https://doi.org/10.1091/mbc.E14-04-0916（PMID: 25213191）
+
+WG Critical Care. (2026). *Cisplatin for injection* [Package insert]. DailyMed. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508496cb-3441-46b3-a4fe-e0d440e6adc6（版本日期 2026-06-24）
+
+Zhang, S., Liu, X., Bawa-Khalfe, T., Lu, L. S., Lyu, Y. L., Liu, L. F., & Yeh, E. T. (2012). Identification of the molecular basis of doxorubicin-induced cardiotoxicity. *Nature Medicine, 18*(11), 1639–1642. https://doi.org/10.1038/nm.2919（PMID: 23104132）
