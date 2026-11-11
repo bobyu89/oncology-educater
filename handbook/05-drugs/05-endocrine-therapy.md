@@ -98,7 +98,7 @@ Jensen 在 1960 年代初證明，放射標記的 estradiol 會被子宮等目�
 
 ### 1.4 Tamoxifen：一個失敗的避孕藥
 
-1962 年，ICI 藥廠的化學家 Dora Richardson 在避孕藥計畫中合成了 ICI 46,474。計畫主持人是生物學家 Arthur Walpole，內分泌學家 Mike Harper 負責動物試驗（Quirke, 2017）。在大鼠，它是很有效的事後避孕藥（Harper & Walpole, 1967）。但用在女性時結果相反：它**誘發排卵**，不能避孕。加上在美國拿不到專利，ICI 董事會一度決定終止計畫，Walpole 以辭職相逼才保住它，並把它轉向乳癌（Quirke, 2017）。
+1962 年，ICI 藥廠的化學家 Dora Richardson 在避孕藥計畫中合成了 ICI 46,474。計畫主持人是生物學家 Arthur Walpole，內分泌學家 Mike Harper 同年加入團隊，協助篩選化合物（Quirke, 2017）。在大鼠，它是很有效的事後避孕藥（Harper & Walpole, 1967）。但用在女性時結果相反：它**誘發排卵**，不能避孕。加上在美國拿不到專利，ICI 董事會一度決定終止計畫，Walpole 以辭職相逼才保住它，並把它轉向乳癌（Quirke, 2017）。
 
 - **第一個臨床試驗**：曼徹斯特 Christie 醫院，46 位晚期乳癌病人，10 位反應良好；療效與當時使用的雌激素、雄性素相當，但副作用少得多（Cole et al., 1971）。
 - **實驗室的轉折**：V. Craig Jordan 1974 年起在里茲大學證明 tamoxifen 會擋住 estradiol 與 ER 的結合，並能預防致癌物誘發的大鼠乳腺腫瘤；他在動物身上發現，腫瘤負荷小的時候長期給藥效果最好，這成為「長期輔助治療」的依據（Jordan, 2006）。
@@ -124,7 +124,7 @@ Jensen 在 1960 年代初證明，放射標記的 estradiol 會被子宮等目�
 
 ### 1.6 GnRH：先升後降的十胜肽
 
-1971 年，Schally 團隊定出 LHRH 的結構：一個十胜肽，同時調控黃體成長激素（LH）與濾泡刺激素（FSH）的分泌（Schally et al., 1971）。接下來的發現很反直覺：**持續**給 LHRH agonist，一開始 LH 與性荷爾蒙短暫上升，之後腦下垂體的受體 downregulation，性荷爾蒙反而掉到去勢的程度（Denmeade & Isaacs, 2002）。
+1971 年，Schally 團隊定出 LHRH 的結構：一個十胜肽，同時調控黃體生成素（LH）與濾泡刺激素（FSH）的分泌（Schally et al., 1971）。接下來的發現很反直覺：**持續**給 LHRH agonist，一開始 LH 與性荷爾蒙短暫上升，之後腦下垂體的受體 downregulation，性荷爾蒙反而掉到去勢的程度（Denmeade & Isaacs, 2002）。
 
 - 攝護腺癌：Schally 與臨床團隊在 10 位病人身上看到腫瘤縮小與骨痛緩解（Tolis et al., 1982）；隨後的隨機試驗顯示 leuprolide 的客觀反應率與 DES 相當（86% 對 85%），副作用較少（Leuprolide Study Group, 1984）。
 - 乳癌：停經前轉移性乳癌的四項隨機試驗整合分析顯示，LHRH agonist 加 tamoxifen 優於 LHRH agonist 單用（整體存活 HR 0.78，無惡化存活 HR 0.70）（Klijn et al., 2001）；之後 SOFT 與 TEXT 把 OFS 帶進早期乳癌（見 [5.2](#52-早期乳癌)）。
@@ -180,12 +180,12 @@ Fulvestrant 只能肌肉注射，藥廠因此開發口服 SERD。第一個成功
 
 ### 2.3 四個下手的位置
 
-| 位置 | 藥 | 做了什麼 | 血中雌激素 | ER 蛋白 |
+| 位置 | 藥 | 做了什麼 | 對雌激素濃度 | 對 ER 蛋白 |
 |------|-----|---------|-----------|--------|
 | 卵巢（源頭） | GnRH agonist、卵巢切除 | 讓卵巢停止製造雌激素；goserelin 約 3 週把 estradiol 壓到停經後範圍 | 降到停經後程度 | 不變 |
 | 周邊 aromatase | AI | anastrozole 1 mg 在 14 天後讓 estradiol 降約 80%；letrozole 讓雌激素降 75–95%；exemestane 讓全身 aromatization 降 98% | 停經後再降到極低 | 不變 |
-| 受體的口袋 | SERM | 與雌激素競爭 ER，讓受體擺成「關」的形狀 | 不降 | 不變 |
-| 受體本身 | SERD、PROTAC | 拮抗 ER，並使 ER 蛋白減少 | 不降 | 減少 |
+| 受體的口袋 | SERM | 與雌激素競爭 ER，讓受體擺成「關」的形狀 | 不靠降低雌激素 | 不變 |
+| 受體本身 | SERD、PROTAC | 拮抗 ER，並使 ER 蛋白減少 | 不靠降低雌激素 | 減少 |
 
 （出處：TerSera, 2026；ANI Pharmaceuticals, 2026；Novartis Pharmaceuticals Corporation, 2024；Pharmacia & Upjohn, 2025；Shiau et al., 1998；AstraZeneca, 2020。）
 
@@ -468,7 +468,7 @@ SOFT 與 TEXT 的 15 年最終報告把訊息說得更清楚：在 SOFT 沒有�
 | 步驟 | 做什麼 | 關鍵證據 |
 |------|-------|---------|
 | 第一線 | AI（停經前加 OFS）加 CDK4/6 抑制劑 | 這是轉移性 ER 陽性乳癌的標準第一線（Hanker et al., 2020）。MONALEESA-2：ribociclib 加 letrozole 的整體存活 63.9 對 51.4 個月（HR 0.76，0.63–0.93）（Hortobagyi et al., 2022） |
-| 惡化時 | 驗血中 ctDNA 的 ESR1；確認 PIK3CA、AKT1、PTEN 與 germline BRCA 的結果 | ASCO 建議在內分泌治療（含或不含 CDK4/6 抑制劑）復發或惡化時常規驗 ESR1，優先用血液 ctDNA（Burstein et al., 2023；措辭取自 ASCO Post 對該更新的報導，指引全文未能開啟） |
+| 惡化時 | 驗血中 ctDNA 的 ESR1；確認 PIK3CA、AKT1、PTEN 與 germline BRCA 的結果 | ASCO 建議在內分泌治療（含或不含 CDK4/6 抑制劑）復發或惡化時常規驗 ESR1，優先用血液 ctDNA（Burstein et al., 2023；指引全文未能開啟，措辭取自 ASCO Post 報導的摘要，見 7.4 的待核對框） |
 | ESR1 突變 | 口服 SERD 或 PROTAC 降解劑 | 見 [7.3](#73-下一代藥物證據與限制) |
 | PIK3CA、AKT1 或 PTEN 變異 | fulvestrant 加 alpelisib 或 capivasertib | SOLAR-1 與 CAPItello-291 都顯示無惡化存活延長；alpelisib 的 grade 3–4 高血糖 36.6%，capivasertib 的 grade ≥3 皮疹 12.1%、腹瀉 9.3%（André et al., 2019；Turner et al., 2023） |
 | PIK3CA 突變且內分泌抗藥，尚未治療轉移 | inavolisib 加 palbociclib 加 fulvestrant | INAVO120（Turner et al., 2024） |
@@ -671,7 +671,7 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 
 ### 7.4 用液態切片追 ESR1：惡化才驗，還是邊治療邊驗
 
-**惡化時驗**是目前指引的做法：ASCO 建議在內分泌治療復發或惡化時常規驗 ESR1，優先用血液 ctDNA；結果為野生型的人，下次惡化時可以再驗（Burstein et al., 2023；措辭取自 ASCO Post 的報導）。
+**惡化時驗**是目前指引的做法：ASCO 建議在內分泌治療復發或惡化時常規驗 ESR1，優先用血液 ctDNA；結果為野生型的人，下次惡化時可以再驗（Burstein et al., 2023；措辭取自 ASCO Post 報導的摘要）。
 
 **邊治療邊驗**有兩個隨機試驗：
 
@@ -682,7 +682,7 @@ AI 與 OFS 把雌激素壓到很低，陰道乾澀與性交疼痛很常見，病
 
 > [!CAUTION]
 > **待核對：台灣的 ESR1 ctDNA 檢測與新藥可近性**
-> 乳癌章依 TFDA 2026-10-27 資料與健保 115/10/22 版整理：imlunestrant 有藥證但無健保給付，elacestrant、camizestrant、vepdegestrant 沒有藥證（見[乳癌章 4.12](../03-breast-cancer.md#412-新藥與常用藥在台灣的藥證與健保狀態)）。ESR1 ctDNA 檢測在台灣是否有健保給付、院內用哪一種檢測平台，本章沒有查到資料，請向院內分子病理與個案管理師確認。
+> 乳癌章依 TFDA 2026-10-27 資料與健保 115/10/22 版整理：imlunestrant 有藥證但無健保給付，elacestrant、camizestrant、vepdegestrant 沒有藥證（見[乳癌章 4.12](../03-breast-cancer.md#412-新藥與常用藥在台灣的藥證與健保狀態)）。ESR1 ctDNA 檢測在台灣是否有健保給付、院內用哪一種檢測平台，本章沒有查到資料，請向院內分子病理與個案管理師確認。另外，ASCO 2023 年 ESR1 檢測快速更新的全文無法開啟（PubMed 沒有摘要），本章對它的描述來自 ASCO Post 報導的摘要，引用前請對照原文（Burstein et al., 2023）。
 
 ---
 
@@ -941,5 +941,221 @@ A. 直接判定內分泌抗藥，改用化療　B. 用不帶責備的方式問�
 
 ## 11. 參考文獻
 
-REFS_PLACEHOLDER
+APA 第 7 版。作者超過 20 位時列前 19 位、省略號與最後一位。期刊文獻於 2026-11-11 以 PubMed 核對作者、年份、卷期、頁碼、DOI 與 PMID（線上先行發表與紙本年份不同時採紙本卷期的年份）；PubMed 沒有登錄 DOI 的舊文獻只列 PMID（EBCTCG 1998 的 DOI 另以 doi.org 解析結果與 PubMed 的 PII 相符確認）。美國仿單於同日自 DailyMed 讀取，條目年份為仿單生效或修訂的年份。內文引用仿單時用廠商名稱的簡稱（例如 AstraZeneca、TerSera、Teva Pharmaceuticals、Pharmacia & Upjohn）。
+
+Allison, K. H., Hammond, M. E. H., Dowsett, M., McKernin, S. E., Carey, L. A., Fitzgibbons, P. L., Hayes, D. F., Lakhani, S. R., Chavez-MacGregor, M., Perlmutter, J., Perou, C. M., Regan, M. M., Rimm, D. L., Symmans, W. F., Torlakovic, E. E., Varella, L., Viale, G., Weisberg, T. F., McShane, L. M., & Wolff, A. C. (2020). Estrogen and progesterone receptor testing in breast cancer: ASCO/CAP guideline update. *Journal of Clinical Oncology, 38*(12), 1346–1366. https://doi.org/10.1200/JCO.19.02309（PMID: 31928404）
+
+American College of Obstetricians and Gynecologists. (2014). Committee Opinion No. 601: Tamoxifen and uterine cancer. *Obstetrics & Gynecology, 123*(6), 1394–1397. https://doi.org/10.1097/01.AOG.0000450757.18294.cf（PMID: 24848920）
+
+André, F., Ciruelos, E., Rubovszky, G., Campone, M., Loibl, S., Rugo, H. S., Iwata, H., Conte, P., Mayer, I. A., Kaufman, B., Yamashita, T., Lu, Y.-S., Inoue, K., Takahashi, M., Pápai, Z., Longin, A.-S., Mills, D., Wilke, C., Hirawat, S., & Juric, D. (2019). Alpelisib for PIK3CA-mutated, hormone receptor-positive advanced breast cancer. *New England Journal of Medicine, 380*(20), 1929–1940. https://doi.org/10.1056/NEJMoa1813904（PMID: 31091374）
+
+ANI Pharmaceuticals, Inc. (2026). *ARIMIDEX (anastrozole): Prescribing information* (revised 2025-12; DailyMed version effective 2026-03-02). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de
+
+Arvinas Operations, Inc. (2026). *VEPPANU (vepdegestrant): Prescribing information* (revised 2026-04). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=751e18d5-1d41-4b67-b1f3-10272ca5312d
+
+AstraZeneca Pharmaceuticals LP. (2020). *FASLODEX (fulvestrant): Prescribing information* (effective 2020-09-25). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=83d7a440-e904-4e36-afb5-cb02b1c919f7
+
+AstraZeneca Pharmaceuticals LP. (2026). *ETCAMAH (camizestrant): Prescribing information* (effective 2026-09-04). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c54223d3-f3c7-4186-afa0-429d84805826
+
+Bardia, A., Cortés, J., Bidard, F.-C., Neven, P., Garcia-Sáenz, J., Aftimos, P., O'Shaughnessy, J., Lu, J., Tonini, G., Scartoni, S., Paoli, A., Binaschi, M., Wasserman, T., & Kaklamani, V. (2024). Elacestrant in ER+, HER2− metastatic breast cancer with ESR1-mutated tumors: Subgroup analyses from the phase III EMERALD trial by prior duration of endocrine therapy plus CDK4/6 inhibitor and in clinical subgroups. *Clinical Cancer Research, 30*(19), 4299–4309. https://doi.org/10.1158/1078-0432.CCR-24-1073（PMID: 39087959）
+
+Baum, M., Budzar, A. U., Cuzick, J., Forbes, J., Houghton, J. H., Klijn, J. G. M., Sahmoud, T., & ATAC Trialists' Group. (2002). Anastrozole alone or in combination with tamoxifen versus tamoxifen alone for adjuvant treatment of postmenopausal women with early breast cancer: First results of the ATAC randomised trial. *The Lancet, 359*(9324), 2131–2139. https://doi.org/10.1016/S0140-6736(02)09088-8（PMID: 12090977）
+
+Bellet, M., Gray, K. P., Francis, P. A., Láng, I., Ciruelos, E., Lluch, A., Climent, M. A., Catalán, G., Avella, A., Bohn, U., González-Martin, A., Ferrer, R., Catalán, R., Azaro, A., Rajasekaran, A., Morales, J., Vázquez, J., Fleming, G. F., Price, K. N., & Regan, M. M. (2016). Twelve-month estrogen levels in premenopausal women with hormone receptor–positive breast cancer receiving adjuvant triptorelin plus exemestane or tamoxifen in the Suppression of Ovarian Function Trial (SOFT): The SOFT-EST substudy. *Journal of Clinical Oncology, 34*(14), 1584–1593. https://doi.org/10.1200/JCO.2015.61.2259（PMID: 26729437）
+
+Bidard, F.-C., Hardy-Bessard, A.-C., Dalenc, F., Bachelot, T., Pierga, J.-Y., de la Motte Rouge, T., Sabatier, R., Dubot, C., Frenel, J.-S., Ferrero, J. M., Ladoire, S., Levy, C., Mouret-Reynier, M.-A., Lortholary, A., Grenier, J., Chakiba, C., Stefani, L., Plaza, J. E., Clatot, F., . . . Delaloge, S. (2022). Switch to fulvestrant and palbociclib versus no switch in advanced breast cancer with rising ESR1 mutation during aromatase inhibitor and palbociclib therapy (PADA-1): A randomised, open-label, multicentre, phase 3 trial. *The Lancet Oncology, 23*(11), 1367–1377. https://doi.org/10.1016/S1470-2045(22)00555-1（PMID: 36183733）
+
+Bidard, F.-C., Mayer, E. L., Park, Y. H., Janni, W., Ma, C., Cristofanilli, M., Bianchini, G., Kalinsky, K., Iwata, H., Chia, S., Fasching, P. A., Brufsky, A., Nowecki, Z., Pascual, J., Moreau, L., Chen, S.-C., Karadurmus, N., Gal-Yam, E. N., Jung, K. H., . . . Turner, N. C. (2025). First-line camizestrant for emerging ESR1-mutated advanced breast cancer. *New England Journal of Medicine, 393*(6), 569–580. https://doi.org/10.1056/NEJMoa2502929（PMID: 40454637）
+
+Breast International Group (BIG) 1-98 Collaborative Group. (2005). A comparison of letrozole and tamoxifen in postmenopausal women with early breast cancer. *New England Journal of Medicine, 353*(26), 2747–2757. https://doi.org/10.1056/NEJMoa052258（PMID: 16382061）
+
+Brodie, A. M., Schwarzel, W. C., Shaikh, A. A., & Brodie, H. J. (1977). The effect of an aromatase inhibitor, 4-hydroxy-4-androstene-3,17-dione, on estrogen-dependent processes in reproduction and breast cancer. *Endocrinology, 100*(6), 1684–1695. https://doi.org/10.1210/endo-100-6-1684（PMID: 404132）
+
+Bryant Ranch Prepack. (2026). *Tamoxifen citrate tablets [repackager label]: Prescribing information* (effective 2026-03-19). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8c0eb763-420a-4106-ba56-526b53a7f72b
+
+Burstein, H. J., DeMichele, A., Somerfield, M. R., & Henry, N. L. (2023). Testing for ESR1 mutations to guide therapy for hormone receptor–positive, human epidermal growth factor receptor 2–negative metastatic breast cancer: ASCO guideline rapid recommendation update. *Journal of Clinical Oncology, 41*(18), 3423–3425. https://doi.org/10.1200/JCO.23.00638（PMID: 37196213）
+
+Burstein, H. J., Lacchetti, C., Anderson, H., Buchholz, T. A., Davidson, N. E., Gelmon, K. E., Giordano, S. H., Hudis, C. A., Solky, A. J., Stearns, V., Winer, E. P., & Griggs, J. J. (2016). Adjuvant endocrine therapy for women with hormone receptor–positive breast cancer: American Society of Clinical Oncology clinical practice guideline update on ovarian suppression. *Journal of Clinical Oncology, 34*(14), 1689–1701. https://doi.org/10.1200/JCO.2015.65.9573（PMID: 26884586）
+
+Burstein, H. J., Lacchetti, C., Anderson, H., Buchholz, T. A., Davidson, N. E., Gelmon, K. A., Giordano, S. H., Hudis, C. A., Solky, A. J., Stearns, V., Winer, E. P., & Griggs, J. J. (2019). Adjuvant endocrine therapy for women with hormone receptor–positive breast cancer: ASCO clinical practice guideline focused update. *Journal of Clinical Oncology, 37*(5), 423–438. https://doi.org/10.1200/JCO.18.01160（PMID: 30452337）
+
+Burstein, H. J., Prestrud, A. A., Seidenfeld, J., Anderson, H., Buchholz, T. A., Davidson, N. E., Gelmon, K. E., Giordano, S. H., Hudis, C. A., Malin, J., Mamounas, E. P., Rowden, D., Solky, A. J., Sowers, M. R., Stearns, V., Winer, E. P., Somerfield, M. R., & Griggs, J. J. (2010). American Society of Clinical Oncology clinical practice guideline: Update on adjuvant endocrine therapy for women with hormone receptor–positive breast cancer. *Journal of Clinical Oncology, 28*(23), 3784–3796. https://doi.org/10.1200/JCO.2009.26.3756（PMID: 20625130）
+
+Burstein, H. J., Temin, S., Anderson, H., Buchholz, T. A., Davidson, N. E., Gelmon, K. E., Giordano, S. H., Hudis, C. A., Rowden, D., Solky, A. J., Stearns, V., Winer, E. P., & Griggs, J. J. (2014). Adjuvant endocrine therapy for women with hormone receptor–positive breast cancer: American Society of Clinical Oncology clinical practice guideline focused update. *Journal of Clinical Oncology, 32*(21), 2255–2269. https://doi.org/10.1200/JCO.2013.54.2258（PMID: 24868023）
+
+Campone, M., De Laurentiis, M., Jhaveri, K., Hu, X., Ladoire, S., Patsouris, A., Zamagni, C., Cui, J., Cazzaniga, M., Cil, T., Jerzak, K. J., Fuentes, C., Yoshinami, T., Rodriguez-Lescure, A., Sezer, A., Fontana, A., Guarneri, V., Molckovsky, A., Mouret-Reynier, M.-A., . . . Hamilton, E. P. (2025). Vepdegestrant, a PROTAC estrogen receptor degrader, in advanced breast cancer. *New England Journal of Medicine, 393*(6), 556–568. https://doi.org/10.1056/NEJMoa2505725（PMID: 40454645）
+
+Cardoso, F., Parke, S., Brennan, D. J., Briggs, P., Donders, G., Panay, N., Haseli-Mashhadi, N., Block, M., Caetano, C., Francuski, M., Haberland, C., Laapas, K., Seitz, C., & Zuurman, L. (2025). Elinzanetant for vasomotor symptoms from endocrine therapy for breast cancer. *New England Journal of Medicine, 393*(8), 753–763. https://doi.org/10.1056/NEJMoa2415566（PMID: 40454634）
+
+Carter, J., Lacchetti, C., Andersen, B. L., Barton, D. L., Bolte, S., Damast, S., Diefenbach, M. A., DuHamel, K., Florendo, J., Ganz, P. A., Goldfarb, S., Hallmeyer, S., Kushner, D. M., & Rowland, J. H. (2018). Interventions to address sexual problems in people with cancer: American Society of Clinical Oncology clinical practice guideline adaptation of Cancer Care Ontario guideline. *Journal of Clinical Oncology, 36*(5), 492–511. https://doi.org/10.1200/JCO.2017.75.8995（PMID: 29227723）
+
+Cole, M. P., Jones, C. T., & Todd, I. D. (1971). A new anti-oestrogenic agent in late breast cancer: An early clinical appraisal of ICI46474. *British Journal of Cancer, 25*(2), 270–275. https://doi.org/10.1038/bjc.1971.33（PMID: 5115829）
+
+Coombes, R. C., Goss, P., Dowsett, M., Gazet, J. C., & Brodie, A. (1984). 4-Hydroxyandrostenedione in treatment of postmenopausal patients with advanced breast cancer. *The Lancet, 2*(8414), 1237–1239. https://doi.org/10.1016/S0140-6736(84)92795-8（PMID: 6150277）
+
+Crawford, E. D., Heidenreich, A., Lawrentschuk, N., Tombal, B., Pompeo, A. C. L., Mendoza-Valdes, A., Miller, K., Debruyne, F. M. J., & Klotz, L. (2019). Androgen-targeted therapy in men with prostate cancer: Evolving practice and future considerations. *Prostate Cancer and Prostatic Diseases, 22*(1), 24–38. https://doi.org/10.1038/s41391-018-0079-0（PMID: 30131604）
+
+Crown, J., Stroyakovskii, D., Yardley, D. A., Huang, C.-S., Fasching, P. A., Bardia, A., Chia, S., Im, S.-A., Martin, M., Xu, B., Barrios, C. H., Untch, M., Moroose, R., Hurvitz, S. A., Hortobagyi, G. N., Slamon, D. J., Visco, F., Spera, G., Zarate, J. P., . . . Loi, S. (2025). Adjuvant ribociclib plus nonsteroidal aromatase inhibitor therapy in patients with HR-positive/HER2-negative early breast cancer: 5-year follow-up of NATALEE efficacy outcomes and updated overall survival. *ESMO Open, 10*(11), Article 105858. https://doi.org/10.1016/j.esmoop.2025.105858（PMID: 41320342）
+
+Cuzick, J., Sestak, I., Forbes, J. F., Dowsett, M., Cawthorn, S., Mansel, R. E., Loibl, S., Bonanni, B., Evans, D. G., & Howell, A. (2020). Use of anastrozole for breast cancer prevention (IBIS-II): Long-term results of a randomised controlled trial. *The Lancet, 395*(10218), 117–122. https://doi.org/10.1016/S0140-6736(19)32955-1（PMID: 31839281）
+
+Davies, C., Pan, H., Godwin, J., Gray, R., Arriagada, R., Raina, V., Abraham, M., Medeiros Alencar, V. H., Badran, A., Bonfill, X., Bradbury, J., Clarke, M., Collins, R., Davis, S. R., Delmestri, A., Forbes, J. F., Haddad, P., Hou, M.-F., Inbar, M., . . . Peto, R. (2013). Long-term effects of continuing adjuvant tamoxifen to 10 years versus stopping at 5 years after diagnosis of oestrogen receptor-positive breast cancer: ATLAS, a randomised trial. *The Lancet, 381*(9869), 805–816. https://doi.org/10.1016/S0140-6736(12)61963-1（PMID: 23219286）
+
+de Bono, J. S., Logothetis, C. J., Molina, A., Fizazi, K., North, S., Chu, L., Chi, K. N., Jones, R. J., Goodman, O. B., Saad, F., Staffurth, J. N., Mainwaring, P., Harland, S., Flaig, T. W., Hutson, T. E., Cheng, T., Patterson, H., Hainsworth, J. D., Ryan, C. J., . . . Scher, H. I. (2011). Abiraterone and increased survival in metastatic prostate cancer. *New England Journal of Medicine, 364*(21), 1995–2005. https://doi.org/10.1056/NEJMoa1014618（PMID: 21612468）
+
+DeCensi, A., Puntoni, M., Guerrieri-Gonzaga, A., Caviglia, S., Avino, F., Cortesi, L., Taverniti, C., Pacquola, M. G., Falcini, F., Gulisano, M., Digennaro, M., Cariello, A., Cagossi, K., Pinotti, G., Lazzeroni, M., Serrano, D., Branchi, D., Campora, S., Petrera, M., . . . Bonanni, B. (2019). Randomized placebo controlled trial of low-dose tamoxifen to prevent local and contralateral recurrence in breast intraepithelial neoplasia. *Journal of Clinical Oncology, 37*(19), 1629–1637. https://doi.org/10.1200/JCO.18.01779（PMID: 30973790）
+
+Denmeade, S. R., & Isaacs, J. T. (2002). A history of prostate cancer treatment. *Nature Reviews Cancer, 2*(5), 389–396. https://doi.org/10.1038/nrc801（PMID: 12044015）
+
+Di Leo, A., Jerusalem, G., Petruzelka, L., Torres, R., Bondarenko, I. N., Khasanov, R., Verhoeven, D., Pedrini, J. L., Smirnova, I., Lichinitser, M. R., Pendergrass, K., Garnett, S., Lindemann, J. P. O., Sapunar, F., & Martin, M. (2010). Results of the CONFIRM phase III trial comparing fulvestrant 250 mg with fulvestrant 500 mg in postmenopausal women with estrogen receptor-positive advanced breast cancer. *Journal of Clinical Oncology, 28*(30), 4594–4600. https://doi.org/10.1200/JCO.2010.28.8415（PMID: 20855825）
+
+Early Breast Cancer Trialists' Collaborative Group (EBCTCG). (1998). Tamoxifen for early breast cancer: An overview of the randomised trials. *The Lancet, 351*(9114), 1451–1467. https://doi.org/10.1016/S0140-6736(97)11423-4（PMID: 9605801）
+
+Early Breast Cancer Trialists' Collaborative Group (EBCTCG). (2011). Relevance of breast cancer hormone receptors and other factors to the efficacy of adjuvant tamoxifen: Patient-level meta-analysis of randomised trials. *The Lancet, 378*(9793), 771–784. https://doi.org/10.1016/S0140-6736(11)60993-8（PMID: 21802721）
+
+Early Breast Cancer Trialists' Collaborative Group (EBCTCG). (2015). Aromatase inhibitors versus tamoxifen in early breast cancer: Patient-level meta-analysis of the randomised trials. *The Lancet, 386*(10001), 1341–1352. https://doi.org/10.1016/S0140-6736(15)61074-1（PMID: 26211827）
+
+Early Breast Cancer Trialists' Collaborative Group (EBCTCG). (2022). Aromatase inhibitors versus tamoxifen in premenopausal women with oestrogen receptor-positive early-stage breast cancer treated with ovarian suppression: A patient-level meta-analysis of 7030 women from four randomised trials. *The Lancet Oncology, 23*(3), 382–392. https://doi.org/10.1016/S1470-2045(21)00758-0（PMID: 35123662）
+
+Early Breast Cancer Trialists' Collaborative Group (EBCTCG). (2025). Extending the duration of endocrine treatment for early breast cancer: Patient-level meta-analysis of 12 randomised trials of aromatase inhibitors in 22 031 postmenopausal women already treated with at least 5 years of endocrine therapy. *The Lancet, 406*(10503), 603–614. https://doi.org/10.1016/S0140-6736(25)01013-X（PMID: 40783288）
+
+Eli Lilly and Company. (2023). *EVISTA (raloxifene hydrochloride): Prescribing information* (revised 2023-03; DailyMed version effective 2026-02-11). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9
+
+Eli Lilly and Company. (2026). *INLURIYO (imlunestrant): Prescribing information* (effective 2026-09-18). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bc172e4-e8a2-441a-be52-279a7f890196
+
+Fisher, B., Costantino, J. P., Wickerham, D. L., Redmond, C. K., Kavanah, M., Cronin, W. M., Vogel, V., Robidoux, A., Dimitrov, N., Atkins, J., Daly, M., Wieand, S., Tan-Chiu, E., Ford, L., & Wolmark, N. (1998). Tamoxifen for prevention of breast cancer: Report of the National Surgical Adjuvant Breast and Bowel Project P-1 Study. *Journal of the National Cancer Institute, 90*(18), 1371–1388. https://doi.org/10.1093/jnci/90.18.1371（PMID: 9747868）
+
+Fisher, B., Dignam, J., Wolmark, N., Wickerham, D. L., Fisher, E. R., Mamounas, E., Smith, R., Begovic, M., Dimitrov, N. V., Margolese, R. G., Kardinal, C. G., Kavanah, M. T., Fehrenbacher, L., & Oishi, R. H. (1999). Tamoxifen in treatment of intraductal breast cancer: National Surgical Adjuvant Breast and Bowel Project B-24 randomised controlled trial. *The Lancet, 353*(9169), 1993–2000. https://doi.org/10.1016/S0140-6736(99)05036-9（PMID: 10376613）
+
+Francis, P. A., Pagani, O., Fleming, G. F., Walley, B. A., Colleoni, M., Rubovszky, G., Tondini, C., Ciruelos, E. M., Gomez, H. L., Bonnefoi, H. R., Burstein, H. J., Chini, C., Puglisi, F., Spazzapan, S., Bernardo, A., Climent, M. A., Bellet, M., Ruhstaller, T., Bermejo, B., . . . Regan, M. M. (2026). Final outcomes of the SOFT and TEXT phase III trials in premenopausal hormone receptor-positive early breast cancer. *Annals of Oncology, 37*(10), 1367–1385. https://doi.org/10.1016/j.annonc.2026.05.704（PMID: 42229584）
+
+Francis, P. A., Regan, M. M., Fleming, G. F., Láng, I., Ciruelos, E., Bellet, M., Bonnefoi, H. R., Climent, M. A., Da Prada, G. A., Burstein, H. J., Martino, S., Davidson, N. E., Geyer, C. E., Jr., Walley, B. A., Coleman, R., Kerbrat, P., Buchholz, S., Ingle, J. N., Winer, E. P., . . . Gelber, R. D. (2015). Adjuvant ovarian suppression in premenopausal breast cancer. *New England Journal of Medicine, 372*(5), 436–446. https://doi.org/10.1056/NEJMoa1412379（PMID: 25495490）
+
+Fribbens, C., O'Leary, B., Kilburn, L., Hrebien, S., Garcia-Murillas, I., Beaney, M., Cristofanilli, M., Andre, F., Loi, S., Loibl, S., Jiang, J., Bartlett, C. H., Koehler, M., Dowsett, M., Bliss, J. M., Johnston, S. R. D., & Turner, N. C. (2016). Plasma ESR1 mutations and the treatment of estrogen receptor–positive advanced breast cancer. *Journal of Clinical Oncology, 34*(25), 2961–2968. https://doi.org/10.1200/JCO.2016.67.3061（PMID: 27269946）
+
+Gnant, M., Pfeiler, G., Dubsky, P. C., Hubalek, M., Greil, R., Jakesz, R., Wette, V., Balic, M., Haslbauer, F., Melbinger, E., Bjelic-Radisic, V., Artner-Matuschek, S., Fitzal, F., Marth, C., Sevelda, P., Mlineritsch, B., Steger, G. G., Manfreda, D., Exner, R., . . . Singer, C. F. (2015). Adjuvant denosumab in breast cancer (ABCSG-18): A multicentre, randomised, double-blind, placebo-controlled trial. *The Lancet, 386*(9992), 433–443. https://doi.org/10.1016/S0140-6736(15)60995-3（PMID: 26040499）
+
+Goetz, M. P., Sangkuhl, K., Guchelaar, H.-J., Schwab, M., Province, M., Whirl-Carrillo, M., Symmans, W. F., McLeod, H. L., Ratain, M. J., Zembutsu, H., Gaedigk, A., van Schaik, R. H., Ingle, J. N., Caudle, K. E., & Klein, T. E. (2018). Clinical Pharmacogenetics Implementation Consortium (CPIC) guideline for *CYP2D6* and tamoxifen therapy. *Clinical Pharmacology & Therapeutics, 103*(5), 770–777. https://doi.org/10.1002/cpt.1007（PMID: 29385237）
+
+Goss, P. E., Ingle, J. N., Alés-Martínez, J. E., Cheung, A. M., Chlebowski, R. T., Wactawski-Wende, J., McTiernan, A., Robbins, J., Johnson, K. C., Martin, L. W., Winquist, E., Sarto, G. E., Garber, J. E., Fabian, C. J., Pujol, P., Maunsell, E., Farmer, P., Gelmon, K. A., Tu, D., & Richardson, H. (2011). Exemestane for breast-cancer prevention in postmenopausal women. *New England Journal of Medicine, 364*(25), 2381–2391. https://doi.org/10.1056/NEJMoa1103507（PMID: 21639806）
+
+Goss, P. E., Ingle, J. N., Martino, S., Robert, N. J., Muss, H. B., Piccart, M. J., Castiglione, M., Tu, D., Shepherd, L. E., Pritchard, K. I., Livingston, R. B., Davidson, N. E., Norton, L., Perez, E. A., Abrams, J. S., Therasse, P., Palmer, M. J., & Pater, J. L. (2003). A randomized trial of letrozole in postmenopausal women after five years of tamoxifen therapy for early-stage breast cancer. *New England Journal of Medicine, 349*(19), 1793–1802. https://doi.org/10.1056/NEJMoa032312（PMID: 14551341）
+
+Hanker, A. B., Sudhan, D. R., & Arteaga, C. L. (2020). Overcoming endocrine resistance in breast cancer. *Cancer Cell, 37*(4), 496–513. https://doi.org/10.1016/j.ccell.2020.03.009（PMID: 32289273）
+
+Harper, M. J., & Walpole, A. L. (1967). A new derivative of triphenylethylene: Effect on implantation and mode of action in rats. *Journal of Reproduction and Fertility, 13*(1), 101–119. https://doi.org/10.1530/jrf.0.0130101（PMID: 6066766）
+
+Hassett, M. J., Somerfield, M. R., Baker, E. R., Cardoso, F., Kansal, K. J., Kwait, D. C., Plichta, J. K., Ricker, C., Roshal, A., Ruddy, K. J., Safer, J. D., Van Poznak, C., Yung, R. L., & Giordano, S. H. (2020). Management of male breast cancer: ASCO guideline. *Journal of Clinical Oncology, 38*(16), 1849–1863. https://doi.org/10.1200/JCO.19.03120（PMID: 32058842）
+
+Henry, N. L., Azzouz, F., Desta, Z., Li, L., Nguyen, A. T., Lemler, S., Hayden, J., Tarpinian, K., Yakim, E., Flockhart, D. A., Stearns, V., Hayes, D. F., & Storniolo, A. M. (2012). Predictors of aromatase inhibitor discontinuation as a result of treatment-emergent symptoms in early-stage breast cancer. *Journal of Clinical Oncology, 30*(9), 936–942. https://doi.org/10.1200/JCO.2011.38.0261（PMID: 22331951）
+
+Henry, N. L., Unger, J. M., Schott, A. F., Fehrenbacher, L., Flynn, P. J., Prow, D. M., Sharer, C. W., Burton, G. V., Kuzma, C. S., Moseley, A., Lew, D. L., Fisch, M. J., Moinpour, C. M., Hershman, D. L., & Wade, J. L. (2018). Randomized, multicenter, placebo-controlled clinical trial of duloxetine versus placebo for aromatase inhibitor-associated arthralgias in early-stage breast cancer: SWOG S1202. *Journal of Clinical Oncology, 36*(4), 326–332. https://doi.org/10.1200/JCO.2017.74.6651（PMID: 29136387）
+
+Hershman, D. L., Kushi, L. H., Shao, T., Buono, D., Kershenbaum, A., Tsai, W.-Y., Fehrenbacher, L., Gomez, S. L., Miles, S., & Neugut, A. I. (2010). Early discontinuation and nonadherence to adjuvant hormonal therapy in a cohort of 8,769 early-stage breast cancer patients. *Journal of Clinical Oncology, 28*(27), 4120–4128. https://doi.org/10.1200/JCO.2009.25.9655（PMID: 20585090）
+
+Hershman, D. L., Shao, T., Kushi, L. H., Buono, D., Tsai, W. Y., Fehrenbacher, L., Kwan, M., Gomez, S. L., & Neugut, A. I. (2011). Early discontinuation and non-adherence to adjuvant hormonal therapy are associated with increased mortality in women with breast cancer. *Breast Cancer Research and Treatment, 126*(2), 529–537. https://doi.org/10.1007/s10549-010-1132-4（PMID: 20803066）
+
+Hershman, D. L., Unger, J. M., Greenlee, H., Capodice, J. L., Lew, D. L., Darke, A. K., Kengla, A. T., Melnik, M. K., Jorgensen, C. W., Kreisle, W. H., Minasian, L. M., Fisch, M. J., Henry, N. L., & Crew, K. D. (2018). Effect of acupuncture vs sham acupuncture or waitlist control on joint pain related to aromatase inhibitors among women with early-stage breast cancer: A randomized clinical trial. *JAMA, 320*(2), 167–176. https://doi.org/10.1001/jama.2018.8907（PMID: 29998338）
+
+Hortobagyi, G. N., Stemmer, S. M., Burris, H. A., Yap, Y.-S., Sonke, G. S., Hart, L., Campone, M., Petrakova, K., Winer, E. P., Janni, W., Conte, P., Cameron, D. A., André, F., Arteaga, C. L., Zarate, J. P., Chakravartty, A., Taran, T., Le Gac, F., Serra, P., & O'Shaughnessy, J. (2022). Overall survival with ribociclib plus letrozole in advanced breast cancer. *New England Journal of Medicine, 386*(10), 942–950. https://doi.org/10.1056/NEJMoa2114663（PMID: 35263519）
+
+Huggins, C., & Hodges, C. V. (1972). Studies on prostatic cancer: I. The effect of castration, of estrogen and of androgen injection on serum phosphatases in metastatic carcinoma of the prostate. *CA: A Cancer Journal for Clinicians, 22*(4), 232–240. https://doi.org/10.3322/canjclin.22.4.232（PMID: 4625049；重刊 1941 年原文）
+
+Irwin, M. L., Cartmel, B., Gross, C. P., Ercolano, E., Li, F., Yao, X., Fiellin, M., Capozza, S., Rothbard, M., Zhou, Y., Harrigan, M., Sanft, T., Schmitz, K., Neogi, T., Hershman, D., & Ligibel, J. (2015). Randomized exercise trial of aromatase inhibitor–induced arthralgia in breast cancer survivors. *Journal of Clinical Oncology, 33*(10), 1104–1111. https://doi.org/10.1200/JCO.2014.57.1547（PMID: 25452437）
+
+Jensen, E. V., Block, G. E., Smith, S., Kyser, K., & DeSombre, E. R. (1971). Estrogen receptors and breast cancer response to adrenalectomy. *National Cancer Institute Monograph, 34*, 55–70.（PMID: 5140877）
+
+Jensen, E. V., & Jordan, V. C. (2003). The estrogen receptor: A model for molecular medicine. *Clinical Cancer Research, 9*(6), 1980–1989.（PMID: 12796359）
+
+Jhaveri, K. L., Neven, P., Casalnuovo, M. L., Kim, S.-B., Tokunaga, E., Aftimos, P., Saura, C., O'Shaughnessy, J., Harbeck, N., Carey, L. A., Curigliano, G., Llombart-Cussac, A., Lim, E., García Tinoco, M. D. L. L., Sohn, J., Mattar, A., Zhang, Q., Huang, C.-S., Hung, C.-C., . . . Bidard, F.-C. (2025). Imlunestrant with or without abemaciclib in advanced breast cancer. *New England Journal of Medicine, 392*(12), 1189–1202. https://doi.org/10.1056/NEJMoa2410858（PMID: 39660834）
+
+Johnston, S., Martin, M., O'Shaughnessy, J., Hegg, R., Tolaney, S. M., Guarneri, V., Del Mastro, L., Campone, M., Sohn, J., Boyle, F., Cortes, J., Rugo, H. S., Goetz, M. P., Hamilton, E. P., Huang, C.-S., Senkus, E., Cicin, I., Testa, L., Neven, P., . . . Harbeck, N. (2026). Overall survival with abemaciclib in early breast cancer. *Annals of Oncology, 37*(2), 155–165. https://doi.org/10.1016/j.annonc.2025.10.005（PMID: 41110697）
+
+Jordan, V. C. (2006). Tamoxifen (ICI46,474) as a targeted therapy to treat and prevent breast cancer. *British Journal of Pharmacology, 147*(Suppl. 1), S269–S276. https://doi.org/10.1038/sj.bjp.0706399（PMID: 16402113）
+
+Kelly, C. M., Juurlink, D. N., Gomes, T., Duong-Hua, M., Pritchard, K. I., Austin, P. C., & Paszat, L. F. (2010). Selective serotonin reuptake inhibitors and breast cancer mortality in women receiving tamoxifen: A population based cohort study. *BMJ, 340*, Article c693. https://doi.org/10.1136/bmj.c693（PMID: 20142325）
+
+Khosrow-Khavar, F., Filion, K. B., Al-Qurashi, S., Torabi, N., Bouganim, N., Suissa, S., & Azoulay, L. (2017). Cardiotoxicity of aromatase inhibitors and tamoxifen in postmenopausal women with breast cancer: A systematic review and meta-analysis of randomized controlled trials. *Annals of Oncology, 28*(3), 487–496. https://doi.org/10.1093/annonc/mdw673（PMID: 27998966）
+
+Klijn, J. G., Blamey, R. W., Boccardo, F., Tominaga, T., Duchateau, L., & Sylvester, R. (2001). Combined tamoxifen and luteinizing hormone-releasing hormone (LHRH) agonist versus LHRH agonist alone in premenopausal advanced breast cancer: A meta-analysis of four randomized trials. *Journal of Clinical Oncology, 19*(2), 343–353. https://doi.org/10.1200/JCO.2001.19.2.343（PMID: 11208825）
+
+Kyowa Kirin, Inc. (2024). *FARESTON (toremifene citrate): Prescribing information* (effective 2024-11-13). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5
+
+Leon-Ferre, R. A., Novotny, P. J., Wolfe, E. G., Faubion, S. S., Ruddy, K. J., Flora, D., Dakhil, C. S. R., Rowland, K. M., Graham, M. L., Le-Lindqwister, N., Smith, T. J., & Loprinzi, C. L. (2020). Oxybutynin vs placebo for hot flashes in women with or without breast cancer: A randomized, double-blind clinical trial (ACCRU SC-1603). *JNCI Cancer Spectrum, 4*(1), Article pkz088. https://doi.org/10.1093/jncics/pkz088（PMID: 32337497）
+
+Leuprolide Study Group. (1984). Leuprolide versus diethylstilbestrol for metastatic prostate cancer. *New England Journal of Medicine, 311*(20), 1281–1286. https://doi.org/10.1056/NEJM198411153112004（PMID: 6436700）
+
+Loprinzi, C. L., Kugler, J. W., Sloan, J. A., Mailliard, J. A., LaVasseur, B. I., Barton, D. L., Novotny, P. J., Dakhil, S. R., Rodger, K., Rummans, T. A., & Christensen, B. J. (2000). Venlafaxine in management of hot flashes in survivors of breast cancer: A randomised controlled trial. *The Lancet, 356*(9247), 2059–2063. https://doi.org/10.1016/S0140-6736(00)03403-6（PMID: 11145492）
+
+Margolese, R. G., Cecchini, R. S., Julian, T. B., Ganz, P. A., Costantino, J. P., Vallow, L. A., Albain, K. S., Whitworth, P. W., Cianfrocca, M. E., Brufsky, A. M., Gross, H. M., Soori, G. S., Hopkins, J. O., Fehrenbacher, L., Sturtz, K., Wozniak, T. F., Seay, T. E., Mamounas, E. P., & Wolmark, N. (2016). Anastrozole versus tamoxifen in postmenopausal women with ductal carcinoma in situ undergoing lumpectomy plus radiotherapy (NSABP B-35): A randomised, double-blind, phase 3 clinical trial. *The Lancet, 387*(10021), 849–856. https://doi.org/10.1016/S0140-6736(15)01168-X（PMID: 26686957）
+
+Nobel Prize Outreach. (2026). *The Nobel Prize in Physiology or Medicine 1977*. NobelPrize.org. Retrieved November 11, 2026, from https://www.nobelprize.org/prizes/medicine/1977/summary/（網站阻擋自動存取，本章經網路搜尋結果的摘要讀取頁面內容）
+
+Novartis Pharmaceuticals Corporation. (2024). *FEMARA (letrozole): Prescribing information* (revised 2024-12; DailyMed version effective 2026-06-11). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406
+
+Novartis Pharmaceuticals Corporation. (2026). *KISQALI (ribociclib): Prescribing information* (effective 2026-07-01). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8
+
+Osborne, C. K., Wakeling, A., & Nicholson, R. I. (2004). Fulvestrant: An oestrogen receptor antagonist with a novel mechanism of action. *British Journal of Cancer, 90*(Suppl. 1), S2–S6. https://doi.org/10.1038/sj.bjc.6601629（PMID: 15094757）
+
+Pagani, O., Regan, M. M., Walley, B. A., Fleming, G. F., Colleoni, M., Láng, I., Gomez, H. L., Tondini, C., Burstein, H. J., Perez, E. A., Ciruelos, E., Stearns, V., Bonnefoi, H. R., Martino, S., Geyer, C. E., Jr., Pinotti, G., Puglisi, F., Crivellari, D., Ruhstaller, T., . . . Francis, P. A. (2014). Adjuvant exemestane with ovarian suppression in premenopausal breast cancer. *New England Journal of Medicine, 371*(2), 107–118. https://doi.org/10.1056/NEJMoa1404037（PMID: 24881463）
+
+Pan, H., Gray, R., Braybrooke, J., Davies, C., Taylor, C., McGale, P., Peto, R., Pritchard, K. I., Bergh, J., Dowsett, M., & Hayes, D. F. (2017). 20-year risks of breast-cancer recurrence after stopping endocrine therapy at 5 years. *New England Journal of Medicine, 377*(19), 1836–1846. https://doi.org/10.1056/NEJMoa1701830（PMID: 29117498）
+
+Pandya, K. J., Morrow, G. R., Roscoe, J. A., Zhao, H., Hickok, J. T., Pajon, E., Sweeney, T. J., Banerjee, T. K., & Flynn, P. J. (2005). Gabapentin for hot flashes in 420 women with breast cancer: A randomised double-blind placebo-controlled trial. *The Lancet, 366*(9488), 818–824. https://doi.org/10.1016/S0140-6736(05)67215-7（PMID: 16139656）
+
+Partridge, A. H., Niman, S. M., Ruggeri, M., Peccatori, F. A., Azim, H. A., Colleoni, M., Saura, C., Shimizu, C., Sætersdal, A. B., Kroep, J. R., Mailliez, A., Warner, E., Borges, V. F., Amant, F., Gombos, A., Kataoka, A., Rousset-Jablonski, C., Borstnar, S., Takei, J., . . . Pagani, O. (2023). Interrupting endocrine therapy to attempt pregnancy after breast cancer. *New England Journal of Medicine, 388*(18), 1645–1656. https://doi.org/10.1056/NEJMoa2212856（PMID: 37133584）
+
+Pharmacia & Upjohn Company LLC. (2025). *AROMASIN (exemestane): Prescribing information* (effective 2025-12-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3
+
+Quirke, V. M. (2017). Tamoxifen from failed contraceptive pill to best-selling breast cancer medicine: A case-study in pharmaceutical innovation. *Frontiers in Pharmacology, 8*, Article 620. https://doi.org/10.3389/fphar.2017.00620（PMID: 28955226）
+
+Robertson, J. F. R., Bondarenko, I. M., Trishkina, E., Dvorkin, M., Panasci, L., Manikhas, A., Shparyk, Y., Cardona-Huerta, S., Cheung, K.-L., Philco-Salas, M. J., Ruiz-Borrego, M., Shao, Z., Noguchi, S., Rowbottom, J., Stuart, M., Grinsted, L. M., Fazal, M., & Ellis, M. J. (2016). Fulvestrant 500 mg versus anastrozole 1 mg for hormone receptor-positive advanced breast cancer (FALCON): An international, randomised, double-blind, phase 3 trial. *The Lancet, 388*(10063), 2997–3005. https://doi.org/10.1016/S0140-6736(16)32389-3（PMID: 27908454）
+
+Robson, M., Im, S.-A., Senkus, E., Xu, B., Domchek, S. M., Masuda, N., Delaloge, S., Li, W., Tung, N., Armstrong, A., Wu, W., Goessl, C., Runswick, S., & Conte, P. (2017). Olaparib for metastatic breast cancer in patients with a germline BRCA mutation. *New England Journal of Medicine, 377*(6), 523–533. https://doi.org/10.1056/NEJMoa1706450（PMID: 28578601）
+
+Roeland, E. J., Bohlke, K., Baracos, V. E., Bruera, E., Del Fabbro, E., Dixon, S., Fallon, M., Herrstedt, J., Lau, H., Platek, M., Rugo, H. S., Schnipper, H. H., Smith, T. J., Tan, W., & Loprinzi, C. L. (2020). Management of cancer cachexia: ASCO guideline. *Journal of Clinical Oncology, 38*(21), 2438–2453. https://doi.org/10.1200/JCO.20.00611（PMID: 32432946）
+
+Santen, R. J., Brodie, H., Simpson, E. R., Siiteri, P. K., & Brodie, A. (2009). History of aromatase: Saga of an important biological mediator and therapeutic target. *Endocrine Reviews, 30*(4), 343–375. https://doi.org/10.1210/er.2008-0016（PMID: 19389994）
+
+Schally, A. V., Arimura, A., Kastin, A. J., Matsuo, H., Baba, Y., Redding, T. W., Nair, R. M., Debeljuk, L., & White, W. F. (1971). Gonadotropin-releasing hormone: One polypeptide regulates secretion of luteinizing and follicle-stimulating hormones. *Science, 173*(4001), 1036–1038. https://doi.org/10.1126/science.173.4001.1036（PMID: 4938639）
+
+Scher, H. I., Fizazi, K., Saad, F., Taplin, M.-E., Sternberg, C. N., Miller, K., de Wit, R., Mulders, P., Chi, K. N., Shore, N. D., Armstrong, A. J., Flaig, T. W., Fléchon, A., Mainwaring, P., Fleming, M., Hainsworth, J. D., Hirmand, M., Selby, B., Seely, L., & de Bono, J. S. (2012). Increased survival with enzalutamide in prostate cancer after chemotherapy. *New England Journal of Medicine, 367*(13), 1187–1197. https://doi.org/10.1056/NEJMoa1207506（PMID: 22894553）
+
+Schiavon, G., Hrebien, S., Garcia-Murillas, I., Cutts, R. J., Pearson, A., Tarazona, N., Fenwick, K., Kozarewa, I., Lopez-Knowles, E., Ribas, R., Nerurkar, A., Osin, P., Chandarlapaty, S., Martin, L.-A., Dowsett, M., Smith, I. E., & Turner, N. C. (2015). Analysis of ESR1 mutation in circulating tumor DNA demonstrates evolution during therapy for metastatic breast cancer. *Science Translational Medicine, 7*(313), Article 313ra182. https://doi.org/10.1126/scitranslmed.aac7551（PMID: 26560360）
+
+Shang, Y., & Brown, M. (2002). Molecular determinants for the tissue specificity of SERMs. *Science, 295*(5564), 2465–2468. https://doi.org/10.1126/science.1068537（PMID: 11923541）
+
+Shapiro, C. L., Van Poznak, C., Lacchetti, C., Kirshner, J., Eastell, R., Gagel, R., Smith, S., Edwards, B. J., Frank, E., Lyman, G. H., Smith, M. R., Mhaskar, R., Henderson, T., & Neuner, J. (2019). Management of osteoporosis in survivors of adult cancers with nonmetastatic disease: ASCO clinical practice guideline. *Journal of Clinical Oncology, 37*(31), 2916–2946. https://doi.org/10.1200/JCO.19.01696（PMID: 31532726）
+
+Shiau, A. K., Barstad, D., Loria, P. M., Cheng, L., Kushner, P. J., Agard, D. A., & Greene, G. L. (1998). The structural basis of estrogen receptor/coactivator recognition and the antagonism of this interaction by tamoxifen. *Cell, 95*(7), 927–937. https://doi.org/10.1016/S0092-8674(00)81717-1（PMID: 9875847）
+
+Shore, N. D., Saad, F., Cookson, M. S., George, D. J., Saltzstein, D. R., Tutrone, R., Akaza, H., Bossi, A., van Veenhuyzen, D. F., Selby, B., Fan, X., Kang, V., Walling, J., & Tombal, B. (2020). Oral relugolix for androgen-deprivation therapy in advanced prostate cancer. *New England Journal of Medicine, 382*(23), 2187–2196. https://doi.org/10.1056/NEJMoa2004325（PMID: 32469183）
+
+Simpson, E. R. (2003). Sources of estrogen and their importance. *The Journal of Steroid Biochemistry and Molecular Biology, 86*(3–5), 225–230. https://doi.org/10.1016/S0960-0760(03)00360-1（PMID: 14623515）
+
+Smith, I. E., Dowsett, M., Yap, Y.-S., Walsh, G., Lønning, P. E., Santen, R. J., & Hayes, D. (2006). Adjuvant aromatase inhibitors for early breast cancer after chemotherapy-induced amenorrhoea: Caution and suggested guidelines. *Journal of Clinical Oncology, 24*(16), 2444–2447. https://doi.org/10.1200/JCO.2005.05.3694（PMID: 16735701）
+
+Stemline Therapeutics, Inc. (2026). *ORSERDU (elacestrant): Prescribing information* (effective 2026-06-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa66ae5c-2bd2-4444-8178-b55651e054ef
+
+TerSera Therapeutics LLC. (2026). *ZOLADEX (goserelin implant) 3.6 mg: Prescribing information* (effective 2026-03-24). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3
+
+Teva Pharmaceuticals USA, Inc. (2022). *Megestrol acetate tablets USP: Prescribing information* (effective 2022-11-30). https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=66573d39-f2a7-49fd-9ed2-97ac8f6e8456
+
+Tolis, G., Ackman, D., Stellos, A., Mehta, A., Labrie, F., Fazekas, A. T., Comaru-Schally, A. M., & Schally, A. V. (1982). Tumor growth inhibition in patients with prostatic carcinoma treated with luteinizing hormone-releasing hormone agonists. *Proceedings of the National Academy of Sciences of the United States of America, 79*(5), 1658–1662. https://doi.org/10.1073/pnas.79.5.1658（PMID: 6461861）
+
+Toy, W., Shen, Y., Won, H., Green, B., Sakr, R. A., Will, M., Li, Z., Gala, K., Fanning, S., King, T. A., Hudis, C., Chen, D., Taran, T., Hortobagyi, G., Greene, G., Berger, M., Baselga, J., & Chandarlapaty, S. (2013). ESR1 ligand-binding domain mutations in hormone-resistant breast cancer. *Nature Genetics, 45*(12), 1439–1445. https://doi.org/10.1038/ng.2822（PMID: 24185512）
+
+Turner, N. C., Im, S.-A., Saura, C., Juric, D., Loibl, S., Kalinsky, K., Schmid, P., Loi, S., Sunpaweravong, P., Musolino, A., Li, H., Zhang, Q., Nowecki, Z., Leung, R., Thanopoulou, E., Shankar, N., Lei, G., Stout, T. J., Hutchinson, K. E., . . . Jhaveri, K. L. (2024). Inavolisib-based therapy in PIK3CA-mutated advanced breast cancer. *New England Journal of Medicine, 391*(17), 1584–1596. https://doi.org/10.1056/NEJMoa2404625（PMID: 39476340）
+
+Turner, N. C., Mayer, E. L., Park, Y. H., Janni, W., Ma, C., Cristofanilli, M., Bianchini, G., Kalinsky, K., Iwata, H., Chia, S., Brufsky, A. M., Fasching, P. A., Nowecki, Z., Pascual, J., Karadurmus, N., Gal-Yam, E., Chung, W.-P., Im, S.-A., Zambelli, A., . . . Bidard, F.-C. (2026). Switching to camizestrant at ESR1 mutation emergence before disease progression during first-line treatment of hormone receptor-positive advanced breast cancer (SERENA-6): Extended analysis of a double-blind, placebo-controlled, randomised, phase 3 trial. *The Lancet Oncology, 27*(8), 941–958. https://doi.org/10.1016/S1470-2045(26)00287-1（PMID: 42442380）
+
+Turner, N. C., Oliveira, M., Howell, S. J., Dalenc, F., Cortes, J., Gomez Moreno, H. L., Hu, X., Jhaveri, K., Krivorotko, P., Loibl, S., Morales Murillo, S., Okera, M., Park, Y. H., Sohn, J., Toi, M., Tokunaga, E., Yousef, S., Zhukova, L., de Bruin, E. C., . . . Rugo, H. S. (2023). Capivasertib in hormone receptor–positive advanced breast cancer. *New England Journal of Medicine, 388*(22), 2058–2070. https://doi.org/10.1056/NEJMoa2214131（PMID: 37256976）
+
+US Food and Drug Administration. (2023, January 27). *FDA approves elacestrant for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer*. https://www.fda.gov/drugs/cancer-approvals/fda-approves-elacestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast-cancer
+
+US Food and Drug Administration. (2026, May 29). *For healthcare professionals: FDA's examples of drugs that interact with CYP enzymes and transporter systems*. https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems
+
+Vogel, V. G., Costantino, J. P., Wickerham, D. L., Cronin, W. M., Cecchini, R. S., Atkins, J. N., Bevers, T. B., Fehrenbacher, L., Pajon, E. R., Wade, J. L., Robidoux, A., Margolese, R. G., James, J., Lippman, S. M., Runowicz, C. D., Ganz, P. A., Reis, S. E., McCaskill-Stevens, W., Ford, L. G., . . . Wolmark, N. (2006). Effects of tamoxifen vs raloxifene on the risk of developing invasive breast cancer and other disease outcomes: The NSABP Study of Tamoxifen and Raloxifene (STAR) P-2 trial. *JAMA, 295*(23), 2727–2741. https://doi.org/10.1001/jama.295.23.joc60074（PMID: 16754727）
+
+Wakeling, A. E., Dukes, M., & Bowler, J. (1991). A potent specific pure antiestrogen with clinical potential. *Cancer Research, 51*(15), 3867–3873.（PMID: 1855205）
 
