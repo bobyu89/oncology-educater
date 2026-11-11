@@ -1,6 +1,7 @@
 # 把學習手冊的網頁版發布到 GitHub Pages。
-# 第一次使用前，先到 Settings → Pages，把 Source 設成「GitHub Actions」。
-name: Deploy handbook to GitHub Pages
+# 每次推到 main：檢查章節 → 建置網頁 → 把建置結果推到 gh-pages 分支。
+# GitHub Pages 設定為「Deploy from a branch：gh-pages」，分支更新後會自動重新發布。
+name: Publish handbook to GitHub Pages
 
 on:
   push:
@@ -12,16 +13,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,22 +33,17 @@ jobs:
         run: python tools/lint_chapter.py --all --quiet-warn
       - name: Build site
         run: python tools/build_site.py
-      - name: Collect files to publish
+      - name: Push the built site to gh-pages
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           mkdir _site
           cp site/index.html _site/index.html
           touch _site/.nojekyll
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          cd _site
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Publish site built from ${GITHUB_SHA::7}"
+          git push --force "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:gh-pages

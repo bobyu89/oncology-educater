@@ -27,7 +27,7 @@
 - 網頁建置：`python3 tools/build_site.py`；章節檢查：`python3 tools/lint_chapter.py --all`（零錯誤是提交門檻，GitHub Pages 的部署流程也會先跑這個檢查）。
 - 網頁功能（都在 `tools/site_template.html`）：學習白板（首頁）、進度總覽、學習路徑、測驗中心與錯題本、藥物卡與翻卡。學習紀錄存在瀏覽器 localStorage；Artifact 網頁登入時另存到 `data/users/<id>/progress`。
 - 線上網頁：
-  - GitHub Pages：https://bobyu89.github.io/oncology-educater/（`.github/workflows/pages.yml`，推到 `main` 時部署；Settings → Pages 的 Source 要是「GitHub Actions」）。
+  - GitHub Pages：https://bobyu89.github.io/oncology-educater/。來源是 `gh-pages` 分支（只放建置好的 `index.html`）；`.github/workflows/pages.yml` 在推到 `main` 時建置並推到 `gh-pages`。Pages 是推 `gh-pages` 分支時自動啟用的，沒有動過 repo 設定。
   - Claude Artifact：https://claude.ai/artifact/HcoEjbf9RVudFnytExVpHK（更新時用 `url` 參數，先 read 再 publish；capabilities 是 `db` 與 `user`，publish 時不要傳 `capabilities` 就會沿用）。
 - 查證資料：`notes/research/`、`notes/nhi/`、`notes/audit/`（藥物篇的逐項紀錄在 `notes/audit/drugs/`）。
 
