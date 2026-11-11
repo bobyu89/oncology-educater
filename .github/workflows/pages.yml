@@ -1,0 +1,55 @@
+# 把學習手冊的網頁版發布到 GitHub Pages。
+# 第一次使用前，先到 Settings → Pages，把 Source 設成「GitHub Actions」。
+name: Deploy handbook to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "handbook/**"
+      - "tools/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install build dependency
+        run: pip install markdown
+      - name: Check chapters
+        run: python tools/lint_chapter.py --all --quiet-warn
+      - name: Build site
+        run: python tools/build_site.py
+      - name: Collect files to publish
+        run: |
+          mkdir _site
+          cp site/index.html _site/index.html
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
