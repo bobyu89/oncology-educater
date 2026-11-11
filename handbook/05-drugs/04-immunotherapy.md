@@ -55,7 +55,7 @@
 | 1988 | 腫瘤浸潤淋巴球（TIL）加 IL-2 治療轉移性黑色素瘤：沒用過 IL-2 的 15 人中 9 人腫瘤縮小（Rosenberg et al., 1988） | 細胞治療的起點，36 年後成為 lifileucel |
 | 1992 | 京都大學本庶佑實驗室選殖出 PD-1 基因（Ishida et al., 1992）；美國 FDA 核准高劑量 IL-2 用於轉移性腎細胞癌，1998 年加上轉移性黑色素瘤（Rosenberg, 2014） | PD-1 當時被以為和細胞死亡有關；Rosenberg 稱 IL-2 是第一個獲核准用於癌症病人的免疫治療 |
 | 1995–1996 | Allison 實驗室證明 CTLA-4 和 CD28 送出相反的訊號（Krummel & Allison, 1995）；用抗體擋住 CTLA-4，小鼠的腫瘤被排斥（Leach et al., 1996） | 「拆煞車」的想法誕生 |
-| 1999–2000 | PD-1 剔除小鼠出現類狼瘡的自體免疫病（Nishimura et al., 1999）；陳列平實驗室發現 B7-H1（Dong et al., 1999），隔年確認它就是 PD-1 的配體 PD-L1（Freeman et al., 2000） | PD-1 是第二個煞車，配體長在周邊組織 |
+| 1999–2000 | PD-1 剔除小鼠出現類狼瘡的自體免疫病（Nishimura et al., 1999）；陳列平實驗室發現 B7-H1（Dong et al., 1999）；隔年 Freeman 與本庶佑等報告 PD-1 的配體 PD-L1（Freeman et al., 2000），兩者是同一個分子（Pardoll, 2012） | PD-1 是第二個煞車，配體長在周邊組織 |
 | 2002 | 免疫編輯（immunoediting）：免疫系統清除腫瘤，同時也「雕塑」出能逃脫的腫瘤（Dunn et al., 2002） | 解釋為什麼臨床看到的腫瘤多半已經會躲 |
 | 2008 | Blinatumomab（CD19 × CD3）用極低劑量就讓淋巴瘤縮小（Bargou et al., 2008） | 雙特異性 T 細胞銜接抗體的第一份臨床證據 |
 | 2010 | Ipilimumab 第 3 期試驗：轉移性黑色素瘤的整體存活，含 ipilimumab 的組別 10.0 對 6.4 個月（Hodi et al., 2010）；一位晚期濾泡性淋巴瘤病人接受 CD19 CAR-T 後腫瘤明顯縮小（Kochenderfer et al., 2010） | 檢查點抑制劑第一次在第 3 期試驗延長存活 |
@@ -101,7 +101,7 @@ Burnet 與 Thomas 的免疫監視假說認為免疫系統會清除新生的癌�
 
 ### 1.6 PD-1 與 PD-L1：一個被取錯名字的基因
 
-本庶佑實驗室在找「細胞計畫性死亡」相關基因時，從正在死亡的細胞株裡選殖出一個新基因，命名為 programmed death-1（Ishida et al., 1992）。它真正的功能要等到剔除小鼠才明白：PD-1 剔除的小鼠到了老年才出現類狼瘡的關節炎與腎絲球腎炎，代表 PD-1 是維持周邊自體耐受的負向調節者（Nishimura et al., 1999）。配體則由兩個團隊接力找到：陳列平實驗室發現 B7 家族的新成員 B7-H1（Dong et al., 1999）；Freeman 等證明它與 PD-1 結合後抑制 T 細胞增殖與細胞激素分泌，並指出它表現在抗原呈現細胞，也表現在心、肺等非淋巴組織（Freeman et al., 2000）。
+本庶佑實驗室在找「細胞計畫性死亡」相關基因時，從正在死亡的細胞株裡選殖出一個新基因，命名為 programmed death-1（Ishida et al., 1992）。它真正的功能要等到剔除小鼠才明白：PD-1 剔除的小鼠到了老年才出現類狼瘡的關節炎與腎絲球腎炎，代表 PD-1 是維持周邊自體耐受的負向調節者（Nishimura et al., 1999）。配體則由兩個團隊各自找到：陳列平實驗室發現 B7 家族的新成員 B7-H1（Dong et al., 1999）；Freeman 與本庶佑等報告 PD-1 的配體 PD-L1 也屬於 B7 家族，與 PD-1 結合後抑制 T 細胞增殖與細胞激素分泌，而且不只表現在抗原呈現細胞，也表現在心、肺等非淋巴組織（Freeman et al., 2000）。B7-H1 與 PD-L1 是同一個分子（Pardoll, 2012），所以早期文獻（包含下面的第 1 期試驗）用的是 B7-H1 這個名字。
 
 2010 年發表的第 1 期試驗（抗體當時的代號是 MDX-1106，即後來的 nivolumab）就看到三件後來一再出現的事：抗體半衰期 12–20 天，但給藥後 2 個月以上，T 細胞上的 PD-1 仍有七成以上被占住；有一位病人發生發炎性大腸炎；腫瘤表現 B7-H1 的病人似乎比較會有反應（Brahmer et al., 2010）。2012 年的大型第 1 期報告收了 296 人：反應率 NSCLC 18%、黑色素瘤 28%、腎細胞癌 27%；31 個追蹤滿 1 年的反應中有 20 個持續 1 年以上；3 人死於肺毒性；PD-L1 陰性的 17 人無人有反應，陽性的 25 人有 9 人（36%）有反應（Topalian et al., 2012）。同期的 anti-PD-L1 抗體也有 6–17% 的反應率（Brahmer et al., 2012）。
 
@@ -166,8 +166,8 @@ Chen 與 Mellman 把抗腫瘤免疫整理成一個循環：T 細胞殺死癌細�
 
 > [!IMPORTANT]
 > **PD-1 抑制劑和 PD-L1 抑制劑擋的不是同一邊**
-> - Anti-PD-1 抗體結合 T 細胞上的 PD-1，同時擋住它與 PD-L1、PD-L2 的結合（Markham & Duggan, 2018）。
-> - Anti-PD-L1 抗體結合 PD-L1，擋住 PD-L1 與 PD-1、CD80 的結合（Syed, 2017）。
+> - Anti-PD-1 抗體結合 T 細胞上的 PD-1，同時擋住它與 PD-L1、PD-L2 的結合（以 cemiplimab 為例；Markham & Duggan, 2018）。
+> - Anti-PD-L1 抗體結合 PD-L1，擋住 PD-L1 與 PD-1、CD80 的結合（以 durvalumab 為例；Syed, 2017）。
 > - NSCLC 試驗的統合分析中，任何等級的肺炎在 PD-1 抑制劑是 3.6%，PD-L1 抑制劑是 1.3%；3–4 級是 1.1% 對 0.4%（Khunger et al., 2017）。這是跨試驗的間接比較，不能當成換藥的依據，但可以幫忙記住哪一類藥的肺炎較多。
 
 ### 2.3 和化療哪裡不一樣
@@ -244,13 +244,13 @@ Chen 與 Mellman 把抗腫瘤免疫整理成一個循環：T 細胞殺死癌細�
 
 | 藥名 | 第一個核准 | 代表試驗（本手冊相關） | 備註 |
 |------|-----------|---------------------|------|
-| atezolizumab | 2016 年，美國，泌尿上皮癌二線（Markham, 2016） | IMpower110：PD-L1 高表現、EGFR 與 ALK 野生型的 NSCLC 第一線單用，整體存活 20.2 對 13.1 個月（HR 0.59）（Herbst et al., 2020）；IMpower133 與肺泡狀軟組織肉瘤見 5.2 | 840 mg q2w、1,200 mg q3w 或 1,680 mg q4w（Genentech, 2026）；有皮下劑型；PD-L1 常用 SP142 判讀（見 5.1） |
+| atezolizumab | 2016 年，美國，泌尿上皮癌二線（Markham, 2016） | IMpower110：PD-L1 高表現、EGFR 與 ALK 野生型的 NSCLC 第一線單用，整體存活 20.2 對 13.1 個月（HR 0.59）（Herbst et al., 2020）；IMpower133 與肺泡狀軟組織肉瘤見 5.2 | 840 mg q2w、1,200 mg q3w 或 1,680 mg q4w（Genentech, 2026）；有皮下劑型；健保指定以 SP142 檢測 PD-L1（見 5.1） |
 | durvalumab | 2017 年，美國，泌尿上皮癌（加速核准）（Syed, 2017） | PACIFIC、ADRIATIC、CASPIAN（見 5.2） | 「化放療之後接著打」的代表藥 |
 | avelumab | 2017 年，美國，轉移性 Merkel 細胞癌（加速核准）（Kim, 2017） | JAVELIN Bladder 100：晚期泌尿上皮癌第一線化療後的維持治療，整體存活 21.4 對 14.3 個月（HR 0.69）（Powles et al., 2020） | 半衰期只有 6.1 天，800 mg q2w；**前 4 次輸注前要先給抗組織胺與 acetaminophen**（EMD Serono, 2026） |
 
 ### 3.3 CTLA-4 抑制劑
 
-- **Ipilimumab**：2011 年在美國核准用於黑色素瘤（Cameron et al., 2011）。現在多半和 nivolumab 合併。在 NSCLC，nivolumab ＋ ipilimumab 對化療的整體存活，PD-L1 ≥1% 者是 17.1 對 14.9 個月，PD-L1 <1% 者是 17.2 對 12.2 個月（CheckMate 227；Hellmann et al., 2019）。
+- **Ipilimumab**：2011 年在美國核准用於黑色素瘤（Cameron et al., 2011）。常和 nivolumab 合併使用。在 NSCLC，nivolumab ＋ ipilimumab 對化療的整體存活，PD-L1 ≥1% 者是 17.1 對 14.9 個月，PD-L1 <1% 者是 17.2 對 12.2 個月（CheckMate 227；Hellmann et al., 2019）。
 - **Tremelimumab**：2022 年 10 月在美國核准，與 durvalumab 合併用於無法切除的肝細胞癌，11 月加上轉移性 NSCLC（與 durvalumab、含鉑化療合併）（Keam, 2023）。肝細胞癌的 HIMALAYA 試驗只給一劑 300 mg 的 tremelimumab 當「起動」，之後 durvalumab 每 4 週一次，對 sorafenib 的整體存活 16.43 對 13.77 個月（HR 0.78）（Abou-Alfa et al., 2022）。NSCLC 的 POSEIDON 試驗中，tremelimumab ＋ durvalumab ＋ 化療對化療的整體存活 14.0 對 11.7 個月（HR 0.77）；只加 durvalumab 的那一組，整體存活的差異沒有達到統計顯著（HR 0.86）（Johnson et al., 2023）。
 - **共同的設計思路**：CTLA-4 抑制劑毒性大，所以新的處方傾向把它用得少：HIMALAYA 只給一劑，POSEIDON 只給限定的療程，把它當成 PD-1／PD-L1 抑制劑的「起動器」。
 - 健保 9.69 中，ipilimumab 與 tremelimumab 都沒有肺癌用法（見[肺癌章 9.3](../01-lung-cancer.md#93-免疫檢查點抑制劑969)）。
@@ -291,7 +291,7 @@ Relatlimab 是第一個 LAG-3 抗體，和 nivolumab 做成固定劑量的合併
 | 美國核准 | 2017-08-30（O'Leary et al., 2019） | 2024-08-01 加速核准（Barnett et al., 2025） | 2024-02-16 加速核准（Hu et al., 2025） |
 
 - TIL 的療效另有一個第 3 期試驗：168 位晚期黑色素瘤病人（86% 對 PD-1 抑制劑無效），TIL（此試驗用的不是 lifileucel）對 ipilimumab 的無惡化存活 7.2 對 3.1 個月（HR 0.50）；TIL 組所有病人都有 3 級以上的治療相關不良事件，主要是化療造成的骨髓抑制（Rohaan et al., 2022）。
-- **和本手冊的關係**：afamitresgene autoleucel 是肉瘤的第一個細胞治療，台灣沒有藥證，細節在[肉瘤章 4.4.4](../04-sarcoma.md#444-依組織型選藥)。CAR-T 目前用在血液腫瘤；病房會遇到的是 CRS 的處置，以及執行醫院必須備妥 tocilizumab 的規定（[腫瘤急症 9.4](../00-shared/02-oncologic-emergencies.md#94-台灣藥證與健保給付)）。
+- **和本手冊的關係**：afamitresgene autoleucel 是肉瘤章介紹的細胞治療，台灣沒有藥證，細節在[肉瘤章 4.4.4](../04-sarcoma.md#444-依組織型選藥)。本章提到的 CAR-T 用在血液腫瘤；病房會遇到的是 CRS 的處置，以及執行醫院必須備妥 tocilizumab 的規定（[腫瘤急症 9.4](../00-shared/02-oncologic-emergencies.md#94-台灣藥證與健保給付)）。
 
 > [!TIP]
 > **三種增援方式**
@@ -324,8 +324,10 @@ Sipuleucel-T 是第一個獲美國 FDA 核准的治療性癌症疫苗，設計�
 | tarlatamab | 11 天 | 階梯起始後 10 mg q2w | Amgen, 2026 |
 | blinatumomab | 約 2 小時 | 連續靜脈輸注 | Zhu et al., 2016 |
 
+上表是美國仿單的數字。台灣核准的劑量與間隔以台灣仿單和各癌別章第 5 段為準。
+
 - **代謝**：抗體被分解成小胜肽，不靠 CYP。仿單對 avelumab 的描述是「主要經蛋白分解排除」（EMD Serono, 2026），tarlatamab 是「預期經分解代謝路徑變成小胜肽」（Amgen, 2026）。
-- **器官功能**：pembrolizumab 的清除率不受年齡、性別、腎功能不全（eGFR ≥15 mL/min/1.73 m²）、輕到中度肝功能不全影響，重度肝功能不全的影響未知（Merck Sharp & Dohme, 2026）；nivolumab 的仿單寫法相同（Bristol-Myers Squibb, 2026）。這和需要依肌酸酐清除率調整的 carboplatin、pemetrexed 很不一樣。
+- **器官功能**：pembrolizumab 的清除率不受年齡、性別、腎功能不全（eGFR ≥15 mL/min/1.73 m²）、輕到中度肝功能不全影響，重度肝功能不全的影響未知（Merck Sharp & Dohme, 2026）；nivolumab 的仿單寫法相近，同樣列出腎功能不全（eGFR ≥15）與輕到中度肝功能不全不影響清除率（Bristol-Myers Squibb, 2026）。這和需要依肌酸酐清除率調整的 carboplatin、pemetrexed 很不一樣。
 - **藥效比血中濃度更久**：第 1 期試驗中，anti-PD-1 抗體的血清半衰期是 12–20 天，但輸注後 2 個月以上，T 細胞上仍有七成以上的 PD-1 被占住（Brahmer et al., 2010）。
 - **所以 irAE 會在停藥後出現**：仿單寫明免疫相關不良反應可以在開始治療後的任何時間發生，包含停藥之後（Merck Sharp & Dohme, 2026）。文獻回顧整理了 23 個停藥 90 天以後才發生的案例，距離最後一劑的中位時間是 6 個月（範圍 3 至 28 個月）（Couey et al., 2019）。
 - **避孕**：pembrolizumab 仿單要求有生育可能的女性在治療期間與最後一劑後 4 個月內有效避孕（Merck Sharp & Dohme, 2026）。
@@ -522,7 +524,7 @@ ICI 的輸注反應不多：pembrolizumab 的嚴重或危及生命的輸注反�
 |------|------|------|------------|
 | 原發 | 腫瘤裡沒有 T 細胞（「冷」腫瘤） | 腫瘤依 T 細胞浸潤分成熱、中間型與冷，免疫治療的效果取決於原本有沒有免疫反應（Galon & Bruni, 2019）；胰臟癌用 durvalumab ± tremelimumab 的反應率只有 0 到 3.1%（O'Reilly et al., 2019） | 胰臟癌只在 MSI-H／dMMR 考慮 ICI |
 | 原發 | 有驅動基因的肺癌 | EGFR 突變者 ICI 對 docetaxel 的整體存活 HR 1.05（Lee et al., 2017） | 標靶藥優先 |
-| 原發 | 肺腺癌的 STK11、KEAP1 突變 | KRAS 突變肺腺癌中，合併 STK11 突變者對 PD-1 抑制劑的反應率 7.4%，合併 TP53 突變者 35.7%，只有 KRAS 突變者 28.6%（Skoulidis et al., 2018）。POSEIDON 的分析中，STK11 或 KEAP1 突變者要加上 tremelimumab 才看到好處，只加 durvalumab 沒有（Skoulidis et al., 2024） | 這些是**相關性**與事後分析，目前不是常規的選藥依據，也不是給付條件 |
+| 原發 | 肺腺癌的 STK11、KEAP1 突變 | KRAS 突變肺腺癌中，合併 STK11 突變者對 PD-1 抑制劑的反應率 7.4%，合併 TP53 突變者 35.7%，只有 KRAS 突變者 28.6%（Skoulidis et al., 2018）。POSEIDON 的分析中，STK11 或 KEAP1 突變者要加上 tremelimumab 才看到好處，只加 durvalumab 沒有（Skoulidis et al., 2024） | 這些是**相關性**（回溯性與次群組分析），目前不是常規的選藥依據，也不是給付條件 |
 | 後天 | 抗原呈現壞掉 | 復發的黑色素瘤出現 B2M 截斷突變，MHC class I 上不了細胞表面（Zaretsky et al., 2016） | T 細胞看不到腫瘤，再拆煞車也沒有用；理論上要靠不看 MHC 的治療 |
 | 後天 | 腫瘤對 interferon-γ 沒有反應 | 4 位復發的黑色素瘤病人中，2 位出現 JAK1 或 JAK2 的功能喪失突變（Zaretsky et al., 2016） | 同上 |
 
@@ -607,6 +609,8 @@ T 細胞銜接抗體（tarlatamab）、TIL（lifileucel）與 TCR-T（afamitresg
 4. 到急診或看其他科時，第一句話先說「我打過免疫治療」，並拿出警示卡。
 5. 不要自己吃止瀉藥把腹瀉壓下來；正在吃類固醇的人不要自己停藥。
 
+**什麼時候打電話、什麼時候直接來：** 上面第 2 點的任何一項，當天就打電話或回診，不要等下次門診。胸痛、明顯的喘、昏厥、意識改變、吞嚥或呼吸困難、劇烈腹痛或大量血便，直接到急診。各院的聯絡窗口與分流方式不同，衛教時把電話號碼寫在警示卡上。
+
 **警示卡（wallet card）上要有的內容：** 藥名、開始日期與最後一次給藥日期、主治醫師與聯絡電話，以及一句給其他醫療人員看的話：「此病人接受過免疫檢查點抑制劑，可能發生免疫相關不良反應，請聯絡腫瘤科。」接受 tarlatamab 的病人另有 CRS 與神經毒性的警示內容，見[肺癌章 7.7](../01-lung-cancer.md#77-tarlatamab-病房實務c1d1c1d8-的醫囑監測與出院衛教)。
 
 > [!NOTE]
@@ -647,24 +651,24 @@ irAE 緩解後能不能再用 ICI，取決於是哪一個器官、當時幾級�
 <!-- drug-cards -->
 | 藥名 | 分類 | 機轉 | 主要用途 | 必記毒性 | 監測與處置 |
 |------|------|------|----------|----------|------------|
-| nivolumab (Opdivo) | PD-1 抑制劑 | 結合 T 細胞上的 PD-1，放開作用階段的煞車 | NSCLC 二線與術前、黑色素瘤；常與 ipilimumab 合併 | irAE；3–4 級單用 16.3%，合併 ipilimumab 55% | 240 mg q2w 或 480 mg q4w；不減量，只暫停或停用 |
-| pembrolizumab (Keytruda) | PD-1 抑制劑 | 結合 PD-1，擋住它與 PD-L1、PD-L2 結合 | NSCLC、三陰性乳癌、MSI-H／dMMR 實體腫瘤 | irAE：甲狀腺低下 8%、肺炎 3.4%、大腸炎 1.7% | 200 mg q3w 或 400 mg q6w；定期驗肝功能、肌酸酐、甲狀腺 |
-| cemiplimab (Libtayo) | PD-1 抑制劑 | 結合 PD-1，擋住它與 PD-L1、PD-L2 結合 | 皮膚鱗狀細胞癌；PD-L1 ≥50% 的 NSCLC 第一線單用 | irAE | 每次給藥前逐項問症狀；處置見 irAE 章 |
+| nivolumab（Opdivo） | PD-1 抑制劑 | 結合 T 細胞上的 PD-1，放開作用階段的煞車 | NSCLC 二線與術前、黑色素瘤；常與 ipilimumab 合併 | irAE；3–4 級單用 16.3%，合併 ipilimumab 55% | 240 mg q2w 或 480 mg q4w；不減量，只暫停或停用 |
+| pembrolizumab（Keytruda） | PD-1 抑制劑 | 結合 PD-1，擋住它與 PD-L1、PD-L2 結合 | NSCLC、三陰性乳癌、MSI-H／dMMR 實體腫瘤 | irAE：甲狀腺低下 8%、肺炎 3.4%、大腸炎 1.7% | 200 mg q3w 或 400 mg q6w；定期驗肝功能、肌酸酐、甲狀腺 |
+| cemiplimab（Libtayo） | PD-1 抑制劑 | 結合 PD-1，擋住它與 PD-L1、PD-L2 結合 | 皮膚鱗狀細胞癌；PD-L1 ≥50% 的 NSCLC 第一線單用 | irAE | 每次給藥前逐項問症狀；處置見 irAE 章 |
 | tislelizumab | PD-1 抑制劑 | 結合 T 細胞上的 PD-1 | 食道鱗狀細胞癌；健保 9.69 列有肺癌給付 | irAE | 給付條件與指定抗體株見肺癌章 9.3 |
-| dostarlimab (Jemperli) | PD-1 抑制劑 | 結合 T 細胞上的 PD-1 | dMMR 子宮內膜癌；dMMR 局部晚期直腸癌 | irAE | 開藥前確認 dMMR 或 MSI-H 報告 |
+| dostarlimab（Jemperli） | PD-1 抑制劑 | 結合 T 細胞上的 PD-1 | dMMR 子宮內膜癌；dMMR 局部晚期直腸癌 | irAE | 開藥前確認 dMMR 或 MSI-H 報告 |
 | toripalimab | PD-1 抑制劑 | 結合 T 細胞上的 PD-1 | 鼻咽癌第一線，併 gemcitabine ＋ cisplatin | irAE | 同類別：每次給藥前逐項問症狀 |
-| atezolizumab (Tecentriq) | PD-L1 抑制劑 | 結合 PD-L1，擋住它與 PD-1、CD80 結合 | 擴散期 SCLC、NSCLC、肺泡狀軟組織肉瘤 | irAE | 靜脈 1,200 mg q3w；皮下 1,875 mg，兩者不可互換 |
-| durvalumab (Imfinzi) | PD-L1 抑制劑 | 結合 PD-L1，擋住它與 PD-1、CD80 結合 | 化放療後鞏固（III 期 NSCLC、局限期 SCLC）；擴散期 SCLC | irAE；化放療後的肺炎要和放射性肺炎鑑別 | 新的咳嗽或喘先排除肺炎，見肺癌章 4.2 |
-| avelumab (Bavencio) | PD-L1 抑制劑 | 結合腫瘤與免疫細胞上的 PD-L1 | Merkel 細胞癌；泌尿上皮癌化療後維持 | irAE、輸注反應 | 前 4 次輸注前給抗組織胺與 acetaminophen；800 mg q2w |
-| ipilimumab (Yervoy) | CTLA-4 抑制劑 | 放開 T 細胞活化早期的煞車 | 黑色素瘤；與 nivolumab 合併用於 NSCLC | irAE 多而重；致死個案七成是大腸炎 | 腹瀉當天回報；懷疑腦下垂體炎先補糖皮質素 |
-| tremelimumab (Imjudo) | CTLA-4 抑制劑 | 放開 T 細胞活化早期的煞車 | 肝細胞癌（單劑 300 mg ＋ durvalumab）；NSCLC 併化療 | irAE | 健保 9.69 無肺癌用法，見肺癌章 9.3 |
+| atezolizumab（Tecentriq） | PD-L1 抑制劑 | 結合 PD-L1，擋住它與 PD-1、CD80 結合 | 擴散期 SCLC、NSCLC、肺泡狀軟組織肉瘤 | irAE | 靜脈 1,200 mg q3w；皮下 1,875 mg，兩者不可互換 |
+| durvalumab（Imfinzi） | PD-L1 抑制劑 | 結合 PD-L1，擋住它與 PD-1、CD80 結合 | 化放療後鞏固（III 期 NSCLC、局限期 SCLC）；擴散期 SCLC | irAE；化放療後的肺炎要和放射性肺炎鑑別 | 新的咳嗽或喘先排除肺炎，見肺癌章 4.2 |
+| avelumab（Bavencio） | PD-L1 抑制劑 | 結合腫瘤與免疫細胞上的 PD-L1 | Merkel 細胞癌；泌尿上皮癌化療後維持 | irAE、輸注反應 | 前 4 次輸注前給抗組織胺與 acetaminophen；800 mg q2w |
+| ipilimumab（Yervoy） | CTLA-4 抑制劑 | 放開 T 細胞活化早期的煞車 | 黑色素瘤；與 nivolumab 合併用於 NSCLC | irAE 多而重；致死個案七成是大腸炎 | 腹瀉當天回報；懷疑腦下垂體炎先補糖皮質素 |
+| tremelimumab（Imjudo） | CTLA-4 抑制劑 | 放開 T 細胞活化早期的煞車 | 肝細胞癌（單劑 300 mg ＋ durvalumab）；NSCLC 併化療 | irAE | 健保 9.69 無肺癌用法，見肺癌章 9.3 |
 | relatlimab | LAG-3 抑制劑 | 擋住第三個檢查點 LAG-3，與 nivolumab 做成合併製劑 | 無法切除或轉移性黑色素瘤 | irAE；3–4 級 18.9%，nivolumab 單用 9.7% | 每 4 週給藥；監測同其他 ICI |
-| tarlatamab (Imdelltra) | 雙特異性 T 細胞銜接抗體 | 一端抓腫瘤的 DLL3，一端抓 T 細胞的 CD3 | 含鉑化療後惡化的擴散期 SCLC | CRS 57%、神經毒性（含 ICANS） | 先 1 mg 再升 10 mg；前兩劑院內監測 6–8 小時 |
-| blinatumomab (Blincyto) | 雙特異性 T 細胞銜接抗體 | 一端抓 B 細胞的 CD19，一端抓 T 細胞的 CD3 | 復發或難治 B 細胞急性淋巴性白血病 | CRS、神經毒性 | 半衰期約 2 小時，連續靜脈輸注；階梯式劑量 |
-| tisagenlecleucel (Kymriah) | CAR-T 細胞治療 | 自體 T 細胞裝上認 CD19 的人工受體 | 25 歲以下復發或難治 B 細胞急性淋巴性白血病 | CRS 77%、神經事件 40% | 院內備 tocilizumab；依 ASTCT 分級處置 |
-| afamitresgene autoleucel (Tecelra) | TCR-T 細胞治療 | 自體 T 細胞轉入認 MAGE-A4 的 T 細胞受體 | 化療後的滑膜肉瘤 | CRS 75%；長時間嚴重血球低下 | 先驗 HLA-A*02 與 MAGE-A4；台灣無藥證 |
-| lifileucel (Amtagvi) | TIL 細胞治療 | 取腫瘤內的 T 細胞擴增後輸回，再給 IL-2 | PD-1 抑制劑治療過的黑色素瘤 | 3 級不良事件 95.5%；有治療相關死亡 | 監測血球低下、感染、心肺與腎功能 |
-| aldesleukin (IL-2) | 細胞激素 | 刺激 T 細胞增殖 | 轉移性腎細胞癌與黑色素瘤；TIL 輸注後使用 | 嚴重體液滯留；2% 死於不良事件 | 反應率約 16%，少數完全反應可長期持續 |
+| tarlatamab（Imdelltra） | 雙特異性 T 細胞銜接抗體 | 一端抓腫瘤的 DLL3，一端抓 T 細胞的 CD3 | 含鉑化療後惡化的擴散期 SCLC | CRS 57%、神經毒性（含 ICANS） | 先 1 mg 再升 10 mg；前兩劑院內監測 6–8 小時 |
+| blinatumomab（Blincyto） | 雙特異性 T 細胞銜接抗體 | 一端抓 B 細胞的 CD19，一端抓 T 細胞的 CD3 | 復發或難治 B 細胞急性淋巴性白血病 | CRS、神經毒性 | 半衰期約 2 小時，連續靜脈輸注；階梯式劑量 |
+| tisagenlecleucel（Kymriah） | CAR-T 細胞治療 | 自體 T 細胞裝上認 CD19 的人工受體 | 25 歲以下復發或難治 B 細胞急性淋巴性白血病 | CRS 77%、神經事件 40% | 院內備 tocilizumab；依 ASTCT 分級處置 |
+| afamitresgene autoleucel（Tecelra） | TCR-T 細胞治療 | 自體 T 細胞轉入認 MAGE-A4 的 T 細胞受體 | 化療後的滑膜肉瘤 | CRS 75%；長時間嚴重血球低下 | 先驗 HLA 分型與腫瘤 MAGE-A4；台灣無藥證 |
+| lifileucel（Amtagvi） | TIL 細胞治療 | 取腫瘤內的 T 細胞擴增後輸回，再給 IL-2 | PD-1 抑制劑治療過的黑色素瘤 | 3 級不良事件 95.5%；有治療相關死亡 | 監測血球低下、感染、心肺與腎功能 |
+| aldesleukin（IL-2） | 細胞激素 | 刺激 T 細胞增殖 | 轉移性腎細胞癌與黑色素瘤；TIL 輸注後使用 | 嚴重體液滯留；2% 死於不良事件 | 反應率約 16%，少數完全反應可長期持續 |
 
 ---
 
@@ -839,4 +843,300 @@ A. HLA-A*02 分型與腫瘤的 MAGE-A4 表現　B. 用流式細胞儀確認 CD19
 
 ## 11. 參考文獻
 
-<!-- REFS -->
+Abdel-Wahab, N., Safa, H., Abudayyeh, A., Johnson, D. H., Trinh, V. A., Zobniw, C. M., Lin, H., Wong, M. K., Abdelrahim, M., Gaber, A. O., Suarez-Almazor, M. E., & Diab, A. (2019). Checkpoint inhibitor therapy for cancer in solid organ transplantation recipients: An institutional experience and a systematic review of the literature. *Journal for ImmunoTherapy of Cancer, 7*(1), Article 106. https://doi.org/10.1186/s40425-019-0585-1 （PMID: 30992053）
+
+Abou-Alfa, G. K., Lau, G., Kudo, M., Chan, S. L., Kelley, R. K., Furuse, J., Sukeepaisarnjaroen, W., Kang, Y.-K., Van Dao, T., De Toni, E. N., Rimassa, L., Breder, V., Vasilyev, A., Heurgué, A., Tam, V. C., Mody, K., Thungappa, S. C., Ostapenko, Y., Yau, T., . . . Sangro, B. (2022). Tremelimumab plus durvalumab in unresectable hepatocellular carcinoma. *NEJM Evidence, 1*(8), Article EVIDoa2100070. https://doi.org/10.1056/EVIDoa2100070 （PMID: 38319892）
+
+Ahn, M.-J., Cho, B. C., Felip, E., Korantzis, I., Ohashi, K., Majem, M., Juan-Vidal, O., Handzhiev, S., Izumi, H., Lee, J.-S., Dziadziuszko, R., Wolf, J., Blackhall, F., Reck, M., Bustamante Alvarez, J., Hummel, H.-D., Dingemans, A.-M. C., Sands, J., Akamatsu, H., . . . Paz-Ares, L. (2023). Tarlatamab for patients with previously treated small-cell lung cancer. *New England Journal of Medicine, 389*(22), 2063–2075. https://doi.org/10.1056/NEJMoa2307980 （PMID: 37861218）
+
+Albiges, L., Bourlon, M. T., Chacón, M., Cutuli, H. J., Chuken, Y. A. L., Żurawski, B., Mota, J. M., Magri, I., Burotto, M., Luz, M., de Menezes, J., Ruiz, E. P. Y., Fu, S., Richardet, M., Valderrama, B. P., Maruzzo, M., Bracarda, S., Breckenridge, M., Vezina, H. E., . . . George, S. (2025). Subcutaneous versus intravenous nivolumab for renal cell carcinoma. *Annals of Oncology, 36*(1), 99–107. https://doi.org/10.1016/j.annonc.2024.09.002 （PMID: 39288844）
+
+Amgen Inc. (2026). *IMDELLTRA (tarlatamab-dlle) for injection: Prescribing information* (version 8, effective 2026-09-11). DailyMed. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e7b6163-5d83-42ea-82c9-cf7620cdc782
+
+Antonia, S. J., Villegas, A., Daniel, D., Vicente, D., Murakami, S., Hui, R., Yokoi, T., Chiappori, A., Lee, K. H., de Wit, M., Cho, B. C., Bourhaba, M., Quantin, X., Tokito, T., Mekhail, T., Planchard, D., Kim, Y.-C., Karapetis, C. S., Hiret, S., . . . Özgüroğlu, M. (2017). Durvalumab after chemoradiotherapy in stage III non-small-cell lung cancer. *New England Journal of Medicine, 377*(20), 1919–1929. https://doi.org/10.1056/NEJMoa1709937 （PMID: 28885881）
+
+Arbour, K. C., Mezquita, L., Long, N., Rizvi, H., Auclin, E., Ni, A., Martínez-Bernal, G., Ferrara, R., Lai, W. V., Hendriks, L. E. L., Sabari, J. K., Caramella, C., Plodkowski, A. J., Halpenny, D., Chaft, J. E., Planchard, D., Riely, G. J., Besse, B., & Hellmann, M. D. (2018). Impact of baseline steroids on efficacy of programmed cell death-1 and programmed death-ligand 1 blockade in patients with non-small-cell lung cancer. *Journal of Clinical Oncology, 36*(28), 2872–2878. https://doi.org/10.1200/JCO.2018.79.0006 （PMID: 30125216）
+
+Atkins, M. B., Lotze, M. T., Dutcher, J. P., Fisher, R. I., Weiss, G., Margolin, K., Abrams, J., Sznol, M., Parkinson, D., Hawkins, M., Paradise, C., Kunkel, L., & Rosenberg, S. A. (1999). High-dose recombinant interleukin 2 therapy for patients with metastatic melanoma: Analysis of 270 patients treated between 1985 and 1993. *Journal of Clinical Oncology, 17*(7), 2105–2116. https://doi.org/10.1200/JCO.1999.17.7.2105 （PMID: 10561265）
+
+Bargou, R., Leo, E., Zugmaier, G., Klinger, M., Goebeler, M., Knop, S., Noppeney, R., Viardot, A., Hess, G., Schuler, M., Einsele, H., Brandl, C., Wolf, A., Kirchinger, P., Klappers, P., Schmidt, M., Riethmüller, G., Reinhardt, C., Baeuerle, P. A., & Kufer, P. (2008). Tumor regression in cancer patients by very low doses of a T cell-engaging antibody. *Science, 321*(5891), 974–977. https://doi.org/10.1126/science.1158545 （PMID: 18703743）
+
+Barnett, K. K., Johnson, A. R., Das, A., Lee, C.-H. J., Wang, C., Wang, X., Cho, E. S., Kluetz, P. G., & Fashoyin-Aje, L. A. (2025). FDA approval summary: Afamitresgene autoleucel for adults with HLA-restricted, MAGE-A4-positive unresectable or metastatic synovial sarcoma after prior chemotherapy. *Clinical Cancer Research, 31*(15), 3112–3117. https://doi.org/10.1158/1078-0432.CCR-25-0595 （PMID: 40423661）
+
+Borghaei, H., Paz-Ares, L., Horn, L., Spigel, D. R., Steins, M., Ready, N. E., Chow, L. Q., Vokes, E. E., Felip, E., Holgado, E., Barlesi, F., Kohlhäufl, M., Arrieta, O., Burgio, M. A., Fayette, J., Lena, H., Poddubskaya, E., Gerber, D. E., Gettinger, S. N., . . . Brahmer, J. R. (2015). Nivolumab versus docetaxel in advanced nonsquamous non-small-cell lung cancer. *New England Journal of Medicine, 373*(17), 1627–1639. https://doi.org/10.1056/NEJMoa1507643 （PMID: 26412456）
+
+Brahmer, J., Reckamp, K. L., Baas, P., Crinò, L., Eberhardt, W. E. E., Poddubskaya, E., Antonia, S., Pluzanski, A., Vokes, E. E., Holgado, E., Waterhouse, D., Ready, N., Gainor, J., Arén Frontera, O., Havel, L., Steins, M., Garassino, M. C., Aerts, J. G., Domine, M., . . . Spigel, D. R. (2015). Nivolumab versus docetaxel in advanced squamous-cell non-small-cell lung cancer. *New England Journal of Medicine, 373*(2), 123–135. https://doi.org/10.1056/NEJMoa1504627 （PMID: 26028407）
+
+Brahmer, J. R., Drake, C. G., Wollner, I., Powderly, J. D., Picus, J., Sharfman, W. H., Stankevich, E., Pons, A., Salay, T. M., McMiller, T. L., Gilson, M. M., Wang, C., Selby, M., Taube, J. M., Anders, R., Chen, L., Korman, A. J., Pardoll, D. M., Lowy, I., & Topalian, S. L. (2010). Phase I study of single-agent anti-programmed death-1 (MDX-1106) in refractory solid tumors: Safety, clinical activity, pharmacodynamics, and immunologic correlates. *Journal of Clinical Oncology, 28*(19), 3167–3175. https://doi.org/10.1200/JCO.2009.26.7609 （PMID: 20516446）
+
+Brahmer, J. R., Tykodi, S. S., Chow, L. Q. M., Hwu, W.-J., Topalian, S. L., Hwu, P., Drake, C. G., Camacho, L. H., Kauh, J., Odunsi, K., Pitot, H. C., Hamid, O., Bhatia, S., Martins, R., Eaton, K., Chen, S., Salay, T. M., Alaparthy, S., Grosso, J. F., . . . Wigginton, J. M. (2012). Safety and activity of anti-PD-L1 antibody in patients with advanced cancer. *New England Journal of Medicine, 366*(26), 2455–2465. https://doi.org/10.1056/NEJMoa1200694 （PMID: 22658128）
+
+Bristol-Myers Squibb Company. (2026). *OPDIVO (nivolumab) injection: Prescribing information* (version 68, effective 2026-08-12). DailyMed. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394
+
+Burnet, M. (1957). Cancer—A biological approach: III. Viruses associated with neoplastic conditions. IV. Practical applications. *British Medical Journal, 1*(5023), 841–847. https://doi.org/10.1136/bmj.1.5023.841 （PMID: 13413231）
+
+Burotto, M., Zvirbule, Z., Mochalova, A., Runglodvatana, Y., Herraez-Baranda, L., Liu, S. N., Chan, P., Shearer-Kang, E., Liu, X., Tosti, N., Zanghi, J. A., Leutgeb, B., & Felip, E. (2023). IMscin001 Part 2: A randomised phase III, open-label, multicentre study examining the pharmacokinetics, efficacy, immunogenicity, and safety of atezolizumab subcutaneous versus intravenous administration in previously treated locally advanced or metastatic non-small-cell lung cancer and pharmacokinetics comparison with other approved indications. *Annals of Oncology, 34*(8), 693–702. https://doi.org/10.1016/j.annonc.2023.05.009 （PMID: 37268157）
+
+Cameron, F., Whiteside, G., & Perry, C. (2011). Ipilimumab: First global approval. *Drugs, 71*(8), 1093–1104. https://doi.org/10.2165/11594010-000000000-00000 （PMID: 21668044）
+
+Cercek, A., Lumish, M., Sinopoli, J., Weiss, J., Shia, J., Lamendola-Essel, M., El Dika, I. H., Segal, N., Shcherba, M., Sugarman, R., Stadler, Z., Yaeger, R., Smith, J. J., Rousseau, B., Argiles, G., Patel, M., Desai, A., Saltz, L. B., Widmar, M., . . . Diaz, L. A. (2022). PD-1 blockade in mismatch repair-deficient, locally advanced rectal cancer. *New England Journal of Medicine, 386*(25), 2363–2376. https://doi.org/10.1056/NEJMoa2201445 （PMID: 35660797）
+
+Cheever, M. A., & Higano, C. S. (2011). PROVENGE (sipuleucel-T) in prostate cancer: The first FDA-approved therapeutic cancer vaccine. *Clinical Cancer Research, 17*(11), 3520–3526. https://doi.org/10.1158/1078-0432.CCR-10-3126 （PMID: 21471425）
+
+Chen, A. P., Sharon, E., O'Sullivan-Coyne, G., Moore, N., Foster, J. C., Hu, J. S., Van Tine, B. A., Conley, A. P., Read, W. L., Riedel, R. F., Burgess, M. A., Glod, J., Davis, E. J., Merriam, P., Naqash, A. R., Fino, K. K., Miller, B. L., Wilsker, D. F., Begum, A., . . . Doroshow, J. H. (2023). Atezolizumab for advanced alveolar soft part sarcoma. *New England Journal of Medicine, 389*(10), 911–921. https://doi.org/10.1056/NEJMoa2303383 （PMID: 37672694）
+
+Chen, D. S., & Mellman, I. (2013). Oncology meets immunology: The cancer-immunity cycle. *Immunity, 39*(1), 1–10. https://doi.org/10.1016/j.immuni.2013.07.012 （PMID: 23890059）
+
+Cheng, Y., Spigel, D. R., Cho, B. C., Laktionov, K. K., Fang, J., Chen, Y., Zenke, Y., Lee, K. H., Wang, Q., Navarro, A., Bernabe, R., Buchmeier, E. L., Chang, J. W.-C., Shiraishi, Y., Sezgin Goksu, S., Badzio, A., Shi, A., Daniel, D. B., Hoa, N. T. T., . . . Senan, S. (2024). Durvalumab after chemoradiotherapy in limited-stage small-cell lung cancer. *New England Journal of Medicine, 391*(14), 1313–1327. https://doi.org/10.1056/NEJMoa2404873 （PMID: 39268857）
+
+Coley, W. B. (1991). The treatment of malignant tumors by repeated inoculations of erysipelas: With a report of ten original cases. 1893. *Clinical Orthopaedics and Related Research*, (262), 3–11. （PMID: 1984929；1893 年原文的重刊，PubMed 未列 DOI）
+
+Cortes, J., Rugo, H. S., Cescon, D. W., Im, S.-A., Yusof, M. M., Gallardo, C., Lipatov, O., Barrios, C. H., Perez-Garcia, J., Iwata, H., Masuda, N., Torregroza Otero, M., Gokmen, E., Loi, S., Guo, Z., Zhou, X., Karantza, V., Pan, W., & Schmid, P. (2022). Pembrolizumab plus chemotherapy in advanced triple-negative breast cancer. *New England Journal of Medicine, 387*(3), 217–226. https://doi.org/10.1056/NEJMoa2202809 （PMID: 35857659）
+
+Couey, M. A., Bell, R. B., Patel, A. A., Romba, M. C., Crittenden, M. R., Curti, B. D., Urba, W. J., & Leidner, R. S. (2019). Delayed immune-related events (DIRE) after discontinuation of immunotherapy: Diagnostic hazard of autoimmunity at a distance. *Journal for ImmunoTherapy of Cancer, 7*(1), Article 165. https://doi.org/10.1186/s40425-019-0645-6 （PMID: 31269983）
+
+D'Angelo, S. P., Araujo, D. M., Abdul Razak, A. R., Agulnik, M., Attia, S., Blay, J.-Y., Carrasco Garcia, I., Charlson, J. A., Choy, E., Demetri, G. D., Druta, M., Forcade, E., Ganjoo, K. N., Glod, J., Keedy, V. L., Le Cesne, A., Liebner, D. A., Moreno, V., Pollack, S. M., . . . Van Tine, B. A. (2024). Afamitresgene autoleucel for advanced synovial sarcoma and myxoid round cell liposarcoma (SPEARHEAD-1): An international, open-label, phase 2 trial. *The Lancet, 403*(10435), 1460–1471. https://doi.org/10.1016/S0140-6736(24)00319-2 （PMID: 38554725）
+
+D'Angelo, S. P., Mahoney, M. R., Van Tine, B. A., Atkins, J., Milhem, M. M., Jahagirdar, B. N., Antonescu, C. R., Horvath, E., Tap, W. D., Schwartz, G. K., & Streicher, H. (2018). Nivolumab with or without ipilimumab treatment for metastatic sarcoma (Alliance A091401): Two open-label, non-comparative, randomised, phase 2 trials. *The Lancet Oncology, 19*(3), 416–426. https://doi.org/10.1016/S1470-2045(18)30006-8 （PMID: 29370992）
+
+Deeks, E. D. (2014). Nivolumab: A review of its use in patients with malignant melanoma. *Drugs, 74*(11), 1233–1239. https://doi.org/10.1007/s40265-014-0234-4 （PMID: 25022950）
+
+Derosa, L., Hellmann, M. D., Spaziano, M., Halpenny, D., Fidelle, M., Rizvi, H., Long, N., Plodkowski, A. J., Arbour, K. C., Chaft, J. E., Rouche, J. A., Zitvogel, L., Zalcman, G., Albiges, L., Escudier, B., & Routy, B. (2018). Negative association of antibiotics on clinical activity of immune checkpoint inhibitors in patients with advanced renal cell and non-small-cell lung cancer. *Annals of Oncology, 29*(6), 1437–1444. https://doi.org/10.1093/annonc/mdy103 （PMID: 29617710）
+
+Dong, H., Zhu, G., Tamada, K., & Chen, L. (1999). B7-H1, a third member of the B7 family, co-stimulates T-cell proliferation and interleukin-10 secretion. *Nature Medicine, 5*(12), 1365–1369. https://doi.org/10.1038/70932 （PMID: 10581077）
+
+Dunn, G. P., Bruce, A. T., Ikeda, H., Old, L. J., & Schreiber, R. D. (2002). Cancer immunoediting: From immunosurveillance to tumor escape. *Nature Immunology, 3*(11), 991–998. https://doi.org/10.1038/ni1102-991 （PMID: 12407406）
+
+EMD Serono, Inc. (2026). *BAVENCIO (avelumab) injection: Prescribing information* (version 25, effective 2026-09-22). DailyMed. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118
+
+Fang, W., Zhao, Y., Luo, Y., Yang, R., Huang, Y., He, Z., Zhao, H., Li, M., Li, K., Song, Q., Du, X., Sun, Y., Li, W., Sun, L., Wang, Z., Yang, K., Fan, Y., Liu, B., Zhao, H., . . . Zhang, L. (2026). Bispecific antibody ivonescimab added to chemotherapy in EGFR-variant non-small cell lung cancer: The HARMONi-A randomized clinical trial. *JAMA, 336*(4), 306–314. https://doi.org/10.1001/jama.2026.7745 （PMID: 42307937）
+
+Felip, E., Rojas, C. I., Schenker, M., Kowalski, D. M., Casarini, I. A., Csöszi, T., Şendur, M. A. N., Martins, J., Calles Blanco, A., Wang, C.-C., Wang, M., Ramirez Fallas, R. A. L., Yoshioka, H., Nair, S., Song, X., Deng, X., Lala, M., Eiras, R., & Takahashi, T. (2025). Subcutaneous versus intravenous pembrolizumab, in combination with chemotherapy, for treatment of metastatic non-small-cell lung cancer: The phase III 3475A-D77 trial. *Annals of Oncology, 36*(7), 775–785. https://doi.org/10.1016/j.annonc.2025.03.012 （PMID: 40157574）
+
+Ferrara, R., Mezquita, L., Texier, M., Lahmar, J., Audigier-Valette, C., Tessonnier, L., Mazieres, J., Zalcman, G., Brosseau, S., Le Moulec, S., Leroy, L., Duchemann, B., Lefebvre, C., Veillon, R., Westeel, V., Koscielny, S., Champiat, S., Ferté, C., Planchard, D., . . . Caramella, C. (2018). Hyperprogressive disease in patients with advanced non-small cell lung cancer treated with PD-1/PD-L1 inhibitors or with single-agent chemotherapy. *JAMA Oncology, 4*(11), 1543–1552. https://doi.org/10.1001/jamaoncol.2018.3676 （PMID: 30193240）
+
+Forde, P. M., Spicer, J., Lu, S., Provencio, M., Mitsudomi, T., Awad, M. M., Felip, E., Broderick, S. R., Brahmer, J. R., Swanson, S. J., Kerr, K., Wang, C., Ciuleanu, T.-E., Saylors, G. B., Tanaka, F., Ito, H., Chen, K.-N., Liberman, M., Vokes, E. E., . . . Girard, N. (2022). Neoadjuvant nivolumab plus chemotherapy in resectable lung cancer. *New England Journal of Medicine, 386*(21), 1973–1985. https://doi.org/10.1056/NEJMoa2202170 （PMID: 35403841）
+
+Forde, P. M., Spicer, J. D., Provencio, M., Mitsudomi, T., Awad, M. M., Wang, C., Lu, S., Felip, E., Swanson, S. J., Brahmer, J. R., Kerr, K., Taube, J. M., Ciuleanu, T.-E., Tanaka, F., Saylors, G. B., Chen, K.-N., Ito, H., Liberman, M., Martin, C., . . . Girard, N. (2025). Overall survival with neoadjuvant nivolumab plus chemotherapy in lung cancer. *New England Journal of Medicine, 393*(8), 741–752. https://doi.org/10.1056/NEJMoa2502931 （PMID: 40454642）
+
+Freeman, G. J., Long, A. J., Iwai, Y., Bourque, K., Chernova, T., Nishimura, H., Fitz, L. J., Malenkovich, N., Okazaki, T., Byrne, M. C., Horton, H. F., Fouser, L., Carter, L., Ling, V., Bowman, M. R., Carreno, B. M., Collins, M., Wood, C. R., & Honjo, T. (2000). Engagement of the PD-1 immunoinhibitory receptor by a novel B7 family member leads to negative regulation of lymphocyte activation. *The Journal of Experimental Medicine, 192*(7), 1027–1034. https://doi.org/10.1084/jem.192.7.1027 （PMID: 11015443）
+
+Galon, J., & Bruni, D. (2019). Approaches to treat immune hot, altered and cold tumours with combination immunotherapies. *Nature Reviews Drug Discovery, 18*(3), 197–218. https://doi.org/10.1038/s41573-018-0007-y （PMID: 30610226）
+
+Gandhi, L., Rodríguez-Abreu, D., Gadgeel, S., Esteban, E., Felip, E., De Angelis, F., Domine, M., Clingan, P., Hochmair, M. J., Powell, S. F., Cheng, S. Y.-S., Bischoff, H. G., Peled, N., Grossi, F., Jennens, R. R., Reck, M., Hui, R., Garon, E. B., Boyer, M., . . . Garassino, M. C. (2018). Pembrolizumab plus chemotherapy in metastatic non-small-cell lung cancer. *New England Journal of Medicine, 378*(22), 2078–2092. https://doi.org/10.1056/NEJMoa1801005 （PMID: 29658856）
+
+Garassino, M. C., Gadgeel, S., Speranza, G., Felip, E., Esteban, E., Dómine, M., Hochmair, M. J., Powell, S. F., Bischoff, H. G., Peled, N., Grossi, F., Jennens, R. R., Reck, M., Hui, R., Garon, E. B., Kurata, T., Gray, J. E., Schwarzenberger, P., Jensen, E., . . . Rodríguez-Abreu, D. (2023). Pembrolizumab plus pemetrexed and platinum in nonsquamous non-small-cell lung cancer: 5-year outcomes from the phase 3 KEYNOTE-189 study. *Journal of Clinical Oncology, 41*(11), 1992–1998. https://doi.org/10.1200/JCO.22.01989 （PMID: 36809080）
+
+Garon, E. B., Rizvi, N. A., Hui, R., Leighl, N., Balmanoukian, A. S., Eder, J. P., Patnaik, A., Aggarwal, C., Gubens, M., Horn, L., Carcereny, E., Ahn, M.-J., Felip, E., Lee, J.-S., Hellmann, M. D., Hamid, O., Goldman, J. W., Soria, J.-C., Dolled-Filhart, M., . . . Gandhi, L. (2015). Pembrolizumab for the treatment of non-small-cell lung cancer. *New England Journal of Medicine, 372*(21), 2018–2028. https://doi.org/10.1056/NEJMoa1501824 （PMID: 25891174）
+
+Genentech, Inc. (2026). *TECENTRIQ (atezolizumab) injection: Prescribing information* (version 46, effective 2026-10-13). DailyMed. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee
+
+Grupp, S. A., Kalos, M., Barrett, D., Aplenc, R., Porter, D. L., Rheingold, S. R., Teachey, D. T., Chew, A., Hauck, B., Wright, J. F., Milone, M. C., Levine, B. L., & June, C. H. (2013). Chimeric antigen receptor-modified T cells for acute lymphoid leukemia. *New England Journal of Medicine, 368*(16), 1509–1518. https://doi.org/10.1056/NEJMoa1215134 （PMID: 23527958）
+
+Haanen, J., Obeid, M., Spain, L., Carbonnel, F., Wang, Y., Robert, C., Lyon, A. R., Wick, W., Kostine, M., Peters, S., Jordan, K., & Larkin, J. (2022). Management of toxicities from immunotherapy: ESMO clinical practice guideline for diagnosis, treatment and follow-up. *Annals of Oncology, 33*(12), 1217–1238. https://doi.org/10.1016/j.annonc.2022.10.001 （PMID: 36270461）
+
+Hellmann, M. D., Paz-Ares, L., Bernabe Caro, R., Zurawski, B., Kim, S.-W., Carcereny Costa, E., Park, K., Alexandru, A., Lupinacci, L., de la Mora Jimenez, E., Sakai, H., Albert, I., Vergnenegre, A., Peters, S., Syrigos, K., Barlesi, F., Reck, M., Borghaei, H., Brahmer, J. R., . . . Ramalingam, S. S. (2019). Nivolumab plus ipilimumab in advanced non-small-cell lung cancer. *New England Journal of Medicine, 381*(21), 2020–2031. https://doi.org/10.1056/NEJMoa1910231 （PMID: 31562796）
+
+Herbst, R. S., Giaccone, G., de Marinis, F., Reinmuth, N., Vergnenegre, A., Barrios, C. H., Morise, M., Felip, E., Andric, Z., Geater, S., Özgüroğlu, M., Zou, W., Sandler, A., Enquist, I., Komatsubara, K., Deng, Y., Kuriki, H., Wen, X., McCleland, M., . . . Spigel, D. R. (2020). Atezolizumab for first-line treatment of PD-L1-selected patients with NSCLC. *New England Journal of Medicine, 383*(14), 1328–1339. https://doi.org/10.1056/NEJMoa1917346 （PMID: 32997907）
+
+Hodi, F. S., O'Day, S. J., McDermott, D. F., Weber, R. W., Sosman, J. A., Haanen, J. B., Gonzalez, R., Robert, C., Schadendorf, D., Hassel, J. C., Akerley, W., van den Eertwegh, A. J. M., Lutzky, J., Lorigan, P., Vaubel, J. M., Linette, G. P., Hogg, D., Ottensmeier, C. H., Lebbé, C., . . . Urba, W. J. (2010). Improved survival with ipilimumab in patients with metastatic melanoma. *New England Journal of Medicine, 363*(8), 711–723. https://doi.org/10.1056/NEJMoa1003466 （PMID: 20525992）
+
+Horn, L., Mansfield, A. S., Szczęsna, A., Havel, L., Krzakowski, M., Hochmair, M. J., Huemer, F., Losonczy, G., Johnson, M. L., Nishio, M., Reck, M., Mok, T., Lam, S., Shames, D. S., Liu, J., Ding, B., Lopez-Chavez, A., Kabbinavar, F., Lin, W., . . . Liu, S. V. (2018). First-line atezolizumab plus chemotherapy in extensive-stage small-cell lung cancer. *New England Journal of Medicine, 379*(23), 2220–2229. https://doi.org/10.1056/NEJMoa1809064 （PMID: 30280641）
+
+Horvat, T. Z., Adel, N. G., Dang, T.-O., Momtaz, P., Postow, M. A., Callahan, M. K., Carvajal, R. D., Dickson, M. A., D'Angelo, S. P., Woo, K. M., Panageas, K. S., Wolchok, J. D., & Chapman, P. B. (2015). Immune-Related adverse events, need for systemic immunosuppression, and effects on survival and time to treatment failure in patients with melanoma treated with ipilimumab at Memorial Sloan Kettering Cancer Center. *Journal of Clinical Oncology, 33*(28), 3193–3198. https://doi.org/10.1200/JCO.2015.60.8448 （PMID: 26282644）
+
+Hu, L., Fan, C., Bross, P., Das, A., Cho, E. S., Knudson, K. M., Tegenge, M., Gao, Q., Brewer, J. R., Theoret, M. R., & Fashoyin-Aje, L. A. (2025). FDA approval summary: Lifileucel for unresectable or metastatic melanoma previously treated with an anti-PD-1-based immunotherapy. *Clinical Cancer Research, 31*(19), 4004–4009. https://doi.org/10.1158/1078-0432.CCR-25-0880 （PMID: 40699950）
+
+Huang, P.-W., & Chang, J. W.-C. (2019). Immune checkpoint inhibitors win the 2018 Nobel Prize. *Biomedical Journal, 42*(5), 299–306. https://doi.org/10.1016/j.bj.2019.09.002 （PMID: 31783990）
+
+Ishida, Y., Agata, Y., Shibahara, K., & Honjo, T. (1992). Induced expression of PD-1, a novel member of the immunoglobulin gene superfamily, upon programmed cell death. *The EMBO Journal, 11*(11), 3887–3895. https://doi.org/10.1002/j.1460-2075.1992.tb05481.x （PMID: 1396582）
+
+Johnson, M. L., Cho, B. C., Luft, A., Alatorre-Alexander, J., Geater, S. L., Laktionov, K., Kim, S.-W., Ursol, G., Hussein, M., Lim, F. L., Yang, C.-T., Araujo, L. H., Saito, H., Reinmuth, N., Shi, X., Poole, L., Peters, S., Garon, E. B., & Mok, T. (2023). Durvalumab with or without tremelimumab in combination with chemotherapy as first-line therapy for metastatic non-small-cell lung cancer: The phase III POSEIDON study. *Journal of Clinical Oncology, 41*(6), 1213–1227. https://doi.org/10.1200/JCO.22.00975 （PMID: 36327426）
+
+Kamboj, M., Bohlke, K., Baptiste, D. M., Dunleavy, K., Fueger, A., Jones, L., Kelkar, A. H., Law, L. Y., LeFebvre, K. B., Ljungman, P., Miller, E. D., Meyer, L. A., Moore, H. N., Soares, H. P., Taplitz, R. A., Woldetsadik, E. S., & Kohn, E. C. (2024). Vaccination of adults with cancer: ASCO guideline. *Journal of Clinical Oncology, 42*(14), 1699–1721. https://doi.org/10.1200/JCO.24.00032 （PMID: 38498792）
+
+Kantoff, P. W., Higano, C. S., Shore, N. D., Berger, E. R., Small, E. J., Penson, D. F., Redfern, C. H., Ferrari, A. C., Dreicer, R., Sims, R. B., Xu, Y., Frohlich, M. W., & Schellhammer, P. F. (2010). Sipuleucel-T immunotherapy for castration-resistant prostate cancer. *New England Journal of Medicine, 363*(5), 411–422. https://doi.org/10.1056/NEJMoa1001294 （PMID: 20818862）
+
+Keam, S. J. (2019). Toripalimab: First global approval. *Drugs, 79*(5), 573–578. https://doi.org/10.1007/s40265-019-01076-2 （PMID: 30805896）
+
+Keam, S. J. (2023). Tremelimumab: First approval. *Drugs, 83*(1), 93–102. https://doi.org/10.1007/s40265-022-01827-8 （PMID: 36571670）
+
+Khunger, M., Rakshit, S., Pasupuleti, V., Hernandez, A. V., Mazzone, P., Stevenson, J., Pennell, N. A., & Velcheti, V. (2017). Incidence of pneumonitis with use of Programmed Death 1 and programmed death-ligand 1 Inhibitors in Non-small Cell Lung Cancer: A systematic review and meta-analysis of trials. *Chest, 152*(2), 271–281. https://doi.org/10.1016/j.chest.2017.04.177 （PMID: 28499515）
+
+Kim, E. S. (2017). Avelumab: First global approval. *Drugs, 77*(8), 929–937. https://doi.org/10.1007/s40265-017-0749-6 （PMID: 28456944）
+
+Kim, J. M., & Chen, D. S. (2016). Immune escape to PD-L1/PD-1 blockade: Seven steps to success (or failure). *Annals of Oncology, 27*(8), 1492–1504. https://doi.org/10.1093/annonc/mdw217 （PMID: 27207108）
+
+Kirkwood, J. M., Strawderman, M. H., Ernstoff, M. S., Smith, T. J., Borden, E. C., & Blum, R. H. (1996). Interferon alfa-2b adjuvant therapy of high-risk resected cutaneous melanoma: The Eastern Cooperative Oncology Group trial EST 1684. *Journal of Clinical Oncology, 14*(1), 7–17. https://doi.org/10.1200/JCO.1996.14.1.7 （PMID: 8558223）
+
+Kochenderfer, J. N., Wilson, W. H., Janik, J. E., Dudley, M. E., Stetler-Stevenson, M., Feldman, S. A., Maric, I., Raffeld, M., Nathan, D.-A. N., Lanier, B. J., Morgan, R. A., & Rosenberg, S. A. (2010). Eradication of B-lineage cells and regression of lymphoma in a patient treated with autologous T cells genetically engineered to recognize CD19. *Blood, 116*(20), 4099–4102. https://doi.org/10.1182/blood-2010-04-281931 （PMID: 20668228）
+
+Krummel, M. F., & Allison, J. P. (1995). CD28 and CTLA-4 have opposing effects on the response of T cells to stimulation. *The Journal of Experimental Medicine, 182*(2), 459–465. https://doi.org/10.1084/jem.182.2.459 （PMID: 7543139）
+
+Kulangara, K., Zhang, N., Corigliano, E., Guerrero, L., Waldroup, S., Jaiswal, D., Jansson, M., Shah, S., Hanks, D., Wang, J., Lunceford, J., Savage, M. J., Juco, J., & Emancipator, K. (2019). Clinical utility of the combined positive score for programmed death ligand-1 expression and the approval of pembrolizumab for treatment of gastric cancer. *Archives of Pathology & Laboratory Medicine, 143*(3), 330–337. https://doi.org/10.5858/arpa.2018-0043-OA （PMID: 30028179）
+
+Lala, M., Li, T. R., de Alwis, D. P., Sinha, V., Mayawala, K., Yamamoto, N., Siu, L. L., Chartash, E., Aboshady, H., & Jain, L. (2020). A six-weekly dosing schedule for pembrolizumab in patients with cancer based on evaluation using modelling and simulation. *European Journal of Cancer, 131*, 68–75. https://doi.org/10.1016/j.ejca.2020.02.016 （PMID: 32305010）
+
+Larkin, J., Chiarion-Sileni, V., Gonzalez, R., Grob, J. J., Cowey, C. L., Lao, C. D., Schadendorf, D., Dummer, R., Smylie, M., Rutkowski, P., Ferrucci, P. F., Hill, A., Wagstaff, J., Carlino, M. S., Haanen, J. B., Maio, M., Marquez-Rodas, I., McArthur, G. A., Ascierto, P. A., . . . Wolchok, J. D. (2015). Combined nivolumab and ipilimumab or monotherapy in untreated melanoma. *New England Journal of Medicine, 373*(1), 23–34. https://doi.org/10.1056/NEJMoa1504030 （PMID: 26027431）
+
+Le, D. T., Uram, J. N., Wang, H., Bartlett, B. R., Kemberling, H., Eyring, A. D., Skora, A. D., Luber, B. S., Azad, N. S., Laheru, D., Biedrzycki, B., Donehower, R. C., Zaheer, A., Fisher, G. A., Crocenzi, T. S., Lee, J. J., Duffy, S. M., Goldberg, R. M., de la Chapelle, A., . . . Diaz, L. A., Jr. (2015). PD-1 blockade in tumors with mismatch-repair deficiency. *New England Journal of Medicine, 372*(26), 2509–2520. https://doi.org/10.1056/NEJMoa1500596 （PMID: 26028255）
+
+Le, X., Passaro, A., Zhao, Y., Huang, Y., Laskin, J., Rodriguez-Abreu, D., Calles, A., Bazhenova, L., Lo Russo, G., Leighl, N. B., Cappuzzo, F., Girard, N., Popat, S., Fang, W., Luo, Y., Li, W., He, Z., Zhao, H., Li, M., . . . Zhang, L. (2026). Ivonescimab plus chemotherapy versus placebo plus chemotherapy in patients with advanced EGFR-mutated non-small-cell lung cancer after disease progression on EGFR tyrosine kinase inhibitor therapy (HARMONi): A multicentre, randomised, double-blind, phase 3 trial. *The Lancet Oncology, 27*(9), 1094–1109. https://doi.org/10.1016/S1470-2045(26)00282-2 （PMID: 42636833）
+
+Leach, D. R., Krummel, M. F., & Allison, J. P. (1996). Enhancement of antitumor immunity by CTLA-4 blockade. *Science, 271*(5256), 1734–1736. https://doi.org/10.1126/science.271.5256.1734 （PMID: 8596936）
+
+Lee, A., & Keam, S. J. (2020). Tislelizumab: First approval. *Drugs, 80*(6), 617–624. https://doi.org/10.1007/s40265-020-01286-z （PMID: 32185681）
+
+Lee, C. K., Man, J., Lord, S., Links, M., Gebski, V., Mok, T., & Yang, J. C.-H. (2017). Checkpoint inhibitors in metastatic EGFR-mutated non-small cell lung cancer—A meta-analysis. *Journal of Thoracic Oncology, 12*(2), 403–407. https://doi.org/10.1016/j.jtho.2016.10.007 （PMID: 27765535）
+
+Lee, D. W., Santomasso, B. D., Locke, F. L., Ghobadi, A., Turtle, C. J., Brudno, J. N., Maus, M. V., Park, J. H., Mead, E., Pavletic, S., Go, W. Y., Eldjerou, L., Gardner, R. A., Frey, N., Curran, K. J., Peggs, K., Pasquini, M., DiPersio, J. F., van den Brink, M. R. M., . . . Neelapu, S. S. (2019). ASTCT consensus grading for cytokine release syndrome and neurologic toxicity associated with immune effector cells. *Biology of Blood and Marrow Transplantation, 25*(4), 625–638. https://doi.org/10.1016/j.bbmt.2018.12.758 （PMID: 30592986）
+
+Liu, Y., Nashed, J., Barone, A. K., Yuan, M., Amatya, A. K., Xiang, Y., Zhao, H., Bi, Y., Pegues, M. A., Miller, C. P., Lane, A. R., Mixter, B. D., Tang, S., Pazdur, R., de Claro, R. A., & Larkins, E. (2026). FDA approval summary: Tarlatamab for the treatment of extensive-stage small cell lung cancer. *Clinical Cancer Research, 32*(7), 1191–1195. https://doi.org/10.1158/1078-0432.CCR-25-2287 （PMID: 41587109）
+
+Long, G. V., Tykodi, S. S., Schneider, J. G., Garbe, C., Gravis, G., Rashford, M., Agrawal, S., Grigoryeva, E., Bello, A., Roy, A., Rollin, L., & Zhao, X. (2018). Assessment of nivolumab exposure and clinical safety of 480 mg every 4 weeks flat-dosing schedule in patients with cancer. *Annals of Oncology, 29*(11), 2208–2213. https://doi.org/10.1093/annonc/mdy408 （PMID: 30215677）
+
+Lu, S., Liu, B., Luo, Y., Sun, L., Wu, L., Han, Z., Fan, Y., Zhao, Y., Li, X., Xu, H., Meng, X., Liu, Y., Zhang, Z., Luo, H., Ma, X., Ma, X., Shi, Q., Zhang, Z., Yang, R., . . . Xia, M. Y. (2026). Ivonescimab plus chemotherapy versus tislelizumab plus chemotherapy in advanced squamous non-small-cell lung cancer (HARMONi-6): Interim overall survival analysis of a randomised, double-blind, phase 3 trial in China. *The Lancet, 407*(10548), 2620–2629. https://doi.org/10.1016/S0140-6736(26)00966-9 （PMID: 42218899）
+
+Mahmood, S. S., Fradley, M. G., Cohen, J. V., Nohria, A., Reynolds, K. L., Heinzerling, L. M., Sullivan, R. J., Damrongwatanasuk, R., Chen, C. L., Gupta, D., Kirchberger, M. C., Awadalla, M., Hassan, M. Z. O., Moslehi, J. J., Shah, S. P., Ganatra, S., Thavendiranathan, P., Lawrence, D. P., Groarke, J. D., & Neilan, T. G. (2018). Myocarditis in patients treated with immune checkpoint inhibitors. *Journal of the American College of Cardiology, 71*(16), 1755–1764. https://doi.org/10.1016/j.jacc.2018.02.037 （PMID: 29567210）
+
+Mai, H.-Q., Chen, Q.-Y., Chen, D., Hu, C., Yang, K., Wen, J., Li, J., Shi, Y., Jin, F., Xu, R., Pan, J., Qu, S., Li, P., Hu, C., Liu, Y.-C., Jiang, Y., He, X., Wang, H.-M., Lim, W.-T., . . . Xu, R.-H. (2023). Toripalimab plus chemotherapy for recurrent or metastatic nasopharyngeal carcinoma: The JUPITER-02 randomized clinical trial. *JAMA, 330*(20), 1961–1970. https://doi.org/10.1001/jama.2023.20181 （PMID: 38015220）
+
+Marabelle, A., Le, D. T., Ascierto, P. A., Di Giacomo, A. M., De Jesus-Acosta, A., Delord, J. P., Geva, R., Gottfried, M., Penel, N., Hansen, A. R., Piha-Paul, S. A., Doi, T., Gao, B., Chung, H. C., Lopez-Martin, J., Bang, Y. J., Frommer, R. S., Shah, M., Ghori, R., . . . Diaz, L. A. (2020). Efficacy of pembrolizumab in patients with noncolorectal high microsatellite instability/mismatch repair-deficient cancer: Results from the phase II KEYNOTE-158 study. *Journal of Clinical Oncology, 38*(1), 1–10. https://doi.org/10.1200/JCO.19.02105 （PMID: 31682550）
+
+Marcus, L., Fashoyin-Aje, L. A., Donoghue, M., Yuan, M., Rodriguez, L., Gallagher, P. S., Philip, R., Ghosh, S., Theoret, M. R., Beaver, J. A., Pazdur, R., & Lemery, S. J. (2021). FDA approval summary: Pembrolizumab for the treatment of tumor mutational burden-high solid tumors. *Clinical Cancer Research, 27*(17), 4685–4689. https://doi.org/10.1158/1078-0432.CCR-21-0327 （PMID: 34083238）
+
+Marcus, L., Lemery, S. J., Keegan, P., & Pazdur, R. (2019). FDA approval summary: Pembrolizumab for the treatment of microsatellite instability-high solid tumors. *Clinical Cancer Research, 25*(13), 3753–3758. https://doi.org/10.1158/1078-0432.CCR-18-4070 （PMID: 30787022）
+
+Markham, A. (2016). Atezolizumab: First global approval. *Drugs, 76*(12), 1227–1232. https://doi.org/10.1007/s40265-016-0618-8 （PMID: 27412122）
+
+Markham, A. (2021). Dostarlimab: First approval. *Drugs, 81*(10), 1213–1219. https://doi.org/10.1007/s40265-021-01539-5 （PMID: 34106455）
+
+Markham, A., & Duggan, S. (2018). Cemiplimab: First global approval. *Drugs, 78*(17), 1841–1846. https://doi.org/10.1007/s40265-018-1012-5 （PMID: 30456447）
+
+Maude, S. L., Laetsch, T. W., Buechner, J., Rives, S., Boyer, M., Bittencourt, H., Bader, P., Verneris, M. R., Stefanski, H. E., Myers, G. D., Qayed, M., De Moerloose, B., Hiramatsu, H., Schlis, K., Davis, K. L., Martin, P. L., Nemecek, E. R., Yanik, G. A., Peters, C., . . . Grupp, S. A. (2018). Tisagenlecleucel in children and young adults with B-cell lymphoblastic leukemia. *New England Journal of Medicine, 378*(5), 439–448. https://doi.org/10.1056/NEJMoa1709866 （PMID: 29385370）
+
+McCarthy, E. F. (2006). The toxins of William B. Coley and the treatment of bone and soft-tissue sarcomas. *The Iowa Orthopaedic Journal, 26*, 154–158. https://pmc.ncbi.nlm.nih.gov/articles/PMC1888599/ （PMID: 16789469；無 DOI）
+
+Menzies, A. M., Johnson, D. B., Ramanujam, S., Atkinson, V. G., Wong, A. N. M., Park, J. J., McQuade, J. L., Shoushtari, A. N., Tsai, K. K., Eroglu, Z., Klein, O., Hassel, J. C., Sosman, J. A., Guminski, A., Sullivan, R. J., Ribas, A., Carlino, M. S., Davies, M. A., Sandhu, S. K., & Long, G. V. (2017). Anti-PD-1 therapy in patients with advanced melanoma and preexisting autoimmune disorders or major toxicity with ipilimumab. *Annals of Oncology, 28*(2), 368–376. https://doi.org/10.1093/annonc/mdw443 （PMID: 27687304）
+
+Merck Sharp & Dohme LLC. (2026). *KEYTRUDA (pembrolizumab) injection: Prescribing information* (version 229, effective 2026-10-16). DailyMed. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287
+
+Morales, A., Eidinger, D., & Bruce, A. W. (1976). Intracavitary Bacillus Calmette-Guerin in the treatment of superficial bladder tumors. *The Journal of Urology, 116*(2), 180–183. https://doi.org/10.1016/s0022-5347(17)58737-6 （PMID: 820877）
+
+Mountzios, G., Sun, L., Cho, B. C., Demirci, U., Baka, S., Gümüş, M., Lugini, A., Zhu, B., Yu, Y., Korantzis, I., Han, J.-Y., Ciuleanu, T.-E., Ahn, M.-J., Rocha, P., Mazières, J., Lau, S. C. M., Schuler, M., Blackhall, F., Yoshida, T., . . . Rudin, C. M. (2025). Tarlatamab in small-cell lung cancer after platinum-based chemotherapy. *New England Journal of Medicine, 393*(4), 349–361. https://doi.org/10.1056/NEJMoa2502099 （PMID: 40454646）
+
+Nishimura, H., Nose, M., Hiai, H., Minato, N., & Honjo, T. (1999). Development of lupus-like autoimmune diseases by disruption of the PD-1 gene encoding an ITIM motif-carrying immunoreceptor. *Immunity, 11*(2), 141–151. https://doi.org/10.1016/s1074-7613(00)80089-8 （PMID: 10485649）
+
+O'Leary, M. C., Lu, X., Huang, Y., Lin, X., Mahmood, I., Przepiorka, D., Gavin, D., Lee, S., Liu, K., George, B., Bryan, W., Theoret, M. R., & Pazdur, R. (2019). FDA approval summary: Tisagenlecleucel for treatment of patients with relapsed or refractory B-cell precursor acute lymphoblastic leukemia. *Clinical Cancer Research, 25*(4), 1142–1146. https://doi.org/10.1158/1078-0432.CCR-18-2035 （PMID: 30309857）
+
+O'Reilly, E. M., Oh, D.-Y., Dhani, N., Renouf, D. J., Lee, M. A., Sun, W., Fisher, G., Hezel, A., Chang, S.-C., Vlahovic, G., Takahashi, O., Yang, Y., Fitts, D., & Philip, P. A. (2019). Durvalumab with or without tremelimumab for patients with metastatic pancreatic ductal adenocarcinoma: A phase 2 randomized clinical trial. *JAMA Oncology, 5*(10), 1431–1438. https://doi.org/10.1001/jamaoncol.2019.1588 （PMID: 31318392）
+
+Paik, J. (2022). Nivolumab plus relatlimab: First approval. *Drugs, 82*(8), 925–931. https://doi.org/10.1007/s40265-022-01723-1 （PMID: 35543970）
+
+Pardoll, D. M. (2012). The blockade of immune checkpoints in cancer immunotherapy. *Nature Reviews Cancer, 12*(4), 252–264. https://doi.org/10.1038/nrc3239 （PMID: 22437870）
+
+Paz-Ares, L., Dvorkin, M., Chen, Y., Reinmuth, N., Hotta, K., Trukhin, D., Statsenko, G., Hochmair, M. J., Özgüroğlu, M., Ji, J. H., Voitko, O., Poltoratskiy, A., Ponce, S., Verderame, F., Havel, L., Bondarenko, I., Kazarnowicz, A., Losonczy, G., Conev, N. V., . . . Goldman, J. W. (2019). Durvalumab plus platinum-etoposide versus platinum-etoposide in first-line treatment of extensive-stage small-cell lung cancer (CASPIAN): A randomised, controlled, open-label, phase 3 trial. *The Lancet, 394*(10212), 1929–1939. https://doi.org/10.1016/S0140-6736(19)32222-6 （PMID: 31590988）
+
+Paz-Ares, L., Luft, A., Vicente, D., Tafreshi, A., Gümüş, M., Mazières, J., Hermes, B., Çay Şenler, F., Csőszi, T., Fülöp, A., Rodríguez-Cid, J., Wilson, J., Sugawara, S., Kato, T., Lee, K. H., Cheng, Y., Novello, S., Halmos, B., Li, X., . . . Kowalski, D. M. (2018). Pembrolizumab plus chemotherapy for squamous non-small-cell lung cancer. *New England Journal of Medicine, 379*(21), 2040–2051. https://doi.org/10.1056/NEJMoa1810865 （PMID: 30280635）
+
+Poole, R. M. (2014). Pembrolizumab: First global approval. *Drugs, 74*(16), 1973–1981. https://doi.org/10.1007/s40265-014-0314-5 （PMID: 25331768）
+
+Porter, D. L., Levine, B. L., Kalos, M., Bagg, A., & June, C. H. (2011). Chimeric antigen receptor-modified T cells in chronic lymphoid leukemia. *New England Journal of Medicine, 365*(8), 725–733. https://doi.org/10.1056/NEJMoa1103849 （PMID: 21830940）
+
+Powles, T., Park, S. H., Voog, E., Caserta, C., Valderrama, B. P., Gurney, H., Kalofonos, H., Radulović, S., Demey, W., Ullén, A., Loriot, Y., Sridhar, S. S., Tsuchiya, N., Kopyltsov, E., Sternberg, C. N., Bellmunt, J., Aragon-Ching, J. B., Petrylak, D. P., Laliberte, R., . . . Grivas, P. (2020). Avelumab maintenance therapy for advanced or metastatic urothelial carcinoma. *New England Journal of Medicine, 383*(13), 1218–1230. https://doi.org/10.1056/NEJMoa2002788 （PMID: 32945632）
+
+Powles, T., Valderrama, B. P., Gupta, S., Bedke, J., Kikuchi, E., Hoffman-Censits, J., Iyer, G., Vulsteke, C., Park, S. H., Shin, S. J., Castellano, D., Fornarini, G., Li, J.-R., Gümüş, M., Mar, N., Loriot, Y., Fléchon, A., Duran, I., Drakaki, A., . . . van der Heijden, M. S. (2024). Enfortumab vedotin and pembrolizumab in untreated advanced urothelial cancer. *New England Journal of Medicine, 390*(10), 875–888. https://doi.org/10.1056/NEJMoa2312117 （PMID: 38446675）
+
+Przepiorka, D., Ko, C.-W., Deisseroth, A., Yancey, C. L., Candau-Chacon, R., Chiu, H.-J., Gehrke, B. J., Gomez-Broughton, C., Kane, R. C., Kirshner, S., Mehrotra, N., Ricks, T. K., Schmiel, D., Song, P., Zhao, P., Zhou, Q., Farrell, A. T., & Pazdur, R. (2015). FDA approval: Blinatumomab. *Clinical Cancer Research, 21*(18), 4035–4039. https://doi.org/10.1158/1078-0432.CCR-15-0612 （PMID: 26374073）
+
+Reck, M., Rodríguez-Abreu, D., Robinson, A. G., Hui, R., Csőszi, T., Fülöp, A., Gottfried, M., Peled, N., Tafreshi, A., Cuffe, S., O'Brien, M., Rao, S., Hotta, K., Leal, T. A., Riess, J. W., Jensen, E., Zhao, B., Pietanza, M. C., & Brahmer, J. R. (2021). Five-year outcomes with pembrolizumab versus chemotherapy for metastatic non-small-cell lung cancer with PD-L1 tumor proportion score ≥ 50%. *Journal of Clinical Oncology, 39*(21), 2339–2349. https://doi.org/10.1200/JCO.21.00174 （PMID: 33872070）
+
+Reck, M., Rodríguez-Abreu, D., Robinson, A. G., Hui, R., Csőszi, T., Fülöp, A., Gottfried, M., Peled, N., Tafreshi, A., Cuffe, S., O'Brien, M., Rao, S., Hotta, K., Leiby, M. A., Lubiniecki, G. M., Shentu, Y., Rangwala, R., & Brahmer, J. R. (2016). Pembrolizumab versus chemotherapy for PD-L1-positive non-small-cell lung cancer. *New England Journal of Medicine, 375*(19), 1823–1833. https://doi.org/10.1056/NEJMoa1606774 （PMID: 27718847）
+
+Ricciuti, B., Dahlberg, S. E., Adeni, A., Sholl, L. M., Nishino, M., & Awad, M. M. (2019). Immune checkpoint inhibitor outcomes for patients with non-small-cell lung cancer receiving baseline corticosteroids for palliative versus nonpalliative indications. *Journal of Clinical Oncology, 37*(22), 1927–1934. https://doi.org/10.1200/JCO.19.00189 （PMID: 31206316）
+
+Rohaan, M. W., Borch, T. H., van den Berg, J. H., Met, Ö., Kessels, R., Geukes Foppen, M. H., Stoltenborg Granhøj, J., Nuijen, B., Nijenhuis, C., Jedema, I., van Zon, M., Scheij, S., Beijnen, J. H., Hansen, M., Voermans, C., Noringriis, I. M., Monberg, T. J., Holmstroem, R. B., Wever, L. D. V., . . . Haanen, J. B. A. G. (2022). Tumor-infiltrating lymphocyte therapy or ipilimumab in advanced melanoma. *New England Journal of Medicine, 387*(23), 2113–2125. https://doi.org/10.1056/NEJMoa2210233 （PMID: 36477031）
+
+Rojas, L. A., Sethna, Z., Soares, K. C., Olcese, C., Pang, N., Patterson, E., Lihm, J., Ceglia, N., Guasp, P., Chu, A., Yu, R., Chandra, A. K., Waters, T., Ruan, J., Amisaki, M., Zebboudj, A., Odgerel, Z., Payne, G., Derhovanessian, E., . . . Balachandran, V. P. (2023). Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer. *Nature, 618*(7963), 144–150. https://doi.org/10.1038/s41586-023-06063-y （PMID: 37165196）
+
+Rosenberg, S. A. (2014). IL-2: The first effective immunotherapy for human cancer. *The Journal of Immunology, 192*(12), 5451–5458. https://doi.org/10.4049/jimmunol.1490019 （PMID: 24907378）
+
+Rosenberg, S. A., Lotze, M. T., Muul, L. M., Leitman, S., Chang, A. E., Ettinghausen, S. E., Matory, Y. L., Skibber, J. M., Shiloni, E., Vetto, J. T., Seipp, C. A., Simpson, C., & Reichert, C. M. (1985). Observations on the systemic administration of autologous lymphokine-activated killer cells and recombinant interleukin-2 to patients with metastatic cancer. *New England Journal of Medicine, 313*(23), 1485–1492. https://doi.org/10.1056/NEJM198512053132327 （PMID: 3903508）
+
+Rosenberg, S. A., Packard, B. S., Aebersold, P. M., Solomon, D., Topalian, S. L., Toy, S. T., Simon, P., Lotze, M. T., Yang, J. C., Seipp, C. A., Simpson, C., Carter, C., Bock, S., Schwartzentruber, D., Wei, J. P., & White, D. E. (1988). Use of tumor-infiltrating lymphocytes and interleukin-2 in the immunotherapy of patients with metastatic melanoma: A preliminary report. *New England Journal of Medicine, 319*(25), 1676–1680. https://doi.org/10.1056/NEJM198812223192527 （PMID: 3264384）
+
+Routy, B., Le Chatelier, E., Derosa, L., Duong, C. P. M., Alou, M. T., Daillère, R., Fluckiger, A., Messaoudene, M., Rauber, C., Roberti, M. P., Fidelle, M., Flament, C., Poirier-Colame, V., Opolon, P., Klein, C., Iribarren, K., Mondragón, L., Jacquelot, N., Qu, B., . . . Zitvogel, L. (2018). Gut microbiome influences efficacy of PD-1-based immunotherapy against epithelial tumors. *Science, 359*(6371), 91–97. https://doi.org/10.1126/science.aan3706 （PMID: 29097494）
+
+Sarnaik, A. A., Hamid, O., Khushalani, N. I., Lewis, K. D., Medina, T., Kluger, H. M., Thomas, S. S., Domingo-Musibay, E., Pavlick, A. C., Whitman, E. D., Martin-Algarra, S., Corrie, P., Curti, B. D., Oláh, J., Lutzky, J., Weber, J. S., Larkin, J. M. G., Shi, W., Takamura, T., . . . Chesney, J. A. (2021). Lifileucel, a tumor-infiltrating lymphocyte therapy, in metastatic melanoma. *Journal of Clinical Oncology, 39*(24), 2656–2666. https://doi.org/10.1200/JCO.21.00612 （PMID: 33979178）
+
+Schadendorf, D., Hodi, F. S., Robert, C., Weber, J. S., Margolin, K., Hamid, O., Patt, D., Chen, T.-T., Berman, D. M., & Wolchok, J. D. (2015). Pooled analysis of long-term survival data from phase II and phase III trials of ipilimumab in unresectable or metastatic melanoma. *Journal of Clinical Oncology, 33*(17), 1889–1894. https://doi.org/10.1200/JCO.2014.56.2736 （PMID: 25667295）
+
+Schmid, P., Adams, S., Rugo, H. S., Schneeweiss, A., Barrios, C. H., Iwata, H., Diéras, V., Hegg, R., Im, S.-A., Shaw Wright, G., Henschel, V., Molinero, L., Chui, S. Y., Funke, R., Husain, A., Winer, E. P., Loi, S., & Emens, L. A. (2018). Atezolizumab and nab-paclitaxel in advanced triple-negative breast cancer. *New England Journal of Medicine, 379*(22), 2108–2121. https://doi.org/10.1056/NEJMoa1809615 （PMID: 30345906）
+
+Schmid, P., Cortes, J., Dent, R., McArthur, H., Pusztai, L., Kümmel, S., Denkert, C., Park, Y. H., Hui, R., Harbeck, N., Takahashi, M., Im, S.-A., Untch, M., Fasching, P. A., Mouret-Reynier, M.-A., Foukakis, T., Ferreira, M., Cardoso, F., Zhou, X., . . . O'Shaughnessy, J. (2024). Overall survival with pembrolizumab in early-stage triple-negative breast cancer. *New England Journal of Medicine, 391*(21), 1981–1991. https://doi.org/10.1056/NEJMoa2409932 （PMID: 39282906）
+
+Schmid, P., Cortes, J., Dent, R., Pusztai, L., McArthur, H., Kümmel, S., Bergh, J., Denkert, C., Park, Y. H., Hui, R., Harbeck, N., Takahashi, M., Untch, M., Fasching, P. A., Cardoso, F., Andersen, J., Patt, D., Danso, M., Ferreira, M., . . . O'Shaughnessy, J. (2022). Event-free survival with pembrolizumab in early triple-negative breast cancer. *New England Journal of Medicine, 386*(6), 556–567. https://doi.org/10.1056/NEJMoa2112651 （PMID: 35139274）
+
+Schneider, B. J., Naidoo, J., Santomasso, B. D., Lacchetti, C., Adkins, S., Anadkat, M., Atkins, M. B., Brassil, K. J., Caterino, J. M., Chau, I., Davies, M. J., Ernstoff, M. S., Fecher, L., Ghosh, M., Jaiyesimi, I., Mammen, J. S., Naing, A., Nastoupil, L. J., Phillips, T., . . . Bollin, K. (2021). Management of immune-related adverse events in patients treated with immune checkpoint inhibitor therapy: ASCO guideline update. *Journal of Clinical Oncology, 39*(36), 4073–4126. https://doi.org/10.1200/JCO.21.01440 （PMID: 34724392）
+
+Schoenfeld, A. J., Arbour, K. C., Rizvi, H., Iqbal, A. N., Gadgeel, S. M., Girshman, J., Kris, M. G., Riely, G. J., Yu, H. A., & Hellmann, M. D. (2019). Severe immune-related adverse events are common with sequential PD-(L)1 blockade and osimertinib. *Annals of Oncology, 30*(5), 839–844. https://doi.org/10.1093/annonc/mdz077 （PMID: 30847464）
+
+Serani, S. (2026, January 30). FDA accepts BLA for ivonescimab in pretreated EGFR-mutated NSCLC. *Targeted Oncology*. https://www.targetedonc.com/view/fda-accepts-bla-for-ivonescimab-in-pretreated-egfr-mutated-nsclc
+
+Seymour, L., Bogaerts, J., Perrone, A., Ford, R., Schwartz, L. H., Mandrekar, S., Lin, N. U., Litière, S., Dancey, J., Chen, A., Hodi, F. S., Therasse, P., Hoekstra, O. S., Shankar, L. K., Wolchok, J. D., Ballinger, M., Caramella, C., & de Vries, E. G. E. (2017). iRECIST: Guidelines for response criteria for use in trials testing immunotherapeutics. *The Lancet Oncology, 18*(3), e143–e152. https://doi.org/10.1016/S1470-2045(17)30074-8 （PMID: 28271869）
+
+Sezer, A., Kilickap, S., Gümüş, M., Bondarenko, I., Özgüroğlu, M., Gogishvili, M., Turk, H. M., Cicin, I., Bentsion, D., Gladkov, O., Clingan, P., Sriuranpong, V., Rizvi, N., Gao, B., Li, S., Lee, S., McGuire, K., Chen, C.-I., Makharadze, T., . . . Rietschel, P. (2021). Cemiplimab monotherapy for first-line treatment of advanced non-small-cell lung cancer with PD-L1 of at least 50%: A multicentre, open-label, global, phase 3, randomised, controlled trial. *The Lancet, 397*(10274), 592–604. https://doi.org/10.1016/S0140-6736(21)00228-2 （PMID: 33581821）
+
+Sharma, P., Hu-Lieskovan, S., Wargo, J. A., & Ribas, A. (2017). Primary, adaptive, and acquired resistance to cancer immunotherapy. *Cell, 168*(4), 707–723. https://doi.org/10.1016/j.cell.2017.01.017 （PMID: 28187290）
+
+Skoulidis, F., Araujo, H. A., Do, M. T., Qian, Y., Sun, X., Galan-Cobo, A., Le, J. T., Montesion, M., Palmer, R., Jahchan, N., Juan, J. M., Min, C., Yu, Y., Pan, X., Arbour, K. C., Vokes, N., Schmidt, S. T., Molkentine, D., Owen, D. H., . . . Heymach, J. V. (2024). CTLA4 blockade abrogates KEAP1/STK11-related resistance to PD-(L)1 inhibitors. *Nature, 635*(8038), 462–471. https://doi.org/10.1038/s41586-024-07943-7 （PMID: 39385035）
+
+Skoulidis, F., Goldberg, M. E., Greenawalt, D. M., Hellmann, M. D., Awad, M. M., Gainor, J. F., Schrock, A. B., Hartmaier, R. J., Trabucco, S. E., Gay, L., Ali, S. M., Elvin, J. A., Singal, G., Ross, J. S., Fabrizio, D., Szabo, P. M., Chang, H., Sasson, A., Srinivasan, S., . . . Heymach, J. V. (2018). STK11/LKB1 mutations and PD-1 inhibitor resistance in KRAS-mutant lung adenocarcinoma. *Cancer Discovery, 8*(7), 822–835. https://doi.org/10.1158/2159-8290.CD-18-0099 （PMID: 29773717）
+
+Socinski, M. A., Jotte, R. M., Cappuzzo, F., Orlandi, F., Stroyakovskiy, D., Nogami, N., Rodríguez-Abreu, D., Moro-Sibilot, D., Thomas, C. A., Barlesi, F., Finley, G., Kelsch, C., Lee, A., Coleman, S., Deng, Y., Shen, Y., Kowanetz, M., Lopez-Chavez, A., Sandler, A., & Reck, M. (2018). Atezolizumab for first-line treatment of metastatic nonsquamous NSCLC. *New England Journal of Medicine, 378*(24), 2288–2301. https://doi.org/10.1056/NEJMoa1716948 （PMID: 29863955）
+
+Spicer, J. D., Garassino, M. C., Wakelee, H., Liberman, M., Kato, T., Tsuboi, M., Lee, S.-H., Chen, K.-N., Dooms, C., Majem, M., Eigendorff, E., Martinengo, G. L., Bylicki, O., Rodríguez-Abreu, D., Chaft, J. E., Novello, S., Yang, J., Arunachalam, A., Keller, S. M., . . . Gao, S. (2024). Neoadjuvant pembrolizumab plus chemotherapy followed by adjuvant pembrolizumab compared with neoadjuvant chemotherapy alone in patients with early-stage non-small-cell lung cancer (KEYNOTE-671): A randomised, double-blind, placebo-controlled, phase 3 trial. *The Lancet, 404*(10459), 1240–1252. https://doi.org/10.1016/S0140-6736(24)01756-2 （PMID: 39288781）
+
+Spigel, D. R., Faivre-Finn, C., Gray, J. E., Vicente, D., Planchard, D., Paz-Ares, L., Vansteenkiste, J. F., Garassino, M. C., Hui, R., Quantin, X., Rimner, A., Wu, Y.-L., Özgüroğlu, M., Lee, K. H., Kato, T., de Wit, M., Kurata, T., Reck, M., Cho, B. C., . . . Antonia, S. J. (2022). Five-year survival outcomes from the PACIFIC trial: Durvalumab after chemoradiotherapy in stage III non-small-cell lung cancer. *Journal of Clinical Oncology, 40*(12), 1301–1311. https://doi.org/10.1200/JCO.21.01308 （PMID: 35108059）
+
+Syed, Y. Y. (2017). Durvalumab: First global approval. *Drugs, 77*(12), 1369–1376. https://doi.org/10.1007/s40265-017-0782-5 （PMID: 28643244）
+
+Tawbi, H. A., Burgess, M., Bolejack, V., Van Tine, B. A., Schuetze, S. M., Hu, J., D'Angelo, S., Attia, S., Riedel, R. F., Priebat, D. A., Movva, S., Davis, L. E., Okuno, S. H., Reed, D. R., Crowley, J., Butterfield, L. H., Salazar, R., Rodriguez-Canales, J., Lazar, A. J., . . . Patel, S. (2017). Pembrolizumab in advanced soft-tissue sarcoma and bone sarcoma (SARC028): A multicentre, two-cohort, single-arm, open-label, phase 2 trial. *The Lancet Oncology, 18*(11), 1493–1501. https://doi.org/10.1016/S1470-2045(17)30624-1 （PMID: 28988646）
+
+Tawbi, H. A., Schadendorf, D., Lipson, E. J., Ascierto, P. A., Matamala, L., Castillo Gutiérrez, E., Rutkowski, P., Gogas, H. J., Lao, C. D., De Menezes, J. J., Dalle, S., Arance, A., Grob, J.-J., Srivastava, S., Abaskharoun, M., Hamilton, M., Keidel, S., Simonsen, K. L., Sobiesk, A. M., . . . Long, G. V. (2022). Relatlimab and nivolumab versus nivolumab in untreated advanced melanoma. *New England Journal of Medicine, 386*(1), 24–34. https://doi.org/10.1056/NEJMoa2109970 （PMID: 34986285）
+
+Tolaney, S. M., de Azambuja, E., Kalinsky, K., Loi, S., Kim, S.-B., Yam, C., Rapoport, B., Im, S.-A., Pistilli, B., Mchayleh, W., Cescon, D. W., Watanabe, J., Bañuelas, M. A. L., Freitas-Junior, R., Salvador Bofill, J., Afshari, M., Gary, D., Wang, L., Lai, C., & Schmid, P. (2026). Sacituzumab govitecan plus pembrolizumab for advanced triple-negative breast cancer. *New England Journal of Medicine, 394*(4), 354–366. https://doi.org/10.1056/NEJMoa2508959 （PMID: 41564397）
+
+Topalian, S. L., Hodi, F. S., Brahmer, J. R., Gettinger, S. N., Smith, D. C., McDermott, D. F., Powderly, J. D., Carvajal, R. D., Sosman, J. A., Atkins, M. B., Leming, P. D., Spigel, D. R., Antonia, S. J., Horn, L., Drake, C. G., Pardoll, D. M., Chen, L., Sharfman, W. H., Anders, R. A., . . . Sznol, M. (2012). Safety, activity, and immune correlates of anti-PD-1 antibody in cancer. *New England Journal of Medicine, 366*(26), 2443–2454. https://doi.org/10.1056/NEJMoa1200690 （PMID: 22658127）
+
+Tsao, M. S., Kerr, K. M., Kockx, M., Beasley, M.-B., Borczuk, A. C., Botling, J., Bubendorf, L., Chirieac, L., Chen, G., Chou, T.-Y., Chung, J.-H., Dacic, S., Lantuejoul, S., Mino-Kenudson, M., Moreira, A. L., Nicholson, A. G., Noguchi, M., Pelosi, G., Poleri, C., . . . Hirsch, F. R. (2018). PD-L1 immunohistochemistry comparability study in real-life clinical samples: Results of Blueprint phase 2 project. *Journal of Thoracic Oncology, 13*(9), 1302–1311. https://doi.org/10.1016/j.jtho.2018.05.013 （PMID: 29800747）
+
+US Food and Drug Administration. (2024, September 12). *FDA approves atezolizumab and hyaluronidase-tqjs for subcutaneous injection*. https://www.fda.gov/drugs/cancer-approvals/fda-approves-atezolizumab-and-hyaluronidase-tqjs-subcutaneous-injection
+
+US Food and Drug Administration. (2025, September 19). *FDA approves pembrolizumab and berahyaluronidase alfa-pmph for subcutaneous injection*. https://www.fda.gov/drugs/cancer-approvals/fda-approves-pembrolizumab-and-berahyaluronidase-alfa-pmph-subcutaneous-injection
+
+US Food and Drug Administration. (2026, November 10). *Oncology (cancer)/hematologic malignancies approval notifications*. https://www.fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications （2026-11-11 查詢）
+
+Wang, D. Y., Salem, J.-E., Cohen, J. V., Chandra, S., Menzer, C., Ye, F., Zhao, S., Das, S., Beckermann, K. E., Ha, L., Rathmell, W. K., Ancell, K. K., Balko, J. M., Bowman, C., Davis, E. J., Chism, D. D., Horn, L., Long, G. V., Carlino, M. S., . . . Johnson, D. B. (2018). Fatal toxic effects associated with immune checkpoint inhibitors: A systematic review and meta-analysis. *JAMA Oncology, 4*(12), 1721–1728. https://doi.org/10.1001/jamaoncol.2018.3923 （PMID: 30242316）
+
+Waterhouse, D. M., Garon, E. B., Chandler, J., McCleod, M., Hussein, M., Jotte, R., Horn, L., Daniel, D. B., Keogh, G., Creelan, B., Einhorn, L. H., Baker, J., Kasbari, S., Nikolinakos, P., Babu, S., Couture, F., Leighl, N. B., Reynolds, C., Blumenschein, G., . . . Spigel, D. R. (2020). Continuous versus 1-year fixed-duration nivolumab in previously treated advanced non-small-cell lung cancer: CheckMate 153. *Journal of Clinical Oncology, 38*(33), 3863–3873. https://doi.org/10.1200/JCO.20.00131 （PMID: 32910710）
+
+Waterhouse, P., Penninger, J. M., Timms, E., Wakeham, A., Shahinian, A., Lee, K. P., Thompson, C. B., Griesser, H., & Mak, T. W. (1995). Lymphoproliferative disorders with early lethality in mice deficient in Ctla-4. *Science, 270*(5238), 985–988. https://doi.org/10.1126/science.270.5238.985 （PMID: 7481803）
+
+Weber, J. S., Carlino, M. S., Khattak, A., Meniawy, T., Ansstas, G., Taylor, M. H., Kim, K. B., McKean, M., Long, G. V., Sullivan, R. J., Faries, M., Tran, T. T., Cowey, C. L., Pecora, A., Shaheen, M., Segar, J., Medina, T., Atkinson, V., Gibney, G. T., . . . Zaks, T. (2024). Individualised neoantigen therapy mRNA-4157 (V940) plus pembrolizumab versus pembrolizumab monotherapy in resected melanoma (KEYNOTE-942): A randomised, phase 2b study. *The Lancet, 403*(10427), 632–644. https://doi.org/10.1016/S0140-6736(23)02268-7 （PMID: 38246194）
+
+Weber, J. S., Hodi, F. S., Wolchok, J. D., Topalian, S. L., Schadendorf, D., Larkin, J., Sznol, M., Long, G. V., Li, H., Waxman, I. M., Jiang, J., & Robert, C. (2017). Safety profile of nivolumab monotherapy: A pooled analysis of patients with advanced melanoma. *Journal of Clinical Oncology, 35*(7), 785–792. https://doi.org/10.1200/JCO.2015.66.1389 （PMID: 28068177）
+
+Wolchok, J. D., Chiarion-Sileni, V., Rutkowski, P., Cowey, C. L., Schadendorf, D., Wagstaff, J., Queirolo, P., Dummer, R., Butler, M. O., Hill, A. G., Postow, M. A., Gaudy-Marqueste, C., Medina, T., Lao, C. D., Walker, J., Márquez-Rodas, I., Haanen, J. B. A. G., Guidoboni, M., Maio, M., . . . Larkin, J. (2025). Final, 10-year outcomes with nivolumab plus ipilimumab in advanced melanoma. *New England Journal of Medicine, 392*(1), 11–22. https://doi.org/10.1056/NEJMoa2407417 （PMID: 39282897）
+
+Wolchok, J. D., Hoos, A., O'Day, S., Weber, J. S., Hamid, O., Lebbé, C., Maio, M., Binder, M., Bohnsack, O., Nichol, G., Humphrey, R., & Hodi, F. S. (2009). Guidelines for the evaluation of immune therapy activity in solid tumors: Immune-related response criteria. *Clinical Cancer Research, 15*(23), 7412–7420. https://doi.org/10.1158/1078-0432.CCR-09-1624 （PMID: 19934295）
+
+Xiong, A., Wang, L., Chen, J., Wu, L., Liu, B., Yao, J., Zhong, H., Li, J., Cheng, Y., Sun, Y., Ge, H., Yao, J., Shi, Q., Zhou, M., Chen, B., Han, Z., Wang, J., Bu, Q., Zhao, Y., . . . Zhou, C. (2025). Ivonescimab versus pembrolizumab for PD-L1-positive non-small cell lung cancer (HARMONi-2): A randomised, double-blind, phase 3 study in China. *The Lancet, 405*(10481), 839–849. https://doi.org/10.1016/S0140-6736(24)02722-3 （PMID: 40057343）
+
+Xu, J., Kato, K., Raymond, E., Hubner, R. A., Shu, Y., Pan, Y., Park, S. R., Ping, L., Jiang, Y., Zhang, J., Wu, X., Yao, Y., Shen, L., Kojima, T., Gotovkin, E., Ishihara, R., Wyrwicz, L., Van Cutsem, E., Jimenez-Fonseca, P., . . . Yoon, H. H. (2023). Tislelizumab plus chemotherapy versus placebo plus chemotherapy as first-line treatment for advanced or metastatic oesophageal squamous cell carcinoma (RATIONALE-306): A global, randomised, placebo-controlled, phase 3 study. *The Lancet Oncology, 24*(5), 483–495. https://doi.org/10.1016/S1470-2045(23)00108-0 （PMID: 37080222）
+
+Zaretsky, J. M., Garcia-Diaz, A., Shin, D. S., Escuin-Ordinas, H., Hugo, W., Hu-Lieskovan, S., Torrejon, D. Y., Abril-Rodriguez, G., Sandoval, S., Barthly, L., Saco, J., Homet Moreno, B., Mezzadra, R., Chmielowski, B., Ruchalski, K., Shintaku, I. P., Sanchez, P. J., Puig-Saus, C., Cherry, G., . . . Ribas, A. (2016). Mutations associated with acquired resistance to PD-1 blockade in melanoma. *New England Journal of Medicine, 375*(9), 819–829. https://doi.org/10.1056/NEJMoa1604958 （PMID: 27433843）
+
+Zhao, X., Suryawanshi, S., Hruska, M., Feng, Y., Wang, X., Shen, J., Vezina, H. E., McHenry, M. B., Waxman, I. M., Achanta, A., Bello, A., Roy, A., & Agrawal, S. (2017). Assessment of nivolumab benefit-risk profile of a 240-mg flat dose relative to a 3-mg/kg dosing regimen in patients with advanced tumors. *Annals of Oncology, 28*(8), 2002–2008. https://doi.org/10.1093/annonc/mdx235 （PMID: 28520840）
+
+Zhu, M., Wu, B., Brandl, C., Johnson, J., Wolf, A., Chow, A., & Doshi, S. (2016). Blinatumomab, a bispecific T-cell engager (BiTE®) for CD-19 targeted cancer immunotherapy: Clinical pharmacology and its implications. *Clinical Pharmacokinetics, 55*(10), 1271–1288. https://doi.org/10.1007/s40262-016-0405-4 （PMID: 27209293）
