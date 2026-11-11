@@ -112,7 +112,7 @@ CDK4/6 抑制劑的病人選擇則來自細胞株實驗：47 株乳癌細胞中�
 
 ### 1.7 ADC：從 gemtuzumab ozogamicin 到 T-DXd
 
-第一個 ADC 是把 calicheamicin 接在抗 CD33 抗體上的 gemtuzumab ozogamicin，2000 年成為美國核准的第一個 ADC，2010 年下市，2017 年才重新核准；它的 hydrazone 連接子在生理 pH 下就會部分水解，被認為和脫靶毒性有關（Drago et al., 2021）。實體腫瘤的突破是 T-DM1：trastuzumab 用穩定的連接子接上微管抑制劑 DM1，在曾用過 trastuzumab 與 taxane 的 HER2 陽性乳癌，PFS 9.6 對 6.4 個月、整體存活期（overall survival, OS）30.9 對 25.1 個月（Verma et al., 2012）。下一代的 trastuzumab deruxtecan（T-DXd）換成可被溶酶體酵素切斷的胜肽連接子與拓樸異構酶 I 抑制劑，每個抗體接約 7–8 個藥物分子，釋出的藥物能穿過細胞膜、殺死旁邊 HER2 陰性的細胞（Ogitani et al., 2016）。它在頭對頭試驗中勝過 T-DM1（Hurvitz et al., 2023），並把適應症擴大到 HER2 低表現的乳癌（Modi et al., 2022）。
+最早核准的 ADC 是把 calicheamicin 接在抗 CD33 抗體上的 gemtuzumab ozogamicin：2000 年成為美國核准的第一個 ADC，2010 年下市，2017 年才重新核准；它的 hydrazone 連接子在生理 pH 下就會部分水解，被認為和脫靶毒性有關（Drago et al., 2021）。實體腫瘤的突破是 T-DM1：trastuzumab 用穩定的連接子接上微管抑制劑 DM1，在曾用過 trastuzumab 與 taxane 的 HER2 陽性乳癌，PFS 9.6 對 6.4 個月、整體存活期（overall survival, OS）30.9 對 25.1 個月（Verma et al., 2012）。下一代的 trastuzumab deruxtecan（T-DXd）換成可被溶酶體酵素切斷的胜肽連接子與拓樸異構酶 I 抑制劑，每個抗體接約 7–8 個藥物分子，釋出的藥物能穿過細胞膜、殺死旁邊 HER2 陰性的細胞（Ogitani et al., 2016）。它在頭對頭試驗中勝過 T-DM1（Hurvitz et al., 2023），並把適應症擴大到 HER2 低表現的乳癌（Modi et al., 2022）。
 
 ---
 
@@ -204,7 +204,7 @@ ADC 由三個零件組成，三個都影響療效與毒性（Drago et al., 2021�
 
 | 藥物 | 特性 | 選病人的 biomarker | 代表性毒性 | 本手冊用在哪 |
 |------|------|------------------|-----------|-------------|
-| gefitinib、erlotinib（第一代） | 最早的 EGFR TKI；FLAURA 的對照組就是這兩個藥（Soria et al., 2018） | EGFR 敏感突變（exon 19 缺失、L858R） | IPASS 的 gefitinib 組：皮疹或痤瘡 66.2%、腹瀉 46.6%（Mok et al., 2009） | [肺癌章 4.3](../01-lung-cancer.md#43-nsclc-iv-期)；erlotinib 在胰臟癌效益極小，見[胰臟癌章 5.4](../02-pancreatic-cancer.md#54-口服與維持用藥s-1capecitabineolaparib以及不建議的-erlotinib) |
+| gefitinib、erlotinib（第一代） | FLAURA 把這兩個藥當成標準 EGFR TKI 對照組（Soria et al., 2018）；gefitinib 是可逆的抑制劑（Wu et al., 2017） | EGFR 敏感突變（exon 19 缺失、L858R） | IPASS 的 gefitinib 組：皮疹或痤瘡 66.2%、腹瀉 46.6%（Mok et al., 2009） | [肺癌章 4.3](../01-lung-cancer.md#43-nsclc-iv-期)；erlotinib 在胰臟癌效益極小，見[胰臟癌章 5.4](../02-pancreatic-cancer.md#54-口服與維持用藥s-1capecitabineolaparib以及不建議的-erlotinib) |
 | afatinib（第二代） | 不可逆地阻斷 EGFR、HER2、ErbB4 的訊號（Sequist et al., 2013） | 同上 | 腹瀉、皮疹或痤瘡、口腔炎（Sequist et al., 2013） | 肺癌章 4.3 |
 | dacomitinib（第二代） | 不可逆的 EGFR TKI（Wu et al., 2017） | 同上 | 3–4 級痤瘡樣皮膚炎 14%、腹瀉 8%（Wu et al., 2017） | 肺癌章 4.3 |
 | osimertinib（第三代） | 不可逆，對敏感突變與 T790M 都有選擇性（Soria et al., 2018） | 敏感突變；或第一、二代後出現 T790M | ILD 約 4%（致死 0.4%）、QTc >500 ms 約 1.1%、心肌病變 3.8%（美國仿單；AstraZeneca, 2026） | 肺癌章 4.1–4.3、[6.1](../01-lung-cancer.md#61-egfr-tki) |
@@ -486,7 +486,7 @@ EGFR 抑制劑在多數病人造成皮膚副作用，處理得好才能維持劑
 
 > [!WARNING]
 > **標靶藥病人「新的喘或乾咳」，先當 ILD，不要先當感冒**
-> ILD 是這一章最容易致死、也最容易被延誤的毒性。T-DXd 合併分析中，53.2% 的事件經審查委員會判定的發病日期比研究者記錄的早，中位差 43 天（Powell et al., 2022），代表早期變化常被忽略。處理順序：先暫停藥物、量血氧、安排胸部 CT、同時排除感染，不要等感染排除才停藥。鑑別診斷與類固醇原則可參考 [irAE 章 5.4](../00-shared/04-irae.md#54-肺炎pneumonitis)；T-DXd 的醫囑範例見[乳癌章 8.4](../03-breast-cancer.md#84-order-範例疑似-t-dxd-相關-ild)。
+> ILD 會致死，也容易被延誤。T-DXd 合併分析中，53.2% 的事件經審查委員會判定的發病日期比研究者記錄的早，中位差 43 天（Powell et al., 2022），代表早期變化常被忽略。處理順序：先暫停藥物、量血氧、安排胸部 CT、同時排除感染，不要等感染排除才停藥。鑑別診斷與類固醇原則可參考 [irAE 章 5.4](../00-shared/04-irae.md#54-肺炎pneumonitis)；T-DXd 的醫囑範例見[乳癌章 8.4](../03-breast-cancer.md#84-order-範例疑似-t-dxd-相關-ild)。
 
 ### 6.3 心臟：抗 HER2 治療與 LVEF
 
@@ -658,7 +658,7 @@ ADC 則像化療：sacituzumab govitecan 的 3 級以上嗜中性球低下 51%�
 | lapatinib（Tykerb） | HER2／EGFR TKI | 抑制 HER2 與 EGFR 激酶 | HER2 陽性轉移性乳癌，併 capecitabine | 腹瀉、手足症候群 | 食物使 AUC 增為 2.67–4.25 倍，要固定空腹吃 |
 | neratinib（Nerlynx） | 泛 HER TKI | 不可逆抑制 HER1、HER2、HER4 | HER2 陽性早期乳癌延長輔助 | 3 級腹瀉 40% | 開藥時就安排止瀉計畫 |
 | tucatinib（Tukysa） | HER2 TKI | 高選擇性抑制 HER2 激酶 | HER2 陽性轉移性乳癌，含腦轉移 | 腹瀉、手足症候群、轉胺酶上升 | 驗肝功能 |
-| trastuzumab emtansine（Kadcyla） | 抗 HER2 ADC | 穩定連接子 ＋ 微管抑制劑 DM1 | HER2 陽性乳癌：術後殘存病灶、轉移 | 血小板低下、轉胺酶上升 | 每次給藥前看血小板與肝功能 |
+| trastuzumab emtansine（Kadcyla） | 抗 HER2 ADC | 穩定連接子 ＋ 微管抑制劑 DM1 | HER2 陽性乳癌：術後殘存病灶、轉移 | 血小板低下、轉胺酶上升 | 追蹤血小板與肝功能，時程見乳癌章 6.7 |
 | trastuzumab deruxtecan（Enhertu） | 抗 HER2 ADC | 可切斷連接子 ＋ 拓樸異構酶 I 抑制劑，有旁觀者效應 | HER2 陽性或低表現乳癌；HER2 突變 NSCLC | ILD 12%（致死 0.9%）、高致吐、LVEF 下降 | ILD Grade 1 暫停、Grade 2 以上永久停藥；預防性止吐 |
 | sacituzumab govitecan（Trodelvy） | 抗 Trop-2 ADC | 抗 Trop-2 抗體 ＋ SN-38 | 三陰性與 HR 陽性轉移性乳癌後線 | 3 級以上嗜中性球低下 51%、腹瀉 10% | 給藥前看血球；發燒照發燒性嗜中性球低下處理 |
 | datopotamab deruxtecan（Datroway） | 抗 Trop-2 ADC | 抗 Trop-2 抗體 ＋ 拓樸異構酶 I 抑制劑 | HR 陽性／HER2 陰性轉移性乳癌化療後 | 口腔炎 50%、眼表事件 40% | 口腔與眼睛的預防照護；新的喘咳要評估 ILD |

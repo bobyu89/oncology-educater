@@ -76,7 +76,7 @@
 
 - **觀察**：一次大戰後就有人發現芥子氣會讓白血球大幅下降。二次大戰期間，美國政府委託 Yale 的藥理學家 Gilman 與 Goodman 研究 nitrogen mustard 的毒性。他們在兔子身上看到淋巴球與顆粒球下降，推想這也許能治療淋巴系統的腫瘤，並在移植淋巴瘤的小鼠身上看到腫瘤縮小（Christakis, 2011）。
 - **第一位病人**：文獻上只以姓名縮寫 JD 稱呼，是 1894 年出生的男性，淋巴肉瘤對放射治療已無效。1942 年 8 月 27 日起每天靜脈注射 0.1 mg/kg，共 10 天；第 5 劑後症狀改善，療程後切片找不到腫瘤。接著白血球與血小板下降、牙齦出血需要輸血；第 49 天腫瘤復發，再給藥的效果愈來愈短，第 96 天過世，解剖顯示骨髓極度再生不良。因為戰時保密，病歷上沒有出現 nitrogen mustard 這個詞，只寫「a lymphocidal」或「substance X」（Christakis, 2011; Fenn & Udelsman, 2011）。
-- **Bari 事件**：1943 年 12 月 Bari 港遭空襲，一艘載有芥子氣彈的船被炸，毒氣外洩（Falzone et al., 2018; Turner & Sapp, 2026）。Alexander 的傷患醫學報告在 1947 年發表（Alexander, 1947）。時間上，Yale 的第一位病人比 Bari 事件早一年多。
+- **Bari 事件**：1943 年 12 月 Bari 港遭空襲，一艘載有芥子氣彈的船被炸，毒氣外洩（Turner & Sapp, 2026）。Alexander 的傷患醫學報告在 1947 年發表（Alexander, 1947）。時間上，Yale 的第一位病人比 Bari 事件早一年多。
 - **改良**：nitrogen mustard 太活潑。Brock 等人把它做成沒有活性的「運送型」，進入體內再由酵素轉成「作用型」，這就是 cyclophosphamide 與 ifosfamide；後來再加上保護泌尿道的 mesna（Brock, 1989）。原本設想由癌細胞裡的 phosphamidase 活化，事後證明這個假說和藥效無關，真正讓它有選擇性的是代謝與 aldehyde dehydrogenase 的去活化（Emadi et al., 2009）。
 
 **和今天的連結**：JD 的病程已經預告了化療的三件事：腫瘤會縮小、會復發（抗藥性）、骨髓會被壓垮。所以每個週期前都要看 CBC；ifosfamide 一定配 mesna（見[化療基礎第 11.6 節](../00-shared/01-chemo-basics.md#116-ifosfamide-安全摘要)）。
@@ -1015,7 +1015,7 @@ Pharmacia & Upjohn. (2026). *Ellence (epirubicin hydrochloride injection)* [Pack
 
 Ringel, I., & Horwitz, S. B. (1991). Studies with RP 56976 (taxotere): A semisynthetic analogue of taxol. *Journal of the National Cancer Institute, 83*(4), 288–291. https://doi.org/10.1093/jnci/83.4.288（PMID: 1671606）
 
-Rosenberg, B., VanCamp, L., & Krigas, T. (1965). Inhibition of cell division in Escherichia coli by electrolysis products from a platinum electrode. *Nature, 205*, 698–699. https://doi.org/10.1038/205698a0（PMID: 14287410）
+Rosenberg, B., VanCamp, L., & Krigas, T. (1965). Inhibition of cell division in Escherichia coli by electrolysis products from a platinum electrode. *Nature, 205*(4972), 698–699. https://doi.org/10.1038/205698a0（PMID: 14287410）
 
 Rosenberg, B., VanCamp, L., Trosko, J. E., & Mansour, V. H. (1969). Platinum compounds: A new class of potent antitumour agents. *Nature, 222*(5191), 385–386. https://doi.org/10.1038/222385a0（PMID: 5782119）
 
