@@ -273,7 +273,7 @@ Relatlimab 是第一個 LAG-3 抗體，和 nivolumab 做成固定劑量的合併
 - **CRS（cytokine release syndrome）** 是 T 細胞一口氣被活化、大量釋放細胞激素造成的發燒、低血壓與缺氧。**ICANS（immune effector cell-associated neurotoxicity syndrome）** 是這類治療引起的神經毒性，可以和 CRS 同時出現、在 CRS 緩解後出現，也可以在沒有 CRS 時出現（Amgen, 2026）。兩者的 ASTCT 分級（Lee et al., 2019）與處置在[腫瘤急症第 9 節](../00-shared/02-oncologic-emergencies.md#9-細胞激素釋放症候群crs與神經毒性icans)。
 - Tarlatamab 的醫囑範本、監測表與出院衛教在[肺癌章 7.7](../01-lung-cancer.md#77-tarlatamab-病房實務c1d1c1d8-的醫囑監測與出院衛教)，本章不重複。
 - 這類抗體可以把任何一種細胞毒性 T 細胞接到癌細胞上，不看 T 細胞受體原本認什麼，也不需要癌細胞呈現胜肽抗原（Baeuerle & Reinhardt, 2009）。
-- 這類藥還有一個容易漏掉的交互作用：細胞激素短暫升高會抑制 CYP450，CRS 發生期間到之後 14 天內，併用的 CYP 受質藥物濃度可能上升（Amgen, 2026）。病人若在吃 warfarin 這類治療範圍窄的藥，CRS 之後要加強監測。
+- 這類藥還有一個容易漏掉的交互作用：細胞激素短暫升高會抑制 CYP450，CRS 發生期間到之後 14 天內，併用的 CYP 受質藥物濃度可能上升（Amgen, 2026）。Imdelltra 仿單沒有點名哪些藥；病人若在吃 warfarin 這類治療範圍窄的藥，CRS 之後加強監測（本手冊的推論）。
 
 > [!TIP]
 > **把警察和小偷銬在一起**
@@ -652,24 +652,24 @@ irAE 緩解後能不能再用 ICI，取決於是哪一個器官、當時幾級�
 <!-- drug-cards -->
 | 藥名 | 分類 | 機轉 | 主要用途 | 必記毒性 | 監測與處置 |
 |------|------|------|----------|----------|------------|
-| nivolumab（Opdivo） | PD-1 抑制劑 | 結合 T 細胞上的 PD-1，放開作用階段的煞車 | NSCLC 二線與術前、黑色素瘤；常與 ipilimumab 合併 | irAE；3–4 級單用 16.3%，合併 ipilimumab 55% | 240 mg q2w 或 480 mg q4w；不減量，只暫停或停用 |
-| pembrolizumab（Keytruda） | PD-1 抑制劑 | 結合 PD-1，擋住它與 PD-L1、PD-L2 結合 | NSCLC、三陰性乳癌、MSI-H／dMMR 實體腫瘤 | irAE：甲狀腺低下 8%、肺炎 3.4%、大腸炎 1.7% | 200 mg q3w 或 400 mg q6w；定期驗肝功能、肌酸酐、甲狀腺 |
+| nivolumab（Opdivo） | PD-1 抑制劑 | 結合 T 細胞上的 PD-1，放開作用階段的煞車 | NSCLC 二線與術前、黑色素瘤；常與 ipilimumab 合併 | irAE；3–4 級單用 16.3%，合併 ipilimumab 55% | 美國仿單 240 mg q2w 或 480 mg q4w；不減量，只暫停或停用 |
+| pembrolizumab（Keytruda） | PD-1 抑制劑 | 結合 PD-1，擋住它與 PD-L1、PD-L2 結合 | NSCLC、三陰性乳癌、MSI-H／dMMR 實體腫瘤 | irAE：甲狀腺低下 8%、肺炎 3.4%、大腸炎 1.7% | 美國仿單 200 mg q3w 或 400 mg q6w；定期驗肝功能、肌酸酐、甲狀腺 |
 | cemiplimab（Libtayo） | PD-1 抑制劑 | 結合 PD-1，擋住它與 PD-L1、PD-L2 結合 | 皮膚鱗狀細胞癌；PD-L1 ≥50% 的 NSCLC 第一線單用 | irAE | 每次給藥前逐項問症狀；處置見 irAE 章 |
 | tislelizumab | PD-1 抑制劑 | 結合 T 細胞上的 PD-1 | 食道鱗狀細胞癌；健保 9.69 列有肺癌給付 | irAE | 給付條件與指定抗體株見肺癌章 9.3 |
 | dostarlimab（Jemperli） | PD-1 抑制劑 | 結合 T 細胞上的 PD-1 | dMMR 子宮內膜癌；dMMR 局部晚期直腸癌 | irAE | 開藥前確認 dMMR 或 MSI-H 報告 |
 | toripalimab | PD-1 抑制劑 | 結合 T 細胞上的 PD-1 | 鼻咽癌第一線，併 gemcitabine ＋ cisplatin | irAE | 同類別：每次給藥前逐項問症狀 |
-| atezolizumab（Tecentriq） | PD-L1 抑制劑 | 結合 PD-L1，擋住它與 PD-1、CD80 結合 | 擴散期 SCLC、NSCLC、肺泡狀軟組織肉瘤 | irAE | 靜脈 1,200 mg q3w；皮下 1,875 mg，兩者不可互換 |
+| atezolizumab（Tecentriq） | PD-L1 抑制劑 | 結合 PD-L1，擋住它與 PD-1、CD80 結合 | 擴散期 SCLC、NSCLC、肺泡狀軟組織肉瘤 | irAE | 美國仿單：靜脈 1,200 mg q3w、皮下 1,875 mg q3w，毫克數不能直接互換 |
 | durvalumab（Imfinzi） | PD-L1 抑制劑 | 結合 PD-L1，擋住它與 PD-1、CD80 結合 | 化放療後鞏固（III 期 NSCLC、局限期 SCLC）；擴散期 SCLC | irAE；化放療後的肺炎要和放射性肺炎鑑別 | 新的咳嗽或喘先排除肺炎，見肺癌章 4.2 |
-| avelumab（Bavencio） | PD-L1 抑制劑 | 結合腫瘤與免疫細胞上的 PD-L1 | Merkel 細胞癌；泌尿上皮癌化療後維持 | irAE、輸注反應 | 前 4 次輸注前給抗組織胺與 acetaminophen；800 mg q2w |
+| avelumab（Bavencio） | PD-L1 抑制劑 | 結合腫瘤與免疫細胞上的 PD-L1 | Merkel 細胞癌；泌尿上皮癌化療後維持 | irAE、輸注反應 | 前 4 次輸注前給抗組織胺與 acetaminophen；美國仿單 800 mg q2w |
 | ipilimumab（Yervoy） | CTLA-4 抑制劑 | 放開 T 細胞活化早期的煞車 | 黑色素瘤；與 nivolumab 合併用於 NSCLC | irAE 多而重；致死個案七成是大腸炎 | 腹瀉當天回報；懷疑腦下垂體炎先補糖皮質素 |
 | tremelimumab（Imjudo） | CTLA-4 抑制劑 | 放開 T 細胞活化早期的煞車 | 肝細胞癌（單劑 300 mg ＋ durvalumab）；NSCLC 併化療 | irAE | 健保 9.69 無肺癌用法，見肺癌章 9.3 |
 | relatlimab | LAG-3 抑制劑 | 擋住第三個檢查點 LAG-3，與 nivolumab 做成合併製劑 | 無法切除或轉移性黑色素瘤 | irAE；3–4 級 18.9%，nivolumab 單用 9.7% | 每 4 週給藥；監測同其他 ICI |
-| tarlatamab（Imdelltra） | 雙特異性 T 細胞銜接抗體 | 一端抓腫瘤的 DLL3，一端抓 T 細胞的 CD3 | 含鉑化療後惡化的擴散期 SCLC | CRS 57%、神經毒性（含 ICANS） | 先 1 mg 再升 10 mg；前兩劑院內監測 6–8 小時 |
+| tarlatamab（Imdelltra） | 雙特異性 T 細胞銜接抗體 | 一端抓腫瘤的 DLL3，一端抓 T 細胞的 CD3 | 含鉑化療後惡化的擴散期 SCLC | CRS 57%、神經毒性（含 ICANS） | 美國仿單：先 1 mg、一週後升到 10 mg；前兩劑院內監測 6–8 小時 |
 | blinatumomab（Blincyto） | 雙特異性 T 細胞銜接抗體 | 一端抓 B 細胞的 CD19，一端抓 T 細胞的 CD3 | 復發或難治 B 細胞急性淋巴性白血病 | CRS、神經毒性 | 半衰期約 2 小時，連續靜脈輸注；階梯式劑量 |
 | tisagenlecleucel（Kymriah） | CAR-T 細胞治療 | 自體 T 細胞裝上認 CD19 的人工受體 | 25 歲以下復發或難治 B 細胞急性淋巴性白血病 | CRS 77%、神經事件 40% | 院內備 tocilizumab；依 ASTCT 分級處置 |
 | afamitresgene autoleucel（Tecelra） | TCR-T 細胞治療 | 自體 T 細胞轉入認 MAGE-A4 的 T 細胞受體 | 化療後的滑膜肉瘤 | CRS 75%；長時間嚴重血球低下 | 先驗 HLA 分型與腫瘤 MAGE-A4；台灣無藥證 |
 | lifileucel（Amtagvi） | TIL 細胞治療 | 取腫瘤內的 T 細胞擴增後輸回，再給 IL-2 | PD-1 抑制劑治療過的黑色素瘤 | 3 級不良事件 95.5%；有治療相關死亡 | 監測血球低下、感染、心肺與腎功能 |
-| aldesleukin（IL-2） | 細胞激素 | 刺激 T 細胞增殖 | 轉移性腎細胞癌與黑色素瘤；TIL 輸注後使用 | 嚴重體液滯留；2% 死於不良事件 | 反應率約 16%，少數完全反應可長期持續 |
+| aldesleukin（IL-2） | 細胞激素 | 刺激 T 細胞增殖 | 轉移性腎細胞癌與黑色素瘤；TIL 輸注後使用 | 嚴重體液滯留；2% 死於敗血症相關的不良事件 | 監測體液滯留與敗血症徵象；TIL 流程中最多給 6 劑 |
 
 ---
 
@@ -719,14 +719,14 @@ A. TPS 5% 已經超過 1%，符合條件　B. 請病理科改用 SP142 重染，
 
 </details>
 
-**Q5.** 肺鱗狀細胞癌病人因疾病惡化，3 個月前停用 pembrolizumab，目前接受 docetaxel。這週腹瀉每天 7 次、帶血絲，沒有發燒。住院醫師認為「免疫治療已經停 3 個月，應該是化療引起的」。下列何者最適當？
+**Q5.** 肺鱗狀細胞癌病人因疾病惡化，3 個月前停用 pembrolizumab，目前接受 docetaxel。這週每天比平常多解 7 次以上的稀便、帶血絲，沒有發燒。住院醫師認為「免疫治療已經停 3 個月，應該是化療引起的」。下列何者最適當？
 
 A. 同意，給 loperamide 後出院　B. 仍要把免疫性大腸炎列入鑑別：排除感染，並依 irAE 的分級處置　C. 免疫性大腸炎只會發生在用藥的前 12 週，可以排除　D. 不必檢查，直接給 infliximab
 
 <details>
 <summary>答案與詳解</summary>
 
-**答案：B**。Pembrolizumab 的半衰期是 22 天，仿單寫明免疫相關不良反應可以在停藥後發生（Merck Sharp & Dohme, 2026）；anti-PD-1 抗體輸注後 2 個月以上，T 細胞上的 PD-1 仍大部分被占住（Brahmer et al., 2010）；文獻中停藥後才發生的 irAE，中位在停藥後 6 個月（Couey et al., 2019）。每天增加 7 次以上屬 Grade 3，先排除感染，處置見 [irAE 5.2](../00-shared/04-irae.md#52-腸胃道腹瀉大腸炎)。A 的止瀉藥會掩蓋病情。
+**答案：B**。Pembrolizumab 的半衰期是 22 天，仿單寫明免疫相關不良反應可以在停藥後發生（Merck Sharp & Dohme, 2026）；anti-PD-1 抗體輸注後 2 個月以上，T 細胞上的 PD-1 仍大部分被占住（Brahmer et al., 2010）；文獻中停藥後才發生的 irAE，中位在停藥後 6 個月（Couey et al., 2019）。比基線每天增加 7 次以上屬 Grade 3，先排除感染，處置見 [irAE 5.2](../00-shared/04-irae.md#52-腸胃道腹瀉大腸炎)。A 的止瀉藥會掩蓋病情。
 
 </details>
 
@@ -737,7 +737,7 @@ A. Nivolumab 減為 180 mg 繼續給　B. 劑量不變，間隔拉長為 q4w　C
 <details>
 <summary>答案與詳解</summary>
 
-**答案：D**。ICI 不減量，仿單只有暫停與永久停用兩種調整（Bristol-Myers Squibb, 2026）。Grade 3 的 irAE 一般是暫停並開始高劑量類固醇，類固醇至少 4 到 6 週減完（Schneider et al., 2021）。肝炎的細節（類固醇無效時加 mycophenolate、不用 infliximab）見 [irAE 5.3](../00-shared/04-irae.md#53-肝炎)。
+**答案：D**。ICI 不減量，仿單只有暫停與永久停用兩種調整（Bristol-Myers Squibb, 2026）。Grade 3 的 irAE 一般是暫停並開始高劑量類固醇，類固醇至少 4 到 6 週減完（Schneider et al., 2021）。肝炎的細節（Grade 3 之後能否恢復用藥、類固醇無效時加 mycophenolate、不用 infliximab）見 [irAE 5.3](../00-shared/04-irae.md#53-肝炎)。
 
 </details>
 
@@ -860,6 +860,8 @@ Arbour, K. C., Mezquita, L., Long, N., Rizvi, H., Auclin, E., Ni, A., Martínez-
 
 Atkins, M. B., Lotze, M. T., Dutcher, J. P., Fisher, R. I., Weiss, G., Margolin, K., Abrams, J., Sznol, M., Parkinson, D., Hawkins, M., Paradise, C., Kunkel, L., & Rosenberg, S. A. (1999). High-dose recombinant interleukin 2 therapy for patients with metastatic melanoma: Analysis of 270 patients treated between 1985 and 1993. *Journal of Clinical Oncology, 17*(7), 2105–2116. https://doi.org/10.1200/JCO.1999.17.7.2105 （PMID: 10561265）
 
+Baeuerle, P. A., & Reinhardt, C. (2009). Bispecific T-cell engaging antibodies for cancer therapy. *Cancer Research, 69*(12), 4941–4944. https://doi.org/10.1158/0008-5472.CAN-09-0547 （PMID: 19509221）
+
 Bargou, R., Leo, E., Zugmaier, G., Klinger, M., Goebeler, M., Knop, S., Noppeney, R., Viardot, A., Hess, G., Schuler, M., Einsele, H., Brandl, C., Wolf, A., Kirchinger, P., Klappers, P., Schmidt, M., Riethmüller, G., Reinhardt, C., Baeuerle, P. A., & Kufer, P. (2008). Tumor regression in cancer patients by very low doses of a T cell-engaging antibody. *Science, 321*(5891), 974–977. https://doi.org/10.1126/science.1158545 （PMID: 18703743）
 
 Barnett, K. K., Johnson, A. R., Das, A., Lee, C.-H. J., Wang, C., Wang, X., Cho, E. S., Kluetz, P. G., & Fashoyin-Aje, L. A. (2025). FDA approval summary: Afamitresgene autoleucel for adults with HLA-restricted, MAGE-A4-positive unresectable or metastatic synovial sarcoma after prior chemotherapy. *Clinical Cancer Research, 31*(15), 3112–3117. https://doi.org/10.1158/1078-0432.CCR-25-0595 （PMID: 40423661）
@@ -880,7 +882,7 @@ Burotto, M., Zvirbule, Z., Mochalova, A., Runglodvatana, Y., Herraez-Baranda, L.
 
 Cameron, F., Whiteside, G., & Perry, C. (2011). Ipilimumab: First global approval. *Drugs, 71*(8), 1093–1104. https://doi.org/10.2165/11594010-000000000-00000 （PMID: 21668044）
 
-Cercek, A., Lumish, M., Sinopoli, J., Weiss, J., Shia, J., Lamendola-Essel, M., El Dika, I. H., Segal, N., Shcherba, M., Sugarman, R., Stadler, Z., Yaeger, R., Smith, J. J., Rousseau, B., Argiles, G., Patel, M., Desai, A., Saltz, L. B., Widmar, M., . . . Diaz, L. A. (2022). PD-1 blockade in mismatch repair-deficient, locally advanced rectal cancer. *New England Journal of Medicine, 386*(25), 2363–2376. https://doi.org/10.1056/NEJMoa2201445 （PMID: 35660797）
+Cercek, A., Lumish, M., Sinopoli, J., Weiss, J., Shia, J., Lamendola-Essel, M., El Dika, I. H., Segal, N., Shcherba, M., Sugarman, R., Stadler, Z., Yaeger, R., Smith, J. J., Rousseau, B., Argiles, G., Patel, M., Desai, A., Saltz, L. B., Widmar, M., . . . Diaz, L. A., Jr. (2022). PD-1 blockade in mismatch repair-deficient, locally advanced rectal cancer. *New England Journal of Medicine, 386*(25), 2363–2376. https://doi.org/10.1056/NEJMoa2201445 （PMID: 35660797）
 
 Cheever, M. A., & Higano, C. S. (2011). PROVENGE (sipuleucel-T) in prostate cancer: The first FDA-approved therapeutic cancer vaccine. *Clinical Cancer Research, 17*(11), 3520–3526. https://doi.org/10.1158/1078-0432.CCR-10-3126 （PMID: 21471425）
 
@@ -889,6 +891,8 @@ Chen, A. P., Sharon, E., O'Sullivan-Coyne, G., Moore, N., Foster, J. C., Hu, J. 
 Chen, D. S., & Mellman, I. (2013). Oncology meets immunology: The cancer-immunity cycle. *Immunity, 39*(1), 1–10. https://doi.org/10.1016/j.immuni.2013.07.012 （PMID: 23890059）
 
 Cheng, Y., Spigel, D. R., Cho, B. C., Laktionov, K. K., Fang, J., Chen, Y., Zenke, Y., Lee, K. H., Wang, Q., Navarro, A., Bernabe, R., Buchmeier, E. L., Chang, J. W.-C., Shiraishi, Y., Sezgin Goksu, S., Badzio, A., Shi, A., Daniel, D. B., Hoa, N. T. T., . . . Senan, S. (2024). Durvalumab after chemoradiotherapy in limited-stage small-cell lung cancer. *New England Journal of Medicine, 391*(14), 1313–1327. https://doi.org/10.1056/NEJMoa2404873 （PMID: 39268857）
+
+Chiang, E. Y., & Mellman, I. (2022). TIGIT-CD226-PVR axis: Advancing immune checkpoint blockade for cancer immunotherapy. *Journal for ImmunoTherapy of Cancer, 10*(4), Article e004711. https://doi.org/10.1136/jitc-2022-004711 （PMID: 35379739）
 
 Coley, W. B. (1991). The treatment of malignant tumors by repeated inoculations of erysipelas: With a report of ten original cases. 1893. *Clinical Orthopaedics and Related Research*, (262), 3–11. （PMID: 1984929；1893 年原文的重刊，PubMed 未列 DOI）
 
@@ -1002,7 +1006,7 @@ Mahmood, S. S., Fradley, M. G., Cohen, J. V., Nohria, A., Reynolds, K. L., Heinz
 
 Mai, H.-Q., Chen, Q.-Y., Chen, D., Hu, C., Yang, K., Wen, J., Li, J., Shi, Y., Jin, F., Xu, R., Pan, J., Qu, S., Li, P., Hu, C., Liu, Y.-C., Jiang, Y., He, X., Wang, H.-M., Lim, W.-T., . . . Xu, R.-H. (2023). Toripalimab plus chemotherapy for recurrent or metastatic nasopharyngeal carcinoma: The JUPITER-02 randomized clinical trial. *JAMA, 330*(20), 1961–1970. https://doi.org/10.1001/jama.2023.20181 （PMID: 38015220）
 
-Marabelle, A., Le, D. T., Ascierto, P. A., Di Giacomo, A. M., De Jesus-Acosta, A., Delord, J. P., Geva, R., Gottfried, M., Penel, N., Hansen, A. R., Piha-Paul, S. A., Doi, T., Gao, B., Chung, H. C., Lopez-Martin, J., Bang, Y. J., Frommer, R. S., Shah, M., Ghori, R., . . . Diaz, L. A. (2020). Efficacy of pembrolizumab in patients with noncolorectal high microsatellite instability/mismatch repair-deficient cancer: Results from the phase II KEYNOTE-158 study. *Journal of Clinical Oncology, 38*(1), 1–10. https://doi.org/10.1200/JCO.19.02105 （PMID: 31682550）
+Marabelle, A., Le, D. T., Ascierto, P. A., Di Giacomo, A. M., De Jesus-Acosta, A., Delord, J. P., Geva, R., Gottfried, M., Penel, N., Hansen, A. R., Piha-Paul, S. A., Doi, T., Gao, B., Chung, H. C., Lopez-Martin, J., Bang, Y. J., Frommer, R. S., Shah, M., Ghori, R., . . . Diaz, L. A., Jr. (2020). Efficacy of pembrolizumab in patients with noncolorectal high microsatellite instability/mismatch repair-deficient cancer: Results from the phase II KEYNOTE-158 study. *Journal of Clinical Oncology, 38*(1), 1–10. https://doi.org/10.1200/JCO.19.02105 （PMID: 31682550）
 
 Marcus, L., Fashoyin-Aje, L. A., Donoghue, M., Yuan, M., Rodriguez, L., Gallagher, P. S., Philip, R., Ghosh, S., Theoret, M. R., Beaver, J. A., Pazdur, R., & Lemery, S. J. (2021). FDA approval summary: Pembrolizumab for the treatment of tumor mutational burden-high solid tumors. *Clinical Cancer Research, 27*(17), 4685–4689. https://doi.org/10.1158/1078-0432.CCR-21-0327 （PMID: 34083238）
 
@@ -1120,7 +1124,7 @@ US Food and Drug Administration. (2026, November 10). *Oncology (cancer)/hematol
 
 Wang, D. Y., Salem, J.-E., Cohen, J. V., Chandra, S., Menzer, C., Ye, F., Zhao, S., Das, S., Beckermann, K. E., Ha, L., Rathmell, W. K., Ancell, K. K., Balko, J. M., Bowman, C., Davis, E. J., Chism, D. D., Horn, L., Long, G. V., Carlino, M. S., . . . Johnson, D. B. (2018). Fatal toxic effects associated with immune checkpoint inhibitors: A systematic review and meta-analysis. *JAMA Oncology, 4*(12), 1721–1728. https://doi.org/10.1001/jamaoncol.2018.3923 （PMID: 30242316）
 
-Waterhouse, D. M., Garon, E. B., Chandler, J., McCleod, M., Hussein, M., Jotte, R., Horn, L., Daniel, D. B., Keogh, G., Creelan, B., Einhorn, L. H., Baker, J., Kasbari, S., Nikolinakos, P., Babu, S., Couture, F., Leighl, N. B., Reynolds, C., Blumenschein, G., . . . Spigel, D. R. (2020). Continuous versus 1-year fixed-duration nivolumab in previously treated advanced non-small-cell lung cancer: CheckMate 153. *Journal of Clinical Oncology, 38*(33), 3863–3873. https://doi.org/10.1200/JCO.20.00131 （PMID: 32910710）
+Waterhouse, D. M., Garon, E. B., Chandler, J., McCleod, M., Hussein, M., Jotte, R., Horn, L., Daniel, D. B., Keogh, G., Creelan, B., Einhorn, L. H., Baker, J., Kasbari, S., Nikolinakos, P., Babu, S., Couture, F., Leighl, N. B., Reynolds, C., Blumenschein, G., Jr., . . . Spigel, D. R. (2020). Continuous versus 1-year fixed-duration nivolumab in previously treated advanced non-small-cell lung cancer: CheckMate 153. *Journal of Clinical Oncology, 38*(33), 3863–3873. https://doi.org/10.1200/JCO.20.00131 （PMID: 32910710）
 
 Waterhouse, P., Penninger, J. M., Timms, E., Wakeham, A., Shahinian, A., Lee, K. P., Thompson, C. B., Griesser, H., & Mak, T. W. (1995). Lymphoproliferative disorders with early lethality in mice deficient in Ctla-4. *Science, 270*(5238), 985–988. https://doi.org/10.1126/science.270.5238.985 （PMID: 7481803）
 

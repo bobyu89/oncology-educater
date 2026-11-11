@@ -1202,20 +1202,22 @@ a.step:hover { background: var(--raised); text-decoration: none; }
       if (!seen[d.chapter]) { seen[d.chapter] = { id: d.chapter, list: [] }; groups.push(seen[d.chapter]); }
       seen[d.chapter].list.push({ d: d, i: i });
     });
-    var cw = 212, ch = 78, gx = 14, gy = 14, cols = 5, head = 62, x = 0, maxH = 0;
-    groups.forEach(function (g, gi) {
+    var cw = 212, ch = 78, gx = 14, gy = 14, cols = 5, head = 62, perRow = 2, gap = 72;
+    var w = cols * cw + (cols - 1) * gx + WB.pad * 2, y = WB.top, rowH = 0, maxH = 0;
+    groups.forEach(function (g, gi) {   // 兩個章節一列，整張圖的長寬比才接近螢幕
       g.list.sort(function (p, q) { return p.d.cls === q.d.cls ? p.i - q.i : p.d.cls < q.d.cls ? -1 : 1; });
-      var rows = Math.ceil(g.list.length / cols);
-      var w = cols * cw + (cols - 1) * gx + WB.pad * 2, h = head + rows * ch + (rows - 1) * gy + WB.pad;
+      if (gi && gi % perRow === 0) { y += rowH + gap; rowH = 0; }
+      var x = (gi % perRow) * (w + gap), rows = Math.ceil(g.list.length / cols);
+      var h = head + rows * ch + (rows - 1) * gy + WB.pad;
       var c = chapterById[g.id];
-      sections.push({ x: x, y: WB.top, w: w, h: h, color: DRUG_COLOR[gi % DRUG_COLOR.length], title: c ? c.title : g.id, frac: g.list.filter(function (p) { return cardOf(p.d.key) === "know"; }).length + "/" + g.list.length + " 張會了", goal: "" });
+      sections.push({ x: x, y: y, w: w, h: h, color: DRUG_COLOR[gi % DRUG_COLOR.length], title: c ? c.title : g.id, frac: g.list.filter(function (p) { return cardOf(p.d.key) === "know"; }).length + "/" + g.list.length + " 張會了", goal: "" });
       g.list.forEach(function (p, k) {
-        nodes.push({ id: p.d.key, kind: "drug", drug: p.d, x: x + WB.pad + (k % cols) * (cw + gx), y: WB.top + head + Math.floor(k / cols) * (ch + gy), w: cw, h: ch });
+        nodes.push({ id: p.d.key, kind: "drug", drug: p.d, x: x + WB.pad + (k % cols) * (cw + gx), y: y + head + Math.floor(k / cols) * (ch + gy), w: cw, h: ch });
       });
-      maxH = Math.max(maxH, WB.top + h);
-      x += w + 72;
+      rowH = Math.max(rowH, h); maxH = Math.max(maxH, y + h);
     });
-    return { nodes: nodes, sections: sections, links: [], texts: [{ x: 0, y: 0, t: ["藥物地圖", "每張卡一個藥，依藥物篇的章節分區；點卡片看機轉、必記毒性與監測"] }], w: x - 72, h: maxH };
+    var x = Math.min(groups.length, perRow) * (w + gap);
+    return { nodes: nodes, sections: sections, links: [], texts: [{ x: 0, y: 0, t: ["藥物地圖", "每張卡一個藥，依藥物篇的章節分區；點卡片看機轉、必記毒性與監測"] }], w: x - gap, h: maxH };
   }
   function renderBoard() {
     var L = boardMode === "drugs" ? layoutDrugs() : layoutPath();

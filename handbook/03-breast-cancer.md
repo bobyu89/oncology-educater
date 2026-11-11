@@ -356,7 +356,7 @@ BRCA1/2 帶因的男性：自我乳房檢查訓練，35 歲起每年 CBE，50 �
 
 ### 2.6 轉移或復發時的 biomarker
 
-NCCN 轉移性乳癌病人版（依專業版 v3.2026）的重點：新發現的病灶要重驗 ER、PR 與 HER2；可標靶的變異包括 **PIK3CA、AKT1、PTEN、ESR1**、NTRK、RET（ESR1 與 RET 針對 HR 陽性腫瘤）；**所有轉移性乳癌都做 germline BRCA1/2 與 PALB2**（2014 年後做過者免）；三陰性（荷爾蒙受體與 HER2 都陰性）驗 PD-L1；另有 MSI-H／dMMR 與 TMB-H（≥10 mut/Mb）；組織不足時可以用血液 ctDNA。
+NCCN 轉移性乳癌病人版（依專業版 v3.2026）的重點：新發現的病灶要重驗 ER、PR 與 HER2；可標靶的變異包括 **PIK3CA、AKT1、PTEN、ESR1**、NTRK、RET（ESR1 與 RET 針對 HR 陽性腫瘤）；**所有轉移性乳癌都做 germline BRCA1/2 與 PALB2**（2014 年後做過者免）；三陰性（荷爾蒙受體與 HER2 都陰性）驗 PD-L1；另有 MSI-H／dMMR 與 TMB-H（≥10 mut/Mb）；組織不足時可以用血液 ctDNA。TMB-H 的門檻要看來源的日期：美國 Keytruda 仿單 2026-10-16 版已把 TMB-H 定義改為 ≥13 mut/Mb（見[免疫治療藥物 5.1](05-drugs/04-immunotherapy.md#51-biomarkerpd-l1-有三種算法））。
 
 | Biomarker | 何時驗、檢體 | 對應治療與關鍵數字 | 台灣藥證（TFDA，2026-10-27 資料） | 健保（115/10/22 版） |
 |-----------|------------|-----------------|--------------------------------|---------------------|
