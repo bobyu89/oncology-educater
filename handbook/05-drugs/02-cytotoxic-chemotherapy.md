@@ -243,7 +243,7 @@ Goldie 與 Coldman 用數學模型把腫瘤的藥物敏感性和自發突變率�
 | dacarbazine | 靜脈給；確切機轉未明，假說之一是烷化作用（Hikma, 2025） | 仿單警語：造血抑制、肝壞死（約 0.01%）；噁心嘔吐是最常見的毒性；外滲會造成組織傷害與劇痛（Hikma, 2025） | 美國仿單適應症是黑色素瘤與 Hodgkin 病；肉瘤後線與試驗對照組（[肉瘤章 5.3](../04-sarcoma.md#53-軟組織肉瘤細胞毒性處方)） |
 | temozolomide | 口服；不需酵素就轉成 MTIC（Merck Sharp & Dohme, 2026） | 骨髓抑制；合併放療時要給 Pneumocystis 肺炎預防；肝毒性；每個 28 天週期的第 1 與第 22 天驗 CBC（Merck Sharp & Dohme, 2026） | 美國仿單適應症是膠質母細胞瘤與分化不良星狀細胞瘤；復發 Ewing sarcoma 與 irinotecan 併用屬適應症外（[肉瘤章 4.2](../04-sarcoma.md#42-ewing-sarcoma)） |
 
-Mesna 會在尿液中和 ifosfamide 的代謝物 acrolein 與 4-hydroxy-ifosfamide 結合，讓它們失去毒性（Eugia, 2026）。Trabectedin 在仿單上也歸為烷化藥，但作用方式特殊，放在 3.7。
+Mesna 會和 ifosfamide 具泌尿毒性的代謝物 acrolein 與 4-hydroxy-ifosfamide 起化學反應，讓它們失去毒性（Eugia, 2026）。Trabectedin 在仿單上也歸為烷化藥，但作用方式特殊，放在 3.7。
 
 ### 3.2 鉑類（platinum compounds）
 
@@ -256,8 +256,8 @@ Mesna 會在尿液中和 ifosfamide 的代謝物 acrolein 與 4-hydroxy-ifosfami
 | oxaliplatin | 第三代（Falzone et al., 2018）；帶 DACH 配位基（Sagent, 2025） | 加框警語：過敏與 anaphylaxis，任何週期、幾分鐘內都可能發生。急性感覺神經病變約 56%，遇冷誘發或加重；另有持續性神經病變。CrCl < 30 mL/min 要減量（Sagent, 2025） | 胰臟癌 FOLFIRINOX、NALIRIFOX（[胰臟癌章 5.1](../02-pancreatic-cancer.md#51-folfirinox-家族輔助-mfolfirinox-與轉移性-folfirinox)、[6.3](../02-pancreatic-cancer.md#63-oxaliplatin)） |
 
 > [!IMPORTANT]
-> **三個鉑類，三種劑量限制毒性**
-> Cisplatin 是腎，carboplatin 是骨髓（尤其血小板），oxaliplatin 是神經。Carboplatin 用 Calvert 公式算劑量：劑量（mg）= 目標 AUC ×（GFR ＋ 25）（Calvert et al., 1989）。
+> **三個鉑類，三個要盯的器官**
+> Cisplatin 盯腎（WG Critical Care, 2026），carboplatin 盯骨髓、尤其血小板（Natco, 2026），oxaliplatin 盯神經（Sagent, 2025）。Carboplatin 用 Calvert 公式算劑量：劑量（mg）= 目標 AUC ×（GFR ＋ 25）（Calvert et al., 1989）。
 
 ### 3.3 抗代謝物（antimetabolites）
 
@@ -831,7 +831,7 @@ A. 加開一劑 mesna　B. 給 leucovorin　C. 給安眠藥讓病人休息　D. 
 <details>
 <summary>答案與詳解</summary>
 
-**答案：D**。Ifosfamide 的加框警語包含神經毒性：腦病變可以致死，出現腦病變要停藥（Fresenius Kabi, 2026）。Mesna 只中和尿液裡的毒性代謝物、保護膀胱（Eugia, 2026），對腦病變沒有幫助。後續評估與處置見[肉瘤章 6.2](../04-sarcoma.md#62-ifosfamide腦病變出血性膀胱炎與腎小管損傷)。
+**答案：D**。Ifosfamide 的加框警語包含神經毒性：腦病變可以致死，出現腦病變要停藥（Fresenius Kabi, 2026）。Mesna 處理的是具泌尿毒性的代謝物，保護的是膀胱（Eugia, 2026），對腦病變沒有幫助。後續評估與處置見[肉瘤章 6.2](../04-sarcoma.md#62-ifosfamide腦病變出血性膀胱炎與腎小管損傷)。
 
 </details>
 
